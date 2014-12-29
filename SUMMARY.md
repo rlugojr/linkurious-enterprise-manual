@@ -12,6 +12,7 @@
 * [Searching](Searching/README.md)
     * [Search A Node Or An Edge](Visualizing Graphs/At First Glance.md)
     * [Search On Multiple Properties]
+    * [Advanced Syntax]
 * [Expanding And Collapsing](Expanding And Collapsing/README.md)
     * [Expanding The Relationships Of A Node]
     * [Expanding A Single Type Of Relationship]
