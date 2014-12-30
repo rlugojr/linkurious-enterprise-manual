@@ -4,15 +4,16 @@
     * [Downloading](Getting-Started/Downloading.md)
     * [Installing](Getting-Started/Installing.md)
     * [Starting Linkurious Enterprise](Getting-Started/Starting.md)
-* [Building Your First Graph Visualization](Building Your First Graph Visualization/README.md)
-    * [At First Glance](Building Your First Graph Visualization/At First Glance.md)
-    * [Creating A New Visualization](Building Your First Graph Visualization/Creating A New Visualization.md)
-    * [Inspecting A Node](Building Your First Graph Visualization/Inspecting A Node.md)
-    * [Finding The Relationships Of A Node](Building Your First Graph Visualization/Finding The Relationships Of A Node.md)
+* [Building Your First Graph Visualization](Building-Your-First-Graph-Visualization/README.md)
+    * [At First Glance](Building-Your-First-Graph-Visualization/At First Glance.md)
+    * [Creating A New Visualization](Building-Your-First-Graph-Visualization/Creating A New Visualization.md)
+    * [Inspecting A Node](Building-Your-First-Graph-Visualization/Inspecting A Node.md)
+    * [Finding The Relationships Of A Node](Building-Your-First-Graph-Visualization/Finding The Relationships Of A Node.md)
 * [Searching](Searching/README.md)
-    * [Search A Node Or An Edge](Visualizing Graphs/At First Glance.md)
-    * [Search On Multiple Properties]
-    * [Advanced Syntax]
+    * [Search A Node](Searching/Search A Node.md)
+    * [Search An Edge](Searching/Search An Edge.md)
+    * [Search On Multiple Properties](Searching/Multiple Properties.md)
+    * [Advanced Syntax](Searching/Advanced Syntax.md)
 * [Expanding And Collapsing](Expanding And Collapsing/README.md)
     * [Expanding The Relationships Of A Node]
     * [Expanding A Single Type Of Relationship]
@@ -35,3 +36,5 @@
 * [Saving And Sharing](Saving And Sharing/README.md)
     * [How does the autosave work]
     * [Organizing your visualizations]
+
+Updates, requirements, java, faq
