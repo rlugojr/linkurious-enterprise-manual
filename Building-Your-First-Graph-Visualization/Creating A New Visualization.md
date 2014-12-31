@@ -1,6 +1,6 @@
 # Creating A New Visualization
 
-To create a new visualization, click on "+ Visualization".
+To create a new visualization, click on ```+ Visualization```.
 
 ![picture of the dashboard](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/1.png)
 

@@ -1,40 +1,49 @@
 # Summary
 
+* [Introduction](README.md)
 * [Getting Started](Getting-Started/README.md)
-    * [Downloading](Getting-Started/Downloading.md)
-    * [Installing](Getting-Started/Installing.md)
-    * [Starting Linkurious Enterprise](Getting-Started/Starting.md)
+   * [Downloading](Getting-Started/Downloading.md)
+   * [Installing](Getting-Started/Installing.md)
+   * [Starting Linkurious Enterprise](Getting-Started/Starting.md)
 * [Building Your First Graph Visualization](Building-Your-First-Graph-Visualization/README.md)
-    * [At First Glance](Building-Your-First-Graph-Visualization/At First Glance.md)
-    * [Creating A New Visualization](Building-Your-First-Graph-Visualization/Creating A New Visualization.md)
-    * [Inspecting A Node](Building-Your-First-Graph-Visualization/Inspecting A Node.md)
-    * [Finding The Relationships Of A Node](Building-Your-First-Graph-Visualization/Finding The Relationships Of A Node.md)
+   * [At First Glance](Building-Your-First-Graph-Visualization/At_First_Glance.md)
+   * [Creating A New Visualization](Building-Your-First-Graph-Visualization/Creating A New Visualization.md)
+   * [Inspecting A Node](Building-Your-First-Graph-Visualization/Inspecting A Node.md)
+   * [Finding The Relationships Of A Node](Building-Your-First-Graph-Visualization/Finding The Relationships Of A Node.md)
 * [Searching](Searching/README.md)
-    * [Search A Node](Searching/Search A Node.md)
-    * [Search An Edge](Searching/Search An Edge.md)
-    * [Search On Multiple Properties](Searching/Multiple Properties.md)
-    * [Advanced Syntax](Searching/Advanced Syntax.md)
-* [Expanding And Collapsing](Expanding And Collapsing/README.md)
-    * [Expanding The Relationships Of A Node]
-    * [Expanding A Single Type Of Relationship]
+   * [Search A Node](Searching/Search A Node.md)
+   * [Search An Edge](Searching/Search An Edge.md)
+   * [Search On Multiple Properties](Searching/Multiple Properties.md)
+   * [Advanced Syntax](Searching/Advanced Syntax.md)
+* [Expanding And Collapsing](Expanding_And_Collapsing/README.md)
+   * [Expanding Relationships](expanding_and_collapsing/expanding_relationships.md)
+   * [Collapsing Relationships](expanding_and_collapsing/collapsing_relationships.md)
 * [Editing](Editing/README.md)
-    * [Editing a node or an edge]
-    * [Adding a node or an edge]
-    * [Deleting a node or an edge]
-* [Coloring The Nodes And Edges](Coloring The Nodes And Edges/README.md)
-    * [Coloring nodes and edges]
-* [Sizing The Nodes And Edges](Sizing The Nodes And Edges/README.md)
-    * [Sizing the nodes and edges]
+   * [Editing a node or an edge](Editing/Editing.md)
+   * [Adding a node or an edge](Editing/Adding.md)
+   * [Deleting a node or an edge](Editing/Deleting.md)
+* [Coloring](Coloring_The_Nodes_And_Edges/README.md)
+   * [The Default Colors](coloring_the_nodes_and_edges/the_default_colors.md)
+   * [Coloring The Nodes](Coloring_The_Nodes_And_Edges/Coloring nodes and edges.md)
+   * [Coloring The Edges](coloring_the_nodes_and_edges/coloring_the_edges.md)
+   * [Combining Colors](coloring_the_nodes_and_edges/combing_colors.md)
+   * [Saving A Color Scheme](coloring_the_nodes_and_edges/saving_a_color_schema.md)
+* [Sizing](Sizing_The_Nodes_And_Edges/README.md)
+   * [Sizing The Nodes](Sizing_The_Nodes_And_Edges/Sizing The Nodes And Edges.md)
+   * [Sizing The Edges](sizing_the_nodes_and_edges/sizing_the_edges.md)
 * [Filtering](Filtering/README.md)
-    * [Filtering the nodes and edges]
-    * [Combining filters]
-    * [Removing a filter]
-* [Selecting And Hiding](Selecting And Hiding/README.md)
-    * [Shortcuts]
-    * [Lasso]
-    * [Hiding]
-* [Saving And Sharing](Saving And Sharing/README.md)
-    * [How does the autosave work]
-    * [Organizing your visualizations]
+   * [Filtering The Nodes](Filtering/Filtering The Nodes.md)
+   * [Filtering The Edges](filtering/filtering_the_edges.md)
+   * [Combining filters](Filtering/Combining.md)
+   * [Removing a filter](Filtering/Removing.md)
+* [Selecting And Hiding](Selecting_And_Hiding/README.md)
+   * [Shortcuts](Selecting_And_Hiding/Shortcuts.md)
+   * [Lasso](Selecting_And_Hiding/Lasso.md)
+   * [Hiding](Selecting_And_Hiding/Hiding.md)
+* [Saving And Sharing](Saving_And_Sharing/README.md)
+   * [The Autosave](Saving_And_Sharing/Autosave.md)
+   * [Organizing your visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
+   * [Exporting a visualization](Saving_And_Sharing/Exporting.md)
+* Other Topics
+   * Updates, requirements, java, faq
 
-Updates, requirements, java, faq

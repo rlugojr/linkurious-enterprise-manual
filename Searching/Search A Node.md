@@ -12,7 +12,7 @@ These results are grouped by labels.
 
 ![a single search result](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/19.png)
 
-For each result, you can view the the node id and its name. You can also see the property that matches your search. In this case, the property "permalink" of the Company "Instagram" contains the text "instagra".
+For each result, you can view the the node id and its name. You can also see the property that matches your search. In this case, the property ```permalink``` of the Company ```Instagram``` contains the text ```instagra```.
 
 Click on the result of your choice, it will be added to the canvas. Now you can visualize it.
 
@@ -20,4 +20,4 @@ How it works : by default, Linkurious Enterprise indexes all the properties of y
 
 ![instagram](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/4.png)
 
-For example, you could find the "Instagram" by typing "instagram", or "san francisco" or "2010-03-01".
+For example, you could find the ```Instagram``` node by typing ```instagram```, or ```san francisco``` or ```2010-03-01```.
