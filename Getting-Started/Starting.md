@@ -8,7 +8,7 @@ Ready? Go in the Linkurious Enterprise folder.
 
 ![picture of the dashboard](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/13.png)
 
-Click on the "start" file on Windows, "Linkurious.sh" on Linux or Mac. Linkurious Enterprise starts [Node.js](http://nodejs.org/), [ElasticSearch](http://www.elasticsearch.org/) and opens up your browser.
+Click on the ```start``` file on Windows, ```Linkurious.sh``` on Linux or Mac. Linkurious Enterprise starts [Node.js](http://nodejs.org/), [ElasticSearch](http://www.elasticsearch.org/) and opens up your browser.
 
 ![linkurious enterprise startup](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/16.png)
 

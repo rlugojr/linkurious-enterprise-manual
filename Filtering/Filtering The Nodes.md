@@ -20,4 +20,21 @@ We are going to click on ```country```.
 
 ![selecting country](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/60.png)
 
-The different values present in our graph or the property ```country``` appear.
+The different values present in our graph for the property ```country``` appear. We can see that there are XXX companies from XXX for example.
+
+To select, the companies from France and XXX, simply fill the check boxes.
+
+![selection of two countries](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/XXX.png)
+
+
+Now, on the top of the design panel two buttons appear :  ```Filter ``` and  ```Select ```.
+
+To select all the nodes from XXX or XXX, you could click on ```Select ```. Instead we are going to choose ```Filter ```.
+
+Instantly, all the nodes with the values XXX and XXX are removed from the visualization
+
+![filtered visualization](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/XXX.png)
+
+You can see on the top right corner, a symbol for the filter you added to the visualization is created.
+
+Filtering is a great way to remove unimportant information from a visualization. Use it accordingly!
