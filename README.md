@@ -1,7 +1,7 @@
 Linkurious Enterprise Manual
 ============================
 
-This is the user manual of Linkurious Enterprise.
+This is the user manual for Linkurious Enterprise.
 
 The first two chapters intitled **Getting Started** and **Building Your First Graph Visualization** will teach you the basics of using Linkurious Enterprise.
 
