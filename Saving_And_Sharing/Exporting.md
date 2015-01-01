@@ -2,7 +2,7 @@
 
 You have created a visualization an you want to share or modify its content. On the tope left corner, select ```Export```.
 
-![export](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/65.png)
+![export](https://dl.dropboxusercontent.com/s/5krq1ngzkvx8nft/65.png?dl=0)
 
 You can now export the content of your visualization to several data or image formats :
 
@@ -14,6 +14,6 @@ You can now export the content of your visualization to several data or image fo
 
 Choose the format of your choice.
 
-![choose export format](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/66.png)
+![choose export format](https://dl.dropboxusercontent.com/s/8c7r42bihqqkimv/66.png?dl=0)
 
 The file you will be automatically downloaded by your browser.

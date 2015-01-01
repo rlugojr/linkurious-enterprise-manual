@@ -2,16 +2,18 @@
 
 To create a new visualization, click on ```+ Visualization```.
 
-![picture of the dashboard](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/1.png)
+![picture of the dashboard](https://dl.dropboxusercontent.com/s/2ax4yybrbs0x0o5/1.png?dl=0)
 
-![pciture of the search box](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/2.png)
+You can now search for a node or an edge.
 
-You can search for a node or an edge. Simply type the name of any property associated with the node or edge you are interested in.
+![picture of the search box](https://dl.dropboxusercontent.com/s/99n1thclyc0824r/2.png?dl=0)
 
-![picture of the results](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/3.png)
+Simply type the name of any property associated with the node or edge you are interested in.
 
-You see a few suggestions. Choose the one you are interested in.
+![picture of the results](https://dl.dropboxusercontent.com/s/c5yjuiyswzjg2pp/3.png?dl=0)
 
-![picture of a single node](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/4.png)
+You see a few suggestions. Click on the one you are interested in.
+
+![picture of a single node](https://dl.dropboxusercontent.com/s/rssevmlj3tn4x0j/4.png?dl=0)
 
 Voilà, you can now visualize your result.

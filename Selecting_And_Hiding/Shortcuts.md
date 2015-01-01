@@ -44,4 +44,4 @@
 
 The list of shortcuts is directly available in the interface.
 
-![shortcuts](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/53.png)
+![shortcuts](https://dl.dropboxusercontent.com/s/4kxnav91hmkzqyj/53.png?dl=0)

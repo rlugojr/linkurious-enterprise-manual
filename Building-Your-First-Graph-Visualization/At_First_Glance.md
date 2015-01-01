@@ -4,8 +4,8 @@ Here is a look at the interface of Linkurious Enterprise.
 
 ## The dashboard
 
-![the dasboard](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/1.png)
+![the dashboard](https://dl.dropboxusercontent.com/s/2ax4yybrbs0x0o5/1.png?dl=0)
 
 ## The graph explorer
 
-![the graphh explorer](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/54.png)
+![the graph explorer](https://dl.dropboxusercontent.com/s/qr0fal3s396md6x/54.png?dl=0)

@@ -4,11 +4,11 @@ You may have millions of edges in your graph. What if you are looking at a speci
 
 By default the search bar searches nodes. To search an edge, hoover other the "search nodes" icon. A new icon representing a relationship appears.
 
-![the search bar](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/20.png)
+![the search bar](https://dl.dropboxusercontent.com/s/no2gsgaooco5pec/20.png?dl=0)
 
 Click on the icon. Now you can use the search bar to search for relationships. It works exactly like the search for nodes.
 
-![the search bar](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/21.png)
+![the search bar](https://dl.dropboxusercontent.com/s/vfaoml8l3amd1l2/21.png?dl=0)
 
 Type the text you are looking for. A list of potential matches appear.
 

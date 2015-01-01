@@ -2,8 +2,8 @@
 
 By default the nodes are black and the edges are grey.
 
-![default colors](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/28.png)
+![default colors](https://dl.dropboxusercontent.com/s/ijkestlcsy19g3f/28.png?dl=0)
 
 When you select a node or a relationship, it is immediately higlighted in red and all its connections gain a white halo.
 
-![selected node](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/27.png)
+![selected node](https://dl.dropboxusercontent.com/s/15qbzbjp2kawymn/27.png?dl=0)

@@ -6,25 +6,17 @@ For example, your nodes may have a ```country``` property. Maybe you need that t
 
 In the picture below, we see the start-ups and investors Twitter is connected to. At first glance we have no idea where they are coming from.
 
-![the twitter network](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/29.png)
+![the twitter network](https://dl.dropboxusercontent.com/s/dax3g40yu1sansd/29.png?dl=0)
 
 First of all, let's open the design panel on the right side of the screen. To do this hit the ```+``` sign.
 
-![open design panel](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/30.png)
+![open design panel](https://dl.dropboxusercontent.com/s/ic4usvd9feckvl2/30.png?dl=0)
 
 The design panel opens up.
 
 Select the property you want to color the nodes according to. Here we want to use the ```country``` property. Click on the color symbol on the right.
 
-![select country to color](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/31.png)
-
-![select country to color](screenshots/31.png)
-
-![select country to color](screenshots/31.png?raw=true)
-
-![select country to color](31.png)
-
-![select country to color](31.png?raw=true)
+![select country to color](https://dl.dropboxusercontent.com/s/hzfnoygsuoyn8lf/31.png?dl=0)
 
 Immediately the nodes in your visualization are colored according to their countries. In the design panel, we can see :
 * the different values associated with the ```country``` property (CAN, GBR, JPN, RUS, USA);

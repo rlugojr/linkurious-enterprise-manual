@@ -4,7 +4,7 @@ The easiest way to select a node or an edge is to simply click on it. It is also
 
 To do it, choose ```Select``` in the information panel on the left.
 
-![trigger selection](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/64.png)
+![trigger selection](https://dl.dropboxusercontent.com/s/i9ao2goiyn6ikor/64.png?dl=0)
 
 You now have a few options :
 

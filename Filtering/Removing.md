@@ -2,7 +2,7 @@
 
 So you have applied one or several filters to your visualization? Maybe it was a mistake or maybe you want to go back a step. How to remove a filter?
 
-![removing a filter](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/XXX.png)
+![removing a filter](https://dl.dropboxusercontent.com/s/y740nwm2i9jo9q6/XXX.png)
 
 An icon for each filter you create is added on the top right corner of the screen. The first filter is on the right and the latest on the left.
 

@@ -3,11 +3,11 @@
 ## Your first download
 Right now Linkurious Enterprise is in beta and distributed via [Github](http://www.github.com). If you are among our early users, you can [download Linkurious Enterprise](https://github.com/Linkurious/linkurious-enterprise-release/releases) on Github.
 
-![picture of release note](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/9.png)
+![picture of release note](https://dl.dropboxusercontent.com/s/y740nwm2i9jo9q6/9.png?dl=0)
 
 You can view the release notes of all the Linkurious Enterprise releases. Scroll down to download the latest version.
 
-![picture of links to download release](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/10.png)
+![picture of links to download release](https://dl.dropboxusercontent.com/s/5m40a8lo9096hgh/10.png?dl=0)
 
 You can choose to download a copy for Windows, Mac or Linux. Click on the system of your choice, the download will then start.
 
@@ -17,6 +17,6 @@ You can choose to download a copy for Windows, Mac or Linux. Click on the system
 
 You will be notified via mail when we ship a new milestone (~once a month).
 
-![picture of mail notification](https://github.com/Linkurious/linkurious-enterprise-manual/blob/master/screenshots/8.png)
+![picture of mail notification](https://dl.dropboxusercontent.com/s/y1gisyr15pnjr53/8.png?dl=0)
 
 Click on the link at the bottom of the mail to download the latest release of Linkurious Enterprise.
