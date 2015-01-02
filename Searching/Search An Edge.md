@@ -12,4 +12,8 @@ Click on the icon. Now you can use the search bar to search for relationships. I
 
 Type the text you are looking for. A list of potential matches appear.
 
+In the search result, I can see that there is a relationship that has the value ```1925``` for the property ```amount```.
+
+![the search results](https://dl.dropboxusercontent.com/s/58pntso1zkuf4gk/67.png?dl=0)
+
 Choose the result you are interested in by clicking on it. It is immediately added to the canvas where you can visualize it.

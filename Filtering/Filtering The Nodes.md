@@ -20,20 +20,25 @@ We are going to click on ```country```.
 
 ![selecting country](https://dl.dropboxusercontent.com/s/3snvf0l01c3jgqk/60.png?dl=0)
 
-The different values present in our graph for the property ```country``` appear. We can see that there are XXX companies from XXX for example.
+The different values present in our graph for the property ```country``` appear.
 
-To select, the companies from France and XXX, simply fill the check boxes.
+![selecting country](https://dl.dropboxusercontent.com/s/n0u3fypssfh1d60/75.png?dl=0)
 
-![selection of two countries](https://dl.dropboxusercontent.com/s/y740nwm2i9jo9q6/XXX.png)
+We can see that there are companies from ```ARM```, ```FRA```, ```GBR``` or ```USA```.
 
+To select, the companies from France and Great Britain, simply fill the check boxes.
+
+![selection of two countries](https://dl.dropboxusercontent.com/s/ua2wsv4j53qq0ir/76.png?dl=0)
 
 Now, on the top of the design panel two buttons appear :  ```Filter ``` and  ```Select ```.
 
-To select all the nodes from XXX or XXX, you could click on ```Select ```. Instead we are going to choose ```Filter ```.
+To select all the nodes from France and Great Britain, you could click on ```Select ```. Instead we are going to choose ```Filter ```.
 
-Instantly, all the nodes with the values XXX and XXX are removed from the visualization
+![selection of two countries](https://dl.dropboxusercontent.com/s/349r425ucxhqm3x/77.png?dl=0)
 
-![filtered visualization](https://dl.dropboxusercontent.com/s/y740nwm2i9jo9q6/XXX.png)
+Instantly, all the nodes with the values ```ARM``` or ```USA``` are removed from the visualization
+
+![filtered visualization](https://dl.dropboxusercontent.com/s/t1djwb2fausqjg9/78.png?dl=0)
 
 You can see on the top right corner, a symbol for the filter you added to the visualization is created.
 

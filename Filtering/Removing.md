@@ -2,10 +2,16 @@
 
 So you have applied one or several filters to your visualization? Maybe it was a mistake or maybe you want to go back a step. How to remove a filter?
 
-![removing a filter](https://dl.dropboxusercontent.com/s/y740nwm2i9jo9q6/XXX.png)
-
 An icon for each filter you create is added on the top right corner of the screen. The first filter is on the right and the latest on the left.
 
-To remove a single filter, click on the cross next to its icon.
+![combined filters](https://dl.dropboxusercontent.com/s/9l4jba58d3dwils/85.png?dl=0)
 
-The filter is instantly removed. The nodes or edges it hid are then added back to the visualization. If there are other filters in your visualization, they will remain active.
+In this visualization, there are two filters. The nodes are filtered according to the ```country``` property. The edges are filtered according to the ```funding_round_code``` property
+
+To remove the ```country``` filter, click on the cross next to its icon.
+
+![removing a filter](https://dl.dropboxusercontent.com/s/h4abckvdlhmhg1p/86.png?dl=0)
+
+The filter is instantly removed. The nodes it hid are then added back to the visualization. The filter remain active.
+
+![visualization](https://dl.dropboxusercontent.com/s/a2lvrjok8aj02ko/87.png?dl=0)

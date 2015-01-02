@@ -16,9 +16,13 @@ The design panel opens up.
 
 Select the property you want to color the nodes according to. Here we want to use the ```country``` property. Click on the color symbol on the right.
 
-![select country to color](https://dl.dropboxusercontent.com/s/hzfnoygsuoyn8lf/31.png?dl=0)
+![select country to color](https://dl.dropboxusercontent.com/s/u4b5i7t6nbe5mgo/32.png?dl=0)
 
-Immediately the nodes in your visualization are colored according to their countries. In the design panel, we can see :
+Immediately the nodes in your visualization are colored according to their countries.
+
+![the colors are applied](https://dl.dropboxusercontent.com/s/rztgatl6cr663fy/33.png?dl=0)
+
+In the design panel, we can see :
 * the different values associated with the ```country``` property (CAN, GBR, JPN, RUS, USA);
 * how many occurences of each value there is (there are 36 nodes with the value ```USA```);
 * which color is associated to which value (```USA``` is velvet).

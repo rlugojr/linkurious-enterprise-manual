@@ -26,7 +26,11 @@ It is as simple as going over ```type``` and selecting ```Colors```.
 
 ![selecting types](https://dl.dropboxusercontent.com/s/n2jy9vh73faxg2j/44.png?dl=0)
 
-Immediately the edges in your visualization are colored according to their ```type```. In the design panel, we can see :
+Immediately the edges in your visualization are colored according to their ```type```.
+
+![the colors are applied](https://dl.dropboxusercontent.com/s/isb4ghghxw4fvbr/45.png?dl=0)
+
+In the design panel, we can see :
 * the different values associated with the ```type``` property (HAS_ACQUIRED and HAS_INVESTED_IN);
 * how many occurences of each value there is (there are 5 relationships with the value ```HAS_INVESTED_IN```);
 * which color is associated to which value (```HAS_INVESTED_IN``` is blue).
