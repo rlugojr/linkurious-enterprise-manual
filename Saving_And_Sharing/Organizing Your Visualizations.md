@@ -1,4 +1,4 @@
-# Organizing your visualizations
+# Organizing Your Visualizations
 
 Your visualization are by default added in your Dashboard. From your dashboard you can delete, rename or open a visualization.
 

@@ -27,7 +27,7 @@
    * [Coloring The Nodes](Coloring_The_Nodes_And_Edges/Coloring nodes and edges.md)
    * [Coloring The Edges](Coloring_The_Nodes_And_Edges/coloring_the_edges.md)
    * [Combining Colors (TODO)](Coloring_The_Nodes_And_Edges/combing_colors.md)
-   * [Saving A Color Scheme](Coloring_The_Nodes_And_Edges/saving_a_color_schema.md)
+   * [Setting A Color Scheme](Coloring_The_Nodes_And_Edges/saving_a_color_schema.md)
 * [Sizing](Sizing_The_Nodes_And_Edges/README.md)
    * [Sizing The Nodes](Sizing_The_Nodes_And_Edges/Sizing The Nodes And Edges.md)
    * [Sizing The Edges](Sizing_The_Nodes_And_Edges/sizing_the_edges.md)
@@ -44,7 +44,7 @@
 * [Saving And Sharing](Saving_And_Sharing/README.md)
    * [The Autosave](Saving_And_Sharing/Autosave.md)
    * [Organizing your visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
-   * [Exporting a visualization](Saving_And_Sharing/Exporting.md)
+   * [Exporting A Visualization](Saving_And_Sharing/Exporting.md)
 * [Other Topics](Other_Topics/README.md)
    * [Other Topics](Other_Topics/other_topics.md)
 

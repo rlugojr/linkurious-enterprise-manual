@@ -9,3 +9,9 @@ To do it, choose ```Select``` in the information panel on the left.
 Select ```Toggle lasso```.
 
 Move the lasso around the nodes you are interested in selecting to select them.
+
+![trigger selection](https://dl.dropboxusercontent.com/s/07ffk3g8zd2eca4/88.png?dl=0)
+
+Release the mouse when you are finished and your selection is activated.
+
+![trigger selection](https://dl.dropboxusercontent.com/s/fj7nbtcobthuo4z/89.png?dl=0)

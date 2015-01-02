@@ -1,4 +1,4 @@
-# Saving A Color Scheme
+# Setting A Color Scheme
 
 In the current beta version of Linkurious Enterprise, it is not possible within the interface to map specific colors to specific property values.
 
