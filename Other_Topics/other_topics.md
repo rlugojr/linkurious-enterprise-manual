@@ -58,4 +58,10 @@ Below is a list of the open source technologies we use. They have proven to be e
 * [ElasticSearch](http://www.elasticsearch.org/)
 * [Node.js](http://nodejs.org/)
 
+## Choose The Text Of The Nodes And Edges
 
+Linkurious Enterprise lets you choose which of the properties of your graph should be used displayed on the canvas.
+
+In order to customize this,
+
+Linkurious Enterprise will try to use the properties
