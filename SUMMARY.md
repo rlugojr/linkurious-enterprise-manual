@@ -46,5 +46,5 @@
    * [Organizing your visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
    * [Exporting A Visualization](Saving_And_Sharing/Exporting.md)
 * [Other Topics](Other_Topics/README.md)
-   * [Other Topics (TODO)](Other_Topics/other_topics.md)
+   * [Other Topics](Other_Topics/other_topics.md)
 
