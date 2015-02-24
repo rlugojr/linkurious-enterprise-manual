@@ -26,7 +26,7 @@ From the ```Users``` screen, we can manage any user by clicking on ```Edit``` or
 
 # User groups
 
-User groups provide permissions to read or write on nodes and relationships in the graph database. Each permission is defined at the level of node categories and edge types.
+User groups provide permissions to read or write on nodes and relationships in the graph database. Each permission is defined at the level of node categories and edge types. Groups are defined for each data source.
 
 Administrators can create groups and assign them to users.
 
