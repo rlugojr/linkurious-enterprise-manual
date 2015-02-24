@@ -18,7 +18,7 @@ Select the ```category``` property. Click on the left arrow to move it to the li
 
 ![the category property is disclosed](https://dl.dropboxusercontent.com/s/680zesrr7owomi9/107.png?dl=0)
 
-Click on ```Apply```. The ```category``` property will not show up in visualizations. You need to index data again to remove it from search results.
+Click on ```Apply```. The ```category``` property will not show up in visualizations. You must reindex data to remove it from search results.
 
 ![the category property is disclosed](https://dl.dropboxusercontent.com/s/ztcofiz237mpjku/108.png?dl=0)
 
