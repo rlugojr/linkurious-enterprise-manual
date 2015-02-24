@@ -1,14 +1,10 @@
 # Search Index
 
-It is possible to choose which properties of your data will be indexed. Dropping properties from your index will make the indexing and the search faster.
+Choose which data properties will be available in search results by configuring the index. By default, Linkurious Enterprise indexes all disclosed data properties.
 
-To do that, select ```Data``` in the administrator dashboard.
+Go to the ```Data``` panel of the Administration dashboard.
 
-![opening the data panel](https://dl.dropboxusercontent.com/s/ldthwja6l1qysm6/104.png?dl=0)
-
-By default Linkurious Enterprise index all your properties. That means that all of these properties can be found via the search engine.
-
-Note that undisclosed properties are not indexed and thus cannot be found via the search engine.
+Notice that undisclosed properties are not indexed and thus cannot be found via the search engine.
 
 ## Change the list of indexed properties
 
