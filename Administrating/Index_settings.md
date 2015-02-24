@@ -18,7 +18,7 @@ Select the ```category``` property. Click on the left arrow to move it to the li
 
 ![the category property is not indexed](https://dl.dropboxusercontent.com/s/i9osm60xc5b8izx/112.png?dl=0)
 
-Click on ```Apply```. The ```category``` property will not show up in search results.
+Click on ```Apply```. You must reindex data to remove the ```category``` property from search results.
 
 ![the category property is not indexed](https://dl.dropboxusercontent.com/s/f6vgo59fg7x59pb/113.png?dl=0)
 
