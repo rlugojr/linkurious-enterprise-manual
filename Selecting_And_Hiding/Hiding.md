@@ -1,4 +1,4 @@
-# Hiding Nodes And Edges
+# Hide Nodes And Edges
 
 Your visualization is getting too complex and you may want to remove a few nodes or edges to make it easier to understand.
 
