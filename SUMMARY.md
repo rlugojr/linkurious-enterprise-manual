@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Getting Started](Getting-Started/README.md)
-   * [Downloading](Getting-Started/Downloading.md)
+   * [Download](Getting-Started/Downloading.md)
    * [Installing](Getting-Started/Installing.md)
    * [Starting Linkurious Enterprise](Getting-Started/Starting.md)
 * [Building Your First Graph Visualization](Building-Your-First-Graph-Visualization/README.md)
