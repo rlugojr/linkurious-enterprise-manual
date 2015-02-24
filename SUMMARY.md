@@ -5,7 +5,7 @@
    * [Download](Getting-Started/Downloading.md)
    * [Install](Getting-Started/Installing.md)
    * [Start Linkurious Enterprise](Getting-Started/Starting.md)
-* [Building Your First Graph Visualization](Building-Your-First-Graph-Visualization/README.md)
+* [Build Your First Graph Visualization](Building-Your-First-Graph-Visualization/README.md)
    * [At First Glance](Building-Your-First-Graph-Visualization/At_First_Glance.md)
    * [Creating A New Visualization](Building-Your-First-Graph-Visualization/Creating A New Visualization.md)
    * [Inspecting A Node](Building-Your-First-Graph-Visualization/Inspecting A Node.md)
