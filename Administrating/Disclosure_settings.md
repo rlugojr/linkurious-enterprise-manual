@@ -8,18 +8,18 @@ By default, Linkurious Enterprise discloses all the properties of nodes and edge
 
 ## Change the list of disclosed properties
 
-There is a list of the properties that are disclosed and a list of the properties that are undisclosed. Simply move the properties from one list to the other to change their status.
+The list of undisclosed is on the left side of the screen. The list of disclosed properties is on the right side of the screen. Move properties from one list to the other to change their status.
 
-I want to avoid my users seeing the ```category``` property.
+For instance, we want to avoid users to access the ```category``` property of nodes.
 
 ![the category property is disclosed](https://dl.dropboxusercontent.com/s/piuu9duoefvc4f0/106.png?dl=0)
 
-Use the checkbox to select the ```category``` property. Cick on the left arrow.
+Select the ```category``` property. Click on the left arrow to move it to the list of undisclosed properties.
 
 ![the category property is disclosed](https://dl.dropboxusercontent.com/s/680zesrr7owomi9/107.png?dl=0)
 
-Hit ```Apply```. The ```category``` property will not show up in the interface of the users.
+Click on ```Apply```. The ```category``` property will not show up in visualizations. You need to index data again to remove it from search results.
 
 ![the category property is disclosed](https://dl.dropboxusercontent.com/s/ztcofiz237mpjku/108.png?dl=0)
 
-With the same interface, you can choose which properties of the edges you want to disclose or not.
+The same process applies for relationship properties.
