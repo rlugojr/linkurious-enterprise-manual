@@ -10,7 +10,7 @@ By default Linkurious Enterprise index all your properties. That means that all 
 
 Note that undisclosed properties are not indexed and thus cannot be found via the search engine.
 
-## Change indexed properties
+## Change the list of indexed properties
 
 There is a list of the properties that are indexed and a list of the properties that are not indexed. Simply move the properties from one list to the other to change their status.
 
