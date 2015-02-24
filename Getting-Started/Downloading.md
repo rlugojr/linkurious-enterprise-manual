@@ -1,4 +1,4 @@
-# Downloading Linkurious Enterprise
+# Download Linkurious Enterprise
 
 ## Your first download
 Right now Linkurious Enterprise is in beta and distributed via [Github](http://www.github.com). If you are among our early users, you can [download Linkurious Enterprise](https://github.com/Linkurious/linkurious-enterprise-release/releases) on Github.
@@ -13,7 +13,7 @@ You can choose to download a copy for Windows, Mac or Linux. Click on the system
 
 > Linkurious Enterprise is a proprietary software. As a user, your license agreement gives you the right to download a copy but **does not authorize you to fork the Linkurious Enterprise repository**.
 
-## Staying up to date
+## Stay up to date
 
 You will be notified via mail when we ship a new milestone (~once a month).
 
