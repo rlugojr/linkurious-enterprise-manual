@@ -1,4 +1,4 @@
-# Index Settings
+# Search Index
 
 It is possible to choose which properties of your data will be indexed. Dropping properties from your index will make the indexing and the search faster.
 
@@ -10,7 +10,7 @@ By default Linkurious Enterprise index all your properties. That means that all 
 
 Note that undisclosed properties are not indexed and thus cannot be found via the search engine.
 
-# Changing the indexed properties
+## Change indexed properties
 
 There is a list of the properties that are indexed and a list of the properties that are not indexed. Simply move the properties from one list to the other to change their status.
 
