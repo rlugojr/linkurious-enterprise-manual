@@ -8,9 +8,9 @@ Notice that undisclosed properties are not indexed and thus cannot be found via 
 
 ## Change the list of indexed properties
 
-There is a list of the properties that are indexed and a list of the properties that are not indexed. Simply move the properties from one list to the other to change their status.
+The list of unindexed is on the left side of the screen. The list of indexed properties is on the right side of the screen. Move properties from one list to the other to change their status.
 
-I do not want to index the ```category``` property.
+We do not want to index the ```category``` property of nodes.
 
 ![the category property is indexed](https://dl.dropboxusercontent.com/s/w7fhzt4emyx0ht1/111.png?dl=0)
 
