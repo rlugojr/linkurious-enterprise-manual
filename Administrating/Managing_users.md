@@ -1,12 +1,8 @@
-# User authentification
-
-As an adminisrator, you can force users to authenticate to access to Linkurious Enterprise.
+# Creating a new user
 
 To do that, select ```Users``` in the administrator dashboard.
 
 ![opening the user management](https://dl.dropboxusercontent.com/s/sclu8e2gj8q4fk6/99.png?dl=0)
-
-# Creating a new user
 
 Click on ```New user``` on the right.
 
@@ -27,3 +23,21 @@ We have created our first user.
 From the ```Users``` screen, it is possible to edit (groups, name, email or password) or delete any user.
 
 Simply select the ```Edit``` or ```Delete``` icon next to the user of your choice.
+
+# User groups
+
+As an administrator, you can create groups and assign users to them. This makes applying security and customization settings to users easier.
+
+To manage your user groups, select ```Users``` in the administrator dashboard.
+
+![opening the user management](https://dl.dropboxusercontent.com/s/sclu8e2gj8q4fk6/99.png?dl=0)
+
+By default, you have two user groups :
+
+*  ```Admin ``` : The admin group has read-write access to everything
+
+*  ```Default ``` : The default group has read-only access to everything
+
+![opening the user management](https://dl.dropboxusercontent.com/s/rlgdsqsg44vogr3/103.png?dl=0)
+
+New users will automatically assigned to the ```Default``` group.
