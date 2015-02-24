@@ -11,4 +11,4 @@ Just like our software, this guide assumes no prior knowledge of graph visualiza
 
 Version of Linkurious Enterprise : v0.5.0 ("Nasty Nostradamus")
 
-Last update : 05/01/2015
+Last update : 24/02/2015

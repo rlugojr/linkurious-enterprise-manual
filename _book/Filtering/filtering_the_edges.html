@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="8.2" data-basepath=".." data-revision="1420109481588">
+    <div class="book"  data-level="8.2" data-basepath=".." data-revision="1424774796967">
     
 
 <div class="book-summary">
@@ -369,7 +369,7 @@
                         
                             <b>5.</b>
                         
-                         Editing
+                         Editing  (TODO)
                     </a>
                 
             
@@ -504,7 +504,7 @@
                         
                             <b>6.4.</b>
                         
-                         Combining Colors
+                         Combining Colors (TODO)
                     </a>
                 
             
@@ -520,7 +520,7 @@
                         
                             <b>6.5.</b>
                         
-                         Saving A Color Scheme
+                         Setting A Color Scheme
                     </a>
                 
             
@@ -816,7 +816,7 @@
                         
                             <b>10.3.</b>
                         
-                         Exporting a visualization
+                         Exporting A Visualization
                     </a>
                 
             
@@ -829,13 +829,83 @@
         </li>
     
         
-        <li class="chapter " data-level="11" data-path="Other_Topics/README.html">
+        <li class="chapter " data-level="11" data-path="Administrating/README.html">
+            
+                
+                    <a href="../Administrating/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                         Administrating
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="11.1" data-path="administrating/accessing_the_admin_panel.html">
+            
+                
+                    <a href="../administrating/accessing_the_admin_panel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.1.</b>
+                        
+                         Accessing the admin panel
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="11.2" data-path="Administrating/Managing_users.html">
+            
+                
+                    <a href="../Administrating/Managing_users.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.</b>
+                        
+                         Managing users
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="11.3" data-path="Administrating/Managing_users.html">
+            
+                
+                    <a href="../Administrating/Managing_users.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.3.</b>
+                        
+                         Managing groups
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="12" data-path="Other_Topics/README.html">
             
                 
                     <a href="../Other_Topics/README.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>11.</b>
+                            <b>12.</b>
                         
                          Other Topics
                     </a>
@@ -846,13 +916,13 @@
                 
     
         
-        <li class="chapter " data-level="11.1" data-path="Other_Topics/other_topics.html">
+        <li class="chapter " data-level="12.1" data-path="Other_Topics/other_topics.html">
             
                 
                     <a href="../Other_Topics/other_topics.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>11.1.</b>
+                            <b>12.1.</b>
                         
                          Other Topics
                     </a>
@@ -957,9 +1027,24 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_22">
+                    <section class="normal" id="section-gitbook_32">
                     
                         <h1 id="filtering-the-edges-according-to-a-property">Filtering The Edges According To A Property</h1>
+<p>We have see it is possible to use filters to select or remove specific nodes in your visualization according to a property. It is possible to do the same thing with edges.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/t1djwb2fausqjg9/78.png?dl=0" alt="the relationships of Banexi Ventures"></p>
+<p>In the graph below we see the relationships of <a href="http://www.banexiventures.com/" target="_blank">Banexi Ventures</a> with other companies. Each relationship represents an investment in a start-up. But what kind of investment?</p>
+<p>We can open up the design panel to investigate. Let&#39;s select <code>Relationships</code> on the bottom right corner.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/ean15t4etw6yxn4/79.png?dl=0" alt="the relationships in the design panel"></p>
+<p>We can see the different properties attached to the relationships in our dataset.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/7zrbb50bg5k46i9/80.png?dl=0" alt="the properties of relationships"></p>
+<p>We are going to focus on the <code>funding_round_code</code>. Let&#39;s click on it.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/ofd68ngk0cs0cgz/81.png?dl=0" alt="the different investments code"></p>
+<p>We want to view only the funding round with the <code>A</code> code. These are the <a href="http://en.wikipedia.org/wiki/Series_A_round" target="_blank">Series A investments</a> of Banexi Ventures. Let&#39;s uncheck the checkboxes to keep only <code>A</code>.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/kkquxnkm9gmvqci/82.png?dl=0" alt="uncheck boxes"></p>
+<p>Now let&#39;s click on  <code>Filter</code>.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/ovsi1nxyluy0itv/83.png?dl=0" alt="applying filter"></p>
+<p>The relationships with the <code>A</code> <code>funding_round_code</code> are displayed. The other <code>funding_round_code</code> values removed from the visualization and a filter symbol is added on the top right corner.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/xtbsb9cvke7fpi1/84.png?dl=0" alt="filtered visualization"></p>
 
                     
                     </section>

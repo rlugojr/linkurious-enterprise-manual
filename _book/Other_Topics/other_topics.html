@@ -31,7 +31,7 @@
 
 
         
-    <div class="book"  data-level="11.1" data-basepath=".." data-revision="1420109481588">
+    <div class="book"  data-level="12.1" data-basepath=".." data-revision="1424774796967">
     
 
 <div class="book-summary">
@@ -367,7 +367,7 @@
                         
                             <b>5.</b>
                         
-                         Editing
+                         Editing  (TODO)
                     </a>
                 
             
@@ -502,7 +502,7 @@
                         
                             <b>6.4.</b>
                         
-                         Combining Colors
+                         Combining Colors (TODO)
                     </a>
                 
             
@@ -518,7 +518,7 @@
                         
                             <b>6.5.</b>
                         
-                         Saving A Color Scheme
+                         Setting A Color Scheme
                     </a>
                 
             
@@ -814,7 +814,7 @@
                         
                             <b>10.3.</b>
                         
-                         Exporting a visualization
+                         Exporting A Visualization
                     </a>
                 
             
@@ -827,13 +827,83 @@
         </li>
     
         
-        <li class="chapter " data-level="11" data-path="Other_Topics/README.html">
+        <li class="chapter " data-level="11" data-path="Administrating/README.html">
+            
+                
+                    <a href="../Administrating/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                         Administrating
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="11.1" data-path="administrating/accessing_the_admin_panel.html">
+            
+                
+                    <a href="../administrating/accessing_the_admin_panel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.1.</b>
+                        
+                         Accessing the admin panel
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="11.2" data-path="Administrating/Managing_users.html">
+            
+                
+                    <a href="../Administrating/Managing_users.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.</b>
+                        
+                         Managing users
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="11.3" data-path="Administrating/Managing_users.html">
+            
+                
+                    <a href="../Administrating/Managing_users.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.3.</b>
+                        
+                         Managing groups
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="12" data-path="Other_Topics/README.html">
             
                 
                     <a href="../Other_Topics/README.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>11.</b>
+                            <b>12.</b>
                         
                          Other Topics
                     </a>
@@ -844,13 +914,13 @@
                 
     
         
-        <li class="chapter active" data-level="11.1" data-path="Other_Topics/other_topics.html">
+        <li class="chapter active" data-level="12.1" data-path="Other_Topics/other_topics.html">
             
                 
                     <a href="../Other_Topics/other_topics.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>11.1.</b>
+                            <b>12.1.</b>
                         
                          Other Topics
                     </a>
@@ -955,7 +1025,7 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_4">
+                    <section class="normal" id="section-gitbook_12">
                     
                         <h1 id="other-topics">Other Topics</h1>
 <h2 id="indexation">Indexation</h2>
@@ -998,6 +1068,33 @@
 <li><a href="http://www.elasticsearch.org/" target="_blank">ElasticSearch</a></li>
 <li><a href="http://nodejs.org/" target="_blank">Node.js</a></li>
 </ul>
+<h2 id="choose-the-text-of-the-nodes-and-edges">Choose The Text Of The Nodes And Edges</h2>
+<p>Linkurious Enterprise lets you choose which of the properties of your graph should be used displayed on the canvas.</p>
+<p>In order to customize this, we need to open the design panel on the right.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/j9emxs72jlrkfn7/90.png?dl=0" alt=""></p>
+<p>Right now Linkurious Enterprise displays the <code>name</code> of the nodes. Now let&#39;s go to the <code>Toolstips</code> tab. Here we can see the different properties of the nodes in our graph. The <code>name</code> property is first. In the bottom of the screen, it is possible to select the relationships.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/h5vbkg2krgsbmh6/91.png?dl=0" alt=""></p>
+<p>We want to show the <code>city</code> in the visualization. To do it, we simply drag <code>city</code> on the top of the list.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/nvupr705s3on8g6/92.png?dl=0" alt=""></p>
+<p>Now the text displayed next to your node changes. Instead of looking at <code>Linkfluence</code> we are looking at <code>Saint-denis-sur-loire</code>.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/0ew4ynw9m0bidna/93.png?dl=0" alt=""></p>
+<p>The same approach can be used for the relationships.</p>
+<blockquote>
+<p>Linkurious Enterprise will try to use the properties at the top of the list. If a node doesn&#39;t have that property, Linkurious Enterprise will look for the next property, etc.</p>
+</blockquote>
+<h2 id="customize-the-tooltip">Customize The Tooltip</h2>
+<p>When you right-click on a node or an edges, you can view its properties in a pop-up menu called a tooltip.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/zp1nhk2rhbo04o0/94.png?dl=0" alt=""></p>
+<p>We can see that our node is a <code>Company</code> which <code>name</code> is <code>Linkfluence</code>.</p>
+<p>It is possible to customize the content of the tooltip and display only certain properties.</p>
+<p>In order to customize this, we need to open the design panel on the right.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/j9emxs72jlrkfn7/90.png?dl=0" alt=""></p>
+<p>Now let&#39;s go to the <code>Toolstips</code> tab. Here we can see the different properties of the nodes in our graph. By default all the properties are <code>on</code> and are thus displayed. In the bottom of the screen, it is possible to select the relationships.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/h5vbkg2krgsbmh6/91.png?dl=0" alt=""></p>
+<p>Simply turn off the properties you do not want to display. Here we are going to turn off the <code>name</code> and <code>url</code>.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/1sm9j6hw14nqv9u/95.png?dl=0" alt=""></p>
+<p>When we right-click on our node again, the  <code>url</code> and  <code>name</code> are removed from the tooltip.</p>
+<p><img src="https://dl.dropboxusercontent.com/s/wdevhqcx2gbxi8u/96.png?dl=0" alt=""></p>
 
                     
                     </section>

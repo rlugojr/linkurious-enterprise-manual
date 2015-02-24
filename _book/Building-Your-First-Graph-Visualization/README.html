@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="2" data-basepath=".." data-revision="1420109481588">
+    <div class="book"  data-level="2" data-basepath=".." data-revision="1424774796967">
     
 
 <div class="book-summary">
@@ -369,7 +369,7 @@
                         
                             <b>5.</b>
                         
-                         Editing
+                         Editing  (TODO)
                     </a>
                 
             
@@ -504,7 +504,7 @@
                         
                             <b>6.4.</b>
                         
-                         Combining Colors
+                         Combining Colors (TODO)
                     </a>
                 
             
@@ -520,7 +520,7 @@
                         
                             <b>6.5.</b>
                         
-                         Saving A Color Scheme
+                         Setting A Color Scheme
                     </a>
                 
             
@@ -816,7 +816,7 @@
                         
                             <b>10.3.</b>
                         
-                         Exporting a visualization
+                         Exporting A Visualization
                     </a>
                 
             
@@ -829,13 +829,83 @@
         </li>
     
         
-        <li class="chapter " data-level="11" data-path="Other_Topics/README.html">
+        <li class="chapter " data-level="11" data-path="Administrating/README.html">
+            
+                
+                    <a href="../Administrating/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                         Administrating
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="11.1" data-path="administrating/accessing_the_admin_panel.html">
+            
+                
+                    <a href="../administrating/accessing_the_admin_panel.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.1.</b>
+                        
+                         Accessing the admin panel
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="11.2" data-path="Administrating/Managing_users.html">
+            
+                
+                    <a href="../Administrating/Managing_users.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.2.</b>
+                        
+                         Managing users
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="11.3" data-path="Administrating/Managing_users.html">
+            
+                
+                    <a href="../Administrating/Managing_users.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.3.</b>
+                        
+                         Managing groups
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="12" data-path="Other_Topics/README.html">
             
                 
                     <a href="../Other_Topics/README.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>11.</b>
+                            <b>12.</b>
                         
                          Other Topics
                     </a>
@@ -846,13 +916,13 @@
                 
     
         
-        <li class="chapter " data-level="11.1" data-path="Other_Topics/other_topics.html">
+        <li class="chapter " data-level="12.1" data-path="Other_Topics/other_topics.html">
             
                 
                     <a href="../Other_Topics/other_topics.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>11.1.</b>
+                            <b>12.1.</b>
                         
                          Other Topics
                     </a>
@@ -957,10 +1027,23 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_31">
+                    <section class="normal" id="section-gitbook_16">
                     
                         <h1 id="building-your-first-graph-visualization">Building Your First Graph Visualization</h1>
 <p>In this chapter, we&#39;ll learn the basics of how to explore and visualize a graph with Linkurious Enterprise.</p>
+<h2 id="about-the-dataset">About the dataset</h2>
+<p>This section of the manual and the following chapters are based on a dataset coming from <a href="http://www.crunchbase.com/" target="_blank">Crunchbase</a>. Crunchbase is a popular website that tracks the start-up ecosystem, especially the start-ups and the investors.</p>
+<p>We have used Crunchbase to create a graph of approximatively 75 000 nodes and and 250 000 edges. That graph countains three types of entities :</p>
+<ul>
+<li>cities ;</li>
+<li>companies ;</li>
+<li>investors.</li>
+</ul>
+<p>Companies and investors can be linked to cities by the <code>HAS_CITY</code> relationship.</p>
+<p>Companies can be linked to each other by the <code>ACQUIRED</code> relationship.</p>
+<p>Investors and companies can be linked to each other by the <code>INVESTED_IN</code> relationship.</p>
+<p>In order to follow the manual, we suggest you download and install the dataset.</p>
+<p>Simply grab the file below and put its content in <code>[YOUR_NEO4J_FOLDER]/data/graph.db</code>.</p>
 
                     
                     </section>
