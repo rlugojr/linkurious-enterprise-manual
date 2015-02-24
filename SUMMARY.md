@@ -36,7 +36,7 @@
    * [Combine Filters](Filtering/Combining.md)
    * [Remove Filters](Filtering/Removing.md)
 * [Select And Hide](Selecting_And_Hiding/README.md)
-   * [Selecting Nodes](Selecting_And_Hiding/selecting_nodes.md)
+   * [Select Nodes](Selecting_And_Hiding/selecting_nodes.md)
    * [Lasso](Selecting_And_Hiding/Lasso.md)
    * [Shortcuts](Selecting_And_Hiding/Shortcuts.md)
    * [Hiding](Selecting_And_Hiding/Hiding.md)
