@@ -34,7 +34,7 @@
    * [Filter Nodes](Filtering/Filtering The Nodes.md)
    * [Filter Edges](Filtering/filtering_the_edges.md)
    * [Combine Filters](Filtering/Combining.md)
-   * [Removing A Filter](Filtering/Removing.md)
+   * [Remove Filters](Filtering/Removing.md)
 * [Selecting And Hiding](Selecting_And_Hiding/README.md)
    * [Selecting Nodes](Selecting_And_Hiding/selecting_nodes.md)
    * [Lasso](Selecting_And_Hiding/Lasso.md)
