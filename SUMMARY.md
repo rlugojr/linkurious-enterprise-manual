@@ -39,7 +39,7 @@
    * [Select Nodes](Selecting_And_Hiding/selecting_nodes.md)
    * [Lasso](Selecting_And_Hiding/Lasso.md)
    * [Shortcuts](Selecting_And_Hiding/Shortcuts.md)
-   * [Hiding](Selecting_And_Hiding/Hiding.md)
+   * [Hide](Selecting_And_Hiding/Hiding.md)
 * [Saving And Sharing](Saving_And_Sharing/README.md)
    * [The Autosave](Saving_And_Sharing/Autosave.md)
    * [Organizing your visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
