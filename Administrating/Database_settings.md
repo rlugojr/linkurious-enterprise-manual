@@ -20,7 +20,7 @@ We can now edit the data source configuration, set up and trigger data indexing.
 
 Notice that we may switch the data source in the breadcrumb when multiple data sources are connected.
 
-# Search index
+## Search index
 
 We may change the address of the index server. By default, we use Elasticsearch on the port ```9200``` of the local host.
 
