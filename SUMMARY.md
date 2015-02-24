@@ -48,7 +48,7 @@
    * [Administration panel](Administrating/accessing_the_admin_panel.md)
    * [Authentication](Administrating/Activating_user_authentification.md)
    * [Users & Groups](Administrating/Managing_users.md)
-   * [Database Settings](Administrating/Database_settings.md)
+   * [Data sources](Administrating/Database_settings.md)
    * [Disclosure Settings](Administrating/Disclosure_settings.md)
    * [Index Settings](Administrating/Index_settings.md)
 * [Other Topics](Other_Topics/README.md)
