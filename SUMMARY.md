@@ -50,7 +50,7 @@
    * [User Groups](Administrating/Managing_user_groups.md)
    * [Database Settings](Administrating/Database_settings.md)
    * [Disclosure Settings](Administrating/Disclosure_settings.md)
-   * [Index settings](Administrating/Index_settings.md)
+   * [Index Settings](Administrating/Index_settings.md)
 * [Other Topics](Other_Topics/README.md)
    * [Other Topics](Other_Topics/other_topics.md)
 
