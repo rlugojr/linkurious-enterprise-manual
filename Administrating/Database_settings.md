@@ -18,7 +18,7 @@ We can now edit the data source configuration, set up and trigger data indexing.
 
 ![default settings for database](https://dl.dropboxusercontent.com/s/6cnhxqjolt407jf/105.png?dl=0)
 
-In the administrator dashboard, notice that we may switch the data source in the breadcrumb when multiple data sources are connected.
+Notice that we may switch the data source in the breadcrumb when multiple data sources are connected.
 
 # Elasticsearch settings
 
