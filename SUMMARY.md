@@ -41,7 +41,7 @@
    * [Shortcuts](Selecting_And_Hiding/Shortcuts.md)
    * [Hide](Selecting_And_Hiding/Hiding.md)
 * [Save And Share](Saving_And_Sharing/README.md)
-   * [The Autosave](Saving_And_Sharing/Autosave.md)
+   * [Autosave](Saving_And_Sharing/Autosave.md)
    * [Organize Your Visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
    * [Export A Visualization](Saving_And_Sharing/Exporting.md)
 * [Administration](Administrating/README.md)
