@@ -32,7 +32,7 @@
    * [Sizing The Edges](Sizing_The_Nodes_And_Edges/sizing_the_edges.md)
 * [Filter](Filtering/README.md)
    * [Filter Nodes](Filtering/Filtering The Nodes.md)
-   * [Filtering The Edges](Filtering/filtering_the_edges.md)
+   * [Filter Edges](Filtering/filtering_the_edges.md)
    * [Combining Filters](Filtering/Combining.md)
    * [Removing A Filter](Filtering/Removing.md)
 * [Selecting And Hiding](Selecting_And_Hiding/README.md)
