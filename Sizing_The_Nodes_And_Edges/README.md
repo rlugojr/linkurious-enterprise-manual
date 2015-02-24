@@ -1,4 +1,4 @@
-# Sizing The Nodes And Edges
+# Apply Sizes To The Nodes And Edges
 
 In this first chapter, we'll learn how to size nodes and edges according to their properties.
 
