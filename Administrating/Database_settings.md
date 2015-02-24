@@ -22,8 +22,6 @@ Notice that we may switch the data source in the breadcrumb when multiple data s
 
 # Search index
 
-You can also specify the address of your index server. By default, we use Elasticsearch on the port ```9200``` of the local host.
-
-You can change these settings.
+We may change the address of the index server. By default, we use Elasticsearch on the port ```9200``` of the local host.
 
 ![default settings for elasticsearch](https://dl.dropboxusercontent.com/s/6cnhxqjolt407jf/105.png?dl=0)
