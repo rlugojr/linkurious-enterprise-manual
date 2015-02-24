@@ -1,4 +1,4 @@
-# Inspecting A Node
+# Inspect A Node
 
 In order to view the different properties of a node, simply click on it. You should immediately see information appear on the left side of the screen.
 
