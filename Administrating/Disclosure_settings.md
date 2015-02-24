@@ -1,8 +1,8 @@
-# Disclosure settings
+# Data Disclosure
 
-It is possible to choose which properties of your data will appear to the users in the interface.
+We may prevent specific nodes or relationship properties to be accessed by Linkurious Enterprise. Undisclosed data properties cannot be reached by Linkurious users nor be indexed by the search engine.
 
-To do that, select ```Data``` in the administrator dashboard.
+Click on ```Data``` in the Administration dashboard.
 
 ![opening the data panel](https://dl.dropboxusercontent.com/s/ldthwja6l1qysm6/104.png?dl=0)
 
