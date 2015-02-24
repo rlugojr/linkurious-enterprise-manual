@@ -47,7 +47,7 @@
 * [Administration](Administrating/README.md)
    * [Administration panel](Administrating/accessing_the_admin_panel.md)
    * [Manage Users](Administrating/Managing_users.md)
-   * [Managing user groups](Administrating/Managing_user_groups.md)
+   * [Manage User Groups](Administrating/Managing_user_groups.md)
    * [Database settings](Administrating/Database_settings.md)
    * [Disclosure settings](Administrating/Disclosure_settings.md)
    * [Index settings](Administrating/Index_settings.md)
