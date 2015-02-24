@@ -1,4 +1,4 @@
-# Finding The Relationships Of A Node
+# Find The Relationships Of A Node
 
 Time to find out about the particular relationships of a node. The easiest way to get that information is to double-click on the node you are interested in. Here we are interested in [Instagram](http://instagram.com/).
 
