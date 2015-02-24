@@ -15,7 +15,7 @@
    * [Search An Edge](Searching/Search An Edge.md)
    * [Search On Multiple Properties](Searching/Multiple Properties.md)
    * [Advanced Syntax](Searching/Advanced Syntax.md)
-* [Expanding And Collapsing](Expanding_And_Collapsing/README.md)
+* [Expand And Collapse](Expanding_And_Collapsing/README.md)
    * [Expanding Relationships](Expanding_And_Collapsing/expanding_relationships.md)
    * [Collapsing Relationships](Expanding_And_Collapsing/collapsing_relationships.md)
 * [Editing  (TODO)](Editing/README.md)
