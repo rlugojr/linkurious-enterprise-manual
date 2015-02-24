@@ -1,4 +1,4 @@
-# Search A Node
+# Search Nodes
 
 You may have millions of nodes in your graph. What if you are looking at a specific node? You can use the search bar in the Linkurious Enterprise interface to find it quickly (top left corner).
 
