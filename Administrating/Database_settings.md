@@ -4,6 +4,8 @@ Linkurious Enterprise connects to local or remote data sources through HTTP and 
 
 Data sources must be defined when Linkurious Enterprise is stopped.
 
+
+
 Click on ```Data``` in the administrator dashboard.
 
 ![opening the data panel](https://dl.dropboxusercontent.com/s/ldthwja6l1qysm6/104.png?dl=0)
