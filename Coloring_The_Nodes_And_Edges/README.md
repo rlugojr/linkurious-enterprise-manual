@@ -1,4 +1,4 @@
-# Coloring The Nodes And Edges
+# Apply Colors To The Nodes And Edges
 
 In this first chapter, we'll learn how to color nodes and edges according to their properties.
 
