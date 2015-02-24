@@ -17,7 +17,7 @@
    * [Advanced Syntax](Searching/Advanced Syntax.md)
 * [Expand And Collapse](Expanding_And_Collapsing/README.md)
    * [Expand Nodes](Expanding_And_Collapsing/expanding_relationships.md)
-   * [Collapsing Relationships](Expanding_And_Collapsing/collapsing_relationships.md)
+   * [Collapse Nodes](Expanding_And_Collapsing/collapsing_relationships.md)
 * [Editing  (TODO)](Editing/README.md)
    * [Editing a node or an edge](Editing/Editing.md)
    * [Adding a node or an edge](Editing/Adding.md)
