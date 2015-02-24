@@ -30,4 +30,4 @@ User authentication is now enabled. Reload the user interface to get the login s
 
 Enter the login and password of the administrator to access Linkurious Enterprise.
 
-In the following section we see how to create more user accounts and to assign them to user groups with permissions on graph data.
+In the following section we see how to create more user accounts, and to assign them to user groups with permissions on graph data.
