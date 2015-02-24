@@ -1,4 +1,4 @@
-# Creating A New Visualization
+# Create A New Visualization
 
 To create a new visualization, click on ```+ Visualization```.
 
