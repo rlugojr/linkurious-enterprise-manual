@@ -1,8 +1,8 @@
-# Activate the user authentication
+# Enable user authentication
 
-By default, the user authentication is desactivated.
+By default, user authentication is disabled. The unique user can do everything we wants and everybody can access the platform, which is not so great to provide Linkurious Enterprise to your organization. We will thus enable user authentication to handle multiple user accounts.
 
-You must create an administrator account before activating it, otherwise you won't be able to log in.
+We must create an administrator account before enabling authentication, otherwise we will not be able to log in.
 
 To do that, click on ```Users``` in the administrator dashboard to enter the Users panel.
 
@@ -20,7 +20,7 @@ Once done, click on ```Create```.
 
 We have created our first administrator.
 
-Time to activate the user authentication. Go to  ```\linkurious\config``` in your Linkurious Enterprise directory.
+Now it is time to activate user authentication. Go to  ```\linkurious\config``` in your Linkurious Enterprise directory.
 
 Open the ```production.json``` file. Look for ```auth_required```. Change its value from ```false``` to ```true```.
 
