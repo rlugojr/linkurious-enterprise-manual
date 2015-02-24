@@ -1,4 +1,4 @@
-# Expanding Relationships
+# Expand Nodes
 
 By clicking on a node, it is possible to view all of his relationships.
 
