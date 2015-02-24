@@ -45,7 +45,7 @@
    * [Organize Your Visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
    * [Export A Visualization](Saving_And_Sharing/Exporting.md)
 * [Administration](Administrating/README.md)
-   * [The admin panel](Administrating/accessing_the_admin_panel.md)
+   * [Administration panel](Administrating/accessing_the_admin_panel.md)
    * [Managing users](Administrating/Managing_users.md)
    * [Managing user groups](Administrating/Managing_user_groups.md)
    * [Database settings](Administrating/Database_settings.md)
