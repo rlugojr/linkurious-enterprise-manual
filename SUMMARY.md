@@ -40,7 +40,7 @@
    * [Lasso](Selecting_And_Hiding/Lasso.md)
    * [Shortcuts](Selecting_And_Hiding/Shortcuts.md)
    * [Hide](Selecting_And_Hiding/Hiding.md)
-* [Saving And Sharing](Saving_And_Sharing/README.md)
+* [Save And Share](Saving_And_Sharing/README.md)
    * [The Autosave](Saving_And_Sharing/Autosave.md)
    * [Organizing your visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
    * [Exporting A Visualization](Saving_And_Sharing/Exporting.md)
