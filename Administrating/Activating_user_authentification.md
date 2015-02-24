@@ -12,22 +12,22 @@ Click on ```New user``` on the right.
 
 ![the user creation screen](https://dl.dropboxusercontent.com/s/pk1o1dzuzebpnf3/100.png?dl=0)
 
-Fill in all fields of the user creation form ; remove the ```default``` group and add the ```admin``` group in the groups field to grand administration rights to the new user.
+Fill in all fields of the user creation form, and especially remove the ```default``` group and add the ```admin``` group in the groups field to grant administration rights to the new user.
 
 ![creating a user](https://dl.dropboxusercontent.com/s/85w4sm4fkh86t8d/109.png?dl=0)
 
 Once done, click on ```Create```.
 
-We have created our first administrator.
+We have created our first administrator. Now it is time to enable user authentication. 
 
-Now it is time to activate user authentication. Go to  ```\linkurious\config``` in your Linkurious Enterprise directory.
+Go to  ```\linkurious\config``` in your Linkurious Enterprise directory.
 
-Open the ```production.json``` file. Look for ```auth_required```. Change its value from ```false``` to ```true```.
+Open the ```production.json``` file. Look for ```auth_required```. Change its value from ```false``` to ```true```. Restart Linkurious Enterprise.
 
-The next time you will start Linkurious Enterprise, you will see a login page. The user authentication is now activated.
+User authentication is now enabled. Reload the user interface to get the login screen.
 
 ![admin login](https://dl.dropboxusercontent.com/s/ymsb2l06egytrte/110.png?dl=0)
 
-Enter your login and password to access Linkurious Enterprise.
+Enter the login and password of the administrator to access Linkurious Enterprise.
 
-If you want other people to access the application, you will need to create user accounts for them.
+In the following section we see how to create more user accounts and to assign them to user groups with permissions on graph data.
