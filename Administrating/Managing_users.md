@@ -1,4 +1,4 @@
-# Create more users
+# Create new users
 
 To do that, select ```Users``` in the administrator dashboard.
 
