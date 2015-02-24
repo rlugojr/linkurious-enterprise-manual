@@ -10,9 +10,11 @@ Open the ```production.json``` file. Look for ```dataSources```. It is an array 
 
 Restart Linkurious Enterprise.
 
-Click on ```Data``` in the Administration dashboard to edit the data source configuration and to handle data indexing.
+Click on ```Data``` in the Administration dashboard.
 
 ![opening the data panel](https://dl.dropboxusercontent.com/s/ldthwja6l1qysm6/104.png?dl=0)
+
+We can now edit the data source configuration, set up and trigger data indexing.
 
 ![default settings for database](https://dl.dropboxusercontent.com/s/6cnhxqjolt407jf/105.png?dl=0)
 
