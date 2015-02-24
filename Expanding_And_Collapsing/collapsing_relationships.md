@@ -1,4 +1,4 @@
-# Collapsing Relationships
+# Collapse Nodes
 
 As you explore your graph, you expand the relationships of one or multiple nodes. Sometimes the nodes and edges added to your visualization may not be relevant. In that case, you can use the collpase functionality to remove them.
 
