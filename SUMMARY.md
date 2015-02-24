@@ -42,7 +42,7 @@
    * [Hide](Selecting_And_Hiding/Hiding.md)
 * [Save And Share](Saving_And_Sharing/README.md)
    * [The Autosave](Saving_And_Sharing/Autosave.md)
-   * [Organizing your visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
+   * [Organize your visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
    * [Exporting A Visualization](Saving_And_Sharing/Exporting.md)
 * [Administrating](Administrating/README.md)
    * [Accessing the admin panel](Administrating/accessing_the_admin_panel.md)
