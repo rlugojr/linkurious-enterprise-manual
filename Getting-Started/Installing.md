@@ -1,4 +1,4 @@
-# Installing
+# Install
 
 Now you have downloaded a copy of Linkurious Enterprise. You have on your computer a zip file.
 
