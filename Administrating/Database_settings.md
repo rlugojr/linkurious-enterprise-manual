@@ -1,8 +1,10 @@
-# Database settings
+# Data sources
 
-You can set up the settings of the graph databases you want to visualize with Linkurious Enterprise.
+Linkurious Enterprise connects to local or remote data sources through HTTP and HTTPS. Data sources such as Neo4j servers may provide access to one or multiple graph databases. For instance, it is common to see Neo4j users switch from graph databases on the same Neo4j instance. Linkurious Enterprise handle multiple data source configurations to detect which databases are available through the configured data sources.
 
-To do that, select ```Data``` in the administrator dashboard.
+Data sources must be defined when Linkurious Enterprise is stopped.
+
+Click on ```Data``` in the administrator dashboard.
 
 ![opening the data panel](https://dl.dropboxusercontent.com/s/ldthwja6l1qysm6/104.png?dl=0)
 
