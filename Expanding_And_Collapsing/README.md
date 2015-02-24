@@ -1,4 +1,4 @@
-# Expanding And Collapsing
+# Expand And Collapse
 
 In this chapter, we'll learn how to expand or collapse the relationships of nodes.
 
