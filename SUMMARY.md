@@ -46,7 +46,7 @@
    * [Export A Visualization](Saving_And_Sharing/Exporting.md)
 * [Administration](Administrating/README.md)
    * [Administration panel](Administrating/accessing_the_admin_panel.md)
-   * [Managing users](Administrating/Managing_users.md)
+   * [Manage Users](Administrating/Managing_users.md)
    * [Managing user groups](Administrating/Managing_user_groups.md)
    * [Database settings](Administrating/Database_settings.md)
    * [Disclosure settings](Administrating/Disclosure_settings.md)
