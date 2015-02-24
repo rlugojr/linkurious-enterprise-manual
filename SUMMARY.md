@@ -10,7 +10,7 @@
    * [Create A New Visualization](Building-Your-First-Graph-Visualization/Creating A New Visualization.md)
    * [Inspect Nodes](Building-Your-First-Graph-Visualization/Inspecting A Node.md)
    * [Find The Relationships Of A Node](Building-Your-First-Graph-Visualization/Finding The Relationships Of A Node.md)
-* [Searching](Searching/README.md)
+* [Search](Searching/README.md)
    * [Search A Node](Searching/Search A Node.md)
    * [Search An Edge](Searching/Search An Edge.md)
    * [Search On Multiple Properties](Searching/Multiple Properties.md)
