@@ -19,7 +19,7 @@
    * [Expand Nodes](Expanding_And_Collapsing/expanding_relationships.md)
    * [Collapse Nodes](Expanding_And_Collapsing/collapsing_relationships.md)
 * [Edit  (TODO)](Editing/README.md)
-   * [Editing a node or an edge](Editing/Editing.md)
+   * [Edit a node or an edge](Editing/Editing.md)
    * [Adding a node or an edge](Editing/Adding.md)
    * [Deleting a node or an edge](Editing/Deleting.md)
 * [Coloring](Coloring_The_Nodes_And_Edges/README.md)
