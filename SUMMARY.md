@@ -12,7 +12,7 @@
    * [Find The Relationships Of A Node](Building-Your-First-Graph-Visualization/Finding The Relationships Of A Node.md)
 * [Search](Searching/README.md)
    * [Search Nodes](Searching/Search A Node.md)
-   * [Search An Edge](Searching/Search An Edge.md)
+   * [Search Edges](Searching/Search An Edge.md)
    * [Search On Multiple Properties](Searching/Multiple Properties.md)
    * [Advanced Syntax](Searching/Advanced Syntax.md)
 * [Expand And Collapse](Expanding_And_Collapsing/README.md)
