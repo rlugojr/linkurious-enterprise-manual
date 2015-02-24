@@ -1,4 +1,4 @@
-# Search An Edge
+# Search Edges
 
 You may have millions of edges in your graph. What if you are looking at a specific edge? You can use the search bar in the Linkurious Enterprise interface to find it quickly.
 
