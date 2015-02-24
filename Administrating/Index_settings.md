@@ -22,4 +22,4 @@ Click on ```Apply```. You must reindex data to remove the ```category``` propert
 
 ![the category property is not indexed](https://dl.dropboxusercontent.com/s/f6vgo59fg7x59pb/113.png?dl=0)
 
-With the same interface, you can choose which properties of the edges you want to index or not.
+The same process applies for relationship properties.
