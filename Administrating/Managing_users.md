@@ -1,4 +1,4 @@
-# Creating a new user
+# Create a new user
 
 To do that, select ```Users``` in the administrator dashboard.
 
@@ -18,7 +18,7 @@ We have created our first user.
 
 ![first user created](https://dl.dropboxusercontent.com/s/5vlqz9hmrnpo59q/102.png?dl=0)
 
-# Managing existing users
+# Manage existing users
 
 From the ```Users``` screen, it is possible to edit (groups, name, email or password) or delete any user.
 
