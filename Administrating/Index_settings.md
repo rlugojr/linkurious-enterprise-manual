@@ -14,11 +14,11 @@ We do not want to index the ```category``` property of nodes.
 
 ![the category property is indexed](https://dl.dropboxusercontent.com/s/w7fhzt4emyx0ht1/111.png?dl=0)
 
-Select the ```category``` property. Click on the left arrow to .
+Select the ```category``` property. Click on the left arrow to move it to the list of unindexed properties.
 
 ![the category property is not indexed](https://dl.dropboxusercontent.com/s/i9osm60xc5b8izx/112.png?dl=0)
 
-Hit ```Apply```. The ```category``` property will not show up in the interface of the users.
+Click on ```Apply```. The ```category``` property will not show up in search results.
 
 ![the category property is not indexed](https://dl.dropboxusercontent.com/s/f6vgo59fg7x59pb/113.png?dl=0)
 
