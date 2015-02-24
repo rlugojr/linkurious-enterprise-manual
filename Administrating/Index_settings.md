@@ -14,7 +14,7 @@ We do not want to index the ```category``` property of nodes.
 
 ![the category property is indexed](https://dl.dropboxusercontent.com/s/w7fhzt4emyx0ht1/111.png?dl=0)
 
-Use the checkbox to select the ```category``` property. Cick on the left arrow.
+Select the ```category``` property. Click on the left arrow to .
 
 ![the category property is not indexed](https://dl.dropboxusercontent.com/s/i9osm60xc5b8izx/112.png?dl=0)
 
