@@ -2,11 +2,9 @@
 
 We may prevent specific nodes or relationship properties to be accessed by Linkurious Enterprise. Undisclosed data properties cannot be reached by Linkurious users nor be indexed by the search engine.
 
-Click on ```Data``` in the Administration dashboard.
+Go to the ```Data``` panel of the Administration dashboard.
 
-![opening the data panel](https://dl.dropboxusercontent.com/s/ldthwja6l1qysm6/104.png?dl=0)
-
-By default, Linkurious Enterprise displays all the properties of the nodes and edges.
+By default, Linkurious Enterprise discloses all the properties of nodes and edges.
 
 # Changing the displayed properties
 
