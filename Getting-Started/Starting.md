@@ -1,4 +1,4 @@
-# Starting
+# Start
 
 First of all, in order to use Linkurious Enterprise you need to [launch Neo4j](http://neo4j.com/download/). Download it, install it and launch it.
 
