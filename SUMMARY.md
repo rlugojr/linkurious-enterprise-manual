@@ -22,7 +22,7 @@
    * [Edit a node or an edge](Editing/Editing.md)
    * [Add a node or an edge](Editing/Adding.md)
    * [Delete a node or an edge](Editing/Deleting.md)
-* [Coloring](Coloring_The_Nodes_And_Edges/README.md)
+* [Apply colors](Coloring_The_Nodes_And_Edges/README.md)
    * [The Default Colors](Coloring_The_Nodes_And_Edges/the_default_colors.md)
    * [Coloring The Nodes](Coloring_The_Nodes_And_Edges/Coloring nodes and edges.md)
    * [Coloring The Edges](Coloring_The_Nodes_And_Edges/coloring_the_edges.md)
