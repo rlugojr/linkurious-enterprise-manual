@@ -6,7 +6,7 @@ Go to the ```Data``` panel of the Administration dashboard.
 
 By default, Linkurious Enterprise discloses all the properties of nodes and edges.
 
-# Changing the displayed properties
+## Edit the list of disclosed properties
 
 There is a list of the properties that are disclosed and a list of the properties that are undisclosed. Simply move the properties from one list to the other to change their status.
 
