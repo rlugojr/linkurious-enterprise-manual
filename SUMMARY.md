@@ -44,7 +44,6 @@
    * [Autosave](Saving_And_Sharing/Autosave.md)
    * [Organize Your Visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
    * [Export A Visualization](Saving_And_Sharing/Exporting.md)
-   * Delete
 * [Administration](Administrating/README.md)
    * [Administration panel](Administrating/accessing_the_admin_panel.md)
    * [Authentication](Administrating/Activating_user_authentification.md)
@@ -52,6 +51,7 @@
    * [Data Sources](Administrating/Database_settings.md)
    * [Data Disclosure](Administrating/Disclosure_settings.md)
    * [Search Index](Administrating/Index_settings.md)
+* Delete
 * [Other Topics](Other_Topics/README.md)
    * [Other Topics](Other_Topics/other_topics.md)
 
