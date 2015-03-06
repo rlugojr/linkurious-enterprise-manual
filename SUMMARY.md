@@ -44,6 +44,7 @@
    * [Autosave](Saving_And_Sharing/Autosave.md)
    * [Organize Your Visualizations](Saving_And_Sharing/Organizing Your Visualizations.md)
    * [Export A Visualization](Saving_And_Sharing/Exporting.md)
+   * Delete
 * [Administration](Administrating/README.md)
    * [Administration panel](Administrating/accessing_the_admin_panel.md)
    * [Authentication](Administrating/Activating_user_authentification.md)
