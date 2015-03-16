@@ -10,6 +10,8 @@ For example the node has a ```city``` property with the value ```San Francisco``
 
 You can scroll down to see more properties or use the search bar to find a property.
 
-If you want to remove the left panel, simply click on ```+``` in the left corner.
+Notice the number next to the node, it is the number of undisplayed relationships.
+
+If you want to remove the left panel, simply click on ```X``` in the left corner.
 
 ![picture of a node without any information](https://dl.dropboxusercontent.com/s/dppx66f9tfhe5f9/5.png?dl=0)

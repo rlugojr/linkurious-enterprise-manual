@@ -1,6 +1,6 @@
 # Create A New Visualization
 
-To create a new visualization, click on ```+ Visualization```.
+To create a new visualization, click on ```Create```.
 
 ![picture of the dashboard](https://dl.dropboxusercontent.com/s/2ax4yybrbs0x0o5/1.png?dl=0)
 

@@ -14,4 +14,3 @@ You now have a few options :
 * ```Select isolates``` : select the nodes in your visualization that have no relationships ;
 * ```Select all relationships``` : select all the edges in your current visualization ;
 * ```Inverse selection``` : invert your current selection.
-

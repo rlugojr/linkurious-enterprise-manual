@@ -1,5 +1,7 @@
 # Expand Nodes
 
+Expanding means displaying the nodes that are connected to one node or to a group of node.
+
 Expand nodes to display their relationships and direct neighbors. We can expand nodes in different ways:
 
 * double-click on a node in the view

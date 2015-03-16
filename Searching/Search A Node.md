@@ -4,7 +4,7 @@ You may have millions of nodes in your graph. What if you are looking at a speci
 
 ![the search bar](https://dl.dropboxusercontent.com/s/666kdazm4s8z30g/17.png?dl=0)
 
-Simply type what you are looking for. You will see a list of suggestions that match your search.
+Simply type what you are looking for. You will see the list of suggestions that match your search.
 
 ![search results](https://dl.dropboxusercontent.com/s/54xtsrpu9vu4dqe/18.png?dl=0)
 

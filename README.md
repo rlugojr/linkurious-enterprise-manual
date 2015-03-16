@@ -9,6 +9,6 @@ The following chapters are divided in themes. They go through the functionalitie
 
 Just like our software, this guide assumes no prior knowledge of graph visualization techniques. If you read it thoroughly, you will be able make sense of even the most complex graph.
 
-Version of Linkurious Enterprise : v0.6.0 ("Obnoxious Ocelot")
+Version of Linkurious Enterprise : v0.7.0 ("Pink Panther")
 
-Last update : 24/02/2015
+Last update : 15/03/2015
