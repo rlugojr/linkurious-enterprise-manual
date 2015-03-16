@@ -1,6 +1,4 @@
-# Customize Tooltip
-
-## Customize The Tooltip
+# Customize The Tooltip
 
 When you right-click on a node or an edges, you can view its properties in a pop-up menu called a tooltip.
 

@@ -1,4 +1,4 @@
-## Choose The Text Of The Nodes And Edges
+# Choose The Text Of The Nodes And Edges
 
 Linkurious Enterprise lets you choose which of the properties of your graph should be used displayed on the canvas.
 

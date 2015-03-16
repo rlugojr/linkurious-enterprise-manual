@@ -14,6 +14,8 @@ A new menu appear.
 
 ![the search on multiple properties](https://dl.dropboxusercontent.com/s/xrcml53id4gx3xu/70.png?dl=0)
 
+We can see the name of the different labels in our database and their occurences.
+
 Hit ```Options``` to see the name of the different properties in your graph.
 
 ![the search on multiple properties](https://dl.dropboxusercontent.com/s/bog5w0tdm64ukic/71.png?dl=0)
@@ -30,7 +32,7 @@ In order to narrow down our results, we are going to search on multiple properti
 
 ![multi properties search](https://dl.dropboxusercontent.com/s/ypa7vhlid87sblf/73.png?dl=0)
 
-Now when we type ``facebook``, the results are filtered to show only the nodes that have the label ```Company```, have the value ```Menlo Park``` for the property ```City``` and the value ``facebook.com`` for the property ```homepage_url```.
+Now when we type ``facebook``, the results are filtered to show only the nodes that have the label ```Company``` and the value ``facebook.com`` for the property ```homepage_url```.
 
 ![multi properties search](https://dl.dropboxusercontent.com/s/oc1zcemb7le2753/74.png?dl=0)
 
