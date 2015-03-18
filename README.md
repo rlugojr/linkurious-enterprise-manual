@@ -11,4 +11,4 @@ Just like our software, this guide assumes no prior knowledge of graph visualiza
 
 Version of Linkurious Enterprise : v0.7.0 ("Pink Panther")
 
-Last update : 18/03/2015
+Last update : 19/03/2015
