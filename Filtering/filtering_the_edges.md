@@ -1,6 +1,6 @@
-# Filtering The Edges According To A Property
+## Filtering the edges according to a property
 
-We have see it is possible to use filters to select or remove specific nodes in your visualization according to a property. It is possible to do the same thing with edges.
+We have seen it is possible to use filters to select or remove specific nodes in our visualization according to a property. It is possible to do the same thing with edges.
 
 ![the relationships of Banexi Ventures](https://dl.dropboxusercontent.com/s/t1djwb2fausqjg9/78.png?dl=0)
 
@@ -26,7 +26,7 @@ Now let's click on  ```Filter ```.
 
 ![applying filter](https://dl.dropboxusercontent.com/s/ovsi1nxyluy0itv/83.png?dl=0)
 
-The relationships with the ```A``` ```funding_round_code``` are displayed. The other ```funding_round_code``` values removed from the visualization and a filter symbol is added on the top right corner.
+The relationships with the ```A``` ```funding_round_code``` are displayed. The other ```funding_round_code``` values removed from the visualization and a filter symbol is added on the bottom right corner.
 
 ![filtered visualization](https://dl.dropboxusercontent.com/s/xtbsb9cvke7fpi1/84.png?dl=0)
 

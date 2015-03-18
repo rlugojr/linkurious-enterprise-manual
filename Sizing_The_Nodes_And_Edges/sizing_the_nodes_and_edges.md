@@ -1,4 +1,4 @@
-# Sizing The Nodes According To A Property
+## Sizing the nodes according to a property
 
 By default all the nodes and edges have the same size. It is possible though to choose to map the size of nodes or edges to certain properties. This way it will be possible to visualize that property.
 
@@ -12,11 +12,11 @@ For example [Andreessen Horowitz](http://a16z.com/) is a leading VC firm with 32
 
 We are going to size the different companies according to their ```funding_total``` property in order to visualize which are the most successful.
 
-Click on the ```+``` symbol on the right to open up the design panel.
+We click on the ```+``` symbol on the right to open up the design panel.
 
 ![open up the design panel](https://dl.dropboxusercontent.com/s/rockq8dqh0hyqwe/35.png?dl=0)
 
-No move the mouse to ```funding_total```. In addition to being able to color the nodes according to that property, it is possible to size the nodes. Linkurious Enterprise can do that for any property that has numerical values.
+We move the mouse to ```funding_total```. In addition to being able to color the nodes according to that property, it is possible to size the nodes. Linkurious Enterprise can do that for any property that has numerical values.
 
 We are going to select the ```Size``` icon.
 

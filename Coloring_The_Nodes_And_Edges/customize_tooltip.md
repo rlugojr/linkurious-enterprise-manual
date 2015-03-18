@@ -1,10 +1,10 @@
-# Customize The Tooltip
+## Customize the tooltip
 
 When you right-click on a node or an edges, you can view its properties in a pop-up menu called a tooltip.
 
 ![](https://dl.dropboxusercontent.com/s/zp1nhk2rhbo04o0/94.png?dl=0)
 
-We can see that our node is a ```Company``` which ```name``` is ```Linkfluence```.
+We can see that our node is a ```Company``` which ```country``` is ```FRA```.
 
 It is possible to customize the content of the tooltip and display only certain properties.
 
@@ -16,10 +16,10 @@ Now let's go to the ```Toolstips``` tab. Here we can see the different propertie
 
 ![](https://dl.dropboxusercontent.com/s/h5vbkg2krgsbmh6/91.png?dl=0)
 
-Simply turn off the properties you do not want to display. Here we are going to turn off the ```name``` and ```url```.
+Simply turn off the properties you do not want to display. Here we are going to turn off the ```name``` and ```country```.
 
 ![](https://dl.dropboxusercontent.com/s/1sm9j6hw14nqv9u/95.png?dl=0)
 
-When we right-click on our node again, the  ```url ``` and  ```name ``` are removed from the tooltip.
+The  ```country ``` and  ```name ``` are now removed from the tooltip.
 
 ![](https://dl.dropboxusercontent.com/s/wdevhqcx2gbxi8u/96.png?dl=0)

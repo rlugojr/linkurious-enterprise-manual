@@ -1,8 +1,8 @@
-# Build Your First Graph Visualization
+# Build your first graph visualization
 
 In this chapter, we'll learn the basics of how to explore and visualize a graph with Linkurious Enterprise.
 
-## About the dataset
+### About the dataset
 
 This section of the manual and the following chapters are based on a dataset coming from [Crunchbase](http://www.crunchbase.com/). Crunchbase is a popular website that tracks the start-up ecosystem, especially the start-ups and the investors.
 

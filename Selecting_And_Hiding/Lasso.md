@@ -1,4 +1,4 @@
-# Using The Lasso
+## Using The Lasso
 
 It is possible to select the nodes or edges within a particular area of your visualization. In order to do that Linkurious Enterprise provides a lasso.
 

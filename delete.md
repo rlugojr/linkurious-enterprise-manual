@@ -1,10 +1,10 @@
-# Delete Visualizations
+## Delete visualizations
 
-## From the Workspace
+### From the Workspace
 
-Open the Workspace menu, then click on the ```Delete``` button. Confirm to delete the visualization to be redirected to the Dashboard.
+We open the Workspace menu, then click on the ```Delete``` button. We confirm to delete the visualization.
 
-## From the Dashboard
+### From the Dashboard
 
 Either:
 

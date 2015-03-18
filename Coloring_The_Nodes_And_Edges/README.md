@@ -1,5 +1,5 @@
-# Apply Colors To The Nodes And Edges
+# Style
 
-In this chapter, we'll learn how to color nodes and edges according to their properties.
+In this chapter, we'll learn how to adjust the size, color, captions and text of nodes or relationships.
 
-This technique will help you make your visualizations more meaningful.
+These techniques will help you make your visualizations more meaningful.

@@ -1,4 +1,4 @@
-# The Default colors
+## Default colors
 
 By default the nodes are black and the edges are grey.
 

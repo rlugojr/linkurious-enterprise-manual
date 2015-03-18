@@ -1,12 +1,12 @@
-# Search On Multiple Properties
+## Search on multiple properties
 
-You are looking for a specific node or edge and the search bar gives you too many results? The text you are searching is too common. You may want to narrow you search by searching on multiple properties.
+You are looking for a specific node or relationship and the search bar gives you too many results? The text you are searching is too common. You may want to narrow you search by searching on multiple properties.
 
 Searching a startup that has the text ```facebook``` on any of his properties gives us 36 pages of results. Let's try to narrow it down.
 
 ![too many facebook results](https://dl.dropboxusercontent.com/s/yrdvvjir99q0910/68.png?dl=0)
 
-Click on the  ```Search nodes ``` icon in the top left corner.
+We click on the  ```Search nodes ``` icon in the top left corner.
 
 ![the search nodes icon](https://dl.dropboxusercontent.com/s/dy6dt3qrx1v32uu/69.png?dl=0)
 
@@ -16,7 +16,7 @@ A new menu appear.
 
 We can see the name of the different labels in our database and their occurences.
 
-Hit ```Options``` to see the name of the different properties in your graph.
+We hit ```Options``` to see the name of the different properties in our graph.
 
 ![the search on multiple properties](https://dl.dropboxusercontent.com/s/bog5w0tdm64ukic/71.png?dl=0)
 
@@ -36,7 +36,7 @@ Now when we type ``facebook``, the results are filtered to show only the nodes t
 
 ![multi properties search](https://dl.dropboxusercontent.com/s/oc1zcemb7le2753/74.png?dl=0)
 
-You can see that the results are now filtered. Simply click on the result you are interested in.
+We can see that the results are now filtered. We simply click on the result we are interested in.
 
 The same approach can be applied to the search of edges.
 

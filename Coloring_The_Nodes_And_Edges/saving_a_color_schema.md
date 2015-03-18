@@ -1,6 +1,6 @@
-# Setting A Color Scheme
+## Save style
 
-In the current beta version of Linkurious Enterprise, it is not possible within the interface to map specific colors to specific property values.
+In the current beta version of Linkurious Enterprise, it is not possible within the interface to set custom values for the size, color and icons of nodes or relationships.
 
 You can do it though by editing the file ```production.js``` in ```nameofyourlinkuriousfolder/linkurious/config```.
 
@@ -65,6 +65,3 @@ styles: {
     sequential: ['#ffffcc','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#0c2c84']
   }
 };```
-
-
-# Changing the Color Palette

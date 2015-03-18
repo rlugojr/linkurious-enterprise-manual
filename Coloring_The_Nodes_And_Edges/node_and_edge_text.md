@@ -1,4 +1,4 @@
-# Choose The Text Of The Nodes And Edges
+## Customize the captions
 
 Linkurious Enterprise lets you choose which of the properties of your graph should be used displayed on the canvas.
 
@@ -6,7 +6,7 @@ In order to customize this, we need to open the design panel on the right.
 
 ![](https://dl.dropboxusercontent.com/s/j9emxs72jlrkfn7/90.png?dl=0)
 
-Right now Linkurious Enterprise displays the ```name``` of the nodes. Now let's go to the ```Toolstips``` tab. Here we can see the different properties of the nodes in our graph. The ```name``` property is first. In the bottom of the screen, it is possible to select the relationships.
+Right now Linkurious Enterprise displays the ```name``` of the nodes. Now let's go to the ```Captions``` tab. Here we can see the different properties of the nodes in our graph. The ```name``` property is first. In the bottom of the screen, it is possible to select the relationships.
 
 ![](https://dl.dropboxusercontent.com/s/h5vbkg2krgsbmh6/91.png?dl=0)
 

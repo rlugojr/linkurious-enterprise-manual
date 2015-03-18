@@ -1,7 +1,6 @@
+## The different shortcuts in Linkurious Enterprise
 
-# The Different Shortcuts In Linkurious Enterprise
-
-## Camera
+### Camera
 
 ```←``` Move camera left
 
@@ -15,7 +14,7 @@
 
 ```spacebar``` + ```↓``` Zoom out
 
-## Selection
+### Selection
 
 ```spacebar``` + ```click``` Add/remove nodes or edges to the selection
 
@@ -34,13 +33,13 @@
 ```spacebar``` + ```s``` Activate/deactiate selection of nodes with a lasso
 
 
-## Export
+### Export
 
 ```spacebar``` + ```t``` Take screenshot
 
 ```spacebar``` + ```x``` Export to Excel
 
-## The Full list
+### The Full list
 
 The list of shortcuts is directly available in the interface.
 
