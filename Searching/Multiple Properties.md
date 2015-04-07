@@ -6,7 +6,7 @@ Searching a startup that has the text ```facebook``` on any of his properties gi
 
 ![too many facebook results](https://dl.dropboxusercontent.com/s/yrdvvjir99q0910/68.png?dl=0)
 
-We click on the  ```Search nodes ``` icon in the top left corner.
+We click on the  ```Search nodes``` icon in the top left corner.
 
 ![the search nodes icon](https://dl.dropboxusercontent.com/s/dy6dt3qrx1v32uu/69.png?dl=0)
 

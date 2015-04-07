@@ -15,6 +15,7 @@
    * [Search relationships](Searching/Search An Edge.md)
    * [Search on multiple properties](Searching/Multiple Properties.md)
    * [Advanced syntax](Searching/Advanced Syntax.md)
+   * [Search for a shortest path](searching/search_path.md)
 * [Manipulate](Manipulating/README.md)
    * [Expand nodes](Manipulating/expanding_relationships.md)
    * [Collapse nodes](Manipulating/collapsing_relationships.md)
