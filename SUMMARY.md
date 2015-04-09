@@ -59,4 +59,5 @@
    * [Bugs](Other_Topics/bugs.md)
    * [Requirements](Other_Topics/requirements.md)
    * [Technology](Other_Topics/technology.md)
+   * [Neo4j 2.2](Other_Topics/neo4j_22.md)
 
