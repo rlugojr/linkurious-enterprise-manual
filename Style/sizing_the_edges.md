@@ -6,7 +6,7 @@ By default the relationships all have the same size. Using the size can be helpf
 
 ![criteo](https://dl.dropboxusercontent.com/s/3vluq781j7yfw5d/46.png?dl=0)
 
-In the picture aboce we see a start-up called [Criteo](http://www.criteo.com/). It is linked to four companies that has invested in it (IDInvest Partners, Softbank Capital, Index Ventures, Elaia Partners and Bessemer Venture Partners) and to a company it bought (AdQuantic).
+In the picture above we see a start-up called [Criteo](http://www.criteo.com/). It is linked to four companies that has invested in it (IDInvest Partners, Softbank Capital, Index Ventures, Elaia Partners and Bessemer Venture Partners) and to a company it bought (AdQuantic).
 
 If we zoom in on the relationship between Criteo and IDInvest Partners, we can see it has a ```raised_amount_usd``` property with the value ```6600000```.
 
