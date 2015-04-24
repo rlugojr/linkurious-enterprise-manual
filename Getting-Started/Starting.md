@@ -12,6 +12,24 @@ Click on the ```start``` file on Windows. On Linux run ```linkurious.sh start```
 
 ![linkurious enterprise startup](https://dl.dropboxusercontent.com/s/adrxil2q8ysfry5/16.png?dl=0)
 
+> About Neo4j 2.2 Linkurious Enterprise is compatible with Neo4j 2.2. This version of Neo4j increases performance by ~20%, and provides basic authentication by default. In order to use it, you need to setup your credential first. Follow these steps:
+
+>* The first time the Neo4j server is launched with a new database, go to http://localhost:7474/ and initialize your login/password;
+* Edit the file ```linkurious\config\production.json``` and fill in the ```dataSources``` fields called ```user``` and ```password```;
+* Run Linkurious Enterprise and you're good to go!
+
+>A ```production.json``` configuration example:
+
+      "graphdb": {
+        "vendor": "neo4j",
+        "url": "http://localhost:7474",
+        "user": "neo4j",
+        "password": "pwd",
+        "templates": {
+          "nodes": [],
+          "relationships": []
+        }
+
 The first time you launch Linkurious Enterprise, it will index the data you are storing on Neo4j. You can follow the progress of the indexation in the Node.js screen. Once it is over, you can use Linkurious Enterprise!
 
 ![picture of the dashboard](https://dl.dropboxusercontent.com/s/2ax4yybrbs0x0o5/1.png?dl=0)
