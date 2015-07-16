@@ -14,10 +14,14 @@ End users will access Linkurious through a web browser. All modern browsers are 
 * Safari 6 or higher.
 * Opera 12 or higher.
 
-Java 8u25 or higher **and the JAVA_HOME environment variable set up** ([see how to do it on Windows](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html))
+The embedded ElasticSearch engine requires Java 8 to run properly.
+**The JAVA_HOME environment variable must be set up**, see [how to do it on Windows here](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html).
 
-Neo4j 2.x.
+The Linkurious platform connects to remote data sources through HTTP or HTTPS. We currently support Neo4j servers version 2.0 and higher. Neo4j from Neo Technology is the leading graph database system on the market. You can calculate Neo4j's hardware requirements [here](http://neo4j.com/developer/guide-sizing-and-hardware-calculator/).
 
 ### Hardware
 
-Processor: 1 CPU 1,6 Ghz - Memory (RAM): 4 GB - Disk: 100 MB
+Hardware requirements of the platform depends on the size of the graph databases Linkurious is connected to. For up to 2 millions of nodes and relationships, we recommend to install the Linkurious server on a machine with 8 GB RAM, 4 CPU cores @ 2 Ghz, and 1 GB free disk space.
+
+Hardware requirements of the Linkurious web client varies also with the size of the visualized graphs. For up to 500 nodes and edges, we recommend to use a machine with 4 GB RAM, and 2 CPU cores @ 1.6 Ghz.
+
