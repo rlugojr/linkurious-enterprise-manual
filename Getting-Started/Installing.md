@@ -1,6 +1,12 @@
 ## Install
 
-Now you have downloaded a copy of Linkurious Enterprise. You have on your computer a zip file.
+Once you have downloaded a copy of Linkurious Enterprise, unzip the file into the folder you want.
+
+### Install on Linux systems
+
+### Install on MAC OS X
+
+### Install on Windows
 
 ![picture of the download folder](https://dl.dropboxusercontent.com/s/1y73tkflooy9bi9/11.png?dl=0)
 
