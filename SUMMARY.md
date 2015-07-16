@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Getting Started](Getting-Started/README.md)
+   * [Requirements](Other_Topics/requirements.md)
    * [Download](Getting-Started/Downloading.md)
    * [Install](Getting-Started/Installing.md)
    * [Start Linkurious Enterprise](Getting-Started/Starting.md)
@@ -57,6 +58,5 @@
    * [Importing Data](Other_Topics/importing_data.md)
    * [Indexation](Other_Topics/other_topics.md)
    * [Bugs](Other_Topics/bugs.md)
-   * [Requirements](Other_Topics/requirements.md)
    * [Technology](Other_Topics/technology.md)
 
