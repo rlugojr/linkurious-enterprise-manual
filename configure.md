@@ -1,6 +1,6 @@
 ## Configure
 
-The configuration file is located at **linkurious/conf/production.json**.
+The configuration file is located at `linkurious/conf/production.json`.
 
 #### Link to the Neo4j server
 
