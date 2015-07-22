@@ -1,5 +1,11 @@
 ## Start
 
+### Run on Linux systems
+
+### Run on Linux systems
+
+### Run on Windows
+
 First of all, in order to use Linkurious Enterprise you need to [launch Neo4j](http://neo4j.com/download/). Download it, install it and launch it.
 
 ![launching neo4j](https://dl.dropboxusercontent.com/s/6sm5ja9ubvw5xhk/14.png?dl=0)
