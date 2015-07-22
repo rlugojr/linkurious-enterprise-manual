@@ -13,6 +13,8 @@ The Linkurious server is available by default on port 3000. However, most firewa
 
 ### Install on MAC OS X
 
+TODO
+
 ### Install on Windows
 
 ![picture of the download folder](https://dl.dropboxusercontent.com/s/1y73tkflooy9bi9/11.png?dl=0)
