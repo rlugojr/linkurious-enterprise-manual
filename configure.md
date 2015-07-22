@@ -54,4 +54,4 @@ The embedded ElasticSearch engine may be replaced by your own ElasticSearch clus
 
 #### Secured connections through HTTPS
 
-TODO: how to set up HTTPS
+TODO
