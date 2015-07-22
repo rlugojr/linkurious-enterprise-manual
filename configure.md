@@ -20,6 +20,8 @@ The configuration file is located at `linkurious/data/config/production.json`. I
     * TODO
 * **access** - The access rights
     * Enable authentication, configure LDAP authentication, set data read-only mode.
+* **clientAnalytics**
+    * Log user actions in the client to your Google Analytics account (disabled by default).
 * **sigma**
     * The settings of Sigma.js. You should only edit the following:
    * **styles**
