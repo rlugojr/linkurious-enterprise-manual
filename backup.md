@@ -20,4 +20,4 @@ Please follow the [Neo4j documentation](http://neo4j.com/docs/stable/operations-
 1. Stop Neo4j Community edition.
 2. Copy the folder `<neo4j-folder>/data` or any folder used to store the database.
 
-You can now restart Neo4j.
+You can restart Neo4j now.
