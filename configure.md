@@ -6,23 +6,22 @@ The configuration file is located at `linkurious/data/config/production.json`.
 
 #### Link to the Neo4j server
 
-If it is the first time you run the Neo4j server and the version of Neo4j is >= v2.2:
+If it is the first time you run the Neo4j server and you use Neo4j v2.2 or a more recent version:
 
 1. Launch the Neo4j server;
 - Open the browser at location http://localhost:7474 ;
-- Set a new login and password and remember them to configure Linkurious.
+- Set a new login and password, and remember them to configure Linkurious.
 
 Configure Linkurious:
 
 - Open the configuration file;
-- Check the `dataSources/graphdb` settings with the URL of the Neo4j server and set the credentials of the Neo4j server
+- Check the `dataSources/graphdb` settings with the URL of the Neo4j server and set the credentials of the Neo4j server.
 
 #### Link to the LDAP service
 
-An identified person of the organization has an Administrator account to Linkurious. He manages other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably OpenLDAP or Active Directory), users are authenticated each time they sign in. 
+In Linkurious, Administrators manage other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably OpenLDAP or Active Directory), users are authenticated each time they sign in. If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious.
 
-If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious.
-To enable LDAP authentication in Linkurious, edit the configuration file (`linkurious/config/production.json`) and add an `ldap` section under `clientRights`:
+To enable LDAP authentication in Linkurious, edit the configuration file and add an `ldap` section under `access`:
 
 ```JavaScript
 "access": {
