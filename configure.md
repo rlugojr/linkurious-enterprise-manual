@@ -1,6 +1,6 @@
 ## Configure
 
-Skip this section if you launch Linkurious with default configuration. You can configure it anytime.
+**Skip this section if you launch Linkurious with default configuration. You can configure it anytime.**
 
 The configuration file is located at `linkurious/data/config/production.json`. It is a JSON file containing the following settings:
 
