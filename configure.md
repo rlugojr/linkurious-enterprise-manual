@@ -10,8 +10,8 @@ The configuration file is located at `linkurious/data/config/production.json`. I
         * Default data store: Neo4j. Linkurious will call the Neo4j REST API on `http://localhost:7474/`.
     * **index** - The search engine
         * Default engine: `elasticSearch`.
-* **allSources** TODO
-    * TODO
+* **allSources** - General settings
+    * Configure shortest paths, indexing, node expand and search limits, minimal search query length.
 * **db** - The internal data store of Linkurious
     * Default database: an embedded SQLite database. You may switch to another SQL database for production.
 * **server**
