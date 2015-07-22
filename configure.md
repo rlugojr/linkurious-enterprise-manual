@@ -23,7 +23,7 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 * **sigma**
     * The settings of Sigma.js.
 * **styles**
-    * You may edit the default styles of nodes and edges, and the color palette. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
+    * You may edit the default styles of nodes and edges. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
 * **palette**
     * The default color palette of nodes and edges. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
 
