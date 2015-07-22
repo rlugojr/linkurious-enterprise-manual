@@ -16,4 +16,4 @@ The downloaded file is a ZIP archive. It notably includes:
 
 You will be notified by email when we ship a new release. Connect to your personal area to download new releases.
 
-You may update anytime the operating system where Linkurious is installed and update Java as well. However you should ask us if new releases of the Neo4j database are compatible with Linkurious.
+You may update anytime the operating system where Linkurious is installed and update Java as well. However you should ask us if new releases of the Neo4j database are compatible with Linkurious. Latest Neo4j releases are available on http://neo4j.com/download/ .
