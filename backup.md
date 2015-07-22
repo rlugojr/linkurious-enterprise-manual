@@ -11,6 +11,8 @@ Please follow the [Neo4j documentation](http://neo4j.com/docs/stable/operations-
 1. Stop Neo4j Community edition.
 2. Copy the folder `<neo4j-folder>/data`.
 
+You can now restart Neo4j.
+
 ### Linkurious
 
 Follow these steps to perform a consistent backup:
@@ -20,4 +22,4 @@ Follow these steps to perform a consistent backup:
 3. If you use mySQL or postreSQL instead of SQLite (default) as the internal data store of Linkurious, please backup these databases now.
 
 
-You can now restart Neo4j and Linkurious.
+You can now restart Linkurious.
