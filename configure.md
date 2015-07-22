@@ -23,6 +23,7 @@ An identified person of the organization has an Administrator account to Linkuri
 
 If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious.
 To enable LDAP authentication in Linkurious, edit the configuration file (`linkurious/config/production.json`) and add an `ldap` section under `clientRights`:
+
 ```JavaScript
 "access": {
   // [...]
