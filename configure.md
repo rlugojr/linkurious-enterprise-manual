@@ -7,13 +7,13 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 
 * **dataSources** - The list of data sources to connect to
     * **graphdb** - The graph database server to connect
-        * Default data store: `neo4j`. Linkurious will call the Neo4j REST API on `http://localhost:7474/`.
-    * **index** (the search engine).
+        * Default data store: Neo4j. Linkurious will call the Neo4j REST API on `http://localhost:7474/`.
+    * **index** - The search engine
         * Default engine: `elasticSearch`.
 * **allSources** TODO
     * TODO
-* **db** - The internal data store
-    * default database: an embedded SQLite database. You may switch to another SQL database for production.
+* **db** - The internal data store of Linkurious
+    * Default database: an embedded SQLite database. You may switch to another SQL database for production.
 * **server**
     * The Linkurious server. :warning: Replace `cookieSecret` with your own value.
 * **logger** TODO
