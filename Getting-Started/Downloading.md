@@ -6,9 +6,9 @@ Linkurious is available for download in your personal area at https://linkurio.u
 
 Log in with the username and password created during the purchase process. You will then see the downloadable files.
 
-The downloaded file is a ZIP archive. It includes:
+The downloaded file is a ZIP archive. It notably includes:
 
-- a Web server built on top of Node.js v0.11 ;
+- a Web server built on top of Node.js v0.12 ;
 - the search engine ElasticSearch v1.4.5+ (requires Java JDK).
 
 
