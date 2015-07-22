@@ -12,7 +12,7 @@ If it is the first time you run the Neo4j server and the version of Neo4j is >= 
 
 Configure Linkurious:
 
-- Open the file `linkurious/data/config/production.json` ;
+- Open the configuration file ;
 - Check the `dataSources/graphdb` settings with the URL of the Neo4j server and set the credentials of the Neo4j server
 
 
