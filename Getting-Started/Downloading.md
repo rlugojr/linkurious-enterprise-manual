@@ -16,4 +16,4 @@ The downloaded file is a ZIP archive. It notably includes:
 
 You will be notified by email when we ship a new release. Connect to your personal area to download new releases.
 
-
+System administrators may update anytime the operating system where Linkurious is installed and update Java as well. However they should ask us to upgrade the Neo4j database. We will inform system administrators to new updates about Neo4j and Linkurious.
