@@ -29,7 +29,7 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 Linkurious can connect to multiple data sources at the same time. Data sources are configured within the **dataSources** key, which is a list of potential data sources. Each data source contains the following settings:
 
 * **name** (optional) - A human-readable name.
-* **graphdb** - The graph database server to connect.
+* **graphdb** - The graph database server to connect to.
     * **vendor** - `neo4j`
     * **url** - `http://localhost:7474/` Linkurious will call the Neo4j REST API on this url.
     * **writeURL** (optional) - 
