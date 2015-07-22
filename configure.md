@@ -1,6 +1,6 @@
 ## Configure
 
-The configuration file is located at `linkurious/conf/production.json`.
+The configuration file is located at `linkurious/data/config/production.json`.
 
 #### Link to the Neo4j server
 
@@ -12,7 +12,7 @@ If it is the first time you run the Neo4j server and the version of Neo4j is >= 
 
 Configure Linkurious:
 
-- Open the file `linkurious/config/production.json` ;
+- Open the file `linkurious/data/config/production.json` ;
 - Check the `dataSources/graphdb` settings with the URL of the Neo4j server and set the credentials of the Neo4j server
 
 
