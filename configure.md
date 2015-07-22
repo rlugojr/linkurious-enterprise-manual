@@ -2,8 +2,7 @@
 
 **Skip this section if you launch Linkurious with default configuration. You can configure it anytime.**
 
-The configuration file is located at `linkurious/data/config/production.json`. It is a JSON file containing the following settings:
-
+The configuration file is located at `linkurious/data/config/production.json`. It is a JSON file divided in the following sections:
 
 * **dataSources** - The list of data sources to connect to
     * **graphdb** - The graph database server to connect
@@ -28,6 +27,19 @@ The configuration file is located at `linkurious/data/config/production.json`. I
        * You may edit the default styles of nodes and edges. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
    * **palette**
        * The default color palette of nodes and edges. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
+
+#### Data sources
+
+Linkurious can connect to multiple data sources at the same time. Data sources are configured within the **dataSources** key, which is a list of potential data sources. Each data source contains the following settings:
+
+* **name** (optional) - A human-readable name.
+* **graphdb** - The graph database server to connect.
+    * **vendor** - `neo4j`
+        * Default value `neo4j`. Linkurious will call the Neo4j REST API on .
+    * **url** - `http://localhost:7474/`
+* **index**
+    * The search engine.
+    * Default engine: `elasticSearch`.
 
 
 #### Link to the Neo4j server
