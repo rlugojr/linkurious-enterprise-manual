@@ -26,7 +26,9 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 
 #### Data sources
 
-Linkurious can connect to multiple data sources at the same time. Data sources are configured within the **dataSources** key, which is a list of potential data sources. Each data source contains the following settings:
+Data sources are servers accessible through the network (local, intranet or internet) with URLs to connect to. We assume that each data source serves a single graph database, however it may serve a different database the next time Linkurious will connect to it. For instance, you may load a database on your Neo4j server, then restart the server with another database. Linkurious will use the store ID to identify the database.
+
+Linkurious can connect to many data sources at the same time. Data sources are configured within the **dataSources** key, which is a list of potential data sources. Each data source contains the following settings:
 
 * **name** (optional) - A human-readable name.
 * **graphdb** - The graph database server to connect to.
