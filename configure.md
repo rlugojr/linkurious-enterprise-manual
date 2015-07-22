@@ -16,8 +16,8 @@ The configuration file is located at `linkurious/data/config/production.json`. I
     * Default database: an embedded SQLite database. You may switch to another SQL database for production.
 * **server**
     * The Linkurious server. :warning: Replace `cookieSecret` with your own value.
-* **logger** TODO
-    * TODO
+* **logger**
+    * Set the amount of server information stored. Default: `info` level.
 * **access** - The access rights
     * Enable authentication, configure LDAP authentication, set data read-only mode.
 * **clientAnalytics**
