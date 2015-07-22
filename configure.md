@@ -28,7 +28,8 @@ To enable LDAP authentication in Linkurious, edit the configuration file (`linku
 "access": {
   // [...]
   "ldap": {
-    // If true, Linkurious will try to connect to LDAP server on startup (using 'bindDN' and 'bindPassword')
+    // If true, Linkurious will try to connect to LDAP server on startup 
+    // using 'bindDN' and 'bindPassword'
     "enabled": true,
     // URL of the LDAP server to connect to
     "url": "ldap://ldap.forumsys.com:389",
