@@ -21,11 +21,11 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 * **access** - The access rights
     * Enable authentication, configure LDAP authentication, set data read-only mode.
 * **sigma**
-    * The settings of Sigma.js.
-* **styles**
-    * You may edit the default styles of nodes and edges. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
-* **palette**
-    * The default color palette of nodes and edges. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
+    * The settings of Sigma.js. You should only edit the following:
+   * **styles**
+       * You may edit the default styles of nodes and edges. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
+   * **palette**
+       * The default color palette of nodes and edges. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
 
 
 #### Link to the Neo4j server
