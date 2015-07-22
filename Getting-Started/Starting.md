@@ -2,7 +2,7 @@
 
 ### Run on Linux systems
 
-### Run on Linux systems
+### Run on MAC OS X
 
 ### Run on Windows
 
