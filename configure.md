@@ -36,6 +36,9 @@ Linkurious can connect to multiple data sources at the same time. Data sources a
 * **graphdb** - The graph database server to connect.
     * **vendor** - `neo4j`
     * **url** - `http://localhost:7474/` Linkurious will call the Neo4j REST API on this url.
+    * **writeURL** (optional) - 
+    * **user** (optional) - 
+    * **password** (optional) - 
 * **index**
     * The search engine.
     * Default engine: `elasticSearch`.
