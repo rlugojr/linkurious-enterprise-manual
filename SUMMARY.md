@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Configure
 * [Getting Started](Getting-Started/README.md)
    * [Requirements](Other_Topics/requirements.md)
    * [Download](Getting-Started/Downloading.md)
