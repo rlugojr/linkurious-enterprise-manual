@@ -17,7 +17,7 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 * **server**
     * The Linkurious server. :warning: Replace `cookieSecret` with your own value.
 * **logger**
-    * Set the amount of server information stored. Default: `info` level.
+    * Set the amount of server information stored. Default: `info` level. Available levels: `debug`, `error`.
 * **access** - The access rights
     * Enable authentication, configure LDAP authentication, set data read-only mode.
 * **clientAnalytics**
