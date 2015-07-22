@@ -5,7 +5,7 @@
    * [Requirements](Other_Topics/requirements.md)
    * [Download](Getting-Started/Downloading.md)
    * [Install](Getting-Started/Installing.md)
-   * Configure
+   * [Configure](configure.md)
    * [Start Linkurious Enterprise](Getting-Started/Starting.md)
 * [Build your first graph visualization](Building-Your-First-Graph-Visualization/README.md)
    * [At first glance](Building-Your-First-Graph-Visualization/At_First_Glance.md)
