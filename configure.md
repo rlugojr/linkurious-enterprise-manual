@@ -21,7 +21,7 @@ Configure Linkurious:
 
 In Linkurious, Administrators manage other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably OpenLDAP or Active Directory), users are authenticated each time they sign in. If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious.
 
-To enable LDAP authentication in Linkurious, edit the configuration file and add an `ldap` section under `access`:
+To enable LDAP authentication in Linkurious, edit the configuration file and add an `ldap` section inside `access`:
 
 ```JavaScript
 "access": {
