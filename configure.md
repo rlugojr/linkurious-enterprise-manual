@@ -18,12 +18,12 @@ The configuration file is located at `linkurious/data/config/production.json`. I
     * The Linkurious server. :warning: Replace `cookieSecret` with your own value.
 * **logger** TODO
     * TODO
-* **access** - The permissions of the Linkurious client
-    * Enable authentication, configure LDAP authentication, data read-only mode.
+* **access** - The access rights
+    * Enable authentication, configure LDAP authentication, set data read-only mode.
 * **sigma**
     * The settings of Sigma.js.
 * **styles**
-    * The default styles of nodes and edges. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
+    * You may edit the default styles of nodes and edges, and the color palette. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
 * **palette**
     * The default color palette of nodes and edges. See [sigma.plugins.designer](https://github.com/Linkurious/sigma.js/tree/plugin/designer/plugins/sigma.plugins.designer) to learn more.
 
