@@ -5,10 +5,6 @@
 The configuration file is located at `linkurious/data/config/production.json`. It is a JSON file divided in the following sections:
 
 * **dataSources** - The list of data sources to connect to
-    * **graphdb** - The graph database server to connect
-        * Default data store: Neo4j. Linkurious will call the Neo4j REST API on `http://localhost:7474/`.
-    * **index** - The search engine
-        * Default engine: `elasticSearch`.
 * **allSources** - General settings
     * Configure shortest paths, indexing, node expand and search limits, minimal search query length.
 * **db** - The internal data store of Linkurious
