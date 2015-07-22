@@ -51,7 +51,7 @@ To enable LDAP authentication in Linkurious, edit the configuration file (`linku
 
 #### Link to the search engine
 
-The embedded ElasticSearch engine may be replaced by your own ElasticSearch cluster. Edit the configuration file to set the `dataSources/index` settings with the URL and credentials of your ElasticSearch cluster. Linkurious will create an index for each graph database using the namespace `linkurious_` on index names.
+The embedded ElasticSearch engine may be replaced by your own ElasticSearch cluster. Edit the configuration file to set the `dataSources/index` settings with the URL and credentials of your ElasticSearch cluster. Linkurious will create an index for each graph database, with index names prefixed by `linkurious_`.
 
 #### Secured connections
 
