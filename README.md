@@ -11,4 +11,6 @@ Just like our software, this guide assumes no prior knowledge of graph visualiza
 
 Version of Linkurious Enterprise: v0.8.0 ("Quarrelsome Quetzalcoatl")
 
-Last update: 24/04/2015
+**WORK-IN-PROGRESS TO UPGRADE TO v0.10**
+
+Last update: 22/07/2015
