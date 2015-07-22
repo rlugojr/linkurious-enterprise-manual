@@ -9,6 +9,7 @@
    * [Start](Getting-Started/Starting.md)
    * [Stop](stop.md)
    * [Backup](backup.md)
+   * Monitoring
 * [Build your first graph visualization](Building-Your-First-Graph-Visualization/README.md)
    * [At first glance](Building-Your-First-Graph-Visualization/At_First_Glance.md)
    * [Create a new visualization](Building-Your-First-Graph-Visualization/Creating A New Visualization.md)
