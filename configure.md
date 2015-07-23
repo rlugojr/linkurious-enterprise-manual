@@ -1,6 +1,6 @@
 ## Configure
 
-**Skip this section if you launch Linkurious with default configuration. You can configure it anytime.**
+**Skip this section if you launch Linkurious with the default configuration. You can configure it anytime.**
 
 The configuration file is located at `linkurious/data/config/production.json`. It is a JSON file divided in the following sections:
 
@@ -49,22 +49,22 @@ The following settings applies to all data sources. They are available in the **
 
 General settings:
 
-* **connectionRetries** - `10`.
-* **pollInterval** - `10`.
+* **connectionRetries** - `10`. The maximum number of connection attempts to each data source and to the search engine before stating them as disconnected.
+* **pollInterval** - `10`. Check if the data sources and search engine are connected at each interval (in second).
 
 Search engine settings:
 
-* **indexationChunkSize** - `5000`.
-* **searchAddAllThreshold** - `500`.
-* **searchThreshold** - `3000`.
-* **minSearchQueryLength** - `3`.
+* **indexationChunkSize** - `5000`. The number of nodes and edges retrieved at each batch during indexing the graph database.
+* **searchAddAllThreshold** - `500`. The maximum number of search results that the User can add to a Visualization at once.
+* **searchThreshold** - `3000`. The maximum number of search results that can be returned.
+* **minSearchQueryLength** - `3`. The number of characters needed to trigger a search query. Set `1` to provide live results from the first character typed by the User.
 
 Graph exploration settings:
 
 * **maxPathLength** - `20`. The maximum shortest path length returned by Linkurious. Finding the shortest paths is a costly operation. Setting a small number will limit the resources used by the data source for performing this operation, and will return results faster.
 * **shortestPathsMaxResults** - `10`. The maximum of shortest paths returned.
-* **rawQueryTimeout** - `1000`. Abandon a query to the database if the time is over.
-* **expandThreshold** - `10`. When users expand a node with too many neighbors, Linkurious will ask to refine the query so that fewer neighbors are returned.
+* **rawQueryTimeout** - `1000`. Abandon a query to the database if the time is over (in second).
+* **expandThreshold** - `10`. When the User expands a node with too many neighbors, Linkurious will ask to refine the query so that fewer neighbors are returned.
 
 #### Link to the Neo4j server
 
