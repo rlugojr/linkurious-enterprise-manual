@@ -8,7 +8,6 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 * **allSources** - General settings
     * Configure shortest paths, indexing, node expand and search limits, minimal search query length.
 * **db** - The internal data store of Linkurious
-    * Default database: an embedded SQLite database. You may switch to another SQL database for production.
 * **server** - The Linkurious server. <span class="label label-danger">Replace `cookieSecret` with your own value.</span>
 * **logger** - The amount of information logged by the server.
 * **access** - The access rights
@@ -85,6 +84,55 @@ Linkurious will connect to it the next time you start it.
 
 The embedded ElasticSearch engine may be replaced by your own ElasticSearch cluster. Edit the configuration file to set the `index` settings of the data source with the URL and credentials of your ElasticSearch cluster. Linkurious will create an index for each graph database, with index names prefixed by `linkurious_`.
 
+#### Internal data store
+
+Linkurious stores information such as visualizations, users, and permissions into a data store different from the graph databases. By default, Linkurious uses an SQLite database. MySQL and PostgreSQL are also available.
+
+The internal data store is configured within the `db` key:
+
+* **name** - `"linkurious"`. The name of the database.
+* **username** (optional) - The username of the admin user of the database.
+* **password** (optional) - The password of the admin user of the database.
+* **options** - 
+    * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"postgres"`.
+    * **storage** (optional) - `"data/server/database.sqlite"`. The relative path to the database file. Required for SQLite.
+    * **host** (optional) - Required for MySQL and PostgreSQL.
+    * **port** (optional) - Required for MySQL and PostgreSQL.
+
+
+<div class="alert alert-warning">
+    <i class="octicon octicon-stop"></i> GLIBC >= v1.14 must be installed on the server for SQLite. You can check the version available on unix systems on http://distrowatch.com .
+</div>
+
+#### Web server
+
+The web server of Linkurious delivers the application to end users. It is configured within the `server` key:
+
+* **listenPort** - `3000`. The port of the web server.
+* **listenPortHttps** - `3443`. The port of the web server if HTTPS is enabled.
+* **cookieSecret** - `"xyz"`. The secret key used to encrypt the session cookie. <span class="label label-danger">Replace it with your own value.</span>
+* **allowOrigin** - `"*"`. Define the cross-origin resource sharing (CORS) policy. Accept cross-site HTTP/S requests by default (wildcard).
+* **cookieDomain** (optional) -  
+* **useHttps** - `false`. Encrypts communications through HTTPS if `true`. Require a valid SSL certificate.
+* **forceHttps** - `false`. Force all traffic to use HTTPS only if `true`. The server will reject all HTTP requests.
+* **certificateFile** (optional) - The relative path to the SSL certificate.
+* **certificateKeyFile** (optional) - The relative path to a public key of the SSL certificate.
+
+#### Logger
+
+The logger is configured within the `logger` key:
+
+* **level** - `"info"`. Set the amount of server information stored. Available levels: `debug`, `error`.
+
+#### Access rights
+
+The user access system is configured within the `access` key:
+
+* **authRequired** - `false`. Reject requests of anonymous users if `true`.
+* **dataEdition** - `true`. Allows the creation, edition, and deletion of nodes and edges in all data sources.
+* **loginTimeout** - `3600`. Disconnect users after a period of inactivity (in second).
+* **ldap** - The connection to the LDAP service (see below).
+
 #### Connect to the LDAP service
 
 In Linkurious, Administrators manage other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably OpenLDAP or Active Directory), users are authenticated each time they sign in. If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious.
@@ -116,51 +164,13 @@ To enable LDAP authentication in Linkurious, edit the configuration file and add
 }
 ```
 
-#### Internal data store
-
-Linkurious stores information such as visualizations, users, and permissions into a data store different from the graph databases. By default, Linkurious uses an SQLite database. MySQL and PostgreSQL are also available.
-
-The internal data store is configured within the `db` key:
-
-* **name** - `"linkurious"`. The name of the database.
-* **username** (optional) - The username of the admin user of the database.
-* **password** (optional) - The password of the admin user of the database.
-* **options** - 
-    * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"postgres"`.
-    * **storage** (optional) - `"data/server/database.sqlite"`. The relative path to the database file. Required for SQLite.
-    * **host** (optional) - Required for MySQL and PostgreSQL.
-    * **port** (optional) - Required for MySQL and PostgreSQL.
-
-
-<div class="alert alert-warning">
-    <i class="octicon octicon-stop"></i> GLIBC >= v1.14 must be installed on the server for SQLite. You can check the version available on unix systems on http://distrowatch.com .
-</div>
-
-#### Web server
-
-The web server of Linkurious delivers the application to end users. It is configured within the `server` key:
-
-* **listenPort** - `3000`. 
-* **listenPortHttps** - `3443`.
-* **cookieSecret** - `"xyz"`. 
-* **allowOrigin** - `"info"`. 
-* **cookieDomain** - `"info"`. 
-* **useHttps** - `"info"`. 
-* **forceHttps** - `"info"`. 
-* **certificateFile** - `"info"`. 
-* **certificateKeyFile** - `"info"`. 
-
-#### Logger
-
-The logger is configured within the `logger` key:
-
-* **level** - `"info"`. Set the amount of server information stored. Available levels: `debug`, `error`.
-
-#### Access rights
-
-
 #### Client analytics
 
+Log user actions in the client to your Google Analytics account (disabled by default). It is configured within the `clientAnalytics` key:
+
+* **enabled** - `false`. 
+* **code** - Universal Analytics code of the form "UA-XXXXX-xx".
+* **domain** - `"none"`. 
 
 #### Default style of visualizations
 
