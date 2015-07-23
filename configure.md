@@ -11,8 +11,7 @@ The configuration file is located at `linkurious/data/config/production.json`. I
     * Default database: an embedded SQLite database. You may switch to another SQL database for production.
 * **server**
     * The Linkurious server. :warning: Replace `cookieSecret` with your own value.
-* **logger**
-    * Set the amount of server information stored. Default: `info` level. Available levels: `debug`, `error`.
+* **logger** - The amount of information logged by the server.
 * **access** - The access rights
     * Enable authentication, configure LDAP authentication, set data read-only mode.
 * **clientAnalytics**
@@ -43,7 +42,7 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
     * **host** - `"localhost"`.
     * **port** - `9200`.
-    * **forceReindex** - `false`. If `true`, Linkurious will akways re-index the graph database on startup.
+    * **forceReindex** - `false`. If `true`, Linkurious will always re-index the graph database on startup.
 
 The following settings applies to all data sources. They are available in the **allSources** key.
 
@@ -66,20 +65,28 @@ Graph exploration settings:
 * **rawQueryTimeout** - `1000`. Abandon a query to the database if the time is over (in second).
 * **expandThreshold** - `10`. When the User expands a node with too many neighbors, Linkurious will ask to refine the query so that fewer neighbors are returned.
 
-#### Link to the Neo4j server
+#### Connect to a Neo4j server
 
 If it is the first time you run the Neo4j server and you use Neo4j v2.2 or a more recent version:
 
 1. Launch the Neo4j server;
 - Open the browser at location http://localhost:7474 ;
-- Set a new login and password, and remember them to configure Linkurious.
+- Set a new user and password, and remember them to configure Linkurious.
 
 Configure Linkurious:
 
 - Open the configuration file;
-- Check the `dataSources/graphdb` settings with the URL of the Neo4j server and set the credentials of the Neo4j server.
+- Find the `graphdb` settings of the data source;
+- Set the URL of the Neo4j server;
+- Set the user and password of the Neo4j server.
 
-#### Link to the LDAP service
+Linkurious will connect to it the next time you start it.
+
+#### Connect to the search engine
+
+The embedded ElasticSearch engine may be replaced by your own ElasticSearch cluster. Edit the configuration file to set the `index` settings of the data source with the URL and credentials of your ElasticSearch cluster. Linkurious will create an index for each graph database, with index names prefixed by `linkurious_`.
+
+#### Connect to the LDAP service
 
 In Linkurious, Administrators manage other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably OpenLDAP or Active Directory), users are authenticated each time they sign in. If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious.
 
@@ -110,10 +117,34 @@ To enable LDAP authentication in Linkurious, edit the configuration file and add
 }
 ```
 
-#### Link to the search engine
+#### Internal data store
 
-The embedded ElasticSearch engine may be replaced by your own ElasticSearch cluster. Edit the configuration file to set the `dataSources/index` settings with the URL and credentials of your ElasticSearch cluster. Linkurious will create an index for each graph database, with index names prefixed by `linkurious_`.
+Linkurious stores information such as visualizations, users, and permissions into a data store different from the graph databases. By default, Linkurious uses an SQLite database. MySQL and PostgreSQL are also available.
 
-#### Secured connection through HTTPS
+The internal data store is configured within the `db` key:
 
-TODO
+* **name** - `"linkurious"`. The name of the database.
+* **username** (optional) - The username of the admin user of the database.
+* **password** (optional) - The password of the admin user of the database.
+* **options** - 
+    * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"postgres"`.
+    * **storage** (optional) - `"data/server/database.sqlite"`. The relative path to the database file. Required for SQLite.
+    * **host** (optional) - Required for MySQL and PostgreSQL.
+    * **port** (optional) - Required for MySQL and PostgreSQL.
+
+#### Web server
+
+
+#### Logger
+
+* **level** - `"info"`. Set the amount of server information stored. Available levels: `debug`, `error`.
+
+#### Access rights
+
+
+#### Client analytics
+
+
+#### Default style of visualizations
+
+
