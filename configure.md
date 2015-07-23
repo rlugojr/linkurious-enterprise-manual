@@ -45,18 +45,26 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **port** - `9200`.
     * **forceReindex** - `false`. If `true`, Linkurious will akways re-index the graph database on startup.
 
-The settings that applies to all data sources are available in the **allSources** key.
+The following settings applies to all data sources. They are available in the **allSources** key.
 
-* **maxPathLength** - `20`. The maximum shortest path length returned by Linkurious. Finding the shortests paths is a costly operation. Setting a small number will limit the resources used by the data source for performing this operation, and will return results faster.
-* **shortestPathsMaxResults** - `10`. 
+General settings:
+
 * **connectionRetries** - `10`.
 * **pollInterval** - `10`.
+
+Search engine settings:
+
 * **indexationChunkSize** - `5000`.
-* **expandThreshold** - `10`.
 * **searchAddAllThreshold** - `500`.
 * **searchThreshold** - `3000`.
 * **minSearchQueryLength** - `3`.
-* **rawQueryTimeout** - `1000`.
+
+Graph exploration settings:
+
+* **maxPathLength** - `20`. The maximum shortest path length returned by Linkurious. Finding the shortest paths is a costly operation. Setting a small number will limit the resources used by the data source for performing this operation, and will return results faster.
+* **shortestPathsMaxResults** - `10`. The maximum of shortest paths returned.
+* **rawQueryTimeout** - `1000`. Abandon a query to the database if the time is over.
+* **expandThreshold** - `10`. When users expand a node with too many neighbors, Linkurious will ask to refine the query so that fewer neighbors are returned.
 
 #### Link to the Neo4j server
 
