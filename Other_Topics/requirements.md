@@ -17,7 +17,9 @@ End users will access Linkurious through a web browser. All modern browsers are 
 The embedded ElasticSearch engine requires Java 8 to run properly.
 **The JAVA_HOME environment variable must be set up**, see [how to do it on Windows here](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html).
 
-GLIBC >= v1.14 must be installed on your computer. You can check the version available on unix systems on http://distrowatch.com .
+<div class="alert alert-warning">
+    <i class="octicon octicon-stop"></i> GLIBC >= v1.14 must be installed on your computer. You can check the version available on unix systems on http://distrowatch.com .
+</div>
 
 The Linkurious platform connects to remote data sources through HTTP or HTTPS. We currently support Neo4j servers version 2.0 and higher. Neo4j from Neo Technology is the leading graph database system on the market. You can calculate Neo4j's hardware requirements [here](http://neo4j.com/developer/guide-sizing-and-hardware-calculator/).
 
