@@ -9,8 +9,7 @@ The configuration file is located at `linkurious/data/config/production.json`. I
     * Configure shortest paths, indexing, node expand and search limits, minimal search query length.
 * **db** - The internal data store of Linkurious
     * Default database: an embedded SQLite database. You may switch to another SQL database for production.
-* **server**
-    * The Linkurious server. :warning: Replace `cookieSecret` with your own value.
+* **server** - The Linkurious server. <span class="label label-danger">Replace `cookieSecret` with your own value.</span>
 * **logger** - The amount of information logged by the server.
 * **access** - The access rights
     * Enable authentication, configure LDAP authentication, set data read-only mode.
@@ -134,13 +133,26 @@ The internal data store is configured within the `db` key:
 
 
 <div class="alert alert-warning">
-    <i class="octicon octicon-stop"></i> GLIBC >= v1.14 must be installed on your computer for SQLite. You can check the version available on unix systems on http://distrowatch.com .
+    <i class="octicon octicon-stop"></i> GLIBC >= v1.14 must be installed on the server for SQLite. You can check the version available on unix systems on http://distrowatch.com .
 </div>
 
 #### Web server
 
+The web server of Linkurious delivers the application to end users. It is configured within the `server` key:
+
+* **listenPort** - `3000`. 
+* **listenPortHttps** - `3443`.
+* **cookieSecret** - `"xyz"`. 
+* **allowOrigin** - `"info"`. 
+* **cookieDomain** - `"info"`. 
+* **useHttps** - `"info"`. 
+* **forceHttps** - `"info"`. 
+* **certificateFile** - `"info"`. 
+* **certificateKeyFile** - `"info"`. 
 
 #### Logger
+
+The logger is configured within the `logger` key:
 
 * **level** - `"info"`. Set the amount of server information stored. Available levels: `debug`, `error`.
 
