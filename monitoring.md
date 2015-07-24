@@ -1,5 +1,8 @@
 ## Monitoring
 
+### Architecture
+
+TODO architecture schema
 
 ### Live status
 
