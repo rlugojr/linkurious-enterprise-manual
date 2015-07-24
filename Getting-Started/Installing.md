@@ -21,7 +21,7 @@
 
 4. If you need to change the URL of Neo4j or specify a user/password, edit the configuration file with your favorite editor. When adding a user/password, remember to put these strings between quotes (`"`).
 
-5. You your deployment is security critical, please make sure that you are not running Linkurious with a `root` account.
+5. If your deployment is security critical, please make sure that you are not running Linkurious with a `root` account.
 
 6. Start Linkurious: `>./start.sh`. Example output:
 ```Text
@@ -73,7 +73,7 @@ Linkurious is ready at URL: http://127.0.0.1:3000/
 
 4. If you need to change the URL of Neo4j or specify a user/password, edit the configuration file with your favorite editor. When adding a user/password, remember to put these strings between quotes (`"`).
 
-5. You your deployment is security critical, please make sure that you are not running Linkurious with a `root` account.
+5. If your deployment is security critical, please make sure that you are not running Linkurious with a `root` account.
 
 6. Start Linkurious: `>./start.sh.command`. Example output:
 ```Text
