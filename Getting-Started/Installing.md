@@ -48,7 +48,9 @@ Linkurious is ready at URL: http://127.0.0.1:3000/
 ```
 
 7. As you can notice, the Linkurious server is available by default on port 3000. However, some firewalls block network traffic ports other than 80 (HTTP) and 443 (HTTPS). Since only `root` users can use there ports, you may want reroute traffic from 80 to 3000 as follows:
-`> sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000`
+```
+>sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000
+```
 
 ### Mac OSX systems
 
