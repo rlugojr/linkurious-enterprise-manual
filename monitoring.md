@@ -4,10 +4,10 @@
 
 TODO architecture schema
 
-### Live status
+### Web status
 
-TODO:
+TODO GET queries
 
 ### Process monitoring
 
-TODO 
+TODO name of processes, menu
