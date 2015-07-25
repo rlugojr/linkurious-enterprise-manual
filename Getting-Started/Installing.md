@@ -55,4 +55,3 @@
 
 ![linkurious enterprise folder](https://dl.dropboxusercontent.com/s/l06cj5kmlrku3ls/12.png?dl=0)
 
-Double-click on `start.bat`.
