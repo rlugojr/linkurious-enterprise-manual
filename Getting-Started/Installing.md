@@ -21,7 +21,7 @@
 
 4. If you need to change the URL of Neo4j or specify a user/password, edit the configuration file with your favorite editor. When adding a user/password, remember to put these strings between quotes (`"`).
 
-5. If your deployment is security critical, please make sure that you are not running Linkurious with a `root` account.
+5. If your deployment is security critical, please make sure that you will not run Linkurious with a `root` account.
 
 ### Mac OSX systems
 
@@ -44,31 +44,7 @@
 
 4. If you need to change the URL of Neo4j or specify a user/password, edit the configuration file with your favorite editor. When adding a user/password, remember to put these strings between quotes (`"`).
 
-5. If your deployment is security critical, please make sure that you are not running Linkurious with a `root` account.
-
-6. Start Linkurious: `>./start.sh.command`. Example output:
-```Text
-info: Loaded configuration from file (production)
-[PM2] Spawning PM2 daemon
-[PM2] PM2 Successfully daemonized
-info: Started: Linkurious Server.
-info: Started: ElasticSearch Server.
-info: Starting Linkurious Enterprise v0.10.0
-info: Loaded configuration from file (production)
-info: Status [Linkurious] 100 : Starting Linkurious in production mode... 
-info: Status [SqlDB] 100 : Starting SQL database 
-info: Status [DataService] 100 : Starting data service. 
-info: Status [WebServer] 100 : Starting Web Server
-info: First run, initialization ...
-info: Status [SqlDB] 101 : The SQL database is up.
-info: Status [SqlDB] 200 : The SQL database is synced.
-info: Status [WebServer] 200 : The Web server is listening on port 3000 (HTTP)
-info: Data-source #0 connected successfully (graph:neo4j v2.1.6 - index:elasticSearch v1.4.5)
-info: Status [DataService] 200 : 1 data-sources connected. 
-info: Status [Linkurious] 200 : Linkurious ready to go :) 
-info: Status [DataService] 201 : A data-source is currently indexing.
-Linkurious is ready at URL: http://127.0.0.1:3000/
-```
+5. If your deployment is security critical, please make sure that you will not run Linkurious with a `root` account.
 
 
 ### Windows systems
