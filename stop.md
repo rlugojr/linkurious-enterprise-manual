@@ -3,13 +3,12 @@
 
 ### Stop on Linux systems
 
-TODO
-
+In the folder of Linkurious, click on the `stop` file.
 
 ### Stop on Mac OS X
 
-TODO
+In the folder of Linkurious, click on the `stop` file.
 
 ### Stop on Windows
 
-TODO
+In the folder of Linkurious, click on the `stop` file.
