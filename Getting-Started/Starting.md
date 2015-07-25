@@ -76,10 +76,10 @@ Once the Neo4j server has successfully started, go to the folder of Linkurious.
 
 Click on the ```start``` file. Linkurious starts and invites you to open up your browser to http://localhost:3000 to access the user interface.
 
-![linkurious enterprise startup](https://dl.dropboxusercontent.com/s/adrxil2q8ysfry5/16.png?dl=0)
+![linkurious enterprise startup](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/140.png)
 
 <div class="alert alert-warning">
-    <i class="octicon octicon-stop"></i> The firewall of Windows might ask you to authorize connections with Linkurious: if so, click Yes.
+    <i class="octicon octicon-stop"></i> The firewall of Windows might ask you to authorize connections with Linkurious: if so, click on Authorize access.
 </div>
 
 Linkurious will index the graph database the first time you launch it. You can follow the indexing progress in the terminal. Once done you can use Linkurious!
