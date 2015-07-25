@@ -106,7 +106,11 @@ The internal data store is configured within the `db` key:
 
 The web server of Linkurious delivers the application to end users through HTTP/S. It is configured within the `server` key:
 
-* **listenPort** - `3000`. The port of the web server. See the Install section to learn why you should not set `80` directly.
+* **listenPort** - `3000`. The port of the web server. Some firewalls block network traffic ports other than 80 (HTTP). Since only `root` users can listen on ports < 1024, you may want reroute traffic from 80 to 3000 as follows.
+
+```
+>sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000
+```
 
 ### Security
 
