@@ -3,7 +3,9 @@
 ### Run on Linux systems
 
 
-Start Linkurious: `>./start.sh`. Example output:
+Start Linkurious: `>./start.sh`. 
+
+**Example output:**
 ```Text
 info: Loaded configuration from file (production)
 [PM2] Spawning PM2 daemon
@@ -33,7 +35,9 @@ As you can notice, the Linkurious server is available by default on port 3000. H
 ### Run on MAC OS X
 
 
-Start Linkurious: `>./start.sh.command`. Example output:
+Start Linkurious: `>./start.sh.command`. 
+
+**Example output:** 
 ```Text
 info: Loaded configuration from file (production)
 [PM2] Spawning PM2 daemon
