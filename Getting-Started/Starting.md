@@ -67,7 +67,8 @@ Linkurious is ready at URL: http://127.0.0.1:3000/
 
 First of all, in order to use Linkurious you need to [launch Neo4j](http://neo4j.com/download/).
 
-![launching neo4j](https://dl.dropboxusercontent.com/s/6sm5ja9ubvw5xhk/14.png?dl=0)
+
+![launching neo4j](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/138.png)
 
 Once the Neo4j server has successfully started, go to the folder of Linkurious.
 
