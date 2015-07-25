@@ -27,10 +27,7 @@ info: Status [DataService] 201 : A data-source is currently indexing.
 Linkurious is ready at URL: http://127.0.0.1:3000/
 ```
 
-As you can notice, the Linkurious server is available by default on port 3000. However, some firewalls block network traffic ports other than 80 (HTTP). Since only `root` users can listen on this ports, you may want reroute traffic from 80 to 3000.
-```
->sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000
-```
+As you can notice, the Linkurious server is available by default on port 3000. However, some firewalls block network traffic ports other than 80 (HTTP). See the Configure section to listen traffic on port 80.
 
 
 ### Run on MAC OS X
