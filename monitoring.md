@@ -1,6 +1,6 @@
 ## Monitoring
 
-### Web status
+### Status
 
 TODO GET queries
 
