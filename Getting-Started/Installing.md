@@ -108,3 +108,4 @@ Linkurious is ready at URL: http://127.0.0.1:3000/
 
 ![linkurious enterprise folder](https://dl.dropboxusercontent.com/s/l06cj5kmlrku3ls/12.png?dl=0)
 
+Double-click on `start.bat`.
