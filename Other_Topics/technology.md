@@ -2,13 +2,26 @@
 
 ![architecture](https://linkurio.us/images/lke-technical-diagram.svg)
 
-Linkurious is the sum of two components: the frontend, running in the web browser and providing the user interface, and the backend, server component connected to the graph database. The backend provides a fast search engine and runs on any system able to support node.js, including Windows, Linux and Mac OS.
+Linkurious Enterprise is the sum of two components:
 
-While we ship a lightweight search engine fully running in memory, it can easily be switched to another engine such as Apache Lucene. The graph database can be located on the same machine as the backend or on any other machine in your network.
+* the Web client, whichs runs in a browser and provides users with a graphical interface to explore graphs visually;
+* the platform, which is a middleware server application that provides REST services to search and browse graphs, edit graph data, build and share visualizations.
 
-Below is a list of the open source technologies we use. They have proven to be efficient and reliable:
+The platform contains:
+* a graph module, which enables graph data access and edition;
+* a search module, which enables advanced search in graph nodes and relationships data;
+* an access module, which enables managing and applying data-access and data-edition restictions to user groups;
+* a persistence module, to save visualizations and other items to disk.
 
-* [Angular.js](https://angularjs.org/)
-* [Sigma.js](http://sigmajs.org/)
-* [ElasticSearch](http://www.elasticsearch.org/)
-* [Node.js](http://nodejs.org/)
+The platform runs on any system able to support Java and Node.js, including Windows, Linux and Mac OS.
+
+The Linkurious platform communicates with your Neo4j graph database and your ElasticSearch index (existing in your infrastructure, or built-in) through HTTP APIs: each components may run on different computers on your network.
+
+Linkurious Enterprise is based on Open Source technology:
+
+* the platform is built on top of [Node.js](http://nodejs.org/) to enable high performance on any modern Linux, Mac or Windows computer;
+* the platform's search module uses [ElasticSearch](http://www.elasticsearch.org/) for real-time full-text search in nodes and relationships;
+* the platform's persistence module uses [Sequelize.js](http://docs.sequelizejs.com/en/latest/) to enable persistence to [SQLite](https://sqlite.org/), [MySQL](https://www.mysql.com/) or [PostgreSQL](http://www.postgresql.org/) with minimal configuration;
+* the client is built using [Angular.js](https://angularjs.org/) for a smooth cross-browser user experience;
+* the client's interactive visualizations are powered by [Linkurious.js](https://github.com/Linkurious/linkurious.js) for high performances and advanced interactions with graphs in the browser.
+
