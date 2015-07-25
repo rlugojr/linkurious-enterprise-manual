@@ -3,11 +3,11 @@
 
 ### Stop on Linux systems
 
-In the folder of Linkurious, click on the `stop` file.
+Go to the folder of Linkurious, then run `>./stop.sh`. 
 
 ### Stop on Mac OS X
 
-In the folder of Linkurious, click on the `stop` file.
+Go to the folder of Linkurious, then run `>./stop.sh`.
 
 ### Stop on Windows
 
