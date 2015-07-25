@@ -1,6 +1,6 @@
 ## Technology
 
-![architecture](https://dl.dropboxusercontent.com/s/ns4ivtk0omo2det/117.svg?dl=0)
+![architecture](https://linkurio.us/images/lke-technical-diagram.svg)
 
 Linkurious is the sum of two components: the frontend, running in the web browser and providing the user interface, and the backend, server component connected to the graph database. The backend provides a fast search engine and runs on any system able to support node.js, including Windows, Linux and Mac OS.
 
