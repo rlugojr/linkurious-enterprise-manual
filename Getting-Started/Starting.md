@@ -72,7 +72,7 @@ First of all, in order to use Linkurious you need to [launch Neo4j](http://neo4j
 
 Once the Neo4j server has successfully started, go to the folder of Linkurious.
 
-![picture of the dashboard](https://dl.dropboxusercontent.com/s/ml00vswfi4ggipt/13.png?dl=0)
+![folder](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/139.png)
 
 Click on the ```start``` file. Linkurious starts and invites you to open up your browser to http://localhost:3000 to access the user interface.
 
