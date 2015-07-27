@@ -14,19 +14,17 @@ Available `styles.edges.by` values:
 - "data.type"
 - "data.properties"
 
-The following example set colors and icons to node categories COMPANY, CITY, MARKET, INVESTOR, and edge types HAS_CITY, HAS_MARKED, INVESTED_IN.
+#### Color mapping
 
-**Example;**
+The following example set colors to node categories COMPANY, CITY, MARKET, INVESTOR, and edge types HAS_CITY, HAS_MARKED, INVESTED_IN.
+
+**Example for qualitative properties:**
 ```json
 "styles": {
   "nodes": {
     "color": {
       "by": "data.categories",
       "scheme": "nodes.qualitative.my_scheme"
-    },
-    "icon": {
-      "by": "data.categories",
-      "scheme": "nodes.icons.my_scheme"
     }
   },
   "edges": {
@@ -36,7 +34,6 @@ The following example set colors and icons to node categories COMPANY, CITY, MAR
     }
   }
 },
-
 "palette": {
   "nodes": {
     "qualitative": {
@@ -46,17 +43,8 @@ The following example set colors and icons to node categories COMPANY, CITY, MAR
         "MARKET": "#4EA4D4",
         "CITY": "#D4742C"
       }
-    },
-    "icons": {
-      "my_scheme": {
-        "INVESTOR": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf19c"},
-        "CITY": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf015"},
-        "COMPANY": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf135"},
-        "MARKET": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf219"}
-      }
     }
   },
-
   "edges": {
     "qualitative": {
       "my_scheme": {
@@ -71,8 +59,6 @@ The following example set colors and icons to node categories COMPANY, CITY, MAR
 
 Notice the codes for icons such has "\uf219"; they are unicode characters in the font FontAwesome, which contain more than 500 icons available in Linkurious. Get the complete character map at http://fortawesome.github.io/Font-Awesome/icons/ (select an icon to display the unicode).
 
-#### Color mapping
-
 
 
 #### Color palette
@@ -80,3 +66,32 @@ Notice the codes for icons such has "\uf219"; they are unicode characters in the
 Linkurious will always use 7 colors for quantitative properties of the nodes, and 3 colors only for edges. The human eye can distinguish a few colors only, so you should craft your palette carefully.
 
 TODO color generation
+
+
+#### Node icons
+
+The following example set icons to node categories COMPANY, CITY, MARKET, INVESTOR.
+
+**Example;**
+```json
+"styles": {
+  "nodes": {
+    "icon": {
+      "by": "data.categories",
+      "scheme": "nodes.icons.my_scheme"
+    }
+  }
+},
+"palette": {
+  "nodes": {
+    "icons": {
+      "my_scheme": {
+        "INVESTOR": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf19c"},
+        "CITY": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf015"},
+        "COMPANY": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf135"},
+        "MARKET": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf219"}
+      }
+    }
+  }
+}
+```
