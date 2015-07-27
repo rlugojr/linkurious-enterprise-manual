@@ -235,7 +235,9 @@ Available `by` values:
 - "data.categories"
 - "data.properties"
 
-**Example:**
+The following example set colors and icons to node categories COMPANY, CITY, MARKET, INVESTOR, and edge types HAS_CITY, HAS_MARKED, INVESTED_IN.
+
+**Example;**
 ```json
 "styles": {
   "nodes": {
@@ -269,8 +271,8 @@ Available `by` values:
     "icons": {
       "my_scheme": {
         "INVESTOR": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf19c"},
-        "CITY": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content":   "\uf015"},
-      "COMPANY": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content":   "\uf135"},
+        "CITY": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf015"},
+        "COMPANY": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf135"},
         "MARKET": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf219"}
       }
     }
@@ -278,15 +280,17 @@ Available `by` values:
 
   "edges": {
     "qualitative": {
-    "my_scheme": {
-      "INVESTED_IN": "#5FDAA2",
-      "HAS_CITY": "#DE6FBC",
-      "HAS_MARKET": "#4EA4D4"
+      "my_scheme": {
+        "INVESTED_IN": "#5FDAA2",
+        "HAS_CITY": "#DE6FBC",
+        "HAS_MARKET": "#4EA4D4"
+      }
     }
   }
 }
-}
 ```
+
+Notice the codes for icons such has "\uf219"; they are unicode characters in the font FontAwesome. Get the complete map at
 
 TODO see ticket on HelpScout
 
