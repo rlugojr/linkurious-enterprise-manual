@@ -67,8 +67,8 @@ The following example set colors and icons to node categories COMPANY, CITY, MAR
 }
 ```
 
-Notice the codes for icons such has "\uf219"; they are unicode characters in the font FontAwesome. Get the complete map at
+Notice the codes for icons such has "\uf219"; they are unicode characters in the font FontAwesome, which contain more than 500 icons available in Linkurious. Get the complete character map at http://fortawesome.github.io/Font-Awesome/icons/ (select an icon to display the unicode).
 
-TODO see ticket on HelpScout
+
 
 TODO color generation
