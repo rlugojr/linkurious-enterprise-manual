@@ -9,7 +9,8 @@ Palettes may contain color schemes for both quantitative and qualitative propert
 Schemes may be nested and be referenced in dot notation by the styles.
 
 Available `by` values:
-- "data.categories"
+- "data.categories" (nodes only)
+- "data.type" (edges only)
 - "data.properties"
 
 The following example set colors and icons to node categories COMPANY, CITY, MARKET, INVESTOR, and edge types HAS_CITY, HAS_MARKED, INVESTED_IN.
@@ -29,7 +30,7 @@ The following example set colors and icons to node categories COMPANY, CITY, MAR
   },
   "edges": {
     "color": {
-      "by": "data.categories",
+      "by": "data.type",
       "scheme": "edges.qualitative.my_scheme"
     }
   }
