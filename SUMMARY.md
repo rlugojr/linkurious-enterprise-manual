@@ -10,7 +10,7 @@
    * [Stop](stop.md)
    * [Backup](backup.md)
    * [Monitoring](monitoring.md)
-   * Styles
+   * [Styles](styles.md)
 * [Build your first graph visualization](Building-Your-First-Graph-Visualization/README.md)
    * [At first glance](Building-Your-First-Graph-Visualization/At_First_Glance.md)
    * [Create a new visualization](Building-Your-First-Graph-Visualization/Creating A New Visualization.md)
