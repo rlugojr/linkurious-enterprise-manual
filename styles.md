@@ -4,13 +4,14 @@ You can customize the default visual aspect of nodes and edges in new visualizat
 
 Visualization style is defined within the `sigma` key by the `styles` and color `palette`. Styles are mapping between visual variables such as colors or size, and data properties on nodes and edges.
 
-Palettes may contain color schemes for both quantitative and qualitative properties, as well as schemes for icons. Schemes for qualitative properties are dictionaries where keys are the property values, and values are the associated colors. Schemes for quantitative properties are dictionaries where keys are the number of property values, and the values are arrays of sequential colors.
+Palettes may contain color schemes for both quantitative and qualitative properties, as well as schemes for icons. Schemes for qualitative properties bind property values to colors. Schemes for quantitative properties bind the number of property values to lists of sequential colors. Schemes may be nested and be referenced in dot notation by the styles.
 
-Schemes may be nested and be referenced in dot notation by the styles.
+Available `styles.nodes.by` values:
+- "data.categories"
+- "data.properties"
 
-Available `by` values:
-- "data.categories" (nodes only)
-- "data.type" (edges only)
+Available `styles.edges.by` values:
+- "data.type"
 - "data.properties"
 
 The following example set colors and icons to node categories COMPANY, CITY, MARKET, INVESTOR, and edge types HAS_CITY, HAS_MARKED, INVESTED_IN.
@@ -70,6 +71,12 @@ The following example set colors and icons to node categories COMPANY, CITY, MAR
 
 Notice the codes for icons such has "\uf219"; they are unicode characters in the font FontAwesome, which contain more than 500 icons available in Linkurious. Get the complete character map at http://fortawesome.github.io/Font-Awesome/icons/ (select an icon to display the unicode).
 
+#### Color mapping
 
+
+
+#### Color palette
+
+Linkurious will always use 7 colors for quantitative properties of the nodes.
 
 TODO color generation
