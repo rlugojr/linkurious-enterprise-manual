@@ -1,6 +1,8 @@
 ## Configure
 
-**Skip this section if you launch Linkurious with the default configuration. You can modify the configuration anytime.**
+<div class="alert alert-info">
+    Skip this section if you launch Linkurious with the default configuration. You can modify the configuration anytime.
+</div>
 
 The configuration file is located at `linkurious/data/config/production.json`. It is a JSON file divided in the following sections:
 
