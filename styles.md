@@ -77,6 +77,6 @@ Notice the codes for icons such has "\uf219"; they are unicode characters in the
 
 #### Color palette
 
-Linkurious will always use 7 colors for quantitative properties of the nodes.
+Linkurious will always use 7 colors for quantitative properties of the nodes, and 3 colors only for edges. The human eye can distinguish a few colors only, so you should craft your palette carefully.
 
 TODO color generation
