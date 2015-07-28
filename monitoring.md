@@ -10,6 +10,8 @@ Linkurious starts 3 separate processes when launched:
 Check if these processes are alive by opening the menu from the Linkurious directory (see how on each operating system below). The menu looks like the following image:
 
 
+![color-scale](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/143.png)
+
 
 #### Linux systems
 
