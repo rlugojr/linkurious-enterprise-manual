@@ -12,13 +12,13 @@ We have used Crunchbase to create a graph of approximatively 75 000 nodes and an
 * investors;
 * markets.
 
-Companies and investors can be linked to cities by the ```HAS_CITY``` relationship.
+Companies and investors can be linked to cities by the `HAS_CITY` relationship.
 
-Companies can be linked to each other by the ```ACQUIRED``` relationship.
+Companies can be linked to each other by the `ACQUIRED` relationship.
 
-Investors and companies can be linked to each other by the ```INVESTED_IN``` relationship.
+Investors and companies can be linked to each other by the `INVESTED_IN` relationship.
 
-Companies can be linked to markets by the ```HAS_MARKET``` relationship.
+Companies can be linked to markets by the `HAS_MARKET` relationship.
 
 In order to follow the manual, we suggest you [download and install this dataset](http://linkurio.us/public/crunchbase-fr.db.zip).
 
