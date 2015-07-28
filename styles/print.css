@@ -1,5 +1,14 @@
 /* CSS for print */
 
+.mega-octicon, .octicon {
+    font: normal normal normal 16px/1 octicons;
+    display: inline-block;
+    text-decoration: none;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 /*-----------------*/
 /* ALERT */
 /*-----------------*/
