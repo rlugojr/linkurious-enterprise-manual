@@ -7,6 +7,10 @@ Linkurious starts 3 separate processes when launched:
 2. `node` (or `node.exe`): The Linkurious Server process
 3. `java` (or `java.exe`): The embedded [ElasticSearch](https://www.elastic.co/) indexation server.
 
+Check if these processes are alive by opening the menu from the Linkurious directory (see how on each operating system below). The menu looks like the following image:
+
+
+
 #### Linux systems
 
 Run `menu.sh` (the status is above the menu). Alternately, run `menu.sh status`.
