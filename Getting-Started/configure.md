@@ -10,12 +10,11 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 * **allSources** - Settings that apply to all data sources.
     * Configure shortest paths, indexing, node expand and search limits, minimal search query length.
 * **db** - The internal data store of Linkurious.
-* **server** - The Linkurious server. <span class="label label-danger">Replace `cookieSecret` with your own value.</span>
-* **logger** - The amount of information logged by the server.
+* **server** - The Linkurious server configuration.
 * **access** - The access rights.
     * Enable authentication, configure LDAP authentication, set data read-only mode.
 * **clientAnalytics**
-    * Log user actions in the client to your Google Analytics account (disabled by default).
+    * Log user actions in the client using a Google Analytics account (disabled by default).
 * **sigma** - The settings of Sigma.js.
     * You should only edit the styles and palette keys.
 
