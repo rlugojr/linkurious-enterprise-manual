@@ -1,6 +1,6 @@
 ## Administration panel
 
-To access the administrator dashboard, choose ```Administration``` on the top right corner of your screen.
+To access the administration dashboard, choose **Administration** on the top right corner of your screen.
 
 ![opening the admin panel](https://dl.dropboxusercontent.com/s/cbjnz7e3mwsu223/97.png?dl=0)
 
