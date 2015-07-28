@@ -8,7 +8,7 @@
 2. Enter the Linkurious folder: `>cd linkurious-linux`.
 
 3. Check the configuration and make sure that the URL of you Neo4j database is correctly specified: `>head ./data/config/production.json`. Example output:
-```JSON
+```JavaScript
 {
   "dataSources": [{
     "graphdb": {
@@ -22,6 +22,10 @@
 4. If you need to change the URL of Neo4j or specify a user/password, edit the configuration file with your favorite editor. When adding a user/password, remember to put these strings between quotes (`"`).
 
 5. If your deployment is security critical, please make sure that you will not run Linkurious with a `root` account.
+
+5. Make sure that Neo4j is running.
+
+6. Run `linkurious-linux\start.sh` to launch Linnkurious.
 
 ### Mac OSX systems
 
@@ -46,11 +50,56 @@
 
 5. If your deployment is security critical, please make sure that you will not run Linkurious with a `root` account.
 
+4. Make sure that Neo4j is running.
+
+5. Run `linkurious-osx\start.sh.command` to launch Linnkurious.
+
 ### Windows systems
 
-[Unzip](http://customize.org/help/How_To_Unzip_A_File) your copy of Linkurious in the folder of your choice (right-click on the file, then select "Unzip all").
+1. [Unzip](http://customize.org/help/How_To_Unzip_A_File) Linkurious' archive (right-click on `linkurious-windows-v0.10.0.zip`, then select "Extract all").
+
+2. Enter the Linkurious folder `linkurious-windows`.
+
+3. Open the configuration file `linkurious-windows\data\config\production.json` with WordPad or Notepad++, and make sure that the URL of your Neo4j database is correctly specified. If needed, update the username and password as well.
+```JavaScript
+{
+  "dataSources": [{
+    "graphdb": {
+      "vendor": "neo4j",
+      "url": "http://localhost:7474", // Neo4 URL
+      "user": null, // if needed, replace with the Neo4j user (between " quotes) 
+      "password": null // replace with the Neo4j password (between " quotes) 
+    }
+```
+
+4. Make sure that Neo4j is running.
+
+5. Double-click on `linkurious-windows\start.bat` to launch Linkurious.
+
+
+### Install Linkurious as a system service
+
+In order to run Linkurious automatically when the operating system starts, it is possible to install Linkurious as a system service on Linux and Mac OSX versions.
+
+#### Install as a service in Linux systems
+
+1. Open the administration menu by running `menu.sh` in Linkurious' folder.
+2. Check if Linkurious is already installed as a service (displayed at the top of the menu).
+3. Select `Install Linkurious as a service`.
+4. Linkurious will install itself as a service of your operating system.
+
+#### Install as a service in Mac OSX systems
+
+1. Open the administration menu by running `menu.sh.command` in Linkurious' folder.
+2. Check if Linkurious is already installed as a service (displayed at the top of the menu).
+3. Select `Install Linkurious as a service`.
+4. Linkurious will install itself as a service of your operating system.
 
 ### How to run multiple instances of Linkurious
+
+<div class="alert alert-info">
+  A single instance of Linkurious can connect to multiple graph databases.
+</div>
 
 Linkurious is designed to run a single instance per machine.
 While it is not recommended and with no guarantee to work, you may run multiple instances of Linkurious by doing the following:
