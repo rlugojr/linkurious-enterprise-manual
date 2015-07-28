@@ -101,7 +101,7 @@ The internal data store is configured within the `db` key:
 
 
 <div class="alert alert-warning">
-    <i class="octicon octicon-stop"></i> GLIBC >= v1.14 must be installed on the server for SQLite. You can check the version available on unix systems on http://distrowatch.com .
+    <i class="octicon octicon-stop"></i> GLIBC >= v1.14 must be installed on the server for SQLite. You can check the version available on unix systems on <a href="http://distrowatch.com">http://distrowatch.com</a>.
 </div>
 
 ### Web server
