@@ -115,13 +115,13 @@ The web server of Linkurious delivers the application to end users through HTTP/
 
 ### Security
 
-Multiple security features can be enabled according to your needs. At least you must change the cookie secret key of the `server`.
+Multiple security features can be enabled according to your needs. The `cookieSecret` key of the `server` is randomized at the first start of Linkurious.
 
 #### Cookies
 
 Within the `server` key:
 
-* **cookieSecret** - The secret key used to encrypt the session cookie. <span class="label label-danger">Replace it with your own value.</span>
+* **cookieSecret** - The secret key used to encrypt the session cookie. Randomized on first start.
 * **cookieDomain** (optional) -  Restrict the validity of cookies to a domain or subdomain.
 
 #### Cross-origin resource sharing (CORS)
@@ -206,9 +206,8 @@ Linkurious can log events at server side and at client side.
 
 #### Server logs
 
-The Linkurious server logs various levels of events into the folder `data/logs`. They are helpful to fix issues and you should include them to your support tickets. The logger is configured within the `logger` key:
-
-* **level** - `"error"`. Set the level of server events recorded. Available levels: `debug`, `info`.
+The Linkurious server logs various events into files at `data/manager/logs/Linkurious-Server-*.log`. They are helpful to fix issues and you should include them to your support tickets.
+Logs of the embedded ElasticSearch server can be found in `data/manager/logs/ElasticSearch-Server-*.log`.
 
 #### Client logs
 
