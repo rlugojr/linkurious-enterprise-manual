@@ -13,4 +13,14 @@ Version of Linkurious Enterprise: v0.8.0 ("Quarrelsome Quetzalcoatl")
 
 **WORK-IN-PROGRESS TO UPGRADE TO v0.10**
 
-Last update: 22/07/2015
+Status:
+- Getting started...done
+- Build your first graph visualization
+- Search
+- Manipulate
+- Style
+- Filter
+- Edit
+- Manage
+- Administration
+- Other Topics

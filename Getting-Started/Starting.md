@@ -4,7 +4,7 @@ Before running Linkurious, please launch your Neo4j server and setup your creden
 
 ### Run on Linux systems
 
-Start Linkurious: `>./start.sh`. 
+Start Linkurious: run `start.sh`. Alternately, run `menu.sh` and select `Start Linkurious processes` from the console.
 
 **Example output:**
 ```Text
@@ -36,7 +36,7 @@ As you can notice, the Linkurious server is available by default on port 3000. H
 ### Run on MAC OS X
 
 
-Start Linkurious: `>./start.sh.command`. 
+Start Linkurious: run `start.sh.command`. Alternately, run `menu.sh.command` and select `Start Linkurious processes` from the console.
 
 **Example output:** 
 ```Text
@@ -74,7 +74,7 @@ Once the Neo4j server has successfully started, go to the folder of Linkurious.
 
 ![folder](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/139.png)
 
-Click on the ```start``` file. Linkurious starts and invites you to open up your browser to http://localhost:3000 to access the user interface.
+Click on the `start.bat` file. Linkurious starts and invites you to open up your browser to http://localhost:3000 to access the user interface. Alternately, click on `menu.bat` and select `Start Linkurious processes` from the console.
 
 ![linkurious enterprise startup](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/140.png)
 

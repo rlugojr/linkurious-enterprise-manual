@@ -17,9 +17,24 @@ End users will access Linkurious through a web browser. All modern browsers are 
 The embedded ElasticSearch engine requires Java 8 to run properly.
 **The JAVA_HOME environment variable must be set up**, see [how to do it on Windows here](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html).
 
-<div class="alert alert-warning">
-    <i class="octicon octicon-stop"></i> GLIBC >= v1.14 must be installed on your computer. You can check the version available on unix systems on http://distrowatch.com .
-</div>
+#### SQLite and GLIBC 2.14
+
+Linkurious uses an embedded SQLite database for persistence. This database requires GLIBC >= 2.14.
+Some older Linux distributions don't have this version of GLIBC available. You can check the version available on your system on http://distrowatch.com .
+
+If you encounter this problem, one solution is to use another persistence store for Linkurious, such as [MySQL](https://www.mysql.fr/) or [PostgreSQL](http://www.postgresql.org/).
+You can use an existing database server or install a new one - Linkurious will store it's state in a specific "linkurious" database.
+See the Configure section to change the persistence store used by Linkurious. Please refer to the official documentation of MySQL or PostgreSQL for installation and configuration of these databases.
+
+Alternatively, on debian stable you may be able to fix the problem by upgrading GLIBC manually:
+
+```Bash
+echo 'deb http://ftp.fr.debian.org/debian/ testing main' > /etc/apt/sources.list
+apt-get update
+apt-get install -t testing libc6-dev=2.19-9
+```
+
+#### Data source
 
 The Linkurious platform connects to remote data sources through HTTP or HTTPS. We currently support Neo4j servers version 2.0 and higher. Neo4j from Neo Technology is the leading graph database system on the market. You can calculate Neo4j's hardware requirements [here](http://neo4j.com/developer/guide-sizing-and-hardware-calculator/).
 
