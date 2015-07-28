@@ -1,3 +1,7 @@
 ## Upgrade
 
-Before proceeding to any upgrade, please backup Linkurious.
+<div class="alert alert-danger">
+    Please backup Linkurious before proceeding to any upgrade.
+</div>
+
+// TODO
