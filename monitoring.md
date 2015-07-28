@@ -2,7 +2,7 @@
 
 ### Process monitoring
 
-Linkurious 3 separate processes when launched:
+Linkurious starts 3 separate processes when launched:
 1. `node` (or `node.exe`): The internal process manager (a [PM2](https://github.com/Unitech/pm2) manager)  
 2. `node` (or `node.exe`): The Linkurious Server process
 3. `java` (or `java.exe`): The embedded [ElasticSearch](https://www.elastic.co/) indexation server.
