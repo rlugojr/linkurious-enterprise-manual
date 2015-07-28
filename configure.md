@@ -1,6 +1,6 @@
 ## Configure
 
-<div class="alert alert-danger">
+<div class="alert alert-success">
     Skip this section if you launch Linkurious with the default configuration. You can modify the configuration anytime.
 </div>
 
