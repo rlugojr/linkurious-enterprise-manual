@@ -40,7 +40,7 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
     * **host** - `"localhost"`.
     * **port** - `9201`.
-    * **forceReindex** - `true`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Chapter XXX).
+    * **forceReindex** - `true`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
 
 The following settings applies to all data sources. They are available in the **allSources** key.
 
@@ -156,7 +156,7 @@ If the Linkurious server, data sources, and the search engine are installed on d
 The user access system is configured within the `access` key:
 
 * **authRequired** - `false`. Reject requests of anonymous sessions if `true`, otherwise all requests will be related to a "Unique User" account. Set it `false` to launch Linkurious for the first time, or if there is a single user.
-* **dataEdition** - `true`. Enable the creation, edition, and deletion of nodes and edges in all data sources. Administrators can fine-tune user permissions, see Chapter XXX. If `false`, all edition requests sent through Linkurious to the data sources will be rejected.
+* **dataEdition** - `true`. Enable the creation, edition, and deletion of nodes and edges in all data sources. Administrators can fine-tune user permissions, see the Administration Chapter. If `false`, all edition requests sent through Linkurious to the data sources will be rejected.
 * **loginTimeout** - `3600`. Log the user out after a period of inactivity (in second).
 * **ldap** - The connection to the LDAP service (see below).
 
@@ -199,7 +199,7 @@ Please refer to the documentation of your LDAP provider.
 
 #### User permissions to the data sources
 
-Administrators can set fine-grained permissions to end users for each data source. See Chapter XXX to learn more.
+Administrators can set fine-grained permissions to end users for each data source. See the Administration Chapter to learn more.
 
 ### Logging
 
