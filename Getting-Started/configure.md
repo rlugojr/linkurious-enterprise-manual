@@ -32,13 +32,13 @@ Data sources are configured within the **dataSources** key, which is a list of p
 * **graphdb** - The graph database server to connect to.
     * **vendor** - `"neo4j"`. Only Neo4j servers are supported.
     * **url** - `"http://localhost:7474/"`. Linkurious will call the Neo4j REST API on this address.
-    * **writeURL** (optional) - If provided, Linkurious will send WRITE requests to the graph database through this address.
+    * **writeURL** (optional) - If provided, Linkurious will send WRITE requests to the graph database to this endpoint and READ requests to the **url** endpoint.
     * **user** (optional) - The username if authentication is enabled on the graph database server.
     * **password** (optional) - The password if authentication is enabled on the graph database server.
 * **index** - The search engine.
     * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
-    * **host** - `"localhost"`.
-    * **port** - `9201`.
+    * **host** - `"localhost"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server
+    * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server. 
     * **forceReindex** - `true`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
 
 The following settings applies to all data sources. They are available in the **allSources** key.
