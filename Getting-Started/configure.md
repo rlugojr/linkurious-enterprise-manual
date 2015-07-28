@@ -62,6 +62,9 @@ Graph exploration settings:
 * **rawQueryTimeout** - `60000`. Abandon a query to the database if the time is over (in second).
 * **expandThreshold** - `50`. When the user expands a node with too many neighbors, Linkurious will ask to refine the query so that fewer neighbors are returned.
 
+Neo4j instance management settings:
+Linkurious can manage your Neo4j server for you in order to simplify your administration scripts. To enable this feature (available on Linux and Max OSX only), simply set the **neo4jPath** key in **allSources** to the absolute path of Neo4j's home directory. You will notice a new "Neo4j server" entry in the status report of Linkurious' administration menu.  
+
 #### Connection to a Neo4j server
 
 If it is the first time you run a Neo4j server and you use Neo4j v2.2 or a more recent version, you need to configure the credentials:
