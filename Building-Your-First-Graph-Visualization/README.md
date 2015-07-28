@@ -1,6 +1,6 @@
 # Build your first graph visualization
 
-In this chapter, we'll learn the basics of how to explore and visualize a graph with Linkurious Enterprise.
+In this chapter, we will learn the basics of how to explore and visualize a graph with Linkurious Enterprise.
 
 ### About the dataset
 
