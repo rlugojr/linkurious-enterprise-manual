@@ -57,10 +57,9 @@ In the following example, nodes are colored by categories "COMPANY", "CITY", "MA
 }
 ```
 
-Coloring by quantitative property follows the same logic. In the following example the nodes are colored by a numeric property. Values will be grouped into 7 bins.
+Coloring by quantitative property follows the same logic. In the following example the nodes are colored by a numeric property. Values will be linearly grouped into 7 bins, ordered from small to large values (see an example below).
 
-// TODO image of the color scale
-// TODO is first color mapped to highest value?
+![color-scale](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/141.png)
 
 **Example for quantitative properties:**
 ```json
@@ -87,11 +86,13 @@ Linkurious will always use 7 colors for quantitative properties of the nodes, an
 
 If you do not set styles for qualitative properties, Linkurious will assign colors from a randomly -but carefully- generated set of colors. This set can be modified at `palette.nodes.qualitative.linkurious_def` (edges respectively).
 
-Be careful, never delete `linkurious_def` or `sequential` because they are used by Linkurious.
+Be careful to never delete `linkurious_def` or `sequential` because they are used by Linkurious.
 
-// TODO advices to color generation tools and theory
+We recommend to pick colors from the [ColorBrewer palette](https://github.com/Linkurious/linkurious.js/blob/develop/plugins/sigma.plugins.colorbrewer/sigma.plugins.colorbrewer.js), which provides highly distinctive sets of colors (see below).
 
-The [ColorBrewer palette](../sigma.plugins.colorbrewer/sigma.plugins.colorbrewer.js) provides good color schemes to start with.
+![color-brewer](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/142.png)
+
+You can also generate consistent color scales for qualitative data on http://gka.github.io/palettes/ .
 
 #### Node icons
 
