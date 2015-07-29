@@ -37,7 +37,7 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **password** (optional) - The password if authentication is enabled on the graph database server.
 * **index** - The search engine.
     * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
-    * **host** - `"localhost"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server
+    * **host** - `"localhost"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
     * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server. 
     * **forceReindex** - `true`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
 
