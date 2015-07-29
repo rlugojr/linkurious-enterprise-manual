@@ -104,7 +104,7 @@ The internal data store is configured within the `db` key:
 
 
 <div class="alert alert-warning">
-    GLIBC >= v1.14 must be installed on the server in order to use SQLite. You can check the version available your systems at <a href="http://distrowatch.com">http://distrowatch.com</a>.
+    GLIBC >= v1.14 must be installed on the server in order to use SQLite. You can check the version available your systems at <a href="http://distrowatch.com/search.php?ostype=All&category=All&origin=All&basedon=All&notbasedon=None&desktop=All&architecture=All&package=All&status=Active">http://distrowatch.com</a>.
 </div>
 
 ### Web server
