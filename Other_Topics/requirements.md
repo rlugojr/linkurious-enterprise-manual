@@ -1,7 +1,7 @@
 ## Requirements
 
 ### Software
-
+ 
 The Linkurious server can be deployed on the following platforms:
 * Windows 7, 8, and 8.1.
 * Mac OS X Lion and more recent versions.
