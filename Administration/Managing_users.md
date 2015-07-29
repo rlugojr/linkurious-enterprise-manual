@@ -39,6 +39,6 @@ Finally, check the option **"Send cypher queries to the graph (read)"** to enabl
   It is possible to reveal the structure of the graph with cypher queries even if the user group cannot read all nodes. Some very complex queries may also make the graph database unstable, so be careful when granting your users the right to run custom queries.
 </div>
 
-<div class="alert alert-warning">
+<div class="alert alert-danger">
   Users may delete your data by mistake if they can run WRITE queries directly on the graph database. We recommend to enable this feature in development environment only, and to disable it for graph databases in production. Create a specific user group with a few people in it to limit the access to this super-power.
 </div>
