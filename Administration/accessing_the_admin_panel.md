@@ -6,4 +6,6 @@ To access it, open the **Admin** menu of the navigation bar, then click on the *
 
 You now have access to the administrator dashboard. The status of Linkurious and the current data source is displayed on the right. The database statistics contain the number of nodes and edges in the graph database, as well as the number of visualizations created by Linkurious users from it.
 
+The name of the current data source is displayed on the navigation bar, with unnamed data sources called *"Database #xx"*. You may **switch to a different data source** from there.
+
 ![admin-status](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/148.png)
