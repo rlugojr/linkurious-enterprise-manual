@@ -16,7 +16,7 @@ Once the user management dashboard is displayed, click on **Add** button next to
 
 ![user-creation-form]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/149.png)
 
-Fill in all the fields and especially remove the `default` group and add the `admin` group in the groups field to grant administration rights to the new user. Once done click on **Save**.
+Fill in all the fields and especially add the `admin` group in the groups field to grant administration rights to the new user. Once done click on **Save**.
 
 We have created our first administrator. Now it is time to enable user authentication.
 
