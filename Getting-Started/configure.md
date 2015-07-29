@@ -62,9 +62,6 @@ Graph exploration settings:
 * **rawQueryTimeout** - `60000`. Abandon a query to the database if the time is over (in second).
 * **expandThreshold** - `50`. When the user expands a node with too many neighbors, Linkurious will ask to refine the query so that fewer neighbors are returned.
 
-Neo4j instance management settings:
-Linkurious can manage your Neo4j server for you in order to simplify your administration scripts. To enable this feature (available on Linux and Max OSX only), simply set the **neo4jPath** key in **allSources** to the absolute path of Neo4j's home directory. You will notice a new "Neo4j server" entry in the status report of Linkurious' administration menu.  
-
 #### Connection to a Neo4j server
 
 If it is the first time you run a Neo4j server and you use Neo4j v2.2 or a more recent version, you need to configure the credentials:
@@ -82,6 +79,10 @@ Configure Linkurious:
 
 Linkurious will connect to it the next time you start it.
 
+#### Neo4j instance management
+
+Linkurious can manage (start and stop it as Linkurious starts and stops) your Neo4j server for you in order to simplify your administration scripts. To enable this feature (available on Linux and Max OSX only), simply set the **neo4jPath** key in **allSources** to the absolute path of Neo4j's home directory. You will notice a new "Neo4j server" entry in the status report of Linkurious' administration menu.  
+
 #### Connection to the search engine
 
 The embedded ElasticSearch engine may be replaced by your own ElasticSearch cluster. Edit the configuration file to set the `index` settings of the data source with the URL and credentials of your ElasticSearch cluster. Linkurious will create an index for each graph database, with index names prefixed by `linkurious_`.
@@ -97,13 +98,13 @@ The internal data store is configured within the `db` key:
 * **password** (optional) - The password of the admin user of the database.
 * **options** - 
     * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"postgres"`.
-    * **storage** (optional) - `"data/server/database.sqlite"`. The relative path to the database file. Required for SQLite.
+    * **storage** (optional) - `"server/database.sqlite"`. The path of database file, relative to the `data` directory. Required for SQLite.
     * **host** (optional) - Required for MySQL and PostgreSQL.
     * **port** (optional) - Required for MySQL and PostgreSQL.
 
 
 <div class="alert alert-warning">
-    GLIBC >= v1.14 must be installed on the server for SQLite. You can check the version available on unix systems on <a href="http://distrowatch.com">http://distrowatch.com</a>.
+    GLIBC >= v1.14 must be installed on the server in order to use SQLite. You can check the version available your systems at <a href="http://distrowatch.com">http://distrowatch.com</a>.
 </div>
 
 ### Web server
