@@ -1,9 +1,9 @@
-## Administration panel
+## Administration dashboard
 
-To access the administration dashboard, choose **Administration** on the top right corner of your screen.
+The administration dashboard is available for unique users and administrators, i.e. users of the group "admin".
 
-![opening the admin panel](https://dl.dropboxusercontent.com/s/cbjnz7e3mwsu223/97.png?dl=0)
+To access it, open the **Admin** menu of the navigation bar, then click on the **Status** item.
 
-You now have access to the administrator dashboard.
+You now have access to the administrator dashboard. The status of Linkurious and the current data source is displayed on the right. The database statistics contain the number of nodes and edges in the graph database, as well as the number of visualizations created by Linkurious users from it.
 
-![opening the admin panel](https://dl.dropboxusercontent.com/s/iy8u068913a8zzo/98.png?dl=0)
+![admin-status](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/148.png)

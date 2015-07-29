@@ -2,11 +2,11 @@
 
 By default, user authentication is disabled. The unique user can do everything he wants and everybody can access the platform.
 
->> We strongly advise you to enable user authentication to secure the access to your data.
+> We strongly advise you to enable user authentication to secure the access to your data.
 
 First, We must create an administrator account.
 
->> If we don't create an administrator account before enabling authenticationw we will not be able to log in.
+> If we don't create an administrator account before enabling authenticationw we will not be able to log in.
 
 To do that, we click on ```Users``` in the administrator dashboard to enter the Users panel.
 
