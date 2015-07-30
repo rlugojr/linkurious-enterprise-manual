@@ -4,15 +4,13 @@
   We strongly advise you to enable user authentication to secure the access to your data once Linkurious Enterprise is deployed on a server.
 </div>
 
-By default, user authentication is disabled. The unique user can do everything he wants and everybody can access the platform. First, we must create an administrator account.
+By default, user authentication is disabled and all actions are performed under the special account named *"Unique User"*. The unique user can do everything he wants and does not require to log in, so everybody can access the platform. Before enabling user authentication we must create an administrator account.
 
 <div class="alert alert-warning">
-  If we don't create an administrator account before enabling authenticationw we will not be able to log in.
+  If we don't create an administrator account before enabling authentication we will not be able to log in.
 </div>
 
-To do that, click on **Users** in the administrator dashboard, or selects the **Users** item in the **Admin** menu of the navigation bar. 
-
-Once the user management dashboard is displayed, click on **Add** button next to "No Users". The user creation form appears.
+Let's create an administrator account. Click on **Users** in the administrator dashboard, or selects the **Users** item in the **Admin** menu of the navigation bar. Once the user management dashboard is displayed, click on the **Add** button next to "No Users". The user creation form appears.
 
 ![user-creation-form]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/149.png)
 
@@ -29,4 +27,4 @@ User authentication is now enabled. Reload the user interface of the web applica
 
 ![login]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/150.png)
 
-Enter the login and password of the administrator to log in to Linkurious Enterprise.
+Enter the name (or email address) and password of the administrator to log in to Linkurious Enterprise.

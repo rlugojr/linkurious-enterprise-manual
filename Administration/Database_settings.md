@@ -4,17 +4,18 @@ Linkurious Enterprise connects to local or remote data sources through HTTP and 
 
 ### Add a new data source
 
-1. Open the file located at `linkurious/data/config/production.json` with your favorite text editor.
+1. Open the linkurious folder in your computer.
+- Open the file located at `linkurious/data/config/production.json` with your favorite text editor.
 - Look for the `dataSources` key. It is an array of data source configurations. By default, a single data source is defined to connect to a Neo4j server located at `http://localhost:7474/`. Duplicate the default configuration and edit `graphdb` vendor and `url` to define a second data source.
 - Restart Linkurious to take changes into account.
 
 ### Edit a data source from the data management dashboard
 
-To access the data management dashboard, click on **Data** in the administrator dashboard, or selects the **Data** item in the **Admin** menu of the navigation bar. 
+To access the data management dashboard, click on **Data** in the administrator dashboard, or selects the **Data** item in the **Admin** menu of the navigation bar. You should see the following screen.
 
 ![data-management]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/154.png)
 
-We can now edit the data source configuration, set up and trigger data indexing. Notice that we may switch the data source from the navigation bar when multiple data sources are connected.
+We can edit here the data source configuration, set up and trigger data indexing. To edit the configuration of another data source, switch the data source from the navigation bar.
 
 ### Search server
 

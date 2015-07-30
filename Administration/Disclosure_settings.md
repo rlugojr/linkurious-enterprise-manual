@@ -13,5 +13,5 @@ For instance, we want to avoid users to access the `category` property of nodes.
 Do the same for edge properties.
 
 <div class="alert alert-warning">
-  Reindex data once undisclosed properties are configured to remove them from search results.
+  Reindex data once the undisclosed properties are configured in order to remove them from search results.
 </div>

@@ -9,17 +9,19 @@ Linkurious Enterprise allows you to authenticate users and assign them to groups
 
 The `Default` group is assigned to new users by default.
 
+Users belong to at least one group. They can be assigned to multiple groups. The resulting access rights are combined as follows: *the most permissive right wins*. For instance, let an user belongs to two groups. The first group allows to READ `CITY` nodes, and the second group allows nothing on `CITY` nodes. The user will then have the permission to READ `CITY` nodes.
+
 ### User management dashboard
 
 To access the user management dashboard, click on **Users** in the administrator dashboard, or selects the **Users** item in the **Admin** menu of the navigation bar. 
 
-We can manage any user by clicking on **Edit** or **Delete** next to the user of our choice. We can also manage the user groups.
+We can manage any user by clicking on **Edit** or **Delete** next to the user of our choice. We can also manage the user groups. Remove the last group of an user and they will be assigned to the `Default` group.
 
 ![user-management]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/151.png)
 
 ### Create new users
 
-Administrators and the Unique User can create new user accounts. Let's create a new user. Click on the **Add** button next to "1 User", then fill in all fields in the form. Notice that you may assign user groups to the user. Click on the **Save** button once done.
+Administrators and the *"Unique User"* (used when user authentication is disabled) can create new user accounts. Let's create a new user. Click on the **Add** button next to "1 User", then fill in all fields in the form. Notice that you may assign user groups to the user. Click on the **Save** button once done.
 
 ![new-user]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/152.png)
 
@@ -36,9 +38,9 @@ Click on  the **Read+Write** button to allow the users of the *Analyst* group to
 Finally, check the option **"Send cypher queries to the graph (read)"** to enable users of this group to run custom Cypher query the graph database. Cypher is the SQL for graph databases, and is available in the Neo4j graph database. It provides a powerful syntax to extract advanced patterns or to edit the database. This feature will be available to the users in the visualization **Workspace** under the menu **Find > Patterns**. You can learn Cypher on [neo4j.com](http://neo4j.com/developer/cypher-query-language/).
 
 <div class="alert alert-warning">
-  It is possible to reveal the structure of the graph with cypher queries even if the user group cannot read all nodes. Some very complex queries may also make the graph database unstable, so be careful when granting your users the right to run custom queries.
+  Users may reveal the structure of the graph with cypher queries even if they cannot READ all nodes due to the restrictions set on their user groups. Some very complex queries may also make the graph database unstable, so be careful when granting your users the right to run custom queries.
 </div>
 
 <div class="alert alert-danger">
-  Users may delete your data by mistake if they can run WRITE queries directly on the graph database. We recommend to enable this feature in development environment only, and to disable it for graph databases in production. Create a specific user group with a few people in it to limit the access to this super-power.
+  Users may delete your data by mistake when they run WRITE queries on the graph database. We recommend to enable this feature in development environments only, and to disable it for graph databases in production. It is good practice to create a specific user group with the fewest people possible in it.
 </div>

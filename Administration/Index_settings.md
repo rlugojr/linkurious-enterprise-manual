@@ -13,5 +13,5 @@ For instance, we do not want to index the `category` property of nodes. Select t
 Do the same for relationship properties.
 
 <div class="alert alert-warning">
-  Reindex data to apply changes from search results.
+  Reindex data to apply changes on search results.
 </div>
