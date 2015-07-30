@@ -2,10 +2,20 @@
 
 Here is a look at the interface of Linkurious Enterprise.
 
-### The dashboard
+### Dashboard
 
-![the dashboard](https://dl.dropboxusercontent.com/s/2ax4yybrbs0x0o5/1.png?dl=0)
+The dashboard lists the visualizations created by the user. The following image shows a typical dashboard after starting to use Linkurious.
 
-### The graph explorer
+![dashboard]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/157.png)
 
-![the graph explorer](https://dl.dropboxusercontent.com/s/qr0fal3s396md6x/54.png?dl=0)
+### Directory
+
+The directory lists all indexed nodes and edges of the graph database in a tabular display.
+
+![directory]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/158.png)
+
+### Workspace
+
+The workspace allows to explore the graph database and craft the visualization as a node-link diagram.
+
+![workspace]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/159.png)
