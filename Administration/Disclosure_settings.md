@@ -1,10 +1,8 @@
 ## Data disclosure
 
-We may prevent specific nodes or relationship properties to be accessed by Linkurious Enterprise. Undisclosed data properties cannot be reached by Linkurious users nor be indexed by the search engine.
+By default, Linkurious discloses all the properties of nodes and edges. We may prevent specific nodes or relationship properties to be accessed by Linkurious. Undisclosed data properties cannot be reached by Linkurious users nor be indexed by the search engine.
 
-We go to the ```Data``` panel of the Administration dashboard.
-
-By default, Linkurious Enterprise discloses all the properties of nodes and edges.
+Go to the data management dashboard.
 
 ### Change the list of disclosed properties
 
