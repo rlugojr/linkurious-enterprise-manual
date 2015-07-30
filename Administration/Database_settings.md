@@ -1,27 +1,21 @@
 ## Data sources
 
-Linkurious Enterprise connects to local or remote data sources through HTTP and HTTPS. Data sources such as Neo4j servers may provide access to one or multiple graph databases. For instance, it is common to see Neo4j users switch between graph databases on the same Neo4j instance. Linkurious Enterprise handles multiple data source configurations and detects which databases are available behind the connected data sources.
+Linkurious Enterprise connects to local or remote data sources through HTTP and HTTPS. Data sources such as Neo4j servers may provide access to different graph databases. For instance, it is common to see Neo4j users switch between graph databases on the same Neo4j server. Linkurious Enterprise handles multiple data source configurations and detects which databases are currently available behind the connected data sources.
 
-We stop Linkurious Enterprise to add new data sources.
+### Add a new data source
 
-We go to  ```\linkurious\config``` in our Linkurious Enterprise directory.
+1. Open the file located at `linkurious/data/config/production.json` with your favorite text editor.
+- Look for the `dataSources` key. It is an array of data source configurations. By default, a single data source is defined to connect to a Neo4j server located at `http://localhost:7474/`. Duplicate the default configuration and edit `graphdb` vendor and `url` to define a second data source.
+- Restart Linkurious to take changes into account.
 
-We open the ```production.json``` file. We look for ```dataSources```. It is an array of data source configuration. By default, a single data source is defined for Linkurious Enterprise to connect to a Neo4j database located at ```http://localhost:7474/```. Duplicate the default configuration and edit graphdb vendor and url to define a second data source.
+### Edit a data source from the data management dashboard
 
-We restart Linkurious Enterprise.
+To access the data management dashboard, click on **Data** in the administrator dashboard, or selects the **Data** item in the **Admin** menu of the navigation bar. 
 
-We click on ```Data``` in the Administration dashboard.
+![data-management]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/154.png)
 
-![opening the data panel](https://dl.dropboxusercontent.com/s/ldthwja6l1qysm6/104.png?dl=0)
+We can now edit the data source configuration, set up and trigger data indexing. Notice that we may switch the data source from the navigation bar when multiple data sources are connected.
 
-We can now edit the data source configuration, set up and trigger data indexing.
+### Search index
 
-![default settings for database](https://dl.dropboxusercontent.com/s/6cnhxqjolt407jf/105.png?dl=0)
-
-Notice that we may switch the data source in the breadcrumb when multiple data sources are connected.
-
-## Search index
-
-We may change the address of the index server. By default, we use Elastic on the port ```9200``` of the local host.
-
-![default settings for elastic](https://dl.dropboxusercontent.com/s/6cnhxqjolt407jf/105.png?dl=0)
+The search feature uses [Elasticsearch](https://www.elastic.co/products/elasticsearch) for real-time full-text search in nodes and relationships. An embedded Elasticsearch server is shipped with Linkurious but you may set up your own. All data sources are indexed into the same Elasticsearch instance by default; you may configure different Elasticsearch instances for each data source.

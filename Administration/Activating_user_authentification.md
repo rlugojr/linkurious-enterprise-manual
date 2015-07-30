@@ -22,7 +22,7 @@ We have created our first administrator. Now it is time to enable user authentic
 
 1. Open the linkurious folder in your computer.
 - Open the file located at `linkurious/data/config/production.json` with your favorite text editor.
-- Look forthe  `authRequired` key, then change its value from `false` to `true`.
+- Look for the `authRequired` key, then change its value from `false` to `true`.
 - Restart Linkurious Enterprise.
 
 User authentication is now enabled. Reload the user interface of the web application to display the login screen.
