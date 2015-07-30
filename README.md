@@ -13,13 +13,13 @@ Version of Linkurious Enterprise: v0.10.1 "Stellar Stegosaurus".
 
 **WORK-IN-PROGRESS TO UPGRADE THIS MANUAL FROM LINKURIOUS v0.8 to v0.10**
 
-- <i class="octicon octicon-check" style="color:#3c3;"></i> Getting started
-- <i class="octicon octicon-stop" style="color:#a94442;"></i> Build your first graph visualization
-- <i class="octicon octicon-stop" style="color:#a94442;"></i> Search
-- <i class="octicon octicon-stop" style="color:#a94442;"></i> Manipulate
-- <i class="octicon octicon-stop" style="color:#a94442;"></i> Style
-- <i class="octicon octicon-stop" style="color:#a94442;"></i> Filter
-- <i class="octicon octicon-stop" style="color:#a94442;"></i> Edit
-- <i class="octicon octicon-stop" style="color:#a94442;"></i> Manage
-- <i class="octicon octicon-issue-reopened" style="color:#f39c12;"></i> Administration
-- <i class="octicon octicon-stop" style="color:#a94442;"></i> Other Topics
+- <i class="fa fa-check" style="color:#3c3;"></i><i class="octicon octicon-check" style="color:#3c3;"></i> Getting started
+- <i class="fa fa-warning" style="color:#a94442;"></i><i class="octicon octicon-stop" style="color:#a94442;"></i> Build your first graph visualization
+- <i class="fa fa-warning" style="color:#a94442;"></i><i class="octicon octicon-stop" style="color:#a94442;"></i> Search
+- <i class="fa fa-warning" style="color:#a94442;"></i><i class="octicon octicon-stop" style="color:#a94442;"></i> Manipulate
+- <i class="fa fa-warning" style="color:#a94442;"></i><i class="octicon octicon-stop" style="color:#a94442;"></i> Style
+- <i class="fa fa-warning" style="color:#a94442;"></i><i class="octicon octicon-stop" style="color:#a94442;"></i> Filter
+- <i class="fa fa-warning" style="color:#a94442;"></i><i class="octicon octicon-stop" style="color:#a94442;"></i> Edit
+- <i class="fa fa-warning" style="color:#a94442;"></i><i class="octicon octicon-stop" style="color:#a94442;"></i> Manage
+- <i class="fa fa-check" style="color:#3c3;"></i><i class="octicon octicon-check" style="color:#3c3;"></i> Administration
+- <i class="fa fa-refresh" style="color:#f39c12;"></i><i class="octicon octicon-issue-reopened" style="color:#f39c12;"></i> Other Topics
