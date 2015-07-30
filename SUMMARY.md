@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Getting Started](Getting-Started/README.md)
-   * [Requirements](Other_Topics/requirements.md)
+   * [Requirements](Getting-Started/requirements.md)
    * [Download](Getting-Started/Downloading.md)
    * [Install](Getting-Started/Installing.md)
    * [Configure](Getting-Started/configure.md)
@@ -62,7 +62,6 @@
    * [Search index](Administration/Index_settings.md)
 * [Other Topics](Other_Topics/README.md)
    * [Importing Data](Other_Topics/importing_data.md)
-   * [Indexation](Other_Topics/other_topics.md)
    * [Bugs](Other_Topics/bugs.md)
    * [Technology](Other_Topics/technology.md)
 
