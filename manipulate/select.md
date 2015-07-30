@@ -1,4 +1,4 @@
-## Select nodes
+## Select nodes and edges
 
 The easiest way to select a node or an edge is to simply click on it. It is also possible to select multiple nodes at once.
 

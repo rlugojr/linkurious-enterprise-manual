@@ -1,5 +1,3 @@
-# Build your first graph visualization
-
 In this chapter, we will learn the basics of how to explore and visualize a graph database with Linkurious.
 
 ### About the dataset

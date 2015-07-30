@@ -14,4 +14,6 @@ Notice the number next to the node, it is the number of undisplayed relationship
 
 If we want to remove the left panel, we simply click on ```X``` in the left corner.
 
+Inspect edges in the same manner.
+
 ![picture of a node without any information](https://dl.dropboxusercontent.com/s/dppx66f9tfhe5f9/5.png?dl=0)
