@@ -1,6 +1,6 @@
 ## Data disclosure
 
-By default, Linkurious discloses all the properties of nodes and edges. We may prevent specific nodes or relationship properties to be accessed by Linkurious. Undisclosed data properties cannot be reached by Linkurious users nor be indexed by the search engine.
+By default, Linkurious discloses all the properties of nodes and edges. If you want you can adjust this setting to "undisclose" certain properties. These properties will then no longer be viewable or searchable by Linkurious users.
 
 ### Edit disclosed properties
 

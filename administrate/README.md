@@ -1,5 +1,5 @@
 # Administration
 
-In this chapter, we will learn how to administrate Linkurious.
+In this chapter, you will learn how to administrate Linkurious.
 
 

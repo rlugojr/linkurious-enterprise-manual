@@ -2,6 +2,10 @@
 
 Choose which data properties will be available in search results by configuring the index. By default, Linkurious indexes all disclosed data properties. Notice that undisclosed properties are not indexed and thus cannot be found via the search engine.
 
+<div class="alert alert-info">
+  Indexing less data will reduce indexing time.
+</div>
+
 ### Change the list of indexed properties
 
 Go to the data management dashboard. Unindexed properties are listed on the left side of the screen. Indexed properties are listed on the right side of the screen. Move properties from one list to the other to change their status.
