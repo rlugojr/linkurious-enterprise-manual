@@ -10,14 +10,10 @@ For instance, we want to avoid users to access the `category` property of nodes.
 
 ![disclosed-properties](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/155.png)
 
-Select the `category` property and click on the left arrow to move it to the list of undisclosed properties. Click on the **Apply** button. The `category` property will not show up in visualizations anymore, even on existing visualizations.
-
-<div class="alert alert-warning">
-  Reindex data once undisclosed properties are configured to remove them from search results.
-</div>
+Select the `category` property and click on the left arrow to move it to the list of undisclosed properties. Click on the **Apply** button. The `category` property will not show up in visualizations anymore, even on existing visualizations. 
 
 Do the same for edge properties.
 
-<div class="alert alert-info">
-  Undisclosed properties will not be indexed.
+<div class="alert alert-warning">
+  Reindex data once undisclosed properties are configured to remove them from search results.
 </div>

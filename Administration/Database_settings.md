@@ -16,6 +16,6 @@ To access the data management dashboard, click on **Data** in the administrator 
 
 We can now edit the data source configuration, set up and trigger data indexing. Notice that we may switch the data source from the navigation bar when multiple data sources are connected.
 
-### Search index
+### Search server
 
 The search feature uses [Elasticsearch](https://www.elastic.co/products/elasticsearch) for real-time full-text search in nodes and relationships. An embedded Elasticsearch server is shipped with Linkurious but you may set up your own. All data sources are indexed into the same Elasticsearch instance by default; you may configure different Elasticsearch instances for each data source.
