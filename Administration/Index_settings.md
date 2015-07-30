@@ -1,25 +1,17 @@
 ## Search index
 
-Choose which data properties will be available in search results by configuring the index. By default, Linkurious Enterprise indexes all disclosed data properties.
-
-We go to the ```Data``` panel of the Administration dashboard.
-
-Notice that undisclosed properties are not indexed and thus cannot be found via the search engine.
+Choose which data properties will be available in search results by configuring the index. By default, Linkurious indexes all disclosed data properties. Notice that undisclosed properties are not indexed and thus cannot be found via the search engine.
 
 ### Change the list of indexed properties
 
-The list of unindexed is on the left side of the screen. The list of indexed properties is on the right side of the screen. Move properties from one list to the other to change their status.
+Go to the data management dashboard. Unindexed properties are listed on the left side of the screen. Indexed properties are listed on the right side of the screen. Move properties from one list to the other to change their status.
 
-We do not want to index the ```category``` property of nodes.
+![disclosed-properties](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/156.png)
 
-![the category property is indexed](https://dl.dropboxusercontent.com/s/w7fhzt4emyx0ht1/111.png?dl=0)
+For instance, we do not want to index the `category` property of nodes. Select the `category` property, and click on the left arrow to move it to the list of unindexed properties. Click on the **Apply** button.
 
-We select the ```category``` property. We click on the left arrow to move it to the list of unindexed properties.
+Do the same for relationship properties.
 
-![the category property is not indexed](https://dl.dropboxusercontent.com/s/i9osm60xc5b8izx/112.png?dl=0)
-
-We click on ```Apply```. We must reindex data to remove the ```category``` property from search results.
-
-![the category property is not indexed](https://dl.dropboxusercontent.com/s/f6vgo59fg7x59pb/113.png?dl=0)
-
-The same process applies for relationship properties.
+<div class="alert alert-warning">
+  Reindex data to remove the `category` property from search results.
+</div>
