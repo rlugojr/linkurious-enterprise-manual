@@ -23,9 +23,11 @@
 
 5. If your deployment is security critical, please make sure that you will not run Linkurious with a `root` account.
 
-5. Make sure that Neo4j is running.
+6. Make sure that you have Java JDK installed by typing `javac -version` in a terminal. If needed, [install Java JDK for Linux](https://docs.oracle.com/javase/7/docs/webnotes/install/linux/linux-jdk.html).
 
-6. Run `linkurious-linux\start.sh` to launch Linnkurious.
+7. Make sure that Neo4j is running.
+
+8. Run `linkurious-linux\start.sh` to launch Linnkurious.
 
 ### Mac OSX systems
 
@@ -50,9 +52,11 @@
 
 5. If your deployment is security critical, please make sure that you will not run Linkurious with a `root` account.
 
-4. Make sure that Neo4j is running.
+6. Make sure that you have Java JDK installed by typing `javac -version` in a terminal. If needed, [install Java JDK for Mac OSX](http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jdk.html).
 
-5. Run `linkurious-osx\start.sh.command` to launch Linnkurious.
+7. Make sure that Neo4j is running.
+
+8. Run `linkurious-osx\start.sh.command` to launch Linnkurious.
 
 ### Windows systems
 
@@ -72,9 +76,11 @@
     }
 ```
 
-4. Make sure that Neo4j is running.
+4. Make sure that [you have Java JDK installed](https://www.java.com/en/download/help/version_manual.xml). (if needed, [install Java JDK](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html)).
 
-5. Double-click on `linkurious-windows\start.bat` to launch Linkurious.
+5. Make sure that Neo4j is running.
+
+6. Double-click on `linkurious-windows\start.bat` to launch Linkurious.
 
 
 ### Install Linkurious as a system service
