@@ -24,20 +24,20 @@ In the following example, nodes are colored by categories "COMPANY", "CITY", "MA
   "nodes": {
     "color": {
       "by": "data.categories",
-      "scheme": "nodes.qualitative.my_scheme"
+      "scheme": "nodes.qualitative.categories"
     }
   },
   "edges": {
     "color": {
       "by": "data.type",
-      "scheme": "edges.qualitative.my_scheme"
+      "scheme": "edges.qualitative.type"
     }
   }
 },
 "palette": {
   "nodes": {
     "qualitative": {
-      "my_scheme": {
+      "categories": {
         "INVESTOR": "#5FDAA2",
         "COMPANY": "#DE6FBC",
         "MARKET": "#4EA4D4",
@@ -47,7 +47,7 @@ In the following example, nodes are colored by categories "COMPANY", "CITY", "MA
   },
   "edges": {
     "qualitative": {
-      "my_scheme": {
+      "type": {
         "INVESTED_IN": "#5FDAA2",
         "HAS_CITY": "#DE6FBC",
         "HAS_MARKET": "#4EA4D4"
@@ -106,14 +106,14 @@ The following example set icons to node categories "COMPANY", "CITY", "MARKET", 
   "nodes": {
     "icon": {
       "by": "data.categories",
-      "scheme": "nodes.icons.my_scheme"
+      "scheme": "nodes.icons.categories"
     }
   }
 },
 "palette": {
   "nodes": {
     "icons": {
-      "my_scheme": {
+      "categories": {
         "INVESTOR": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf19c"},
         "CITY": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf015"},
         "COMPANY": {"font": "FontAwesome", "scale": 1, "color": "#fff", "content": "\uf135"},
