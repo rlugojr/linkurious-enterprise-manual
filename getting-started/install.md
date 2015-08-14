@@ -27,7 +27,7 @@
 
 7. Make sure that Neo4j is running.
 
-8. Run `linkurious-linux\start.sh` to launch Linnkurious.
+8. Run `./linkurious-linux/start.sh` to launch Linkurious.
 
 ### Mac OSX systems
 
@@ -56,7 +56,7 @@
 
 7. Make sure that Neo4j is running.
 
-8. Run `linkurious-osx\start.sh.command` to launch Linnkurious.
+8. Run `./linkurious-osx/start.sh.command` to launch Linkurious (you can double-click on the file to run it).
 
 ### Windows systems
 
@@ -64,7 +64,7 @@
 
 2. Enter the Linkurious folder `linkurious-windows`.
 
-3. Open the configuration file `linkurious-windows\data\config\production.json` with WordPad or Notepad++, and make sure that the URL of your Neo4j database is correctly specified. If needed, update the username and password as well.
+3. Open the configuration file `linkurious-windows/data/config/production.json` with WordPad or Notepad++, and make sure that the URL of your Neo4j database is correctly specified. If needed, update the username and password as well.
 ```JavaScript
 {
   "dataSources": [{
