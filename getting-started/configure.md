@@ -111,6 +111,7 @@ The internal data store is configured within the `db` key:
 
 The web server of Linkurious delivers the application to end users through HTTP/S. It is configured within the `server` key:
 
+* **domain** - `localhost`. The domain or subdomain used to access the web server. It is mandatory to edit it for publishing visualizations online. It is also used to restrict the validity of cookies to a domain or subdomain.
 * **listenPort** - `3000`. The port of the web server. Some firewalls block network traffic ports other than 80 (HTTP). Since only `root` users can listen on ports < 1024, you may want reroute traffic from 80 to 3000 as follows.
 
 ```
@@ -126,7 +127,6 @@ Multiple security features can be enabled according to your needs. The `cookieSe
 Within the `server` key:
 
 * **cookieSecret** - The secret key used to encrypt the session cookie. Randomized on first start.
-* **cookieDomain** (optional) -  Restrict the validity of cookies to a domain or subdomain.
 
 #### Cross-origin resource sharing (CORS)
 
