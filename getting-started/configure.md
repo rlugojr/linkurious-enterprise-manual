@@ -167,7 +167,26 @@ The user access system is configured within the `access` key:
 
 In Linkurious, administrators manage other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably OpenLDAP or Active Directory), users are authenticated each time they sign in. If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious. Notice that Linkurious stores encrypted passwords for users not authenticated by LDAP.
 
-To enable LDAP authentication in Linkurious, edit the configuration file to add an `ldap` section inside `access`. Example:
+To enable LDAP authentication in Linkurious, edit the configuration.
+
+For Microsoft Active Directory, add an `msActiveDirectory` section inside `access`:
+
+```JavaScript
+"access": {
+  // [...]
+  "msActiveDirectory": {
+    "enabled": true,
+    // URL of the Active Directory server to connect to
+    "url": "ldap://ldap.lks.com",
+    // Base 'Domain Name' in which users will be searched
+    "baseDN": "dc=ldap,dc=lks,dc=com",
+    // Domain of your Active Directory server
+    "domain": "ldap.lks.com"
+  }
+}
+```
+
+For OpenLDAP, add an `ldap` section inside `access`:
 
 ```JavaScript
 "access": {
