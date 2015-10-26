@@ -10,7 +10,6 @@ To configure the audit trail system, edit the file `linkurious/data/config/produ
   "enabled": true,
   "logFolder": "audit-trail",
   "fileSizeLimit": 5242880,
-  "logResult": true,
   "strictMode": false,
   "mode": "rw"
 }
@@ -19,7 +18,6 @@ To configure the audit trail system, edit the file `linkurious/data/config/produ
 - `enabled`: must be true to enable this feature
 - `logFolder`: where to store the log file. This path is relative to the `data` directory located at the root of your Linkurious installation
 - `fileSizeLimit`: maximum size in byte of a log file. The audit-trail system performs files rotations in order to avoid enormous log files
-- `logResult`: set it to `true` to log the result of the performed operation and not only the operation itself
 - `strictMode`: set it to `true` to ensure that the operation has been logged before returning the result to the user. Might have a big impact on the server responsiveness
 - `mode`: `rw` to log read and write actions. `r` to log only read actions. `w` to log only write actions.
 
