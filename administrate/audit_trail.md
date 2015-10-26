@@ -5,7 +5,7 @@
 Linkurious enterprise is shipped with an Audit Trail feature. This feature allows you to have detailed logs about the operations performed on your graph database by Linkurious.
 To configure the audit trail system, edit the file `linkurious/data/config/production.json`. Add the following to the exported object:
 
-```json
+```javascript
 auditTrail: {
   enabled: true,
   logFolder: 'audit-trail',
