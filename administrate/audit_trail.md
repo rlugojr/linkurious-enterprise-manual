@@ -10,7 +10,7 @@ To configure the audit trail system, edit the file `linkurious/data/config/produ
   "enabled": true,
   "logFolder": "audit-trail",
   "fileSizeLimit": 5242880,
-  "logResult": false,
+  "logResult": true,
   "strictMode": false,
   "mode": "rw"
 }
