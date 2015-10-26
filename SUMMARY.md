@@ -59,6 +59,7 @@
    * [Data sources](administrate/datasources.md)
    * [Data disclosure](administrate/data-disclosure.md)
    * [Search index](administrate/search-index.md)
+   * Audit trail
 * [Other Topics](others/README.md)
    * [Data import](others/data-import.md)
    * [Bugs](others/bugs.md)
