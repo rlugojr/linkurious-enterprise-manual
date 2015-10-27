@@ -1,6 +1,6 @@
 ## Technology
 
-![architecture](https://linkurio.us/images/lke-technical-diagram.svg)
+![architecture](http://linkurio.us/images/lke-technical-diagram.svg)
 
 Linkurious Enterprise is the sum of two components:
 
