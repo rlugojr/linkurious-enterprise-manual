@@ -1,6 +1,6 @@
 ## Search relationships
 
-We may have millions of relationships in our graph. What if we are looking at a specific relationship? We can use the search bar in the Linkurious Enterprise interface to find it quickly.
+We may have millions of relationships in our graph. What if we want to look at a specific relationship? We can use the search bar in the Linkurious Enterprise interface to find it quickly.
 
 By default the search bar searches nodes. To search a relationship, we click on the we hoover over the ```search relationships``` icon.
 
