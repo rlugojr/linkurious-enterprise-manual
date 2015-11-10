@@ -2,18 +2,18 @@
 
 We may have millions of relationships in our graph. What if we want to look at a specific relationship? We can use the search bar in the Linkurious Enterprise interface to find it quickly.
 
-By default the search bar searches nodes. To search a relationship, we click on the we hoover over the ```search relationships``` icon.
+By default the search bar searches nodes. To search a relationship, we click on the ```Edges``` tab.
 
-![the search bar](https://dl.dropboxusercontent.com/s/no2gsgaooco5pec/20.png?dl=0)
+![](Find_Edges.png)
 
-We click on the icon. Now we can use the search bar to search for relationships. It works exactly like the search for nodes.
-
-![the search bar](https://dl.dropboxusercontent.com/s/vfaoml8l3amd1l2/21.png?dl=0)
+ Now we can use the search bar to search for relationships. It works exactly like the search for nodes.
 
 We type the text we are looking for. A list of potential matches appear.
 
-In the search result, we can see that there is a relationship that has the value ```1925``` for the property ```amount```.
-
-![the search results](https://dl.dropboxusercontent.com/s/58pntso1zkuf4gk/67.png?dl=0)
+![](Edge 1925000.png)
 
 We choose the result we are interested in by clicking on it. It is immediately added to the canvas where we can visualize it.
+
+In the search result, we can see that there is a relationship that has the value ```1925000``` for the property ```raised_amount_usd```.
+
+![](ExampleEdge.png)
