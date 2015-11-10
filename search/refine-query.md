@@ -1,21 +1,17 @@
 ## Search on multiple properties
 
-You are looking for a specific node or relationship and the search bar gives you too many results? The text you are searching is too common. You may want to narrow you search by searching on multiple properties.
+You are looking for a specific node or relationship and the search bar gives you too many results? The text you are searching is too common! 
+You may want to narrow you search by searching on multiple properties.
 
-Searching a startup that has the text ```facebook``` on any of his properties gives us 36 pages of results. Let's try to narrow it down.
+Searching a startup that has the text ```facebook``` on any of his properties gives us 88 matches. Let's try to narrow it down.
 
-![too many facebook results](https://dl.dropboxusercontent.com/s/yrdvvjir99q0910/68.png?dl=0)
+![](Facebook_Example.png)
 
-We click on the  ```Search nodes``` icon in the top left corner.
+We click on the  ```Advanced``` icon, a new menu appears:
 
-![the search nodes icon](https://dl.dropboxusercontent.com/s/dy6dt3qrx1v32uu/69.png?dl=0)
+![](Advanced_Search.png)
 
-A new menu appear.
-
-![the search on multiple properties](https://dl.dropboxusercontent.com/s/xrcml53id4gx3xu/70.png?dl=0)
-
-We can see the name of the different labels in our database and their occurences.
-
+We can see the name of the different categories in our database and their occurences.
 We hit ```Options``` to see the name of the different properties in our graph.
 
 ![the search on multiple properties](https://dl.dropboxusercontent.com/s/bog5w0tdm64ukic/71.png?dl=0)
