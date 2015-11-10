@@ -1,6 +1,6 @@
 ## Search nodes
 
-We may have millions of nodes in our graph. What if we are looking at a specific node? We can use the search bar in the Linkurious Enterprise interface to find it quickly (top left corner).
+We may have millions of nodes in our graph. What if we want to look at a specific node? We can use the search bar in the Linkurious Enterprise interface to find it quickly (top left corner).
 
 ![the search bar](https://dl.dropboxusercontent.com/s/666kdazm4s8z30g/17.png?dl=0)
 
