@@ -1,6 +1,7 @@
 ## Create a new visualization
 
-To create a new visualization, we click on ```New Visualization```.
+To create a new visualization, we click on ```New visualization```
+
 
 ![](New visualization.png)
 
