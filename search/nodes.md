@@ -1,6 +1,14 @@
 ## Search nodes
 
-We may have millions of nodes in our graph. What if we want to look at a specific node? We can use the search bar in the Linkurious Enterprise interface to find it quickly.
+We may have millions of nodes in our graph. What if we want to look at a specific node?
+
+The first possibility is to use the Quick Search bar:
+
+![](Quick Search.png)
+
+The second possibility is to use the search bar in the Linkurious Enterprise interface once we have created a New Visualization 
+
+![](New visualization.png)
 
 ![](Find.png)
 
@@ -23,3 +31,10 @@ We click on the result of our choice, it will be added to the canvas. Now we can
 ![](PropertiesCircle.png)
 
 > For example, you could find the ```Instagram``` node by typing ```instagram```, or ```USA``` or ```2010-03```.
+
+
+The bar search in New visualization provides an Advanced Search option not available through the Quick Search bar. We can thus reduce the results to the category of nodes we are interested in.
+
+![](Advanced Search.png)
+
+Voilà, we can now visualize our result.
