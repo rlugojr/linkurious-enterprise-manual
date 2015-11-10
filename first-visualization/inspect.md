@@ -17,4 +17,3 @@ If we want to remove the left panel, we simply click on the node.
 Inspect edges in the same manner.
 
 
-![](RawNode.png)
