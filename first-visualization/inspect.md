@@ -2,7 +2,7 @@
 
 In order to view the different properties of a node, we simply click on it. We immediately see information appear on the left side of the screen.
 
-
+![](PropertiesCircle.png)
 
 Here we can see that there is a node with the id ```#3886```. It is called ```Instagram``` and has a ```Company``` label. Below we can see the various properties associated with the node.
 
