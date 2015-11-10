@@ -1,10 +1,10 @@
 ## Create a new visualization
 
-We can start to explore the data ... have a rapid look at a node and its relations through the Quick Search bar
+We can start to explore the data and have a rapid look at a node and its relations through the Quick Search bar. Several results matching the database are proposed.
 
 ![](Quick Search.png)
 
-An alternative is to create a new visualization to explore more deeply a node or an edge, we click on ```New visualization```
+An alternative is to create a new visualization,  we click on ```New visualization```
 
 
 ![](New visualization.png)
@@ -21,9 +21,3 @@ We simply type the name of any property associated with the node or edge we are 
 We see a few suggestions. We Click on the one we are interested in.
 
 ![](1st Visualization.png)
-
-The bar search in New visualization provides an Advanced Search option not available through the Quick Search bar. We can thus reduce the results to the category of nodes we are interested in.
-
-![](Advanced Search.png)
-
-Voilà, we can now visualize our result.
