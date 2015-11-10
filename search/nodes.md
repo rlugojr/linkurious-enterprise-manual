@@ -2,9 +2,9 @@
 
 We may have millions of nodes in our graph. What if we want to look at a specific node?
 
-The first possibility is to use the Quick Search bar:
+The first possibility is to use the Quick Search bar, where we can either choose to look at nodes or edges (green circle). Here we look at nodes:
 
-![](Quick Search.png)
+![](Quick Search_Nodes.png)
 
 The second possibility is to use the search bar in the Linkurious Enterprise interface once we have created a New Visualization 
 
