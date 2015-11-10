@@ -12,7 +12,7 @@ These results are sorted by labels.
 
 For each result we can see
 - The name of the node and its ID number (Instagram, #3886)
-- The property that matches our search, highlighted in yellow (Here, the permalink of the company Instagram contains the text Instagram)
+- The property that matches our search, highlighted in yellow (Here, the permalink of the company ```Instagram``` contains the text ```Instagram```)
 
 
 
