@@ -13,6 +13,6 @@ You now have a few options :
 * ```Select leaf nodes``` : select the nodes in your visualization that have only one relationship ;
 * ```Select isolates``` : select the nodes in your visualization that have no relationships ;
 * ```Select all relationships``` : select all the edges in your current visualization ;
-* ```Toggle lasso``` : select manually the nodes we ara interested in
+* ```Toggle lasso``` : select manually the nodes we are interested in
 * ```Select all edges```
 * ```Inverse selection``` : invert your current selection.
