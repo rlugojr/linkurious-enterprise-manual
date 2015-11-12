@@ -16,24 +16,24 @@ We simply type what we are looking for. We see the list of suggestions that matc
 
 ![](Find_Example.png)
 
-These results are sorted by labels.
+These results are sorted by categories.
 
 For each result we can see
 - The name of the node and its ID number (Instagram, #3886)
-- The property that matches our search, highlighted in yellow (Here, the permalink of the company ```Instagram``` contains the text ```Instagram```)
+- The property that matches our search, highlighted in yellow (Here, the permalink of the company ```Instagram``` contains the text ```Instagram``` that matched our search)
 
 
 
 We click on the result of our choice, it will be added to the canvas. Now we can visualize it.
 
-> How it works : by default, Linkurious Enterprise indexes all the properties of your graph. If a node has a property that matches your search, it will be returned.
+> How it works : by default, Linkurious Enterprise indexes all the properties of your graph. If any property of a node matches your search, it will be returned.
 
 ![](PropertiesCircle.png)
 
 > For example, you could find the ```Instagram``` node by typing ```instagram```, or ```USA``` or ```2010-03```.
 
 
-The bar search in New visualization provides an Advanced Search option not available through the Quick Search bar. We can thus reduce the results to the category of nodes we are interested in.
+The bar search in New visualization provides an Advanced Search option not available through the Quick Search bar. We can thus reduce the results to the category we are interested in.
 
 ![](Advanced Search.png)
 
