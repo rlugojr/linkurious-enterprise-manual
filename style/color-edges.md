@@ -2,7 +2,26 @@
 
 Coloring the edges works exactly the same that coloring nodes like presented previously.
 
+If all your nodes or edges have the same color, it is difficult to distinguish differences between them without looking at their individual properties. A great way to circumvent that issue is to choose to color the edges according to a certain property.
 
+First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab.
+
+
+
+
+![](Colored.png)
+
+If we look at the property ```country```, in the design panel we can see:
+* the different values associated with the ```country``` property (CAN, GBR, JPN, RUS, USA);
+
+And hitting the color button we also can see
+
+* how many occurences of each value there is (there are 36 nodes with the value ```USA```);
+* which color is associated to which value (```USA``` is velvet)
+
+
+
+> We can see that the nodes that do not have a ```country``` property are not colored. They remain in grey.
 By default the edges are not colored.
 
 ![the criteo edges](https://dl.dropboxusercontent.com/s/ituxoqm9kkyf6fh/40.png?dl=0)
