@@ -17,7 +17,7 @@
 * [Search](search/README.md)
    * [Search nodes](search/nodes.md)
    * [Search edges](search/edges.md)
-   * [Advanced Search](search/refine-query.md)
+   * [Advanced search](search/refine-query.md)
    * [Advanced syntax](search/syntax.md)
    * [Find shortest paths](search/shortest-paths.md)
 * [Manipulate](manipulate/README.md)
