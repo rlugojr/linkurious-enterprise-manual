@@ -9,7 +9,7 @@ The following chapters are divided in themes. They go through the functionalitie
 
 Just like our software, this guide assumes no prior knowledge of graph visualization techniques. If you read it thoroughly, you will be able to find valuable connections and structural patterns in your data, to improve your graph database, and to communicate your findings efficiently.
 
-Version of Linkurious Enterprise: v0.10.1 "Stellar Stegosaurus".
+Version of Linkurious Enterprise: v1.1.0 "Tragicomical Toucan".
 
 **WORK-IN-PROGRESS TO UPGRADE THIS MANUAL FROM LINKURIOUS v0.8 to v0.10**
 
