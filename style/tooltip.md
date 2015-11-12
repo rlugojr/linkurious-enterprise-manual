@@ -2,17 +2,17 @@
 
 When you right-click on a node or an edges, you can view its properties in a pop-up menu called a tooltip.
 
-![](https://dl.dropboxusercontent.com/s/zp1nhk2rhbo04o0/94.png?dl=0)
+![](TooltipPix.png)
 
-We can see that our node is a ```Company``` which ```country``` is ```FRA```.
+We can see that our node is a ```Company``` whith the ```permalink``` /organization/instagram
 
-It is possible to customize the content of the tooltip and display only certain properties.
+It is possible to customize the content of the tooltip and to display only certain properties.
 
-In order to customize this, we need to open the design panel on the right.
+In order to customize this, we need to open the design panel on the right and let's go to the ```Toolstips``` tab.
 
-![](https://dl.dropboxusercontent.com/s/j9emxs72jlrkfn7/90.png?dl=0)
+![](Customize_Tooltip.png)
 
-Now let's go to the ```Toolstips``` tab. Here we can see the different properties of the nodes in our graph. By default all the properties are ```on``` and are thus displayed. In the bottom of the screen, it is possible to select the relationships.
+ Here we can see the different properties of the nodes in our graph. By default all the properties are ```on``` and are thus displayed. In the bottom of the screen, it is possible to select the edges.
 
 ![](https://dl.dropboxusercontent.com/s/h5vbkg2krgsbmh6/91.png?dl=0)
 
