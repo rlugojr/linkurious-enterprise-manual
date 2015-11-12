@@ -4,7 +4,7 @@ In this chapter, we will learn the basics of how to explore and visualize a grap
 
 This section of the manual and the following chapters are based on a dataset coming from [Crunchbase](http://www.crunchbase.com/). Crunchbase is a popular website that tracks the start-up ecosystem, especially companies and investors.
 
-We have used Crunchbase to create a graph database of approximatively 75 000 nodes and 250 000 edges. From this we have then created a subset of to focus on French companies only. It contains 1855 nodes and 3566 relationships. This graph contains 4 types of nodes:
+We have used Crunchbase to create a graph database of approximatively 75 000 nodes and 250 000 edges. From this we have then created a subset of to focus on San Francisco Bay Area companies only. It contains 14 863 nodes and 47 090 relationships. This graph contains 4 types of nodes:
 * cities
 * companies
 * investors
