@@ -11,4 +11,5 @@ For example, in the picture above I have selected three nodes. I simply have to 
 
 My two nodes are now removed from the visualization.
 
+
 ![](HideNodes_2.png)
