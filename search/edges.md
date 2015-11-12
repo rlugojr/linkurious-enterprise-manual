@@ -14,7 +14,7 @@ By default the search bar searches nodes. To search a relationship, we click on 
 
 ![](Find_Edges.png)
 
-Now we can use the search bar to search for relationships. It works exactly like the search for nodes.
+Now, it works exactly like the search for nodes.
 
 We simply type what we are looking for. We see the list of suggestions that match our search.
 
