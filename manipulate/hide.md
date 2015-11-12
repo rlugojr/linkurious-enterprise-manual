@@ -13,3 +13,5 @@ My two nodes are now removed from the visualization.
 
 
 ![](HideNodes_2.png)
+
+If we use de Toggle Lasso option to select the nodes we want to delete, we need to make sure the central node is not selected otherwise all the edges raising from this node will also be hidden.
