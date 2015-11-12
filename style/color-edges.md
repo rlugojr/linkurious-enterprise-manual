@@ -1,6 +1,7 @@
 ## Coloring the edges according to a property
 
-We have seen how to color the nodes according to the property of our choice. Coloring the edges works exactly the same.
+Coloring the edges works exactly the same that coloring nodes like presented previously.
+
 
 By default the edges are not colored.
 
