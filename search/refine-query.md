@@ -1,4 +1,4 @@
-## Advances search
+## Advanced search
 
 You are looking for a specific node or relationship and the search bar gives you too many results? The text you are searching is too common! 
 You may want to narrow you search by searching on multiple properties.
