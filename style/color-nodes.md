@@ -22,6 +22,6 @@ And hitting the color button we also can see
 * how many occurences of each value there is (there are 36 nodes with the value ```USA```);
 * which color is associated to which value (```USA``` is velvet)
 
-
+Here, our nodes are colored according to their ```country``` property
 
 > We can see that the nodes that do not have a ```country``` property are not colored. They remain in grey.
