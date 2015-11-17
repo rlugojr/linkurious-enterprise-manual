@@ -8,13 +8,13 @@ First of all, let's open the design panel on the right corner of the screen and 
 
 ![](TwitterPanel.png)
 
+![](Types.png)
+
+If we look at the property ```type```, in the design panel we can see:
+
+* the different values associated with the ```type``` property (INVESTED_IN, ACQURED, HAS_CITY and HAS MARKET)
 
 
-
-![](Colored.png)
-
-If we look at the property ```country```, in the design panel we can see:
-* the different values associated with the ```country``` property (CAN, GBR, JPN, RUS, USA);
 
 And hitting the color button we also can see
 
@@ -30,13 +30,11 @@ By default the edges are not colored.
 
 
 
-![edges tab](https://dl.dropboxusercontent.com/s/rse0rz97itwtlck/42.png?dl=0)
 
-Now we can view the different properties associated with the edges.
 
-![opened edges tab](https://dl.dropboxusercontent.com/s/iz6jcaav9k87thk/43.png?dl=0)
 
-We simply have to select the property we want to focus on. Here we want to distinguish the different types of edges. Thus, we are going to select the ```type``` property.
+
+
 
 It is as simple as going over ```type``` and selecting ```Colors```.
 
