@@ -22,24 +22,12 @@ We move the mouse to ```raised amount```. In addition to being able to color the
 
 We are going to select the ```Size``` icon.
 
+A new menu appears. It makes it possible to set the ```Min/max size difference```, the difference in size between the node with the lowest value and the node with the highest value.
+
+If we want to view the difference in ```raised amount``` we are going to set the ```Min/max size difference``` to ```2```.
 
 
 ![](Sized.png)
 
-
-
-![relationship tab](https://dl.dropboxusercontent.com/s/el645at9kktrus4/49.png?dl=0)
-
-We are going to scroll to go to ```raised_amount_usd```, the property we are interested in. We can use it to color the relationships but, because that property has numercial values, we can also use it to **size** the relationships.
-
-![raised_amount_usd](https://dl.dropboxusercontent.com/s/3vsyxeee7jv4aiw/50.png?dl=0)
-
-Simply click on ```Size```. A new menu appears. It makes it possible to set the ```Min/max size difference```, the difference in size between the relationship with the lowest value and the relationship with the highest value.
-
-![the difference](https://dl.dropboxusercontent.com/s/8xerdpa26qktjos/51.png?dl=0)
-
-If we want to view the difference in ```funding_total_usd``` we are going to set the ```Min/max size difference``` to ```3```.
-
-![setting the size difference](https://dl.dropboxusercontent.com/s/m3z7hv2pgv1myue/52.png?dl=0)
 
 Now we can see that SoftBank Capital appears to have contributed the most to the funding of Criteo because the relationship between these two companies is the largest.
