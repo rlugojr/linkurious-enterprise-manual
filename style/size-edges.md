@@ -8,13 +8,12 @@ This technique only applies to numbers ie to edges that have a property that is 
 
 This works similarly to the coloring functionality of Linkurious Enterprise. Coloring and sizing can be combined to make powerful visualizations.
 
-![](Raw.png)
+![](Example.png)
 
 In the picture above we see the company Instagram with various companies that have invested in it.
 
 If we zoom in on the relationship between Instagram and Sequoia Capital, we can see it has a ```raised_amount_usd``` property with the value ```55 000 000```.
 
-![criteo and idinvest](https://dl.dropboxusercontent.com/s/85ugjya4kspvn6v/47.png?dl=0)
 
 We can choose to size all the relationships in our visualization according to the ```raised_amount_usd``` property to quickly glimpse who invested the most money in Instagram.
 
