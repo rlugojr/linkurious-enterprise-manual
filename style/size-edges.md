@@ -29,5 +29,6 @@ If we want to view the difference in ```raised amount``` we are going to set the
 
 ![](Sized.png)
 
+Now we can see that few outliers appear as edges larger than the rest.
 
-Now we can see that SoftBank Capital appears to have contributed the most to the funding of Criteo because the relationship between these two companies is the largest.
+
