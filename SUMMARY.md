@@ -35,7 +35,7 @@
    * [Color edges](style/color-edges.md)
    * [Sizing the nodes](style/size-nodes.md)
    * [Sizing the edges](style/size-edges.md)
-   * Icons
+   * [Icons](style/icons.md)
 * [Filter](filter/README.md)
    * [Filter nodes](filter/nodes.md)
    * [Filter edges](filter/edges.md)
