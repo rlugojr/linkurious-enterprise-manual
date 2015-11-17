@@ -26,6 +26,6 @@ If we want to view the difference in ```funding_total``` we are going to set the
 
 ![](Sizing_12.png)
 
-Now we can see that a few outliers appear as nodes larger than the rest.
+Now we can see that few outliers appear as nodes larger than the rest.
 
 The larger nodes represent companies like Airbnb, Box, Pinterest or Zynga. We can quickly identify them as the most successful investments of Andreessen Horowitz.
