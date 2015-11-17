@@ -1,6 +1,6 @@
 ## Sizing the nodes according to a property
 
-By default all the nodes have the same size. It is possible though to choose to map the size of nodes or edges to certain properties. This way it will be possible to visualize that property.
+By default all the nodes have the same size. It is possible though to choose to map the size of nodes to certain properties. This way it will be possible to visualize that property.
 
 This technique only applies to numbers ie to the nodes or edges that have a property that is a number.
 
