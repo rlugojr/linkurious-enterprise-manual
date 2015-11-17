@@ -14,12 +14,12 @@ If we look at the property ```type```, in the design panel we can see:
 
 * the different values associated with the ```type``` property (INVESTED_IN, ACQURED, HAS_CITY and HAS MARKET)
 
+![](Colored Edges.png)
 
+And hitting the color button we can can see
 
-And hitting the color button we also can see
-
-* how many occurences of each value there is (there are 36 nodes with the value ```USA```);
-* which color is associated to which value (```USA``` is velvet)
+* how many occurences of each value there is (there are 13  nodes with the value ```INVESTED_IN```);
+* which color is associated to which value (```ACQUIRED``` is blue)
 
 
 
