@@ -14,14 +14,19 @@ In the picture above we see the company Instagram with various companies that ha
 
 If we zoom in on the relationship between Instagram and Sequoia Capital, we can see it has a ```raised_amount_usd``` property with the value ```55 000 000```.
 
+We are going to size the different companies according to their ```raised amount``` property in order to to quickly glimpse who invested the most money in Instagram.
 
-We can choose to size all the relationships in our visualization according to the ```raised_amount_usd``` property to quickly glimpse who invested the most money in Instagram.
+We click on the upper right corner to open up the design panel and choose the Edges tab.
 
-In order to do that, we open the design panel on the right. Choose the ```Relationships``` tab.
+We move the mouse to ```raised amount```. In addition to being able to color the edges according to that property, it is possible to size the edges. Linkurious Enterprise can do that for any property that has numerical values.
 
-![](Menu.png)
+We are going to select the ```Size``` icon.
 
-Now all the properties associated with the relationships in our graph are visible.
+
+
+![](Sized.png)
+
+
 
 ![relationship tab](https://dl.dropboxusercontent.com/s/el645at9kktrus4/49.png?dl=0)
 
