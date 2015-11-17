@@ -1,6 +1,6 @@
 ## Sizing the edges according to a property
 
-We have seen how to size the nodes according to the property of our choice. Sizing the relationships works exactly the same.
+Sizing the edges works exactly the same.
 
 By default the relationships all have the same size. Using the size can be helpful to visualize a numerical value associated to the relationships in your graph.
 
