@@ -1,5 +1,5 @@
 
-## Edit a node or an relationships
+## Edit a node or an edge
 
 ###Edition Mode
 
