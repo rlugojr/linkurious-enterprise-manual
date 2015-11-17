@@ -4,19 +4,23 @@ Sizing the edges works exactly the same.
 
 By default all the edges have the same size. It is possible though to choose to map the size of edges to certain properties. This way it will be possible to visualize that property.
 
-![criteo](https://dl.dropboxusercontent.com/s/3vluq781j7yfw5d/46.png?dl=0)
+This technique only applies to numbers ie to edges that have a property that is a number.
 
-In the picture above we see a start-up called [Criteo](http://www.criteo.com/). It is linked to four companies that has invested in it (IDInvest Partners, Softbank Capital, Index Ventures, Elaia Partners and Bessemer Venture Partners) and to a company it bought (AdQuantic).
+This works similarly to the coloring functionality of Linkurious Enterprise. Coloring and sizing can be combined to make powerful visualizations.
 
-If we zoom in on the relationship between Criteo and IDInvest Partners, we can see it has a ```raised_amount_usd``` property with the value ```6600000```.
+![](Raw.png)
+
+In the picture above we see the company Instagram with various companies that have invested in it.
+
+If we zoom in on the relationship between Instagram and Sequoia Capital, we can see it has a ```raised_amount_usd``` property with the value ```55 000 000```.
 
 ![criteo and idinvest](https://dl.dropboxusercontent.com/s/85ugjya4kspvn6v/47.png?dl=0)
 
-We can choose to size all the relationships in our visualization according to the ```raised_amount_usd``` property to quickly glimpse who invested the most money in Criteo.
+We can choose to size all the relationships in our visualization according to the ```raised_amount_usd``` property to quickly glimpse who invested the most money in Instagram.
 
 In order to do that, we open the design panel on the right. Choose the ```Relationships``` tab.
 
-![relationship tab](https://dl.dropboxusercontent.com/s/70c3duwrf5gkn1o/48.png?dl=0)
+![](Menu.png)
 
 Now all the properties associated with the relationships in our graph are visible.
 
