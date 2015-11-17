@@ -2,7 +2,7 @@
 
 Sizing the edges works exactly the same.
 
-By default the relationships all have the same size. Using the size can be helpful to visualize a numerical value associated to the relationships in your graph.
+By default all the edges have the same size. It is possible though to choose to map the size of edges to certain properties. This way it will be possible to visualize that property.
 
 ![criteo](https://dl.dropboxusercontent.com/s/3vluq781j7yfw5d/46.png?dl=0)
 
