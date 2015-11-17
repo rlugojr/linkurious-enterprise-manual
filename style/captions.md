@@ -9,7 +9,7 @@ Linkurious Enterprise lets you choose which of the properties of your graph shou
 
 ![](Captions.png)
 
-For example, we want to show the ```country``` in the visualization. To do it, we simply click on ```city``` and it will be added to the dotted caption on the top of the list.
+For example, we want to show the ```country``` in the visualization. To do it, we simply click on ```country``` and it will be added to the dotted caption on the top of the list.
 
 ![](Add Property.png)
 
@@ -17,4 +17,6 @@ Now the text displayed next to your node changes. Instead of looking at ```Insta
 
 The same approach can be used for the edges.
 
-> Linkurious Enterprise will try to use the properties at the top of the list. If a node doesn't have that property, Linkurious Enterprise will look for the next property, etc.
+> Linkurious Enterprise will use the properties in the order it appears in the list. Placing the cursor on one property, we have the possibility to change the order or to remove a property. If a node doesn't have a property, Linkurious Enterprise will look for the next property, etc.
+
+![](Up and Down.png)
