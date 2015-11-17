@@ -4,11 +4,12 @@ We choose ```Create``` in the left panel.
 
 ![create](https://dl.dropboxusercontent.com/s/s82we6xyz3rgqtd/128.png?dl=0)
 
-We can choose to create either a relationship or a node.
+We can choose to create either a node or an edge.
 
 ![edge or node](https://dl.dropboxusercontent.com/s/rtpov0nwet8ynxi/129.png?dl=0)
 
-If we choose to create a relationship, we a value for the ```Categories``` and hit save. Then for each property of our node, we enter the name of property and its value. When it is done, we hit ```Save```.
+If we choose to create a node, we enter a value for the ```Categories``` and hit add. Then for each property of our node, we enter the name of the property and its value. When it is done, we hit ```Save```.
+
 
 ![save node](https://dl.dropboxusercontent.com/s/4h2rd2h7nk5b8nq/130.png?dl=0)
 
