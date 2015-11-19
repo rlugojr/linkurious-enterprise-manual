@@ -1,6 +1,6 @@
 ## Default colors
 
-By default the nodes and edges are grey.
+The default color of the nodes may be defined by the administrator of Linkurious Enterprise. Here the default color is grey.
 
 ![![](Grey.png)](GreyRaw.png)
 
