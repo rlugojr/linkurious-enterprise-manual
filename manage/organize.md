@@ -9,25 +9,35 @@ We can also organize the visualizations in folders.
 The following actions are possible when we right-click on a visualization :
 * open : opens the visualization where you left it (with the colors, sizes and filters);
 * share: shares the visualization;
+* move to: moves to a folder;
+* duplicate: duplicates the visualization;
 * rename : renames the visualization;
 * delete : deletes the visualization.
 
-![interacting with a visualization](https://dl.dropboxusercontent.com/s/imm3d1t0vmvygzc/22.png?dl=0)
+![](Options.png)
 
 ### Arrange visualizations in folders
 
-To create a folder, we click on ```+ Visualization``` in the left menu.
+To create a folder, we click on ```Create folder``` in the left menu.
 
-![create a folder](https://dl.dropboxusercontent.com/s/ghg57rsj8jywzh4/23.png?dl=0)
+![](NewFolder.png)
 
-We nter the name of our folder.
+We enter the name of our folder.
 
-![choose folder name](https://dl.dropboxusercontent.com/s/a1rkczkqwdezxxs/24.png?dl=0)
+![](NameFolder.png)
 
 We hit ```Save```. Our folder is created.
 
-![new folder](https://dl.dropboxusercontent.com/s/7h02o2knoa41atp/25.png?dl=0)
+![](FolderCreated.png)
 
-We ove into the folder by clicking on it. Now, if we create a visualization by clicking on ```+ Visualization``` it will be added to that folder.
+We move into the folder by clicking on it. If we want to move a visualization into the folder we used the actions ```move to``` when right-clicking on our visualization: 
 
-![visualization within a folder](https://dl.dropboxusercontent.com/s/e2b4gq2xstkylio/26.png?dl=0)
+![](MoveTo.png)
+
+We select the folder we want to move to our visualization:
+
+![](MTF1.png)
+
+The visualization has been moved to the folder.
+
+![](Folder.png)
