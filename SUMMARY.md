@@ -13,7 +13,6 @@
    * [At first glance](first-visualization/at-first-glance.md)
    * [Create a new visualization](first-visualization/create.md)
    * [Inspect data](first-visualization/inspect.md)
-* [Display the connections of a node](first-visualization/find-connections.md)
 * [Search](search/README.md)
    * [Search nodes](search/nodes.md)
    * [Search edges](search/edges.md)
