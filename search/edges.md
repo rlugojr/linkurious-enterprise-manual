@@ -2,7 +2,7 @@
 
 We may have millions of relationships in our graph. What if we want to look at a specific relationship? 
 
-The first possibility is to use the Quick Search bar, where we can either choose to look at nodes or edges (green circle). Here we look at edges:
+The first possibility is to use the Quick Search bar available on the Dashboard, where we can either choose to look at nodes or edges (green circle). Here we look at edges:
 
 ![](QS_Edges.png)
 
