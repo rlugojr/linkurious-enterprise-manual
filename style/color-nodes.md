@@ -26,4 +26,4 @@ Here, our nodes are colored according to their ```country``` property
 
 > We can see that the nodes that do not have a ```country``` property are not colored. They remain in grey.
 
-To color another property, the same approach can be used. If we want to unset colors for a property, we click on the color buttonnext to the property.
+To color another property, the same approach can be used. If we want to unset colors for a property, we click on the color button next to the property.
