@@ -1,15 +1,15 @@
 ## Collapse nodes
 
-As we explore a graph, we expand the relationships of one or multiple nodes. Sometimes the nodes and edges added to our visualization may not be relevant. In that case, we can use the collpase functionality to remove them.
+As we explore the graph, we expand the relationships of one or multiple nodes. Sometimes the nodes and edges added to our visualization may not be relevant. In that case, we can use the collapse functionality to remove them.
 
-Collapsing means removing from the visualization the nodes that are connected to one node or to a group of node.
+Collapsing means removing from the visualization the nodes that are connected to one node or to a group of nodes.
 
 Let's say that we are looking at the relationships of Instagram.
 We can open up the ```properties``` panel on the left.
 
 ![](Collapse.png)
 
-We then select ```Collapse```. The nodes that are connected to Instagram are remove from the visualization.
+We then select ```Collapse```. The nodes that are connected to Instagram are removed from the visualization.
 
 ![](Collapse Example.png)
 
