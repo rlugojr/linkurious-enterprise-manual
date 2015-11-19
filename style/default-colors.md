@@ -4,6 +4,6 @@ The default color of the nodes may be defined by the administrator of Linkurious
 
 ![![](Grey.png)](GreyRaw.png)
 
-When you select a node or an edge, it is immediately higlighted in red and a white halo appears on its connected nodes.
+When you select nodes and edges, it is immediately higlighted in red and a white halo appears on its connected nodes.
 
 ![](Color.png)
