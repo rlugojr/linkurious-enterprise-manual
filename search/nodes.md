@@ -33,8 +33,8 @@ We click on the result of our choice, it will be added to the canvas. Now we can
 > For example, you could find the ```Instagram``` node by typing ```instagram```, or ```USA``` or ```2010-03```.
 
 
-The search bar in the Workspace provides an Advanced Search option not available through the Quick search bar of the Visualizations Dashboard. We can thus reduce the results to the category we are interested in.
 
-![](Advanced Search.png)
 
-Voilà, we can now visualize our result.
+The search bar in the Workspace provides an Advanced Search option not available through the Quick search bar of the Visualizations Dashboard. We can thus reduce the results to the category we are interested in. Those options are described in the Advanced search section.
+
+
