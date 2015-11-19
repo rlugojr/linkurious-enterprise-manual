@@ -16,3 +16,5 @@ You now have a few options :
 * ```Toggle lasso``` : select manually the nodes we are interested in
 * ```Select all edges```
 * ```Inverse selection``` : invert your current selection.
+
+Shortcuts are also available for this actions. Those shortcuts are presented in the section ```4.6 Shortcuts```.
