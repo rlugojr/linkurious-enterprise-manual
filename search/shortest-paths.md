@@ -1,14 +1,14 @@
 ## Search for a shortest path
 
-We start with 2 seemingly unconnected nodes, ```Facebook``` and ```LinkedIn``` that are in our visualization.
+Linkurious Enterprise provides an option to find the shortest past between two nodes in our graph.
+Here, we will be looking for the shortest past existing between the two companies Facebook and LinkedIn.
 
-![](FB_LI.png)
+We start with 2 seemingly disconnected nodes, ```Facebook``` and ```LinkedIn``` that are in our visualization.
 
-We select the ```Finder```.
+![](LI_FB.png)
 
-Next we choose ```Path```.
-
-Now we choose the ```starting node``` (LinkedIn) and the ```destination```(Facebook)
+We select the ```Finder```. Next we choose ```Path```. 
+Now we choose the ```starting node``` (LinkedIn) and the ```destination```(Facebook).
 
 
 We click on ```Find shortest path```. The results are now displayed.
