@@ -6,15 +6,16 @@ If all your nodes or edges have the same color, it is difficult to distinguish d
 
 First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab.By default we can see the properties of the nodes. We select the ```edges``` tab on the bottom.
 
-![](TwitterPanel.png)
+![](DesignP.png)
 
 ![](Types.png)
 
 If we look at the property ```type```, in the design panel we can see:
 
-* the different values associated with the ```type``` property (INVESTED_IN, ACQURED, HAS_CITY and HAS MARKET)
+* the different values associated with the ```type``` property (INVESTED_IN, ACQUiRED, HAS_CITY and HAS MARKET)
 
-![](Colored Edges.png)
+![](Final.png)
+
 
 And hitting the color button we can can see
 
