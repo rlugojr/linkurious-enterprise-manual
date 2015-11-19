@@ -20,8 +20,10 @@ If we look at the property ```country```, in the design panel we can see:
 And hitting the color button we also can see
 
 * how many occurences of each value there is (there are 36 nodes with the value ```USA```);
-* which color is associated to which value (```USA``` is velvet)
+* which color is associated to which value (```USA``` is green)
 
 Here, our nodes are colored according to their ```country``` property
 
 > We can see that the nodes that do not have a ```country``` property are not colored. They remain in grey.
+
+To color another property, the same approach can be used. If we want to unset colors for a property, we click on the color buttonnext to the property.
