@@ -8,11 +8,11 @@ This way, a French and a German start-up will have different colors. It will be 
 
 In the picture below, we see the start-ups and investors Twitter is connected to. At first glance we have no idea where they are coming from.
 
-![](RawTwitter.png)
+![](WithoutColor.png)
 
 First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab.
 
-![](Colored.png)
+![](Coloration.png)
 
 If we look at the property ```country```, in the design panel we can see:
 * the different values associated with the ```country``` property (CAN, GBR, JPN, RUS, USA);
