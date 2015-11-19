@@ -10,11 +10,11 @@ The second possibility is to use the search bar in the Linkurious Enterprise int
 
 ![](New visualization.png)
 
-By default the search bar searches nodes. To search a relationship, we click on the ```Edges``` tab.
+By default the finder opens on finding nodes. To search a edges, we click on the ```Edges``` tab.
 
 ![](Find_Edges.png)
 
-Now, it works exactly like the search for nodes.
+The search for edges works exactly like the search for nodes.
 
 We simply type what we are looking for. We see the list of suggestions that match our search.
 
