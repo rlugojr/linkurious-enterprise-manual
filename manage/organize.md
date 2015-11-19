@@ -14,6 +14,7 @@ The following actions are possible when we right-click on a visualization :
 * rename : renames the visualization;
 * delete : deletes the visualization.
 
+
 ![](Options.png)
 
 ### Arrange visualizations in folders
