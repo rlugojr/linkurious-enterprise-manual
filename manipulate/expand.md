@@ -1,6 +1,6 @@
 ## Expand nodes
 
-Expanding nodes means displaying the nodes that are connected to one node or to a group of node.
+Expanding nodes means displaying the nodes that are connected to one node or to a group of nodes.
 
 We can expand nodes in different ways:
 
@@ -8,9 +8,10 @@ We can expand nodes in different ways:
 * select one or multiple nodes, then click on the ```Expand``` button of the left panel.
 * right-click on a node in the view, then click on the ```Expand``` button of the tooltip.
 
+
 ![](Expand.png)
 
-The ```Expand``` buttons display the list of available relationship types and neighbor categories. We can choose to get everything or to filter the retrieved relationships and neighbors.
+The ```Expand``` buttons on the left panel display the list of available relationship types and neighbor categories. We can choose to get everything or to filter the retrieved relationships and neighbors.
 
 ![](ExpandOptions.png)
 
