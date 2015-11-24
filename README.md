@@ -11,7 +11,7 @@ Just like our software, this guide assumes no prior knowledge of graph visualiza
 
 Version of Linkurious Enterprise: v1.1.0 "Tragicomical Toucan".
 
-**WORK-IN-PROGRESS TO UPGRADE THIS MANUAL FROM LINKURIOUS v0.8 to v0.10**
+**WORK-IN-PROGRESS TO UPGRADE THIS MANUAL FROM LINKURIOUS v0.8 to v1.1.0**
 
 - <i class="fa fa-check" style="color:#3c3;"></i><i class="octicon octicon-check" style="color:#3c3;"></i> Getting started
 - <i class="fa fa-check" style="color:#3c3;"></i><i class="octicon octicon-check" style="color:#3c3;"></i> Build your first graph visualization
