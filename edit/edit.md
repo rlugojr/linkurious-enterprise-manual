@@ -9,7 +9,7 @@ First of all we need to switch the edition mode to ```On``` in the top left corn
 
 ###Editing or deleting a property
 
-Now if we select a node or an edge and move the mouse cursor next to property, we can ```Edit``` or ```Delete``` it.
+Now if we select a node or an edge and move the mouse cursor next to a property, we can ```Edit``` or ```Delete``` it.
 
 ![](E_D.png)
 
@@ -22,7 +22,7 @@ If you wish to delete a property, simply click on ```Delete```.
 
 ###Editing or deleting a label
 
-It is possible to add or remove a label to an edge or a node.
+It is possible to add or remove a category to an edge or a node.
 
 ![](RemoveCategory.png)
 
