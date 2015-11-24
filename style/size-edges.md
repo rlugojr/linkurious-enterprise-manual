@@ -8,7 +8,7 @@ This technique only applies to quantitative properties.
 
 This works similarly to the coloring functionality of Linkurious Enterprise. Coloring and sizing can be combined to make powerful visualizations.
 
-![](Exemple.png)
+![](PriceZoom.png)
 
 In the picture above we see the company Instagram with various companies that have invested in it.
 
