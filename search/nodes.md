@@ -2,9 +2,9 @@
 
 We may have millions of nodes in our graph. What if we want to look at a specific node?
 
-The first possibility is to use the Quick Search bar from the Dashboard, where we can either choose to look at nodes or edges (green circle). Here we look at nodes:
+The first possibility is to use the Quick Search bar from the Dashboard Visualizations, where we can either choose to look at nodes or edges (green circle). Here we look at nodes:
 
-![](Quick Search_Nodes.png)
+![](QuickS_Nodes.png)
 
 The second possibility is to use the search bar in the Workspace once we have created a New Visualization 
 
@@ -12,7 +12,7 @@ The second possibility is to use the search bar in the Workspace once we have cr
 
 ![](Find.png)
 
-We can look for a node typing the name of any of its oproperties. Here, for example, we look for the property Instagram. We see the list of suggestions that match our search.
+We can look for a node typing the name of any of its properties. Here, for example, we look for the property Instagram. We see the list of suggestions that match our search.
 
 ![](Find_Example.png)
 
@@ -35,6 +35,6 @@ We click on the result of our choice, it will be added to the canvas. Now we can
 
 
 
-The search bar in the Workspace provides an Advanced Search option not available through the Quick search bar of the Dashboard. We can thus reduce the results to the category we are interested in. Those options are described in the Advanced search section.
+The search bar in the Workspace provides an Advanced Search option not available through the Quick search bar of the Visualizations Dashboard. We can thus reduce the results to the category we are interested in. Those options are described in the Advanced search section.
 
 
