@@ -11,7 +11,7 @@ We can expand nodes in different ways:
 
 ![](Expand.png)
 
-The ```Expand``` buttons on the left panel display the list of available relationship types and neighbor categories. We can choose to get everything or to filter the retrieved relationships and neighbors.
+The ```Expand``` button on the left panel display the list of available relationship types and neighbor categories. We can choose to get everything or to filter the retrieved relationships and neighbors.
 
 ![](ExpandOptions.png)
 
