@@ -32,6 +32,15 @@
 
 ```spacebar``` + ```s``` Activate/deactiate selection of nodes with a lasso
 
+### Creation and Edit
+
+```spacebar``` + ```n``` Create node
+
+```spacebar``` + ```r``` Create edge
+
+```spacebar``` + ```m``` Edit selected node
+
+```spacebar``` + ```p``` Edit selected edge
 
 ### Export
 
@@ -41,6 +50,6 @@
 
 ### The Full list
 
-The list of shortcuts is directly available in the interface.
+The list of shortcuts is directly available in right bottom of the workspace.
 
-![shortcuts](https://dl.dropboxusercontent.com/s/4kxnav91hmkzqyj/53.png?dl=0)
+![](Button.png)
