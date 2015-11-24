@@ -26,7 +26,7 @@ In our graph, a ```Company``` can have properties like  ```category ```,  ```cou
 
 In order to narrow down our results, we are going to search on multiple properties at once. To find Facebook, we are going to look for a company that uses facebook.com as its homepage url.
 
-![](Multiple Properties.png)
+![](MProperties.png)
 
 Now when we type ``facebook``, the results are filtered to show only the nodes that have the label ```Company``` and the value ``facebook.com`` for the property ```homepage_url```.
 
