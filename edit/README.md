@@ -1,3 +1,3 @@
 # Edit
 
-In this chapter, we will learn to edit, add or remove nodes or edges to our graph.
+In this chapter, we will learn to edit, add and remove nodes or edges to our graph.
