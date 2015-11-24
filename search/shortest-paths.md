@@ -1,7 +1,7 @@
 ## Search for a shortest path
 
 Linkurious Enterprise provides an option to find the shortest past between two nodes in our graph.
-Here, we will be looking for the shortest past existing between the two companies Facebook and LinkedIn.
+Here, we will be looking for the connections between the companies Facebook and LinkedIn.
 
 We start with 2 seemingly disconnected nodes, ```Facebook``` and ```LinkedIn``` that are in our visualization.
 
