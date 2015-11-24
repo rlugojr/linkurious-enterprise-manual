@@ -1,8 +1,6 @@
 ## Hide nodes and edges
 
-Your visualization is getting too complex and you may want to remove from a visualization or hide a few nodes or edges to make it easier to understand.
-
-A node or an edge removed from the visualization still exist in the database.
+Your visualization is getting too complex and you may want to remove from a visualization (i.e. hide) a few nodes or edges to make it easier to understand. Notice that hidden nodes an edges are not deleted from the database.
 
 For example, in the picture above I have selected three nodes. I simply have to click on ```Hide``` to remove them from the visualization.
 
