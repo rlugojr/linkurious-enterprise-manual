@@ -41,7 +41,7 @@
    * [Combine filters](filter/combine.md)
    * [Remove filters](filter/remove.md)
 * [Edit](edit/README.md)
-   * [Edit or delete nodes and edges](edit/edit.md)
+   * [Edit or delete properties of nodes and edges](edit/edit.md)
    * [Add a node or an relationship](edit/add.md)
 * [Manage](manage/README.md)
    * [Autosave](manage/autosave.md)
