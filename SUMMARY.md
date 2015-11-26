@@ -43,7 +43,7 @@
 * [Edit](edit/README.md)
    * [Edit or delete properties of nodes and edges](edit/edit.md)
    * [Add a node or an relationship](edit/add.md)
-   * Remove an ode or an edge
+   * [Remove an ode or an edge](edit/remove_an_ode_or_an_edge.md)
 * [Manage](manage/README.md)
    * [Autosave](manage/autosave.md)
    * [Organize](manage/organize.md)
