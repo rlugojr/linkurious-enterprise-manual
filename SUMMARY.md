@@ -26,6 +26,7 @@
    * [Lasso](manipulate/lasso.md)
    * [Hide](manipulate/hide.md)
    * [Shortcuts](manipulate/shortcuts.md)
+   * Nodes and edges in a graph
 * [Style](style/README.md)
    * [Captions](style/captions.md)
    * [Tooltip](style/tooltip.md)
