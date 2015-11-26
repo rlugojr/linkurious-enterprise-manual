@@ -52,4 +52,4 @@
 
 The list of shortcuts is directly available in right bottom of the workspace.
 
-![](Button.png)
+
