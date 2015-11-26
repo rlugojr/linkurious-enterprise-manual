@@ -1,40 +1,44 @@
 
-## Edit a node or an edge
+## Edit properties and categories
 
 ###Edition Mode
 
 First of all we need to switch the edition mode to ```On``` in the top left corner.
 
-![](TurnOn.png)
+![](OffOn.png)
 
 ###Editing or deleting a property
 
 Now if we select a node or an edge and move the mouse cursor next to a property, we can ```Edit``` or ```Delete``` it.
 
-![](E_D.png)
+![](EorD.png)
 
 If we click on ```Edit```, we can change the value of the property.
-When we are finished, we simply click on  ```Save```.
+When we are finished, we  click on  ```Save```. Here we will edit the Name of the Company.
 
-![](Editing.png)
+![](EditName.png)
+![](Nouveau_Nom.png)
 
 If you wish to delete a property, simply click on ```Delete```.
 
-###Editing or deleting a label
+###Editing or deleting a category
 
 It is possible to add or remove a category to an edge or a node.
 
-![](RemoveCategory.png)
+![](DeleteCat.png)
 
-Click on the ```x``` next to the label to remove it.
 
-To add a label, we click on ```+```.
+Click on the ```x``` next to the category to remove it.
 
-![](AjouterLabel.png)
-![](Chemistry.png)
+To add a category, we click on ```+```. For example, we, might be interested to add in our graph the activity of the investors. 
 
-We type the new label, here  ```Chemistry```. We hit ```Save```.
+![](AddCat.png)
 
-The label is added.
+Here we had the category Angel Investor to precise the field of work of the company Ron Conway
 
-![](ChemistryAdded.png)
+We type the new category, here  ```Angel Investor```. We hit ```Save```.
+
+The category is added.
+
+![](AngelAdded.png)
+
