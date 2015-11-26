@@ -12,7 +12,7 @@ The dashboard lists the visualizations created by the user. The following image 
 
 The directory lists all indexed nodes and edges of the graph database in a tabular display.
 
-![directory]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/158.png)
+![](Directory.png)
 
 ### Workspace
 
