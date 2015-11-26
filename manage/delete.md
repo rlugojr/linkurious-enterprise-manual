@@ -4,7 +4,7 @@
 
 We open the Workspace menu, then click on the ```Delete``` button. We confirm to delete the visualization.
 
-![](toDelete.png)
+![](Menu.png)
 
 ### From the Dashboard
 
