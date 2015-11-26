@@ -10,7 +10,7 @@ The second possibility is to use the search bar in the Linkurious Enterprise int
 
 ![](New visualization.png)
 
-By default the finder opens on finding nodes. To search a edges, we click on the ```Edges``` tab.
+By default the finder opens on finding nodes. To search an edge, we click on the ```Edges``` tab.
 
 ![](Find_Edges.png)
 
