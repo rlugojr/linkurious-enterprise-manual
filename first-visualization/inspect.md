@@ -1,6 +1,6 @@
 ## Inspect nodes
 
-In order to view the different properties of a node, we simply click on it. We immediately see information appear on the left side of the screen.
+In order to view the different properties of a node, we click on it. Information immediately appear on the left side of the screen.
 
 ![](PropertiesCircle.png)
 
@@ -28,7 +28,7 @@ Now we can see all the nodes that are connected to Instagram.
 
 Notice the white halo around each node? All the node surrounded by the white halo are connected to the currently selected node (or nodes). In this case, all the nodes are connected to Instagram.
 
-The edges between the nodes represent the relationships. All the have a direction from one node (the node where the base of the edge is large) to another (the pointy end of the arrow).
+The edges between the nodes represent the relationships. All the edges have a direction from one node (the node where the base of the edge is large) to another (the pointy end of the arrow).
 
 If we click on a given relationship, the properties of that relationship will be displayed in the left panel.
 
