@@ -1,11 +1,11 @@
 ## Share
 
-It is possible to share a visualization with an other Linkurious Enterprise user. People we share a visualization with will be able to access it through the Linkurious Enterprise interface.
-If we right-click on a visualization, we can share it:
+It is possible to share a visualization with an other Linkurious Enterprise user. People we share a visualization with will be able to access it through the interface.
+If we right-click on a visualization, we can share it as follows:
 
 ![](Share Option.png)
 
-We clik on ```+Share``` menu and type the username or email of the person we want to share the visualization with.
+We click on the ```Share``` menu and type the username or email of the person we want to share the visualization with.
 
 
 ![](Share_Option.png)
