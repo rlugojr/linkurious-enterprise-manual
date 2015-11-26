@@ -20,13 +20,13 @@
    * [Advanced syntax](search/syntax.md)
    * [Find shortest paths](search/shortest-paths.md)
 * [Manipulate](manipulate/README.md)
+   * Nodes and edges in a graph
    * [Expand nodes](manipulate/expand.md)
    * [Collapse nodes](manipulate/collapse.md)
    * [Select nodes and edges](manipulate/select.md)
    * [Lasso](manipulate/lasso.md)
    * [Hide](manipulate/hide.md)
    * [Shortcuts](manipulate/shortcuts.md)
-   * Nodes and edges in a graph
 * [Style](style/README.md)
    * [Captions](style/captions.md)
    * [Tooltip](style/tooltip.md)
