@@ -37,4 +37,4 @@ Finally, we can see in our graph our new node and our new edge:
 
 ![](Et voilà.png)
 
-It is also possible to create a new edge between two nodes selecting those two nodes and click on ```Create new edge```
+It is also possible to create a new edge between two nodes selecting those two nodes and click on ```Create a new edge```
