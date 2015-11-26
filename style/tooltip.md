@@ -4,7 +4,7 @@ When you right-click on a node or an edge, you can view its properties in a pop-
 
 ![](TooltipPix.png)
 
-We can see that our node is a ```Company``` whith the  ```/organization/instagram```
+We can see that our node is a ```Company``` whith the  ```/organization/instagram``` permalink
 
 It is possible to customize the content of the tooltip and to display only certain properties.
 
