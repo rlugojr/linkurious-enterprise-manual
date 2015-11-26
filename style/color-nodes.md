@@ -17,7 +17,7 @@ First of all, let's open the design panel on the right corner of the screen and 
 If we look at the property ```country```, in the design panel we can see:
 * the different values associated with the ```country``` property (CAN, GBR, JPN, RUS, USA);
 
-And hitting the color button we also can see
+And hitting the ```color``` button we also can see
 
 * the number of occurences of each value there is (there are 20 nodes with the value ```USA```);
 * which color is associated to which value (```USA``` is green)
@@ -27,7 +27,7 @@ Here, our nodes are colored according to their ```country``` property
 > We can see that the nodes that do not have a ```country``` property are not colored. They remain in grey.
 
 To color another property, the same approach can be used. 
-If we already have colored a property, we first need to unset colors by hitting again the color button:
+If we already have colored a property, we first need to unset colors by hitting again the ```color``` button:
 
 ![](Unset.png)
 
@@ -38,7 +38,7 @@ If we look at the property ```state```, in the design panel we can see:
 
 ![](Colors2.png)
 
-And hitting the color button we also can see
+And hitting the ```color``` button we also can see:
 
 * the number of occurences of each value there is (there are 14 nodes with the value ```CA```);
 * which color is associated to which value (```CA``` is green)
