@@ -8,12 +8,12 @@ On the ```more options``` panel, we can choose to create either a node or an edg
 
 ![](CreateNode.png)
 
-Then for each property of our node, we enter the name of the property and its value. When it is done, we hit ```Save```.
+Then for each property we can fill the corresponding value. When it is done, we hit ```Save```.
 .
 
 ![](DataNN.png)
 
-Here we entenred the value ```Paris``` for the City property, the value ```France``` for the Country property and the value ```NewInvestor``` for the Name property.
+Here we entered the value ```Paris``` for the City property, the value ```France``` for the Country property and the value ```NewInvestor``` for the Name property.
 
 ![](Final NN.png)
 
@@ -30,9 +30,11 @@ We can see the node created NewInvestor added to our graph.
 
 Like for the nodes, we can add as many properties as we want to the edge. When we are done, we simply click on ```Save```.
 
-Here we entered the value ```Twitter - USA #7707``` for the Source, the value ```INVESTED_IN``` for the Type property and the value ```NewInvestor #14865``` for the Target and finally ```2015``` for the funded_year property.
+Here we entered the value ```Twitter``` for the Source, the value ```INVESTED_IN``` for the Type property and the value ```NewInvestor``` for the Target and finally ```2015``` for the funded_year property.
 
 
 Finally, we can see in our graph our new node and our new edge:
 
 ![](Et voilà.png)
+
+It is also possible to create a new edge between two nodes selecting those two nodes and click on ```Create new edge```
