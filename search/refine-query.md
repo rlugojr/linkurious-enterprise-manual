@@ -14,8 +14,6 @@ We click on the  ```Advanced``` icon, a new menu appears:
 We can see the name of the different categories (city, company, investor and market) in our database and their occurences.
 We hit ```Options``` to see the name of the different properties in our graph.
 
-![the search on multiple properties](https://dl.dropboxusercontent.com/s/bog5w0tdm64ukic/71.png?dl=0)
-
 In our graph, Facebook is categorized as a ```Company```. We are going to select ```Company``` to restrict our search to the nodes to the companies.
 
 We can now see the different results.
@@ -28,7 +26,7 @@ In order to narrow down our results, we are going to search on multiple properti
 
 ![](MProperties.png)
 
-Now when we type ``facebook``, the results are filtered to show only the nodes that have the label ```Company``` and the value ``facebook.com`` for the property ```homepage_url```.
+Now when we type ``facebook``, the results are filtered to show only the nodes that have the category ```Company``` and the value ``facebook.com`` for the property ```homepage_url```.
 
 
 We can see that the results are now filtered. We can now select the result we are interested in.
