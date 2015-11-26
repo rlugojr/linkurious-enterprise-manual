@@ -2,7 +2,7 @@
 
 Linkurious Enterprise lets you choose which of the properties of your nodes and edges should be displayed on the canvas.
 
-On the example below, only the ```names``` of the nodes are displayed by Linkurious Enterprise. In order to customize this, we need to open the design panel on the right.
+On the example below, only the ```names``` of the nodes are displayed by Linkurious Enterprise. In order to customize this, we need to open the ```design panel``` on the right.
  
 On the ```Captions``` tab, we can see the different properties of the nodes in our graph. The ```name``` property is first. In the bottom of the screen, it is possible to select the edges.
 
