@@ -27,7 +27,7 @@
    * [Lasso](manipulate/lasso.md)
    * [Hide](manipulate/hide.md)
    * [Shortcuts](manipulate/shortcuts.md)
-   * Workspace
+   * [Workspace](manipulate/Workspace.md)
 * [Style](style/README.md)
    * [Captions](style/captions.md)
    * [Tooltip](style/tooltip.md)
