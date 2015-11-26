@@ -21,6 +21,7 @@
    * [Find shortest paths](search/shortest-paths.md)
 * [Manipulate](manipulate/README.md)
    * [Expand nodes](manipulate/expand.md)
+       * Nodes and Edges of a graph
    * [Collapse nodes](manipulate/collapse.md)
    * [Select nodes and edges](manipulate/select.md)
    * [Lasso](manipulate/lasso.md)
