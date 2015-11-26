@@ -1,16 +1,20 @@
 ## Create a new visualization
 
-We can start to explore the data and have a rapid look at a node and its relations through the Quick Search bar.
-The Quick Search bar is accesible directly from the dashboard. 
+### From the Quicksearch bar
 
-![](Quick Search.png)
+We can start to explore the data and have a rapid look at a node and its relations through the Quick Search bar. The Quick Search bar is accessible directly from the dashboard. 
 
-Several results matching the database are proposed.
+![](FromQB.png)
 
-An alternative is to create a new visualization,  we click on ```New visualization```
+Several results matching the database are proposed, we can select the one we are interested in and a visualization is created:
 
+![](Created_f_D.png)
 
-![](New visualization.png)
+### From the Dashboard
+
+An alternative is to create a new visualization,  we click on ```New visualization``` on the Dashboard.
+
+![](FromD.png)
 
 We can now search for nodes and edges.
 
