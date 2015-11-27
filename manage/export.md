@@ -11,16 +11,10 @@ The visualization data can be exported in the following formats:
 * GEXF - compatible with [Gephi](https://gephi.github.io/)
 * GraphML
 * JSON
+* PNG
+* SVG (beta) - compatible with Inkscape and Adobe Illustrator for editing
 
-![](Exporting.png)
-
-The visualization can be exported as image in the following formats:
-
-* PNG;
-* SVG (beta) - compatible with Inkscape and Adobe Illustrator for editing.
-
-![](ExportingPix.png)
-
+![](Format.png)
 
 After clicking on a format, the file is automatically downloaded by the browser.
 
