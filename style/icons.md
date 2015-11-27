@@ -10,7 +10,7 @@ We move the mouse over ```categories``` for example and we have access to both t
 
 Hiting the "+" button, the list of icons available appears. It is then possible to select the icon we want to illustrate our property.
 
-![](List of icons.png)
+![](LesIcones.png)
 
 We can thus illustrate our graph con icons to directly obtain a visual explanation of the data at first glance
 
