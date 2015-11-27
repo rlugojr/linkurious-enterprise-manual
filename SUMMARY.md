@@ -53,6 +53,7 @@
    * [Share](manage/share.md)
    * [Export](manage/export.md)
    * [Delete](manage/delete.md)
+   * Publish
 * [Administration](administrate/README.md)
    * [Monitoring](administrate/monitoring.md)
    * [Backup](administrate/backup.md)
