@@ -1,9 +1,17 @@
-# Nodes and edges in a graph
+# List of nodes and edges in the graph
 
 When we are working on a visualization, all the nodes and edges present in our graph are listed on the left panel of the Workspace:
 
-![](List.png)
+![](View.png)
 
 We can then explore either the nodes or the edges of our graph going through the ```list```:
 
-![](Explore.png)
+![](ListofNodes.png)
+
+If we click on a node or a edge of the list, the camera will focus on it.
+It is also possible to filter the results by category by clicking on the category we are interested in next to the name of the node or the edge.
+We can also look for a particular node or edge by using the Finding bar:
+
+![](Focus.png)
+
+Here we have selected the category Investor and the node ```Adam D'Angelo```. The camera focused then on this node.
