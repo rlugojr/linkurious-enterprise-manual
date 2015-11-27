@@ -2,7 +2,8 @@
 
 ### From the Quicksearch bar
 
-We can start to explore the data and have a rapid look at a node and its relations through the Quick Search bar. The Quick Search bar is accessible directly from the dashboard. 
+We can start to explore the data and have a rapid look at a node and its relations through the Quick Search bar. The Quick Search bar is accessible directly from the Dashboard. 
+Here we will look for the Company Instagram.
 
 ![](FromQB.png)
 
@@ -10,7 +11,7 @@ Several results matching the database are proposed, we can select the one we are
 
 ![](Created_f_D.png)
 
-### From the Dashboard
+### From New Visualization
 
 An alternative is to create a new visualization,  we click on ```New visualization``` on the Dashboard.
 
