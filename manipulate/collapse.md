@@ -5,12 +5,12 @@ As we explore the graph, we expand the relationships of one or multiple nodes. S
 Collapsing means removing from the visualization the nodes that are connected to one node or to a group of nodes.
 
 Let's say that we are looking at the relationships of Instagram.
-We can open up the ```properties``` panel on the left.
+We need to select the node Instagram to have access to the ```Collapse``` button.
 
-![](Collapse.png)
+![](NodetoC.png)
 
 We then select ```Collapse```. The nodes that are connected to Instagram are removed from the visualization.
 
-![](Collapse Example.png)
+![](Collapsed.png)
 
 > You have noticed that two nodes remain after the collapse? They are linked to Instagram **and** linked together. In that case Linkurious Enterprise will keep them in your visualization.
