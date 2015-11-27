@@ -4,7 +4,7 @@ The easiest way to select a node or an edge is to simply click on it. It is also
 
 To do it, choose ```Select``` in the information panel on the left.
 
-![](Select.png)
+![](ListofS.png)
 
 You now have a few options :
 
