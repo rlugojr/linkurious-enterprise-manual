@@ -1,13 +1,12 @@
 # Publish
 
-Linkurious Enterprised offers us the possibility to publish a visualization.
-We can thus send link to share a graph
+Linkurious Enterprise offers the possibility to publish interactive visualizations online. Published visualizations can be accessed with an URL or embedded in a web page à la Google Maps. They contain a snapshot of graph data at the time the visualization is published. The visualization author can update or unpublish his visualizations anytime. Anyone can explore these visualizations interactively, enabling easier collaboration around graph data.
 
 We can publish a visualization from the Worskpace via the left menu:
 
 ![](Publish.png)
 
-Before publishing a visualization, we can whoose various options to share or not with people: 
+Before publishing a visualization, we can whoose various options to customize the interface: 
 
 ![](PublishOp.png)
 
@@ -26,3 +25,7 @@ On the screenshot below, we have deactivate the legend option and the share opti
 Finally, we can publish it:
 
 ![](Published.png)
+
+The visualization is now available online!
+
+If the server that hosts Linkurious Enterprise is accessible via intranet only, published visualizations will be available within the organization and won’t be available outside.
