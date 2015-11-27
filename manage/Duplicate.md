@@ -27,6 +27,11 @@ The duplicate is then accessible from the Dashboard menu.
 
 Note that when duplicating from the Workspace, we are directly switch to the duplicate version to work on it.
 
-Tip: it is possible to duplicate a visualization shared with you by another user.
+<div class="alert alert-info">
+    Tip: it is possible to duplicate a visualization shared with you by another user.
+</div>
 
-Tip: if a user has shared a visualization with you but you are not allowed to modify it, duplicate this visualization. You will be able to modify the copy.
+<div class="alert alert-info">
+    Tip: if a user has shared a visualization with you but you are not allowed to modify it, duplicate this visualization. You will be able to modify the copy.
+</div>
+
