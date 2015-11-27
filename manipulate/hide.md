@@ -4,11 +4,11 @@ Your visualization is getting too complex and you may want to remove from a visu
 
 For example, in the picture above I have selected three nodes. I simply have to click on ```Hide``` to remove them from the visualization.
 
-![](HideNodes.png)
+![](toHide.png)
 
 My two nodes are now removed from the visualization.
 
 
-![](HideNodes_2.png)
+![](Hidden.png)
 
 If we use the Toggle Lasso option to select the nodes we want to hide, we need to make sure the central node is not selected otherwise all the edges connected to this node will also be hidden.
