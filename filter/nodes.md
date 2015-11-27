@@ -6,23 +6,23 @@ Filters enable us to select or hide multiple nodes or edges at once according to
 
 In the graph below, we see the companies [Grabit](http://www.banexiventures.com/), a small firm form the USA, has invested in.
 
-![](RawGrabit.png)
+![](G_1.png)
 
 Where are these companies located in? We could color the nodes according to their ```country``` property to know that. But what if we only want to see the American companies Grabit is involved with?
 
 To do that, we open the design panel on the right.
 
-![](RawPanel.png)
+![](G_2.png)
 
 We can see the different properties associated with the nodes in our graph.
 
 We are going to click on ```country```. The different values present in our graph for the property ```country``` appear.
 
-![](PaysGrabit.png)
+![](G_3.png)
 
 We can see that there are companies from ```CHE``` and ```USA```.
 
-![](Filter.png)
+![](G_4.png)
 
 To select, the companies from USA, we fill the check boxes (here we have colored the nodes, see Style > Color nodes, in order to make the filter action more visible):
 
@@ -30,7 +30,7 @@ Now, on the top of the design panel two buttons appear :  ```Filter ``` and  ```
 
 To select all the nodes from USA, we could click on ```Select ```. Instead we are going to choose ```Filter ```.
 
-![](Filter Che.png)
+![](G_5.png)
 
 Instantly, all the nodes with the values ```CHE``` are removed from the visualization
 
