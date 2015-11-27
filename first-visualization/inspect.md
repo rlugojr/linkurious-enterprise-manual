@@ -17,7 +17,7 @@ If we want to hide the left panel, we simply click on ```PROPERTIES``` (green ci
 Inspect edges in the same manner.
 
 
-## Display the edges of a node
+## Display the connections of a node
 
 Time to find out about the particular relationships of a node. The easiest way to get that information is to double-click on the ```node``` we are interested in. Here we are interested in [Instagram](http://instagram.com/).
 
