@@ -49,10 +49,10 @@
 * [Manage](manage/README.md)
    * [Autosave](manage/autosave.md)
    * [Organize](manage/organize.md)
+   * Duplicate
    * [Share](manage/share.md)
    * [Export](manage/export.md)
    * [Delete](manage/delete.md)
-   * Duplicate
 * [Administration](administrate/README.md)
    * [Monitoring](administrate/monitoring.md)
    * [Backup](administrate/backup.md)
