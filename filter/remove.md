@@ -4,14 +4,14 @@ So we have applied one or several filters to your visualization. Maybe it was a 
 
 An icon for each filter we create is added on the bottom right corner of the screen. The first filter is on the right and the latest on the left.
 
-![combined filters](https://dl.dropboxusercontent.com/s/9l4jba58d3dwils/85.png?dl=0)
+![](R1.png)
 
-In this visualization, there are two filters. The nodes are filtered according to the ```country``` property. The edges are filtered according to the ```funding_round_code``` property
+In this visualization, there are two filters. The nodes are filtered according to the ```country``` property. The edges are filtered according to the ```funding_at``` property
 
 To remove the ```country``` filter, we click on the cross next to its icon.
 
-![removing a filter](https://dl.dropboxusercontent.com/s/h4abckvdlhmhg1p/86.png?dl=0)
+![](R2.png)
 
 The filter is instantly removed. The nodes it hid are then added back to the visualization. The **other** filter remain active.
 
-![visualization](https://dl.dropboxusercontent.com/s/a2lvrjok8aj02ko/87.png?dl=0)
+![](R3.png)
