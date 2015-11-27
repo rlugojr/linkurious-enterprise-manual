@@ -2,13 +2,12 @@
 
 We may have millions of nodes in our graph. What if we want to look at a specific node?
 
-The first possibility is to use the Quick Search bar from the Dashboard Visualizations, where we can either choose to look at nodes or edges (red square). Here we look at nodes:
+The first possibility is to use the Quick Search bar from the Dashboard, where we can either choose to look at nodes or edges (red square). Here we look at nodes:
 
 ![](QuickS_Nodes.png)
 
 The second possibility is to use the search bar in the Workspace once we have created a New Visualization 
 
-![](New visualization.png)
 
 ![](Find.png)
 
