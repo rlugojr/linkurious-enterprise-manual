@@ -28,4 +28,6 @@ Finally, we can publish it:
 
 The visualization is now available online!
 
-If the server that hosts Linkurious Enterprise is accessible via intranet only, published visualizations will be available within the organization and won’t be available outside.
+<div class="alert alert-info">
+    If the server that hosts Linkurious Enterprise is accessible via intranet only, published visualizations will be available within the organization and won’t be available outside.
+</div>
