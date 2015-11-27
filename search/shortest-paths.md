@@ -13,7 +13,7 @@ Now we choose the ```starting node``` (LinkedIn) and the ```destination```(Faceb
 
 We click on ```Find shortest path```. The results are now displayed.
 
-![](FB_LinkedIn.png)
+![](Shortest.png)
 
 We can choose ```Add all``` to view all the results or choose our preferred path by clicking on it. Our choice is added to the visualization.
 
