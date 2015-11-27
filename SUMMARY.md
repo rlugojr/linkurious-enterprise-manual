@@ -51,7 +51,7 @@
    * [Organize](manage/organize.md)
    * [Duplicate](manage/Duplicate.md)
    * [Share](manage/share.md)
-   * Publish
+   * [Publish](manage/Publish.md)
    * [Export](manage/export.md)
    * [Delete](manage/delete.md)
 * [Administration](administrate/README.md)
