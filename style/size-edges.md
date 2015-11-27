@@ -26,8 +26,7 @@ A new menu appears. It makes it possible to set the ```Min/max size difference``
 
 If we want to view the difference in ```raised amount``` we are going to set the ```Min/max size difference``` to ```2```.
 
-
-![](Sized.png)
+![](TailleEdges.png)
 
 Now we can see that few outliers appear thicker than the other edges.
 
