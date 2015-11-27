@@ -4,11 +4,11 @@ Linkurious Enterprise offers the possibility to publish interactive visualizatio
 
 We can publish a visualization from the Worskpace via the left menu:
 
-![](Publish.png)
+![](MenutoP.png)
 
 Before publishing a visualization, we can whoose various options to customize the interface: 
 
-![](PublishOp.png)
+![](ScreenBP.png)
 
 The options are:
 - Fullscreen: to provide a fullscreen view of the graph
@@ -20,11 +20,11 @@ The options are:
 
 On the screenshot below, we have deactivate the legend option and the share option. We can see that the ```Share button``` on the right of the screen disappeared:
 
-![](Deactivate.png)
+![](BPOptions.png)
 
 Finally, we can publish it:
 
-![](Published.png)
+![](Done.png)
 
 The visualization is now available online!
 
