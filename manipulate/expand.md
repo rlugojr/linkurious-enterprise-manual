@@ -8,12 +8,12 @@ We can expand nodes in different ways:
 * select one or multiple nodes, then click on the ```Expand``` button of the left panel.
 * right-click on a node in the view, then click on the ```Expand``` button of the tooltip.
 
+![](Option.png)
 
-![](Expand.png)
 
 The ```Expand``` button on the left panel display the list of available relationship types and neighbor categories. We can choose to get everything or to filter the retrieved relationships and neighbors.
 
-![](ExpandOptions.png)
+![](Propositions.png)
 
 If the expanded nodes have too many neighbors, it may however lead to unreadable visualization.
 
