@@ -10,8 +10,6 @@ We can open up the design panel to investigate. Let's select ```Edges``` on the 
 
 We can see the different properties attached to the relationships in our dataset.
 
-![the properties of relationships](https://dl.dropboxusercontent.com/s/7zrbb50bg5k46i9/80.png?dl=0)
-
 We are going to focus on the ```funded_at```. Let's click on it.
 
 ![](FundedAt.png)
