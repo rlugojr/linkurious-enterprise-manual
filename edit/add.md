@@ -2,27 +2,27 @@
 
 On the ```more options``` panel, we can choose to create either a node or an edge
 
-![](Create.png)
+![](A1.png)
 
 **If we choose to create a node**: we enter a value for the ```Categories```here Investor and hit add. 
 
-![](CreateNode.png)
+![](A2.png)
 
 Then for each property we can fill the corresponding value. When it is done, we hit ```Save```.
 .
 
-![](DataNN.png)
+![](A3.png)
 
 Here we entered the value ```Paris``` for the City property, the value ```France``` for the Country property and the value ```NewInvestor``` for the Name property.
 
-![](Final NN.png)
+![](A5.png)
 
 We can see the node created NewInvestor added to our graph.
 
 
 **If we choose to create an edge**, we have to provide the following information :
 
-![](NE.png)
+![](A6.png)
 
 * ```Type```: the type of relationship;
 * ```Source```: the source of the relationship;
@@ -35,6 +35,6 @@ Here we entered the value ```Twitter``` for the Source, the value ```INVESTED_IN
 
 Finally, we can see in our graph our new node and our new edge:
 
-![](Et voilà.png)
+![](A8.png)
 
 It is also possible to create a new edge between two nodes selecting those two nodes and click on ```Create a new edge```
