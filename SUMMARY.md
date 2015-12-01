@@ -25,7 +25,7 @@
    * [Collapse nodes](manipulate/collapse.md)
    * [Select nodes and edges](manipulate/select.md)
    * [Lasso](manipulate/lasso.md)
-   * Layouts
+   * [Layouts](manipulate/layouts.md)
    * [Hide](manipulate/hide.md)
    * [Shortcuts](manipulate/shortcuts.md)
 * [Style](style/README.md)
