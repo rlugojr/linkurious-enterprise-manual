@@ -10,7 +10,7 @@ The Linkurious server can be deployed on the following platforms:
 End users will access Linkurious through a web browser. All modern browsers are supported:
 * Chrome 23 or higher (fastest).
 * Internet Explorer 10 or higher.
-* Firefox 15 or higher.
+* Firefox 17 or higher.
 * Safari 6 or higher.
 * Opera 12 or higher.
 
