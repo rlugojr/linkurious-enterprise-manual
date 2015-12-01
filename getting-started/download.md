@@ -8,7 +8,7 @@ Log in with the username and password created during the purchase process. You w
 
 The downloaded file is a ZIP archive. It notably includes:
 
-- a Web server built on top of Node.js v0.12 ;
+- a Web server built on top of Node.js v4.2 ;
 - the search engine ElasticSearch v1.4.5+ (requires Java JDK).
 
 
