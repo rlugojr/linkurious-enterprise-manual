@@ -1,38 +1,51 @@
 ## Layouts
 
-On the Workspace, different options are available on the right-bottom of the screen: 
+### Visualization controls
+
+On the Workspace, various controls are available on the right-bottom of the screen: 
 
 ![](Menu.png)
 
+- The ```shortcuts``` button: ![](Shortcuts.png), give access to a list of shortcuts to explore and interact with the graph.
+- The ```Locate``` button ![](Locate.png) centers the graph on the screen.
+- The ```Zoom In/Zoom Out``` button ![](ZoomIO.png) is to zoom in or zoom out on our graph.
+- The ```Layout``` button give us various options to organize our graph.
 
-Here are the different options:
-
-- The ```shortcuts``` button: ![](Shortcuts.png), give access to a list of shortcuts usable working on a graph :
-
-![](ListShortcuts.png)
-
-- The ```Locate``` button ![](Locate.png) centers the graph on the screen
-- The ```Zoom In/Zoom Out``` button ![](ZoomIO.png) is to zoom in or zoom out on our graph
-- The ```Fast force layout``` button give us various options to organize our graph
+A click on the layout button will apply the current layout, which is a fast force-directed layout by default. Two categories of layouts are available: force-directed, and hierarchical. They come with pre-defined flavors:
 
 ![](FastLayout.png)
 
-The *Best Mode*
-![](BM.png)
+### Force-directed layout
 
-The *Fast Mode*
+Such layouts position nodes according to their connections: connected nodes are usually closed to each others, while disconnected nodes are usually pushed further.
+
+**Best Mode:**
+takes the longest time to compute new node positions but provides better results than the Fast Mode.
+
 ![](FM.png)
-The *Random Mode*
-![](RM.png)
-The *Top to bottom Mode*
+
+**Fast Mode (default):**
+quickly finds new node positions but some overlapping nodes may exists.
+
+**Random Mode:**
+Node positions are randomized before computing new node positions.
+
+### Hierarchical layout
+
+Such layouts organize nodes in different layers automatically by aligning nodes of each layer either vertically or horizontally. The root nodes are automatically found.
+
+**Top to bottom Mode:**
+will position root nodes at the top of the screen.
+
 ![](TtB.png)
-The *Bottom to top Mode*
-![](BtT.png)
-The *Left to Right Mode*
+
+**Left to Right Mode:**
+will position root nodes at the left side of the screen.
+
 ![](LtR.png)
-The *Right to Left Mode*
-![](RtL.png)
 
+**Bottom to top Mode:**
+will position root nodes at the bottom of the screen.
 
-Below we can see an exemple of the Best mode versus Random mode:
-
+**Right to left Mode:**
+will position root nodes at the right side of the screen.
