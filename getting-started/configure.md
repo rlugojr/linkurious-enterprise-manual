@@ -39,7 +39,7 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
     * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
     * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server. 
-    * **forceReindex** - `true`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
+    * **forceReindex** - `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
 
 The following settings applies to all data sources. They are available in the **allSources** key.
 
@@ -60,6 +60,7 @@ Graph exploration settings:
 * **maxPathLength** - `20`. The maximum shortest path length returned by Linkurious. Finding the shortest paths is a costly operation. Setting a small number will limit the resources used by the data source for performing this operation, and will return results faster.
 * **shortestPathsMaxResults** - `10`. The maximum of shortest paths returned.
 * **rawQueryTimeout** - `60000`. Abandon a query to the database if the time is over (in second).
+* **defaultFuzziness** - `0.9`. Default value to search fuzziness between 0 and 1. A value of `1` means exact matching of the search query.
 * **expandThreshold** - `50`. When the user expands a node with too many neighbors, Linkurious will ask to refine the query so that fewer neighbors are returned.
 
 #### Connection to a Neo4j server
