@@ -1,6 +1,6 @@
 ## The advanced search syntax
 
-Linkurious Enterprise uses Elastic. You can thus use the Elastic syntax datailed in the [Eastic query_string documentation](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax).
+Linkurious Enterprise uses Elastic. You can thus use the Elastic syntax datailed in the [Elastic query_string documentation](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax).
 
 Symply type the following commands in the Linkurious Enterprise search bar.
 
