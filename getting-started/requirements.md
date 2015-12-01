@@ -11,7 +11,7 @@ End users will access Linkurious through a web browser. All modern browsers are 
 * Chrome 23 or higher (fastest).
 * Internet Explorer 10 or higher.
 * Firefox 17 or higher.
-* Safari 6 or higher.
+* Safari 7.
 * Opera 12 or higher.
 
 The embedded ElasticSearch engine requires Java 8 to run properly.
