@@ -14,4 +14,4 @@ We can also look for a particular node or edge by using the Finding bar:
 
 ![](Focus.png)
 
-Here we have selected the category Investor and the node ```Adam D'Angelo```. The camera focused then on this node.
+Here we filter the list by the category ```Investor```, then we click on the node ```Adam D'Angelo```. The camera centers on this node.
