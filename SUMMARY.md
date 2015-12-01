@@ -28,7 +28,6 @@
    * Layouts
    * [Hide](manipulate/hide.md)
    * [Shortcuts](manipulate/shortcuts.md)
-       * Layouts
 * [Style](style/README.md)
    * [Captions](style/captions.md)
    * [Tooltip](style/tooltip.md)
