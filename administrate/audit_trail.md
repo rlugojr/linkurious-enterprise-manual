@@ -23,4 +23,10 @@ To configure the audit trail system, edit the file `linkurious/data/config/produ
 
 
 ## Log format
-The logs are JSON lines. You can easily bind a log management system like Log Stash to interpret them.
+The logs are JSON lines. You can easily bind a log management system like Log Stash to interpret them. Sample:
+
+```json
+{"mode":"READ","date":"2015-10-11T11:05:21.888Z","user":"seb@linkurio.us","sourceKey":"2c08a4d9","action":"getEdge","params":{"edgeId":23}}
+{"mode":"READ","date":"2015-10-11T11:05:21.889Z","user":"jean@linkurio.us","sourceKey":"2c08a4d9","action":"getNode","params":{"id":157}}
+{"mode":"READ","date":"2015-10-11T11:05:21.910Z","user":"seb@linkurio.us","sourceKey":"2c08a4d9","action":"getNode","params":{"id":832}}
+```
