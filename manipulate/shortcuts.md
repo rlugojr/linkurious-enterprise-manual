@@ -1,4 +1,4 @@
-## The different shortcuts in Linkurious Enterprise
+## The different shortcuts in Workspace
 
 ### Camera
 
