@@ -3,7 +3,7 @@
 ### Linux systems
 
 1. Unzip your copy of Linkurious:
-`>unzip linkurious-linux-v0.10.0.zip`.
+`>unzip linkurious-linux-v1.1.0.zip`.
 
 2. Enter the Linkurious folder: `>cd linkurious-linux`.
 
@@ -32,7 +32,7 @@
 ### Mac OSX systems
 
 1. Unzip your copy of Linkurious:
-`>unzip linkurious-osx-v0.10.0.zip`.
+`>unzip linkurious-osx-v1.1.0.zip`.
 
 2. Enter the Linkurious folder: `>cd linkurious-osx`.
 
