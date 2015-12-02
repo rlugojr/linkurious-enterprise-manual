@@ -1,4 +1,4 @@
-## Add a node or an edge
+## Add new nodes and edges
 
 On the ```more options``` panel, we can choose to create either a node or an edge
 
