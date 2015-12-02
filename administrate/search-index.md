@@ -8,7 +8,7 @@ Choose which properties of nodes and edges will be used in search results by con
 
 ### Change the list of searchable properties
 
-Go to the Data administration dashboard. Check the properties that can be searchable.
+Open the Data administration dashboard, then scroll down to the **Node properties** section. Check the properties that can be searchable.
 
 ![](admin-data-nodes-properties.png)
 
