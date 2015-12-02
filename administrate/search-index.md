@@ -1,21 +1,23 @@
 ## Search index
 
-Choose which data properties will be available in search results by configuring the index. By default, Linkurious indexes all disclosed data properties. Notice that undisclosed properties are not indexed and thus cannot be found via the search engine.
+Choose which properties of nodes and edges will be used in search results by configuring the index. By default, Linkurious indexes all available properties. Notice that unavailable properties are not indexed and thus cannot be found via the search engine.
 
 <div class="alert alert-info">
   Indexing less data will reduce indexing time.
 </div>
 
-### Change the list of indexed properties
+### Change the list of searchable properties
 
-Go to the data management dashboard. Unindexed properties are listed on the left side of the screen. Indexed properties are listed on the right side of the screen. Move properties from one list to the other to change their status.
+Go to the Data administration dashboard. Check the properties that can be searchable.
+
+![](admin-data-nodes-properties.png)
 
 ![disclosed-properties](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/156.png)
 
-For instance, we do not want to index the `category` property of nodes. Select the `category` property, and click on the left arrow to move it to the list of unindexed properties. Click on the **Apply** button.
+Click on the **Apply** button when you are done.
 
-Do the same for relationship properties.
+We can do the same for edge properties.
 
 <div class="alert alert-warning">
-  Reindex data to apply changes on search results.
+  We must reindex data to apply changes on search results.
 </div>
