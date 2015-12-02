@@ -19,8 +19,6 @@ We see:
 * the number of occurences of each value there is (there are 20 nodes with the value ```USA```);
 * which color is associated to which value (```USA``` is green)
 
-
-
 Notice that the nodes that do not have a ```country``` property remain in grey.
 
 To color another property, we unset colors by clicking on the same ```color``` button:
