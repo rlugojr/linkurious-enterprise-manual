@@ -30,7 +30,7 @@
    * [Shortcuts](manipulate/shortcuts.md)
 * [Style](style/README.md)
    * [Captions](style/captions.md)
-   * [Tooltip](style/tooltip.md)
+   * [Tooltips](style/tooltip.md)
    * [Default colors](style/default-colors.md)
    * [Color nodes](style/color-nodes.md)
    * [Color edges](style/color-edges.md)
