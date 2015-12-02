@@ -27,18 +27,4 @@ To color another property, we unset colors by clicking on the same ```color``` b
 
 ![](Unset.png)
 
-Then, we click on the ```color``` button of another property. 
-
-If we look at the property ```state```, in the design panel we can see:
-* the different values associated with the ```state``` property (CA, MA, MD, NY)
-
-![](Colors2.png)
-
-And hitting the ```color``` button we also can see:
-
-* the number of occurences of each value there is (there are 14 nodes with the value ```CA```);
-* which color is associated to which value (```CA``` is green)
-
-Here, our nodes are colored according to their ```state``` property
-
-> We can see that the nodes that do not have a ```state``` property are not colored. They remain in grey.
+Then, we can click on the ```color``` button of another property.
