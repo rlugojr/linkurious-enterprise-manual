@@ -45,7 +45,7 @@
 * [Edit](edit/README.md)
    * [Edit properties and categories](edit/edit.md)
    * [Create nodes and edges](edit/add.md)
-   * [Remove an node or an edge](edit/remove_an_ode_or_an_edge.md)
+   * [Remove nodes and edges](edit/remove_an_ode_or_an_edge.md)
 * [Manage](manage/README.md)
    * [Autosave](manage/autosave.md)
    * [Organize](manage/organize.md)
