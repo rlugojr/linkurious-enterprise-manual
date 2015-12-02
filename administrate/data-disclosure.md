@@ -1,17 +1,15 @@
-## Data disclosure
+## Available properties of nodes and edges
 
-By default, Linkurious discloses all the properties of nodes and edges. You can adjust this setting to "undisclose" certain properties. These properties will then no longer be viewable or searchable by Linkurious users.
+By default, all properties of nodes and edges are available to the users of Linkurious. You can set some properties as unavailable. These properties will then no longer be accessible or searchable.
 
-### Edit disclosed properties
+Open the data management dashboard, then scroll down to the **Node properties** section. All properties are marked as available in the following example.
 
-Open the data management dashboard, then scroll down to the **Disclosure** section. Undisclosed properties are listed on the left side of the screen. Disclosed properties are listed on the right side of the screen. Move properties from one list to the other to change their status.
+![](admin-data-nodes-properties.png)
 
-![disclosed-properties](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/155.png)
+Properties marked as not available will not show up in new or existing visualizations after we click on the **Apply** button.
 
-For instance, we want to avoid users to access the `category` property of nodes. Select the `category` property and click on the left arrow to move it to the list of undisclosed properties. Click on the **Apply** button. The `category` property will not show up in visualizations anymore, even on existing visualizations. 
-
-Do the same for edge properties.
+We can configure edge properties the same way in the **Edge properties** section.
 
 <div class="alert alert-warning">
-  Reindex data once the undisclosed properties are configured in order to remove them from search results.
+  Reindex data once the available properties are configured in order to remove them from search results.
 </div>
