@@ -1,5 +1,10 @@
-
 ## Edit properties and categories
+
+Properties are key-value information stored in nodes and edges. It can be the name of a company for instance. Categories are special information to tag nodes and edges. Nodes can be of category Investor or Company, or both.
+
+<div class="alert alert-info">
+    In Neo4j databases, edges have one and only one category. It is not possible to modify it.
+</div>
 
 ###Edition Mode
 
@@ -42,7 +47,4 @@ The category is added.
 
 ![](E7.png)
 
-<div class="alert alert-info">
-    Edges have one and only one category. It is not possible to modify it.
-</div>
 
