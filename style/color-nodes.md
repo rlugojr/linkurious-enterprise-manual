@@ -10,28 +10,24 @@ In the picture below, we see the start-ups and investors Twitter is connected to
 
 ![](SinColor.png)
 
-First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab.
+First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab. We click on the ```color``` button along the property ```country``` to color nodes by this property.
 
 ![](Colors.png)
 
-If we look at the property ```country```, in the design panel we can see:
+We see:
 * the different values associated with the ```country``` property (CAN, GBR, JPN, RUS, USA);
-
-And hitting the ```color``` button we also can see
-
 * the number of occurences of each value there is (there are 20 nodes with the value ```USA```);
 * which color is associated to which value (```USA``` is green)
 
-Here, our nodes are colored according to their ```country``` property
 
-> We can see that the nodes that do not have a ```country``` property are not colored. They remain in grey.
 
-To color another property, the same approach can be used. 
-If we already have colored a property, we first need to unset colors by hitting again the ```color``` button:
+Notice that the nodes that do not have a ```country``` property remain in grey.
+
+To color another property, we unset colors by clicking on the same ```color``` button:
 
 ![](Unset.png)
 
-Then, we repeat the same approach for another property. 
+Then, we click on the ```color``` button of another property. 
 
 If we look at the property ```state```, in the design panel we can see:
 * the different values associated with the ```state``` property (CA, MA, MD, NY)
