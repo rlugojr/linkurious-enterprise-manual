@@ -1,4 +1,4 @@
-# Remove an node or an edge
+## Remove nodes and edges
 
 ###Remove a node
 
