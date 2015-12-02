@@ -41,4 +41,4 @@ Finally, we can see in our graph our new node and our new edge:
 
 ![](A8.png)
 
-It is also possible to create a new edge between two nodes by selecting those two nodes and clicking on ```Create a new edge```. The source and target nodes will be filled.
+It is also possible to create a new edge between two nodes by selecting those two nodes, right-clicking on the visualization background to display the context menu, then choose ```Create a new edge```. The source and target nodes will be filled.
