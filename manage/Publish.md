@@ -18,11 +18,7 @@ The options are:
 - Zoom: to zoom in and zoom out
 
 
-On the screenshot below, we have deactivate the legend option and the share option. We can see that the ```Share button``` on the right of the screen disappeared:
-
-![](BPOptions.png)
-
-Finally, we can publish it:
+On the screenshot below, we have deactivate the legend option and the share option. We can see that the ```Share button``` on the right of the screen disappeared. Finally, we can publish it:
 
 ![](Done.png)
 
