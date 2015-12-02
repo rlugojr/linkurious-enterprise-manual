@@ -21,7 +21,7 @@ We see:
 
 Notice that the nodes that do not have a ```country``` property remain in grey.
 
-To color another property, we unset colors by clicking on the same ```color``` button:
+To color another property, we first unset colors by clicking on the same ```color``` button:
 
 ![](Unset.png)
 
