@@ -12,8 +12,6 @@ Open the Data administration dashboard, then scroll down to the **Node propertie
 
 ![](admin-data-nodes-properties.png)
 
-![disclosed-properties](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/156.png)
-
 Click on the **Apply** button when you are done.
 
 We can do the same for edge properties.
