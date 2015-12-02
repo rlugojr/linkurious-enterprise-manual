@@ -10,6 +10,6 @@ Linkurious relies on Neo4j to store the data. The data importation is thus not h
 
 * if you want to get help from professionals, we can get you in touch with great people.
 
-* If you are still not sure about whether you can get your data in Linkurious contact us, we’ll be happy to answer if you contact us.
+* If you are still not sure about whether you can get your data in Linkurious contact us, we will be happy to answer if you contact us.
 
 Finally, if you want to quickly try to use Linkurious Enterprise with dummy data, you can download a [Neo4j compatible dataset](http://neo4j.com/developer/guide-example-data/).
