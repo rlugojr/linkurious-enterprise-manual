@@ -14,7 +14,7 @@ Open the Data administration dashboard, then scroll down to the **Node propertie
 
 Click on the **Apply** button when you are done.
 
-We can do the same for edge properties.
+We can configure edge properties the same way in the **Edge properties** section.
 
 <div class="alert alert-warning">
   We must reindex data to apply changes on search results.
