@@ -62,7 +62,7 @@
    * [Authentication](administrate/user-authentication.md)
    * [Users & groups](administrate/users.md)
    * [Data sources](administrate/datasources.md)
-   * [Data disclosure](administrate/data-disclosure.md)
+   * [Available data](administrate/data-disclosure.md)
    * [Search index](administrate/search-index.md)
    * [Audit trail](administrate/audit_trail.md)
 * [Other Topics](others/README.md)
