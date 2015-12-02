@@ -43,6 +43,6 @@ The category is added.
 ![](E7.png)
 
 <div class="alert alert-info">
-    Edges have a single category. It is not possible to modify it.
+    Edges have one and only one category. It is not possible to modify it.
 </div>
 
