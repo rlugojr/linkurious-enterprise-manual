@@ -7,7 +7,7 @@ First of all we need to switch the edition mode to ```On``` in the top left corn
 
 ![](E1.png)
 
-###Editing or deleting a property
+###Editing or removing a property
 
 Now if we select a node or an edge and move the mouse cursor next to a property, we can ```Edit``` or ```Delete``` it.
 
@@ -21,9 +21,9 @@ When we are finished, we  click on  ```Save```. Here we will edit the Name of th
 
 If you wish to delete a property, simply click on ```Delete```.
 
-###Editing or deleting a category
+###Editing or removing a category
 
-It is possible to add or remove a category to an edge or a node.
+It is possible to add or remove a category from a node.
 
 ![](E5.png)
 
@@ -41,3 +41,5 @@ We type the new category, here  ```Angel Investor```. We hit ```Save```.
 The category is added.
 
 ![](E7.png)
+
+Notice that edges have a single category. It is not possible to modify it.
