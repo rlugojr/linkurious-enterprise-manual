@@ -10,7 +10,7 @@ We enter a value for the ```Categories```here Investor and hit add.
 
 ![](A2.png)
 
-Then for each property we can fill the corresponding value. When it is done, we hit ```Save```.
+Then for each property we can fill the corresponding value. When it is done, we click on the ```Save``` button.
 .
 
 ![](A3.png)
