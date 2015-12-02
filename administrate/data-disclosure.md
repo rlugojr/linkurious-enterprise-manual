@@ -11,5 +11,5 @@ Properties marked as not available will not show up in new or existing visualiza
 We can configure edge properties the same way in the **Edge properties** section.
 
 <div class="alert alert-warning">
-  Reindex data once the available properties are configured in order to remove them from search results.
+  We must reindex data once the available properties are configured in order to remove them from search results.
 </div>
