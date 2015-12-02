@@ -19,7 +19,7 @@ Here we entered the value ```Paris``` for the City property, the value ```France
 
 ![](A5.png)
 
-We can see the node created NewInvestor added to our graph.
+We can see the node created ```NewInvestor``` added to our graph.
 
 
 ### Create an edge
@@ -34,11 +34,11 @@ We have to provide the following information :
 
 Like for the nodes, we can add as many properties as we want to the edge. When we are done, we simply click on ```Save```.
 
-Here we entered the value ```Twitter``` for the Source, the value ```INVESTED_IN``` for the Type property and the value ```NewInvestor``` for the Target and finally ```2015``` for the funded_year property.
+Here we entered the value ```Twitter``` for the Source, the value ```INVESTED_IN``` for the Type property and the value ```NewInvestor``` for the Target and finally ```2015``` for the ```funded_year``` property.
 
 
 Finally, we can see in our graph our new node and our new edge:
 
 ![](A8.png)
 
-It is also possible to create a new edge between two nodes selecting those two nodes and click on ```Create a new edge```
+It is also possible to create a new edge between two nodes by selecting those two nodes and clicking on ```Create a new edge```. The source and target nodes will be filled.
