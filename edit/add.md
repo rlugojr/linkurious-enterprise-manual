@@ -1,4 +1,4 @@
-## Add a node or a relationship
+## Add a node or an edge
 
 On the ```more options``` panel, we can choose to create either a node or an edge
 
