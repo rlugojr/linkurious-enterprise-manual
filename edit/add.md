@@ -4,7 +4,9 @@ On the ```more options``` panel, we can choose to create either a node or an edg
 
 ![](A1.png)
 
-**If we choose to create a node**: we enter a value for the ```Categories```here Investor and hit add. 
+### Add a node
+
+We enter a value for the ```Categories```here Investor and hit add. 
 
 ![](A2.png)
 
@@ -20,7 +22,9 @@ Here we entered the value ```Paris``` for the City property, the value ```France
 We can see the node created NewInvestor added to our graph.
 
 
-**If we choose to create an edge**, we have to provide the following information :
+### Add an edge
+
+We have to provide the following information :
 
 ![](A6.png)
 
