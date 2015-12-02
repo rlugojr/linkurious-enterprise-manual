@@ -10,7 +10,7 @@ In the picture below, we see the start-ups and investors Twitter is connected to
 
 ![](SinColor.png)
 
-First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab. We click on the ```color``` button along the property ```country``` to color nodes by this property.
+First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab. We can see all node properties. We click on the ```color``` button along the property ```country``` to color nodes by this property.
 
 ![](Colors.png)
 
@@ -21,7 +21,7 @@ We see:
 
 Notice that the nodes that do not have a ```country``` property remain in grey.
 
-To color another property, we first unset colors by clicking on the same ```color``` button:
+To color the nodes according to another property, we first unset colors by clicking on the same ```color``` button:
 
 ![](Unset.png)
 
