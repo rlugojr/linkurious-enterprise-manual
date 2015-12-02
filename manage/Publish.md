@@ -22,7 +22,7 @@ On the screenshot below, we have deactivate the legend option and the share opti
 
 ![](Done.png)
 
-The visualization is now available online!
+The visualization is now available online! We can share the link or integrate it into a web page by adding the script of the web widget into the source code of a web page.
 
 <div class="alert alert-info">
     If the server that hosts Linkurious Enterprise is accessible via intranet only, published visualizations will be available within the organization and won’t be available outside.
