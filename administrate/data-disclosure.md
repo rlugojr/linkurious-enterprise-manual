@@ -2,7 +2,7 @@
 
 By default, all properties of nodes and edges are available to the users of Linkurious. You can set some properties as unavailable. These properties will then no longer be accessible or searchable.
 
-Open the data management dashboard, then scroll down to the **Node properties** section. All properties are marked as available in the following example.
+Open the Data administration dashboard, then scroll down to the **Node properties** section. All properties are marked as available in the following example.
 
 ![](admin-data-nodes-properties.png)
 
