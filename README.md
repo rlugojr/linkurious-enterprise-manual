@@ -9,4 +9,4 @@ The following chapters are divided in themes. They go through the features of Li
 
 Just like our software, this guide assumes no prior knowledge of graph visualization techniques. If you read it thoroughly, you will be able to find valuable connections and structural patterns in your data, to improve your graph database, and to communicate your findings efficiently.
 
-Version of Linkurious Enterprise: v1.1.0 "Tragicomical Toucan".
+Version of Linkurious Enterprise: v1.1.0 "Tragicomical Toucan".s
