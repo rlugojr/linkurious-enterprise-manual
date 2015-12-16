@@ -12,7 +12,7 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 * **db** - The internal data store of Linkurious.
 * **server** - The Linkurious server configuration.
 * **access** - The access rights.
-    * Enable authentication, configure LDAP authentication, set data read-only mode.
+    * Enable authentication, configure LDAP authentication, set data read-only mode, enable online publishing.
 * **clientAnalytics**
     * Log user actions in the client using a Google Analytics account (disabled by default).
 * **sigma** - The settings of Sigma.js.
@@ -161,6 +161,7 @@ The user access system is configured within the `access` key:
 
 * **authRequired** - `false`. Reject requests of anonymous sessions if `true`, otherwise all requests will be related to a "Unique User" account. Set it `false` to launch Linkurious for the first time, or if there is a single user.
 * **dataEdition** - `true`. Enable the creation, edition, and deletion of nodes and edges in all data sources. Administrators can fine-tune user permissions, see the Administration Chapter. If `false`, all edition requests sent through Linkurious to the data sources will be rejected.
+* **widget** - `true`. Enable to publish visualizations online. Published visualizations are accessible by anonymous users. More info in the **Manage > Publish** section of the manual.
 * **loginTimeout** - `3600`. Log the user out after a period of inactivity (in second).
 * **ldap** - The connection to the LDAP service (see below).
 
