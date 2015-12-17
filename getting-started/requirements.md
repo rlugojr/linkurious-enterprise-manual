@@ -3,7 +3,7 @@
 ### Software
 
 The Linkurious server can be deployed on the following platforms:
-* Windows 7, 8, 8.1, and 10.
+* Windows 7, 8, 8.1, 10, and Server 2012.
 * Mac OS X Lion and more recent versions.
 * Linux distributions such as Debian 6+, CentOS 6.5+, Ubuntu 12.10+, Gentoo, and Mint 14+.
 
