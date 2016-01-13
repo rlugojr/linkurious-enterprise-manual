@@ -54,6 +54,7 @@
    * [Publish](manage/Publish.md)
    * [Export](manage/export.md)
    * [Delete](manage/delete.md)
+   * Pinning the nodes
 * [Administration](administrate/README.md)
    * [Monitoring](administrate/monitoring.md)
    * [Backup](administrate/backup.md)
