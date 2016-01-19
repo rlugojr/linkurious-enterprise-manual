@@ -68,15 +68,15 @@ Linkurious is ready at URL: http://127.0.0.1:3000/
 First of all, in order to use Linkurious you need to [launch Neo4j](http://neo4j.com/download/).
 
 
-![launching neo4j](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/138.png)
+![launching neo4j](Launching-neo4j.png)
 
 Once the Neo4j server has successfully started, go to the folder of Linkurious.
 
-![folder](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/139.png)
+![folder](Folder.png)
 
 Click on the `start.bat` file. Linkurious starts and invites you to open up your browser to http://localhost:3000 to access the user interface. Alternately, click on `menu.bat` and select `Start Linkurious processes` from the console.
 
-![linkurious enterprise startup](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/140.png)
+![linkurious enterprise startup](Startup.png)
 
 <div class="alert alert-warning">
     <i class="octicon octicon-stop"></i> The firewall of Windows might ask you to authorize connections with Linkurious: if so, click on Authorize access.
