@@ -12,7 +12,7 @@ By default, user authentication is disabled and all actions are performed under 
 
 Let's create an administrator account. Click on **Users** in the administrator dashboard, or selects the **Users** item in the **Admin** menu of the navigation bar. Once the user management dashboard is displayed, click on the **Add** button next to "No Users". The user creation form appears.
 
-![user-creation-form]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/149.png)
+![user-creation-form]](User-creation-form.png)
 
 Fill in all the fields and especially add the `admin` group in the groups field to grant administration rights to the new user. Once done click on **Save**.
 
@@ -25,6 +25,6 @@ We have created our first administrator. Now it is time to enable user authentic
 
 User authentication is now enabled. Reload the user interface of the web application to display the login screen.
 
-![login]](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/150.png)
+![login]](Login.png)
 
 Enter the name (or email address) and password of the administrator to log in to Linkurious Enterprise.
