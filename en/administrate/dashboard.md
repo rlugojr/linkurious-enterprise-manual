@@ -8,4 +8,4 @@ You now have access to the administrator dashboard. The status of Linkurious and
 
 The name of the current data source is displayed on the navigation bar, with unnamed data sources called *"Database #xx"*. You may **switch to a different data source** from there.
 
-![admin-status](https://raw.githubusercontent.com/Linkurious/linkurious-enterprise-manual/master/screenshots/148.png)
+![admin-status](Admin-status.png)
