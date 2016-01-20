@@ -13,4 +13,4 @@ Nous avons utilisé Crunchbase pour créer une base de données  d'approximative
  
 Les compagnies et les investisseurs sont reliés aux villes par la relation ```HAS_CITY```. Les compagnies sont reliées entre elles par la relation ```ACQUIRED```. Les investisseurs et les compagnies sont reliées les uns aux autres par la relation ```INVESTED_IN``` . Les compagnies sont reliées aux marchés par la relation ```HAS_MARKET```.
 
-Afin de suivre ce manuel, nous vous suggérons [de télécharger et d'installer le set de données. ](http://linkurio.us/public/crunchbase-sfbay.db.zip) Vous devez extraire l'archive et la placer dans le dossier [YOUR_NEO4J_FOLDER]/data/graph.db.
+Afin de suivre ce manuel, nous vous suggérons [de télécharger et d'installer le set de données. ](http://linkurio.us/public/crunchbase-sfbay.db.zip) Vous devez extraire l'archive et la placer dans le dossier ```[YOUR_NEO4J_FOLDER]/data/graph.db```
