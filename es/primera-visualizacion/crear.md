@@ -16,6 +16,10 @@ Una alternativa es crear una nueva visualización, hagamos clic en ```New Visual
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/FromD.png)
 
+Podemos ahora buscar para nodos y relaciones
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Find.png)
+
 Por ejemplo, si queremos buscar la empresa Instagram, simplemente escribamos el nombre de cualquier propiedad asociada con este nodo. Aquí, escribamos Instagram, que es el nombre de la empresa. Pocas sugerencias aparecen conteniendo la palabra ```Instagram``` en una de sus propiedades, nosotros hagamos clic en el en que estamos interesados.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Find_Example.png)
