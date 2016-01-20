@@ -13,4 +13,5 @@ Hemos utilizado Crunchbase para crear una base de datos orientadas a grafos de a
 
 Las empresas y los inversionistas están vinculados con las ciudades por la relación ```HAS_CITY``` Las empresas están vinculados unos con los otros por la relación ```ACQUIRED```. Los inversionistas y empresas son vinculados unos con los otros por la relación ```INVESTED_IN```. Las empresas están vinculados con los mercados por la relación ```HAS_MARKET```.
 
-Para seguir este manual, le aconsejamos [descargar y instalar el datase.](http://linkurio.us/public/crunchbase-sfbay.db.zip) Extraiga el archivo y ponga su contenido en la carpeta [YOUR_NEO4J_FOLDER]/data/graph.db.
+Para seguir este manual, le aconsejamos [descargar y instalar el datase.](http://linkurio.us/public/crunchbase-sfbay.db.zip) Extraiga el archivo y ponga su contenido en la carpeta ``[YOUR_NEO4J_FOLDER]/data/graph.db``
+
