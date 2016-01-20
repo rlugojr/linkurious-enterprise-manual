@@ -6,13 +6,14 @@ Aquí miraremos en el interfaz de Linkurious Enterprise.
 
 El  Dashboard lista las visualizaciones creadas por el usuario. La imagen siguiente muestra un Dashboard típico después del comienzo a usar Linkurious.
 
-(Pix)
+[](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Dashboard.png)
+
 
 ###Directory
 
 El Directory (directorio) lista todos los nodos y las relaciones indexados en la base de datos en un presentación tabular.
 
-(Pix)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Directory.png)
 
 ###Workspace
 
