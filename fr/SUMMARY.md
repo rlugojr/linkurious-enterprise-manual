@@ -9,7 +9,7 @@
    * [Styles](getting-started/styles.md)
    * [Start](getting-started/start.md)
    * [Stop](getting-started/stop.md)
-* [Build your first visualization](first-visualization/README.md)
+* [Build your first visualization](première-visualisation/readme.md/Construire sa première visualisation)
    * [At first glance](first-visualization/at-first-glance.md)
    * [Create a new visualization](first-visualization/create.md)
    * [Inspect data](first-visualization/inspect.md)
