@@ -1,19 +1,19 @@
-## Download Linkurious Enterprise
+## Descargar Linkurious Enterprise
 
-### Your first download
+### Tu primera descarga
 
-Linkurious is available for download in your personal area at https://linkurio.us/my-account/
+Linkurious está disponible para descargar en tu área personal https://linkurio.us/my-account/
 
-Log in with the username and password created during the purchase process. You will then see the downloadable files.
+Accede con el usuario y contraseña creados durante el proceso de compra. Entonces podrás ver los archivos que pueden ser descargados.
 
-The downloaded file is a ZIP archive. It notably includes:
+El archivo descargado es de tipo ZIP. Especialmente incluye:
 
-- a Web server built on top of Node.js v4.2 LTS ;
-- the search engine ElasticSearch v1.4.5+ (requires Java JDK).
+- Un servidor web construido con Node.js v4.2 LTS
+- El motor de búsqueda ElasticSearch v1.4.5+ (requiere Java JDK).
 
 
-### Stay up to date
+### Permancecer actualizado
 
-You will be notified by email when we ship a new release. Connect to your personal area to download new releases.
+Serás notificado por correo electrónico cuando lancemos una nueva versión. Conecta a tu area personal para descargar nuevas versiones.
 
-You may update anytime the operating system where Linkurious is installed and update Java as well. However you should ask us if new releases of the Neo4j database are compatible with Linkurious. Latest Neo4j releases are available on http://neo4j.com/download/ .
+También puedes actualizar el sistema operativo y versión de Java donde Linkurious esté instalado en cualquier momento. Sin embargo deberías preguntarnos si nuevas versiones de la base de datos Neo4j son compatibles con Linkurious. Las versiones más recientes de Neo4j están disponibles en http://neo4j.com/download/.
