@@ -23,7 +23,7 @@ Linkurious uses an embedded SQLite database for persistence. This database requi
 Some older Linux distributions don't have this version of GLIBC available. You can check the version available on your system on http://distrowatch.com .
 
 If you encounter this problem, one solution is to use another persistence store for Linkurious, such as [MySQL](https://www.mysql.fr/) or [PostgreSQL](http://www.postgresql.org/).
-You can use an existing database server or install a new one - Linkurious will store it's state in a specific "linkurious" database.
+You can use an existing database server or install a new one - Linkurious will store its state in a specific "linkurious" database.
 See the Configure section to change the persistence store used by Linkurious. Please refer to the official documentation of MySQL or PostgreSQL for installation and configuration of these databases.
 
 Alternatively, on debian stable you may be able to fix the problem by upgrading GLIBC manually:
