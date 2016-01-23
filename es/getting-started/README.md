@@ -1,4 +1,3 @@
-# Getting Started
+# Introducción
 
-In this first chapter, we will learn how to setup and run Linkurious Enterprise for the first time. We will go through the technical requirements, then how to download and install Linkurious Enterprise. We will discover all configuration settings available, and how to provide default styles to visualizations. We will finally see how to start and stop the software.
-
+En este primer capítulo, aprenderemos cómo configurar y hacer funcionar Linkurious Enterprise por primera vez. Repasaremos los requisitos técnicos y cómo descargar e instalar Linkurious Enterprise. Descubriremos todos los ajustes de configuración disponibles, y cómo crear estilos básicos para las visualizaciones. Finalmente veremos cómo iniciar y parar el software.
