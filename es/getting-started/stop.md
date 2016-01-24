@@ -1,13 +1,13 @@
-## Stop
+## Detener
 
-### Stop on Linux systems
+### Detener en sistemas Linux
 
-Go to the folder of Linkurious, then run `stop.sh`. Alternately, run `menu.sh` and select `Stop Linkurious processes` from the console.
+Vaya al directorio de Linkurious, luego ejecute `stop.sh`. Alternativamente, ejecute `menu.sh` y seleccione `Stop Linkurious processes` desde la consola.
 
-### Stop on Mac OS X
+### Detener en sistemas Mac OS X
 
-Go to the folder of Linkurious, then run `stop.sh.command`. Alternately, run `menu.sh.command` and select `Stop Linkurious processes` from the console.
+Vaya al directorio de Linkurious, luego ejecute `stop.sh.command`. Alternativamente, ejecute `menu.sh.command` y seleccione `Stop Linkurious processes` desde la consola.
 
-### Stop on Windows
+### Detener en Windows
 
-In the folder of Linkurious, click on the `stop` file. Alternately, click on `menu` and select `Stop Linkurious processes` from the console.
+Vaya al directorio de Linkurious, luego haga doble clic en el archivo `stop`. Alternativamente, haga doble clic en el archivo `menu` y seleccione `Stop Linkurious processes` desde la consola.
