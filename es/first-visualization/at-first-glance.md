@@ -1,22 +1,21 @@
 ##A primera vista
 
-Aquí miraremos en el interfaz de Linkurious Enterprise.
+Este es vistazo a la interfaz de usuario de Linkurious Enterprise.
 
-###Dashboard
+### Dashboard
 
-El  Dashboard lista las visualizaciones creadas por el usuario. La imagen siguiente muestra un Dashboard típico después del comienzo a usar Linkurious.
+El Dashboard (panel de control) lista las visualizaciones creadas por el usuario. La siguiente imagen muestra el panel de control típico después de empezar a utilizar Linkurious.
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Dashboard.png)
+![panel de control]](Dashboard.png)
 
+### Directory
 
-###Directory
+El Directory (directorio) lista todos los nodos y relaciones indexados de la base de datos de grafos en una tabla.
 
-El Directory (directorio) lista todos los nodos y las relaciones indexados en la base de datos en un presentación tabular.
+![](Directory.png)
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Directory.png)
+### Workspace
 
-###Workspace
+El Workspace (espacio de trabajo) permite explorar la base de datos de grafos y confecciona la visualización como un diagrama de nodos y enlaces.
 
-El workspace (espacio de trabajo) permite explorar la base de datos orientadas a grafos y trabajar la visualización como un nodo-relación diagrama. 
-
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Workspace.png)
+![espacio de trabajo]](Workspace.png)
