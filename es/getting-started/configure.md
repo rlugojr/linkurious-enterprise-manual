@@ -1,253 +1,253 @@
-## Configure
+## Configuración
 
 <div class="alert alert-info">
-    Skip this section if you launch Linkurious with the default configuration. You can modify the configuration anytime.
+    Omita esta sección si utiliza Linkurious con la configuración predeterminada. Puede modificar la configuración en cualquier momento.
 </div>
 
-The configuration file is located at `linkurious/data/config/production.json`. It is a JSON file divided in the following sections:
+El archivo de configuración está en `linkurious/data/config/production.json`. Es un archivo JSON dividido en las siguientes secciones:
 
-* **dataSources** - The list of data sources to connect to.
-* **allSources** - Settings that apply to all data sources.
-    * Configure shortest paths, indexing, node expand and search limits, minimal search query length.
-* **db** - The internal data store of Linkurious.
-* **server** - The Linkurious server configuration.
-* **access** - The access rights.
-    * Enable authentication, configure LDAP authentication, set data read-only mode, enable online publishing.
+* **dataSources** - La lista de fuentes de datos a las que conectarse.
+* **allSources** - Configuraciones aplicadas a todas las fuentes de datos.
+    * Configurar caminos más cortos, indexación, expansión de nodos, límites de búsqueda y la longitud mínima de consultas de búsqueda.
+* **db** - El almacén de datos interno de Linkurious.
+* **server** - La configuración del servidor de Linkurious.
+* **access** - Los permisos de acceso.
+    * Activar autenticación, configurar autenticación LDAP, establecer modo de solo lectura de datos y activar la publicación online.
 * **clientAnalytics**
-    * Log user actions in the client using a Google Analytics account (disabled by default).
-* **sigma** - The settings of Sigma.js.
-    * You should only edit the styles and palette keys.
+    * Anotar acciones de los usuarios en el cliente mediante una cuenta de Google Analytics (desactivado por defecto).
+* **sigma** - Preferencias de Sigma.js.
+    * Usted solo debería editar los estilos y paletas.
 
-### Data management
+### Gestión de datos
 
-#### Data sources
+#### Fuentes de datos
 
-Data sources are servers accessible through the network (local, intranet or internet) with URLs to connect to. We assume that each data source serves a single graph database, however it may serve a different database the next time Linkurious will connect to it. For instance, you may load a database on your Neo4j server, then restart the server with another database. Linkurious will use the store ID to identify the database, so that you can switch between databases easily.
+Las fuentes de datos son servidores accesibles por red (local, intranet o internet) con URLs a las que conectarse. Nosotros asumimos que cada fuente de datos sirve una única base de datos de grafo, sin embargo puede ser utilizada para servir una base de datos diferente la próxima vez que Linkurious se conecte. Por ejemplo, usted podría cargar una base de datos en su servidor Neo4j, y luego reiniciar el servidor con otra base de datos. Linkurious utilizará el ID de almacén para identificar la base de datos, de forma que usted pueda cambiar la base de datos fácilmente.
 
-Linkurious can connect to many data sources at the same time. End users will select which database to work on in the interface, and switch between them. 
+Linkurious puede conectarse a muchas fuentes de datos al mismo tiempo. Los usuarios finales seleccionarán la base de datos con la que trabajar en la interfaz, y cambiarán entre ellas.
 
-Data sources are configured within the **dataSources** key, which is a list of potential data sources. A single data source is configured by default to connect to a local Neo4j server. Each data source contains the following settings:
+Las fuentes de datos se configuran en la sección **dataSources**, que es una lista de potenciales fuentes de datos. De forma predeterminada, una única fuente de datos está configurada para conectarse a un servidor local de Neo4j. Cada fuente de datos contiene los siguientes ajustes:
 
-* **name** (optional) - A human-readable name.
-* **graphdb** - The graph database server to connect to.
-    * **vendor** - `"neo4j"`. Only Neo4j servers are supported.
-    * **url** - `"http://127.0.0.1:7474/"`. Linkurious will call the Neo4j REST API on this address.
-    * **writeURL** (optional) - If provided, Linkurious will send WRITE requests to the graph database to this endpoint and READ requests to the **url** endpoint.
-    * **user** (optional) - The username if authentication is enabled on the graph database server.
-    * **password** (optional) - The password if authentication is enabled on the graph database server.
-* **index** - The search engine.
-    * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
-    * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
-    * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server. 
-    * **forceReindex** - `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
+* **name** (opcional) - Nombre legible para personas.
+* **graphdb** - Servidor de base de datos de grafos al que conectarse.
+    * **vendor** - `"neo4j"`. Solo servidores Neo4j están soportados.
+    * **url** - `"http://127.0.0.1:7474/"`. Linkurious se comunicará con la API REST de Neo4j en esta dirección.
+    * **writeURL** (opcional) - Si es proporcionado, Linkurious enviará peticiones de ESCRITURA a la base de datos de grafos en este punto de acceso y peticiones de LECTURA al punto de acceso en **url**.
+    * **user** (opcional) - El nombre de usuario si la autenticación está activada en el servidor de base de datos de grafos.
+    * **password** (opcional) - La contraseña si la autenticación está activada en el servidor de base de datos de grafos.
+* **index** - El motor de búsqueda.
+    * **vendor** - `"elasticSearch"`. Solo servidores ElasticSearch están soportados.
+    * **host** - `"127.0.0.1"` para utilizar el servidor ElasticSearch integrado. Usted puede especificar la dirección de su propio servidor ElasticSearch.
+    * **port** - `9201` para utilizar el servidor ElasticSearch integrado. Usted puede especificar el puerto de su propio servidor ElasticSearch.
+    * **forceReindex** - `false`. Linkurious siempre re-indexará la base de datos de grafos al iniciar si es `true`, de lo contrario los administradores tendrán que lanzar el proceso desde el panel de control de administración (ver capítulo de Administración).
 
-The following settings applies to all data sources. They are available in the **allSources** key.
+Los siguientes ajustes aplican a todas las fuentes de datos. Están disponibles en la sección **allSources**.
 
-General settings:
+Ajustes generales:
 
-* **connectionRetries** - `10`. The maximum number of connection attempts to each data source and to the search engine before stating them as disconnected.
-* **pollInterval** - `10`. Check if the data sources and search engine are connected at each interval (in second).
+* **connectionRetries** - `10`. El número máximo de intentos de conexión a cada fuente de datos y motor de búsqueda antes de considerarlos desconectados.
+* **pollInterval** - `10`. Comprobar si las fuentes de datos y motores de búsqueda están conectados en cada intérvalo (en segundos).
 
-Search engine settings:
+Ajustes del motor de búsqueda:
 
-* **indexationChunkSize** - `5000`. The number of nodes and edges retrieved at each batch during indexing the graph database.
-* **searchAddAllThreshold** - `500`. The maximum number of search results that the user can add to a Visualization at once.
-* **searchThreshold** - `3000`. The maximum number of search results that can be returned.
-* **minSearchQueryLength** - `3`. The number of characters needed to trigger a search query. Set `1` to provide live results from the first character typed by the user.
+* **indexationChunkSize** - `5000`. El número de nodos y relaciones extraidos cada vez al indexar la base de datos.
+* **searchAddAllThreshold** - `500`. El número máximo de resultados de búsqueda que el usuario puede añadir a una visualización a la vez.
+* **searchThreshold** - `3000`. El número máximo de resultados de búsqueda que pueden ser devueltos.
+* **minSearchQueryLength** - `3`. El número de caracteres necesarios para lanzar una consulta de búsqueda. Establecer `1` para proporcionar resultados en directo desde el primer caracter escrito por el usuario.
 
-Graph exploration settings:
+Ajustes de exploración de grafos:
 
-* **maxPathLength** - `20`. The maximum shortest path length returned by Linkurious. Finding the shortest paths is a costly operation. Setting a small number will limit the resources used by the data source for performing this operation, and will return results faster.
-* **shortestPathsMaxResults** - `10`. The maximum of shortest paths returned.
-* **rawQueryTimeout** - `60000`. Abandon a query to the database if the time is over (in second).
-* **defaultFuzziness** - `0.9`. Default value to search fuzziness between 0 and 1. A value of `1` means exact matching of the search query.
-* **expandThreshold** - `50`. When the user expands a node with too many neighbors, Linkurious will ask to refine the query so that fewer neighbors are returned.
+* **maxPathLength** - `20`. La longitud máxima de camino más corto devuelta por Linkurious. Encontrar el camino más corto es una operación costosa. Establecer un número pequeño limitará los recursos utilizados por la fuente de datos para realizar esta operación, y devolverá resultados más rápido.
+* **shortestPathsMaxResults** - `10`. El número máximo de caminos más cortos devueltos.
+* **rawQueryTimeout** - `60000`. Abandonar una consulta a la base de datos si el tiempo de respuesta es sobrepasado (en segundos).
+* **defaultFuzziness** - `0.9`. Valor predeterminado para la aproximación de búsqueda entre 0 y 1. Un valor de `1` significa coincidencia exacta de la consulta de búsqueda.
+* **expandThreshold** - `50`. Cuando el usuario expande un nodo con demasiados vecinos, Linkurious pedirá refinar la consulta de forma que menos vecinos sean obtenidos.
 
-#### Connection to a Neo4j server
+#### Conexión a un servidor Neo4j
 
-If it is the first time you run a Neo4j server and you use Neo4j v2.2 or a more recent version, you need to configure the credentials:
+Si es la primera vez que ejecuta un servidor Neo4j y usa Neo4j v2.2 o una versión más reciente, necesitará configurar las credenciales:
 
-1. Launch the Neo4j server;
-- Open the browser at location http://127.0.0.1:7474 ;
-- Set a new user and password, and remember them to configure Linkurious.
+1. Lance el servidor Neo4j
+- Abra el navegador web en la dirección http://127.0.0.1:7474
+- Establezca un nuevo usuario y contraseña, y recuérdelos para configurar Linkurious.
 
-Configure Linkurious:
+Configurar Linkurious:
 
-- Open the configuration file;
-- Find the `graphdb` settings of the data source;
-- Set the URL of the Neo4j server;
-- Set the user and password of the Neo4j server.
+- Abra el archivo de configuración.
+- Busque los ajustes `graphdb` de la fuente de datos.
+- Establezca la URL del servidor Neo4j.
+- Establezca el usuario y contraseña del servidor Neo4j.
 
-Linkurious will connect to it the next time you start it.
+Linkurious se conectará al servidor la próxima vez que lo inicie.
 
-#### Neo4j instance management
+#### Gestión de instancias de Neo4j
 
-Linkurious can manage (start and stop it as Linkurious starts and stops) your Neo4j server for you in order to simplify your administration scripts. To enable this feature (available on Linux and Max OSX only), simply set the **neo4jPath** key in **allSources** to the absolute path of Neo4j's home directory. You will notice a new "Neo4j server" entry in the status report of Linkurious' console menu (see Chapter Administration > Monitoring).
+Linkurious puede gestionar (iniciar y detener a la vez que Linkurious se inicia y detiene) su servidor Neo4j por usted para simplificar los scripts de administración. Para activar esta característica (disponible solamente en Linux y Max OSX), simplemente establezca el valor **neo4jPath** en **allSources** a la ruta absoluta del directorio raíz de Neo4j. Usted podrá ver una nueva entrada "Neo4j server" en el informe de estado del menú de consola de Linkurious (ver capítulo Administración > Monitorización).
 
-#### Connection to the search engine
+#### Conexión al motor de búsqueda
 
-The embedded ElasticSearch engine may be replaced by your own ElasticSearch cluster. Edit the configuration file to set the `index` settings of the data source with the URL and credentials of your ElasticSearch cluster. Linkurious will create an index for each graph database, with index names prefixed by `linkurious_`.
+El motor ElasticSearch integrado puede ser reemplazado por su propio clúster de ElasticSearch. Edite el archivo de configuración para establecer los ajustes `index` de la fuente de datos con la URL y credenciales de su clúster ElasticSearch. Linkurious creará un índice para cada base de datos de grafos, con nombres prefijados por `linkurious_`.
 
-#### Internal data store
+#### Almacén de datos interno
 
-Linkurious stores information such as visualizations, users, and permissions into a data store separate from the graph databases. By default, Linkurious uses an SQLite database. MySQL and PostgreSQL are also available but they should be installed manually.
+Linkurious almacena información como visualizaciones, usuarios y permisos en un almacén de datos separado de las bases de datos de grafos. Por defecto, Linkurious utiliza una base de datos SQLite. MySQL y PostgreSQL también pueden utilizarse pero deben ser instalados manualmente.
 
-The internal data store is configured within the `db` key:
+El almacén de datos interno se configura en la sección `db`:
 
-* **name** - `"linkurious"`. The name of the database.
-* **username** (optional) - The username of the admin user of the database.
-* **password** (optional) - The password of the admin user of the database.
+* **name** - `"linkurious"`. El nombre de la base de datos.
+* **username** (opcional) - El nombre de usuario administrador de la base de datos.
+* **password** (opcional) - La contraseña del usuario administrador de la base de datos.
 * **options** - 
-    * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"postgres"`.
-    * **storage** (optional) - `"server/database.sqlite"`. The path of database file, relative to the `data` directory. Required for SQLite.
-    * **host** (optional) - Required for MySQL and PostgreSQL.
-    * **port** (optional) - Required for MySQL and PostgreSQL.
+    * **dialect** - `"sqlite"`. Valores disponibles: `"mysql"`, `"postgres"`.
+    * **storage** (opcional) - `"server/database.sqlite"`. La ruta al archivo de base de datos, relativo al directorio `data`. Requerido para SQLite.
+    * **host** (opcional) - Requerido para MySQL y PostgreSQL.
+    * **port** (opcional) - Requerido para MySQL y PostgreSQL.
 
 
 <div class="alert alert-warning">
-    GLIBC >= v1.14 must be installed on the server in order to use SQLite. You can check the version available your systems at <a href="http://distrowatch.com/search.php?ostype=All&category=All&origin=All&basedon=All&notbasedon=None&desktop=All&architecture=All&package=All&status=Active">http://distrowatch.com</a>.
+    GLIBC >= v1.14 debe estar instalado en el servidor para poder utilizar SQLite. Usted puede comprobar las versiones disponibles para su sistema en <a href="http://distrowatch.com/search.php?ostype=All&category=All&origin=All&basedon=All&notbasedon=None&desktop=All&architecture=All&package=All&status=Active">http://distrowatch.com</a>.
 </div>
 
-### Web server
+### Servidor web
 
-The web server of Linkurious delivers the application to end users through HTTP/S. It is configured within the `server` key:
+El servidor web de Linkurious proporciona la aplicación a usuarios finales mediante HTTP/S. Se configura en la sección `server`:
 
-* **domain** - `localhost`. The domain or subdomain used to access the web server. It is mandatory to edit it for publishing visualizations online. It is also used to restrict the validity of cookies to a domain or subdomain.
-* **listenPort** - `3000`. The port of the web server. Some firewalls block network traffic ports other than 80 (HTTP). Since only `root` users can listen on ports < 1024, you may want reroute traffic from 80 to 3000 as follows.
+* **domain** - `localhost`. El dominio o subdominio utilizado para acceder al servidor web. Es obligatorio editarlo para publicar visualizaciones online. También es utilizado para restringir la validez de cookies a un dominio o subdominio.
+* **listenPort** - `3000`. El puerto del servidor web. Algunos cortafuegos bloquean el tráfico de red en puertos diferentes al 80 (HTTP). Dado que solamente usuarios `root` pueden escuchar en puertos < 1024, usted puede necesitar redireccionar tráfico desde el puerto 80 al 3000 de la siguiente forma.
 
 ```
 >sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000
 ```
 
-### Security
+### Seguridad
 
-Multiple security features can be enabled according to your needs. The `cookieSecret` key of the `server` is randomized at the first start of Linkurious.
+Múltiples características de seguridad pueden ser activadas de acuerdo a sus necesidades. El valor `cookieSecret` en `server` es establecido aleatoriamente durante el primer inicio de Linkurious.
 
 #### Cookies
 
-Within the `server` key:
+Dentro de `server`:
 
-* **cookieSecret** - The secret key used to encrypt the session cookie. Randomized on first start.
+* **cookieSecret** - La clave secreta utilizada para cifrar la cookie de sesión. Aleatorizado durante el primer inicio.
 
 #### Cross-origin resource sharing (CORS)
 
-Within the `server` key:
+Dentro de `server`:
 
-* **allowOrigin** - `"*"`. Define the cross-origin resource sharing (CORS) policy. Accept cross-site HTTP/S requests by default (wildcard).
+* **allowOrigin** - `"*"`. Definir la política de cross-origin resource sharing (CORS). Aceptar peticiones HTTP/S entre diferentes sitios por defecto (comodín).
 
-#### Image cross-origin (client-side)
+#### Imágenes cross-origin (lado del cliente)
 
-Within the `sigma` key:
+Dentro de `sigma`:
 
-* **imgCrossOrigin** - `"anonymous"`. Restrict the origin of images displayed in visualizations to prevent running malicious code on the graphic card of users. Display images from any origin by default.
+* **imgCrossOrigin** - `"anonymous"`. Restringir el origin de imágenes mostradas en visualizaciones para prevenir la ejecución de código malicioso en la tarjeta gráfica de los usuarios. Mostrar imágenes de cualquier origen por defecto.
 
-#### End-to-end encrypted communications with SSL
+#### Comunicaciones cifradas con SSL
 
-External communications with the Linkurious server can be encrypted with SSL without installing third-party software.
+Las comunicaciones externas con el servidor de Linkurious pueden ser cifradas con SSL sin necesidad de instalar software de terceros.
 
-Within the `server` key:
+Dentro de `server`:
 
-* **listenPortHttps** - `3443`. The port of the web server if HTTPS is enabled. See the Install section to learn why you should not set `443` directly.
-* **useHttps** - `false`. Encrypt communications through HTTPS if `true`. Require a valid SSL certificate.
-* **forceHttps** - `false`. Force all traffic to use HTTPS only if `true`. The server will reject all HTTP requests.
-* **certificateFile** (optional) - The relative path to the SSL certificate.
-* **certificateKeyFile** (optional) - The relative path to a public key of the SSL certificate.
+* **listenPortHttps** - `3443`. El puerto del servidor web si HTTPS está activo. Vea la sección de Instalación para entender por qué no debería establecer `443` directamente.
+* **useHttps** - `false`. Cifrar comunicaciones con HTTPS si es `true`. Requiere un certificado SSL valido.
+* **forceHttps** - `false`. Forzar que todo el tráfico utilice HTTPS si es `true`. El servidor rechazará todas las peticiones HTTP.
+* **certificateFile** (opcional) - La ruta relativa al certificado SSL.
+* **certificateKeyFile** (opcional) - La ruta relativa a la clave pública del certificado SSL.
 
-If the Linkurious server, data sources, and the search engine are installed on different machines, we recommend to encrypt internal communication between them. It will protect you against packet sniffing on your intranet or on a cloud infrastructure. Please refer to the documentation of Neo4j and ElasticSearch to enable HTTPS.
+Si el servidor Linkurious, fuentes de datos y motor de búsqueda están instalados en máquinas diferentes, recomendamos cifrar la comunicación interna entre ellos. Esto le protegerá ante la captura de paquetes en su intranet o una infraestructura de tipo cloud. Por favor consulte la documentación de Neo4j y ElasticSearch para activar HTTPS.
 
-#### User access rights
+#### Permisos de acceso de usuarios
 
-The user access system is configured within the `access` key:
+El sistema de permisos de acceso de usuarios es configurado en la sección `access`:
 
-* **authRequired** - `false`. Reject requests of anonymous sessions if `true`, otherwise all requests will be related to a "Unique User" account. Set it `false` to launch Linkurious for the first time, or if there is a single user.
-* **dataEdition** - `true`. Enable the creation, edition, and deletion of nodes and edges in all data sources. Administrators can fine-tune user permissions, see the Administration Chapter. If `false`, all edition requests sent through Linkurious to the data sources will be rejected.
-* **widget** - `true`. Enable to publish visualizations online. Published visualizations are accessible by anonymous users. More info in the **Manage > Publish** section of the manual.
-* **loginTimeout** - `3600`. Log the user out after a period of inactivity (in second).
-* **ldap** - The connection to the LDAP service (see below).
+* **authRequired** - `false`. Rechazar peticiones de sesiones anónimas si es `true`, de lo contrario todas las peticiones serán enlazadas a una cuenta de usuario llamada "Unique User". Establecer a `false` para lanzar Linkurious por primera vez, o si solamente hay un usuario.
+* **dataEdition** - `true`. Activa la creación, edición y borrado de nodos y relaciones en todas las fuentes de datos. Los administradores pueden ajustar los permisos de los usuarios, ver el capítulo de Administración. Si es `false`, todas las peticiones de edición de fuentes de datos a Linkurious serán rechazadas.
+* **widget** - `true`. Activar para publicar visualizaciones online. Las visualizaciones publicadas son accesibles por usuarios anónimos. Más información en la sección **Gestión > Publicación** del manual.
+* **loginTimeout** - `3600`. Terminar la sesión del usuario tras un periodo de inactividad (en segundos).
+* **ldap** - La conexión al servicio LDAP (ver debajo).
 
-##### Connection to the LDAP service
+##### Conexión al servicio LDAP
 
-In Linkurious, administrators manage other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably OpenLDAP or Active Directory), users are authenticated each time they sign in. If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious. Notice that Linkurious stores encrypted passwords for users not authenticated by LDAP.
+En Linkurious, los administradores gestionan las cuentas de otros usuarios. Las cuentas de usuario se identifican por un nombre de usuario o dirección de correo electrónico. Si Linkurious está conectado a un servicio LDAP (preferiblemente OpenLDAP o Active Directory), los usuarios son autenticados cada vez que acceden. Si usted tiene un servicio LDAP funcionando en su red, puede utilizarlo para autenticar a los usuarios en Linkurious. Sea consciente de que Linkurious guarda contraseñas cifradas para los usuarios que no son autenticados mediante LDAP.
 
-To enable LDAP authentication in Linkurious, edit the configuration.
+Para activar la autenticación con LDAP en Linkurious, edite la configuración.
 
-For Microsoft Active Directory, add an `msActiveDirectory` section inside `access`:
+Para Microsoft Active Directory, añada una sección `msActiveDirectory` dentro de `access`:
 
 ```JavaScript
 "access": {
   // [...]
   "msActiveDirectory": {
     "enabled": true,
-    // URL of the Active Directory server to connect to
+    // URL del servidor Active Directory al que conectar
     "url": "ldap://ldap.lks.com",
-    // Base 'Domain Name' in which users will be searched
+    // 'Domain Name' base en el que buscar usuarios
     "baseDN": "dc=ldap,dc=lks,dc=com",
-    // Domain of your Active Directory server
+    // Dominio de su servidor Active Directory
     "domain": "ldap.lks.com"
   }
 }
 ```
 
-For OpenLDAP, add an `ldap` section inside `access`:
+Para OpenLDAP, añada una sección `ldap` dentro de `access`:
 
 ```JavaScript
 "access": {
   // [...]
   "ldap": {
-    // If true, Linkurious will try to connect to LDAP server on startup 
-    // using 'bindDN' and 'bindPassword'
+    // Si es true, Linkurious intentará conectar al servidor LDAP al iniciar
+    // utilizando 'bindDN' y 'bindPassword'
     "enabled": true,
-    // URL of the LDAP server to connect to
+    // URL del servidor LDAP al que conectar
     "url": "ldap://ldap.forumsys.com:389",
-    // 'Domain Name' of the LDAP account used to binding
+    // 'Domain Name' de la cuenta LDAP utilizada para autenticar
     "bindDN": "cn=read-only-admin,dc=example,dc=com",
-    // password of the LDAP account used for binding
+    // contraseña de la cuenta LDAP usada para autenticar
     "bindPassword": "password",
-    // Base 'Domain Name' in which users will be searched
+    // 'Domain Name' base en el que buscar usuarios
     "baseDN": "dc=example,dc=com'",
-    // name of the LDAP attribute containing the USERNAME of a user
+    // nombre del atributo LDAP que contiene el USERNAME de un usuario
     "usernameField": "uid",
-    // name of the LDAP attribute containing the PASSWORD of a user
+    // nombre del atributo LDAP que contiene el PASSWORD de un usuario
     "passwordField": "userPassword",
-    // name of the LDAP attribute containing the EMAIL of a user
+    // nombre del atributo LDAP que contiene el EMAIL de un usuario
     "emailField": "mail"
   }
 }
 ```
 
-Please refer to the documentation of your LDAP provider.
+Por favor consulte la documentación de su proveedor LDAP.
 
 <div class="alert alert-warning">
-    Contact your network administrator to ensure that the machine where Linkurious is installed can connect to the LDAP service.
+    Contacte a su administrador de redes para asegurar que la máquina en la que Linkurious está instalado pueda conectar al servicio LDAP.
 </div>
 
-#### User permissions to the data sources
+#### Permisos de usuarios para las fuentes de datos
 
-Administrators can set fine-grained permissions to end users for each data source. See the Administration Chapter to learn more.
+Los administradores pueden establecer permisos detallados a los usuarios finales para cada fuente de datos. Vea el capítulo de Administración para más información.
 
-### Logging
+### Registro
 
-Linkurious can log events at server side and at client side.
+Linkurious puede registrar eventos del lado del servidor y del lado del cliente.
 
-#### Server logs
+#### Registros del servidor
 
-The Linkurious server logs various events into files at `data/manager/logs/Linkurious-Server-*.log`. They are helpful to fix issues and you should include them to your support tickets.
-Logs of the embedded ElasticSearch server can be found in `data/manager/logs/ElasticSearch-Server-*.log`.
+El servidor de Linkurious registra varios eventos en los archivos `data/manager/logs/Linkurious-Server-*.log`. Son útiles para arreglar problemas y usted debería incluirlos en sus tickets de soporte.
+Los registros del servidor integrado ElasticSearch pueden encontrarse en `data/manager/logs/ElasticSearch-Server-*.log`.
 
-#### Client logs
+#### Registros del cliente
 
-The Linkurious client can log user actions by sending events to your Google Analytics account. They provide information of the way the application is used, which features are the most useful, etc. This feature is disabled by default and no external script is injected in this case. It is configured within the `clientAnalytics` key:
+El cliente de Linkurious puede registrar las acciones del usuario enviando eventos a su cuenta de Google Analytics. Estos registros proporcionan información sobre cómo se utiliza la aplicación, qué características son las más útiles, etc. Esta característica está desactivada de forma predeterminada y ningún script externo es inyectado en este caso. Puede ser configurado en la sección  `clientAnalytics`:
 
 * **enabled** - `false`. 
-* **code** - Universal Analytics code of the form "UA-XXXXX-xx".
-* **domain** - `"none"`. The domain from which Linkurious is accessible to the users, e.g. "www.example.com", or "none".
+* **code** - Código universal de Google Analytics tipo "UA-XXXXX-xx".
+* **domain** - `"none"`. El dominio desde el que Linkurious es accesible a los usuarios, por ejemplo "www.example.com", o "none".
 
-#### Audit trails
+#### Trazas de auditoría
 
-Audit trails allows you to record detailed logs about the operations performed on your graph database by the users of Linkurious Enterprise. The log files contain JSON lines. You can easily bind a log management system like [Logstash](https://www.elastic.co/products/logstash) to interpret them. This feature is disabled by default. The following settings are available within the `auditTrail` key:
+Las trazas de auditoría le permiten guardar registros detallados de las operaciones realizadas en su base de datos de grafos por los usuarios de Linkurious Enterprise. Los archivos de registro contienen líneas en formato JSON. Usted puede enlazarlas con un sistema de gestión de registros como [Logstash](https://www.elastic.co/products/logstash) para interpretarlas. Esta característica está desactivada de forma predeterminada. Los siguientes ajustes están disponibles en la sección `auditTrail`:
 
-* **enabled** - `false`. Enable the audit trail recording if `true`.
-* **logFolder** - `"audit-trail"`. Where to store the log files. This path is relative to the `data` directory located at the root of your Linkurious installation.
-* **fileSizeLimit** - `5242880`. Maximum size in byte of one log file (default: 5MB). A new file is created when the limit is reached (files rotations) to avoid enormous log files.
-* **strictMode** - `false`. Ensure that the operation has been logged before returning the result to the user if `true`. Might have a big impact on the server responsiveness.
-* **mode** - `"rw"`. Will record READ actions (`"r"`), WRITE actions (`"w"`), or both (`"rw"`).
+* **enabled** - `false`. Activa las trazas de auditoría si es `true`.
+* **logFolder** - `"audit-trail"`. Dónde almacenar los archivos de registro. Esta ruta es relativa al directorio `data` en la raíz de su instalación de Linkurious.
+* **fileSizeLimit** - `5242880`. Tamaño máximo en bytes de cada archivo (predeterminado: 5MB). Un nuevo archivo es creado cuando el límite es alcanzado (rotación de archivos) para evitar archivos de registro enormes.
+* **strictMode** - `false`. Asegura que se ha registrado la operación antes de devlover el resultado al usuario si es `true`. Podría tener un gran impacto en la velocidad de respuesta del servidor.
+* **mode** - `"rw"`. Guardar acciones de LECTURA (`"r"`), ESCRITURA (`"w"`), o ambas (`"rw"`).
