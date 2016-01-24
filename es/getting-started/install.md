@@ -1,13 +1,13 @@
-## Install
+## Instalación
 
-### Linux systems
+### Sistemas Linux
 
-1. Unzip your copy of Linkurious:
+1. Descomprima su copia de Linkurious:
 `>unzip linkurious-linux-v1.1.0.zip`.
 
-2. Enter the Linkurious folder: `>cd linkurious-linux`.
+2. Acceda al directorio de Linkurious: `>cd linkurious-linux`.
 
-3. Check the configuration and make sure that the URL of you Neo4j database is correctly specified: `>head ./data/config/production.json`. Example output:
+3. Compruebe la configuración y asegúrese de que la URL de su base de datos Neo4j esté correctamente especificada: `>head ./data/config/production.json`. Resultado de ejemplo:
 ```JavaScript
 {
   "dataSources": [{
@@ -19,24 +19,24 @@
     }
 ```
 
-4. If you need to change the URL of Neo4j or specify a user/password, edit the configuration file with your favorite editor. When adding a user/password, remember to put these strings between quotes (`"`).
+4. Si necesita modificar la URL de Neo4j o especificar un usuario o contraseña, edite el archivo de configuración con su editor de texto favorito. Al añadir un usuario o contraseña, recuerde poner estos valores con comillas dobles (`"`).
 
-5. If your deployment is security critical, please make sure that you will not run Linkurious with a `root` account.
+5. Si la seguridad de su despliegue es crítica, por favor asegúrese de que no ejecuta Linkurious con una cuenta de usuario de tipo `root`.
 
-6. Make sure that you have Java JDK installed by typing `javac -version` in a terminal. If needed, [install Java JDK for Linux](https://docs.oracle.com/javase/7/docs/webnotes/install/linux/linux-jdk.html).
+6. Compruebe que tiene Java JDK instalado escribiendo `javac -version` en una terminal. Si lo necesita, [instale Java JDK para Linux](https://docs.oracle.com/javase/7/docs/webnotes/install/linux/linux-jdk.html).
 
-7. Make sure that Neo4j is running.
+7. Compruebe que Neo4j esté funcionando.
 
-8. Run `./linkurious-linux/start.sh` to launch Linkurious.
+8. Ejecute `./linkurious-linux/start.sh` para arrancar Linkurious.
 
-### Mac OSX systems
+### Sistemas Mac OSX
 
-1. Unzip your copy of Linkurious:
+1. Descomprima su copia de Linkurious:
 `>unzip linkurious-osx-v1.1.0.zip`.
 
-2. Enter the Linkurious folder: `>cd linkurious-osx`.
+2. Acceda al directorio de Linkurious: `>cd linkurious-osx`.
 
-3. Check the configuration and make sure that the URL of you Neo4j database is correctly specified: `>head ./data/config/production.json`. Example output:
+3. Compruebe la configuración y asegúrese de que la URL de su base de datos Neo4j esté correctamente especificada: `>head ./data/config/production.json`. Resultado de ejemplo:
 ```JSON
 {
   "dataSources": [{
@@ -48,72 +48,72 @@
     }
 ```
 
-4. If you need to change the URL of Neo4j or specify a user/password, edit the configuration file with your favorite editor. When adding a user/password, remember to put these strings between quotes (`"`).
+4. Si necesita modificar la URL de Neo4j o especificar un usuario o contraseña, edite el archivo de configuración con su editor de texto favorito. Al añadir un usuario o contraseña, recuerde poner estos valores con comillas dobles (`"`).
 
-5. If your deployment is security critical, please make sure that you will not run Linkurious with a `root` account.
+5. Si la seguridad de su despliegue es crítica, por favor asegúrese de que no ejecuta Linkurious con una cuenta de usuario de tipo `root`.
 
-6. Make sure that you have Java JDK installed by typing `javac -version` in a terminal. If needed, [install Java JDK for Mac OSX](http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jdk.html).
+6. Compruebe que tiene Java JDK instalado escribiendo `javac -version` en una terminal. Si lo neceista, [instale Java JDK para Mac OSX](http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jdk.html).
 
-7. Make sure that Neo4j is running.
+7. Compruebe que Neo4j esté funcionando.
 
-8. Run `./linkurious-osx/start.sh.command` to launch Linkurious (you can double-click on the file to run it).
+8. Ejecute `./linkurious-osx/start.sh.command` para arrancar Linkurious (puede hacer doble clic en este archivo para ejecutarlo).
 
-### Windows systems
+### Sistemas Windows
 
-1. [Unzip](http://customize.org/help/How_To_Unzip_A_File) Linkurious' archive (right-click on `linkurious-windows-v0.10.0.zip`, then select "Extract all").
+1. [Descomprima](http://customize.org/help/How_To_Unzip_A_File) el archivo de Linkurious  (haga clic derecho en `linkurious-windows-v0.10.0.zip`, luego seleccione "Extraer todo").
 
-2. Enter the Linkurious folder `linkurious-windows`.
+2. Acceda al directorio de Linkurious `linkurious-windows`.
 
-3. Open the configuration file `linkurious-windows/data/config/production.json` with WordPad or Notepad++, and make sure that the URL of your Neo4j database is correctly specified. If needed, update the username and password as well.
+3. Abra el archivo de configuración `linkurious-windows/data/config/production.json` con WordPad o Notepad++, y asegúrese de que la URL de su base de datos Neo4j esté correctamente especificada. Si lo necesita, modifique el usuario o contraseña también.
 ```JavaScript
 {
   "dataSources": [{
     "graphdb": {
       "vendor": "neo4j",
       "url": "http://localhost:7474", // Neo4 URL
-      "user": null, // if needed, replace with the Neo4j user (between " quotes) 
-      "password": null // replace with the Neo4j password (between " quotes) 
+      "user": null, // si es necesario, reemplazar con el usuario de Neo4j (entre comillas dobles ") 
+      "password": null // reemplazar con la constraseña de Neo4j (entre comillas dobles ") 
     }
 ```
 
-4. Make sure that [you have Java JDK installed](https://www.java.com/en/download/help/version_manual.xml). (if needed, [install Java JDK](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html)).
+4. Compruebe [que tiene Java JDK instalado](https://www.java.com/en/download/help/version_manual.xml). Si es necesario, [instale Java JDK](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html).
 
-5. Make sure that Neo4j is running.
+5. Compruebe que Neo4j esté funcionando.
 
-6. Double-click on `linkurious-windows\start.bat` to launch Linkurious.
+6. Haga doble click en `linkurious-windows\start.bat` para arrancar Linkurious.
 
 
-### Install Linkurious as a system service
+### Instalar Linkurious como un servicio del sistema
 
-In order to run Linkurious automatically when the operating system starts, it is possible to install Linkurious as a system service on Linux and Mac OSX versions.
+Para ejecutar Linkurious automáticamente cuando el sistema operativo inicie, es posible instalar Linkurious como un servicio de sistema en las versiones de Linux y Mac OSX.
 
-#### Install as a service in Linux systems
+#### Instalar como servicio en sistemas Linux
 
-1. Open the administration menu by running `menu.sh` in Linkurious' folder.
-2. Check if Linkurious is already installed as a service (displayed at the top of the menu).
-3. Select `Install Linkurious as a service`.
-4. Linkurious will install itself as a service of your operating system.
+1. Abra el menú de administración ejecutando `menu.sh` en el directorio de Linkurious.
+2. Compruebe si Linkurious ya está instalado como servicio (aparece en la parte superior del menú).
+3. Seleccione `Install Linkurious as a service`.
+4. Linkurious se instalará como servicio de su sistema operativo.
 
-#### Install as a service in Mac OSX systems
+#### Instalar como servicio en sistemas Mac OSX
 
-1. Open the administration menu by running `menu.sh.command` in Linkurious' folder.
-2. Check if Linkurious is already installed as a service (displayed at the top of the menu).
-3. Select `Install Linkurious as a service`.
-4. Linkurious will install itself as a service of your operating system.
+1. Abra el menú de administración ejecutando `menu.sh.command` en el directorio de Linkurious.
+2. Compruebe si Linkurious ya está instalado como servicio (aparece en la parte superior del menú).
+3. Seleccione `Install Linkurious as a service`.
+4. Linkurious se instalará como servicio de su sistema operativo.
 
-### How to run multiple instances of Linkurious
+### Cómo ejecutar multiples instancias de Linkurious
 
 <div class="alert alert-info">
-  A single instance of Linkurious can connect to multiple graph databases.
+  Una única instancia de Linkurious puede conectarse a varias bases de datos de grafos.
 </div>
 
-Linkurious is designed to run a single instance per machine.
-While it is not recommended and with no guarantee to work, you may run multiple instances of Linkurious by doing the following:
+Linkurious ha sido diseñado para ejecutarse en una única instancia por máquina.
+Aunque no está recomendado ni garantizado que funcione, usted podría ejecutar varias instancias de Linkurious haciendo lo siguiente:
 
-Copy the entire linkurious directory (the one including this file) to a new place, and edit the `data/config/production.json` file:
-You will need to change ``listenPort`` to set a different port from the one used in the `production.json` file. You may also edit `graphdb` and `db.storage`.
+Copie el directorio completo de linkurious (el que incluye este archivo) a un nuevo lugar, y edite el archivo `data/config/production.json`:
+Necesitará modificar ``listenPort`` para establecer un puerto diferente al utilizado en el archivo `production.json`. Usted también podría editar `graphdb` y `db.storage`.
 
-This is an example of a second instance of Linkurious served on `http://localhost:3001`, that calls the Neo4j API on the port `7475`:
+El siguiente es un ejemplo de una segunda instancia de Linkurious servida en `http://localhost:3001`, que se comunica con la API de Neo4j por el puerto `7475`:
 
 ```JavaScript
 {
@@ -145,6 +145,6 @@ This is an example of a second instance of Linkurious served on `http://localhos
 }
 ```
 
-If you use the ElasticSearch software bundled with Linkurious, you will also need to modify the configuration in `system/elasticsearch/config/elasticsearch.yml` to set an alternate port to the default of 9201.
+Si utiliza el software ElasticSearch incluido con Linkurious, usted también podría necesitar modificar la configuración en `system/elasticsearch/config/elasticsearch.yml` para establecer un puerto alternativo al puerto por defecto 9201.
 
-Finally, note that it is not currently possible to install different versions of Linkurious as a system service, at the same time, on the same machine.
+Finalmente, sea consciente de que no es posible instalar diferentes versiones de Linkurious como servicio de sistema, al mismo tiempo, en la misma máquina.
