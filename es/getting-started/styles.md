@@ -1,24 +1,24 @@
-### Visualization style
+### Estilos de visualización
 
-You can configure the installation of Linkurious Enterprise to customize the default visual aspect of nodes and edges in new visualizations, so that your users will jump head first into the exploration of data. Nodes and edges are grey and have the same size by default. The defined styles will be applied to **all** data sources.
+Usted puede configurar la instalación de Linkurious Enterprise para personalizar el aspecto visual predeterminado de los nodos y relaciones en nuevas visualizaciones, de forma que sus usuarios se lanzarán directamente a la exploración de los datos. Los nodos y relaciones son de color gris y tienen el mismo tamaño por defecto. Los estilos definidos se aplicarán a **todas** las fuentes de datos.
 
-Open the configuration file `linkurious/data/config/production.json`. Visualization styles are defined within the `sigma` key by the `styles` and color `palette`. Styles are mapping between visual variables such as colors or size, and data properties on nodes and edges. Visual variables can be used in a single style at a time. For instance we can set `nodes.color` and `nodes.icons`, but we cannot set `nodes.color` twice. We can set `nodes.color` and `edges.color`.
+Abra el archivo de configuración `linkurious/data/config/production.json`. Los estilos de visualización están definidos dentro de la sección `sigma` mediante las claves `styles` y `palette`. Los estilos son asignaciones entre variables visuales como el color y el tamaño, y propiedades de datos de nodos o relaciones. Las variables visuales pueden ser usadas en un único estilo a la vez. Por ejemplo, podemos establecer `nodes.color` y `nodes.icons`, pero no podemos establecer `nodes.color` dos veces. Sí que podemos establecer `nodes.color` y `edges.color`.
 
-Palettes may contain color schemes for both quantitative and qualitative properties, as well as schemes for icons. Schemes for qualitative properties bind property values to colors. Schemes for quantitative properties bind the number of property values to lists of sequential colors. Schemes may be nested and be referenced in dot notation by the styles.
+Las paletas pueden contener esquemas de colores para propiedades tanto cuantitativas como cualitativas, así como esquemas para iconos. Los esquemas para propiedades cualitativas asignan diferentes valores a diferentes colores. Los esquemas para propiedades cuantitativas relacionan el valor numérico de una propiedad a listas secuenciales de colores. Los esquemas pueden ser anidados y referenciados con notación de puntos por los estilos.
 
-Available `styles.nodes.by` values:
+Los valores disponibles para `styles.nodes.by` son:
 - "data.categories"
-- "data.properties.X", with "X" the property name.
+- "data.properties.X", siendo "X" el nombre de la propiedad.
 
-Available `styles.edges.by` values:
+Los valores disponibles para `styles.edges.by` son:
 - "data.type"
-- "data.properties.X", with "X" the property name.
+- "data.properties.X", siendo "X" el nombre de la propiedad.
 
-#### Color mapping
+#### Asignación de colores
 
-In the following example, nodes are colored by categories "COMPANY", "CITY", "MARKET", "INVESTOR", and edge are colored by type "HAS_CITY", "HAS_MARKED", "INVESTED_IN". Notice how each color palettes is referenced in schemes.
+En el siguiente ejemplo, los nodos son coloreados por las categorías "COMPANY", "CITY", "MARKET" e "INVESTOR", y las relaciones son coloreadas por los tipos "HAS_CITY", "HAS_MARKED" e "INVESTED_IN". Preste atención a cómo se referencia cada paleta de colores en los esquemas.
 
-**Example for qualitative properties:**
+**Ejemplo para propiedades cualitativas:**
 ```json
 "styles": {
   "nodes": {
@@ -57,11 +57,11 @@ In the following example, nodes are colored by categories "COMPANY", "CITY", "MA
 }
 ```
 
-Coloring by quantitative property follows the same logic. In the following example the nodes are colored by a numeric property. Values will be linearly grouped into 7 bins, ordered from small to large values (see an example below).
+Colorear mediante propiedades cuantitativas sigue la misma logica. En el siguiente ejemplo los nodos son coloreados por una propiedad numérica. Los valores serán agrupados linealmente en 7 contenedores, ordenados de menor a mayor (ver ejemplo debajo).
 
-![color-scale](Color-scale.png)
+![escala-de-colores](Color-scale.png)
 
-**Example for quantitative properties:**
+**Ejemplo para propiedades cuantitativas:**
 ```json
 "styles": {
   "nodes": {
@@ -80,27 +80,27 @@ Coloring by quantitative property follows the same logic. In the following examp
 }
 ```
 
-#### Color palette
+#### Paletas de colores
 
-Linkurious will always use 7 colors for quantitative properties of the nodes, and 3 colors only for edges. The human eye can distinguish a few colors only, so you should craft your palette carefully.
+Linkurious siempre usará 7 colores para propiedades cuantitativas de los nodos, y solamente 3 colores para las relaciones. El ojo humano solamente puede distinguir unos pocos colores, de forma que usted debería diseñar sus paletas con cuidado.
 
-If you do not set styles for qualitative properties, Linkurious will assign colors from a randomly -but carefully- generated set of colors. This set can be modified at `palette.nodes.qualitative.linkurious_def` (edges respectively).
+Si usted no asigna estilos para propiedades cualitativas, Linkurious asignará colores a partir de un conjunto de colores generado aleatoriamente (pero cuidadosamente). Este conjunto puede ser modificado en `palette.nodes.qualitative.linkurious_def` (y las relaciones respectivamente).
 
-Be careful to never delete `linkurious_def` or `sequential` because they are used by Linkurious.
+Tenga cuidado de nunca borrar `linkurious_def` o `sequential` porque son utilizadas por Linkurious.
 
-We recommend to pick colors from the [ColorBrewer palette](https://github.com/Linkurious/linkurious.js/blob/develop/plugins/sigma.plugins.colorbrewer/sigma.plugins.colorbrewer.js), which provides highly distinctive sets of colors (see below).
+Nosotros recomendamos escoger colores de [la paleta ColorBrewer](https://github.com/Linkurious/linkurious.js/blob/develop/plugins/sigma.plugins.colorbrewer/sigma.plugins.colorbrewer.js), que proporciona conjuntos de colores altamente distintivos (ver debajo).
 
 ![color-brewer](Color-brewer.png)
 
-You can also generate consistent color scales for qualitative data on http://gka.github.io/palettes/ .
+Usted también puede generar escalas de color consistentes para datos cualitativos en http://gka.github.io/palettes/ .
 
-#### Node icons
+#### Iconos de nodos
 
-Linkurious provides more than 500 icons from the FontAwesome project. You can assign icons using their unicode characters such has "\uf219". Get the complete character map at http://fortawesome.github.io/Font-Awesome/icons/ (select an icon to display the unicode).
+Linkurious proporciona más de 500 iconos del proyecto FontAwesome. Usted puede asignar iconos utilizando sus carácteres unicode tales como "\uf219". Obtenga la lista completa de carácteres en http://fortawesome.github.io/Font-Awesome/icons/ (seleccione un icono para mostrar su carácter unicode).
 
-The following example set icons to node categories "COMPANY", "CITY", "MARKET", "INVESTOR".
+El siguiente ejemplo establece iconos para las categorías de nodo "COMPANY", "CITY", "MARKET" e "INVESTOR".
 
-**Example;**
+**Ejemplo**
 ```json
 "styles": {
   "nodes": {
@@ -124,14 +124,14 @@ The following example set icons to node categories "COMPANY", "CITY", "MARKET", 
 }
 ```
 
-#### Node images
+#### Imágenes de nodos
 
-*This feature is experimental and not yet available from the user interface.*
+*Esta característica es experimental y todavía no está disponible desde la interfaz de usuario.*
 
-Nodes can be filled with an image if one of their property is an URL to an image. Available image formats are PNG, JPG, GIF, or TIFF. The following example set images to node categories "COMPANY", "CITY", "MARKET".
+Los nodos pueden ser representados con una imagen si alguna de sus propiedades contiene la URL a una imagen. Los formatos disponibles son PNG, JPG, GIF o TIFF. El siguiente ejemplo establece imágenes para las categorías de nodo "COMPANY", "CITY" y "MARKET".
 
 
-**Example;**
+**Ejemplo**
 ```json
 "styles": {
   "nodes": {
