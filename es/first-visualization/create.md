@@ -1,29 +1,29 @@
 ##Cree una nueva visualización 
 
-###Desde la barra de Quicksearch 
+###Desde la barra de búsqueda rápida
 
-Podemos comenzar a explorar los datos y tener una rápida mirada en un nodo y sus relaciones por la barra de búsqueda rápida. La barra Quicksearch es accesible directamente del Dashboard. Aquí buscaremos la empresa Instagram.
+Podemos empezar a explorar los datos y echar un rápido vistazo a un nodo y sus relaciones mediante la barra de búsqueda rápida. La barra de búsqueda rápida es accesible directamente desde el panel de control. Desde aquí buscaremos la empresa Instagram.
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/FromQB.png)
+![](FromQB.png)
 
-Se proponen a varios resultados que corresponden en la base de datos, podemos seleccionar el en  que  estamos interesados y se crea una visualización:
+Varios resultados coincidentes de la base de datos son propuestos, podemos seleccionar aquel en el que estemos interesados y se crea una visualización:
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Created_f_D.png)
+![](Created_f_D.png)
 
-###Desde New Visualization
+### Desde nueva visualización
 
-Una alternativa es crear una nueva visualización, hagamos clic en ```New Visualization``` en el Dashboard.
+Una alternativa consiste en crear una nueva visualización, hacemos clic en ```New visualization``` desde el panel de control.
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/FromD.png)
+![](FromD.png)
 
-Podemos ahora buscar para nodos y relaciones
+Ahora podemos buscar nodos y relaciones.
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Find.png)
+![](Find.png)
 
-Por ejemplo, si queremos buscar la empresa Instagram, simplemente escribamos el nombre una propiedad asociada con este nodo. Aquí, escribamos Instagram, que es el nombre de la empresa. Unas sugerencias aparecen conteniendo la palabra ```Instagram``` en una de sus propiedades, nosotros hagamos clic en el en que estamos interesados.
+Por ejemplo, si queremos buscar la empresa Instagram, simplemente escribimos el nombre de cualquier propiedad asociada con el nodo. Aquí, escribimos ```Instagram```, que es el nombre de la empresa. Algunas sugerencias que contienen el nombre Instagram en una de sus propiedades aparecen, hacemos clic en aquel en el que estamos interesados.
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Find_Example.png)
+![](Find_Example.png)
 
 Aquí seleccionamos la empresa Instagram. El nodo aparece en el área del grafo.
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/1st Visualization.png)
+![](1st Visualization.png)
