@@ -1,29 +1,34 @@
-##Inspeccione nodos
-Para ver las diferentes propiedades de un nodo, hagamos clic sobre ello. La Información aparece inmediatamente sobre el lado izquierdo de la pantalla.
+## Inspeccionar nodos
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/PropertiesCircle.png)
+Para visualizar las diferentes propiedades de un nodo, hacemos clic en él. La información aparece inmediatamente en el lado izquierdo de la pantalla.
 
-Aquí podemos ver que hay un nodo con el id ```#3886```. Se llama ```Instagram``` y tiene una categoría ```Company```. Debajo podemos ver varias propiedades asociadas con el nodo.
+![](PropertiesCircle.png)
 
+Aquí podemos ver que hay un nodo con el id ```#3886```. Se llama ```Instagram``` y tiene la categoría ```Company```. Debajo podemos ver varias propiedades asociadas a este nodo.
 
-Por ejemplo el nodo tiene una propiedad ```Country``` con el valor ```USA```.
-Podemos desplazarnos hacia abajo para ver más propiedades o usar la barra de búsqueda para encontrar una propiedad.
+Por ejemplo el nodo tiene una propiedad ```country``` con el valor ```USA```.
 
-Note el número al lado del nodo, esto es el número de relaciones enmostradas.
-Si queremos ocultar el panel izquierdo, simplemente hagamos clic en ```Properties``` (círculo verde).
+Podemos desplazarnos hacia abajo para ver más propiedades o utilizar la barra de búsqueda para encontrar una propiedad.
+
+Preste atención al número junto a cada nodo, es el número de relaciones no mostradas.
+
+Si queremos ocultar el panel izquierdo, simplemente hacemos clic en ```PROPERTIES``` (círculo verde).
+
 Inspeccione relaciones de la misma manera.
 
-##Muestre las conexiones de un nodo
+## Mostrar las conexiones de un nodo
 
-Tiempo para averiguar las relaciones particulares de un nodo. La forma más fácil de conseguir aquella información es de hacer doble clic en el ```nodo``` en el que estamos interesados. Aquí estamos interesados en [Instagram](http://instagram.com/).
+Es momento de averiguar las relaciones de un nodo en particular. La forma más fácil de obtener esta información es hacer doble clic en el ```nodo``` en el que estamos interesados. En este caso estamos interesados en [Instagram](http://instagram.com/).
 
-Ahora podemos ver todos los nodos que son conectados a Instagram.
 
- ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Connections.png)
- 
-¿Nota usted el halo blanco alrededor de cada nodo? Todos nodos rodeados por el halo blanco son conectados al nodo actualmente seleccionado (o nodos seleccionados). En este caso, todos los nodos son conectados a Instagram.
+Ahora podemos ver todos los nodos que están conectados a Instagram.
 
-Los bordes entre los nodos representan las ```relaciones```. Todos los bordes tienen una dirección de un nodo (el nodo donde la base del borde es grande) a otro nodo (extremidad de la flecha).
-Si hagamos clic en una particular relación, las propiedades de aquella relación serán mostradas en el panel izquierdo.
+![](Connections.png)
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Relationship_Properties.png)
+¿Nota usted el halo blanco alrededor de cada nodo? Todos los nodos rodeados por el halo blanco están conectados al nodo actualmente seleccionado (o nodos seleccionados). En este caso, todos los nodos están conectados a Instagram.
+
+Las aristas entre entre los nodos representan las relaciones. Todas las aristas tienen una dirección de un nodo (el que la base de la arista es grande) hacia otro (extremidad de la flecha).
+
+Si hacemos clic en una ```relación```, las propiedades de esta relación serán mostradas en el panel izquierdo.
+
+![](Relationship_Properties.png)
