@@ -3,7 +3,7 @@ Manual de Linkurious Enterprise
 
 Este el el manual de usuario de Linkurious Enterprise.
 
-Los primeros dos capítulos titulados **Introducción** y **Construyendo to primera visualización de un grafo** te enseñarán lo básico para utilizar Linkurious.
+Los primeros dos capítulos titulados **Introducción** y **Construye tu primera visualización** te enseñarán lo básico para utilizar Linkurious.
 
 Los siguientes capítulos están divididos en temas. Estos temas repasan las características de Linkurious y explican como aplicarlas para visualizar grafos con éxito. Puede utilizarse como un manual o como un libro básico sobre visualización de grafos.
 
