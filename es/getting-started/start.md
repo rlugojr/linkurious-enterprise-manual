@@ -1,12 +1,12 @@
-## Start
+## Iniciar
 
-Before running Linkurious, please launch your Neo4j server and setup your credential first. Neo4j 2.2 introduces basic authentication by default, see the Configure section to learn more.
+Antes de iniciar Linkurious, por favor arranque su servidor Neo4j y configure sus credenciales primero. Neo4j 2.2 introduce autenticación básica por defecto, consulte la sección de Configuración para más detalle.
 
-### Run on Linux systems
+### Ejecutar en sistemas Linux
 
-Start Linkurious: run `start.sh`. Alternately, run `menu.sh` and select `Start Linkurious processes` from the console.
+Iniciar Linkurious: ejecute `start.sh`. Alternativamente, ejecute `menu.sh` y seleccione `Start Linkurious processes` desde la consola.
 
-**Example output:**
+**Resultado de ejemplo:**
 ```Text
 info: Loaded configuration from file (production)
 [PM2] Spawning PM2 daemon
@@ -30,15 +30,15 @@ info: Status [DataService] 201 : A data-source is currently indexing.
 Linkurious is ready at URL: http://127.0.0.1:3000/
 ```
 
-As you can notice, the Linkurious server is available by default on port 3000. However, some firewalls block network traffic ports other than 80 (HTTP). See the Configure section to listen traffic on port 80.
+Como usted puede ver, el servidor Linkurious está disponible por defecto en el puerto 3000. Sin embargo, algunos cortafuegos bloquean tráfico de red en puertos diferentes al 80 (HTTP). Consulte la sección de Configuración para aceptar tráfico en el puerto 80.
 
 
-### Run on MAC OS X
+### Ejecutar en MAC OS X
 
 
-Start Linkurious: run `start.sh.command`. Alternately, run `menu.sh.command` and select `Start Linkurious processes` from the console.
+Iniciar Linkurious: ejecute `start.sh.command`. Alternativamente, ejecute `menu.sh.command` y seleccione `Start Linkurious processes` desde la consola.
 
-**Example output:** 
+**Resultado de ejemplo:** 
 ```Text
 info: Loaded configuration from file (production)
 [PM2] Spawning PM2 daemon
@@ -63,25 +63,25 @@ Linkurious is ready at URL: http://127.0.0.1:3000/
 ```
 
 
-### Run on Windows
+### Ejecutar en Windows
 
-First of all, in order to use Linkurious you need to [launch Neo4j](http://neo4j.com/download/).
+Antes de nada, para utilizar Linkurious usted necesita [arrancar Neo4j](http://neo4j.com/download/).
 
 
-![launching neo4j](Launching-neo4j.png)
+![arrancando neo4j](Launching-neo4j.png)
 
-Once the Neo4j server has successfully started, go to the folder of Linkurious.
+Una vez que el servidor de Neo4j haya arrancado correctamente, acceda al directorio de Linkurious.
 
-![folder](Folder.png)
+![directorio](Folder.png)
 
-Click on the `start.bat` file. Linkurious starts and invites you to open up your browser to http://localhost:3000 to access the user interface. Alternately, click on `menu.bat` and select `Start Linkurious processes` from the console.
+Haga clic en el archivo `start.bat`. Linkurious inicia y le invita a abrir su navegador web en http://localhost:3000 para acceder a la interfaz de usuario. Alternativamente, haga clic en `menu.bat` y seleccione `Start Linkurious processes` desde la consola.
 
-![linkurious enterprise startup](Startup.png)
+![inicio de linkurious enterprise](Startup.png)
 
 <div class="alert alert-warning">
-    <i class="octicon octicon-stop"></i> The firewall of Windows might ask you to authorize connections with Linkurious: if so, click on Authorize access.
+    <i class="octicon octicon-stop"></i> El cortafuegos de Windows podría pedirle autorizar conexiones con Linkurious: si es así, haga clic en Autorizar acceso.
 </div>
 
-Linkurious will index the graph database the first time you launch it. You can follow the indexing progress in the terminal. Once done you can use Linkurious!
+Linkurious indexará la base de datos de grafos la primera vez que lo inicie. Usted puede seguir el proceso de indexación en la terminal. Una vez haya terminado ¡usted puede utilizar Linkurious!
 
 
