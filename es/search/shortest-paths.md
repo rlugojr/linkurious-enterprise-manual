@@ -1,21 +1,21 @@
-## Search for a shortest path
+## Encontrar caminos más cortos
 
-Linkurious Enterprise provides an option to find the shortest past between two nodes in our graph.
-Here, we will be looking for the connections between the companies Facebook and LinkedIn.
+Linkurious Enterprise proporciona una opción para encontrar el camino más corto entro dos nodos de nuestro grafo.
+Aquí, buscaremos las conexiones entre las empresas Facebook y LinedIn.
 
-We start with 2 seemingly disconnected nodes, ```Facebook``` and ```LinkedIn``` that are in our visualization.
+Empezaremos con 2 nodos aparentemente desconectados, ```Facebook``` y ```LinkedIn``` que están en nuestra visualización.
 
-![](LI_FB.png)
+![](../../en/search/LI_FB.png)
 
-We select the ```Finder```. Next we choose ```Path```. 
-Now we choose the ```starting node``` (LinkedIn) and the ```destination```(Facebook).
-
-
-We click on ```Find shortest path```. The results are now displayed.
-
-![](Shortest.png)
-
-We can choose ```Add all``` to view all the results or choose our preferred path by clicking on it. Our choice is added to the visualization.
+Seleccionamos ```Find```. Después escogemos ```Paths```. 
+Ahora escogemos el nodo origen (```starting node```, LinkedIn) y el nodo destino (```destination```, Facebook).
 
 
-![](AllLinks.png)
+Hacemos clic en ```Find shortest paths``` (encontrar caminos más cortos). Los resultados se muestran a continuación.
+
+![](../../en/search/Shortest.png)
+
+Podemos escoger ```Add all``` (añadir todos) para visualizar todos los resultados o escoger nuestro camino preferido haciendo clic en él. Nuestra elección es añadida a la visualización.
+
+
+![](../../en/search/AllLinks.png)
