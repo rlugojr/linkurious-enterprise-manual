@@ -6,7 +6,7 @@ The first possibility is to use the Quick Search bar from the Dashboard, where w
 
 ![](QuickS_Nodes.png)
 
-The second possibility is to use the search bar in the Workspace once we have created a New Visualization 
+The second possibility is to use the search bar in the Workspace once we have created a New Visualization.
 
 
 ![](Find.png)
