@@ -7,11 +7,11 @@ We start with 2 seemingly disconnected nodes, ```Facebook``` and ```LinkedIn``` 
 
 ![](LI_FB.png)
 
-We select the ```Finder```. Next we choose ```Path```. 
+We select ```Find```. Next we choose ```Paths```. 
 Now we choose the ```starting node``` (LinkedIn) and the ```destination```(Facebook).
 
 
-We click on ```Find shortest path```. The results are now displayed.
+We click on ```Find shortest paths```. The results are now displayed.
 
 ![](Shortest.png)
 
