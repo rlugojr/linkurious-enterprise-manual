@@ -1,6 +1,6 @@
-# Search
+# Búsqueda
 
-In this chapter, we will learn how to search nodes and edges with Linkurious Enterprise.
+En este capítulo aprenderemos cómo buscar nodos y relaciones con Linkurious Enterprise.
 
-We will first look at how to search nodes and edges then we will be looking at different advanced search options Linkurious Enterprise provides.
+Primero nos centraremos en cómo buscar nodos y relaciones y después veremos diferentes opciones avanzadas de búsqueda que Linkurious Enterprise ofrece.
 
