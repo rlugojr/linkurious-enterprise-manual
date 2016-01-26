@@ -1,8 +1,10 @@
-## Search relationships
+## Rechercher des relations
 
-We may have millions of relationships in our graph. What if we want to look at a specific relationship? 
+Nous avons des millions de relations dans notre graph. Comment faire si nous souhaitons nous intéresser à une relation particulière?
 
-The first possibility is to use the Quick Search bar available on the Dashboard, where we can either choose to look at nodes or edges (green circle). Here we look at edges:
+La première possibilité est d'utiliser la barre de recherche rapide disponible sur le tableau de bord (Dashboard). Nous pouvons alors choisir de rechercher des noeuds ou des relations (cercle vert). Ici nous nous intéresserons aux relations.
+
+
 
 ![](QS.png)
 
