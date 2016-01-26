@@ -2,11 +2,11 @@
 
 Nous avons des millions de relations dans notre graph. Comment faire si nous souhaitons nous intéresser à une relation particulière?
 
-La première possibilité est d'utiliser la barre de recherche rapide disponible sur le tableau de bord (Dashboard). Nous pouvons alors choisir de rechercher des noeuds ou des relations (cercle vert). Ici nous nous intéresserons aux relations.
+La première possibilité est d'utiliser la barre de recherche rapide disponible sur le tableau de bord (Dashboard). Nous pouvons alors choisir de rechercher des noeuds ou des relations (encadré rouge). Ici nous nous intéresserons aux relations.
 
 
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/QS.png)
 
-![](QS.png)
 
 The second possibility is to use the search bar in the Linkurious Enterprise interface once we have created a New Visualization 
 
