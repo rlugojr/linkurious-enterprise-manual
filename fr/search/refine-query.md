@@ -1,36 +1,39 @@
-## Advanced search
+## Recherche avancée
 
-You are looking for a specific node or relationship and the search bar gives you too many results? The text you are searching is too common! 
-You may want to narrow you search by searching on multiple properties.
+Vous êtes à la recherche d'un noeud ou d'une relation spécifique et la barre de recherche vous donne trop de résultats? Le texte que vous recherchez est trop commun! Vous souhaiteriez peut-être affiner votre recherche en cherchant à l'aide de plusieurs propriétés?
 
-Searching a startup that has the text ```facebook``` on any of his properties gives us 88 matches. Let's try to narrow it down.
+Si l'on recherche une Startup qui a le texte ```facebook``` dans une de ses propriétésn, nous obtenons 88 résultats. Essayons d'affiner notre recherche.
 
-![](Facebook_Example.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Facebook_Example.png)
 
-We click on the  ```Advanced``` icon, a new menu appears:
 
-![](Advanced_Search.png)
+Nous cliquons sur l'icône ```Advanced```, un nouveau menu apparaît: 
 
-We can see the name of the different categories (city, company, investor and market) in our database and their occurences.
-We hit ```Options``` to see the name of the different properties in our graph.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Advanced Search.png)
 
-In our graph, Facebook is categorized as a ```Company```. We are going to select ```Company``` to restrict our search to the nodes to the companies.
+Nous pouvons voir le nom de différentes catégories (city, company, investor and market) dans notre base de données et nos occurences.
 
-We can now see the different results.
+Nous cliquons sur ```Options``` pour voir le nom des différentes propriétés de notre graphe.
+
+Dans notre graphe, Facebook est catégorisé comme une ```Compagnie```. Nous allons sélectionner ```Company``` pour restreindre notre recherche aux noeuds de compagnies. 
+
+Nous pouvons voir les différents résultats.
+
 
 ![the company label](https://dl.dropboxusercontent.com/s/wtkhoy7drk1y7ri/72.png?dl=0)
 
-In our graph, a ```Company``` can have properties like  ```category ```,  ```country```, ```first_funding_at ``` or ```founded_at``` and more. Not all the nodes categorised as a Company will have **all** the properties though.
+Dans notre graphe, une ```Compagnie``` peut avoir des proprités telles que ```category ```,  ```country```, ```first_funding_at ``` or ```founded_at``` et plus encore. Tous les noeuds catégorisés comme Compagnie ne vont cependant pas avoir toutes ces propriétés. 
 
-In order to narrow down our results, we are going to search on multiple properties at once. To find Facebook, we are going to look for a company that uses facebook.com as its homepage url.
+Afin d'affiner nos résultats de recherche, nous allons rechercher plusieurs propriétés à la fois. Pour trouver Facebook, nous allons rechercher une compagnie qui utilise Facebook comme url de site internet.
 
-![](MProperties.png)
+[](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/MProperties.png)
 
-Now when we type ``facebook``, the results are filtered to show only the nodes that have the category ```Company``` and the value ``facebook.com`` for the property ```homepage_url```.
+Maintenant si nous tapons ``facebook``, les résultats seront filtrés de manière à n'afficher que les noeuds ayant pour catégorie ```Company``` et la valeur ``facebook.com`` pour la propriété ```homepage_url```.
 
 
-We can see that the results are now filtered. We can now select the result we are interested in.
+Nous pouvons voir les résultats filtrés et choisir celui qui nous intéresse.
 
-The same approach can be applied to the search of edges.
+La même approche peut-être utilisé pour la recherche de relations.
 
-> Linkurious Enterprise will look for **exact** matches for the values you enter in the search options menu.
+
+> Linkurious Enterprise recherchera une correspondance **exacte** pour la valeur que vous entrez dans le menu d'options de recherche. 
