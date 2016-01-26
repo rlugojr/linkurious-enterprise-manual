@@ -14,7 +14,7 @@
    * [Créer une nouvelle visualisation](first-visualization/create.md)
    * [Inspection des données](first-visualization/inspect.md)
 * [Recherche](search/README.md)
-   * [Search nodes](search/nodes.md)
+   * [Rechercher des noeuds](search/nodes.md)
    * [Search edges](search/edges.md)
    * [Advanced search](search/refine-query.md)
    * [Advanced syntax](search/syntax.md)
