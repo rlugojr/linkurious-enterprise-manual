@@ -17,7 +17,7 @@
    * [Rechercher des noeuds](search/nodes.md)
    * [Rechercher des relations](search/edges.md)
    * [Recherche Avancée](search/refine-query.md)
-   * [Advanced syntax](search/syntax.md)
+   * [Syntaxe avancée](search/syntax.md)
    * [Find shortest paths](search/shortest-paths.md)
 * [Manipulate](manipulate/README.md)
    * [Nodes and edges in a graph](manipulate/Nodes_and_edges_in_a_graph.md)
