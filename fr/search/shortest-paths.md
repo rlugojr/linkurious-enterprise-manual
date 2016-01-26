@@ -1,9 +1,8 @@
-## Search for a shortest path
+## Recherche de raccourcis
 
-Linkurious Enterprise provides an option to find the shortest past between two nodes in our graph.
-Here, we will be looking for the connections between the companies Facebook and LinkedIn.
+Linkurious Enterprise fournit une option pour trouver le plus court chemin entre deux noeuds dans votre graphe. 
 
-We start with 2 seemingly disconnected nodes, ```Facebook``` and ```LinkedIn``` that are in our visualization.
+Nous commençons avec deux noeuds apparemment non connectés dans notre visualisation, ```Facebook``` et ```LinkedIn```.
 
 ![](LI_FB.png)
 
