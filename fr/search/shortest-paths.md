@@ -1,20 +1,19 @@
-## Recherche de raccourcis
+## Recherche du plus court chemin
 
 Linkurious Enterprise fournit une option pour trouver le plus court chemin entre deux noeuds dans votre graphe. 
 
 Nous commençons avec deux noeuds apparemment non connectés dans notre visualisation, ```Facebook``` et ```LinkedIn```.
 
-![](LI_FB.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/LI_FB.png)
 
-We select the ```Finder```. Next we choose ```Path```. 
-Now we choose the ```starting node``` (LinkedIn) and the ```destination```(Facebook).
+Nous sélectionnons le ```Finder```. Puis nous choisissons ```Path```. 
+Maintenant nous choisissons le ```noeud de départ (starting node)``` (LinkedIn) et la ```destination```(Facebook).
 
+Nous cliquons sur ```Find shortest path```. Les résultats apparaissent.
 
-We click on ```Find shortest path```. The results are now displayed.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Shortest.png)
 
-![](Shortest.png)
+Nous pouvons choisir ```Add all``` afin de voir tous les résultas ou choisir notre chemin préféré en cliquant dessus. Notre choix est ajouté à la visualisation. 
 
-We can choose ```Add all``` to view all the results or choose our preferred path by clicking on it. Our choice is added to the visualization.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/AllLinks.png)
 
-
-![](AllLinks.png)
