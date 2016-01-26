@@ -13,7 +13,7 @@
    * [A première vue](first-visualization/at-first-glance.md)
    * [Créer une nouvelle visualisation](first-visualization/create.md)
    * [Inspection des données](first-visualization/inspect.md)
-* [Search](search/README.md)
+* [Recherche](search/README.md)
    * [Search nodes](search/nodes.md)
    * [Search edges](search/edges.md)
    * [Advanced search](search/refine-query.md)
