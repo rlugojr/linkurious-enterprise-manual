@@ -1,4 +1,6 @@
-## Search nodes
+## Recherche de noeuds
+
+Nous pouvons avoir un million de noeuds dans notre graphe. 
 
 We may have millions of nodes in our graph. What if we want to look at a specific node?
 
