@@ -1,28 +1,28 @@
-## Search relationships
+## Buscar relaciones
 
-We may have millions of relationships in our graph. What if we want to look at a specific relationship? 
+Podríamos tener millones de relaciones en nuestro grafo. ¿Qué ocurre si queremos mirar una relación en particular?
 
-The first possibility is to use the Quick Search bar available on the Dashboard, where we can either choose to look at nodes or edges (green circle). Here we look at edges:
+La primera posibilidad es utilizar la barra de búsqueda rápida desde el panel de control, donde podemos escoger buscar nodos o relaciones (rectángulo rojo). En este caso buscamos relaciones:
 
-![](QS.png)
+![](../../en/search/QS.png)
 
-The second possibility is to use the search bar in the Linkurious Enterprise interface once we have created a New Visualization 
+La segunda posibilidad es utilizar la barra de búsqueda en el espacio de trabajo una vez que hayamos creado una nueva visualización.
 
-![](New visualization.png)
+![](../../en/search/New visualization.png)
 
-By default the finder opens on finding nodes. To search an edge, we click on the ```Edges``` tab.
+Por defecto el buscador inicialmente busca nodos. Para buscar una relación, hacemos click en la pestaña ```Edges``` (relaciones).
 
-![](Find_Edges.png)
+![](../../en/search/Find_Edges.png)
 
-The search for edges works exactly like the search for nodes.
+La búsqueda de relaciones funciona de la misma forma que la búsqueda de nodos.
 
-We simply type what we are looking for. We see the list of suggestions that match our search.
+Simplemente escribimos lo que queremos buscar y vemos la lista de sugerencias que coinciden con nuestra búsqueda.
 
-![](Edge 1925000.png)
+![](../../en/search/Edge 1925000.png)
 
-In the search result, we can see that there is a relationship that has the value ```1925000``` for the property ```raised_amount_usd```.
+En los resultados de búsqueda, podemos ver que hay una relación que tiene el valor ```1925000``` en la propiedad ```raised_amount_usd``` (cantidad de dólares recaudada).
 
-We choose the result we are interested in by clicking on it. It is immediately added to the canvas where we can visualize it.
+Hacemos clic en el resultado que elijamos, y será añadido al área de trabajo. Ahora podemos visualizarlo.
 
 
-![](Example_Edge.png)
+![](../../en/search/Example_Edge.png)
