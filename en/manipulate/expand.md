@@ -4,20 +4,20 @@ Expanding nodes means displaying the nodes that are connected to one node or to 
 
 We can expand nodes in different ways:
 
-* double-click on a node in the view
+* double-click on a node in the view.
 * select one or multiple nodes, then click on the ```Expand``` button of the left panel.
 * right-click on a node in the view, then click on the ```Expand``` button of the tooltip.
 
 ![](Option.png)
 
 
-The ```Expand``` button on the left panel display the list of available relationship types and neighbor categories. We can choose to get everything or to filter the retrieved relationships and neighbors.
+The ```Expand``` button on the left panel displays the list of available relationship types and neighbor categories. We can choose to get everything or to filter the retrieved relationships and neighbors.
 
 ![](Propositions.png)
 
 If the expanded nodes have too many neighbors, it may however lead to unreadable visualization.
 
-Linkurious prevents us to add to many neighbors at once by asking to filter the retrieved neighborhood. A safeguard popup will appear, providing options to select a specific relationship type and neighbor category, to pick the most or least connected neighbors, and to change the maximal number of retrieved neighbors. We may bypass this limit manually.
+Linkurious prevents us from adding too many neighbors at once by asking to filter the retrieved neighborhood. A safeguard popup will appear, providing options to select a specific relationship type and neighbor category, to pick the most or least connected neighbors, and to change the maximal number of retrieved neighbors. We may bypass this limit manually.
 
 ![](TooMany.png)
 
