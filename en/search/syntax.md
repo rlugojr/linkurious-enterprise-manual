@@ -41,7 +41,10 @@ Ranges with one side unbounded can use the following syntax:* age:>10 * age:>=10
 
 By default, all terms are optional, as long as one term matches. A search for ```foo bar baz``` will find any document that contains one or more of ```foo``` or ```bar``` or ```baz```. We have already discussed the default_operator above which allows you to force all terms to be required, but there are also boolean operators which can be used in the query string itself to provide more control.
 
-The preferred operators are ```+``` (this term must be present) and ```-``` (this term must not be present). All other terms are optional. For example, the query ```quick brown +fox -news``` states that: * "fox" must be present * "news" must not be present * "quick" and "brown" are optional — their presence increases the relevance.
+The preferred operators are ```+``` (this term must be present) and ```-``` (this term must not be present). All other terms are optional. For example, the query ```quick brown +fox -news``` states that: 
+* "fox" must be present 
+* "news" must not be present 
+* "quick" and "brown" are optional — their presence increases the relevance.
 
 ### Boosting
 
