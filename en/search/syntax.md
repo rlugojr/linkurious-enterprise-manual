@@ -10,7 +10,7 @@ Where the "status" field contains "active": ```status:active```
 
 Where the "title" field contains "quick" or "brown" (If you omit the OR operator the default operator will be used): ```title:(quick OR brown), title:(quick brown)```
 
-where the "author" field contains the exact phrase "john smith": author:```"John Smith"```
+where the "author" field contains the exact phrase "john smith": ```author:"John Smith"```
 
 Where any of the fields "book.title", "book.content" or "book.date" contains "quick" or "brown" (note how we need to escape the \* with a backslash): ```book.\*:(quick brown)```
 
