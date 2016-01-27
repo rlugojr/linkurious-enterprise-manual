@@ -1,26 +1,25 @@
-## Expand nodes
+## Expandir nodes
 
-Expanding nodes means displaying the nodes that are connected to one node or to a group of nodes.
+Expandir nodos significa mostrar los nodos que estén conectados a un nodo o grupo de nodos.
 
-We can expand nodes in different ways:
+Podemos expandir nodos de formas diferentes:
 
-* double-click on a node in the view
-* select one or multiple nodes, then click on the ```Expand``` button of the left panel.
-* right-click on a node in the view, then click on the ```Expand``` button of the tooltip.
+* Doble clic en un nodo de la vista.
+* Seleccionar uno o más nodos, luego hacer clic en el botón ```Expand``` del panel izquierdo.
+* Clic derecho en un nodo de la vista, luego clic en el botón ```Expand``` del menú contextual.
 
-![](Option.png)
+![](../../en/manipulate/Option.png)
 
+El botón ```Expand``` del panel izquierdo muestra la lista de tipos de relaciones y categorías de nodos vecinos disponibles. Podemos elegir obtener todos o filtrar las relaciones y vecinos devueltos.
 
-The ```Expand``` button on the left panel display the list of available relationship types and neighbor categories. We can choose to get everything or to filter the retrieved relationships and neighbors.
+![](../../en/manipulate/Propositions.png)
 
-![](Propositions.png)
+Si los nodos expandidos tienen demasiados vecinos, podría llevar a una visualización ilegible.
 
-If the expanded nodes have too many neighbors, it may however lead to unreadable visualization.
+Linkurious previene que añadamos demasiados vecinos a la vez pidiendo filtrar los vecinos obtenidos. Un diálogo aparecerá, que ofrece opciones para seleccionar un tipo de relación específica y categoría de vecinos, escoger los vecinos más o conectados o menos conectados y cambiar el número máximo de vecinos obtenidos. Podemos saltarnos este límite manualmente.
 
-Linkurious prevents us to add to many neighbors at once by asking to filter the retrieved neighborhood. A safeguard popup will appear, providing options to select a specific relationship type and neighbor category, to pick the most or least connected neighbors, and to change the maximal number of retrieved neighbors. We may bypass this limit manually.
+![](../../en/manipulate/TooMany.png)
 
-![](TooMany.png)
+> Es tentador añadir siempre más nodos y relaciones a su visualización. Pero tenga en cuenta que si no es cuidadoso podría terminar con demasiados nodos en su pantalla... y una visualización inservible.
 
-> It is tempting to always add more nodes and edges to your visualization. Beware though, if you are not careful you may end up with too many nodes on your screen... and a worthless visualization.
-
-> In order to avoid that, remember to always think twice before adding more information to your visualization. The filters and the hide functionality are here to help!
+> Para evitar esto, siempre recuerde pensarlo dos veces antes de añadir más información a su visualización. ¡Los filtros y la funcionalidad de ocultar están para ayudar!
