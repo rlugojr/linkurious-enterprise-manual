@@ -1,13 +1,13 @@
-## Using The Lasso
+## Utilizando el lazo
 
-It is possible to select the nodes within a particular area of your visualization. For that, Linkurious Enterprise provides a lasso.
+Es posible seleccionar los lodos en un área particular de su visualización. Para ello, Linkurious Enterprise proporciona un lazo.
 
-To do it, choose ```Select``` in the information panel on the left. 
-Select ```Toggle lasso```.
-Move the lasso around the nodes you are interested in selecting to select them.
+Para hacerlo, escoja ```Select``` (seleccionar) en el panel de información de la izquierda. 
+Seleccione ```Toggle lasso``` (activar/desactivar lazo).
+Mueva el lazo alrededor de los nodos que le interesen para seleccionarlos.
 
-![](Lasso.png)
+![](../../en/manipulate/Lasso.png)
 
-Release the mouse when you are finished and your selection is activated.
+Suelte el ratón cuando haya acabado y su selección se activará.
 
-![](LassoResult.png)
+![](../../en/manipulate/LassoResult.png)
