@@ -1,17 +1,17 @@
-# List of nodes and edges in the graph
+# Lista de nodos y relaciones en el grafo
 
-When we are working on a visualization, all the nodes and edges present in our graph are listed on the left panel of the Workspace:
+Cuando estamos trabajando en una visualización, todos los nodos y relaciones presentes en nuestro grafo están listadas en el panel izquierdo del espacio de trabajo:
 
-![](View.png)
+![](../../en/manipulate/View.png)
 
-We can then explore either the nodes or the edges of our graph going through the ```list```:
+Podemos entonces explorar los nodos o relaciones del grafo recorriendo la ```lista```:
 
-![](ListofNodes.png)
+![](../../en/manipulate/ListofNodes.png)
 
-If we click on a node or a edge of the list, the camera will focus on it.
-It is also possible to filter the results by category by clicking on the category we are interested in next to the name of the node or the edge.
-We can also look for a particular node or edge by using the Finding bar:
+Si hacemos clic en un nodo o relación de la lista, la cámara se enfocará en él.
+También es posible filtrar los resultados por categoría haciendo clic en la categorías que nos interese junto al nombre del nodo o relación.
+Además podemos buscar un nodo relación en particular utilizando la barra de búsqueda:
 
-![](Focus.png)
+![](../../en/manipulate/Focus.png)
 
-Here we filter the list by the category ```Investor```, then we click on the node ```Adam D'Angelo```. The camera centers on this node.
+En este caso filtramos la lista a la categoría ```Investor``` (inversor), después hacemos clic en el nodo ```Adam D'Angelo```. La cámara se centra en este nodo.
