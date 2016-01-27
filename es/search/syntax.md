@@ -1,58 +1,64 @@
-## The advanced search syntax
+## La sintaxis de búsqueda avanzada
 
-Linkurious Enterprise uses Elastic. You can thus use the Elastic syntax detailed in the [Elastic query_string documentation](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax).
+Linkurious Enterprise utiliza Elastic. Por tanto usted puede utilizar la sintaxis de Elastic detallada en la [documentación de la cadena de búsqueda de Elastic](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax).
 
-Symply type the following commands in the Linkurious Enterprise search bar.
+Simplemente escriba los siguientes comandos en la barra de búsqueda de Linkurious Enterprise search.
 
-### Field name
+### Nombre del campo
 
-Where the "status" field contains "active": ```status:active```
+Donde el campo "status" contenga "active": ```status:active```
 
-Where the "title" field contains "quick" or "brown" (If you omit the OR operator the default operator will be used): ```title:(quick OR brown), title:(quick brown)```
+Donde el campo "title" contenga "quick" o "brown" (si usted omite el operador OR el operador por defecto será utilizado): ```title:(quick OR brown), title:(quick brown)```
 
-where the "author" field contains the exact phrase "john smith": author:```"John Smith"```
+Donde el campo "author" contenga la frase exacta "john smith": ```author:"John Smith"```
 
-Where any of the fields "book.title", "book.content" or "book.date" contains "quick" or "brown" (note how we need to escape the \* with a backslash): ```book.\*:(quick brown)```
+Donde cualquiera de los campos "book.title", "book.content" o "book.date" contenga "quick" o "brown" (preste atención a como necesitamos escapar el \* con una barra invertida): ```book.\*:(quick brown)```
 
-Where the field "title" has no value (or is missing): ```_missing_:title```
+Donde el campo "title" no tenga valor (o no exista): ```_missing_:title```
 
-Where the field "title" has any non-null value: ```_exists_:title```
+Donde el campo "title" tenga cualquier valor no nulo: ```_exists_:title```
 
-### Ranges
+### Rangos
 
-Ranges can be specified for date, numeric or string fields. Inclusive ranges are specified with square brackets [min TO max] and exclusive ranges with curly brackets {min TO max}.
+Los rangos pueden especificarse en campos de tipo fecha, numéricos o cadenas de texto. Los rangos inclusivos se indican con corchetes [mín. TO máx.] y los rangos excluyentes con llaves {mín. TO máx.}.
 
-Where the "date" fields has a values in 2012: ```date:[2012-01-01 TO 2012-12-31]```
+Donde el campo "date" tenga valores incluidos en 2012: ```date:[2012-01-01 TO 2012-12-31]```
 
+Donde el campo "count" tenga un número entre 1 y 5: ```count:[1 TO 5]```
 
-Where the "count" field in a number between 1 and 5: ```count:[1 TO 5]```
+Donde el campo "count" sea mayor o igual que 10: ```count:[10 TO *]```
 
-Where the "count" field in greater than 10: ```count:[10 TO *]```
+Donde el campo "date" tenga un valor anterior a 2012: ```date:{* TO 2012-01-01}```
 
-Where the "date" field has a value before 2012: ```date:{* TO 2012-01-01}```
-
-Where the "count" field has a value from 1 up to but not including 5: ```
+Donde el campo  "count" tenga un valor de 1 a 5 pero sin incluirlo: ```
 count:[1..5}```
 
-Ranges with one side unbounded can use the following syntax:* age:>10 * age:>=10 * age:<10 * age:<=10
+Los rangos con un extremo sin especificar también pueden indicarse con la siguiente sintaxis:
+* age:>10 
+* age:>=10 
+* age:<10 
+* age:<=10
 
 
-### Boolean operators
+### Operadores booleanos
 
-By default, all terms are optional, as long as one term matches. A search for ```foo bar baz``` will find any document that contains one or more of ```foo``` or ```bar``` or ```baz```. We have already discussed the default_operator above which allows you to force all terms to be required, but there are also boolean operators which can be used in the query string itself to provide more control.
+Por defecto, todos los términos de búsqueda son opcionales, siempre que alguno de ellos coincida. Buscar ```foo bar baz``` encontrará cualquier documento que contenga uno  o más de los valores ```foo```, ```bar``` o ```baz```. Ya hemos explicado el operador por defecto anteriormente, que le permite forzar que todos los términos sean requeridos, pero también existen operadores booleanos que pueden ser utilizados en la cadena de búsqueda para proporcionar más control.
 
-The preferred operators are ```+``` (this term must be present) and ```-``` (this term must not be present). All other terms are optional. For example, the query ```quick brown +fox -news``` states that: * "fox" must be present * "news" must not be present * "quick" and "brown" are optional — their presence increases the relevance.
+Los operadores preferidos son ```+``` (este término debe estar presente) y ```-``` (este término no puede estar presente). Todos los demás términos son opcionales. Por ejemplo, la búsqueda ```quick brown +fox -news``` indica que: 
+* "fox" debe estar presente 
+* "news" no puede estar presente 
+* "quick" y "brown" son opcionales (su presencia incrementa la relevancia)
 
-### Boosting
+### Impulso
 
-Use the boost operator ```^``` to make one term more relevant than another. For instance, if we want to find all documents about foxes, but we are especially interested in quick foxes: ```quick^2 fox```
+Utilice el operador de impulso ```^``` para hacer un término más relevante que otro. Por ejemplo, si queremos encontrar todos los documentos sobre zorros (foxes), pero estamos especialmente interesados en zorros rápidos (quick): ```quick^2 fox```
 
-The default boost value is 1, but can be any positive floating point number. Boosts between 0 and 1 reduce relevance.
+El impulso por defecto es 1, pero puede ser cualquier número real positivo. Un impulso entre 0 y 1 reduce la relevancia.
 
-Boosts can also be applied to phrases or to groups: ```"john smith"^2 (foo bar)^4```
+Los impulsos también pueden aplicarse a frases o grupos: ```"john smith"^2 (foo bar)^4```
 
-### Grouping
+### Agrupación
 
-Multiple terms or clauses can be grouped together with parentheses, to form sub-queries: ```(quick OR brown) AND fox```
+Múltiples términos y condiciones pueden agruparse con paréntesis, para formar sub-consultas: ```(quick OR brown) AND fox```
 
-Groups can be used to target a particular field, or to boost the result of a sub-query: ```status:(active OR pending) title:(full text search)^2```
+Los grupos pueden ser utilizados para afectar un campo en particular, o impulsar el resultado de una sub-consulta: ```status:(active OR pending) title:(full text search)^2```
