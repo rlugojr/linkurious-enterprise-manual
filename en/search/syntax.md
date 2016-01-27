@@ -34,7 +34,11 @@ Where the "date" field has a value before 2012: ```date:{* TO 2012-01-01}```
 Where the "count" field has a value from 1 up to but not including 5: ```
 count:[1..5}```
 
-Ranges with one side unbounded can use the following syntax:* age:>10 * age:>=10 * age:<10 * age:<=10
+Ranges with one side unbounded can use the following syntax:
+* age:>10 
+* age:>=10 
+* age:<10 
+* age:<=10
 
 
 ### Boolean operators
