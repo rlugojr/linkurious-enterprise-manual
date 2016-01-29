@@ -25,7 +25,7 @@
    * [Réduire les noeuds](manipulate/collapse.md)
    * [Sélection de noeuds et relations](manipulate/select.md)
    * [Lasso](manipulate/lasso.md)
-   * [Hide](manipulate/hide.md)
+   * [Cacher](manipulate/hide.md)
    * [Layouts](manipulate/layouts.md)
    * [Shortcuts](manipulate/shortcuts.md)
 * [Style](style/README.md)
