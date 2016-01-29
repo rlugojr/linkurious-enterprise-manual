@@ -27,7 +27,7 @@
    * [Lasso](manipulate/lasso.md)
    * [Cacher](manipulate/hide.md)
    * [Agencements](manipulate/layouts.md)
-   * [Shortcuts](manipulate/shortcuts.md)
+   * [Raccourcis](manipulate/shortcuts.md)
 * [Style](style/README.md)
    * [Captions](style/captions.md)
    * [Tooltips](style/tooltip.md)
