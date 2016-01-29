@@ -18,5 +18,5 @@ Vous avez maintenant plusieurs options:
 * ```Select all edges```
 * ```Inverse selection``` : inverser la sélection actuelle.
 
-Des raccourcis sont également disponible pour ces actions. Ces raccourcis sont présentés dans la section: 
+Des raccourcis sont également disponibles pour ces actions. Ces raccourcis sont présentés dans la section: 
  ```Manipulate > Shortcuts```.
