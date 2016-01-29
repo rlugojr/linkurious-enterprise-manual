@@ -6,7 +6,7 @@ For example, in the picture above I have selected three nodes. I simply have to 
 
 ![](toHide.png)
 
-My two nodes are now removed from the visualization.
+My three nodes are now removed from the visualization.
 
 
 ![](Hidden.png)
