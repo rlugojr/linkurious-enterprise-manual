@@ -23,7 +23,7 @@
    * [Noeuds et relations d'un graphe](manipulate/Nodes_and_edges_in_a_graph.md)
    * [Développer les noeuds](manipulate/expand.md)
    * [Réduire les noeuds](manipulate/collapse.md)
-   * [Select nodes and edges](manipulate/select.md)
+   * [Sélection de noeuds et relations](manipulate/select.md)
    * [Lasso](manipulate/lasso.md)
    * [Hide](manipulate/hide.md)
    * [Layouts](manipulate/layouts.md)
