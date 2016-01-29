@@ -1,8 +1,10 @@
-## Layouts
+## Agencements
 
-### Visualization controls
+### Commandes de visualisation
 
-On the Workspace, various controls are available on the right-bottom of the screen: 
+Dans l'espace de travail, plusieurs commandes sont disponibles sur le boutton en bas à droite de l'écran; 
+
+
 
 ![](Menu.png)
 
