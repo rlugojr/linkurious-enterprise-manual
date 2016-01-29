@@ -1,55 +1,54 @@
-## The different shortcuts in Workspace
+## Les différents raccourcis du Workspace
 
-### Camera
+### La caméra
 
-```←``` Move camera left
+```←``` Déplacer la caméra à gauche
 
-```↑``` Move camera up
+```↑``` Déplacer la caméra vers le haut
 
-```→``` Move camera right
+```→``` Déplacer la caméra vers la droite
 
-```↓``` Move camera down
+```↓``` Déplacer la caméra vers le bas
 
-```spacebar``` + ```↑``` Zoom in
+```spacebar``` + ```↑``` Zoom
 
-```spacebar``` + ```↓``` Zoom out
+```spacebar``` + ```↓``` Dézoom
 
-### Selection
+### Sélection
 
-```spacebar``` + ```click``` Add/remove nodes or edges to the selection
+```spacebar``` + ```click``` Ajouter/supprimer des noeuds ou des relations à la sélection
 
-```spacebar``` + ```a``` Select/deselect all nodes
+```spacebar``` + ```a``` Sélectionner/désélectionner tous les noeuds
 
-```spacebar``` + ```u``` Deselect all nodes or edges
+```spacebar``` + ```u``` Déselectionner tous les noeuds ou relations
 
-```spacebar``` + ```Del``` Hide selected nodes or edges
+```spacebar``` + ```Del``` Cacher les noeuds ou relations sélectionnés
 
-```spacebar``` + ```e``` Select neighbors of selected nodes
+```spacebar``` + ```e``` Sélectionner les voisins des noeuds sélectionnés
 
-```spacebar``` + ```i``` Select isolated nodes (i.e. nodes without relationships)
+```spacebar``` + ```i``` Sélectionner les noeuds isolés (les noeuds sans relations)
 
-```spacebar``` + ```l``` Select leaf nodes (i.e. nodes with 1 neighbor)
+```spacebar``` + ```l``` Sélectionner les noeuds feuille (les noeuds avec un voisin)
 
-```spacebar``` + ```s``` Activate/deactiate selection of nodes with a lasso
+```spacebar``` + ```s``` Activer/désactiver la sélection de noeuds avec un lasso
 
-### Creation and Edit
+### Création et édition
 
-```spacebar``` + ```n``` Create node
+```spacebar``` + ```n``` Créer un noeud
 
-```spacebar``` + ```r``` Create edge
+```spacebar``` + ```r``` Créer une relation
 
-```spacebar``` + ```m``` Edit selected node
+```spacebar``` + ```m``` Editer le noeud sélectionné
 
-```spacebar``` + ```p``` Edit selected edge
+```spacebar``` + ```p``` Editer la relation sélectionnée
 
-### Export
+### Exporter
 
-```spacebar``` + ```t``` Take screenshot
+```spacebar``` + ```t``` Prendre une capture d'écran
 
-```spacebar``` + ```x``` Export to Excel
+```spacebar``` + ```x``` Exporter vers Excel
 
-### The Full list
+### La liste complète
 
-The list of shortcuts is directly available in right bottom of the workspace.
-
+La liste des raccourcis disponibles est directement accessible en bas à droite de l'espace de travail.
 
