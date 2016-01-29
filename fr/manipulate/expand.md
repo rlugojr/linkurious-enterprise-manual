@@ -1,12 +1,13 @@
-## Expand nodes
+## Développer un noeud
 
-Expanding nodes means displaying the nodes that are connected to one node or to a group of nodes.
+Développer un noeud signifie montrer les noeuds qui sont connectés à ce noeud ou à un groupe de noeud.
 
-We can expand nodes in different ways:
+Nous pouvons développer des noeuds de différentes manières:
 
-* double-click on a node in the view
-* select one or multiple nodes, then click on the ```Expand``` button of the left panel.
-* right-click on a node in the view, then click on the ```Expand``` button of the tooltip.
+* double clique sur un noeud dans la visualisation on a node in the view
+* sélectionner un ou plusieurs noeuds et cliquer sur le boutton ```Expand``` du panneau de gauche
+* clique droit sur le noeud dans la visualisation, puis cliquer sur ```Expand``` 
+* 
 
 ![](Option.png)
 
