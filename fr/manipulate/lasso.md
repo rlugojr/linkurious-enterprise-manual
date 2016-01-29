@@ -1,13 +1,14 @@
-## Using The Lasso
+## Utiliser le Lasso
 
-It is possible to select the nodes within a particular area of your visualization. For that, Linkurious Enterprise provides a lasso.
+Il est possible de sélectionner les noeuds d'une zone particulière de notre visualisation. Pour celà, Linkurious Enterprise fournit un lasso.
 
-To do it, choose ```Select``` in the information panel on the left. 
-Select ```Toggle lasso```.
-Move the lasso around the nodes you are interested in selecting to select them.
+Pour utiliser le lasso, choisir ```Select``` dans le panneau d'informations à gauche.
+Sélectionner ```Toggle lasso```.
+Bougez le lasso autour des noeuds que vous êtes intéressé à selectionner.
 
-![](Lasso.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Lasso.png)
 
-Release the mouse when you are finished and your selection is activated.
+Relâchez la souris quand vous avez fini et votre sélection sera activée.
 
-![](LassoResult.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/LassoResult.png)
+
