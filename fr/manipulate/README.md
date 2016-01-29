@@ -1,3 +1,5 @@
-# Manipulate
+# Manipuler
 
-In this chapter, we'll learn how to manipulate a graph and more exactly the different option Linkurious Enterprise provides to explore and work on a visualization. In the different section, we will see how to expand or collapse nodes. How to select nodes and edges we are interested in and.
+Dans ce chapitre, nous allons apprendre comment manipuler un graphe et plus exactement les différentes options fournies par Linkurious Enterprise pour explorer et travailler une visualisation. Dans les différentes sections, nous allons voir comment développer ou réduire un noeud. Comment sélectionner les noeuds et relations qui nous intéressent.
+
+
