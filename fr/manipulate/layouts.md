@@ -4,50 +4,53 @@
 
 Dans l'espace de travail, plusieurs commandes sont disponibles sur le boutton en bas à droite de l'écran; 
 
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Menu.png)
 
 
-![](Menu.png)
+- Le bouton ```shortcuts``` : ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Shortcuts.png), donne accès à la liste de raccourcis pour explorer et interagir avec le graphe. 
+- Le bouton ```Locate```: ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Locate.png) centre le graphe sur l'écran
+- Le bouton ```Zoom In/Zoom Out``` ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/ZoomIO.png)  est pour zoomer ou dézoomer sur le graphe
+- Le bouton ```Layout``` nous donne plusieurs options d'organisation du graphe 
+- 
+Un clique sur le bouton ```layout``` appliquera l'agencement actuel, qui, par défaut, est un agencement ```fast force-directed```. Deux catégories d'agencements sont disponibles: dirigés par force ou hiérarchique. Il viennent avec des formes prédéfinies
 
-- The ```shortcuts``` button: ![](Shortcuts.png), give access to a list of shortcuts to explore and interact with the graph.
-- The ```Locate``` button ![](Locate.png) centers the graph on the screen.
-- The ```Zoom In/Zoom Out``` button ![](ZoomIO.png) is to zoom in or zoom out on our graph.
-- The ```Layout``` button give us various options to organize our graph.
 
-A click on the layout button will apply the current layout, which is a fast force-directed layout by default. Two categories of layouts are available: force-directed, and hierarchical. They come with pre-defined flavors:
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/FastLayout.png)
 
-![](FastLayout.png)
+### Agencements dirigés par forces 
 
-### Force-directed layout
+Ces arrangements disposent les noeuds selon leurs connections: les noeuds connectés sont habituellement prêts les uns des autres alors que des noeuds non connectés seront plus éloignés.
 
-Such layouts position nodes according to their connections: connected nodes are usually closed to each others, while disconnected nodes are usually pushed further.
 
 **Best Mode:**
-takes the longest time to compute new node positions but provides better results than the Fast Mode.
+prend le temps le plus long pour calculer la nouvelle position des noeuds mais offre de meilleurs résultats que le **fast mode** 
 
-![](FM.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/FM.png)
 
-**Fast Mode (default):**
-quickly finds new node positions but some overlapping nodes may exists.
+
+**Fast Mode (par défaut):**
+trouve rapidement les positions de nouveaux noeuds mais des superpositions peuvent exister
 
 **Random Mode:**
-Node positions are randomized before computing new node positions.
+La position des noeuds est aléatoire avant le calcul des positions de nouveaux noeuds
 
 ### Hierarchical layout
 
-Such layouts organize nodes in different layers automatically by aligning nodes of each layer either vertically or horizontally. The root nodes are automatically found.
+Ces arrangements organisent automatiquement les noeuds en différentes couches en alignant les noeuds de chaque couche soit verticalement soit horizontalement. Les noeuds sources sont automatiquement repérés. 
 
 **Top to bottom Mode:**
-will position root nodes at the top of the screen.
+positionnera les noeuds sources en haut de l'écran
 
-![](TtB.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/TtB.png)
 
 **Left to Right Mode:**
-will position root nodes at the left side of the screen.
+positionnera les noeuds sources sur le côté gauche de l'écran
 
-![](LtR.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/LtR.png)
+
 
 **Bottom to top Mode:**
-will position root nodes at the bottom of the screen.
+positionnera les noeuds source en bas de l'écran
 
 **Right to left Mode:**
-will position root nodes at the right side of the screen.
+positionnera les noeuds source sur le côté droit de l'écran
