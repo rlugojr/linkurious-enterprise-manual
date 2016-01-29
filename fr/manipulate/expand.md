@@ -1,4 +1,4 @@
-## Développer un noeud
+## Développer les noeuds
 
 Développer un noeud signifie montrer les noeuds qui sont connectés à ce noeud ou à un groupe de noeuds.
 
