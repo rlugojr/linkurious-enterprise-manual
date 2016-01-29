@@ -1,16 +1,16 @@
-## Collapse nodes
+## Réduire les noeuds
 
-As we explore the graph, we expand the relationships of one or multiple nodes. Sometimes the nodes and edges added to our visualization may not be relevant. In that case, we can use the collapse functionality to remove them.
+En explorant le graphe, nous développons les relations d'un ou plusieurs noeuds. Parfois les noeuds et relations ajoutés à notre visualisation peuvent ne pas êtres pertinents. Dans ce cas, nous pouvons utiliser la fonction ```Collapse```(réduire) pour les supprimer.
 
-Collapsing means removing from the visualization the nodes that are connected to one node or to a group of nodes.
+Réduire un noeud signifie supprimer de la visualisation les noeuds connectés à un noeud ou à un groupe de noeuds.
 
-Let's say that we are looking at the relationships of Instagram.
-We need to select the node Instagram to have access to the ```Collapse``` button.
+Disons que nous cherchons les relations d'Instagram.
+Nous avons besoin de sélectionner le noeud Instagram pour avoir accès à l'option ```Collapse```.
 
-![](NodetoC.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/NodetoC.png)
 
-We then select ```Collapse```. The nodes that are connected to Instagram are removed from the visualization.
+Nou sélectionnons ensuite ```Collapse```. Les noeuds connectés à Instagram sont supprimés de la visualisation. 
 
-![](Collapsed.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Collapsed.png)
 
-> You have noticed that two nodes remain after the collapse? They are linked to Instagram **and** linked together. In that case Linkurious Enterprise will keep them in your visualization.
+> Vous avez remarqué que deux noeuds demeurent après réduction? Ils sont liés à Instagram et sont également liés entre eux. Dans ce cas, Linkurious Enterprise les garde dans la visualisation.
