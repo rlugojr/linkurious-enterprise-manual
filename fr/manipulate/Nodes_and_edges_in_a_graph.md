@@ -1,17 +1,18 @@
-# List of nodes and edges in the graph
+# Liste des noeuds et des relations dans le graphe
 
-When we are working on a visualization, all the nodes and edges present in our graph are listed on the left panel of the Workspace:
+Lorsque nous travaillons sur une visualisation, tous les noeuds et relations présents dans notre graphe sont listés dans la barre de gauche de notre espace de travail.
 
-![](View.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/View.png)
 
-We can then explore either the nodes or the edges of our graph going through the ```list```:
+Nous pouvons alors explorer soit les noeuds, soit les relations de notre graphe en parcourant la ```liste```:
 
-![](ListofNodes.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/ListofNodes.png)
 
-If we click on a node or a edge of the list, the camera will focus on it.
-It is also possible to filter the results by category by clicking on the category we are interested in next to the name of the node or the edge.
-We can also look for a particular node or edge by using the Finding bar:
+Si nous cliquons sur un noeud ou sur une relation, la caméra va centrer dessus.
+Il est aussi possible de filtrer les résultats par catégories en cliquant sur la catégorie qui nous intéresse à côté du nom du noeud ou de la relation.
 
-![](Focus.png)
+Nous pouvons aussi chercher un noeud ou une relation particulière en utilisant la barre de recherche:
 
-Here we filter the list by the category ```Investor```, then we click on the node ```Adam D'Angelo```. The camera centers on this node.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Focus.png)
+
+Ici nous filtrons la liste en choisissant la catégorie```Investor```, puis nous cliquons sur le noeud  ```Adam D'Angelo```. La caméra centre alors sur le noeud.
