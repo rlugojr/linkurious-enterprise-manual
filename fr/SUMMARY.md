@@ -26,7 +26,7 @@
    * [Sélection de noeuds et relations](manipulate/select.md)
    * [Lasso](manipulate/lasso.md)
    * [Cacher](manipulate/hide.md)
-   * [Layouts](manipulate/layouts.md)
+   * [Agencements](manipulate/layouts.md)
    * [Shortcuts](manipulate/shortcuts.md)
 * [Style](style/README.md)
    * [Captions](style/captions.md)
