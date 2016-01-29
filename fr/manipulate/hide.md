@@ -1,14 +1,15 @@
-## Hide nodes and edges
+## Cacher des noeuds et des relations
 
-Your visualization is getting too complex and you may want to remove from a visualization (i.e. hide) a few nodes or edges to make it easier to understand. Notice that hidden nodes an edges are not deleted from the database.
+Votre visualisation devient trop complexe et vous désirez peut-être supprimer de votre visualiation quelques noeuds ou relations pour permettre une meilleure lecture. 
+Notez que les noeuds et relations cachés ne sont pas supprimés de la base de données.
 
-For example, in the picture above I have selected three nodes. I simply have to click on ```Hide``` to remove them from the visualization.
+Par exemple, dans la figure ci-dessous j'ai sélectionné 3 noeuds. Je dois simplement cliquer sur ```Hide```pour les supprimer de la visualisation.
 
-![](toHide.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/toHide.png)
 
-My two nodes are now removed from the visualization.
+Mes trois noeuds sont supprimés de la visualisation.
 
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Hidden.png)
 
-![](Hidden.png)
+Si nous utilisons l'option Toggle Lasso pour sélectionner les noeuds que nous voulons cacher, nous devons nous assurer que le noeud central n'est pas sélectionné. Dans le cas inverse, toutes les relations connectées à ce noeud seront également cachées.
 
-If we use the Toggle Lasso option to select the nodes we want to hide, we need to make sure the central node is not selected otherwise all the edges connected to this node will also be hidden.
