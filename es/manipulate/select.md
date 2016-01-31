@@ -1,20 +1,20 @@
-## Select nodes and edges
+## Seleccionar nodos y relaciones
 
-The easiest way to select a node or an edge is to simply click on it. It is also possible to select multiple nodes at once.
+La forma más sencilla de seleccionar un nodo o relación es simplemente hacer clic en él. También es posible seleccionar múltiples nodos a la vez.
 
-To do it, choose ```Select``` in the information panel on the left.
+Para hacerlo, escoja ```Select``` (seleccionar) en el panel de información de la izquierda.
 
-![](ListofS.png)
+![](../../en/manipulate/ListofS.png)
 
-You now have a few options :
+Ahora tiene unas pocas opciones:
 
-* ```Select all nodes``` : select all the nodes in your current visualization ;
-* ```Select neighbors``` : select the neighboors of your currently select node ;
-* ```Select leaf nodes``` : select the nodes in your visualization that have only one relationship ;
-* ```Select isolates``` : select the nodes in your visualization that have no relationships ;
-* ```Select all relationships``` : select all the edges in your current visualization ;
-* ```Toggle lasso``` : select manually the nodes we are interested in
-* ```Select all edges```
-* ```Inverse selection``` : invert your current selection.
+* ```Select all nodes``` : seleccionar todos los nodos de su visualización
+* ```Select neighbors``` : seleccionar los vecinos del nodo seleccionado en ese momento
+* ```Select leaf nodes``` : Seleccionar los nodos de su visualización que solamente tienen una relación
+* ```Select isolates``` : seleccionar los nodos de su visualización que no tienen ninguna relación
+* ```Select all relationships``` : seleccionar todas las relaciones de su visualización
+* ```Toggle lasso``` : seleccionar manualmente los nodos que nos interesan
+* ```Select all edges``` (seleccionar todas las relaciones)
+* ```Inverse selection``` : invertir su selección actual
 
-Shortcuts are also available for this actions. Those shortcuts are presented in the section ```Manipulate > Shortcuts```.
+También existen atajos para estas acciones. Estos atajos son presentados en la sección ```Manipulación > Atajos```.
