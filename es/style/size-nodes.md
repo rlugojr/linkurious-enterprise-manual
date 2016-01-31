@@ -1,31 +1,31 @@
-## Sizing the nodes according to a property
+## Dar tamaño a los nodos de acuerdo a una propiedad
 
-By default all the nodes have the same size. It is possible though to choose to map the size of nodes to certain properties. This way it will be possible to visualize that property.
+Por defecto todos los nodos tienen el mismo tamaño. Sin embargo es posible escoger asociar el tamaño de los nodos a ciertas propiedades. De esta forma será posible visualizar esa propiedad.
 
-This technique only applies to quantitative properties.
+Esta técnica solamente puede aplicarse a propiedades cuantitativas.
 
-This works similarly to the coloring functionality of Linkurious Enterprise. Coloring and sizing can be combined to make powerful visualizations.
+Esto funciona de forma similar a la funcionalidad de colorear de Linkurious Enterprise. Colorear y dar tamaño pueden ser combinados para obtener visualizaciones potentes.
 
-For example [Andreessen Horowitz](http://a16z.com/) is a leading VC firm with 127 relationships to different companies it has funded. Which companies have received the most funding? Hard to know by simply looking at this graph.
+Por ejemplo [Andreessen Horowitz](http://a16z.com/) es una agencia de capital riesgo líder con 127 relaciones con diferentes empresas que ha financiado. ¿Qué empresas han recibido las mayores financiaciones? Es difícil saberlo simplemente observando este grafo.
 
-![](A.png)
+![](../../en/style/A.png)
 
-We are going to size the different companies according to their ```funding_total``` property in order to visualize which are the most successful.
+Vamos a dar tamaño a las diferentes empresas de acuerdo a su propiedad ```funding_total``` (financiación total) para visualizar cuáles son las más exitosas.
 
-We click on the upper right corner to open up the design panel.
+Hacemos clic en la esquina superior derecha para abrir el panel de diseño.
 
-We move the mouse to ```funding_total```. In addition to being able to color the nodes according to that property, it is possible to size the nodes. Linkurious Enterprise can do that for any property that has numerical values.
+Movemos el ratón a ```funding_total```. Además de poder colorear los nodos de acuerdo a esta propiedad, también es posible dar tamaño a los nodos. Linkurious Enterprise puede hacer esto por usted para cualquier propiedad que tenga valores numéricos.
 
-We are going to select the ```Size``` icon.
+Vamos a seleccionar el icono ``Size``` (dar tamaño).
 
-![](B.png)
+![](../../en/style/B.png)
 
-A new menu appears. It makes it possible to set the ```Min/max size difference```, the difference in size between the node with the lowest value and the node with the highest value.
+Aparece un nuevo menú. Hace posible establecer ```Min/max size difference```, la diferencia en tamaño entre el nodo con el menor valor y el nodo con el mayor valor.
 
-If we want to view the difference in ```funding_total``` we set the ```Min/max size difference``` to ```12```.
+Si queremos ver la diferencia en ```funding_total``` establecemos ```Min/max size difference``` a ```12```.
 
-![](C.png)
+![](../../en/style/C.png)
 
-Now we can see that few outliers appear as nodes larger than the other nodes.
+Ahora podemos ver que algunos nodos aparecen más grandes que otros nodos.
 
-The larger nodes represent companies like Airbnb, Box, Pinterest or Zynga. We can quickly identify them as the most successful investments of Andreessen Horowitz.
+Los nodos más grandes representan empresas como Airbnb, Box, Pinterest o Zynga. Podemos identificarlas rápidamente como las inversiones más exitosas de Andreessen Horowitz.
