@@ -2,7 +2,7 @@
 
 In order to obtain a more intuitive visualization, Linkurious Enterprise allows you to change the appearance of nodes with a set of icons provided by ```Font Awesonme``` (https://fortawesome.github.io/Font-Awesome/)
 
-We click on the corner of the Workspace to open up the Design panel and choose the Nodes tab.
+We click on the corner of the Workspace to open up the Design panel and choose the ```Nodes``` tab.
 
 We move the mouse over ```categories``` for example and we have access to both the button to color the nodes or to change their icons. 
 
@@ -12,7 +12,7 @@ Hiting the "+" button, the list of icons available appears. It is then possible 
 
 ![](LesIcones.png)
 
-We can thus illustrate our graph con icons to directly obtain a visual explanation of the data at first glance
+We can thus illustrate our graph with icons to directly obtain a visual explanation of the data at first glance
 
 ![](End.png)
 
