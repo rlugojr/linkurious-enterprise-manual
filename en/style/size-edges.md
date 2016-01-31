@@ -14,7 +14,7 @@ In the picture above we see the company Instagram with various companies that ha
 
 If we zoom in on the relationship between Instagram and Sequoia Capital, we can see it has a ```raised_amount_usd``` property with the value ```55 000 000```.
 
-We are going to size the different companies according to their ```raised amount``` property in order to quickly glimpse who invested the most money in Instagram.
+We are going to size the edges between different companies according to their ```raised amount``` property in order to quickly glimpse who invested the most money in Instagram.
 
 We click on the upper right corner to open up the design panel and choose the ```Edges``` tab.
 
@@ -22,7 +22,7 @@ We move the mouse to ```raised amount```. In addition to being able to color the
 
 We click on the ```Size``` icon.
 
-A new menu appears. It makes it possible to set the ```Min/max size difference```, the difference in size between the node with the lowest value and the node with the highest value.
+A new menu appears. It makes it possible to set the ```Min/max size difference```, the difference in size between the edge with the lowest value and the edge with the highest value.
 
 If we want to view the difference in ```raised amount``` we are going to set the ```Min/max size difference``` to ```2```.
 
