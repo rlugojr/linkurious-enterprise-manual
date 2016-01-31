@@ -16,7 +16,7 @@ Hacemos clic en la esquina superior derecha para abrir el panel de diseño.
 
 Movemos el ratón a ```funding_total```. Además de poder colorear los nodos de acuerdo a esta propiedad, también es posible dar tamaño a los nodos. Linkurious Enterprise puede hacer esto por usted para cualquier propiedad que tenga valores numéricos.
 
-Vamos a seleccionar el icono ``Size``` (dar tamaño).
+Vamos a seleccionar el icono ```Size``` (dar tamaño).
 
 ![](../../en/style/B.png)
 
