@@ -1,24 +1,23 @@
-# Icons
+# Iconos
 
-In order to obtain a more intuitive visualization, Linkurious Enterprise allows you to change the appearance of nodes with a set of icons provided by ```Font Awesonme``` (https://fortawesome.github.io/Font-Awesome/)
+Para obtener una visualización más intuitiva, Linkurious Enterprise le permite cambiar la apariencia de los nodos mediante un conjunto de iconos proporcionados por ```Font Awesonme``` (https://fortawesome.github.io/Font-Awesome/)
 
-We click on the corner of the Workspace to open up the Design panel and choose the Nodes tab.
+Hacemos clic en la esquina del espacio de trabajo para abrir el panel de diseño y seleccionamos la pestaña ```Nodes```.
 
-We move the mouse over ```categories``` for example and we have access to both the button to color the nodes or to change their icons. 
+Movemos el ratón por ejemplo a ```categories``` y tenemos acceso al botón de colorear y al botón de cambiar iconos. 
 
-![](StartIcons.png)
+![](../../en/style/StartIcons.png)
 
-Hiting the "+" button, the list of icons available appears. It is then possible to select the icon we want to illustrate our property.
+Pulsando en el botón "+", aparece la lista de iconos disponibles. Es posible seleccionar el icono que queremos para ilustrar nuestra propiedad.
 
-![](LesIcones.png)
+![](../../en/style/LesIcones.png)
 
-We can thus illustrate our graph con icons to directly obtain a visual explanation of the data at first glance
+Por tanto podemos ilustrar nuestro grafo con iconos para obtener directamente una explicación visual de los datos en un primer vistazo.
 
-![](End.png)
+![](../../en/style/End.png)
 
-
-Here we have chosen 4 different icons to differentiate the ```Company``` nodes according to their property
-- The Investors are represented with a Diamond icon
-- The Companies are represented with a Rocket icon
-- The Cities are represented with a Home icon
-- The Markets are represented with a Institution icon
+Aquí hemos escogido 4 iconos para diferenciar los nodos de tipo ```Company``` de acuerdo a su propiedad
+- Los inversores son representados con el icono de un diamante
+- Las empresas son representadas con el icono de un cohete
+- Las ciudades son representadas con el icono de una casa
+- Los mercados son representados con el icono de una institución
