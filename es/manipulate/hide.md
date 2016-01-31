@@ -1,14 +1,13 @@
-## Hide nodes and edges
+## Ocultar nodos y relaciones
 
-Your visualization is getting too complex and you may want to remove from a visualization (i.e. hide) a few nodes or edges to make it easier to understand. Notice that hidden nodes an edges are not deleted from the database.
+Su visualización empieza a ser demasiado compleja y usted podría querer eliminar de una visualización (ocultar) unos pocos nodos o relaciones para hacerla más fácil de entender. Tenga en cuenta que los nodos o relaciones ocultos no son borrados de la base de datos.
 
-For example, in the picture above I have selected three nodes. I simply have to click on ```Hide``` to remove them from the visualization.
+Por ejemplo, en la imagen hemos seleccionado tres nodos. Simplemente hacemos clic en ```Hide``` (ocultar) para eliminarlos de la visualización.
 
-![](toHide.png)
+![](../../en/manipulate/toHide.png)
 
-My two nodes are now removed from the visualization.
+Nuestros dos nodos ahora han sido eliminados de la visualización.
 
+![](../../en/manipulate/Hidden.png)
 
-![](Hidden.png)
-
-If we use the Toggle Lasso option to select the nodes we want to hide, we need to make sure the central node is not selected otherwise all the edges connected to this node will also be hidden.
+Si usamos la opción del lazo para seleccionar los nodos que queremos ocultar, necesitamos asegurarnos de que el nodo central no está seleccionado o de lo contrario todas las relaciones conectadas a este nodo también serán ocultadas.
