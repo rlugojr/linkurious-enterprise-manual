@@ -1,18 +1,17 @@
-## Customize the tooltips
+## Personalizar los tooltips (descripciones emergentes)
 
-When you right-click on a node or an edge, you can view its properties in a pop-up menu called a tooltip.
+Cuando usted hace clic derecho en un nodo o relación, puede ver sus propiedades en un menú emergente llamado tooltip.
 
-![](TooltipPix.png)
+![](../../en/style/TooltipPix.png)
 
-We can see that our node is a ```Company``` whith the  ```/organization/instagram``` permalink
+Podemos ver que nuestro nodo tiene la categoría ```Company``` con el enlace permanente (permalink) ```/organization/instagram```.
 
-It is possible to customize the content of the tooltip and to display only certain properties.
+Es posible personalizar el contenido del tooltip y mostrar solamente ciertas propiedades.
 
-In order to customize this, we need to open the design panel on the right and we go to the ```Tooltips``` tab.
+Para ello, necesitamos abrir el panel de diseño en el lado derecho y seleccionar la pestaña ```Tooltips```.
 
-![](TooltipCustomize.png)
+![](../../en/style/TooltipCustomize.png)
 
- We can see the different properties of the nodes of our visualization. By default all the properties are ```on``` and are thus displayed. In the bottom of the screen, it is possible to do the same with the edges.
+Podemos ver las diferentes propiedades de los nodos en nuestra visualización. Por defecto, todas las propiedades están activas (```on```) y por tanto son mostradas. En la parte inferior de la pantalla, es posible hacer lo mismo con las relaciones.
 
-We can turn off the properties you do not want to display. 
-
+Podemos desactivar las propiedades que no queremos mostrar.
