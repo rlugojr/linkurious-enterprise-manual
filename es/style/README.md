@@ -1,5 +1,5 @@
-# Style
+# Estilo
 
-In this chapter, we'll learn how to adjust the size, color, captions and text of nodes or relationships. These techniques will help you make your visualizations more meaningful.
+En este capítulo, aprenderemos cómo ajustar el tamaño, color, leyendas y texto de los nodos o relaciones. Estas técnicas le ayudarán a hacer sus visualizaciones más significativas.
 
-A default style may be defined by the Administrator of Linkurious Enterprise, see Chapter Getting Started > Styles. Users can change the styles after creating or opening a visualization. Notice that the styles set in new visualizations are automatically re-applied to newly created visualizations.
+Un estilo por defecto puede ser definido por el administrador de Linkurious Enterprise, ver el capítulo Comenzando > Estilos. Los usuarios pueden cambiar los estilos después de crear o abrir una visualización. Tenga en cuenta que los estilos para nuevas visualizaciones son re-aplicados a visualizaciones recién creadas.
