@@ -15,7 +15,7 @@ We click on the ```color``` button along property ```type``` to color edges by t
 
 We see:
 * the different values associated with the ```type``` property (INVESTED_IN, ACQUIRED, HAS_CITY and HAS MARKET)
-* how many occurences of each value there is (there are 39  nodes with the value ```INVESTED_IN```);
+* how many occurences of each value there is (there are 39 edges with the value ```INVESTED_IN```);
 * which color is associated to which value (```ACQUIRED``` is blue)
 
 To color the edges according to another property, we first unset colors by clicking on the same ```color``` button.
