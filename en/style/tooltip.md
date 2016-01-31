@@ -14,5 +14,5 @@ In order to customize this, we need to open the design panel on the right and we
 
  We can see the different properties of the nodes of our visualization. By default all the properties are ```on``` and are thus displayed. In the bottom of the screen, it is possible to do the same with the edges.
 
-We can turn off the properties you do not want to display. 
+We can turn off the properties we do not want to display. 
 
