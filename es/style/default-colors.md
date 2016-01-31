@@ -1,7 +1,7 @@
-## Default colors
+## Colores predeterminados
 
-The default color of the nodes may be defined by the administrator of Linkurious Enterprise. Here the default color is grey.
+El color predeterminado de los nodos puede ser definido por el administrador de Linkurious Enterprise. En este caso el color predeterminado es gris.
 
-When you select nodes and edges, it is immediately higlighted in red and a white halo appears on its connected nodes.
+Cuando usted selecciona nodos y relaciones, estos son resaltados inmediatamente en rojo y un halo blanco aparece en sus nodos conectados.
 
-![](Halo.png)
+![](../../en/style/Halo.png)
