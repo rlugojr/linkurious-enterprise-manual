@@ -16,7 +16,7 @@ If we zoom in on the relationship between Instagram and Sequoia Capital, we can 
 
 We are going to size the different companies according to their ```raised amount``` property in order to quickly glimpse who invested the most money in Instagram.
 
-We click on the upper right corner to open up the design panel and choose the Edges tab.
+We click on the upper right corner to open up the design panel and choose the ```Edges``` tab.
 
 We move the mouse to ```raised amount```. In addition to being able to color the edges according to that property, it is possible to size the edges. Linkurious Enterprise can do that for any property that has numerical values.
 
