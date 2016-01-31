@@ -1,28 +1,28 @@
-## Coloring the nodes according to a property
+## Colorear los nodos de acuerdo a una propiedad
 
-If all your nodes or edges have the same color, it is difficult to distinguish differences between them without looking at their individual properties. A great way to circumvent that issue is to choose to color the nodes according to a certain property.
+Si todos los nodos o relaciones tienen el mismo color, es difícil distinguirlos sin mirar sus propiedades individuales. Una buena forma de evitar este problema es elegir un color para los nodos de acuerdo a cierta propiedad.
 
-For example, our nodes may have a ```country``` property that we would like to highlight, thus Linkurious Enterprise enables us to color the nodes according to a particular property, here ```country```.
+Por ejemplo, nuestros nodos podrían tener una propiedad ```country``` (país) que nos gustaría resaltar, por tanto Linkurious Enterprise nos permite colorear los nodos de acuerdo a una propiedad en particular, en este caso ```country```.
 
-This way, a French and a German start-up will have different colors. It will be easier to distinguish them visually.
+De esta forma, una start-up francesa y una alemana tendrán colores diferentes. Será más sencillo distinguirlas visualmente.
 
-In the picture below, we see the start-ups and investors Twitter is connected to. At first glance we have no idea where they are coming from.
+En la imagen debajo, podemos ver las start-ups e inversores a los que Twitter está conectado. A primera vista no podemos saber de donde proceden.
 
-![](SinColor.png)
+![](../../en/style/SinColor.png)
 
-First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab. We can see all node properties. We click on the ```color``` button along the property ```country``` to color nodes by this property.
+Primero, abrimos el panel de diseño en la esquina derecha de la pantalla y pulsemos en la pestaña ```Design``` (diseño). Podemos ver todas las propiedades de los nodos. Hacemos clic en el botón ```color``` junto a la propiedad ```country``` para colorear los nodos de acuerdo a esta propiedad.
 
-![](Colors.png)
+![](../../en/style/Colors.png)
 
-We see:
-* the different values associated with the ```country``` property (CAN, GBR, JPN, RUS, USA);
-* the number of occurences of each value there is (there are 20 nodes with the value ```USA```);
-* which color is associated to which value (```USA``` is green)
+Vemos:
+* los diferentes valores asociados con la propiedad ```country``` (CAN, GBR, JPN, RUS, USA)
+* el número de ocurrencias que hay de cada valor (hay 20 nodos con el valor ```USA```)
+* qué color es asociado con cada valor (```USA``` es verde)
 
-Notice that the nodes that do not have a ```country``` property remain in grey.
+Tenga en cuenta que los nodos que no tienen la propiedad ```country``` permanecerán grises.
 
-To color the nodes according to another property, we first unset colors by clicking on the same ```color``` button:
+Para colorear los nodos de acuerdo a otra propiedad, primero eliminamos los colores haciendo clic en el mismo botón ```color```:
 
-![](Unset.png)
+![](../../en/style/Unset.png)
 
-Then, we can click on the ```color``` button of another property.
+Después, podemos hacer clic en el botón ```color``` de otra propiedad.
