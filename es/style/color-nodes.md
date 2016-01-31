@@ -10,7 +10,7 @@ En la imagen debajo, podemos ver las start-ups e inversores a los que Twitter es
 
 ![](../../en/style/SinColor.png)
 
-Primero, abrimos el panel de diseño en la esquina derecha de la pantalla y pulsemos en la pestaña ```Design``` (diseño). Podemos ver todas las propiedades de los nodos. Hacemos clic en el botón ```color``` junto a la propiedad ```country``` para colorear los nodos de acuerdo a esta propiedad.
+Primero, abrimos el panel de diseño en la esquina derecha de la pantalla y pulsamos en la pestaña ```Design``` (diseño). Podemos ver todas las propiedades de los nodos. Hacemos clic en el botón ```color``` junto a la propiedad ```country``` para colorear los nodos de acuerdo a esta propiedad.
 
 ![](../../en/style/Colors.png)
 
