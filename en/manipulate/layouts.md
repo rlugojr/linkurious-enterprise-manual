@@ -25,7 +25,7 @@ takes the longest time to compute new node positions but provides better results
 ![](FM.png)
 
 **Fast Mode (default):**
-quickly finds new node positions but some overlapping nodes may exists.
+quickly finds new node positions but some overlapping nodes may exist.
 
 **Random Mode:**
 Node positions are randomized before computing new node positions.
