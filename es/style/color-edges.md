@@ -1,25 +1,25 @@
-## Coloring the edges according to a property
+## Colorear las relaciones de acuerdo a una propiedad
 
-Coloring the edges works exactly the same than coloring nodes as presented previously.
+Colorear las relaciones funciona exactamente igual a colorear los nodos como hemos explicado previamente.
 
-If all your edges have the same color, it is difficult to distinguish differences between them without looking at their individual properties. A great way to circumvent that issue is to choose to color the edges according to a certain property.
+Si todas sus relaciones tienen el mismo color, es difícil distinguirlas sin mirar sus propiedades individuales. Una buena forma de evitar este problema es elegir un color para las relaciones de acuerdo a cierta propiedad.
 
-First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab. We can see all edge properties. We click on the ```edges``` tab on the bottom.
+Primero, abrimos el panel de diseño en la esquina derecha de la pantalla y pulsamos en la pestaña ```Design``` (diseño). Podemos ver todas las propiedades de las relaciones. Hacemos clic en  la pestaña ```edges``` (relaciones) en la parte inferior.
 
-![](NoColors.png)
+![](../../en/style/NoColors.png)
 
-We click on the ```color``` button along property ```type``` to color edges by this property.
+Hacemos clic en el botón ```color``` junto a la propiedad ```type``` (tipo) para colorear las relaciones de acuerdo a esta propiedad.
 
-![](Coloré.png)
+![](../../en/style/Coloré.png)
 
 
-We see:
-* the different values associated with the ```type``` property (INVESTED_IN, ACQUiRED, HAS_CITY and HAS MARKET)
-* how many occurences of each value there is (there are 39  nodes with the value ```INVESTED_IN```);
-* which color is associated to which value (```ACQUIRED``` is blue)
+Vemos:
+* los diferentes valores asociados con la propiedad ```type``` (INVESTED_IN, ACQUIRED, HAS_CITY y HAS MARKET)
+* cuantas ocurrencias hay de cada valor (hay 39 relaciones con el valor ```INVESTED_IN```);
+* qué color está asociado a cada valor (```ACQUIRED``` es azul)
 
-To color the edges according to another property, we first unset colors by clicking on the same ```color``` button.
+Para colorear las relaciones de acuerdo a otra propiead, primero eliminarmos los colors haciendo clic en el mismo botón ```color```.
 
-![](Change.png)
+![](../../en/style/Change.png)
 
-Then, we can click on the ```color``` button of another property.
+Después, podemos hacer clic en el botón ```color``` de otra propiedad.
