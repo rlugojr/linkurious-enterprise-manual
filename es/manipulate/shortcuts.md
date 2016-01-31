@@ -1,55 +1,55 @@
-## The different shortcuts in Workspace
+## Diferentes atajos en el espacio de trabajo
 
-### Camera
+### Cámara
 
-```←``` Move camera left
+```←``` Mover cámara a la izquierda
 
-```↑``` Move camera up
+```↑``` Mover cámara arriba
 
-```→``` Move camera right
+```→``` Mover cámara a la derecha
 
-```↓``` Move camera down
+```↓``` Mover cámara abajo
 
-```spacebar``` + ```↑``` Zoom in
+```spacebar``` + ```↑``` Aumentar zoom
 
-```spacebar``` + ```↓``` Zoom out
+```spacebar``` + ```↓``` Disminuir zoom
 
-### Selection
+### Selección
 
-```spacebar``` + ```click``` Add/remove nodes or edges to the selection
+```spacebar``` + ```clic``` Añadir/quitar nodos o relaciones a la selección
 
-```spacebar``` + ```a``` Select/deselect all nodes
+```spacebar``` + ```a``` Seleccionar/deseleccionar todos los nodos
 
-```spacebar``` + ```u``` Deselect all nodes or edges
+```spacebar``` + ```u``` Deseleccionar todos los nodos o relaciones
 
-```spacebar``` + ```Del``` Hide selected nodes or edges
+```spacebar``` + ```supr``` Ocultar nodos o relaciones seleccionados
 
-```spacebar``` + ```e``` Select neighbors of selected nodes
+```spacebar``` + ```e``` Seleccionar vecinos de los nodos seleccionados
 
-```spacebar``` + ```i``` Select isolated nodes (i.e. nodes without relationships)
+```spacebar``` + ```i``` Seleccionar nodos aislados (nodos sin relaciones)
 
-```spacebar``` + ```l``` Select leaf nodes (i.e. nodes with 1 neighbor)
+```spacebar``` + ```l``` Seleccionar nodos hoja (nodos con un solo vecino)
 
-```spacebar``` + ```s``` Activate/deactiate selection of nodes with a lasso
+```spacebar``` + ```s``` Activar/desactivar la selección de nodos con el lazo
 
-### Creation and Edit
+### Creación y edición
 
-```spacebar``` + ```n``` Create node
+```spacebar``` + ```n``` Crear nodo
 
-```spacebar``` + ```r``` Create edge
+```spacebar``` + ```r``` Crear relación
 
-```spacebar``` + ```m``` Edit selected node
+```spacebar``` + ```m``` Editar nodo seleccionado
 
-```spacebar``` + ```p``` Edit selected edge
+```spacebar``` + ```p``` Editar relación seleccionada
 
-### Export
+### Exportación
 
-```spacebar``` + ```t``` Take screenshot
+```spacebar``` + ```t``` Tomar captura de pantalla
 
-```spacebar``` + ```x``` Export to Excel
+```spacebar``` + ```x``` Exportar a excel
 
-### The Full list
+### Lista completa
 
-The list of shortcuts is directly available in right bottom of the workspace.
+La lista completa de atajos está disponible en el lado inferior derecho del espacio de trabajo.
 
 
