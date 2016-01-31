@@ -30,7 +30,7 @@
 
 ```spacebar``` + ```l``` Select leaf nodes (i.e. nodes with 1 neighbor)
 
-```spacebar``` + ```s``` Activate/deactiate selection of nodes with a lasso
+```spacebar``` + ```s``` Activate/deactivate selection of nodes with a lasso
 
 ### Creation and Edit
 
@@ -50,6 +50,6 @@
 
 ### The Full list
 
-The list of shortcuts is directly available in right bottom of the workspace.
+The list of shortcuts is directly available in the right bottom of the workspace.
 
 
