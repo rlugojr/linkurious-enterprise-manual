@@ -1,33 +1,33 @@
-## Sizing the edges according to a property
+## Dar tamaño a las relaciones de acuerdo a una propiedad
 
-Sizing the edges works exactly the same.
+Dar tamaño a las relaciones funciona de la misma forma.
 
-By default all the edges have the same size. It is possible though to choose to map the size of edges to certain properties. This way it will be possible to visualize that property.
+Por defecto todas las relaciones tienen el mismo tamaño. Sin embargo es posible escoger asociar el tamaño de las relaciones a ciertas propiedades. De esta forma será posible visualizar esa propiedad.
 
-This technique only applies to quantitative properties.
+Esta técnica solamente puede aplicarse a propiedades cuantitativas.
 
-This works similarly to the coloring functionality of Linkurious Enterprise. Coloring and sizing can be combined to make powerful visualizations.
+Esto funciona de forma similar a la funcionalidad de colorear de Linkurious Enterprise. Colorear y dar tamaño pueden ser combinados para obtener visualizaciones potentes.
 
-![](PriceZoom.png)
+![](../../en/style/PriceZoom.png)
 
-In the picture above we see the company Instagram with various companies that have invested in it.
+En la imagen anterior vemos la empresa Instagram con varias empresas que han invertido en ella.
 
-If we zoom in on the relationship between Instagram and Sequoia Capital, we can see it has a ```raised_amount_usd``` property with the value ```55 000 000```.
+Si hacemos zoom en la relación entre Instagram y Sequoia Capital, podemos ver que tiene la propiedad ```raised_amount_usd``` (cantidad recaudada en dólares) con el valor ```55 000 000```.
 
-We are going to size the different companies according to their ```raised amount``` property in order to quickly glimpse who invested the most money in Instagram.
+Vamos a dar tamaño a las relaciones entre las diferentes empresas de acuerdo a su propiedad ```raised amount``` para ver rápidamente quien invirtió más dinero en Instagram.
 
-We click on the upper right corner to open up the design panel and choose the Edges tab.
+Hacemos clic en la esquina superior derecha para abrir el panel de diseño y escogemos la pestaña ```Edges``` (relaciones).
 
-We move the mouse to ```raised amount```. In addition to being able to color the edges according to that property, it is possible to size the edges. Linkurious Enterprise can do that for any property that has numerical values.
+Movemos el ratón a ```raised amount```. Además de poder colorear las relaciones nodos de acuerdo a esta propiedad, también es posible dar tamaño a los a las relaciones. Linkurious Enterprise puede hacer esto por usted para cualquier propiedad que tenga valores numéricos.
 
-We click on the ```Size``` icon.
+Hacemos clic en el icono ```Size``` (dar tamaño).
 
-A new menu appears. It makes it possible to set the ```Min/max size difference```, the difference in size between the node with the lowest value and the node with the highest value.
+Aparece un nuevo menú. Hace posible establecer ```Min/max size difference```, la diferencia en tamaño entre la relación con el menor valor y la relación con el mayor valor.
 
-If we want to view the difference in ```raised amount``` we are going to set the ```Min/max size difference``` to ```2```.
+Si queremos ver la diferencia en ```raised amount``` establecemos ```Min/max size difference``` a ```2```.
 
-![](TailleEdges.png)
+![](../../en/style/TailleEdges.png)
 
-Now we can see that few outliers appear thicker than the other edges.
+Ahora podemos ver que algunas relaciones son más gruesas que las otras.
 
 
