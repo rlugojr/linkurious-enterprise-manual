@@ -1,51 +1,51 @@
-## Layouts
+## Disposición
 
-### Visualization controls
+### Controles de visualización
 
-On the Workspace, various controls are available on the right-bottom of the screen: 
+En el espacio de trabajo, varios controles están disponibles en la esquina inferior derecha de la pantalla:
 
-![](Menu.png)
+![](../../en/manipulate/Menu.png)
 
-- The ```shortcuts``` button: ![](Shortcuts.png), give access to a list of shortcuts to explore and interact with the graph.
-- The ```Locate``` button ![](Locate.png) centers the graph on the screen.
-- The ```Zoom In/Zoom Out``` button ![](ZoomIO.png) is to zoom in or zoom out on our graph.
-- The ```Layout``` button give us various options to organize our graph.
+- El botón de ```shortcuts``` (atajos): ![](../../en/manipulate/Shortcuts.png), le da acceso a una lista de atajos para explorar e interactuar con el grafo.
+- El botón ```Locate``` (localizar) ![](../../en/manipulate/Locate.png) centra el grafo en la pantalla.
+- El botón ```Zoom In/Zoom Out``` (aumentar/disminuir zoom) ![](../../en/manipulate/ZoomIO.png) aumenta o disminuye el zoom de nuestro grafo.
+- El botón ```Layout``` (disposición) nos da varias opciones para organizar nuestro grafo.
 
-A click on the layout button will apply the current layout, which is a fast force-directed layout by default. Two categories of layouts are available: force-directed, and hierarchical. They come with pre-defined flavors:
+Hacer clic en el botón de disposición aplicará el algoritmo de disposición (layout) actualmente seleccionado, que por defecto es un algoritmo rápido dirigido por fuerzas. Dos categorías de algoritmos de disposición están disponibles: dirigidos por fuerzas (force-directed) y jerárquicos (hierarchical). Están disponibles en varios modos:
 
-![](FastLayout.png)
+![](../../en/manipulate/FastLayout.png)
 
-### Force-directed layout
+### Force-directed layout (algoritmo de disposición dirigido por fuerzas)
 
-Such layouts position nodes according to their connections: connected nodes are usually closed to each others, while disconnected nodes are usually pushed further.
+Estos tipos de algoritmos posicionan los nodos de acuerdo a sus conexiones: los nodos conectados normalmente son posicionados juntos, mientras que los nodos desconectados generalmente son alejados.
 
-**Best Mode:**
-takes the longest time to compute new node positions but provides better results than the Fast Mode.
+**Best Mode (mejor modo):**
+toma el que más tiempo para calcular las posiciones de los nodos pero proporciona mejores resultados que el modo rápido.
 
-![](FM.png)
+![](../../en/manipulate/FM.png)
 
-**Fast Mode (default):**
-quickly finds new node positions but some overlapping nodes may exists.
+**Fast Mode (modo rápido, predeterminado):**
+calcula las posiciones de los nodos rápidamente pero algunos nodos podrían quedar superpuestos.
 
-**Random Mode:**
-Node positions are randomized before computing new node positions.
+**Random Mode (modo aleatorio):**
+las posiciones de los nodos son distribuidas al azar antes de calcular las nuevas posiciones de los nodos.
 
-### Hierarchical layout
+### Hierarchical layout (algoritmo de disposición jerárquico)
 
-Such layouts organize nodes in different layers automatically by aligning nodes of each layer either vertically or horizontally. The root nodes are automatically found.
+Estos tipos de algoritmos organizan los nodos en diferentes capas de forma automática alineando cada capa de forma vertical u horizontal. Los nodos raíz son detectados automáticamente.
 
-**Top to bottom Mode:**
-will position root nodes at the top of the screen.
+**Top to bottom Mode (modo de arriba a abajo):**
+posicionará los nodos raíz en la parte superior de la pantalla.
 
-![](TtB.png)
+![](../../en/manipulate/TtB.png)
 
-**Left to Right Mode:**
-will position root nodes at the left side of the screen.
+**Left to Right Mode (modo izquierda a derecha):**
+posicionará los nodos raíz en el lado izquierdo de la pantalla.
 
-![](LtR.png)
+![](../../en/manipulate/LtR.png)
 
-**Bottom to top Mode:**
-will position root nodes at the bottom of the screen.
+**Bottom to top Mode (modo de abajo a arriba):**
+posicionará los nodos raíz en la parte inferior de la pantalla.
 
-**Right to left Mode:**
-will position root nodes at the right side of the screen.
+**Right to left Mode (modo derecha a izquierda):**
+posicionará los nodos raíz en el lado derecho de la pantalla.
