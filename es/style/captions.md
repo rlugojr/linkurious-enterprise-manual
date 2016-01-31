@@ -1,21 +1,21 @@
-## Customize the captions
+## Personalizar las leyendas
 
-Linkurious Enterprise lets you choose which of the properties of your nodes and edges should be displayed on the canvas.
+Linkurious Enterprise le permite escoger qué propiedades de sus nodos y relaciones deberían mostrarse en el área de visualización.
 
-On the example below, only the ```names``` of the nodes are displayed by Linkurious Enterprise. In order to customize this, we need to open the ```design panel``` on the right.
+En el ejemplo más abajo, solamente los nombres (```names```) de los nodos son mostrados por Linkurious Enterprise. Para ello, necesitamos abrir el panel de diseño (```design panel```) en el lado derecho.
  
-On the ```Captions``` tab, we can see the different properties of the nodes in our graph. The ```name``` property is first. In the bottom of the screen, it is possible to select the edges.
+En la pestaña de leyendas (```Captions```), podemos ver las diferentes propiedades de los nodos en nuestro grafo. La propiedad ```name``` aparece primero. En la parte inferior de la pantalla es posible seleccionar las relaciones.
 
-![](1.png)
+![](../../en/style/1.png)
 
-For example, we want to show the ```country``` in the visualization. To do it, we click on ```country``` and it will be added to the displayed properties listed in the dotted area.
+Por ejemplo, queremos mostrar el país (```country```) en la visualización. Para hacerlo, hacemos clic en ```country``` y será añadida a la lista de propiedades mostradas en el área rodeada por la línea de puntos.
 
-![](2.png)
+![](../../en/style/2.png)
 
-The text displayed next to your node changes. Instead of  ```Instagram``` we have the information ```Instagram - USA```.
+El texto mostrado junto al nodo cambia. En lugar de  ```Instagram``` ahora tenemos la información ```Instagram - USA```.
 
-The same approach can be used for the edges.
+La misma estrategia puede ser usada para las relaciones.
 
-> Linkurious Enterprise will use the properties in the order it appears in the list. Placing the cursor on one property, we have the possibility to change the order or to remove a property. If a node doesn't have a property, Linkurious Enterprise will look for the next property, etc.
+> Linkurious Enterprise utilizará las propiedades en el orden en el que aparecen en la lista. Poniendo el cursor en una propiedad, tenemos la posibilidad de cambiar el orden de una propiedad o eliminarla. Si un nodo no tiene una propiedad, Linkurious Enterprise pasará a la siguiente propiedad, etc.
 
-![](3.png)
+![](../../en/style/3.png)
