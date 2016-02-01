@@ -33,7 +33,7 @@
    * [Tooltips](style/tooltip.md)
    * [Couleurs par défaut](style/default-colors.md)
    * [Colorer les noeuds](style/color-nodes.md)
-   * [Color edges](style/color-edges.md)
+   * [Color les liens](style/color-edges.md)
    * [Sizing the nodes](style/size-nodes.md)
    * [Sizing the edges](style/size-edges.md)
    * [Icons](style/icons.md)
