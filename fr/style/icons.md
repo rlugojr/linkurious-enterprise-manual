@@ -1,24 +1,23 @@
-# Icons
+# Icônes
 
-In order to obtain a more intuitive visualization, Linkurious Enterprise allows you to change the appearance of nodes with a set of icons provided by ```Font Awesonme``` (https://fortawesome.github.io/Font-Awesome/)
+Afin d'obtenir une visualisation plus intuitive, Linkurious Enterprise vous permet de changer l'apparance des noeuds avec un set d'icône fourni par ```Font Awesonme``` (https://fontawesome.github.io/Font-Awesome/)
 
-We click on the corner of the Workspace to open up the Design panel and choose the Nodes tab.
+Nous cliquons dans le coin à droite du Workspace afin d'ouvrir le Design panel et nous sélectionnons l'onglet Nodes.
 
-We move the mouse over ```categories``` for example and we have access to both the button to color the nodes or to change their icons. 
+Nous déplaçons le curseur sur ```categories``` par exemple et nous avons accès à la fois au bouton Color et au bouton Icon pour changer leur icône.
 
-![](StartIcons.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/StartIcons.png)
 
-Hiting the "+" button, the list of icons available appears. It is then possible to select the icon we want to illustrate our property.
+En cliquant sur le bouton "+", la liste des icônes disponible apparaît. Il est alors possible de sélectionner l'icône que nous souhaitons pour illustrer une propriété. 
 
-![](LesIcones.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/LesIcones.png)
 
-We can thus illustrate our graph con icons to directly obtain a visual explanation of the data at first glance
+Nous pouvons alors illustrer notre graphe avec des icônes pour obtenir une explication visuelle de nos données en un coup d'oeil.
 
-![](End.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/End.png)
 
-
-Here we have chosen 4 different icons to differentiate the ```Company``` nodes according to their property
-- The Investors are represented with a Diamond icon
-- The Companies are represented with a Rocket icon
-- The Cities are represented with a Home icon
-- The Markets are represented with a Institution icon
+Ici nous avons choisi 4 icônes différentes pour différencier les noeuds ```Company``` selon leur propriétés:
+- Les Investisseurs sont représentés avec l'icône Diamant
+- Les Compagnies sont représentées avec l'icônes Fusée
+- Les Villes sont représentées avec l'icône Maison
+- Les Marchés sont représentés avec l'icône Institutions
