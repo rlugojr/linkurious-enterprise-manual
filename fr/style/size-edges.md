@@ -1,26 +1,31 @@
-## Sizing the edges according to a property
+## Dimensionner les liens selon une propriété
 
-Sizing the edges works exactly the same.
+Par exemple [Andreessen Horowitz](http://a16z.com/) est une entreprise leader avec 127 relations à différentes compagnies qu'elle a financé. Quelles compagnies ont reçues les fonds les plus importants? Il est difficile de le savoir en regardant simplement le graphe.
 
-By default all the edges have the same size. It is possible though to choose to map the size of edges to certain properties. This way it will be possible to visualize that property.
 
-This technique only applies to quantitative properties.
+Dimensionner les liens fonctionne exactement de la même manière que dimensionner les noeuds.
 
-This works similarly to the coloring functionality of Linkurious Enterprise. Coloring and sizing can be combined to make powerful visualizations.
+Par défaut, tous les liens ont la même taille. Il est possible cependant de dimensionner la taille des liens selon une certaine propriété. Il sera alors possible d'apprécier la valeur de cette propriété selon la taille du lien.
 
-![](PriceZoom.png)
+Cette technique s'applique seulement à des propriétés qualitatives.
 
-In the picture above we see the company Instagram with various companies that have invested in it.
+Dimensionner les liens fonctionne de la même manière que la fonctionnalité Colorer un lien de Linkurious Enterprise. Les options Colorer et Dimensionner peuvent êtres combinées pour obtenir des visualisations plus pertinentes. 
 
-If we zoom in on the relationship between Instagram and Sequoia Capital, we can see it has a ```raised_amount_usd``` property with the value ```55 000 000```.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/ProceZoom.png)
 
-We are going to size the different companies according to their ```raised amount``` property in order to quickly glimpse who invested the most money in Instagram.
+Dans la figure ci-dessous, nous pouvons voir la compagnie Instagram et différentes compagnies ayant investi dans Instagram. 
 
-We click on the upper right corner to open up the design panel and choose the Edges tab.
+Si nous zoomons sur la relation entre Instagram et Sequoia Capital, nous pouvons voir la propriété ```raised_amount_usd``` avec la valeur ```55 000 000```.
 
-We move the mouse to ```raised amount```. In addition to being able to color the edges according to that property, it is possible to size the edges. Linkurious Enterprise can do that for any property that has numerical values.
+Nous allons dimensionner la taille des différentes compagnies en fonction de leur propriété ```raised amount``` afin de savoir rapidement qui a investi le plus d'argent dans Instagram.
 
-We click on the ```Size``` icon.
+Nous cloquons sur l'onglet en haut à droite pour ouvrir le designpanel et choisissons l'onglet Edges.
+
+Nous déplaçons le curseur sur ```raised amount```. En plus de pouvoir colorer les liens selon cette propriété il est également possible de les dimensionner. Linkurious Enterprise peut faire celà pour quelconque propriété numérique. 
+
+Nous cliquons sur l'icône  ```Size```.
+
+Un nouveau menu apparaît. Il rend possible de paramétrer 
 
 A new menu appears. It makes it possible to set the ```Min/max size difference```, the difference in size between the node with the lowest value and the node with the highest value.
 
