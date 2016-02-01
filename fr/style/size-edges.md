@@ -21,9 +21,9 @@ Nous allons dimensionner la taille des différentes compagnies en fonction de le
 
 Nous cloquons sur l'onglet en haut à droite pour ouvrir le designpanel et choisissons l'onglet Edges.
 
-Nous déplaçons le curseur sur ```raised amount```. En plus de pouvoir colorer les liens selon cette propriété il est également possible de les dimensionner. Linkurious Enterprise peut faire celà pour quelconque propriété numérique. 
+Nous déplaçons la souris sur ```raised_amount```. En plus de pouvoir colorer les liens selon cette propriété, il est également possible de les dimensionner. Linkurious Enterprise peut faire ça pour toutes les propriétés ayant des valeurs numériques.
 
-Nous cliquons sur l'icône  ```Size```.
+Nous allons sélectionner l'icône taille (```Size```).
 
 Un nouveau menu apparaît. Il rend possible de paramétrer 
 
