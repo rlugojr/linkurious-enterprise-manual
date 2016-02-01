@@ -1,7 +1,8 @@
-## Default colors
+## Couleurs par défaut
 
-The default color of the nodes may be defined by the administrator of Linkurious Enterprise. Here the default color is grey.
+La couleur par défaut des noeuds peut être définie par l'administrateur de Linkurious Enterprise. Ici, la couleur par défaut est le gris.
 
-When you select nodes and edges, it is immediately higlighted in red and a white halo appears on its connected nodes.
+Lorsque nous sélectionnons des noeuds ou des relations, ils sont immédiatement surlignés en rouge et un halo blanc apparait autour des noeuds connectés. 
 
-![](Halo.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/Halo.png)
+
