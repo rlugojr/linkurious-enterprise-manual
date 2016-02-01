@@ -1,39 +1,42 @@
-## Filtering the nodes according to a property
+## Filtrer les noeuds selon une propriété
 
-At some point in our graph exploration, we may want to focus on a specific part of our current visualization. A good way to do that is to use filters.
+A un certain point dans notre exploration de graphe nous pouvons être intéressé à focaliser sur une certaine partie de notre visualisation. Une bonne manière de faire ça est d'utiliser les filtres.
 
-Filters enable us to select or hide multiple nodes or edges at once according to a specific property.
+Les filtres nous permettent de sélectionner ou de cacher plusieurs noeuds ou relations à la fois selon une propriété spécifique.
 
-In the graph below, we see the companies [Grabit](http://www.banexiventures.com/), a small firm form the USA, has invested in.
+Dans le graphe ci-dessous, nous voyons les compagnies qui ont investi dans [Grabit](http://www.banexiventures.com/), une petite compagnie des Etats-Uins.
 
-![](G_1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/G_1.png)
 
-Where are these companies located in? We could color the nodes according to their ```country``` property to know that. But what if we only want to see the American companies Grabit is involved with?
+Où sont situées ces compagnies? Nous pourrions colorer les noeuds selon leur propriété ```country``` afin de savoir celà. Mais qu'en est-il si nous souhaitons seulement voir les compagnies américaines impliquées dans Grabit?
 
-To do that, we open the design panel on the right.
+Pour ce faire, nous ouvrons le design panel à droite.
 
-![](G_2.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/G_2.png)
 
-We can see the different properties associated with the nodes in our graph.
+Nous pouvons voir les différentes propriétés associées aux noeuds de notre graphe.
 
-We are going to click on ```country```. The different values present in our graph for the property ```country``` appear.
+Nous allons cliquer sur ```country```. Les différentes valeurs présentes dans notre graphe pour la propriété ```country``` apparaissent.
 
-![](G_3.png)
 
-We can see that there are companies from ```CHE``` and ```USA```.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/G_3.png)
 
-![](G_4.png)
+Nous pouvons voir qu'il y a des compagnies venant de ```CHE``` et ```USA```.
 
-To select, the companies from USA, we fill the check boxes (here we have colored the nodes, see Style > Color nodes, in order to make the filter action more visible):
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/G_4.png)
 
-Now, on the top of the design panel two buttons appear :  ```Filter ``` and  ```Select ```.
+Pour sélectionner les compagnies des Etats-Unis, nous cochons les cases (ici nous avons coloré les noeuds, voir Style > Colorer  les noeuds, afin de rendre le filtre plus visible)
 
-To select all the nodes from USA, we could click on ```Select ```. Instead we are going to choose ```Filter ```.
+Maintenant, en haut du design panel, deux boutons apparaissent: ```Filter ``` et  ```Select ```.
 
-![](G_5.png)
+Pour sélectionner tous les noeuds des USA, nous pouvons cliquer sur ```Select ```. Nous allons plutôt utiliser   ```Filter ```.
 
-Instantly, all the nodes with the values ```CHE``` are removed from the visualization
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/G_5.png)
 
-We can see on the bottom right corner, a symbol for the filter we added to the visualization is created.
+Instantanément, tous les noeuds avec les valeurs ```CHE```sont supprimées de la visualisation.
 
-Filtering is a great way to remove unimportant information from a visualization. Use it accordingly!
+Nous pouvons voir dans le coin en bas à droite de l'écran qu'un symbole est créé pour le filtre que nous avons ajouté à la visualisation.
+
+Filtrer est une bonne manière de retirer de l'information non pertinente d'une visualisation. Utilisé-le à ces fins!
+
+
