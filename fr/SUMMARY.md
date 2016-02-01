@@ -31,7 +31,7 @@
 * [Style](style/README.md)
    * [Légendes](style/captions.md)
    * [Tooltips](style/tooltip.md)
-   * [Default colors](style/default-colors.md)
+   * [Couleurs par défaut](style/default-colors.md)
    * [Color nodes](style/color-nodes.md)
    * [Color edges](style/color-edges.md)
    * [Sizing the nodes](style/size-nodes.md)
