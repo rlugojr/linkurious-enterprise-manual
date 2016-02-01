@@ -1,18 +1,19 @@
-## Customize the tooltips
+## Personnaliser le tooltip
 
-When you right-click on a node or an edge, you can view its properties in a pop-up menu called a tooltip.
+Lorsque vous faites un clique-droit sur un noeud ou un lien, vous pouvez voir ses propriétés dans un menu pop-up appelé tooltip.
 
-![](TooltipPix.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/TooltipPix.png)
 
-We can see that our node is a ```Company``` whith the  ```/organization/instagram``` permalink
+Nous pouvons voir que notre noeud est une ```Company```avec le lien  ```/organization/instagram```.
 
-It is possible to customize the content of the tooltip and to display only certain properties.
+Il est possible de personnaliser le contenu du tooltip et d'afficher seulement certaines propriétés.
 
-In order to customize this, we need to open the design panel on the right and we go to the ```Tooltips``` tab.
+Pour ce faire, nous devons ouvrir le design panel à droite et cliquer sur l'onglet ```Tooltips``` (cercle vert):
 
-![](TooltipCustomize.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/TooltipCustomize.png)
 
- We can see the different properties of the nodes of our visualization. By default all the properties are ```on``` and are thus displayed. In the bottom of the screen, it is possible to do the same with the edges.
+Nous pouvons alors voir les différentes propriétés des noeuds de notre visualisation. Par défaut, toutes les propriétés sont activées ```on``` et donc affichées. En bas de l'écran, il est possible de faire de même avec nos liens.
 
-We can turn off the properties you do not want to display. 
+Nous pouvons désactiver une propriété que nous ne souhaitons pas afficher.
+
 
