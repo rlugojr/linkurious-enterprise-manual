@@ -1,5 +1,6 @@
-## Combining different filters
+## Combiner différents filtres
 
-We have seen that it is possible to filter nodes or edges according to a single property. What if we want to also filter the visualization according to a second property? Linkurious Enterprise makes it possible to combine filters to do just that.
+Nous avons vu qu'il était possible de filtrer les noeuds et les relations selon une seule propriété. Qu'en est-il si nous souhaitons filtrer selon une seconde propriété? Linkurious Enterprise rend possible la combinaison de filtres.
 
-Simply create a filter after the next and voilà, you can combine filters.
+Il suffit de créer les filtres les uns après les autres, et voilà, vous combinez les filtres!
+
