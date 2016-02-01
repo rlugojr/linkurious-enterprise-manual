@@ -1,8 +1,9 @@
-## Coloring the edges according to a property
+## Colorer les liens selon une propriété
 
-Coloring the edges works exactly the same than coloring nodes as presented previously.
+Colorer les liens fonctionne exactement de la même manière que colorer les noeuds comme présenter précédemment.
 
-If all your edges have the same color, it is difficult to distinguish differences between them without looking at their individual properties. A great way to circumvent that issue is to choose to color the edges according to a certain property.
+Si tous les liens ont la même couleur, il est difficile de distinguer des différences entre eux sans se pencher sur leurs propriétés individuelles. Une bonne manière de contourner celà est de choisir de colorer les liens selon une propriété particulière. 
+
 
 First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab. We can see all edge properties. We click on the ```edges``` tab on the bottom.
 
