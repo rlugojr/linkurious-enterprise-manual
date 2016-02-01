@@ -6,7 +6,7 @@ For example, our nodes may have a ```country``` property that we would like to h
 
 This way, a French and a German start-up will have different colors. It will be easier to distinguish them visually.
 
-In the picture below, we see the start-ups and investors Twitter is connected to. At first glance we have no idea where they are coming from.
+In the picture below, we see that the start-up Twitter is connected to many investors. At first glance we have no idea where those investors are coming from.
 
 ![](SinColor.png)
 
