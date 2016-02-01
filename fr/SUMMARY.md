@@ -41,7 +41,7 @@
    * [Filtrer des noeuds](filter/nodes.md)
    * [Filtrer des relations](filter/edges.md)
    * [Combiner les filtres](filter/combine.md)
-   * [Supprimer les filtres](filter/remove.md)
+   * [Retirer les filtres](filter/remove.md)
 * [Edit](edit/README.md)
    * [Edit properties and categories](edit/edit.md)
    * [Create nodes and edges](edit/add.md)
