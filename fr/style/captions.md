@@ -1,21 +1,22 @@
-## Customize the captions
+## Personnaliser les légendes
 
-Linkurious Enterprise lets you choose which of the properties of your nodes and edges should be displayed on the canvas.
+Linkurious Enterprise vous laisse choisir quelles propriétés de vos noeuds et relations seront affichées dans le canevas. 
 
-On the example below, only the ```names``` of the nodes are displayed by Linkurious Enterprise. In order to customize this, we need to open the ```design panel``` on the right.
- 
-On the ```Captions``` tab, we can see the different properties of the nodes in our graph. The ```name``` property is first. In the bottom of the screen, it is possible to select the edges.
+Dans l'exemple ci-dessous, seuls les ```noms``` des noeuds sont affichés par Linkurious Enterprise. Pour personnaliser celà, nous avons besoin d'ouvrir le ```design panel``` à droite.
 
-![](1.png)
+Dans l'onglet ```Captions```, nous pouvons voir les différentes propriétés des noeuds de notre graphe. La propriété ```name``` est la première. En bas de l'écran, il est possible de sélectionner les relations (edges, encadré rouge).
 
-For example, we want to show the ```country``` in the visualization. To do it, we click on ```country``` and it will be added to the displayed properties listed in the dotted area.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/1.png)
 
-![](2.png)
+Par exemple, nous choisissons de faire apparaître la propriété ```pays``` dans notre visualisation. Pour ce faire, nous cliquons sur ```country```et la propriété sera ajoutée à la liste des propriétés affichées, listées dans la partie pointillée.
 
-The text displayed next to your node changes. Instead of  ```Instagram``` we have the information ```Instagram - USA```.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/2.png)
 
-The same approach can be used for the edges.
+Le texte affiché à côté du noeud change. A la place de ```Luma.io``` nous avons l'information ```Luma.io - USA```.
+La même approche peut-être utilisée pour personnaliser les informations affichées pour les relations.
 
-> Linkurious Enterprise will use the properties in the order it appears in the list. Placing the cursor on one property, we have the possibility to change the order or to remove a property. If a node doesn't have a property, Linkurious Enterprise will look for the next property, etc.
 
-![](3.png)
+> Linkurious Enterprise utilisera les propriétés dans leur ordre d'apparition dans la liste. En plaçant le curseur sur une propriété, il est possible de changer la position d'une propriété ou de la supprimer. Si un noeud n'a pas une des propriétés de la liste, Linkurious Enterprise affichera la propriété suivante et ainsi de suite.
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/3.png)
+
