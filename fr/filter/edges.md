@@ -18,6 +18,6 @@ Nous voulons seulement voir le funded_at avec le code ```03/06/2014```. Cochons 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/Final.png)
 
-Les relations avec  ```03/06/2014``` et ```funded_at``` sont affichées. Les autres valeurs ```funded_at``` sont supprimées de la visualisation et le symbole du filtre ajouté est ajouté en bas de l'écran.
+Les relations avec  ```03/06/2014``` et ```funded_at``` sont affichées. Les autres valeurs ```funded_at``` sont supprimées de la visualisation et le symbole du filtre ajouté apparait en bas de l'écran.
 
 
