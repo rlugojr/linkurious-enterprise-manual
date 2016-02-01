@@ -4,7 +4,7 @@ At some point in our graph exploration, we may want to focus on a specific part 
 
 Filters enable us to select or hide multiple nodes or edges at once according to a specific property.
 
-In the graph below, we see the company [Grabit](http://www.banexiventures.com/), a small firm form the USA, has invested in.
+In the graph below, we see the companies who have invested in [Grabit](http://www.banexiventures.com/) small firm form the USA.
 
 ![](G_1.png)
 
