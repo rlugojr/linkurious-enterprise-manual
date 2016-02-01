@@ -1,31 +1,33 @@
-## Sizing the nodes according to a property
+## Dimensionner les noeuds selon une propriété
 
-By default all the nodes have the same size. It is possible though to choose to map the size of nodes to certain properties. This way it will be possible to visualize that property.
+Par défaut, tous les noeuds ont la même taille. Il est possible cependant de dimensionner la taille des noeuds selon une certaine propriété. Il sera alors possible d'apprécier la valeur de cette propriété selon la taille du noeud.
 
-This technique only applies to quantitative properties.
+Cette technique s'applique seulement à des propriétés qualitatives.
 
-This works similarly to the coloring functionality of Linkurious Enterprise. Coloring and sizing can be combined to make powerful visualizations.
+Dimensionner les noeuds fonctionne de la même manière que la fonctionnalité Colorer un noeud de Linkurious Enterprise. Les options Colorer et Dimensionner peuvent êtres combinées pour obtenir des visualisations plus pertinentes. 
 
-For example [Andreessen Horowitz](http://a16z.com/) is a leading VC firm with 127 relationships to different companies it has funded. Which companies have received the most funding? Hard to know by simply looking at this graph.
+Par exemple [Andreessen Horowitz](http://a16z.com/) est une entreprise leader avec 127 relations à différentes compagnies qu'elle a financé. Quelles compagnies ont reçues les fonds les plus importants? Il est difficile de le savoir en regardant simplement le graphe.
 
-![](A.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/A.png)
 
-We are going to size the different companies according to their ```funding_total``` property in order to visualize which are the most successful.
+Nous allons dimensionner les différentes compagnies selon leur propriété ```funding_total``` afin de savoir qui a le plus de succès. 
 
-We click on the upper right corner to open up the design panel.
+Nous cliquons dans le coin en haut à droite de l'écran pour ouvrir le design panel.
 
-We move the mouse to ```funding_total```. In addition to being able to color the nodes according to that property, it is possible to size the nodes. Linkurious Enterprise can do that for any property that has numerical values.
 
-We are going to select the ```Size``` icon.
+Nous déplaçons la souris sur ```funding_total```. En plus de pouvoir colorer les noeuds selon cette propriété, il est également possible de les dimensionner. Linkurious Enterprise peut faire ça pour toutes les propriétés ayant des valeurs numériques.
 
-![](B.png)
+Nous allons sélectionner l'icône taille (```Size```).
 
-A new menu appears. It makes it possible to set the ```Min/max size difference```, the difference in size between the node with the lowest value and the node with the highest value.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/B.png)
 
-If we want to view the difference in ```funding_total``` we set the ```Min/max size difference``` to ```12```.
 
-![](C.png)
+Un nouveau menu apparaît. Il permet de paramètrer la ```Min/max size difference```, la différence de taille entre le noeud ayant la plus petite valeur et le noeud ayant la plus grande valeur.
 
-Now we can see that few outliers appear as nodes larger than the other nodes.
+Si nous voulons voir la différence en ```funding_total``` nous paramétrons le  ```Min/max size difference``` à ```12```.
 
-The larger nodes represent companies like Airbnb, Box, Pinterest or Zynga. We can quickly identify them as the most successful investments of Andreessen Horowitz.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/C.png)
+
+Maintenant nous pouvons voir que certains noeuds apparaissent plus grands que d'autres.
+
+Les noeuds les plus grands représentent les compagnies AirBnB, Box, Pinterest ou Zyga. Nous pouvons rapidement les identifier comme les meilleurs investissements de Andreessen Horowitz. 
