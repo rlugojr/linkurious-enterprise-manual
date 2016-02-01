@@ -1,17 +1,17 @@
-## Remove filters
+## Supprimer les filtres
 
-So we have applied one or several filters to your visualization. Maybe it was a mistake or maybe we want to go back a step. How to remove a filter?
+Nous avons appliqué un ou plusieurs filtres à notre visualisation. Peut-être était-ce une erreur ou peut-être désirons nous faire un pas en arrière. Comment retirer un filtre?
 
-An icon for each filter we create is added on the bottom right corner of the screen. The first filter is on the right and the latest on the left.
+Une icône pour chaque filtre créé est ajoutée en bas à droite de l'écran. Le premier filtre se trouve à droite et le dernier à gauche.
 
-![](R1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/R1.png)
 
-In this visualization, there are two filters. The nodes are filtered according to the ```country``` property. The edges are filtered according to the ```funding_at``` property
+Dans cette visualisation, il y a deux filtres. Les noeuds sont filtrés selon la propriété ```country``` et les liens delon la propriété  ```funded_at```.
 
-To remove the ```country``` filter, we click on the cross next to its icon.
+Pour supprimer le filtre ```country``` nous cliquons sur la croix à côté de l'icône.
 
-![](R2.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/R2.png)
 
-The filter is instantly removed. The nodes it hid are then added back to the visualization. The **other** filter remain active.
+Le filtre est instantanément retiré. Les noeuds alors cachés sont de nouveau ajoutés à la visualisation. Les autres filtres restent actifs. 
 
-![](R3.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/R3.png)
