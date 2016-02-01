@@ -37,7 +37,7 @@
    * [Dimensionner les noeuds](style/size-nodes.md)
    * [Dimensionner les liens](style/size-edges.md)
    * [Icônes](style/icons.md)
-* [Filter](filter/README.md)
+* [Filtrer](filter/README.md)
    * [Filter nodes](filter/nodes.md)
    * [Filter edges](filter/edges.md)
    * [Combine filters](filter/combine.md)
