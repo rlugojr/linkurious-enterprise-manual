@@ -1,24 +1,23 @@
-## Filtering the edges according to a property
+## Filtrer des relations selon une propriété
 
-We have seen it is possible to use filters to select or remove specific nodes in our visualization according to a property. It is possible to do the same thing with edges.
+Nous avons vu qu'il est possible d'utiliser des filtres pour sélectionner ou supprimer des noeuds spécifiques dans notre visualisation selon une propriété. Il est possible de faire la même chose avec les relations.
 
-![](Example.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/Example.png)
 
-In the graph below we see the connections of Grabit. Each edge represents an investment in a start-up. But what kind of investment?
+Dans le graphe ci-dessous, nous voyons les connections de Grabit. Chaque relation représente un investissement dans une start-up mais quel type d'investissement?
 
-We can open up the design panel to investigate. Let's select ```Edges``` on the bottom right corner.
+Nous pouvons ouvrir le design panel pour investiguer ce point. Sélectionnons ```Edges``` dans le coin en bas à droite.
 
-We can see the different properties attached to the edges in our dataset.
+Nous pouvons voir les différentes propriétés rattachées aux relations de notre set de données.
 
-We are going to focus on the ```funded_at```. Let's click on it.
+Nous allons nous concentrer sur la propriété ```funded_at```. Cliquons dessus.
 
-![](FundedAt.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/FundedAt.png)
 
-We want to view only the funded_at with the ```03/06/2014``` code. Let's check the checkbox to keep only ```03/06/2014``` and click on ```Filter ```.
+Nous voulons seulement voir le funded_at avec le code ```03/06/2014```. Cochons la case pour seulement garder  ```03/06/2014``` et cliquons sur ```Filter ```.
 
-![](Final.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/Final.png)
 
-
-The relationships with the ```03/06/2014``` ```funded_at``` are displayed. The other ```funded_at``` values are removed from the visualization and a filter symbol is added on the bottom right corner.
+Les relations avec  ```03/06/2014``` et ```funded_at``` sont affichées. Les autres valeurs ```funded_at``` sont supprimées de la visualisation et le symbole du filtre ajouté est ajouté en bas de l'écran.
 
 
