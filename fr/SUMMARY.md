@@ -32,7 +32,7 @@
    * [Légendes](style/captions.md)
    * [Tooltips](style/tooltip.md)
    * [Couleurs par défaut](style/default-colors.md)
-   * [Color nodes](style/color-nodes.md)
+   * [Colorer les noeuds](style/color-nodes.md)
    * [Color edges](style/color-edges.md)
    * [Sizing the nodes](style/size-nodes.md)
    * [Sizing the edges](style/size-edges.md)
