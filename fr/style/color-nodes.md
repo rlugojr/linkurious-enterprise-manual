@@ -1,28 +1,29 @@
-## Coloring the nodes according to a property
+## Colorer les noeuds en fonction d'une propriété
 
-If all your nodes or edges have the same color, it is difficult to distinguish differences between them without looking at their individual properties. A great way to circumvent that issue is to choose to color the nodes according to a certain property.
+Si tous les noeuds ou relations ont la même couleur, il est difficile de distinguer des différences entre eux sans se pencher sur leurs propriétés individuelles. Une manière simple de contourner ce problème est de choisir de colorer les noeuds selon une propriété particulière.
 
-For example, our nodes may have a ```country``` property that we would like to highlight, thus Linkurious Enterprise enables us to color the nodes according to a particular property, here ```country```.
+Par exemple, nos noeuds peuvent avoir une propriété ```country``` que nous souhaiterions mettre en avant. Linkurious Enterprise nous permet donc de colorer les noeuds selon une certaine propriété, ici la propriété ```country```.
 
-This way, a French and a German start-up will have different colors. It will be easier to distinguish them visually.
+De cette manière, une start-up française et une start-up allemande auront deux couleurs différentes. Il sera alors plus simple de les distinguer.
 
-In the picture below, we see the start-ups and investors Twitter is connected to. At first glance we have no idea where they are coming from.
+Dans l'image ce-dessous, nous pouvons voir que la start-up Twitter est connectée à de nombreux investisseurs . A première vue, nous n'avons aucune idée d'où viennent ces investisseurs.
 
-![](SinColor.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/SinColor.png)
 
-First of all, let's open the design panel on the right corner of the screen and hit the ```Design``` tab. We can see all node properties. We click on the ```color``` button along the property ```country``` to color nodes by this property.
 
-![](Colors.png)
+Premièrement, ouvrons le design panel dans le coin à droite de l'écran et sélectionnons l'onglet ```Design```. Nous pouvons alors voir toutes les propriétés des noeuds. Nous cliquons sur ```color```à côté d'une propriété pour colorer les noeuds selon cette propriété. 
 
-We see:
-* the different values associated with the ```country``` property (CAN, GBR, JPN, RUS, USA);
-* the number of occurences of each value there is (there are 20 nodes with the value ```USA```);
-* which color is associated to which value (```USA``` is green)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/Colors.png)
 
-Notice that the nodes that do not have a ```country``` property remain in grey.
+Nous pouvons voir:
+* les différentes valeurs associées à la propriété ```country``` (CAN, GBR, JPN, RUS, USA);
+* le nombre d'occurence de chacune des valeurs (il y a 20 noeuds ayant la valeur ```USA```);
+* quelle couleur est associée à quelle valeur (```USA``` est en vert)
 
-To color the nodes according to another property, we first unset colors by clicking on the same ```color``` button:
+Notez que les noeuds n'ayant pas la propriété ```country``` restent en gris. 
 
-![](Unset.png)
+Pour colorer les noeuds selon une autre propriété, nous devons d'abord désactiver les couleurs pour la propriété Country en cliquant à nouveau sur le bouton ```color``` :
 
-Then, we can click on the ```color``` button of another property.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/Unset.png)
+
+Puis nous cliquons sur le bouton ```color``` d'une autre propriété. 
