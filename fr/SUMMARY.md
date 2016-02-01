@@ -40,7 +40,7 @@
 * [Filtrer](filter/README.md)
    * [Filtrer des noeuds](filter/nodes.md)
    * [Filtrer des relations](filter/edges.md)
-   * [Combine filters](filter/combine.md)
+   * [Combiner les filtres](filter/combine.md)
    * [Remove filters](filter/remove.md)
 * [Edit](edit/README.md)
    * [Edit properties and categories](edit/edit.md)
