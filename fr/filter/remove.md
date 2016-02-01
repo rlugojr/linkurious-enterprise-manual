@@ -1,4 +1,4 @@
-## Supprimer les filtres
+## Retirer les filtres
 
 Nous avons appliqué un ou plusieurs filtres à notre visualisation. Peut-être était-ce une erreur ou peut-être désirons nous faire un pas en arrière. Comment retirer un filtre?
 
