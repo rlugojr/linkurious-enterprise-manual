@@ -29,7 +29,7 @@
    * [Agencements](manipulate/layouts.md)
    * [Raccourcis](manipulate/shortcuts.md)
 * [Style](style/README.md)
-   * [Captions](style/captions.md)
+   * [Légendes](style/captions.md)
    * [Tooltips](style/tooltip.md)
    * [Default colors](style/default-colors.md)
    * [Color nodes](style/color-nodes.md)
