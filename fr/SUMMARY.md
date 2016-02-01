@@ -36,7 +36,7 @@
    * [Colorer les liens](style/color-edges.md)
    * [Dimensionner les noeuds](style/size-nodes.md)
    * [Dimensionner les liens](style/size-edges.md)
-   * [Icons](style/icons.md)
+   * [Icônes](style/icons.md)
 * [Filter](filter/README.md)
    * [Filter nodes](filter/nodes.md)
    * [Filter edges](filter/edges.md)
