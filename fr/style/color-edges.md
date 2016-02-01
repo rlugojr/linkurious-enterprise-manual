@@ -17,7 +17,7 @@ Nous pouvons voir:
 * le nombre d'occurence de chacune des valeurs (il y a 39 liens avec la valeur ```INVESTED_IN```);
 * quelle couleur est associée à quelle valeur (```ACQUIRED``` est en bleu)
 
-Pour colorer les liens selon une autre propriété, nous devons d'abord désactiver la couleur pour la propriété colorée en cliquant à nouveau sur le bouton  ```color```.
+Pour colorer les liens selon une autre propriété, nous devons d'abord désactiver les couleurs pour la propriété Type en cliquant à nouveau sur le bouton ```color``` :
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/Change.png)
 
