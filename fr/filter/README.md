@@ -1,6 +1,8 @@
-# Filter
+# Filtrer
 
-In this chapter, we'll learn how to filter the nodes or edges within a visualization according to their properties.
+Dans ce chapitre, nous allons apprendre comment filtrer les noeuds et relations d'une visualisation selon leur propriétés.
 
-This technique will help you focus on the relevant information in your graph and avoid information overload.
+Cette technique va nous permettre de focaliser sur l'information pertinente de notre graphe et d'éviter toute surcharge d'information.
+
+
 
