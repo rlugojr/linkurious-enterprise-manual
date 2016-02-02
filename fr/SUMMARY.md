@@ -42,7 +42,7 @@
    * [Filtrer des relations](filter/edges.md)
    * [Combiner les filtres](filter/combine.md)
    * [Retirer les filtres](filter/remove.md)
-* [Edit](edit/README.md)
+* [Editer](edit/README.md)
    * [Edit properties and categories](edit/edit.md)
    * [Create nodes and edges](edit/add.md)
    * [Remove nodes and edges](edit/remove_an_ode_or_an_edge.md)
