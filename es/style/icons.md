@@ -1,6 +1,6 @@
 # Iconos
 
-Para obtener una visualización más intuitiva, Linkurious Enterprise le permite cambiar la apariencia de los nodos mediante un conjunto de iconos proporcionados por ```Font Awesonme``` (https://fortawesome.github.io/Font-Awesome/)
+Para obtener una visualización más intuitiva, Linkurious Enterprise le permite cambiar la apariencia de los nodos mediante un conjunto de iconos proporcionados por ```Font Awesome``` (https://fortawesome.github.io/Font-Awesome/)
 
 Hacemos clic en la esquina del espacio de trabajo para abrir el panel de diseño y seleccionamos la pestaña ```Nodes```.
 
