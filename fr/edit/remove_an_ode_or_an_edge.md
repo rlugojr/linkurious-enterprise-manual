@@ -16,7 +16,7 @@ Si nous souhaitons supprimer un noeud de notre visualisation, nous sélectionnon
 
 ###Supprimer une relation
 
-Si nous souhaitons supprimer une relation de notre visualisations, nous sélections la relations que nous souhaitons supprier en cliquant dessus puis deux options sont possibles:
+Si nous souhaitons supprimer une relation de notre visualisation, nous sélections la relation que nous souhaitons supprimer en cliquant dessus puis deux options sont possibles:
 
 
 - Cliquer sur ```Hide``` dans le menu à gauche comme montrer ci-dessous
