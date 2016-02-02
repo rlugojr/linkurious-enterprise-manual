@@ -1,50 +1,52 @@
-## Edit properties and categories
+## Editer les propriétés et les catégories
 
-Properties are key-value information stored in nodes and edges. It can be the name of a company for instance. Categories are special information to tag nodes and edges. Nodes can be of category Investor or Company, or both.
+Les propriétés sont des valeurs clés des informations stockées dans les noeuds et les relations. Il peut s'agir du nom d'une compagnie par exemple. Les catégories sont des informations spécifiques permettant d'étiqueter les noeuds et les relations. Un noeud peut être de la catégorie Investisseur (investor) ou Compagnie (company), ou les deux.
+
 
 <div class="alert alert-info">
-    In Neo4j databases, edges have one and only one category. It is not possible to modify it.
+    Dans la base de données Neo4j, les relations ont une seule catégorie et il n'est pas possible de la modifier. 
 </div>
 
-###Edition Mode
+### Mode Edition
 
-First of all we need to switch the edition mode to ```On``` in the top left corner.
+Premièrement, nous avons besoin d'activer le mode édition en cliquant sur ```On``` dans le coin en haut à gauche.
 
-![](E1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E1.png)
 
-###Editing or removing a property
+###Editer ou supprimer une propriété
 
-Now if we select a node or an edge and move the mouse cursor next to a property, we can ```Edit``` or ```Delete``` it.
+Maintenant, si nous sélectionnons un noeud ou une relation et que nous déplaçons le curseur sur une propriété, nous pouvons soit ```l'éditer``` (edit) ou la ```supprimer``` (delete)
 
-![](E2.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E2.png)
 
-If we click on ```Edit```, we can change the value of the property.
-When we are finished, we  click on  ```Save```. Here we will edit the Name of the Company.
+Si nous cliquons sur  ```Edit```, nous pouvons changer la valeur de la propriété. 
+Lorsque nous avons terminé, nous cliquons sur ```Save```. Ici, nous allons éditer le nom de la compagnie.
 
-![](E_3.png)
-![](E4.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E3.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E4.png)
 
-If you wish to delete a property, simply click on ```Delete```.
+Si vous souhaitez supprimer une propriété, il suffit de cliquer sur  ```Delete```.
 
-###Editing or removing a category
+###Editer ou supprimer une catégorie
 
-It is possible to add or remove a category from a node.
+Il est possible d'ajouter ou de supprimer une catégorie d'un noeud.
 
-![](E5.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E5.png)
+
+Cliquez sur le symbole ```x``` à côté de la catégorie pour la supprimer. 
+
+Pour ajouter une catégorie, nous cliquons sur ```+```. Par exemple, nous pourrions être intéressé à ajouter dans notre graphe l'activité des investisseurs. 
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E6.png)
+
+Ici, nous avons ajouté la catégorie Angel Investor pour préciser le champ d'activité de la compagnie Ron Conway.
+
+Nous entrons la nouvelle catégorie, ici  ```Angel Investor``` et cliquons sur ```Save```.
+
+La catégorie est ajoutée.
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E7.png)
 
 
-Click on the ```x``` next to the category to remove it.
-
-To add a category, we click on ```+```. For example, we, might be interested to add in our graph the activity of the investors. 
-
-![](E6.png)
-
-Here we had the category Angel Investor to precise the field of work of the company Ron Conway
-
-We type the new category, here  ```Angel Investor```. We hit ```Save```.
-
-The category is added.
-
-![](E7.png)
 
 
