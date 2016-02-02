@@ -1,6 +1,6 @@
 # Icônes
 
-Afin d'obtenir une visualisation plus intuitive, Linkurious Enterprise vous permet de changer l'apparance des noeuds avec un set d'icône fourni par ```Font Awesonme``` (https://fortawesome.github.io/Font-Awesome/)
+Afin d'obtenir une visualisation plus intuitive, Linkurious Enterprise vous permet de changer l'apparance des noeuds avec un set d'icône fourni par ```Font Awesome``` (https://fortawesome.github.io/Font-Awesome/)
 
 Nous cliquons dans le coin à droite du Workspace afin d'ouvrir le Design panel et nous sélectionnons l'onglet Nodes.
 
