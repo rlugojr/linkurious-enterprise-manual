@@ -1,3 +1,3 @@
-# Manage
+# Gestion des visualisations
 
-In this chapter, we'll learn how to save and share the visualization created with Linkurious Enterprise.
+Dans ce chapitre, nous allons apprendre comment sauvegarder at partager une visualisation créée avec Linkurious Enterprise.
