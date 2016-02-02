@@ -1,24 +1,27 @@
-## Remove nodes and edges
+## Supprimer des noeuds et des relations
 
-###Remove a node
-
-If we want to remove a node from our visualization, we select the node we are interested in removing by clicking on it then either:
-
-- Hit the ```Hide``` button on the left panel as below:
-- By a right-click, we also can access to the ```Hide``` button
+###Supprimer un noeud
 
 
-![](X1.png)
-![](X2.png)
+Si nous souhaitons supprimer un noeud de notre visualisation, nous sélectionnons le noeud que nous souhaitons supprimer en cliquant dessus puis deux options sont possibles:
 
-###Remove an edge
+- Cliquer sur ```Hide``` dans le menu à gauche comme montrer ci-dessous
+- Utiliser un clic droit, le bouton ```Hide``` est alors également disponible
 
-If we want to remove an edge from our visualization, we select the edge we are interested in removing by clicking on it then either:
 
-- Hit the ```Hide``` button on the left panel as below:
-- By a right-click, we also can access to the ```Hide``` button
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/X1.png)
 
-![](Y1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/X2.png)
 
-![](Y2.png)
 
+###Supprimer une relation
+
+Si nous souhaitons supprimer une relation de notre visualisations, nous sélections la relations que nous souhaitons supprier en cliquant dessus puis deux options sont possibles:
+
+
+- Cliquer sur ```Hide``` dans le menu à gauche comme montrer ci-dessous
+- Utiliser un clic droit, le bouton ```Hide``` est alors également disponible
+
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/Y1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/Y2.png)
