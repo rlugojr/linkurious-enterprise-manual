@@ -44,7 +44,7 @@
    * [Retirer les filtres](filter/remove.md)
 * [Editer](edit/README.md)
    * [Editer les propriétés et les catégories](edit/edit.md)
-   * [Create nodes and edges](edit/add.md)
+   * [Créer des noeuds et des relations](edit/add.md)
    * [Remove nodes and edges](edit/remove_an_ode_or_an_edge.md)
 * [Manage](manage/README.md)
    * [Autosave](manage/autosave.md)
