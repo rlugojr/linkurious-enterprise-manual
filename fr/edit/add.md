@@ -1,44 +1,47 @@
-## Create new nodes and edges
+## Créer des nouveaux noeuds et de nouvelles relations
 
-On the ```more options``` panel, we can choose to create either a node or an edge
+Dans le menu ```more options``` nous pouvons choisir de créer soit un noeud, soit une relation.
 
-![](A1.png)
-
-### Create a node
-
-We enter a value for the ```Categories```here Investor and hit add. 
-
-![](A2.png)
-
-Then for each property we can fill the corresponding value. When it is done, we click on the ```Save``` button.
-.
-
-![](A3.png)
-
-Here we entered the value ```Paris``` for the City property, the value ```France``` for the Country property and the value ```NewInvestor``` for the Name property.
-
-![](A5.png)
-
-We can see the node created ```NewInvestor``` added to our graph.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A1.png)
 
 
-### Create an edge
+### Créer un noeud
 
-We have to provide the following information :
+Nous entrons la valeur pour ```Categories```, ici Investor et nous cliquons sur ```add```. 
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A2.png)
+
+Ensuite, nous pouvons remplir la valeur correspondant à chacune des propriétés. Quand nous avons terminé, nous cliquons sur ```Save```.
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A3.png)
+
+Ici nous entrons la valeur ```Paris``` pour la propriété  City, la valeur ```France``` pour la propriété Country et la valeur ```NewInvestor``` pour la propriété Name.
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A5.png)
+
+Nous pouvons voir que le noeud  ```NewInvestor``` a été créé et ajouté à notre graphe. 
+
+
+### Créer une relation
+
+Nous devons fournir les informations suivantes:
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A6.png)
 
 ![](A6.png)
 
-* ```Type```: the type of relationship;
-* ```Source```: the source of the relationship;
-* ```Target```: the destination of the relationship.
+* ```Type```: le type de la relation;
+* ```Source```: le noeud d'origine de la relation;
+* ```Target```: le noeud cible de la relation.
 
-Like for the nodes, we can add as many properties as we want to the edge. When we are done, we click on the ```Save``` button.
+Tout comme pour les noeuds, nous pouvons ajouter autant de propriétés que nous le souhaitons à une relation. Quand nous avons terminé, nous cliquons sur ```Save```.
 
-Here we entered the value ```Twitter``` for the Source, the value ```INVESTED_IN``` for the Type property and the value ```NewInvestor``` for the Target and finally ```2015``` for the ```funded_year``` property.
+Ici nous avons entré la valeur  ```Twitter``` pour le noeud d'origine, la valeur ```INVESTED_IN``` pour le type de relation et la valeur ```NewInvestor``` pour le noeud cible et finalement ```2015``` pour la propriété ```funded_year``` .
 
 
-Finally, we can see in our graph our new node and our new edge:
+Nous pouvons voir dans notre graphe notre nouveau noeud et notre nouvelle relation.
 
-![](A8.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A8.png)
 
-It is also possible to create a new edge between two nodes by selecting those two nodes, right-clicking on the visualization background to display the context menu, then choose ```Create a new edge```. The source and target nodes will be filled.
+
+Il est possible de créer une nouvelle relation entre deux noeuds en sélectionnant ces deux noeuds, faitez un clic droit sur le fond de la visualisation et un menu est apparaît, puis choisissez ```Create a new edge```. Le noeud d'origine et le noeud cible sont alors mentionnés. 
