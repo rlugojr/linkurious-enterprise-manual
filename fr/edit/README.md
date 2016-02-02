@@ -1,3 +1,5 @@
-# Edit
+# Editer
 
-In this chapter, we will learn to edit, add and remove nodes or edges to our graph.
+Dans ce chapitre, nous allons apprendre à éditer, ajouter et supprimer des noeuds et des relations dans notre graphe.
+
+
