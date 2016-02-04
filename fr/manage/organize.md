@@ -1,44 +1,44 @@
-## Organize visualizations
+## Organiser les visualisations
 
-Visualizations are by default added to the Dashboard. From the dashboard we can delete, rename or open a visualization.
+Les visualisations sont par défaut ajoutées au tableau de bord. A partir du tableau de bord, il est possible de les supprimer, de les renommer ou de les ouvrir.
 
-We can also organize the visualizations in folders.
+Nous pouvons également organiser les visualisations en dossiers.
 
-### Open, rename or delete a visualization
+### Ouvrir, renommer ou supprimer une visualisation
 
-The following actions are possible either when we right-click on a visualization or on the right menu of the dashboard:
-* open: opens the visualization where you left it (with the colors, sizes and filters);
-* share: shares the visualization;
-* move to: moves to a folder;
-* duplicate: duplicates the visualization;
-* rename: renames the visualization;
-* delete: deletes the visualization.
+Les actions présentées ci-dessous sont accessibles soit par le clic-droit sur une visualisation soit dans le menu à droite du tableau de bord:
 
+* ```open```: ouvre la visualisation telle que vous l'avez laissée (couleurs, tailles et filtres activés);
+* ```move to```: déplacer la visualisation dans un dossier;
+* ```duplicate```: dupliquer la visualisation;
+* ```rename```: renommer la visualisation;
+* ```delete```: supprimer la visualisation.
 
-![](ListPossibilities.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/ListPossibilities.png)
 
-### Arrange visualizations in folders
+### Organiser les visualisations dans des dossiers
 
-To create a folder, we either right-click on the dashboard background or in the right menu ```Create folder```.
+Pour créer un dossier, nous pouvons soit effectuer un clic-droit sur le fond du tableau de bord soit parcourir le menu de droite et cliquer sur ```Create folder```.
 
-![](Create.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Create.png)
 
-We enter the name of our folder.
+Nous entrons le nom de notre dossier.
 
-![](NameFolder.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/NameFolder.png)
 
-We hit ```Save```. Our folder is created.
+Nous cliquons sur ```Save```. Notre dossier est créé.
 
-![](FolderCreated.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/FolderCreated.png)
 
-We open the folder by clicking on it. If we want to move a visualization into the folder we used the actions ```move to``` when right-clicking on our visualization: 
+Nous ouvrons le dossier en cliquant dessus. Si nous souhaitons déplacer une visualisation dans le dossier nous utilisons l'action ```Move to``` qui apparait lorsque l'on clic-droit sur une visualisation. 
 
-![](MoveTo.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/MoveTo.png)
 
-We select the folder we want to move to our visualization:
+Nous sélectionnons le dossier où nous souhaitons placer la visualisation:
 
-![](MTF1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/MTF1.png)
 
-The visualization has been moved to the folder.
+La visualisation a été déplacée dans le dossier:
 
-![](Folder.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Folder.png)
+
