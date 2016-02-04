@@ -6,7 +6,7 @@ Lorsque nous travaillons sur une visualisation, nous pouvons la sauvegarder en u
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/AutosaveName.png)
 
-Nous pouvons accéder à une visualisation sauvegardée via le tableau de bord Linkurious Enterprise
+Nous pouvons accéder à une visualisation sauvegardée via le tableau de bord Linkurious Enterprise.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/AutosaveDashboard.png)
 
