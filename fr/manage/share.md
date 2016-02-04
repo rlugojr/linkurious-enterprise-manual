@@ -1,13 +1,14 @@
-## Share
+## Partager
 
-It is possible to share a visualization with an other Linkurious Enterprise user. People we share a visualization with will be able to access it through the interface.
-If we right-click on a visualization, we can share it as follows:
+Il est possible de partager une visualisation avec un autre utilisateur Linkurious Enterprise. Les personnes avec qui vous partagez une visualisation pourrons alors y accèder par l'interface.
+Si nous faisons un clic-droit sur la visualisation, nous pouvons la partager de cette manière:
 
-![](Share Option.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Share_Option.png)
 
-We click on the ```Share``` menu and type the username or email of the person we want to share the visualization with.
+Nous cliquons sur ```Share``` dans le menu et entrons le nom ou le mail de la personne avec qui nous voulons partager la visualisation. 
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Share_Option.png)
+
+Nous pouvons alors donner uniquement des droits de lecture ou autoriser la modification.
 
 
-![](Share_Option.png)
-
-We can give read-only rights or allow modifications.
