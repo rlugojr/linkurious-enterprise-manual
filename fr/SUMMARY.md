@@ -48,7 +48,7 @@
    * [Supprimer des noeuds et des relations](edit/remove_an_ode_or_an_edge.md)
 * [Gestion des visualisations](manage/README.md)
    * [Sauvegarde automatique](manage/autosave.md)
-   * [Organize](manage/organize.md)
+   * [Organiser](manage/organize.md)
    * [Duplicate](manage/Duplicate.md)
    * [Share](manage/share.md)
    * [Publish](manage/Publish.md)
