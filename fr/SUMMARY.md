@@ -49,7 +49,7 @@
 * [Gestion des visualisations](manage/README.md)
    * [Sauvegarde automatique](manage/autosave.md)
    * [Organiser](manage/organize.md)
-   * [Duplicate](manage/Duplicate.md)
+   * [Dupliquer](manage/Duplicate.md)
    * [Share](manage/share.md)
    * [Publish](manage/Publish.md)
    * [Export](manage/export.md)
