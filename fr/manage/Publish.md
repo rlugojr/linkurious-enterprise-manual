@@ -1,29 +1,31 @@
-# Publish
+# Publier
 
-Linkurious Enterprise offers the possibility to publish interactive visualizations online. Published visualizations can be accessed with an URL or embedded in a web page à la Google Maps. They contain a snapshot of graph data at the time the visualization is published. The visualization author can update or unpublish his visualizations anytime. Anyone can explore these visualizations interactively, enabling easier collaboration around graph data.
+Linkurious Enterprise offre la possibilité de publier des visualisations intéractives en ligne. Les visualisations publiées peuvent être accessibles par un URL ou intégrée dans une page web. Elles contiennent une capture d'écran des données d'un gaphe au moment où la visualisation est publiée. L'auteur de la visualisation peut dépublier la visualisation à n'importe quel moment. Quiconque peut explorer cette visualisation intéractive, permettant une collaboration aisée autour des données du graphe. 
 
-We can publish a visualization from the Worskpace via the left menu:
+Nous pouvons publier une visualisation à partir de l'espace de travail en passant par le menu de gauche:
 
-![](MenutoP.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/MenutoP.png)
 
-Before publishing a visualization, we can whoose various options to customize the interface: 
+Avant publication, nous pouvons choisir plusieurs options afin de personnaliser l'interface:
 
-![](ScreenBP.png)
+![](https://www.gitbook.com/book/jvilledieu/linkurious-enterprise-manual/edit#/edit/master/fr/manage/ScreenBP.md)
 
-The options are:
-- Fullscreen: to provide a fullscreen view of the graph
-- Legend: to display a legend (here "Category" on the left of the screen)
-- Search: to display a search bar in order to explore the graph
-- Share: to share the visualization
-- Zoom: to zoom in and zoom out
+Les options sont: 
+
+- Fullscreen: pour fournir une vue plein écran du graphe;
+- Legend: pour fournir une légende (ici "Category" à gauche de l'écran);
+- Search: pour fournir une barre de recherche afin d'explorer le graphe;
+- Share: pour partager une visualisation;
+- Zoom: pour zoomer et dézoomer;
 
 
-On the screenshot below, we have deactivate the legend option and the share option. We can see that the ```Share button``` on the right of the screen disappeared. Finally, we can publish it:
+Dans la capture d'écran ci-dessous, nous avons désactivé l'option légende et l'option de partage. Nous pouvons voir que le bouton ```Share button``` à droite de l'écran a disparu. Finallement, nous pouvons la publier: 
 
-![](Done.png)
+![](https://www.gitbook.com/book/jvilledieu/linkurious-enterprise-manual/edit#/edit/master/fr/manage/Done.png)
 
-The visualization is now available online! We can share the link or integrate it into a web page by adding the script of the web widget into the source code of a web page.
+La visualisation est maintenant disponible en ligne. Nous pouvons partager le lien ou l'intégrer dans une page internet en ajoutant le lien de la page dans le code source de la page internet.
+
 
 <div class="alert alert-info">
-    If the server that hosts Linkurious Enterprise is accessible via intranet only, published visualizations will be available within the organization and won’t be available outside.
+    Si le serveur qui acceuille Linkurious Enterprise est seulement accessible par intranet, la publication sera accessible seulement au sein de l'organisation et non à l'extérieur. 
 </div>
