@@ -1,37 +1,33 @@
-# Duplicate
+# Dupliquer
 
-It is possible to duplicate a visualization. This feature might be useful when we want to try new things in our visualization and keep a record of the last version, this way the duplicate is used as a draft.
+Il est possible de dupliquer une visualisation. Cette option peut-être utile lorsque nous souhaitons essayer de nouvelles choses sur notre visualisation et garder une sauvegarde de la dernière version. De cette manière, le duplicat est utilisé comme brouillon.
 
+## A partir du tableau de bord
 
-## From the Dashboard
+Il est possible de dupliquer une visualisation sauvegardée à partir du tableau de bord comme suit:
 
-It is possible to duplicate a saved visualization from the Dashboard as follows:
-
-![](F_D.png)
-
-We then click on ```Duplicate``` and a copy of our visualization is displayed and directly accessible on the Dashboard:
-
-![](Duplicated.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/F_D.png)
 
 
+Puis nous cliquons sur  ```Duplicate```. Une copie de notre visualisation est créée et directecment accessible à partir du tableau de bord. 
 
-## From the Workspace
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Duplicated.png)
 
-It is also possible to duplicate a saved visualization from the Workspace via the Menu:
+## A partir de l'espace de travail
 
-![](F_W.png)
+Il est aussi possible de dupliquer une visualisation sauvegardée à partir de l'espace de travail en passant par le Menu.
 
-The duplicate is then accessible from the Dashboard menu.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/F_W.png)
 
+Le duplicat est alors accessible à partir du tableau de bord.
 
-
-Note that when duplicating from the Workspace, we are directly switch to the duplicate version to work on it.
+Notez que lorsque vous dupliquez à partir de l'espace de travail, vous êtes directement redirigé vers le duplicat afin de travailler dessus.
 
 <div class="alert alert-info">
-    It is possible to duplicate a visualization shared with you by another user.
-</div>
+    Ilest possible de dupliquer une visualisation qu'un autre utilisateur a partagé avec vous.
+    </div>
 
 <div class="alert alert-info">
-    If a user has shared a visualization with you but you are not allowed to modify it, duplicate this visualization. You will be able to modify the copy.
+    Si un utilisateur a partagé une visualisation avec vous mais que vous n'êtes pas autorisé à la modifier, dupliquez-là! Vous pourrez alors modifier la copie.
 </div>
 
