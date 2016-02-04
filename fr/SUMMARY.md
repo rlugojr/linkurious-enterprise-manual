@@ -50,7 +50,7 @@
    * [Sauvegarde automatique](manage/autosave.md)
    * [Organiser](manage/organize.md)
    * [Dupliquer](manage/Duplicate.md)
-   * [Share](manage/share.md)
+   * [Partager](manage/share.md)
    * [Publish](manage/Publish.md)
    * [Export](manage/export.md)
    * [Delete](manage/delete.md)
