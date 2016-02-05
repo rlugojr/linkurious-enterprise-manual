@@ -24,7 +24,7 @@ We can see that there are companies from ```CHE``` and ```USA```.
 
 ![](G_4.png)
 
-To select, the companies from USA, we fill the check boxes (here we have colored the nodes, see Style > Color nodes, in order to make the filter action more visible):
+To select the companies from USA, we fill the check boxes (here we have colored the nodes, see Style > Color nodes, in order to make the filter action more visible):
 
 Now, on the top of the design panel two buttons appear :  ```Filter ``` and  ```Select ```.
 
