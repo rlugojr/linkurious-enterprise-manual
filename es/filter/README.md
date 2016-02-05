@@ -1,6 +1,6 @@
-# Filter
+# Filtros
 
-In this chapter, we'll learn how to filter the nodes or edges within a visualization according to their properties.
+En este capítulo, aprenderemos cómo filtrar los nodos o relaciones de una visualización de acuerdo a sus propiedades.
 
-This technique will help you focus on the relevant information in your graph and avoid information overload.
+Esta técnica le ayudará a centrarse en la información relevante de su grafo y evitar la sobrecarga de información.
 
