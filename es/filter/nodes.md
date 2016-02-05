@@ -1,39 +1,39 @@
-## Filtering the nodes according to a property
+## Filtrar los nodos de acuerdo a una propiedad
 
-At some point in our graph exploration, we may want to focus on a specific part of our current visualization. A good way to do that is to use filters.
+En cierto punto de nuestra exploración del grafo, podríamos desear enfocarnos en una parte específica de nuestra visualización actual. Una buena forma de hacerlo es usar filtros.
 
-Filters enable us to select or hide multiple nodes or edges at once according to a specific property.
+Los filtros nos permiten seleccionar o ocultar múltiples nodos y relaciones a la vez de acuerdo a una propiedad específica.
 
-In the graph below, we see the companies [Grabit](http://www.banexiventures.com/), a small firm form the USA, has invested in.
+En el siguiente grafo, vemos las empresas en las que [Grabit](http://www.banexiventures.com/), una pequeña agencia de USA, ha invertido.
 
-![](G_1.png)
+![](../../en/filter/G_1.png)
 
-Where are these companies located in? We could color the nodes according to their ```country``` property to know that. But what if we only want to see the American companies Grabit is involved with?
+¿Dónde están localizadas estas empresas? Podríamos colorear los nodos de acuerdo a su propiedad ```country``` (país) para averiguarlo. ¿Pero y si solo queremos ver las empresas americanas relacionadas con Grabit?
 
-To do that, we open the design panel on the right.
+Para hacerlo, abrimos el panel de diseño a la derecha.
 
-![](G_2.png)
+![](../../en/filter/G_2.png)
 
-We can see the different properties associated with the nodes in our graph.
+Podemos ver las diferentes propieades asociadas con los nodos de nuestro grafo.
 
-We are going to click on ```country```. The different values present in our graph for the property ```country``` appear.
+Hacemos clic en ```country```. Aparecen los diferentes valores en nuestro grafo para la propiedad ```country```.
 
-![](G_3.png)
+![](../../en/filter/G_3.png)
 
-We can see that there are companies from ```CHE``` and ```USA```.
+Podemos ver que hay empresas de ```CHE``` y ```USA```.
 
-![](G_4.png)
+![](../../en/filter/G_4.png)
 
-To select, the companies from USA, we fill the check boxes (here we have colored the nodes, see Style > Color nodes, in order to make the filter action more visible):
+Para seleccionar las empresas de USA, marcamos las casillas de verificación (aquí hemos coloreados los nodos, ver Estilo > Colorear nodos, para para hacer más visible la acción de filtrar):
 
-Now, on the top of the design panel two buttons appear :  ```Filter ``` and  ```Select ```.
+Ahora, en la parte superior del panel de diseño aparecen dos botones: ```Filter ``` (filtrar) y  ```Select ``` (seleccionar).
 
-To select all the nodes from USA, we could click on ```Select ```. Instead we are going to choose ```Filter ```.
+Para seleccionar todos los nodos de USA, podríamos hacer clic en ```Select ```. En cambio, hacemos clic en ```Filter ```.
 
-![](G_5.png)
+![](../../en/filter/G_5.png)
 
-Instantly, all the nodes with the values ```CHE``` are removed from the visualization
+De forma instantánea todos los nodos con el valor ```CHE``` son eliminados de la visualización.
 
-We can see on the bottom right corner, a symbol for the filter we added to the visualization is created.
+Podemos ver que en la esquina inferior derecha se crea un símbolo para el filtro que hemos añadido a la visualización.
 
-Filtering is a great way to remove unimportant information from a visualization. Use it accordingly!
+Filtrar es una buena forma de eliminar información sin importancia de una visualización. ¡Utilícelo adecuadamente!
