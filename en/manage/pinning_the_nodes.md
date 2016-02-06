@@ -1,7 +1,7 @@
 # Pinning the nodes
 
 It is possible to pin the nodes on your graph visualization.
-Pinning a node allow to fix it at a specific place on the graph.
+Pinning a node allows to fix it at a specific place on the graph.
 
 To pin a node we can eiter click on the ```Pin``` button of the left panel or right-click on a node then select the ```Pin``` button.
 
