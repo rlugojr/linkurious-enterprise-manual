@@ -1,29 +1,29 @@
-## How to export a visualization?
+## ¿Cómo exportar una visualización?
 
-We have created a visualization and we want to share or modify its content. We open the Workspace menu, then click on the ```Export``` button.
+Hemos creado una visualización y queremos compartir o modificar su contenido. Abrimos el menú del espacio de trabajo y después hacemos clic en el botón ```Export```.
 
-![](MenuExport.png)
+![](../../en/manage/MenuExport.png)
 
-The visualization data can be exported in the following formats:
+Los datos de la visualización pueden exportarse en los siguientes formatos:
 
 * Excel 2007+ workbook
 * CSV
-* GEXF - compatible with [Gephi](https://gephi.github.io/)
+* GEXF - compatible con [Gephi](https://gephi.github.io/)
 * GraphML
 * JSON
 * PNG
-* SVG (beta) - compatible with Inkscape and Adobe Illustrator for editing
+* SVG (beta) - compatible con Inkscape y Adobe Illustrator para editar
 
-![](Format.png)
+![](../../en/manage/Format.png)
 
-After clicking on a format, the file is automatically downloaded by the browser.
+Después de hacer clic en un formato, el archivo es descargado automáticamente por su navegador web.
 
-The PNG export available here will create an image of the complete graph even if we are currently zooming to a specific area. Here is an example:
+La exportación a PNG creará una imagen del grafo completo incluso aunque estemos haciendo zoom en un área específica en este momento. Aquí un ejemplo:
 
-![](SS.png)
+![](../../en/manage/SS.png)
 
-The PNG export is configurable: setting the zoom ratio of the exported visualization from 1 (zoomed out) to 0.2 (zoomed in) will not only adapt the size of the image, but will also influence the quantity of information displayed in the same way it is done on screen.
+La exporación a PNG es configurable: establecer el ratio de zoom en la visualización exportada desde 1 (alejar) hasta 0.2 (acercar) no solo adaptará el tamaño de la imagen, si no que también tendrá influencia en la cantidad de información mostrada de la misma forma que ocurre en la pantalla.
 
 <div class="alert alert-info">
-    This feature is different from the ```Take Screenshot``` button available by right click in the Workspace or from the Actions menu: they create an image of the displayed area on screen only.
+    Esta característica es diferente del botón Take Screenshot (tomar captura de pantalla) disponible haciendo clic derecho en el espacio de trabajo o desde el menú de acciones: crea una imagen solamente del área de pantalla mostrada actualmente.
 </div>
