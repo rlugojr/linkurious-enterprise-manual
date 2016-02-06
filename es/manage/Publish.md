@@ -1,29 +1,28 @@
-# Publish
+# Publicar
 
-Linkurious Enterprise offers the possibility to publish interactive visualizations online. Published visualizations can be accessed with an URL or embedded in a web page à la Google Maps. They contain a snapshot of graph data at the time the visualization is published. The visualization author can update or unpublish his visualizations anytime. Anyone can explore these visualizations interactively, enabling easier collaboration around graph data.
+Linkurious Enterprise ofrece la posibilidad de publicar visualizaciones interactivas online. Las visualizaciones publicadas pueden ser accedidas con una URL o incrustadas en una página web de forma similar a Google Maps. Contienen una instantánea de los datos del grafo en el momento en el que la visualización es publicada. El autor de la visualización puede actualizar o retirar la visualización en cualquier momento. Cualquiera puede explorar estas visualizaciones de forma interactiva, facilitando la colaboración con datos de grafos.
 
-We can publish a visualization from the Worskpace via the left menu:
+Podemos publicar una visualización desde el espacio de trabajo mediante el menú izquierdo:
 
-![](MenutoP.png)
+![](../../en/manage/MenutoP.png)
 
-Before publishing a visualization, we can whoose various options to customize the interface: 
+Antes de publicar una visualización, podemos escoger varias opciones para personalizar la interfaz:
 
-![](ScreenBP.png)
+![](../../en/manage/ScreenBP.png)
 
-The options are:
-- Fullscreen: to provide a fullscreen view of the graph
-- Legend: to display a legend (here "Category" on the left of the screen)
-- Search: to display a search bar in order to explore the graph
-- Share: to share the visualization
-- Zoom: to zoom in and zoom out
+Las opciones son:
+- Fullscreen: para proporcionar una vista a pantalla completa del grafo
+- Legend: para mostrar una leyenda (en este caso "Category" a la izquierda de la pantalla)
+- Search: para mostrar una barra de búsqueda para explorar el grafo
+- Share: para poder compartir la visualización
+- Zoom: para poder aumentar o disminuir el zoom
 
+En la siguiente captura de pantalla, hemos desactivado las opciones de leyenda y compartir. Podemos ver que el botón de compartir en la derecha de la pantalla ha desaparecido. Finalmente, podemos publicarlo:
 
-On the screenshot below, we have deactivate the legend option and the share option. We can see that the ```Share button``` on the right of the screen disappeared. Finally, we can publish it:
+![](../../en/manage/Done.png)
 
-![](Done.png)
-
-The visualization is now available online! We can share the link or integrate it into a web page by adding the script of the web widget into the source code of a web page.
+¡Ahora la visualización está disponible online! Podemos compartir el enlace o integrarla en una página web añadiendo el script del widget en el código fuente de la página web.
 
 <div class="alert alert-info">
-    If the server that hosts Linkurious Enterprise is accessible via intranet only, published visualizations will be available within the organization and won’t be available outside.
+    Si el servidor que aloja Linkurious Enterprise solo es accesible vía intranet, las visualizaciones publicadas sólo estarán disponibles dentro de la organización y no serán accesibles desde fuera.
 </div>
