@@ -1,6 +1,6 @@
 ## Create new nodes and edges
 
-On the ```more options``` panel, we can choose to create either a node or an edge
+On the ```more options``` panel, we can choose to create either a node or an edge.
 
 ![](A1.png)
 
@@ -11,7 +11,6 @@ We enter a value for the ```Categories```here Investor and hit add.
 ![](A2.png)
 
 Then for each property we can fill the corresponding value. When it is done, we click on the ```Save``` button.
-.
 
 ![](A3.png)
 
