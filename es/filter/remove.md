@@ -1,17 +1,17 @@
-## Remove filters
+## Eliminar filtros
 
-So we have applied one or several filters to your visualization. Maybe it was a mistake or maybe we want to go back a step. How to remove a filter?
+Hemos aplicado uno o varios filtros a nuestra visualización. Quizás fue un error o queremos volver al estado anterior. ¿Cómo eliminamos un filtro?
 
-An icon for each filter we create is added on the bottom right corner of the screen. The first filter is on the right and the latest on the left.
+Por cada filtro que creamos un icono es añadido en la esquina inferior derecha de la pantalla. El primer filtro está a la derecha y el último a la izquierda.
 
-![](R1.png)
+![](../../en/filter/R1.png)
 
-In this visualization, there are two filters. The nodes are filtered according to the ```country``` property. The edges are filtered according to the ```funding_at``` property
+En esta visualización, hay dos filtros. Los nodos están filtrados de acuerdo a la propiedad ```country``` (país). Las relaciones están filtradas de acuerdo a la propiedad ```funding_at``` (fecha de financiación).
 
-To remove the ```country``` filter, we click on the cross next to its icon.
+Para eliminar el filtro en ```country```, hacemos clic en la cruz junto a su icono.
 
-![](R2.png)
+![](../../en/filter/R2.png)
 
-The filter is instantly removed. The nodes it hid are then added back to the visualization. The **other** filter remain active.
+El filtro es eliminado de forma instantánea. Los nodos que ocultaba son devueltos a la visualización. El **otro** filtro sigue activo.
 
-![](R3.png)
+![](../../en/filter/R3.png)
