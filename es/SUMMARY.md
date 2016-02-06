@@ -51,7 +51,7 @@
    * [Organizar](manage/organize.md)
    * [Duplicar](manage/Duplicate.md)
    * [Compartir](manage/share.md)
-   * [Duplicar](manage/Publish.md)
+   * [Publicar](manage/Publish.md)
    * [Exportar](manage/export.md)
    * [Borrar](manage/delete.md)
    * [Fijar los nodos](manage/pinning_the_nodes.md)
