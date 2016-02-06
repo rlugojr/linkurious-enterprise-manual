@@ -33,7 +33,7 @@ We have to provide the following information :
 
 Like for the nodes, we can add as many properties as we want to the edge. When we are done, we click on the ```Save``` button.
 
-Here we entered the value ```Twitter``` for the Source, the value ```INVESTED_IN``` for the Type property and the value ```NewInvestor``` for the Target and finally ```2015``` for the ```funded_year``` property.
+Here we entered the value ```NewInvestor``` for the Source, the value ```INVESTED_IN``` for the Type property and the value ```Twitter``` for the Target and finally ```2015``` for the ```funded_year``` property.
 
 
 Finally, we can see in our graph our new node and our new edge:
