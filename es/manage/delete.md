@@ -1,22 +1,22 @@
-## Delete visualizations
+## Borrar visualizaciones
 
-### From the Workspace
+### Desde el espacio de trabajo
 
-We open the Workspace menu, then click on the ```Delete``` button. We confirm to delete the visualization.
+Abrimos el menú del espacio de trabajo, luego hacemos clic en el botón ```Delete``` (borrar). Confirmamos que queremos borrar la visualización.
 
-![](Menu.png)
+![](../../en/manage/Menu.png)
 
-### From the Dashboard
+### Desde el panel de control
 
-Either:
+Tenemos varias opciones:
 
-* Click on a visualization to select it, then click on the ```Delete``` button of the toolbar.
+* Hacer clic en la visualización para seleccionarla, después clic en el botón ```Delete``` de la barra de herramientas.
 
-![](DeleteDashboard.png)
+![](../../en/manage/DeleteDashboard.png)
 
 
-* Right-click on a visualization to open the context menu, then click on the ```Delete``` button.
+* Hacer clic derecho en la visualización para abrir el menú contextual, después clic en el botón ```Delete```.
 
-![](DeleteRight.png)
+![](../../en/manage/DeleteRight.png)
 
-The visualization is deleted after confirmation.
+La visualización es borrada después de confirmar.
