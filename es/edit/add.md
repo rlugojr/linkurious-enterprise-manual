@@ -1,44 +1,42 @@
-## Create new nodes and edges
+## Crear nodos y relaciones
 
-On the ```more options``` panel, we can choose to create either a node or an edge
+En el panel ```more options``` (más opciones), podemos elegir crear un nodo o relación.
 
-![](A1.png)
+![](../../en/edit/A1.png)
 
-### Create a node
+### Crear un nodo
 
-We enter a value for the ```Categories```here Investor and hit add. 
+Introducimos un valor para ```Categories``` (categorías), en este caso Investor (inversor) y pulsamos en add (añadir). 
 
-![](A2.png)
+![](../../en/edit/A2.png)
 
-Then for each property we can fill the corresponding value. When it is done, we click on the ```Save``` button.
-.
+Después podemos rellenar el valor correspondiente para cada propiedad. Cuando hayamos acabado, hacemos clic en el botón ```Save``` (guardar).
 
-![](A3.png)
+![](../../en/edit/A3.png)
 
-Here we entered the value ```Paris``` for the City property, the value ```France``` for the Country property and the value ```NewInvestor``` for the Name property.
+En este caso hemos introducido el valor ```Paris``` para la propiedad City (ciudad), el valor ```France``` para la propiedad Country (país) y el valor ```NewInvestor``` (nuevo inversor) para la propiedad Name (nombre).
 
-![](A5.png)
+![](../../en/edit/A5.png)
 
-We can see the node created ```NewInvestor``` added to our graph.
-
-
-### Create an edge
-
-We have to provide the following information :
-
-![](A6.png)
-
-* ```Type```: the type of relationship;
-* ```Source```: the source of the relationship;
-* ```Target```: the destination of the relationship.
-
-Like for the nodes, we can add as many properties as we want to the edge. When we are done, we click on the ```Save``` button.
-
-Here we entered the value ```Twitter``` for the Source, the value ```INVESTED_IN``` for the Type property and the value ```NewInvestor``` for the Target and finally ```2015``` for the ```funded_year``` property.
+Podemos ver que el nodo creado ```NewInvestor``` es añadido a nuestro grafo.
 
 
-Finally, we can see in our graph our new node and our new edge:
+### Crear una relación
 
-![](A8.png)
+Tenemos que proporcionar la siguiente información:
 
-It is also possible to create a new edge between two nodes by selecting those two nodes, right-clicking on the visualization background to display the context menu, then choose ```Create a new edge```. The source and target nodes will be filled.
+![](../../en/edit/A6.png)
+
+* ```Type```: el tipo de relación
+* ```Source```: el origen de la relación
+* ```Target```: el destino de la relación
+
+De la misma forma que para los nodos, podemos añadir cuantas propiedades queramos para la relación. Cuando hayamos acabado, hacemos clic en el botón ```Save``` (guardar).
+
+En este caso hemos introducido el valor ```NewInvestor``` para el origen, el valor ```INVESTED_IN``` (invirtió en) para el tipo y el valor ```Twitter``` para el destino, y finalmente ```2015``` para la propiedad ```funded_year``` (año de financiación).
+
+Finalmente, podemos ver en el grafo nuestro nuevo nodo y nuestra nueva relación:
+
+![](../../en/edit/A8.png)
+
+También es posible crear una nueva relación entre dos nodos seleccionando esos dos nodos, haciendo clic en el fondo de la visualización para mostrar el menú contextual y luego escogiendo la opción ```Create a new edge``` (crear una nueva relación). El origen y destino serán rellenados.
