@@ -25,7 +25,7 @@ The duplicate is then accessible from the Dashboard menu.
 
 
 
-Note that when duplicating from the Workspace, we are directly switch to the duplicate version to work on it.
+Note that when duplicating from the Workspace, we are directly switching to the duplicate version to work on it.
 
 <div class="alert alert-info">
     It is possible to duplicate a visualization shared with you by another user.
