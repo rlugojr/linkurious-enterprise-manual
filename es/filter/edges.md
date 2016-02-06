@@ -1,24 +1,23 @@
-## Filtering the edges according to a property
+## Filtrar las relaciones de acuerdo a una propiedad
 
-We have seen it is possible to use filters to select or remove specific nodes in our visualization according to a property. It is possible to do the same thing with edges.
+Hemos visto que es posible utilizar filtros para seleccionar o eliminar nodos específicos de nuestra visualización de acuerdo a una propiedad. Es posible hacer lo mismo con las relaciones.
 
-![](Example.png)
+![](../../en/filter/Example.png)
 
-In the graph below we see the connections of Grabit. Each edge represents an investment in a start-up. But what kind of investment?
+En el siguiente grafo vemos las conexiones de Grabit. Cara relación representa una inversión en una start-up. ¿Pero qué tipo de inversión?
 
-We can open up the design panel to investigate. Let's select ```Edges``` on the bottom right corner.
+Podemos abrir el panel de diseño para investigar. Seleccionemos ```Edges``` en la esquina inferior derecha.
 
-We can see the different properties attached to the edges in our dataset.
+Podemos ver las diferentes propiedades asociadas a las relaciones de nuestro conjunto de datos.
 
-We are going to focus on the ```funded_at```. Let's click on it.
+Vamos a centrarnos en ```funded_at``` (fecha de financiación). Hagamos clic en la propiedad.
 
-![](FundedAt.png)
+![](../../en/filter/FundedAt.png)
 
-We want to view only the funded_at with the ```03/06/2014``` code. Let's check the checkbox to keep only ```03/06/2014``` and click on ```Filter ```.
+Queremos ver solamente las relaciones con fecha de financiación ```03/06/2014```. Marquemos la casilla de verificación para mantener solo ```03/06/2014``` y hagamos clic en ```Filter ``` (filtrar).
 
-![](Final.png)
+![](../../en/filter/Final.png)
 
-
-The relationships with the ```03/06/2014``` ```funded_at``` are displayed. The other ```funded_at``` values are removed from the visualization and a filter symbol is added on the bottom right corner.
+Las relaciones con fecha de financiación ```03/06/2014``` son mostradas. Los otros valores de ```funded_at``` son eliminados de la visualización y un símbolo de filtrado aparece en la esquina inferior derecha.
 
 
