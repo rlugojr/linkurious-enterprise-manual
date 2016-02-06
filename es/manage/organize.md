@@ -1,44 +1,44 @@
-## Organize visualizations
+## Organizar visualizaciones
 
-Visualizations are by default added to the Dashboard. From the dashboard we can delete, rename or open a visualization.
+Las visualizaciones son añadidas por defecto al panel de control. Desde el panel de control podemos borrar, renombrar o abrir una visualización.
 
-We can also organize the visualizations in folders.
+También podemos organizar las visualizaciones en carpetas.
 
-### Open, rename or delete a visualization
+### Abrir, renombrar o borrar una visualización
 
-The following actions are possible either when we right-click on a visualization or on the right menu of the dashboard:
-* open: opens the visualization where you left it (with the colors, sizes and filters);
-* share: shares the visualization;
-* move to: moves to a folder;
-* duplicate: duplicates the visualization;
-* rename: renames the visualization;
-* delete: deletes the visualization.
+Las siguiente acciones son posibles cuando hacemos clic derecho en una visualización o en el menú derecho del panel de control
+* open: Abre la visualización donde usted la dejó (con los colores, tamaños y filtros)
+* share: comparte la visualización
+* move to: mueve la visualización a una carpeta
+* duplicate: duplica la visualización
+* rename: cambia el nombre de la visualización
+* delete: borra la visualización
 
 
-![](ListPossibilities.png)
+![](../../en/manage/ListPossibilities.png)
 
-### Arrange visualizations in folders
+### Ordenar las visualizaciones en carpetas
 
-To create a folder, we either right-click on the dashboard background or in the right menu ```Create folder```.
+Para crear una carpeta, podemos hacer clic derecho en el fondo del panel de control o pulsar  ```Create folder``` (crear carpeta) en el menú de la derecha.
 
-![](Create.png)
+![](../../en/manage/Create.png)
 
-We enter the name of our folder.
+Introducimos el nombre de nuestra carpeta.
 
-![](NameFolder.png)
+![](../../en/manage/NameFolder.png)
 
-We hit ```Save```. Our folder is created.
+Pulsamos```Save``` (guardar). Nuestra carpeta es creada.
 
-![](FolderCreated.png)
+![](../../en/manage/FolderCreated.png)
 
-We open the folder by clicking on it. If we want to move a visualization into the folder we used the actions ```move to``` when right-clicking on our visualization: 
+Abrimos la carpeta haciendo clic en ella. Si queremos mover una visualización a la carpeta utilizamos la acción ```move to``` (mover a) cuando hacemos clic derecho en nuestra visualización: 
 
-![](MoveTo.png)
+![](../../en/manage/MoveTo.png)
 
-We select the folder we want to move to our visualization:
+Seleccionamos la carpeta a la que queremos mover nuestra visualización:
 
-![](MTF1.png)
+![](../../en/manage/MTF1.png)
 
-The visualization has been moved to the folder.
+La visualización ha sido movida a la carpeta.
 
-![](Folder.png)
+![](../../en/manage/Folder.png)
