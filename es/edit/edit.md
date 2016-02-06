@@ -1,50 +1,49 @@
-## Edit properties and categories
+## Editar propiedades y categorías
 
-Properties are key-value information stored in nodes and edges. It can be the name of a company for instance. Categories are special information to tag nodes and edges. Nodes can be of category Investor or Company, or both.
+Las propiedades son información clave-valor almacenada en nodos y relaciones. Puede ser el nombre de una empresa por ejemplo. Las categorías son información especial para clasificar los nodos y relaciones. Los nodos pueden tener las categorías Inversor o Empresa, o ambas.
 
 <div class="alert alert-info">
-    In Neo4j databases, edges have one and only one category. It is not possible to modify it.
+    En las bases de datos Neo4j, las relaciones tienen una sola categoría. No es posible cambiar esto.
 </div>
 
-###Edition Mode
+###Modo de edición
 
-First of all we need to switch the edition mode to ```On``` in the top left corner.
+Primero necesitamos cambiar el modo de edición al estado ```On``` (activado) en la esquina superior izquierda.
 
-![](E1.png)
+![](../../en/edit/E1.png)
 
-###Editing or removing a property
+###Editar o eliminar una propiedad
 
-Now if we select a node or an edge and move the mouse cursor next to a property, we can ```Edit``` or ```Delete``` it.
+Ahora si seleccionamos un nodo o relación y movemos el ratón junto a una propiedad, podemos editarla (```Edit```) o eliminarla (```Delete```).
 
-![](E2.png)
+![](../../en/edit/E2.png)
 
-If we click on ```Edit```, we can change the value of the property.
-When we are finished, we  click on  ```Save```. Here we will edit the Name of the Company.
+Si hacemos clic en ```Edit```, podemos cambiar el valor de la propiedad.
+Cuando hayamos acabado, hacemos clic en  ```Save``` (guardar). En este caso editamos el nombre de la empresa.
 
-![](E_3.png)
-![](E4.png)
+![](../../en/edit/E_3.png)
+![](../../en/edit/E4.png)
 
-If you wish to delete a property, simply click on ```Delete```.
+Si usted desea eliminar una propiedad, simplemente haga clic en ```Delete```.
 
-###Editing or removing a category
+###Editar o eliminar una categoría
 
-It is possible to add or remove a category from a node.
+Es posible añadir o eliminar una categoría de un nodo.
 
-![](E5.png)
+![](../../en/edit/E5.png)
 
+Haga clic en la ```x``` junto a la categoría para eliminarla.
 
-Click on the ```x``` next to the category to remove it.
+Para añadir una categoría, hacemos clic en ```+```. Por ejemplo, podríamos estar interesados en añadir a nuestro grafo la actividad de los inversores.
 
-To add a category, we click on ```+```. For example, we, might be interested to add in our graph the activity of the investors. 
+![](../../en/edit/E6.png)
 
-![](E6.png)
+Aquí queremos la categoría Angel Investor (inversor angelical) para precisar el campo de trabajo de la empresa Ron Conway.
 
-Here we had the category Angel Investor to precise the field of work of the company Ron Conway
+Escribimos la nueva categoría, en este caso ```Angel Investor```. Hacemos clic en ```Save``` (guardar).
 
-We type the new category, here  ```Angel Investor```. We hit ```Save```.
+La categoría es añadida.
 
-The category is added.
-
-![](E7.png)
+![](../../en/edit/E7.png)
 
 
