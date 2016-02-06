@@ -1,11 +1,11 @@
-## How does the autosave work?
+## ¿Cómo funciona el autoguardado?
 
-When we are working on a visualization, we can save it through the Menu button then click on SAVE. Further, the modifications will be automatically saved.
+Cuando estamos trabajando en una visualización, podemos guardarla mediante el botón Menú y luego haciendo clic en SAVE (guardar). En adelante, las modificaciones serán guardadas de forma automática.
 
-![](Autosave.png)
+![](../../en/manage/Autosave.png)
 
-![](AutosaveName.png)
+![](../../en/manage/AutosaveName.png)
 
-We can access to a saved visualization via the Linkurious Enterprise dashboard.
+Podemos acceder a una visualización guardada mediante el panel de control de Linkurious Enterprise.
 
-![](AutosaveDashboard.png)
+![](../../en/manage/AutosaveDashboard.png)
