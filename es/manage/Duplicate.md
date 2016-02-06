@@ -1,37 +1,34 @@
-# Duplicate
+# Duplicar
 
-It is possible to duplicate a visualization. This feature might be useful when we want to try new things in our visualization and keep a record of the last version, this way the duplicate is used as a draft.
-
-
-## From the Dashboard
-
-It is possible to duplicate a saved visualization from the Dashboard as follows:
-
-![](F_D.png)
-
-We then click on ```Duplicate``` and a copy of our visualization is displayed and directly accessible on the Dashboard:
-
-![](Duplicated.png)
+Es posible duplicar una visualización. Esta característica podría ser útil cuando queremos probar nuevas cosas en nuestra visualización y mantener un registro de la última versión, de forma que el duplicado es usado como un borrador.
 
 
+## Desde el panel de control
 
-## From the Workspace
+Es posible duplicar una visualización guardada desde el panel de control de la siguiente forma:
 
-It is also possible to duplicate a saved visualization from the Workspace via the Menu:
+![](../../en/manage/F_D.png)
 
-![](F_W.png)
+Después hacemos clic en ```Duplicate``` y se mostrará una copia de nuestra visualización accesible directamente desde el panel de control:
 
-The duplicate is then accessible from the Dashboard menu.
+![](../../en/manage/Duplicated.png)
 
 
+## Desde el espacio de trabajo
 
-Note that when duplicating from the Workspace, we are directly switch to the duplicate version to work on it.
+También es posible duplicar una visualización guardada desde el espacio de trabajo mediante el Menú:
+
+![](../../en/manage/F_W.png)
+
+Posteriormente el duplicado es accesible desde el panel de control.
+
+Tenga en cuenta que al duplicar desde el espacio de trabajo, estaremos cambiando directamente al duplicado para trabajar en él.
 
 <div class="alert alert-info">
-    It is possible to duplicate a visualization shared with you by another user.
+    Es posible duplicar una visualización compartida con usted por otro usuario.
 </div>
 
 <div class="alert alert-info">
-    If a user has shared a visualization with you but you are not allowed to modify it, duplicate this visualization. You will be able to modify the copy.
+    Si un usuario ha compartido una visualización con usted pero no tiene permitido modificarla, duplique esta visualización. Usted será capaz de modificar la copia.
 </div>
 
