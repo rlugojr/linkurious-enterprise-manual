@@ -1,16 +1,16 @@
-# Pinning the nodes
+# Fijar los nodos
 
-It is possible to pin the nodes on your graph visualization.
-Pinning a node allow to fix it at a specific place on the graph.
+Es posible fijar nodos en nuestra visualización.
+Fijar un nodo permite mantenerlo en un lugar específico del grafo.
 
-To pin a node we can eiter click on the ```Pin``` button of the left panel or right-click on a node then select the ```Pin``` button.
+Para fijar un nodo podemos hacer clic en el botón ```Pin``` (fijar) del panel izquierdo o hacer clic derecho en un nodo y después seleccionar el botón ```Pin```.
 
-![](to_pin.png)
+![](../../en/manage/to_pin.png)
 
-A pin symbol appears on the node.
+El símbolo de un pin aparece en el nodo.
 
-![](Pinned.png)
+![](../../en/manage/Pinned.png)
 
-If we pin a node, this node will stay at the same place when we move the rest of the graph, for example using the force-directed layout option (See Manipulate):
+SI fijamos un nodo, este nodo permanecerá en el mismo lugar cuando movamos el resto del grafo, por ejemplo al utilizar la disposición mediante un algoritmo dirigido por fuerzas (ver Manipulación):
 
-![](LayutPin.png)  ![](LayoutPin2.png)
+![](../../en/manage/LayutPin.png)  ![](../../en/manage/LayoutPin2.png)
