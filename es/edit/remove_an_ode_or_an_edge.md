@@ -1,24 +1,24 @@
-## Remove nodes and edges
+## Eliminar nodos y relaciones
 
-###Remove a node
+###Eliminar un nodo
 
-If we want to remove a node from our visualization, we select the node we are interested in removing by clicking on it then either:
+Si queremos eliminar un nodo de nuestra visualización, seleccionamos el nodo que queremos eliminar haciendo clic en el y luego hacemos una de las siguientes acciones:
 
-- Hit the ```Hide``` button on the left panel as below:
-- By a right-click, we also can access to the ```Hide``` button
+- Pulsar en el botón ```Hide``` (ocultar) en el panel izquierdo
+- Mediante clic derecho, también tenemos acceso al botón ```Hide```
 
 
-![](X1.png)
-![](X2.png)
+![](../../en/edit/X1.png)
+![](../../en/edit/X2.png)
 
 ###Remove an edge
 
-If we want to remove an edge from our visualization, we select the edge we are interested in removing by clicking on it then either:
+Si queremos eliminar una relación de nuestra visualización, seleccionamos la relaciones que queremos eliminar haciendo clic en ella y luego hacemos una de las siguientes acciones:
 
-- Hit the ```Hide``` button on the left panel as below:
-- By a right-click, we also can access to the ```Hide``` button
+- Pulsar en el botón ```Hide``` (ocultar) en el panel izquierdo
+- Mediante clic derecho, también tenemos acceso al botón ```Hide```
 
-![](Y1.png)
+![](../../en/edit/Y1.png)
 
-![](Y2.png)
+![](../../en/edit/Y2.png)
 
