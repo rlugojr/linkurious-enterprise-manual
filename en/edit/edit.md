@@ -35,11 +35,11 @@ It is possible to add or remove a category from a node.
 
 Click on the ```x``` next to the category to remove it.
 
-To add a category, we click on ```+```. For example, we, might be interested to add in our graph the activity of the investors. 
+To add a category, we click on ```+```. For example, we might be interested to add in our graph the activity of the investors. 
 
 ![](E6.png)
 
-Here we had the category Angel Investor to precise the field of work of the company Ron Conway
+Here we had the category Angel Investor to precise the field of work of the company Ron Conway.
 
 We type the new category, here  ```Angel Investor```. We hit ```Save```.
 
