@@ -52,7 +52,7 @@
    * [Dupliquer](manage/Duplicate.md)
    * [Partager](manage/share.md)
    * [Publier](manage/Publish.md)
-   * [Export](manage/export.md)
+   * [Exporter](manage/export.md)
    * [Delete](manage/delete.md)
    * [Pinning the nodes](manage/pinning_the_nodes.md)
 * [Administration](administrate/README.md)
