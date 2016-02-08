@@ -1,29 +1,31 @@
-## How to export a visualization?
+## Comment exporter une visualisation?
 
-We have created a visualization and we want to share or modify its content. We open the Workspace menu, then click on the ```Export``` button.
+Nous avons créer une visualisation et nous voulons la partager ou modifier son contenu. Nous ouvrons l'espace de travail puis nous cliquons sur le bouton ```Export``` button.
 
-![](MenuExport.png)
 
-The visualization data can be exported in the following formats:
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/MenuExport.png)
+
+Les données de la visualisation peuvent être exportés dans les formats suivants:
 
 * Excel 2007+ workbook
 * CSV
-* GEXF - compatible with [Gephi](https://gephi.github.io/)
+* GEXF - compatible avec [Gephi](https://gephi.github.io/)
 * GraphML
 * JSON
 * PNG
-* SVG (beta) - compatible with Inkscape and Adobe Illustrator for editing
+* SVG (beta) - compatible avec Inkscape et Adobe Illustrator pour édition
 
-![](Format.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Format.png)
 
-After clicking on a format, the file is automatically downloaded by the browser.
+Après avoir cliqué sur un format, le fichier est automatiquement télécharger par le moteur de recherche.
 
-The PNG export available here will create an image of the complete graph even if we are currently zooming to a specific area. Here is an example:
+L'exportation sous format PNG disponible ici créera une image du graphe complet même si nous on actuellement en train de zoomer sur une zone spécifique. Ici un exemple:
 
-![](SS.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/SS.png)
 
-The PNG export is configurable: setting the zoom ratio of the exported visualization from 1 (zoomed out) to 0.2 (zoomed in) will not only adapt the size of the image, but will also influence the quantity of information displayed in the same way it is done on screen.
+L'export sous format PNG est configurable: paramétrer le taux de zoom de la visualisation exportée de 1 (dézoomer) à 0.2 (zoomer) ne va pas seulement adapter la taille de l'image mais aussi influencer la quantité d'information fournie de la même manière qu'à que sur l'écran.
+
 
 <div class="alert alert-info">
-    This feature is different from the ```Take Screenshot``` button available by right click in the Workspace or from the Actions menu: they create an image of the displayed area on screen only.
+   Ce paramètre est différent du bouton ```Take Screenshot``` disponible par clique droit sur  l'espace de travail ou dans les actions du menu: les captures d'écran crées une image de la zone d'écran disponible.
 </div>
