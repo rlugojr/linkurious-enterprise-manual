@@ -53,7 +53,7 @@
    * [Partager](manage/share.md)
    * [Publier](manage/Publish.md)
    * [Exporter](manage/export.md)
-   * [Delete](manage/delete.md)
+   * [Supprimer](manage/delete.md)
    * [Pinning the nodes](manage/pinning_the_nodes.md)
 * [Administration](administrate/README.md)
    * [Monitoring](administrate/monitoring.md)
