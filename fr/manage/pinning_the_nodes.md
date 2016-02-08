@@ -1,16 +1,18 @@
-# Pinning the nodes
+# Epingler les noeuds
 
-It is possible to pin the nodes on your graph visualization.
-Pinning a node allow to fix it at a specific place on the graph.
+Il est possible d'épingler les noeuds sur notre visualisation. Epingler un noeud permet de le fixer à une place spécifique.
 
-To pin a node we can eiter click on the ```Pin``` button of the left panel or right-click on a node then select the ```Pin``` button.
+Pour épingler nous pouvons soit cliquer sur le bouton ```Pin``` dans le panneau de gauche ou faites un clic droit sur le noeud puis sélectionnez ```Pin```.
 
-![](to_pin.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/to_pin.png)
 
-A pin symbol appears on the node.
+Le symbole d'une épingle apparait sur le noeud. 
 
-![](Pinned.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Pinned.png)
 
-If we pin a node, this node will stay at the same place when we move the rest of the graph, for example using the force-directed layout option (See Manipulate):
+Si nous épinglons un noeud il restera à la même place lorsque nous déplaçons le reste du graphe, par exemple en utilisant l'option disposition dirigée par force (Voir Manipuler):
 
-![](LayutPin.png)  ![](LayoutPin2.png)
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/LayutPin.png)
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/LayoutPin2.png)
