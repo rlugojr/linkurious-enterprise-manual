@@ -1,6 +1,6 @@
 ## Comment exporter une visualisation?
 
-Nous avons créer une visualisation et nous voulons la partager ou modifier son contenu. Nous ouvrons l'espace de travail puis nous cliquons sur le bouton ```Export``` button.
+Nous avons créé une visualisation et nous voulons la partager ou modifier son contenu. Nous ouvrons l'espace de travail puis nous cliquons sur le bouton ```Export```.
 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/MenuExport.png)
@@ -17,13 +17,13 @@ Les données de la visualisation peuvent être exportés dans les formats suivan
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Format.png)
 
-Après avoir cliqué sur un format, le fichier est automatiquement télécharger par le moteur de recherche.
+Après avoir cliqué sur un format, le fichier est automatiquement téléchargé par le moteur de recherche.
 
-L'exportation sous format PNG disponible ici créera une image du graphe complet même si nous on actuellement en train de zoomer sur une zone spécifique. Ici un exemple:
+L'exportation sous format PNG disponible ici créera une image du graphe complet même si nous sommes actuellement en train de zoomer sur une zone spécifique. Ici un exemple:
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/SS.png)
 
-L'export sous format PNG est configurable: paramétrer le taux de zoom de la visualisation exportée de 1 (dézoomer) à 0.2 (zoomer) ne va pas seulement adapter la taille de l'image mais aussi influencer la quantité d'information fournie de la même manière qu'à que sur l'écran.
+L'export sous format PNG est configurable: paramétrer le niveau de zoom de la visualisation exportée, de 1 (dézoomée) à 0.2 (zoomée), ne va pas seulement adapter la taille de l'image mais aussi influencer la quantité d'information fournie de la même manière que sur l'écran.
 
 
 <div class="alert alert-info">
