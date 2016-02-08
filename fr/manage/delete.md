@@ -1,22 +1,23 @@
-## Delete visualizations
+## Supprimer des visualisations
 
-### From the Workspace
+### A partir de l'espace de travail
 
-We open the Workspace menu, then click on the ```Delete``` button. We confirm to delete the visualization.
+Nous ouvrons le menu de l'espace de travail puis nous cliquons sur le bouton ``Delete```. Nous confirmons la suppression de la visualisation. 
 
-![](Menu.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Menu.png)
 
-### From the Dashboard
+### A partir du Dashboard
 
-Either:
+Soit:
 
-* Click on a visualization to select it, then click on the ```Delete``` button of the toolbar.
+* Cliquer sur une visualisation pour la sélectionner, puis cliquer sur ```Delete this visualization```.
 
-![](DeleteDashboard.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/DeleteDashboard.png)
+
+* Clique droit sur une visualisation pour ouvrir le menu context puis cliquer sur ```Delete``` button.
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/DeleteRight.png)
 
 
-* Right-click on a visualization to open the context menu, then click on the ```Delete``` button.
+La visualisation est supprimée après confirmation.
 
-![](DeleteRight.png)
-
-The visualization is deleted after confirmation.
