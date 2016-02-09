@@ -1,13 +1,13 @@
-## Monitoring
+## Contrôle
 
-### Process monitoring
+### Contrôle du processus
 
-Linkurious starts 3 separate processes when launched:
-1. `node` (or `node.exe`): The internal process manager (a [PM2](https://github.com/Unitech/pm2) manager)  
-2. `node` (or `node.exe`): The Linkurious Server process
-3. `java` (or `java.exe`): The embedded [ElasticSearch](https://www.elastic.co/) indexation server.
+Linkurious démarre 3 processus différents lorsqu'il est lancé:
+1. `node` (or `node.exe`): Le processus interne gestionnaire ( gestionnaire [PM2](https://github.com/Unitech/pm2) )  
+2. `node` (or `node.exe`): Le processus du serveur Linkurious
+3. `java` (or `java.exe`): Le serveur d'indexation incorporé [ElasticSearch](https://www.elastic.co/) 
 
-Check if these processes are alive by opening the menu from the Linkurious directory (see how on each operating system below). The menu looks like the following image:
+Vérifiez si ces processus fonctionnent en ouvrant le menu du répertoire Linkurious (voir de quelle manière pour chaque sytème ci-dessous). Le menu apparaît comme dans les images ci-dessous:
 
 
 ![menu](Menu.png)
