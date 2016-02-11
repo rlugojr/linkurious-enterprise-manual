@@ -1,30 +1,31 @@
-## Enable user authentication
+## Permettre l'identification des utilisateurs
 
 <div class="alert alert-info">
-  We strongly advise you to enable user authentication to secure the access to your data once Linkurious Enterprise is deployed on a server. This will allows you to enforce the limit of authenticated users with regards to your license terms.
+  Nous vous recommandons fortement de mettre en place un système d'identification des utilisateurs pour sécuriser l'accès aux données une fois que Linkurious est mis sur le serveur. Ceci vous permettra de limiter le nombre d'utilisateurs identifiés en fonction des conditions de votre license.
 </div>
 
-By default, user authentication is disabled and all actions are performed under the special account named *"Unique User"*. The unique user can do everything he wants and is not required to log in, so everybody can access the platform. Before enabling user authentication we must create an administrator account.
+Par défaut, l'identification des utilisateurs est désactivé et toutes les actions sont effectuées sous un compte spécial appelé  *"Unique User"*. L'utilisateur unique peut faire tout ce qu'il veut  sans avoir à s'identifier, de cette manière tout le monde peut accèder à la plateforme. Avant de pouvoir mettre en place l'identification des utilisateurs, vous devez créer un compte Administrateur. 
 
 <div class="alert alert-warning">
-  If we don't create an administrator account before enabling authentication we will not be able to log in.
+  Si nous ne créons pas un compte administrateur avant d'actier l'identification, nous ne pourrons pas nous connecter.
 </div>
 
-Let's create an administrator account. Click on **Users** in the administrator dashboard, or selects the **Users** item in the **Admin** menu of the navigation bar. Once the user management dashboard is displayed, click on the **Add** button next to "No Users". The user creation form appears.
+Créons un compte Administrateur. Cliquez sur **Users** da&ns le tableau de bord administrateur et sélectionnez **Users** dans le menu **Admin** de la barre de navigation. Une fois le tableau de bord de gestion des utilisateurs ouvert, cliquez sur **Add** à côté de "No Users". Le formulaire de création d'ultilisateur apparaît:
 
 ![user-creation-form]](User-creation-form.png)
 
-Fill in all the fields and especially add the `admin` group in the groups field to grant administration rights to the new user. Once done click on **Save**.
+Remplissez tous les champs et ajoutez le groupe `admin` group dans le champs Groupes pour offrir les droits d'administration au nouvel utilisateur. Une fois terminé, cliquez sur **Save**.
 
-We have created our first administrator. Now it is time to enable user authentication.
+Nous avons créée notre premier administrateur. Maintenant, il est temps de permettre l'identification d'utilisateur.
 
-1. Open the linkurious folder in your computer.
-- Open the file located at `linkurious/data/config/production.json` with your favorite text editor.
-- Look for the `authRequired` key, then change its value from `false` to `true`.
-- Restart Linkurious Enterprise.
 
-User authentication is now enabled. Reload the user interface of the web application to display the login screen.
+1. Ouvrir le fichier Linkurious dans votre ordinateur.
+- Ouvrez le fichier situé à `linkurious/data/config/production.json` avec votre éditeur de texte favoris
+- Cherchez la clé `authRequired`, puis changez sa valeur de `false` à `true`.
+- Redémarrez Linkurious Enterprise.
+
+L'identification d'utilisateur est maintenant activée. Actualisez l'interface utilisateur de l'application web pour afficher la page d'identification
 
 ![login]](Login.png)
 
-Enter the name (or email address) and password of the administrator to log in to Linkurious Enterprise.
+Entrez le nom ou l'adresse mail et le mot de passe de l'administrateur pour vous connecter à Linkurious Enterprise.
