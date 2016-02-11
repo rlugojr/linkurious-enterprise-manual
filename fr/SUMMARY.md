@@ -57,7 +57,7 @@
    * [Epingler les noeuds](manage/pinning_the_nodes.md)
 * [Administration](administrate/README.md)
    * [Surveillance](administrate/monitoring.md)
-   * [Backup](administrate/backup.md)
+   * [Sauvegarde](administrate/backup.md)
    * [Upgrade](administrate/upgrade.md)
    * [Administration panel](administrate/dashboard.md)
    * [Authentication](administrate/user-authentication.md)
