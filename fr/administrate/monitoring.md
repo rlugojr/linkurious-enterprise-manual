@@ -7,29 +7,28 @@ Linkurious démarre 3 processus différents lorsqu'il est lancé:
 2. `node` (or `node.exe`): Le processus du serveur Linkurious
 3. `java` (or `java.exe`): Le serveur d'indexation incorporé [ElasticSearch](https://www.elastic.co/) 
 
-Vérifiez si ces processus fonctionnent en ouvrant le menu du répertoire Linkurious (voir de quelle manière pour chaque sytème ci-dessous). Le menu apparaît comme dans les images ci-dessous:
+Vérifiez si ces processus fonctionnent en ouvrant le menu du répertoire Linkurious (voir ci-dessous de quelle manière pour chaque sytème). Le menu apparaît comme dans les images ci-dessous:
 
-
-![menu](Menu.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administration/Menu.png)
 
 
 #### Linux systems
 
-Run `menu.sh` (the status is above the menu). Alternately, run `menu.sh status`.
+Démarrez `menu.sh` (le statut est au-dessus du menu). Une alternative est de démarrer `menu.sh status`.
 
 #### Mac OS X systems
 
-Run `menu.sh.command` (the status is above the menu). Alternately, run `menu.sh.command status`.
+Démarrez `menu.sh.command` (le statut est au-dessus du menu). Une alternative est de démarrer `menu.sh.command status`.
 
 #### Windows systems
 
-Run `menu.bat` (the status is above the menu). Alternately, run `menu.bat status`.
+Démarrez `menu.bat` (le statut est au-dessus du menu). Une alternative est de démarrer `menu.bat status`.
 
-### Status
+### Statuts
 
 #### Application
 
-The application status can be retrieved by querying the Web server as follows:
+Le statut de l'application peut être retrouvé en faisant la requête suivante: 
 
 > curl http://127.0.0.1:3000/api/status
 
@@ -46,11 +45,11 @@ HTTP/1.1 200 OK
 }
 ```
 
-Where "code" is the status code of the server (100: starting, 200: OK, >400: problem), "name" is the name of the current server status, and "message" describes the current server status.
+"code" est le code du statut du serveur (100: starting, 200: OK, >400: problem), "name" est le nom du statut du serveur actuel, et "message" décrit le statut du serveur actuel. 
 
 #### Data sources
 
-The status of all data sources can be retrieved by querying the web server as follows:
+Le statut de toutes les données sources peuvent-être retrouvées avec la requête suivante:
 
 > curl http://127.0.0.1:3000/api/dataSources
 
@@ -67,4 +66,4 @@ HTTP/1.1 200 OK
 }
 ```
 
-Where "configIndex" is the index of the data-source in the 'dataSources' configuration list (see the Configure section), "key" is the unique key that identifies the data-source (null when the source is not connected), and "connected" is `true` if the source is currently available.
+"configIndex" est l'index de la donnée source dans la liste de configuration 'dataSources' (voir la section Configuration), "key" est la clé unique qui identifie la donnée source (nulle lorsque la source n'est pas connectée), and "connected" est `true` si la source est actuellement disponible.
