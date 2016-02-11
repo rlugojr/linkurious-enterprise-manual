@@ -59,7 +59,7 @@
    * [Surveillance](administrate/monitoring.md)
    * [Sauvegarde](administrate/backup.md)
    * [Mise à jour](administrate/upgrade.md)
-   * [Administration panel](administrate/dashboard.md)
+   * [Tableau de bord d'administration](administrate/dashboard.md)
    * [Authentication](administrate/user-authentication.md)
    * [Users & groups](administrate/users.md)
    * [Data sources](administrate/datasources.md)
