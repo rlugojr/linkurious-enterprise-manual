@@ -8,13 +8,13 @@ Linkurious Enterprise vous permet d'authentifier des utilisateur et de les assig
 *  Le groupe  `default` a un accès de has READ-ONLY access to graph data.
 
 Le groupe `default` est le groupe assigné par défaut à tout nouvel utilisateur. 
-Users belong to at least one group. They can be assigned to multiple groups. The resulting access rights are combined as follows: *the most permissive right wins*. For instance, let a user belongs to two groups. The first group allows to READ `CITY` nodes, and the second group allows nothing on `CITY` nodes. The user will then have the permission to READ `CITY` nodes.
+Les utilisateurs appartiennent à au moins un groupe. Ils peuvent être assignés à plusieurs groupes. Les droits d'accès résultants sont combinés comme suit: *the most permissive right wins*. Prenons l'exemple d'un utilisateur appartenant à deux groupes. Le premier groupe permet de lire les noeuds `CITY` et le second groupe ne permet rien sur les noeuds `CITY`, l'utilisateur aura la permission de lire les noeuds `CITY`.
 
-### User management dashboard
+### Tableau de bord de gestion des utilisateurs
 
-To access the user management dashboard, click on **Users** in the administrator dashboard, or selects the **Users** item in the **Admin** menu of the navigation bar. 
+Pour accèder au tableau de bord de gestion des utilisateurs, cliquez sur **Users** dans le tableau de bord administrateur, ou sélectionnez **Users** dans le menu **Admin** de la barre de navigation. 
 
-We can manage any user by clicking on **Edit** or **Delete** next to the user of our choice. We can also manage the user groups. Remove the last group of an user and they will be assigned to the `default` group.
+Nous pouvons gérer quelconque utilisateur en cliquant sur **Edit** ou **Delete** à côté de l'utilisateur de notre choix. Nous pouvons aussi gérer les groupes d'utilisateurs. si vous supprimez le dernier groupe d'un utilisateur, il sera assigné au groupe par `défaut`. 
 
 ![user-management]](user-management.png)
 
