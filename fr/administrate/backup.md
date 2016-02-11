@@ -2,21 +2,21 @@
 
 ### Linkurious
 
-Follow these steps to perform a consistent backup:
+Suivez ces étapes pour effectuer un backup consistant:
 
-1. Stop Linkurious.
-2. Backup the folder `<linkurious-folder>/data`.
-3. If you use MySQL or PostgreSQL instead of SQLite (default) as the internal data store of Linkurious, please backup these databases now.
+1. Arrêtez Linkurious.
+2. Faites une sauvegarde du fichier `<linkurious-folder>/data`.
+3. Si vous utilisé MySQL ou PostgreSQL au lieu de SQLite (par défaut) pour conserver les données internes de Linkurious, sauvegardez cette base de données maintenant. 
 
-Restart Linkurious once you have complete the backup of the Neo4j graph databases.
+Redémarrez Linkurious une fois que vous avez terminé la sauvegarde de la base de données de graphes Neo4j graph databases.
 
 ### Neo4j Enterprise
 
-Please follow the [Neo4j documentation](http://neo4j.com/docs/stable/operations-backup.html) to perform hot backups of the graph database.
+Merci de suivre la documentation [Neo4j documentation](http://neo4j.com/docs/stable/operations-backup.html) pour effectuer la sauvegarde de la base de données de graphes. 
 
 ### Neo4j Community
 
-1. Stop Neo4j Community edition.
-2. Backup the folder `<neo4j-folder>/data` or any folder used to store the graph database.
+1. Arrêtez Neo4j Community 
+2. Sauvegardez le dossier `<neo4j-folder>/data` ou tout autre dossier utilisé pour garder les graphes de la base de données. 
 
-You can restart Neo4j now.
+Maintenant vous pouvez redémarrer Neo4j.
