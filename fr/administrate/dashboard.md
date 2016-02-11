@@ -1,11 +1,11 @@
-## Administration dashboard
+## Tableau de bord d'Administration
 
-The administration dashboard is available for unique users and administrators, i.e. users of the `admin` group.
+Le tableau de bord d'administration est disponible seulement aux utilisateurs et administrateurs, c'est à dire les utilisateur du groupe `admin`.
 
-To access it, open the **Admin** menu of the navigation bar, then click on the **Status** item.
+Pour y accèder, ouvrez le menu **Admin** de la barre de navigation puis cliquez sur **Status**.
 
-You now have access to the administrator dashboard. The status of Linkurious and the current data source is displayed on the right. The database statistics contain the number of nodes and edges in the graph database, as well as the number of visualizations created by Linkurious users from it.
+Vous avez maintenant accès au tableau de bord administrateur. Le statut de Linkurious et l'actuelle source de données sont mentionnés sur la droite. Les statistiques de la base de données contiennent le nombre de noeuds et de liens de la base de données de graphes ainsi que le nombre de visualisations crées par les utilisateurs de Linkurious.
 
-The name of the current data source is displayed on the navigation bar, with unnamed data sources called *"Database #xx"*. You may **switch to a different data source** from there.
+Le nom de la donnée source est mentionnée dans la barre de navigation, avec des données sources sans noms appelées *"Database #xx"*. Vous pouvez passer à une autre donnée source à cet endroit.
 
 ![admin-status](Admin-status.png)
