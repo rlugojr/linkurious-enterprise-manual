@@ -1,14 +1,13 @@
-## Users & groups
+## Utilisateurs et groupes
 
-### About users and groups
+### A propos des utilisateurs et groupes 
 
-Linkurious Enterprise allows you to authenticate users and assign them to groups. User groups provide permissions to read or write on nodes and edges in the graph database. Each permission is defined at the level of node categories and edge types. Groups are defined for each data source. Two user groups are available by default:
+Linkurious Enterprise vous permet d'authentifier des utilisateur et de les assigner à des groupes. Les groupes d'utilisateur fournissent l'autorisation de lire ou d'écrire des noeuds et liens dans la base de données de graphes. Chaque permission est définie selon le niveau de catégories de noeuds et le type de liens. Les groupes sont définis pour chaque donnée source. Deux groupes d'utilisateurs sont disponibles par défaut:
 
-*  The `admin` group has READ and WRITE access to graph data.
-*  The `default` group has READ-ONLY access to graph data.
+*  Le groupe `admin` a accès à la LECTURE et l'ECRITURE des données de graphes
+*  Le groupe  `default` a un accès de has READ-ONLY access to graph data.
 
-The `default` group is assigned to new users by default.
-
+Le groupe `default` est le groupe assigné par défaut à tout nouvel utilisateur. 
 Users belong to at least one group. They can be assigned to multiple groups. The resulting access rights are combined as follows: *the most permissive right wins*. For instance, let a user belongs to two groups. The first group allows to READ `CITY` nodes, and the second group allows nothing on `CITY` nodes. The user will then have the permission to READ `CITY` nodes.
 
 ### User management dashboard
