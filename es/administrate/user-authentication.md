@@ -27,4 +27,4 @@ Ahora la autenticación de usuarios está activada. Recargue la interfaz de la a
 
 ![login](../../en/administrate/Login.png)
 
-Introduza el nombre (o email) y contraseña del administrador para acceder a Linkurious Enterprise.
+Introduzca el nombre (o email) y contraseña del administrador para acceder a Linkurious Enterprise.
