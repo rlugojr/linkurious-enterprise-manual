@@ -1,11 +1,11 @@
-## Administration dashboard
+## Panel de administración
 
-The administration dashboard is available for unique users and administrators, i.e. users of the `admin` group.
+EL panel de administración está disponible para usuarios únicos y administradores, por ejemplo usuarios del grupo `admin`.
 
-To access it, open the **Admin** menu of the navigation bar, then click on the **Status** item.
+Para acceder a él, abra el menú **Admin** desde la barra de navegación, luego haga click en el elemento **Status**.
 
-You now have access to the administrator dashboard. The status of Linkurious and the current data source is displayed on the right. The database statistics contain the number of nodes and edges in the graph database, as well as the number of visualizations created by Linkurious users from it.
+Ahora tiene acceso al panel de administración.  El estado de Linkurious y la fuente de datos actual son mostrados a la derecha. Las estadísticas de la base de datos contienen el número de nodos y relaciones en la base de datos de grafos, además del número de visualizaciones creadas por usuarios de Linkurious en ella.
 
-The name of the current data source is displayed on the navigation bar, with unnamed data sources called *"Database #xx"*. You may **switch to a different data source** from there.
+El nombre de la fuente de datos actual es mostrado en la barra de navegación, con fuentes de datos sin nombre mostradas como *"Database #xx"*. Usted puede **cambiar a otra fuente de datos** desde ahí.
 
-![admin-status](Admin-status.png)
+![admin-status](../../en/administrate/Admin-status.png)
