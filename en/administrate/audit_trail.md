@@ -2,7 +2,7 @@
 
 ## Configuration
 
-Linkurious enterprise is shipped with an Audit Trail feature. This feature allows you to record detailed logs about the operations performed on your graph database by users of Linkurious Enterprise.
+Linkurious Enterprise is shipped with an Audit Trail feature. This feature allows you to record detailed logs about the operations performed on your graph database by users of Linkurious Enterprise.
 To configure the audit trail system, edit the file `linkurious/data/config/production.json`. Add the following to the object:
 
 ```json
