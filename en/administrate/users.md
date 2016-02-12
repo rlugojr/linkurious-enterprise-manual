@@ -17,19 +17,19 @@ To access the user management dashboard, click on **Users** in the administrator
 
 We can manage any user by clicking on **Edit** or **Delete** next to the user of our choice. We can also manage the user groups. Remove the last group of an user and they will be assigned to the `default` group.
 
-![user-management]](user-management.png)
+![user-management](user-management.png)
 
 ### Create new users
 
 Administrators and the *"Unique User"* (used when user authentication is disabled) can create new user accounts. Let's create a new user. Click on the **Add** button next to "1 User", then fill in all fields in the form. Notice that you may assign user groups to the user. Click on the **Save** button once it is done.
 
-![new-user]](new-user.png)
+![new-user](new-user.png)
 
 ### Create and manage user groups
 
 Administrators and the Unique User can create user groups and assign them to users from the user management dashboard. Let's create a new user group. Click on the **Add** button in the users dashboard, then give it a name (e.g. *Analyst*). By default, the users of this group will be allowed to READ all nodes and edges of the current data source. You can refine the permissions after the creation of the group.
 
-![group-management]](group-management.png)
+![group-management](group-management.png)
 
 In the picture above, we can see for example that the *Analyst* group has READ-ONLY right on the `CITY`, `MARKET`, `STARTUP` and `INVESTOR` in our dataset.
 
