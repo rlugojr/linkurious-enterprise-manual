@@ -13,7 +13,7 @@ Users belong to at least one group. They can be assigned to multiple groups. The
 
 ### User management dashboard
 
-To access the user management dashboard, click on **Users** in the administrator dashboard, or selects the **Users** item in the **Admin** menu of the navigation bar. 
+To access the user management dashboard, click on **Users** in the administrator dashboard, or select the **Users** item in the **Admin** menu of the navigation bar. 
 
 We can manage any user by clicking on **Edit** or **Delete** next to the user of our choice. We can also manage the user groups. Remove the last group of an user and they will be assigned to the `default` group.
 
