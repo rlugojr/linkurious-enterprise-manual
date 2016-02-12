@@ -32,7 +32,7 @@ Les administrateurs et l'utilisateur unique peuvent créer des groupes d'utilisa
 
 ![group-management]](group-management.png)
 
-Dans l'image ci-dessus, nous pouvons voir par exemple que le groupe *Analyst* a seulement des droits de lecture (READ-ONLY) sur les villes, marchés, statrt up et investisseurs (`CITY`, `MARKET`, `STARTUP` and `INVESTOR`) de notre jeu de données.
+Dans l'image ci-dessus, nous pouvons voir par exemple que le groupe *Analyst* a seulement des droits de lecture (READ-ONLY) sur les villes, marchés, statrt up et investisseurs (`CITY`, `MARKET`, `STARTUP` et `INVESTOR`) de notre jeu de données.
 
 Click on  the **Read+Write** button to allow the users of the *Analyst* group to modify the `CITY` nodes. Click on `None` to hide the `MARKET` nodes from the *Analyst* users. You can set permissions in bulk by checking the group name and expand the **Selection > Permissions** menu.
 
