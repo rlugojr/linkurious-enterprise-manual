@@ -1,7 +1,7 @@
 ## Enable user authentication
 
 <div class="alert alert-info">
-  We strongly advise you to enable user authentication to secure the access to your data once Linkurious Enterprise is deployed on a server. This will allows you to enforce the limit of authenticated users with regards to your license terms.
+  We strongly advise you to enable user authentication to secure the access to your data once Linkurious Enterprise is deployed on a server. This will allow you to enforce the limit of authenticated users with regards to your license terms.
 </div>
 
 By default, user authentication is disabled and all actions are performed under the special account named *"Unique User"*. The unique user can do everything he wants and is not required to log in, so everybody can access the platform. Before enabling user authentication we must create an administrator account.
