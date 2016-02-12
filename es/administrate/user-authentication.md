@@ -1,30 +1,30 @@
-## Enable user authentication
+## Activar autenticación de usuarios
 
 <div class="alert alert-info">
-  We strongly advise you to enable user authentication to secure the access to your data once Linkurious Enterprise is deployed on a server. This will allow you to enforce the limit of authenticated users with regards to your license terms.
+  Recomendamos encarecidamente que usted active la autenticación de usuarios para hacer seguro el acceso a sus datos una vez que Linkurious Enterprise sea desplegado en un servidor web. Esto le permitirá imponer el límite de usuarios autenticados de acuerdo a sus términos de licencias.
 </div>
 
-By default, user authentication is disabled and all actions are performed under the special account named *"Unique User"*. The unique user can do everything he wants and is not required to log in, so everybody can access the platform. Before enabling user authentication we must create an administrator account.
+Por defecto, la autenticación de usuarios está desactivada y todas las acciones son realizadas con la cuenta de usuario especial llamada *"Unique User"* (usuario único). El usuario único puede hacer cualquier acción y no necesita identificarse, de forma que todo el mundo puede acceder a la plataforma. Antes de activar la autenticación de usuarios debemos crear una cuenta de administrador.
 
 <div class="alert alert-warning">
-  If we don't create an administrator account before enabling authentication we will not be able to log in.
+  Si no creamos la cuenta de administrador antes de activar la autenticación de usuarios no podremos identificarnos.
 </div>
 
-Let's create an administrator account. Click on **Users** in the administrator dashboard, or selects the **Users** item in the **Admin** menu of the navigation bar. Once the user management dashboard is displayed, click on the **Add** button next to "No Users". The user creation form appears.
+Creemos la cuenta de administrador. Haga clic en **Users** (usuarios) en el panel de administración, o seleccione el elemento **Users** en el menú **Admin** de la barra de navegación. Una vez que el panel de gestión sea mostrado, haga clic en el botón **Add** junto a "No Users" (sin usuarios). El formulario de creación de usuarios aparecerá.
 
-![user-creation-form]](User-creation-form.png)
+![user-creation-form](../../en/administrate/User-creation-form.png)
 
-Fill in all the fields and especially add the `admin` group in the groups field to grant administration rights to the new user. Once done click on **Save**.
+Rellene todos los campos y especialmente añada el grupo `admin` en el campo Groups para conceder los permisos de administración al nuevo usuario. Una vez haya terminado haga clic en **Save** (guardar).
 
-We have created our first administrator. Now it is time to enable user authentication.
+Hemos creado nuestro primer administrador. Ahora es el momento de activar la autenticación de usuarios.
 
-1. Open the linkurious folder in your computer.
-- Open the file located at `linkurious/data/config/production.json` with your favorite text editor.
-- Look for the `authRequired` key, then change its value from `false` to `true`.
-- Restart Linkurious Enterprise.
+1. Abra el directorio de linkurious en su sistema.
+- Abra el archivo `linkurious/data/config/production.json` con su editor de texto favorito.
+- Busque la clave `authRequired`, luego cambie su valor de `false` a `true`.
+- Reinicie Linkurious Enterprise.
 
-User authentication is now enabled. Reload the user interface of the web application to display the login screen.
+Ahora la autenticación de usuarios está activada. Recargue la interfaz de la aplicación web para acceder a la pantalla de identificación.
 
-![login]](Login.png)
+![login](../../en/administrate/Login.png)
 
-Enter the name (or email address) and password of the administrator to log in to Linkurious Enterprise.
+Introduza el nombre (o email) y contraseña del administrador para acceder a Linkurious Enterprise.
