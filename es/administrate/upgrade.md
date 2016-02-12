@@ -1,21 +1,21 @@
-## Upgrade
+## Actualizar
 
 <div class="alert alert-danger">
-    Please backup Linkurious before proceeding to any upgrade.
+    Por favor haga una copia de seguridad de Linkurious antes de realizar cualquier actualización.
 </div>
 
-### Automatic upgrades
+### Actualizaciones automáticas
 
-If you have Linkurious v0.10.0 or later installed, you can upgrade using the automatic update script:
+Si usted tiene Linkurious v0.10.0 o más reciente instalado, usted puede actualizar utilizando el script de actualización automática:
 
-1. Download the latest version of Linkurious from our Website (e.g. `linkurious-linux-v1.0.0.zip`) and save it to the Linkurious folder.
-2. Stop Linkurious using the `stop` script.
-3. Backup the `data` folder. If you are using an external database for persistence (e.g. MySQL or PostgreSQL), backup the `linkurious` schema of that database as well.
-4. Launch the update script (Linux: `update.sh`, OSX: `update.sh.command`, Windows: `update.bat`).
-5. Start Linkurious normally.
+1. Descargue la versión mas reciente de Linkurious desde nuestro sitio web (por ejemplo `linkurious-linux-v1.0.0.zip`) y guárdela en el directorio de Linkurious.
+2. Pare Linkurious utilizando el script `stop`.
+3. Haga una copia del directorio `data`. Si usted utiliza una base de datos externa para la persistencia (por ejemplo MySQL o PostgreSQL), haga una copia del esquema `linkurious` de la base de datos también.
+4. Lance el script de actualización (Linux: `update.sh`, OSX: `update.sh.command`, Windows: `update.bat`).
+5. Inicie Linkurious con normalidad.
 
-### Manual upgrades
+### Actualizaciones manuales
 
-For Linkurious versions prior to v0.10, no update procedure is available. To upgrade Linkurious, you need to install a new version and delete the previous one. All visualizations, users, groups and access-rights will be lost.
+Para versiones de Linkurious previas a v0.10, no hay un procedimiento de actualización disponible. Para actualizar Linkurious, usted necesita instalar una nueva versión y borrar la anterior. Todas las visualizaciones, usuarios, grupos y permisos de acceso se perderán.
 
-In some cases, copying the `database.db` file from the old Linkurious folder to new Linkurious folder can work, but it is not guaranteed and depends on versions.
+En algunos casos, copiar el archivo `database.db` del directorio antiguo de Linkurious al nuevo directorio de Linkurious podría funcionar, pero no está garantizado y depende de las versiones.
