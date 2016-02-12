@@ -1,39 +1,39 @@
-## Monitoring
+## Monitorización
 
-### Process monitoring
+### Monitorización de procesos
 
-Linkurious starts 3 separate processes when launched:
-1. `node` (or `node.exe`): The internal process manager (a [PM2](https://github.com/Unitech/pm2) manager)  
-2. `node` (or `node.exe`): The Linkurious Server process
-3. `java` (or `java.exe`): The embedded [ElasticSearch](https://www.elastic.co/) indexation server.
+Linkurious inicia 3 procesos independientes cuando es arrancado:
+1. `node` (o `node.exe`): El gestor de procesos interno (un [PM2](https://github.com/Unitech/pm2) manager)  
+2. `node` (o `node.exe`): El proceso del servidor de Linkurious
+3. `java` (o `java.exe`): El servidor integrado de [ElasticSearch](https://www.elastic.co/)
 
-Check if these processes are alive by opening the menu from the Linkurious directory (see how on each operating system below). The menu looks like the following image:
-
-
-![menu](Menu.png)
+Compruebe si estos procesos están funcionando abriendo el menú desde el directorio de Linkurious (ver cómo en cada sistema operativo en la siguiente sección). El menú tiene el aspecto de la siguiente imagen:
 
 
-#### Linux systems
+![menu](../../en/administrate/Menu.png)
 
-Run `menu.sh` (the status is above the menu). Alternately, run `menu.sh status`.
 
-#### Mac OS X systems
+#### Sistemas Linux
+ 
+Ejecute `menu.sh` (el estado aparece encima del menú). Alternativamente, ejecute `menu.sh status`.
 
-Run `menu.sh.command` (the status is above the menu). Alternately, run `menu.sh.command status`.
+#### Sistemas Mac OS X
 
-#### Windows systems
+Ejecute `menu.sh.command` (el estado aparece encima del menú). Alternativamente, ejecute `menu.sh.command status`.
 
-Run `menu.bat` (the status is above the menu). Alternately, run `menu.bat status`.
+#### Sistemas Windows
 
-### Status
+Ejecute `menu.bat` (el estado aparece encima del menú). Alternativamente, ejecute `menu.bat status`.
 
-#### Application
+### Estado
 
-The application status can be retrieved by querying the Web server as follows:
+#### Aplicación
+
+El estado de la aplicación puede obtenerse consultando al servidor web de la siguiente forma:
 
 > curl http://127.0.0.1:3000/api/status
 
-**Success response:**
+**Respuesta exitosa:**
 
 ```
 HTTP/1.1 200 OK
@@ -45,16 +45,15 @@ HTTP/1.1 200 OK
   }
 }
 ```
+Donde "code" es el código de estado del servidor (100: iniciando, 200: OK, >400: problema), "name" es el nombre del estado actual del servidor, y "message" describe el estado actual del servidor.
 
-Where "code" is the status code of the server (100: starting, 200: OK, >400: problem), "name" is the name of the current server status, and "message" describes the current server status.
+#### Fuentes de datos
 
-#### Data sources
-
-The status of all data sources can be retrieved by querying the web server as follows:
+El estado de todas las fuentes de datos puede obtenerse consultando al servidor web de la siguiente forma:
 
 > curl http://127.0.0.1:3000/api/dataSources
 
-**Success response:**
+**Respuesta exitosa:**
 
 ```
 HTTP/1.1 200 OK
@@ -67,4 +66,4 @@ HTTP/1.1 200 OK
 }
 ```
 
-Where "configIndex" is the index of the data-source in the 'dataSources' configuration list (see the Configure section), "key" is the unique key that identifies the data-source (null when the source is not connected), and "connected" is `true` if the source is currently available.
+Donde "configIndex" es el índice de la fuente de datos en la sección 'dataSources' de la lista de configuración (ver sección Configuración), "key" es la clave única que identifica la fuente de datos (null cuando no está conectada), y "connected" es `true` si la fuente está disponible actualmente.
