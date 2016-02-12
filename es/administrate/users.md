@@ -1,46 +1,46 @@
-## Users & groups
+## Usuarios y grupos
 
-### About users and groups
+### Sobre los usuarios y grupos
 
-Linkurious Enterprise allows you to authenticate users and assign them to groups. User groups provide permissions to read or write on nodes and edges in the graph database. Each permission is defined at the level of node categories and edge types. Groups are defined for each data source. Two user groups are available by default:
+Linkurious Enterprise le permite autenticar usuarios y asignarlos a grupos. Los grupos de usuarios proporcionan permisos para leer o escribir nodos y relaciones de la base de datos de grafos. Cada permiso es definido al nivel de categorías de nodos y tipos de relaciones. Los grupos son definidos para cada fuente de datos. Dos grupos están disponibles de forma predeterminada:
 
-*  The `admin` group has READ and WRITE access to graph data.
-*  The `default` group has READ-ONLY access to graph data.
+*  El grupo `admin` tiene permisos de LECTURA y ESCRITURA a los datos.
+*  El grupo `default` tiene permisos de SOLO-LECTURA a los datos.
 
-The `default` group is assigned to new users by default.
+El grupo `default` es asignado a los usuarios nuevos de forma predeterminada.
 
-Users belong to at least one group. They can be assigned to multiple groups. The resulting access rights are combined as follows: *the most permissive right wins*. For instance, let a user belongs to two groups. The first group allows to READ `CITY` nodes, and the second group allows nothing on `CITY` nodes. The user will then have the permission to READ `CITY` nodes.
+Los usuarios pertenecen al menos a un grupo. Pueden ser asignados a múltiples grupos. Los permisos de acceso resultantes son combinados de la siguiente forma: *el permiso más permisivo gana*. Por ejemplo, un usuario pertenece a dos grupos. El primer grupo le permite LEER nodos de la categoría `CITY`, y el segundo grupo no permite nada sobre la categoría `CITY` de nodos. El usuario tendrá acceso de LECTURA a los nodos con categoría `CITY`.
 
-### User management dashboard
+### Panel de gestión de usuarios
 
-To access the user management dashboard, click on **Users** in the administrator dashboard, or selects the **Users** item in the **Admin** menu of the navigation bar. 
+Para acceder al panel de gestión de usuarios, haga clic en **Users** en el panel de administración, o seleccione el elemento **Users** en el menú **Admin** de la barra de navegación. 
 
-We can manage any user by clicking on **Edit** or **Delete** next to the user of our choice. We can also manage the user groups. Remove the last group of an user and they will be assigned to the `default` group.
+Podemos gestionar cualquier usuario haciendo clic en **Edit** (editar) or **Delete** (eliminar) junto al usuario de nuestra elección. También podemos gestionar los grupos de usuarios. Si elimina el último grupo de un usuario se le asignará el grupo `default`.
 
-![user-management]](user-management.png)
+![user-management](../../en/administrate/user-management.png)
 
-### Create new users
+### Crear nuevos usuarios
 
-Administrators and the *"Unique User"* (used when user authentication is disabled) can create new user accounts. Let's create a new user. Click on the **Add** button next to "1 User", then fill in all fields in the form. Notice that you may assign user groups to the user. Click on the **Save** button once it is done.
+Los administradores y el *"Unique User"* (usuario único, utilizado cuando la autenticación está desactivada) pueden crear nuevas cuentas de usuario. Creemos un nuevo usuario. Haga clic en el botón **Add** (añadir) junto a "1 User", luego rellene todos los campos del formulario. Tenga en cuenta que puede asignar grupos al usuario. Haga clic en el botón **Save** (guardar) cuando haya terminado.
 
-![new-user]](new-user.png)
+![new-user](../../en/administrate/new-user.png)
 
-### Create and manage user groups
+### Crear y gestionar grupos de usuarios
 
-Administrators and the Unique User can create user groups and assign them to users from the user management dashboard. Let's create a new user group. Click on the **Add** button in the users dashboard, then give it a name (e.g. *Analyst*). By default, the users of this group will be allowed to READ all nodes and edges of the current data source. You can refine the permissions after the creation of the group.
+Los administradores y el usuario único pueden crear grupos de usuarios y asignarlos a los usuarios desde el panel de gestión de usuarios. Creemos un nuevo grupo de usuarios. Haga clic en el botón **Add** (añadir) en el panel de grupos de usuarios, luego elija un nombre (por ejemplo *Analyst*). Por defecto, los usuarios de este grupo tendrán permitida la LECTURA de todos los nodos y relaciones de la fuente de datos actual. Usted puede refinar los permisos después de crear el grupo.
 
-![group-management]](group-management.png)
+![group-management](../../en/administrate/group-management.png)
 
-In the picture above, we can see for example that the *Analyst* group has READ-ONLY right on the `CITY`, `MARKET`, `STARTUP` and `INVESTOR` in our dataset.
+En la imagen anterior, podemos ver que por ejemplo el grupo *Analyst* tiene permisos SOLO-LECTURA en las categorías `CITY`, `MARKET`, `STARTUP` e `INVESTOR` de nuestro conjunto de datos.
 
-Click on  the **Read+Write** button to allow the users of the *Analyst* group to modify the `CITY` nodes. Click on `None` to hide the `MARKET` nodes from the *Analyst* users. You can set permissions in bulk by checking the group name and expand the **Selection > Permissions** menu.
+Haga clic en el botón **Read+Write** (Leer+Escribir) para permitir a los usuarios del grupo *Analyst* modificar los nodos de la categoría `CITY`. Haga clic en `None` (ninguno) para ocultar los nodos de  la categoría `MARKET` a los usuarios del grupo *Analyst*. Usted puede establecer varios permisos a la vez marcando el nombre del grupo y expandiendo el menú **Selection > Permissions**.
 
-Finally, check the option **"Send cypher queries to the graph (read)"** to enable users of this group to run custom Cypher query the graph database. Cypher is the SQL for graph databases, and is available in the Neo4j graph database. It provides a powerful syntax to extract advanced patterns or to edit the database. This feature will be available to the users in the visualization **Workspace** under the menu **Find > Patterns**. You can learn Cypher on [neo4j.com](http://neo4j.com/developer/cypher-query-language/).
+Finalmente, marque la opción **"Send cypher queries to the graph (read)"** (enviar consultas cypher al grafo (lectura)) para permitir a los usuarios de este grupo ejecutar consultas personalizadas de tipo Cypher a la base de datos de grafos. Cypher es el SQL de bases de datos de grafos, y está disponible en la base de datos Neo4j. Le proporciona una sintaxis potente para extraer patrones avanzados o editar la base de datos. Esta característica estará disponible a usuarios en el **Workspace** (espacio de trabajo) de la visualización bajo el menú **Find > Patterns** (Encontrar > Patrones). Usted puede aprender Cypher en [neo4j.com](http://neo4j.com/developer/cypher-query-language/).
 
 <div class="alert alert-warning">
-  Users may probe the structure of the graph with Cypher queries even if they cannot have READ permissions on all nodes. Some very complex queries may also put the graph database in an unstable state, so be careful when granting your users the right to run custom queries.
+  Los usuarios podrían indagar en la estructura de la base de datos de grafos con consultas Cypher incluso aunque no tengan permisos de LECTURA sobre todos los nodos. Algunas consultas muy complejas también podrían dejar la base de datos de grafos en un estado inestable, así que sea cuidadoso al conceder permisos para ejecutar consultas personalizadas a sus usuarios.
 </div>
 
 <div class="alert alert-danger">
-  Users may delete your data by mistake when they run WRITE queries on the graph database. We recommend to enable this feature in development environments only, and to disable it for graph databases in production. It is good practice to create a specific user group with the fewest people possible in it.
+  Los usuarios podrían borrar datos por error cuando ejecuten consultas de ESCRITURA en la base de datos de grafo. Le recomendamos activar esta característica solamente en entornos de desarrollo, y desactivarlo para bases de datos de grafos en producción. Es una buena practica crear un grupo de usuarios con el menor número de personas posible en él.
 </div>
