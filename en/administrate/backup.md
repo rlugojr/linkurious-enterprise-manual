@@ -8,7 +8,7 @@ Follow these steps to perform a consistent backup:
 2. Backup the folder `<linkurious-folder>/data`.
 3. If you use MySQL or PostgreSQL instead of SQLite (default) as the internal data store of Linkurious, please backup these databases now.
 
-Restart Linkurious once you have complete the backup of the Neo4j graph databases.
+Restart Linkurious once you have completed the backup of the Neo4j graph databases.
 
 ### Neo4j Enterprise
 
