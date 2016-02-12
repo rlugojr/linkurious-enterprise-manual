@@ -14,23 +14,25 @@ Les utilisateurs appartiennent à au moins un groupe. Ils peuvent être assigné
 
 Pour accèder au tableau de bord de gestion des utilisateurs, cliquez sur **Users** dans le tableau de bord administrateur, ou sélectionnez **Users** dans le menu **Admin** de la barre de navigation. 
 
-Nous pouvons gérer quelconque utilisateur en cliquant sur **Edit** ou **Delete** à côté de l'utilisateur de notre choix. Nous pouvons aussi gérer les groupes d'utilisateurs. si vous supprimez le dernier groupe d'un utilisateur, il sera assigné au groupe par `défaut`. 
+Nous pouvons gérer quelconque utilisateur en cliquant sur **Edit** ou **Delete** à côté de l'utilisateur de notre choix. Nous pouvons aussi gérer les groupes d'utilisateurs. si vous supprimez le dernier groupe d'un utilisateur, il sera assigné au groupe par défaut `défaut`. 
 
 ![user-management]](user-management.png)
 
-### Create new users
+### Créer de nouveaux utilisateurs
 
-Administrators and the *"Unique User"* (used when user authentication is disabled) can create new user accounts. Let's create a new user. Click on the **Add** button next to "1 User", then fill in all fields in the form. Notice that you may assign user groups to the user. Click on the **Save** button once it is done.
+Les administrateur et l'utilisateur unique *"Unique User"* (utilisé quand l'identification d'utilisateurs n'est pas activée) peuvent créer des compte de nouveaux utilisateurs. Créons un nouvel utilisateur. Cliquez sur **Add** à côté de "1 User", puis remplissez tous les champs du formulaire. Notez qu'il est possible d'affecter un groupe à l'utilisateur. Cliquez sur **Save** une fois le formulaire rempli. 
+
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/new-user.png)
 
 ![new-user]](new-user.png)
 
-### Create and manage user groups
+### Créer et gérer les groupes d'utilisateurs
 
-Administrators and the Unique User can create user groups and assign them to users from the user management dashboard. Let's create a new user group. Click on the **Add** button in the users dashboard, then give it a name (e.g. *Analyst*). By default, the users of this group will be allowed to READ all nodes and edges of the current data source. You can refine the permissions after the creation of the group.
+Les administrateurs et l'utilisateur unique peuvent créer des groupes d'utilisateurs et les assigner aux différents utilisateurs à partir du tableau de bord de gestion. Créons un nouveau groupe d'utilisateurs. Cliquez sur **Add** dans le tableau de bord des utilisateurs puis donnez lui un nom (par exemple *Analyst*). Par défaut, les utilisateurs de ce groupe seront autorisés à lire tous les noeuds et liens de l'actuelle source de données. Vous pouvez modifier les autorisations après création du groupe.
 
 ![group-management]](group-management.png)
 
-In the picture above, we can see for example that the *Analyst* group has READ-ONLY right on the `CITY`, `MARKET`, `STARTUP` and `INVESTOR` in our dataset.
+Dans l'image ci-dessus, nous pouvons voir par exemple que le groupe *Analyst* a seulement des droits de lecture (READ-ONLY) sur les villes, marchés, statrt up et investisseurs (`CITY`, `MARKET`, `STARTUP` and `INVESTOR`) de notre jeu de données.
 
 Click on  the **Read+Write** button to allow the users of the *Analyst* group to modify the `CITY` nodes. Click on `None` to hide the `MARKET` nodes from the *Analyst* users. You can set permissions in bulk by checking the group name and expand the **Selection > Permissions** menu.
 
