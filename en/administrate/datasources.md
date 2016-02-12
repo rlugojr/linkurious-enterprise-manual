@@ -11,7 +11,7 @@ Linkurious Enterprise connects to local or remote data sources through HTTP and 
 
 ### Edit a data source from the data management dashboard
 
-To access the data management dashboard, click on **Data** in the administrator dashboard, or selects the **Data** item in the **Admin** menu of the navigation bar. You should see the following screen.
+To access the data management dashboard, click on **Data** in the administrator dashboard, or select the **Data** item in the **Admin** menu of the navigation bar. You should see the following screen.
 
 ![](admin-data-server.png)
 
