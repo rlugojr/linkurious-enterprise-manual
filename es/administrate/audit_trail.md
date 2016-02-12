@@ -1,9 +1,9 @@
-# Audit trail
+# Trazas de auditoría
 
-## Configuration
+## Configuración
 
-Linkurious enterprise is shipped with an Audit Trail feature. This feature allows you to record detailed logs about the operations performed on your graph database by users of Linkurious Enterprise.
-To configure the audit trail system, edit the file `linkurious/data/config/production.json`. Add the following to the object:
+Linkurious Enterprise es distribuido con una característica de trazas de auditoría. Esta característica le permite guardar registros detallados sobre las operaciones realizadas en su base de datos de grafos por los usuarios de Linkurious Enterprise.
+Para configurar el sistema de trazas de auditoría, edite el archivo `linkurious/data/config/production.json`. Añada lo siguiente al objeto:
 
 ```json
 "auditTrail": {
@@ -15,15 +15,15 @@ To configure the audit trail system, edit the file `linkurious/data/config/produ
 }
 ```
 
-* **enabled** - `false`. Enable the audit trail recording if `true`.
-* **logFolder** - `"audit-trail"`. Where to store the log files. This path is relative to the `data` directory located at the root of your Linkurious installation.
-* **fileSizeLimit** - `5242880`. Maximum size in byte of one log file (default: 5MB). A new file is created when the limit is reached (files rotations) to avoid enormous log files.
-* **strictMode** - `false`. Ensure that the operation has been logged before returning the result to the user if `true`. Might have a big impact on the server responsiveness.
-* **mode** - `"rw"`. Will record READ actions (`"r"`), WRITE actions (`"w"`), or both (`"rw"`).
+* **enabled** - `false`. Activa la traza de auditoría cuando es `true`.
+* **logFolder** - `"audit-trail"`. Dónde guardar los archivos de registro. Esta ruta es relativa al directorio `data` situado en la raíz de la instalación de Linkurious.
+* **fileSizeLimit** - `5242880`. Tamaño máximo en bytes de un archivo de registro (predeterminado: 5MB). Un nuevo archivo es creado cuando el limite es alcanzado (rotación de archivos) para evitar archivos de registro enormes.
+* **strictMode** - `false`. Asegura que la operación se haya registrado antes de devolver el resultado al usuario si es `true`. Podría tener un gran impacto en la velocidad de respuesta del servidor.
+* **mode** - `"rw"`. Guardar acciones de LECTURA (`"r"`), ESCRITURA (`"w"`), o ambas (`"rw"`).
 
 
-## Log format
-The logs are JSON lines. You can easily bind a log management system like Log Stash to interpret them. Sample:
+## Formato de los registros
+Los registros son líneas JSON. Usted puede unirlas a un sistema de gestión de registros como Log Stash para interpretarlos. Ejemplo:
 
 ```json
 {"mode":"READ","date":"2015-10-11T11:05:21.888Z","user":"seb@linkurio.us","sourceKey":"2c08a4d9","action":"getEdge","params":{"edgeId":23}}
