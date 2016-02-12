@@ -27,7 +27,7 @@ Administrators and the *"Unique User"* (used when user authentication is disable
 
 ### Create and manage user groups
 
-Administrators and the Unique User can create user groups and assign them to users from the user management dashboard. Let's create a new user group. Click on the **Add** button in the users dashboard, then give it a name (e.g. *Analyst*). By default, the users of this group will be allowed to READ all nodes and edges of the current data source. You can refine the permissions after the creation of the group.
+Administrators and the Unique User can create user groups and assign them to users from the user groups management dashboard. Let's create a new user group. Click on the **Add** button in the user groups dashboard, then give it a name (e.g. *Analyst*). By default, the users of this group will be allowed to READ all nodes and edges of the current data source. You can refine the permissions after the creation of the group.
 
 ![group-management](group-management.png)
 
