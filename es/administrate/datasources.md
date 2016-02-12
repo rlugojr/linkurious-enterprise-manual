@@ -1,22 +1,22 @@
-## Data sources
+## Fuentes de datos
 
-Linkurious Enterprise connects to local or remote data sources through HTTP and HTTPS. Data sources such as Neo4j servers may provide access to different graph databases. For instance, it is common to see Neo4j users switch between graph databases on the same Neo4j server. Linkurious Enterprise handles multiple data source configurations and detects which databases are currently available behind the connected data sources.
+Linkurious Enterprise se conecta a fuentes de datos locales o remotas a través de HTTP y HTTPS. Las fuentes de datos tales como servidores Neo4j podrían proporcionar acceso a diferentes bases de datos de grafos. Por ejemplo, es común ver usuarios de Neo4j cambiar entre diferentes bases de datos en el mismo servidor Neo4j. Linkurious Enterprise maneja múltiples configuraciones de fuentes de datos y detecta qué bases de datos están disponibles actualmente desde de las fuentes de datos conectadas.
 
-### Add a new data source
+### Añadir una nueva fuente de datos
 
-1. Open the linkurious folder in your computer.
-- Open the file located at `linkurious/data/config/production.json` with your favorite text editor.
-- Look for the `dataSources` key. It is an array of data source configurations. By default, a single data source is defined to connect to a Neo4j server located at `http://localhost:7474/`. Duplicate the default configuration and edit `graphdb` vendor and `url` to define a second data source.
-- Restart Linkurious to take changes into account.
+1. Abra el directorio de linkurious en su sistema.
+- Abra el archivo `linkurious/data/config/production.json` con su editor de texto favorito.
+- Busque la clave `dataSources`. Es una lista de configuraciones de fuentes de datos. Por defecto, una única fuente de datos está definida para conectarse a un servidor Neo4j situado en `http://localhost:7474/`. Duplique la configuración por defecto y edite `graphdb` y `url` para definir una segunda fuente de datos.
+- Reinicie Linkurious para aplicar los cambios.
 
-### Edit a data source from the data management dashboard
+### Editar una fuente de datos desde el panel de gestión de datos
 
-To access the data management dashboard, click on **Data** in the administrator dashboard, or selects the **Data** item in the **Admin** menu of the navigation bar. You should see the following screen.
+Para acceder al panel de gestión de datos, haga clic en **Data** en el panel de administración, o seleccione el elemento **Data** en el menú **Admin** de la barra de navegación. Usted debería ver la siguiente pantalla.
 
-![](admin-data-server.png)
+![](../../en/administrate/admin-data-server.png)
 
-We can edit here the data source configuration, set up and trigger data indexing. To edit the configuration of another data source, switch the data source from the navigation bar.
+Aquí podemos editar la configuración de la fuente de datos, configurar y activar la indexación de datos. Para editar la configuración de otra fuente de datos, cambie la fuente de datos desde la barra de navegación.
 
-### Search server
+### Servidor de búsqueda
 
-The search feature uses [Elasticsearch](https://www.elastic.co/products/elasticsearch) for real-time full-text search in nodes and relationships. An embedded Elasticsearch server is shipped with Linkurious but you may set up your own. All data sources are indexed into the same Elasticsearch instance by default; you may configure different Elasticsearch instances for each data source. Please refer to the official documentation of Elasticsearch to set up your own cluster.
+La característica de búsqueda utiliza [Elasticsearch](https://www.elastic.co/products/elasticsearch) para realizar búsquedas full-text en tiempo real sobre nodos y relaciones. Un servidor integrado de Elasticsearch es incluido con Linkurious pero usted podría configurar su propio servidor. Todas las fuentes de datos son indexadas en la misma instancia de Elasticsearch por defecto; usted podría configurar diferentes instancias de Elasticsearch para cada fuente de datos. Por favor consulte la documentación oficial de Elasticsearch para configurar su propio clúster.
