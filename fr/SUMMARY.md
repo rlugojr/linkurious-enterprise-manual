@@ -7,7 +7,7 @@
    * [Install](getting-started/install.md)
    * [Configure](getting-started/configure.md)
    * [Styles](getting-started/styles.md)
-   * [Start](getting-started/start.md)
+   * [Démarrer](getting-started/start.md)
    * [Stop](getting-started/stop.md)
 * [Première visualisation](first-visualization/README.md)
    * [A première vue](first-visualization/at-first-glance.md)
