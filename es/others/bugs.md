@@ -1,3 +1,3 @@
-## Bugs
+## Errores de software
 
-Please report bugs at support@linkurio.us. Reported bugs will be fixed progressively.
+Por favor infórmenos de errores de software en support@linkurio.us. Los errores informados serán solucionados progresivamente.
