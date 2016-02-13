@@ -1,4 +1,4 @@
-# Audit trail
+# Piste d'audit
 
 ## Configuration
 
