@@ -67,7 +67,7 @@
    * [Indexe de recherche](administrate/search-index.md)
    * [Piste d'audit](administrate/audit_trail.md)
 * [Other Topics](others/README.md)
-   * [Data import](others/data-import.md)
+   * [Importation de données](others/data-import.md)
    * [Bugs](others/bugs.md)
    * [Technology](others/technology.md)
 
