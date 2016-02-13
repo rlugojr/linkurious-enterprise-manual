@@ -25,7 +25,7 @@ Pour configurer le system de piste d'audit, éditez le fichier `linkurious/data/
 
 ## Format des registres
 
-Les registres sont des lignes JSON. Vous pouvez facilement les reliés à un système de gestion come Log Stash pour les interpréter. Echantillon: 
+Les registres sont des lignes JSON. Vous pouvez facilement les reliés à un système de gestion come Log Stash pour les interpréter. Exemple: 
 
 ```json
 {"mode":"READ","date":"2015-10-11T11:05:21.888Z","user":"seb@linkurio.us","sourceKey":"2c08a4d9","action":"getEdge","params":{"edgeId":23}}
