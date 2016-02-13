@@ -60,7 +60,7 @@
    * [Sauvegarde](administrate/backup.md)
    * [Mise à jour](administrate/upgrade.md)
    * [Tableau de bord d'administration](administrate/dashboard.md)
-   * [Identification](administrate/user-authentication.md)
+   * [Authentification](administrate/user-authentication.md)
    * [Utilisateurs et groupes](administrate/users.md)
    * [Sources de données](administrate/datasources.md)
    * [Available data](administrate/data-disclosure.md)
