@@ -8,7 +8,7 @@ With the data deluge making peta-octets available, companies and science teams a
 Graph databases allow to store and to access up to several million nodes and their relationships. People are using it to build exciting social applications, recommendation engines, fraud detection systems, network & data center management solutions and much more. They offer an efficient solution to query ego-centered graphs (or “local views”), where one gets a node and the nodes around it.
 
 # Edge
-The relationships between the nodes of a graphes are called “edges” or “connections” or “links”.
+The relationships between the nodes of a graph are called “edges” or “connections” or “links”.
 Synonyms : link or connection or relationship
 
 # Node
