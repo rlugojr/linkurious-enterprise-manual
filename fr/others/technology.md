@@ -21,7 +21,7 @@ Linkurious Enterprise est basé sur une technologie Open Source:
 
 * la plateforme est construite sur [Node.js](http://nodejs.org/) pour permettre une haute performance sur tout ordinateur récent Linux, Mac ou Windows;
 * le module de recherche de la plateforme utilise  [ElasticSearch](http://www.elasticsearch.org/) pour des recherches full-text en temps réel dans les noeuds et les liens;
-* le module depersistance de la plateforme utilise [Sequelize.js](http://docs.sequelizejs.com/en/latest/) pour permettre une persistance à [SQLite](https://sqlite.org/), [MySQL](https://www.mysql.com/) ou [PostgreSQL](http://www.postgresql.org/) avec une configuration minimale;
+* le module de persistance de la plateforme utilise [Sequelize.js](http://docs.sequelizejs.com/en/latest/) pour permettre une persistance à [SQLite](https://sqlite.org/), [MySQL](https://www.mysql.com/) ou [PostgreSQL](http://www.postgresql.org/) avec une configuration minimale;
 * le client est construit en utilisant [Angular.js](https://angularjs.org/) pour une expérience fluide avec différents navigateurs web;
 * les visualisations interactives du clients sont exécutées par [Linkurious.js](https://github.com/Linkurious/linkurious.js) pour de hautes performances et des interactions avancées avec les graphes dans le navigateur.
 
