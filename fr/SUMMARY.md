@@ -69,5 +69,5 @@
 * [Other Topics](others/README.md)
    * [Importation de données](others/data-import.md)
    * [Erreurs](others/bugs.md)
-   * [Technology](others/technology.md)
+   * [Technologie](others/technology.md)
 
