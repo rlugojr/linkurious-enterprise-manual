@@ -13,10 +13,10 @@ Linkurious Enterprise se connecte à des sources de données locales ou à dista
 
 Pour accédez au tableau de bord de gestion de données, cliquez sur **Data** dans le tableau de bord de l'administrateur, ou selectionnez **Data** dans le menu **Admin** de la barre de navigation. Vous devriez voir l'écran suivant: 
 
-![](admin-data-server.png)
+![](../../en/administrate/admin-data-server.png)
 
-We can edit here the data source configuration, set up and trigger data indexing. To edit the configuration of another data source, switch the data source from the navigation bar.
+Nous pouvons ici éditez la configuration de la source de données, instqller et déclencher l'indexation de données. Pour éditer la configuration d'une autre source de données, passez à une autre source de donnée à partir de la barre de navigation.
 
-### Search server
+### Rechercher un serveur
 
-The search feature uses [Elasticsearch](https://www.elastic.co/products/elasticsearch) for real-time full-text search in nodes and relationships. An embedded Elasticsearch server is shipped with Linkurious but you may set up your own. All data sources are indexed into the same Elasticsearch instance by default; you may configure different Elasticsearch instances for each data source. Please refer to the official documentation of Elasticsearch to set up your own cluster.
+L'option de recherche utilise [Elasticsearch](https://www.elastic.co/products/elasticsearch) pour une recherche en temps réel d'un text dans les noeuds et les liens. Un serveur incorporé Elasticsearch est fournit avec Linkurious mais vous devriez installer le votre. Par défaut, toutes les sources de données sont indexées dans la même version Elasticsearch, vous devriez configurez différentes versions Elasticsearch pour chaque source de données. Référez vous à la documentation officielle d'Elasticsearch pour installer votre propre arborescence. 
