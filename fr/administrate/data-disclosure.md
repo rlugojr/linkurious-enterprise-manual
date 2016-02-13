@@ -11,5 +11,5 @@ Les propriétés marquées Not available n'apparaitront plus dans les nouvelles 
 Nous pouvons configurer les propriétés des relations de la même manière dans la section **Edge properties**.
 
 <div class="alert alert-warning">
-  Nous devons ré indexer les propriétés des données une fois les propriétés disponibles configurées afin de les supprimer des résultats de recherche.We must reindex data once the available properties are configured in order to remove them from search results.
+  Nous devons ré indexer les propriétés des données une fois les propriétés disponibles configurées afin de les supprimer des résultats de recherche.
 </div>
