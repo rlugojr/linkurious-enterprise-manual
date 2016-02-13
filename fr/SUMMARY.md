@@ -4,7 +4,7 @@
 * [Commencer](getting-started/README.md)
    * [Requirements](getting-started/requirements.md)
    * [Télécharger](getting-started/download.md)
-   * [Install](getting-started/install.md)
+   * [Installer](getting-started/install.md)
    * [Configure](getting-started/configure.md)
    * [Styles](getting-started/styles.md)
    * [Démarrer](getting-started/start.md)
