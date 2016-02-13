@@ -4,7 +4,7 @@ Linkurious relies on Neo4j to store the data. The data importation is thus not h
 
 * There is a Gephi plugin that lets you export any file compatible with Gephi to Neo4j ([list of compatible formats](http://gephi.org/users/supported-graph-formats/)).
 
-* If you can handle a spreadsheet, you can [easily](http://blog.neo4j.org/2013/03/importing-data-into-neo4j-spreadsheet.html) import csv formated data.
+* If you can handle a spreadsheet, you can [easily](http://blog.neo4j.org/2013/03/importing-data-into-neo4j-spreadsheet.html) import CSV formated data.
 
 * For the more tech savvy there are even more options ([Batch importer](https://github.com/jexp/batch-import), [Talend connector](https://github.com/Zenika/talend-neo4j-connector)).
 
