@@ -39,9 +39,9 @@ Cliquez sur le bouton **Read+Write** pour permettre aux utilisateurs du groupe  
 Finalement, vérifiez l'option **"Send cypher queries to the graph (read)"** pour permettre aux utilisateurs de ce groupe de démarrer des requêtes Cypher personnalisées dans la base de données de graphes. Cypher est le SQL pour les bases de données de graphes et est disponible dans la base de donnée de graphes Neo4j. Il fournit une syntaxe performante pour l'extraction de patterns avancés ou pour l'édition d'une base de données. Cette option est accessible aux utilisateurs dans la visualisation **Workspace** sous le menu **Find > Patterns**. Vous pouvez apprendre Cypher à l'adresse suivante [neo4j.com](http://neo4j.com/developer/cypher-query-language/).
 
 <div class="alert alert-warning">
-  Users may probe the structure of the graph with Cypher queries even if they cannot have READ permissions on all nodes. Some very complex queries may also put the graph database in an unstable state, so be careful when granting your users the right to run custom queries.
+  Les utilisateurs peuvent explorer la structure d'un graphe avec des requêtes Cypher même s'ils n'ont pas d'autorisation de lecture pour tous les noeuds. Certaines requêtes très complexes peuvent mettre la base de données de graphe dans un état instable, soyez vigilants lorsque vous assignez les droits pour permettre les requêtes. 
 </div>
 
 <div class="alert alert-danger">
-  Users may delete your data by mistake when they run WRITE queries on the graph database. We recommend to enable this feature in development environments only, and to disable it for graph databases in production. It is good practice to create a specific user group with the fewest people possible in it.
+  Les utilisateurs peuvent supprimer vos données par erreur lorsqu'ils démarrent des requêtes d'écriture dans la base de données de graphes. Nous recommendons d'activer cette option seulement dans un environnement de développement et de la désactiver pour des bases de données de graphes en cours de production. Il est de bonne pratique de créer un groupe spécifique avec le moins de personnes possibles. 
 </div>
