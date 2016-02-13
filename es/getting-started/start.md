@@ -68,15 +68,15 @@ Linkurious is ready at URL: http://127.0.0.1:3000/
 Antes de nada, para utilizar Linkurious usted necesita [arrancar Neo4j](http://neo4j.com/download/).
 
 
-![arrancando neo4j](Launching-neo4j.png)
+![arrancando neo4j](../../en/getting-started/Launching-neo4j.png)
 
 Una vez que el servidor de Neo4j haya arrancado correctamente, acceda al directorio de Linkurious.
 
-![directorio](Folder.png)
+![directorio](../../en/getting-started/Folder.png)
 
 Haga clic en el archivo `start.bat`. Linkurious inicia y le invita a abrir su navegador web en http://localhost:3000 para acceder a la interfaz de usuario. Alternativamente, haga clic en `menu.bat` y seleccione `Start Linkurious processes` desde la consola.
 
-![inicio de linkurious enterprise](Startup.png)
+![inicio de linkurious enterprise](../../en/getting-started/Startup.png)
 
 <div class="alert alert-warning">
     <i class="octicon octicon-stop"></i> El cortafuegos de Windows podría pedirle autorizar conexiones con Linkurious: si es así, haga clic en Autorizar acceso.
