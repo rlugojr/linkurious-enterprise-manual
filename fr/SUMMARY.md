@@ -64,7 +64,7 @@
    * [Utilisateurs et groupes](administrate/users.md)
    * [Sources de données](administrate/datasources.md)
    * [Données disponibles](administrate/data-disclosure.md)
-   * [Search index](administrate/search-index.md)
+   * [Indexe de recherche](administrate/search-index.md)
    * [Audit trail](administrate/audit_trail.md)
 * [Other Topics](others/README.md)
    * [Data import](others/data-import.md)
