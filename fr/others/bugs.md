@@ -1,3 +1,3 @@
-## Bugs
+## Erreur
 
-Please report bugs at support@linkurio.us. Reported bugs will be fixed progressively.
+En cas d'erreurs, merci de nous les signaler à  support@linkurio.us. Les erreurs reportées seront résolues rapidement.
