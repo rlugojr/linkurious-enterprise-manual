@@ -8,4 +8,4 @@ Vous avez maintenant accès au tableau de bord administrateur. Le statut de Link
 
 Le nom de la donnée source est mentionnée dans la barre de navigation, avec des données sources sans noms appelées *"Database #xx"*. Vous pouvez passer à une autre donnée source à cet endroit.
 
-![admin-status](Admin-status.png)
+![admin-status](../../en/administrate/Admin-status.png)
