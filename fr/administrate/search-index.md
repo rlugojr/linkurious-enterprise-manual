@@ -1,21 +1,22 @@
-## Search index
+## Indexe de recherche
 
-Choose which properties of nodes and edges will be used in search results by configuring the index. By default, Linkurious indexes all available properties. Notice that unavailable properties are not indexed and thus cannot be found via the search engine.
+Choisissez quelles propriétés des noeuds et des liens seront utilisés dans les résultats de recherche en configurant l'indexe de recherche. 
+Par défaut, Linkurious répertorie toutes les propriétés disponibles. Notez que les propriétés non disponibles ne sont pas répertoriées et ne peuvent donc pas être recherchés avec l'outil de recherche.
 
 <div class="alert alert-info">
-  Indexing less data will reduce indexing time.
+  Répertorier moins de donnerées réduira le temps d'indexation.
 </div>
 
-### Change the list of searchable properties
+### Changer la liste des propriétés qu'il est possible de rechercher
 
-Open the Data administration dashboard, then scroll down to the **Node properties** section. Check the properties that can be searchable.
+Ouvrez le tableau de bord de gestion des données puis descendez à la section **Node properties**. Vérifiez les propriétés qui peuvent être recherchées.
 
-![](admin-data-nodes-properties.png)
+![](../../en/administrate/admin-data-nodes-properties.png)
 
-Click on the **Apply** button when you are done.
+Cliquez sur **Apply** lorsque vous avez terminé.
 
-We can configure edge properties the same way in the **Edge properties** section.
+Nous pouvons configurer les propriétés des relations de la même façon dans la section **Edge properties**.
 
 <div class="alert alert-warning">
-  We must reindex data to apply changes on search results.
+  Il est possible de ré-indexer les données pour appliquer les changements aux résultats de recherche.
 </div>
