@@ -8,7 +8,7 @@
    * [Configure](getting-started/configure.md)
    * [Styles](getting-started/styles.md)
    * [Démarrer](getting-started/start.md)
-   * [Stop](getting-started/stop.md)
+   * [Arrêter](getting-started/stop.md)
 * [Première visualisation](first-visualization/README.md)
    * [A première vue](first-visualization/at-first-glance.md)
    * [Créer une nouvelle visualisation](first-visualization/create.md)
