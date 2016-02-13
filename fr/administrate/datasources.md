@@ -1,17 +1,17 @@
 ## Data sources
 
-Linkurious Enterprise connects to local or remote data sources through HTTP and HTTPS. Data sources such as Neo4j servers may provide access to different graph databases. For instance, it is common to see Neo4j users switch between graph databases on the same Neo4j server. Linkurious Enterprise handles multiple data source configurations and detects which databases are currently available behind the connected data sources.
+Linkurious Enterprise se connecte à des sources de données locales ou à distance par HTTP et HTTPS. Les sources de données comme les serveurs de  Neo4j peuvent fournir un accès à différentes bases de données de graphes. Par exemple, il est commun de voir les utilisateurs de Neo4j passer d'une base de données à l'autre sur le même serveur  Neo4j. Linkurious Enterprise gère la configuration de plusieurs source de données et détecte quelle base de données est actuellement disponible derrière la source de données connectée. 
 
-### Add a new data source
+### Ajouter une nouvelle source de données
 
-1. Open the linkurious folder in your computer.
-- Open the file located at `linkurious/data/config/production.json` with your favorite text editor.
-- Look for the `dataSources` key. It is an array of data source configurations. By default, a single data source is defined to connect to a Neo4j server located at `http://localhost:7474/`. Duplicate the default configuration and edit `graphdb` vendor and `url` to define a second data source.
-- Restart Linkurious to take changes into account.
+1. Ouvrir le dossier Linkurious dans votre ordinateur
+- Ouvrez le fichier localisé à `linkurious/data/config/production.json` avec votre éditeur de texte favoris
+- Cherchez la clé `dataSources`. Il s'agit d'une multitude de configuration de sources de données. Par défaut, une unique source de données est définie pour se connecter au serveur Neo4j localisé à l'adresse suivante: `http://localhost:7474/`.Copiez la configuration par défaut et éditez le distributeur `graphdb` et  `url` pour définir une seconde source de données.
+- Redémarrez Linkurious pour prendre en compte les changements
 
-### Edit a data source from the data management dashboard
+### Editez une source de données à partir du tableau de bord de gestion
 
-To access the data management dashboard, click on **Data** in the administrator dashboard, or selects the **Data** item in the **Admin** menu of the navigation bar. You should see the following screen.
+Pour accédez au tableau de bord de gestion de données, cliquez sur **Data** dans le tableau de bord de l'administrateur, ou selectionnez **Data** dans le menu **Admin** de la barre de navigation. Vous devriez voir l'écran suivant: 
 
 ![](admin-data-server.png)
 
