@@ -1,15 +1,15 @@
-## Importing data
+## Importation de données
 
-Linkurious relies on Neo4j to store the data. The data importation is thus not handled by our solution. If you want to import data to Neo4j, you have those solutions:
+Linkurious dépend de Neo4j pour stocker les donnnées. L'importation de données n'est donc pas gérer par notre solution. Si vous voulez importer des données de Neo4j, vous avez ces solutions: 
 
-* there is a Gephi plugin that lets you export any file compatible with Gephi to Neo4j ([list of compatible formats](http://gephi.org/users/supported-graph-formats/))
+* Il y a un plugin Gephi qui vous permet d'exporter tout fichier compatible avec Gephi vers Neo4j ([list of compatible formats](http://gephi.org/users/supported-graph-formats/))
 
-* if you can handle a spreadsheet, you can [easily](http://blog.neo4j.org/2013/03/importing-data-into-neo4j-spreadsheet.html) import csv formated data
+* Si vous souhaiter traiter un tableur, vous pouvez [easily](http://blog.neo4j.org/2013/03/importing-data-into-neo4j-spreadsheet.html) importer des données formatées en CSV
 
-* for the more tech savvy there are even more option ([Batch importer](https://github.com/jexp/batch-import), [Talend connector](https://github.com/Zenika/talend-neo4j-connector))
+* Pour ceux avec des compétences techniques plus avancées il existe même plus d'options ([Batch importer](https://github.com/jexp/batch-import), [Talend connector](https://github.com/Zenika/talend-neo4j-connector))
 
-* if you want to get help from professionals, we can get you in touch with great people.
+* Si vous souhaitez l'aide de professionnel, vous pouvez entrer en contact avec des personnes excellentes 
 
-* If you are still not sure about whether you can get your data in Linkurious contact us, we will be happy to answer if you contact us.
+* Si vous n'êtes toujours pas sûr si vous pouvez avoir vos données dans Linkurious, contactez nous, nous serons heureux d'entrer en contact avec vous
 
-Finally, if you want to quickly try to use Linkurious Enterprise with dummy data, you can download a [Neo4j compatible dataset](http://neo4j.com/developer/guide-example-data/).
+Enfin, si vous souhaitez essayer rapidement Linkurious Enterprise avec un jeu de données d'exemple, vous pouvez télécharger [Neo4j compatible dataset](http://neo4j.com/developer/guide-example-data/).
