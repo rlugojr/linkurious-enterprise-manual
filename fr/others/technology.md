@@ -1,27 +1,27 @@
-## Technology
+## Technologie
 
 ![architecture](http://linkurio.us/images/lke-technical-diagram.svg)
 
-Linkurious Enterprise is the sum of two components:
+Linkurious Enterprise est la somme de deux composantes:
 
-* the Web client, whichs runs in a browser and provides users with a graphical interface to explore graphs visually;
-* the platform, which is a middleware server application that provides REST services to search and browse graphs, edit graph data, build and share visualizations.
+* Le client Web, qui s'exécute dans un navigateur et fournit aux utilisateur une interface graphique pour explorer visuellement les graphes;
+* la plateforme,  platform, qui est un serveur d'application middleware et fournit les services REST pour chercher et explorer les graphes, éditer les données des graphes, construire et partager les visualisations.
 
-The platform contains:
-* a graph module, which enables graph data access and edition;
-* a search module, which enables advanced search in graph nodes and relationships data;
-* an access module, which enables managing and applying data-access and data-edition restictions to user groups;
-* a persistence module, to save visualizations and other items to disk.
+La plateforme contient:
+* un module de graphe, qui permet d'accèder et d'étider les données de graphe;
+* un module de recherche, qui permet une recherche avancée dans les données des noeuds et des liens;
+* un module d'accès, qui permet de gérer et d'assigner l'accès et les droits d'éditions aux utilisateurs des différents groupes;
+* un module de persistance, pour sauvegarder les visualisations et autres éléments.
 
-The platform runs on any system able to support Java and Node.js, including Windows, Linux and Mac OS.
+La plateforme s'exécute sur tout système capable de supporter Java et Node.js, incluant Windows, Linux et Mac OS.
 
-The Linkurious platform communicates with your Neo4j graph database and your ElasticSearch index (existing in your infrastructure, or built-in) through HTTP APIs: each components may run on different computers on your network.
+La plateforme Linkurious communique avec votre base de graphes Neo4j et votre indexe ElasticSearch (existant dans votre infrastructure, ou inclue dedans) au travers de HTTP APIs: chaque composant peut être exécuté sur votre réseau.
 
-Linkurious Enterprise is based on Open Source technology:
+Linkurious Enterprise est basé sur une technologie Open Source:
 
-* the platform is built on top of [Node.js](http://nodejs.org/) to enable high performance on any modern Linux, Mac or Windows computer;
-* the platform's search module uses [ElasticSearch](http://www.elasticsearch.org/) for real-time full-text search in nodes and relationships;
-* the platform's persistence module uses [Sequelize.js](http://docs.sequelizejs.com/en/latest/) to enable persistence to [SQLite](https://sqlite.org/), [MySQL](https://www.mysql.com/) or [PostgreSQL](http://www.postgresql.org/) with minimal configuration;
-* the client is built using [Angular.js](https://angularjs.org/) for a smooth cross-browser user experience;
-* the client's interactive visualizations are powered by [Linkurious.js](https://github.com/Linkurious/linkurious.js) for high performances and advanced interactions with graphs in the browser.
+* la plateforme est construite sur [Node.js](http://nodejs.org/) pour permettre une haute performance sur tout ordinateur récent Linux, Mac ou Windows;
+* le module de recherche de la plateforme utilise  [ElasticSearch](http://www.elasticsearch.org/) pour des recherches full-text en temps réel dans les noeuds et les liens;
+* le module depersistance de la plateforme utilise [Sequelize.js](http://docs.sequelizejs.com/en/latest/) pour permettre une persistance à [SQLite](https://sqlite.org/), [MySQL](https://www.mysql.com/) ou [PostgreSQL](http://www.postgresql.org/) avec une configuration minimale;
+* le client est construit en utilisant [Angular.js](https://angularjs.org/) pour une expérience fluide avec différents navigateurs web;
+* les visualisations interactives du clients sont exécutées par [Linkurious.js](https://github.com/Linkurious/linkurious.js) pour de hautes performances et des interactions avancées avec les graphes dans le navigateur.
 
