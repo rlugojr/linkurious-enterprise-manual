@@ -1,15 +1,15 @@
-## Available properties of nodes and edges
+## Propriétés disponibles des noeuds et des relations
 
-By default, all properties of nodes and edges are available to the users of Linkurious. You can set some properties as unavailable. These properties will then no longer be accessible or searchable.
+Par défaut, toutes les propriétés des noeuds et des relations sont accessibles aux utilisateurs de Linkurious. Vous pouvez définir certaines propriétés comme non accessibles. Il ne sera alors plus possible ni d'accèder ni de rechercher ces propriétés.
 
-Open the Data administration dashboard, then scroll down to the **Node properties** section. All properties are marked as available in the following example.
+Ouvrez le tabelau de bord de gestion des données puis descendez jusqu'à la section **Node properties**. Toutes les propriétés sont marquées comme disponibles ( available) comme dans l'exemple ci-dessous:  
 
-![](admin-data-nodes-properties.png)
+![](../../en/administrate/admin-data-nodes-properties.png)
 
-Properties marked as not available will not show up in new or existing visualizations after we click on the **Apply** button.
+Les propriétés marquées Not available n'apparaitront plus dans les nouvelles visualisations ni dans les visualisations existantes après avoir cliquez sur le bouton **Apply**.
 
-We can configure edge properties the same way in the **Edge properties** section.
+Nous pouvons configurer les propriétés des relations de la même manière dans la section **Edge properties**.
 
 <div class="alert alert-warning">
-  We must reindex data once the available properties are configured in order to remove them from search results.
+  Nous devons ré indexer les propriétés des données une fois les propriétés disponibles configurées afin de les supprimer des résultats de recherche.We must reindex data once the available properties are configured in order to remove them from search results.
 </div>
