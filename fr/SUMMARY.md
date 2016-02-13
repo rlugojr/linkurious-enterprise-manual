@@ -62,7 +62,7 @@
    * [Tableau de bord d'administration](administrate/dashboard.md)
    * [Identification](administrate/user-authentication.md)
    * [Utilisateurs et groupes](administrate/users.md)
-   * [Data sources](administrate/datasources.md)
+   * [Sources de données](administrate/datasources.md)
    * [Available data](administrate/data-disclosure.md)
    * [Search index](administrate/search-index.md)
    * [Audit trail](administrate/audit_trail.md)
