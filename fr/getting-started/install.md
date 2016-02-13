@@ -1,13 +1,13 @@
-## Install
+## Installer
 
-### Linux systems
+### Systèmes Linux
 
-1. Unzip your copy of Linkurious:
+1. Décompressez votre copie de Linkurious:
 `>unzip linkurious-linux-v1.1.0.zip`.
 
-2. Enter the Linkurious folder: `>cd linkurious-linux`.
+2. Entrez dans le fichier Linkurious: `>cd linkurious-linux`.
 
-3. Check the configuration and make sure that the URL of you Neo4j database is correctly specified: `>head ./data/config/production.json`. Example output:
+3. Vérifiez la configuration et que l'URL de votre base de donnée Neo4j soit correctement mentionnée: `>head ./data/config/production.json`. Exemple de résultat:
 ```JavaScript
 {
   "dataSources": [{
@@ -19,15 +19,15 @@
     }
 ```
 
-4. If you need to change the URL of Neo4j or specify a user/password, edit the configuration file with your favorite editor. When adding a user/password, remember to put these strings between quotes (`"`).
+4. Si vous avez besoin de changer l'URL de Neo4j ou de spécifier un nom d'utilisateur/mot de passe, éditez le fichier de configuration avec votre éditeur favoris. Lorsque vous ajoutez un utilisateur/mot de passe, rappelez-vous de mettre ces valeurs entre guillements (`"`).
 
-5. If your deployment is security critical, please make sure that you will not run Linkurious with a `root` account.
+5. Si la sécurité de votre déploiement est critique, assurez-vous que vous ne démarrez pas Linkurious avec un compte d'utilisateur de type `root`.
 
-6. Make sure that you have Java JDK installed by typing `javac -version` in a terminal. If needed, [install Java JDK for Linux](https://docs.oracle.com/javase/7/docs/webnotes/install/linux/linux-jdk.html).
+6. Assurez-vous que vous avez installé Java JDK en tapant `javac -version` dans le terminal. Si nécessaire, [install Java JDK for Linux](https://docs.oracle.com/javase/7/docs/webnotes/install/linux/linux-jdk.html).
 
-7. Make sure that Neo4j is running.
+7. Assurez vous que Neo4j tourne.
 
-8. Run `./linkurious-linux/start.sh` to launch Linkurious.
+8. Démarrez `./linkurious-linux/start.sh` pour lancer Linkurious.
 
 ### Mac OSX systems
 
