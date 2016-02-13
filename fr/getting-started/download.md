@@ -1,10 +1,10 @@
-## Download Linkurious Enterprise
+## Télécharger Linkurious Enterprise
 
-### Your first download
+### Votre premier téléchargement
 
-Linkurious is available for download in your personal area at https://linkurio.us/my-account/
+Linkurious peut être télécharger dans votre espace personnel à l'adresse: https://linkurio.us/my-account/
 
-Log in with the username and password created during the purchase process. You will then see the downloadable files.
+IdentifiLog in with the username and password created during the purchase process. You will then see the downloadable files.
 
 The downloaded file is a ZIP archive. It notably includes:
 
