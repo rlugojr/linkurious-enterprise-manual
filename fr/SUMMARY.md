@@ -68,6 +68,6 @@
    * [Piste d'audit](administrate/audit_trail.md)
 * [Other Topics](others/README.md)
    * [Importation de données](others/data-import.md)
-   * [Bugs](others/bugs.md)
+   * [Erreurs](others/bugs.md)
    * [Technology](others/technology.md)
 
