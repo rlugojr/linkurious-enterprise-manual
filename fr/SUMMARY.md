@@ -65,7 +65,7 @@
    * [Sources de données](administrate/datasources.md)
    * [Données disponibles](administrate/data-disclosure.md)
    * [Indexe de recherche](administrate/search-index.md)
-   * [Audit trail](administrate/audit_trail.md)
+   * [Piste d'audit](administrate/audit_trail.md)
 * [Other Topics](others/README.md)
    * [Data import](others/data-import.md)
    * [Bugs](others/bugs.md)
