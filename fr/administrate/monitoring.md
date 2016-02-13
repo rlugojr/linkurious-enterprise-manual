@@ -9,8 +9,7 @@ Linkurious démarre 3 processus différents lorsqu'il est lancé:
 
 Vérifiez si ces processus fonctionnent en ouvrant le menu du répertoire Linkurious (voir ci-dessous de quelle manière pour chaque sytème). Le menu apparaît comme dans les images ci-dessous:
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administration/Menu.png)
-
+![menu](../../en/administrate/Menu.png)
 
 #### Linux systems
 
