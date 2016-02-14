@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Commencer](getting-started/README.md)
-   * [Requirements](getting-started/requirements.md)
+   * [Exigences](getting-started/requirements.md)
    * [Télécharger](getting-started/download.md)
    * [Installer](getting-started/install.md)
    * [Configure](getting-started/configure.md)
