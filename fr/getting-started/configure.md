@@ -32,10 +32,10 @@ Les sources de données sont configurées dans la clé **dataSources** qui est u
 * **graphdb** - Le serveur de base de données de graphes auquel se connecter 
     * **vendor** - `"neo4j"`. OnSeuls les sserveurs Neo4j sont supportés
     * **url** - `"http://127.0.0.1:7474/"`. Linkurious appelera le Neo4j REST API à cette addresse.
-    * **writeURL** (optionel) - Si fournit, Linkurious enverra les requêtes d'écriture à la base de données de graphes à cet endroit et les requêtes de lecture à son **url** endpoint.
-    * **user** (optionel) - L'identifiant si l'autentification est activé sur le serveur de la base de données de graphes. 
-    * **password** (optionel) - The password if authentication is enabled on the graph database server.
-* **index** - The search engine.
+    * **writeURL** (optionnel) - Si fournit, Linkurious enverra les requêtes d'écriture à la base de données de graphes à cet endroit et les requêtes de lecture à son **url** endpoint.
+    * **user** (optionnel) - L'identifiant si l'autentification est activé sur le serveur de la base de données de graphes. 
+    * **password** (optionel) - Le mot de passe si l'autentification est activé sur le serveur de la base de données de graphes.
+* **index** - Le moteur de recherche.
     * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
     * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
     * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server. 
