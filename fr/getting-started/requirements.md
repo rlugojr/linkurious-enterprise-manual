@@ -1,4 +1,4 @@
-## Requirements
+## Exigences
 
 ### Logiciel
 
