@@ -18,23 +18,23 @@ Le fichier de configuration est localisé à l'adresse:  `linkurious/data/config
 * **sigma** - Les paramètres de Sigma.js.
     * Vous devriez seulement éditer les styles et palettes
 
-### Data management
+### Gestion des données
 
-#### Data sources
+#### Sources de données
 
-Data sources are servers accessible through the network (local, intranet or internet) with URLs to connect to. We assume that each data source serves a single graph database, however it may serve a different database the next time Linkurious will connect to it. For instance, you may load a database on your Neo4j server, then restart the server with another database. Linkurious will use the store ID to identify the database, so that you can switch between databases easily.
+Les sources de données sont des serveurs accessibles par le réseau (local, intranet ou internet) avec des URLs auxquels se connecter. Nous partons du principe que chaque source de données sert une unique base de données de graphes, cependant, elle peut servir une base de données différent la prochaine fois que Linkurious s'y connectera. Par exemple, vous pouvez charger une base de données sur votre serveur Neo4j, puis redémarrer le serveur avec une autre base de données. Linkurious utilisera l'identifiant de stockage pour identifier la base de données, ainsi vous pourrez passer d'une base de données à une autre facilement.
 
-Linkurious can connect to many data sources at the same time. End users will select which database to work on in the interface, and switch between them. 
+Linkurious peut se connecter à plusieurs sources de données en même temps. Les utilisateurs sélectionnerons avec quelle base de données travailler dans l'interface et pourrions passer de l'une à l'autre.
 
-Data sources are configured within the **dataSources** key, which is a list of potential data sources. A single data source is configured by default to connect to a local Neo4j server. Each data source contains the following settings:
+Les sources de données sont configurées dans la clé **dataSources** qui est une liste de sources de données potentielles. Une unique source de données est configurée par défaut pour se connecter au serveur Neo4j. chaque source de données contient les paramètres suivants:
 
-* **name** (optional) - A human-readable name.
-* **graphdb** - The graph database server to connect to.
-    * **vendor** - `"neo4j"`. Only Neo4j servers are supported.
-    * **url** - `"http://127.0.0.1:7474/"`. Linkurious will call the Neo4j REST API on this address.
-    * **writeURL** (optional) - If provided, Linkurious will send WRITE requests to the graph database to this endpoint and READ requests to the **url** endpoint.
-    * **user** (optional) - The username if authentication is enabled on the graph database server.
-    * **password** (optional) - The password if authentication is enabled on the graph database server.
+* **name** (optionnel) - Un nom lisible (human-readable name).
+* **graphdb** - Le serveur de base de données de graphes auquel se connecter 
+    * **vendor** - `"neo4j"`. OnSeuls les sserveurs Neo4j sont supportés
+    * **url** - `"http://127.0.0.1:7474/"`. Linkurious appelera le Neo4j REST API à cette addresse.
+    * **writeURL** (optionel) - Si fournit, Linkurious enverra les requêtes d'écriture à la base de données de graphes à cet endroit et les requêtes de lecture à son **url** endpoint.
+    * **user** (optionel) - L'identifiant si l'autentification est activé sur le serveur de la base de données de graphes. 
+    * **password** (optionel) - The password if authentication is enabled on the graph database server.
 * **index** - The search engine.
     * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
     * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
