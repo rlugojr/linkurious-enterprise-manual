@@ -42,5 +42,5 @@ La plateforme Linkurious se connecte à des sources de données à distance par 
 
 Les exigences matérielles de la plateforme dépendent de la taille de la base de données de graphes à laquelle Linkurious est connecté. Jusqu'à 2 millions de noeuds et liens, nous recommendons d'installer le serveur Likurious  sur une machine avec 8 GB RAM, 4 CPU cores @ 2 Ghz, et 20 GB d'espace disque libre. 
 
-Hardware requirements of the Linkurious web client varies also with the size of the visualized graphs. For up to 500 nodes and edges, we recommend to use a machine with 4 GB RAM, and 2 CPU cores @ 1.6 Ghz. The minimal screen resolution is 1024x768 px.
+Les exigences du client internet de Linkurious varie également en fonction de la taille des graphes visualisés. Jusqu'à 500 noeuds et liens, nous recommandons l'utilisation d'une machine avec 4 GB RAM, et 2 CPU cores @ 1.6 Ghz. La résolution minimale d'écran est 1024x768 px.
 
