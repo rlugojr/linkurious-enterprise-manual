@@ -1,32 +1,32 @@
 ## Requirements
 
-### Software
+### Logiciel
 
-The Linkurious server can be deployed on the following platforms:
-* Windows 7, 8, 8.1, 10, and Server 2012.
-* Mac OS X Lion and more recent versions.
-* Linux distributions such as Debian 6+, CentOS 6.5+, Ubuntu 12.10+, Gentoo, and Mint 14+.
+Le serveur Linkurious peut-être déployé sur les plateformes suivantes: 
+* Windows 7, 8, 8.1, 10, et Server 2012.
+* Mac OS X Lion et les versions plus récentes.
+* Distribution Linux comme Debian 6+, CentOS 6.5+, Ubuntu 12.10+, Gentoo, et Mint 14+.
 
-End users will access Linkurious through a web browser. All modern browsers are supported:
-* Chrome 23 or higher (fastest).
-* Internet Explorer 10 or higher.
-* Firefox 17 or higher.
+Les utilisateurs accèderont à Linkurious par un navigateur web. Tous les navigateurs modernes peuvent être utilisés:  
+* Chrome 23 ou plus(le plus rapide).
+* Internet Explorer 10 ou plus.
+* Firefox 17 ou plus.
 * Safari 7.
-* Opera 12 or higher.
+* Opera 12 ou plus.
 
-The embedded ElasticSearch engine requires Java 8 to run properly.
-**The JAVA_HOME environment variable must be set up**, see [how to do it on Windows here](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html).
+Le moteur de recherche incorporé ElasticSearch nécessite Java 8 pour fonctionner de manière adéquate.
+**Les variables de l'environnement JAVA_HOME peuvent être réglées**, voir [comment le faire sous Windows ici](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html).
 
-#### SQLite and GLIBC 2.14
+#### SQLite et GLIBC 2.14
 
-Linkurious uses an embedded SQLite database for persistence. This database requires GLIBC >= 2.14.
-Some older Linux distributions don't have this version of GLIBC available. You can check the version available on your system on http://distrowatch.com .
+Linkurious utilise une base de donnéée incorporée SQLite pour la persistence. Cette base de données nécessite GLIBC >= 2.14.
+Des versions plus anciennes de Linux n'ont pas cette version de GLIBC disponible. vous pouvez vérifier la version disponible pour votre système à l'addresse: http://distrowatch.com .
 
-If you encounter this problem, one solution is to use another persistence store for Linkurious, such as [MySQL](https://www.mysql.fr/) or [PostgreSQL](http://www.postgresql.org/).
-You can use an existing database server or install a new one - Linkurious will store it's state in a specific "linkurious" database.
-See the Configure section to change the persistence store used by Linkurious. Please refer to the official documentation of MySQL or PostgreSQL for installation and configuration of these databases.
+Si vous rencontrez un problème, une solution est d'utiliser un autre mécanisme de persistance de données pour Linkurious, comme [MySQL](https://www.mysql.fr/) ou [PostgreSQL](http://www.postgresql.org/).
+Vous pouvez utilisé un serveur de base de données existant ou en installer un nouveau. Linkurious va garder son état dans une base de donnée spécifique "linkurious".
+Voir la section Configuration pour changer le mécanisme de persistance utilisé par Linkurious. Merci de vous référer à la documentation officielle de MySQL ou de PostgreSQL pour l'installation et la configuration de ces bases de données.
 
-Alternatively, on debian stable you may be able to fix the problem by upgrading GLIBC manually:
+Alternativement, vous devriez pouvoir arranger le problème avec debian en mettant à jour GLIBC manuellement:
 
 ```Bash
 echo 'deb http://ftp.fr.debian.org/debian/ testing main' > /etc/apt/sources.list
@@ -34,13 +34,13 @@ apt-get update
 apt-get install -t testing libc6-dev=2.19-9
 ```
 
-#### Data source
+#### Source de donnée
 
-The Linkurious platform connects to remote data sources through HTTP or HTTPS. We currently support Neo4j servers version 2.0 and higher. Neo4j from Neo Technology is the leading graph database system on the market. You can calculate Neo4j's hardware requirements [here](http://neo4j.com/developer/guide-sizing-and-hardware-calculator/).
+La plateforme Linkurious se connecte à des sources de données à distance par HTTP ou HTTPS. Nous encourageons l'utilisation des serveurs Neo4j version 2.0 et plus. Neo4j de Neo Technology est le système leader de base de données de graphes sur le marché. Vous pouvez calculer les exigences de matériel [ici](http://neo4j.com/developer/guide-sizing-and-hardware-calculator/).
 
 ### Hardware
 
-Hardware requirements of the platform depends on the size of the graph databases Linkurious is connected to. For up to 2 millions of nodes and relationships, we recommend to install the Linkurious server on a machine with 8 GB RAM, 4 CPU cores @ 2 Ghz, and 20 GB free disk space.
+Les exigences matérielles de la plateforme dépendent de la taille de la base de données de graphes à laquelle Linkurious est connecté. Jusqu'à 2 millions de noeuds et liens, nous recommendons d'installer le serveur Likurious  sur une machine avec 8 GB RAM, 4 CPU cores @ 2 Ghz, et 20 GB d'espace disque libre. 
 
 Hardware requirements of the Linkurious web client varies also with the size of the visualized graphs. For up to 500 nodes and edges, we recommend to use a machine with 4 GB RAM, and 2 CPU cores @ 1.6 Ghz. The minimal screen resolution is 1024x768 px.
 
