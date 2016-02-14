@@ -1,22 +1,22 @@
-## Configure
+## Configurer
 
 <div class="alert alert-info">
-    Skip this section if you launch Linkurious with the default configuration. You can modify the configuration anytime.
+    Passez cette étape si vous lancez Linkurious avec la configuration par défaut. Vous pouvez modifier la configuration à tout moment.
 </div>
 
-The configuration file is located at `linkurious/data/config/production.json`. It is a JSON file divided in the following sections:
+Le fichier de configuration est localisé à l'adresse:  `linkurious/data/config/production.json`. C'est un fichier JSON diviser selon les sections suivantes: 
 
-* **dataSources** - The list of data sources to connect to.
-* **allSources** - Settings that apply to all data sources.
-    * Configure shortest paths, indexing, node expand and search limits, minimal search query length.
-* **db** - The internal data store of Linkurious.
-* **server** - The Linkurious server configuration.
-* **access** - The access rights.
-    * Enable authentication, configure LDAP authentication, set data read-only mode, enable online publishing.
+* **dataSources** - La liste des sources de données auxquelles se connecter
+* **allSources** - Les paramètres qui s'appliquent à toutes les sources de données.
+    * Configurer des raccourcis, indexer, étendre les noeuds et limites de recherche, taille minimale des requêtes.
+* **db** - Le stockage de données interne de Linkurious
+* **server** - La configuration du serveur Linkurious
+* **access** - Les droits d'accès
+    * Autoriser l'autentification, configurer l'autentification LDAP, paramétrer le mode de lecture seule, autoriser la publication en ligne. 
 * **clientAnalytics**
-    * Log user actions in the client using a Google Analytics account (disabled by default).
-* **sigma** - The settings of Sigma.js.
-    * You should only edit the styles and palette keys.
+    * Action de connections des utilisateurs pour les clients utilisant un compte Google Analytics (désactivé par défaut).
+* **sigma** - Les paramètres de Sigma.js.
+    * Vous devriez seulement éditer les styles et palettes
 
 ### Data management
 
