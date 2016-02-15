@@ -90,22 +90,22 @@ Le moteur de recherche incorporé ElasticSearch peut-être remplacer par votre p
 
 #### Stockage de données interne
 
-Linkurious stores information such as visualizations, users, and permissions into a data store separate from the graph databases. By default, Linkurious uses an SQLite database. MySQL and PostgreSQL are also available but they should be installed manually.
+Linkurious stocke les informations telles que les visualisations, les utilisateurs et les permissions dans un dossier de données séparé de la base de données de graphes. Par défaut, Linkurious utilise une base de données SQLite. MySQL et PostgreSQL arsont aussi disponible mais doivent être installées manuellemente.
 
-The internal data store is configured within the `db` key:
+Le stockage de données interne est configuré dans la clé `db`:
 
-* **name** - `"linkurious"`. The name of the database.
-* **username** (optional) - The username of the admin user of the database.
-* **password** (optional) - The password of the admin user of the database.
+* **name** - `"linkurious"`. Le nom de la base de donnés.
+* **username** (optional) - L'identifiant de l'administrateur de la base de données. 
+* **password** (optional) - Le mot de passe de l'administrateur de la base de données. 
 * **options** - 
-    * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"postgres"`.
-    * **storage** (optional) - `"server/database.sqlite"`. The path of database file, relative to the `data` directory. Required for SQLite.
-    * **host** (optional) - Required for MySQL and PostgreSQL.
-    * **port** (optional) - Required for MySQL and PostgreSQL.
+    * **dialect** - `"sqlite"`. Valeurs disponibles: `"mysql"`, `"postgres"`.
+    * **storage** (optionnel) - `"server/database.sqlite"`. Le chemin du fichier de la base de données, relatif au répertoire `data`. Exigé pour SQLite.
+    * **host** (optionnel) - Exigé pour MySQL et PostgreSQL.
+    * **port** (optional) - Exigé pour MySQL et PostgreSQL.
 
 
 <div class="alert alert-warning">
-    GLIBC >= v1.14 must be installed on the server in order to use SQLite. You can check the version available your systems at <a href="http://distrowatch.com/search.php?ostype=All&category=All&origin=All&basedon=All&notbasedon=None&desktop=All&architecture=All&package=All&status=Active">http://distrowatch.com</a>.
+    GLIBC >= v1.14 doit être installé sur le serveur afin d'utiliser SQLite. Vous pouvez vérifier la version disponible pour votre système à l'adresse  <a href="http://distrowatch.com/search.php?ostype=All&category=All&origin=All&basedon=All&notbasedon=None&desktop=All&architecture=All&package=All&status=Active">http://distrowatch.com</a>.
 </div>
 
 ### Web server
