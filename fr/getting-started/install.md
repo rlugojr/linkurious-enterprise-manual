@@ -110,10 +110,10 @@ Afin de démarrer Linkurious automatiquement quand le système démarre, il est 
 
 Linkurious est conçu pour lancer une seule instance par machine. Alors que ce n'est pas recommandé et que nous n'en garantissons pas le fonctionnement, vous pouvez lancer plusieurs instances Linkurious à la fois en suivant ce quit suit:
 
-Copiez le répertoire entier de Linkurious directory (celui qui comprend ce fichier one including this file) to a new place, and edit the `data/config/production.json` file:
-You will need to change ``listenPort`` to set a different port from the one used in the `production.json` file. You may also edit `graphdb` and `db.storage`.
+Copiez le répertoire entier de Linkurious directory (celui qui comprend ce fichier) à un nouvel emplacement, et éditez le fichier the `data/config/production.json` :
+Vous aurez besoin de changer ``listenPort`` pour paramètrer un port différent de celui utilisé dans le fichier `production.json`. Vous devriez aussi éditez  `graphdb` et `db.storage`.
 
-This is an example of a second instance of Linkurious served on `http://localhost:3001`, that calls the Neo4j API on the port `7475`:
+Ceci est un exemple d'une seconde instance de Linkurious sur`http://localhost:3001`, qui appelle l'API Neo4j sur le port `7475`:
 
 ```JavaScript
 {
@@ -145,6 +145,8 @@ This is an example of a second instance of Linkurious served on `http://localhos
 }
 ```
 
-If you use the ElasticSearch software bundled with Linkurious, you will also need to modify the configuration in `system/elasticsearch/config/elasticsearch.yml` to set an alternate port to the default of 9201.
+Si vous utilisez le logiciel Elasticsearch associé à Linkurious, vous aurez aussi besoin de modifier la configuration dans `system/elasticsearch/config/elasticsearch.yml` pour paramétrer un autre port que le port par défaut 9201. 
+
+Enfin, notez qu'il n'est pas possible d'installer différente version de Linkurious comme logiciel service en même temps sur une même machine.
 
 Finally, note that it is not currently possible to install different versions of Linkurious as a system service, at the same time, on the same machine.
