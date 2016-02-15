@@ -65,22 +65,22 @@ Paramètres d'exploration des graphes:
 
 #### Connexion à un serveur Neo4j
 
-If it is the first time you run a Neo4j server and you use Neo4j v2.2 or a more recent version, you need to configure the credentials:
+Si c'est la première fois que vous démarrez un serveur Neo4j et que vous utilisez Neo4j v2.2 ou une version plus récente, vous avez besoin de configurer ainsi:  
 
-1. Launch the Neo4j server;
-- Open the browser at location http://127.0.0.1:7474 ;
-- Set a new user and password, and remember them to configure Linkurious.
+1. Démarrez le serveur Neo4j
+- Ouvrez le moteur de recherche à l'adresse: http://127.0.0.1:7474 ;
+- Paramètrez un nouvel utilisateur et mot de passe, et rappelez vous en afin de pouvoir configurez Linkurious.
 
-Configure Linkurious:
+Configurer Linkurious:
 
-- Open the configuration file;
-- Find the `graphdb` settings of the data source;
-- Set the URL of the Neo4j server;
-- Set the user and password of the Neo4j server.
+- Ouvrez le dossier de configuration;
+- Trouvez les paramètres `graphdb` de la source de données;
+- Paramètrez l'URL du serveur Neo4j;
+- Paramètrez l'utilisateur et le mot de passe du serveur Neo4j.
 
-Linkurious will connect to it the next time you start it.
+Linkurious s'y connectera la prochaine fois que vous le démarrez.
 
-#### Neo4j instance management
+#### Gestion des instances Neo4j
 
 Linkurious can manage (start and stop it as Linkurious starts and stops) your Neo4j server for you in order to simplify your administration scripts. To enable this feature (available on Linux and Max OSX only), simply set the **neo4jPath** key in **allSources** to the absolute path of Neo4j's home directory. You will notice a new "Neo4j server" entry in the status report of Linkurious' console menu (see Chapter Administration > Monitoring).
 
