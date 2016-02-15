@@ -30,32 +30,32 @@ Les sources de données sont configurées dans la clé **dataSources** qui est u
 
 * **name** (optionnel) - Un nom lisible (human-readable name).
 * **graphdb** - Le serveur de base de données de graphes auquel se connecter 
-    * **vendor** - `"neo4j"`. OnSeuls les sserveurs Neo4j sont supportés
-    * **url** - `"http://127.0.0.1:7474/"`. Linkurious appelera le Neo4j REST API à cette addresse.
+    * **vendor** - `"neo4j"`. Seuls les sserveurs Neo4j sont supportés
+    * **url** - `"http://127.0.0.1:7474/"`. Linkurious appelera le REST API Neo4j à cette addresse.
     * **writeURL** (optionnel) - Si fournit, Linkurious enverra les requêtes d'écriture à la base de données de graphes à cet endroit et les requêtes de lecture à son **url** endpoint.
     * **user** (optionnel) - L'identifiant si l'autentification est activé sur le serveur de la base de données de graphes. 
     * **password** (optionel) - Le mot de passe si l'autentification est activé sur le serveur de la base de données de graphes.
 * **index** - Le moteur de recherche.
-    * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
-    * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
-    * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server. 
-    * **forceReindex** - `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
+    * **vendor** - `"elasticSearch"`. Seuls les serveurs d'ElasticSearch sont supportés.
+    * **host** - `"127.0.0.1"` pour utiliser l'index incorporé. Vous pouvez spécifier l'hôte de votre propre serveur ElasticSearch.
+    * **port** - `9201` pour utiliser l'index incorporé. Vous pouvez spécifier le port de votre propre serveur ElasticSearch.. 
+    * **forceReindex** - `false`. Linkurious re-indexera toujours la base de données de graphes sur startup si `true`, sinon les Administrateurs devront le déclencher à partir du tableau de bord de gestion (voir le chapitre Gestion).
 
-The following settings applies to all data sources. They are available in the **allSources** key.
+Les réglages suivants s'appliquent à toutes les sources de données. Ils sont disponible dans le menu **allSources**.
 
-General settings:
+Paramètres généraux:
 
-* **connectionRetries** - `10`. The maximum number of connection attempts to each data source and to the search engine before stating them as disconnected.
-* **pollInterval** - `10`. Check if the data sources and search engine are connected at each interval (in second).
+* **connectionRetries** - `10`. Le nombre de connexions maximales tentées pour chaque soure de données et au moteur de recherche avant de les considérer comme déconnectées. 
+* **pollInterval** - `10`. Vérifie si la source de donnée et le moteur de recherche sont connectés à chaque intervalles (en secondes).
 
-Search engine settings:
+Paramètres du moteur de recherche:
 
-* **indexationChunkSize** - `5000`. The number of nodes and edges retrieved at each batch during indexing the graph database.
-* **searchAddAllThreshold** - `500`. The maximum number of search results that the user can add to a Visualization at once.
-* **searchThreshold** - `3000`. The maximum number of search results that can be returned.
-* **minSearchQueryLength** - `3`. The number of characters needed to trigger a search query. Set `1` to provide live results from the first character typed by the user.
+* **indexationChunkSize** - `5000`. Le nombre de noeuds et de liens remontés à chaque paquet durant l'indexation de la base de données de graphes 
+* **searchAddAllThreshold** - `500`. Le nombre maximal de résultats de recherche que l'utilisateur peut ajouter à une visulisation en une fois. 
+* **searchThreshold** - `3000`. Le nombre maximal de résultats de recherches qui peuvent êtres donnés 
+* **minSearchQueryLength** - `3`. Le nombre de caractères nécessaires pour déclencher une recherche. Paramètrez `1` pour fournir des résultats en direct à partir du premier caractère. 
 
-Graph exploration settings:
+Paramètres d'exploration des graphes:
 
 * **maxPathLength** - `20`. The maximum shortest path length returned by Linkurious. Finding the shortest paths is a costly operation. Setting a small number will limit the resources used by the data source for performing this operation, and will return results faster.
 * **shortestPathsMaxResults** - `10`. The maximum of shortest paths returned.
