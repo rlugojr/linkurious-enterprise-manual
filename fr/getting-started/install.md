@@ -34,9 +34,9 @@
 1. Décompressez votre copie de Linkurious:
 `>unzip linkurious-osx-v1.1.0.zip`.
 
-2. Enter the Linkurious folder: `>cd linkurious-osx`.
+2. Entrez dans le fichier Linkurious:`>cd linkurious-osx`.
 
-3. Check the configuration and make sure that the URL of you Neo4j database is correctly specified: `>head ./data/config/production.json`. Example output:
+3. Vérifiez la configuration et assurez-vous que l'URL de votre base de donnée Neo4j est correctement spécifiéee: `>head ./data/config/production.json`. Exemple de sortie:
 ```JSON
 {
   "dataSources": [{
@@ -48,11 +48,11 @@
     }
 ```
 
-4. If you need to change the URL of Neo4j or specify a user/password, edit the configuration file with your favorite editor. When adding a user/password, remember to put these strings between quotes (`"`).
+4. Si vous avez besoin de changer l'URL de Neo4j ou de spécifier un nom d'utilisateur et un mot de passe, éditez le fichier de configuration avec votre éditeur favoris. Lorsque vous ajoutez un utilisateur et un mot de passe, rappelez-vous de les mettre entre guillements (`"`).
 
-5. If your deployment is security critical, please make sure that you will not run Linkurious with a `root` account.
+5. Si votre processus de déploiement est critique, assurez vous de ne pas lancer Linkurious avec un compte racine (`root`).
 
-6. Make sure that you have Java JDK installed by typing `javac -version` in a terminal. If needed, [install Java JDK for Mac OSX](http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jdk.html).
+6. Assurez-vous d'avoir Java JDK d'installé en tapant `javac -version` dans le terminal.si besoin, [installez Java JDK pour Mac OSX](http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jdk.html).
 
 7. Make sure that Neo4j is running.
 
