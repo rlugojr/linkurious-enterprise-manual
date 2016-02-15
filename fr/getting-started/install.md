@@ -149,4 +149,4 @@ Si vous utilisez le logiciel Elasticsearch associé à Linkurious, vous aurez au
 
 Enfin, notez qu'il n'est pas possible d'installer différente version de Linkurious comme logiciel service en même temps sur une même machine.
 
-Finally, note that it is not currently possible to install different versions of Linkurious as a system service, at the same time, on the same machine.
+
