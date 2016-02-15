@@ -82,13 +82,13 @@ Linkurious s'y connectera la prochaine fois que vous le démarrez.
 
 #### Gestion des instances Neo4j
 
-Linkurious can manage (start and stop it as Linkurious starts and stops) your Neo4j server for you in order to simplify your administration scripts. To enable this feature (available on Linux and Max OSX only), simply set the **neo4jPath** key in **allSources** to the absolute path of Neo4j's home directory. You will notice a new "Neo4j server" entry in the status report of Linkurious' console menu (see Chapter Administration > Monitoring).
+Linkurious peut gérer (le démarrer et l'arrêter quand Linkurious démarre et s'arrête) votre sserveur Neo4jafin de simplifier vos scripts d'administration. Pour activer cette option (disponible sous Linuc et Mac OSX), il suffit de paramètrer **neo4jPath** dans **allSources** au chemin du répertoire d'origine de Neo4j's. Vous aurez alors un nouveau "Neo4j server" d'entrée dans le rapport de statuts du menu de la console Linkurious' (voir le chapitre Gérer>Surveillance).
 
-#### Connection to the search engine
+#### Connexion au moteur de recherche
 
-The embedded ElasticSearch engine may be replaced by your own ElasticSearch cluster. Edit the configuration file to set the `index` settings of the data source with the URL and credentials of your ElasticSearch cluster. Linkurious will create an index for each graph database, with index names prefixed by `linkurious_`.
+Le moteur de recherche incorporé ElasticSearch peut-être remplacer par votre propre ElasticSearch. Editez le fichier de configurationpour paramètrer l'`index` de la source de donnée avec l'URL et les connexions à votre moteur ElasticSearch. Linkurious créera un index pour chaque base de données de graphes, avec des noms d'index préfixés par`linkurious_`.
 
-#### Internal data store
+#### Stockage de données interne
 
 Linkurious stores information such as visualizations, users, and permissions into a data store separate from the graph databases. By default, Linkurious uses an SQLite database. MySQL and PostgreSQL are also available but they should be installed manually.
 
