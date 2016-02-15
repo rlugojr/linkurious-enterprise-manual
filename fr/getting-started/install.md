@@ -110,7 +110,7 @@ Afin de démarrer Linkurious automatiquement quand le système démarre, il est 
 
 Linkurious est conçu pour lancer une seule instance par machine. Alors que ce n'est pas recommandé et que nous n'en garantissons pas le fonctionnement, vous pouvez lancer plusieurs instances Linkurious à la fois en suivant ce quit suit:
 
-Copy the entire linkurious directory (the one including this file) to a new place, and edit the `data/config/production.json` file:
+Copiez le répertoire entier de Linkurious directory (celui qui comprend ce fichier one including this file) to a new place, and edit the `data/config/production.json` file:
 You will need to change ``listenPort`` to set a different port from the one used in the `production.json` file. You may also edit `graphdb` and `db.storage`.
 
 This is an example of a second instance of Linkurious served on `http://localhost:3001`, that calls the Neo4j API on the port `7475`:
