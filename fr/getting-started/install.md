@@ -108,8 +108,7 @@ Afin de démarrer Linkurious automatiquement quand le système démarre, il est 
   Une instance unique de Linkurious peut se connecter à plusieurs bases de données de graphes. 
 </div>
 
-Linkurious is designed to run a single instance per machine.
-While it is not recommended and with no guarantee to work, you may run multiple instances of Linkurious by doing the following:
+Linkurious est conçu pour lancer une seule instance par machine. Alors que ce n'est pas recommandé et que nous n'en garantissons pas le fonctionnement, vous pouvez lancer plusieurs instances Linkurious à la fois en suivant ce quit suit:
 
 Copy the entire linkurious directory (the one including this file) to a new place, and edit the `data/config/production.json` file:
 You will need to change ``listenPort`` to set a different port from the one used in the `production.json` file. You may also edit `graphdb` and `db.storage`.
