@@ -31,7 +31,7 @@
 
 ### Mac OSX systems
 
-1. Unzip your copy of Linkurious:
+1. Décompressez votre copie de Linkurious:
 `>unzip linkurious-osx-v1.1.0.zip`.
 
 2. Enter the Linkurious folder: `>cd linkurious-osx`.
@@ -62,9 +62,9 @@
 
 1. [Unzip](http://customize.org/help/How_To_Unzip_A_File) Linkurious' archive (right-click on `linkurious-windows-v0.10.0.zip`, then select "Extract all").
 
-2. Enter the Linkurious folder `linkurious-windows`.
+2. Entrez dans le fichier Linkurious:`linkurious-windows`.
 
-3. Open the configuration file `linkurious-windows/data/config/production.json` with WordPad or Notepad++, and make sure that the URL of your Neo4j database is correctly specified. If needed, update the username and password as well.
+3. Ouvrez le fichier de configuration `linkurious-windows/data/config/production.json` avec WordPad ou Notepad++, et assurez-vous que l'URL de votre base de donnée Neo4j est correctement spécifiée. Si besoin, actualisez le nom d'utilisateur et le mot de passe. 
 ```JavaScript
 {
   "dataSources": [{
@@ -76,30 +76,31 @@
     }
 ```
 
-4. Make sure that [you have Java JDK installed](https://www.java.com/en/download/help/version_manual.xml). (if needed, [install Java JDK](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html)).
+4. Assurez vous d'avoir [installé Java JDK ](https://www.java.com/en/download/help/version_manual.xml). (si besoin, [installer Java JDK](http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html)).
 
-5. Make sure that Neo4j is running.
+5. Assurez vous que Neo4j est lancé.
 
-6. Double-click on `linkurious-windows\start.bat` to launch Linkurious.
+6. Double-cliquez sur `linkurious-windows\start.bat` pour lancer Linkurious.
 
 
-### Install Linkurious as a system service
+### Installer Linkurious en tant que logiciel de service 
 
-In order to run Linkurious automatically when the operating system starts, it is possible to install Linkurious as a system service on Linux and Mac OSX versions.
+Afin de démarrer Linkurious automatiquement quand le système démarre, il est possible d'installer Linkurious comme logiciel de service sur Linux et Max OSX.
 
-#### Install as a service in Linux systems
 
-1. Open the administration menu by running `menu.sh` in Linkurious' folder.
-2. Check if Linkurious is already installed as a service (displayed at the top of the menu).
-3. Select `Install Linkurious as a service`.
-4. Linkurious will install itself as a service of your operating system.
+#### Installer comme logiciel de service sous Linux 
 
-#### Install as a service in Mac OSX systems
+1. Ouvrez le menu d'administration en lançant`menu.sh` dans le dossier Linkurious.
+2. Vérifier si Linkurious est déjà installé comme logiciel service (mentionné en haut du menu).
+3. Selectionnez `Install Linkurious as a service`.
+4. Linkurious sera alors installé comme service de votre système d'exploitation.
 
-1. Open the administration menu by running `menu.sh.command` in Linkurious' folder.
-2. Check if Linkurious is already installed as a service (displayed at the top of the menu).
-3. Select `Install Linkurious as a service`.
-4. Linkurious will install itself as a service of your operating system.
+#### Install er comme logiciel service sous Mac OSX
+
+1. Ouvrez le menu d'administration en lançant `menu.sh.command` dans le dossier  Linkurious'.
+2. Vérifier si Linkurious est déjà installé comme logiciel service (mentionné en haut du menu).
+3. Selectionnez `Install Linkurious as a service`.
+4. Linkurious sera alors installé comme service de votre système d'exploitation.
 
 ### How to run multiple instances of Linkurious
 
