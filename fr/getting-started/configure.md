@@ -57,13 +57,13 @@ Paramètres du moteur de recherche:
 
 Paramètres d'exploration des graphes:
 
-* **maxPathLength** - `20`. The maximum shortest path length returned by Linkurious. Finding the shortest paths is a costly operation. Setting a small number will limit the resources used by the data source for performing this operation, and will return results faster.
-* **shortestPathsMaxResults** - `10`. The maximum of shortest paths returned.
-* **rawQueryTimeout** - `60000`. Abandon a query to the database if the time is over (in second).
-* **defaultFuzziness** - `0.9`. Default value to search fuzziness between 0 and 1. A value of `1` means exact matching of the search query.
-* **expandThreshold** - `50`. When the user expands a node with too many neighbors, Linkurious will ask to refine the query so that fewer neighbors are returned.
+* **maxPathLength** - `20`. La longueur maximale du chemin le plus court donné par Linkurious. Trouver le chemin le plus court est une opération coûteuse. Paramètrer un petit nombre limitera les ressources utilisées par la source de données pour réaliser cette opération, et reournera des résultats plus rapidement.  
+* **shortestPathsMaxResults** - `10`. Le nombre maximal de chemin le plus court données.
+* **rawQueryTimeout** - `60000`. Abandonne une requête à la base de donnée si le temps est dépassé (en secondes) 
+* **defaultFuzziness** - `0.9`. Valeur par défaut pour rechercher vaguement entre 0 et 1. Une valeur de `1` signifie une correspondance exacte avec la requête. 
+* **expandThreshold** - `50`. Lorsque les utilisateurs développe un noeud avec trop de voisins, Linkurious demandera d'affiner la rechercher pour que moins de voisins soit donnés. 
 
-#### Connection to a Neo4j server
+#### Connexion à un serveur Neo4j
 
 If it is the first time you run a Neo4j server and you use Neo4j v2.2 or a more recent version, you need to configure the credentials:
 
