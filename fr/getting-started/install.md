@@ -54,13 +54,13 @@
 
 6. Assurez-vous d'avoir Java JDK d'installé en tapant `javac -version` dans le terminal.si besoin, [installez Java JDK pour Mac OSX](http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jdk.html).
 
-7. Make sure that Neo4j is running.
+7. Assurez-vous que Neo4j est lancé.
 
-8. Run `./linkurious-osx/start.sh.command` to launch Linkurious (you can double-click on the file to run it).
+8. Démarrez `./linkurious-osx/start.sh.command` pour lancer  Linkurious (vous pouvez double cliquer sur le fichier pour le lancer).
 
 ### Windows systems
 
-1. [Unzip](http://customize.org/help/How_To_Unzip_A_File) Linkurious' archive (right-click on `linkurious-windows-v0.10.0.zip`, then select "Extract all").
+1. [Décompressez](http://customize.org/help/How_To_Unzip_A_File) l'archive Linkurious (clic-droit sur `linkurious-windows-v0.10.0.zip`, puis sélectionnez "Tout extraire" (Extract all)).
 
 2. Entrez dans le fichier Linkurious:`linkurious-windows`.
 
@@ -102,10 +102,10 @@ Afin de démarrer Linkurious automatiquement quand le système démarre, il est 
 3. Selectionnez `Install Linkurious as a service`.
 4. Linkurious sera alors installé comme service de votre système d'exploitation.
 
-### How to run multiple instances of Linkurious
+### Comment démarrer plusieurs instances Linkurious 
 
 <div class="alert alert-info">
-  A single instance of Linkurious can connect to multiple graph databases.
+  Une instance unique de Linkurious peut se connecter à plusieurs bases de données de graphes. 
 </div>
 
 Linkurious is designed to run a single instance per machine.
