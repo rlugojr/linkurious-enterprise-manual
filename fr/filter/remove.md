@@ -6,7 +6,7 @@ Une icône pour chaque filtre créé est ajoutée en bas à droite de l'écran. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/R1.png)
 
-Dans cette visualisation, il y a deux filtres. Les noeuds sont filtrés selon la propriété ```country``` et les liens delon la propriété  ```funded_at```.
+Dans cette visualisation, il y a deux filtres. Les noeuds sont filtrés selon la propriété ```country``` et les liens selon la propriété  ```funded_at```.
 
 Pour supprimer le filtre ```country``` nous cliquons sur la croix à côté de l'icône.
 
