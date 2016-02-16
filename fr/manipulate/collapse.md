@@ -1,6 +1,6 @@
 ## Réduire les noeuds
 
-En explorant le graphe, nous développons les relations d'un ou plusieurs noeuds. Parfois les noeuds et relations ajoutés à notre visualisation peuvent ne pas êtres pertinents. Dans ce cas, nous pouvons utiliser la fonction ```Collapse```(réduire) pour les supprimer.
+En explorant le graphe, nous développons les liens d'un ou plusieurs noeuds. Parfois les noeuds et liens ajoutés à notre visualisation peuvent ne pas êtres pertinents. Dans ce cas, nous pouvons utiliser la fonction ```Collapse``` (réduire) pour les supprimer.
 
 Réduire un noeud signifie supprimer de la visualisation les noeuds connectés à un noeud ou à un groupe de noeuds.
 
