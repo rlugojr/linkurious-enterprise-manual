@@ -1,22 +1,22 @@
-### Visualization style
+### Style des visualisations
 
-You can configure the installation of Linkurious Enterprise to customize the default visual aspect of nodes and edges in new visualizations, so that your users will jump head first into the exploration of data. Nodes and edges are grey and have the same size by default. The defined styles will be applied to **all** data sources.
+Vous pouvez configurer l'installation de Linkurious Enterprise pour personnaliser par défaut l'aspect visuel des noeuds et liens des nouvelles visualisations, ainsi les utilisateurs peuvent directement explorer les données. Par défaut, les noeuds et les liens sont gris et ont la même taille. Le style défini sera appliqué à **toutes** les sources de données sources.
 
-Open the configuration file `linkurious/data/config/production.json`. Visualization styles are defined within the `sigma` key by the `styles` and color `palette`. Styles are mapping between visual variables such as colors or size, and data properties on nodes and edges. Visual variables can be used in a single style at a time. For instance we can set `nodes.color` and `nodes.icons`, but we cannot set `nodes.color` twice. We can set `nodes.color` and `edges.color`.
+Ouvrez le fichier de configuration `linkurious/data/config/production.json`. Les styles de visualisation sont définis dans la clé `sigma` par  `styles` et  `palette` de couleurs. Les styles sont définis par des variables visuelles comme les couleus ou la taille et les propriétés des données des noeuds et liens. Un seul type de variable visuelle peut être utilisé à la fois. Par exemple, nous pouvons paramètrer `nodes.color` et `nodes.icons`, mais nous ne pouvons pas paramètrer deux fois  `nodes.color`. Nous pouvons paramètrer `nodes.color` et `edges.color`.
 
-Palettes may contain color schemes for both quantitative and qualitative properties, as well as schemes for icons. Schemes for qualitative properties bind property values to colors. Schemes for quantitative properties bind the number of property values to lists of sequential colors. Schemes may be nested and be referenced in dot notation by the styles.
+Les palettes peuvent contenir des couleurs pour des propriétés qualitatives et quantitatives, ainsi que des modèles pour les icônes. Dans le cas des propriétés qualitatives, une valeur de propriété est associée à une couleur. Dans le cas de propriétés quantitatives, les valeurs numériques d'une propriété sont associées à une séquence de couleurs.   may contain color schemes for both quantitative and qualitative properties, as well as schemes for icons. Schemes for qualitative properties bind property values to colors. Schemes for quantitative properties bind the number of property values to lists of sequential colors. Ces schémas peuvent être imbriqués et référencés à l'aide d'une notation par point par les styles. 
 
-Available `styles.nodes.by` values:
+Valeurs disponibles `styles.nodes.by` :
 - "data.categories"
 - "data.properties.X", with "X" the property name.
 
-Available `styles.edges.by` values:
+Valeurs disponibles `styles.edges.by` :
 - "data.type"
 - "data.properties.X", with "X" the property name.
 
-#### Color mapping
+#### Attribution des couleurs 
 
-In the following example, nodes are colored by categories "COMPANY", "CITY", "MARKET", "INVESTOR", and edge are colored by type "HAS_CITY", "HAS_MARKED", "INVESTED_IN". Notice how each color palettes is referenced in schemes.
+Dans l'exemple suivant, les noeuds sont colorés selon la catégorie  "COMPANY", "CITY", "MARKET", "INVESTOR", et les liens selon le type  "HAS_CITY", "HAS_MARKED", "INVESTED_IN". Notez comment chaque palette est référencé par des formules (scheme) how each color palettes is referenced in schemes.
 
 **Example for qualitative properties:**
 ```json
