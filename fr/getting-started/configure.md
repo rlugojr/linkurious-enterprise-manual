@@ -169,7 +169,7 @@ Le système d'accès des utilisateurs est configuré dans la clé `access`:
 
 Dans Linkurious, les administrateurs gère les comptes des autres utilisateurs. Les comptes d'utilisateurs sont définis soit par un identifiant ou une adresse email. Si Linkurious est connecté à un service LDAP (de préférence OpenLDAP ou Active Directory), les utilisateurs sont autentifiés chaque fois qu'il se connectent. Si vous avez un service LDAP en route sur votre réseau, vous pouvez l'utilisé pour autentifier les utilisateurs de Linkurious. Notez que Linkurious stocke les mots de passe encryptés pour les utilisateurs non autentifiés par LDAP. 
 
-Pour autoriser k'autentification LDAP dans Linkurious, paramètrer la configuration. 
+Pour autoriser l'autentification LDAP dans Linkurious, paramètrer la configuration. 
 
 Pour Microsoft Active Directory, ajoutez une section `msActiveDirectory` sà l'intérieur de `access`:
 
@@ -218,31 +218,30 @@ Pour OpenLDAP, ajoutez une section `ldap` à l'intérieur de `access`:
 Merci de vous référer à la documentation de votre fournisseur LDAP.
 
 <div class="alert alert-warning">
-    Cntactez votre administrateur réseau pour vous assurer que votre ordinateur sur lequel est installé Linkurious peut se connecter à un service LDAP. 
+    Contactez votre administrateur réseau pour vous assurer que votre ordinateur sur lequel est installé Linkurious peut se connecter à un service LDAP. 
 </div>
 
 #### Permissions des utilisateurs pour les sources de données 
 
-Les administrateurs peuvent affinés les permission des utilisateur pour chaque source de données. voir le chapitre Administration pour en savoir plus.n  can set fine-grained permissions to end users for each data source. See the Administration Chapter to learn more.
+Les administrateurs peuvent affinés les permission des utilisateurs pour chaque source de données. voir le chapitre Administration pour en savoir plus.
 
-### Logging
+### Connexion
 
-Linkurious can log events at server side and at client side.
+Linkurious peut enregistrer des événements du côté serveur et du côté client. 
 
-#### Server logs
+#### Enregistrements serveurs
 
-The Linkurious server logs various events into files at `data/manager/logs/Linkurious-Server-*.log`. They are helpful to fix issues and you should include them to your support tickets.
-Logs of the embedded ElasticSearch server can be found in `data/manager/logs/ElasticSearch-Server-*.log`.
+Le serveur Linkurious enregistre différents événements dans des fichiers à l'adresse `data/manager/logs/Linkurious-Server-*.log`. Ils sont utiles pour fixer des problèmes et et vous devrier les inclure dans vos tickets d'incidents. Les événements du serverincorporé ElasticSearch peut être trouvé dans `data/manager/logs/ElasticSearch-Server-*.log`.
 
-#### Client logs
+#### Enregistrements clients
 
-The Linkurious client can log user actions by sending events to your Google Analytics account. They provide information of the way the application is used, which features are the most useful, etc. This feature is disabled by default and no external script is injected in this case. It is configured within the `clientAnalytics` key:
+Le client Linkurious cenregistrer les actions d'utilisateurs en envoyant les événements à votre compte Google Analytics. Ils fournissent des informations sur la manière dont l'application est utilisée, quelles options sont les plus utiles, etc. Cette option est désactivée par défaut et aucun script extérne n'est lors injecté. elle se configure dans la clé `clientAnalytics`:
 
 * **enabled** - `false`. 
-* **code** - Universal Analytics code of the form "UA-XXXXX-xx".
-* **domain** - `"none"`. The domain from which Linkurious is accessible to the users, e.g. "www.example.com", or "none".
+* **code** - Code universels Analytics code de forme "UA-XXXXX-xx".
+* **domain** - `"none"`. Le domaine à partir duquel Linkurious est accessible par les utilisateurs, exemple: "www.example.com", ou "none".
 
-#### Audit trails
+#### Pistes d'audit
 
 Audit trails allows you to record detailed logs about the operations performed on your graph database by the users of Linkurious Enterprise. The log files contain JSON lines. You can easily bind a log management system like [Logstash](https://www.elastic.co/products/logstash) to interpret them. This feature is disabled by default. The following settings are available within the `auditTrail` key:
 
