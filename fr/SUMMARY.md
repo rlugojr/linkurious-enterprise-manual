@@ -39,7 +39,7 @@
    * [Icônes](style/icons.md)
 * [Filtrer](filter/README.md)
    * [Filtrer des noeuds](filter/nodes.md)
-   * [Filtrer des relations](filter/edges.md)
+   * [Filtrer des liens](filter/edges.md)
    * [Combiner les filtres](filter/combine.md)
    * [Retirer les filtres](filter/remove.md)
 * [Editer](edit/README.md)
