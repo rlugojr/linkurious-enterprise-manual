@@ -247,6 +247,6 @@ Les pistes d'audit vous permettent d'enregistrer des éveénements détaillés s
 
 * **enabled** - `false`. Activer l'enregistrement de pistes d'audit si `true`.
 * **logFolder** - `"audit-trail"`. Où stocker les fichiers d'enregistrement. Ce chemin est relatif au répertoire`data` localisé à la racine de votre installation Linkurious.
-* **fileSizeLimit** - `5242880`. Taille maximal en byte d'un fichier d'enregistrement (par défaut: 5MB). Un nouveau fichier est créé quand la limite est atteinte (rotation de fichiers) pour éviter de trop grand fichiers d'enregistrements.
-* **strictMode** - `false`. S'assure que l'opération a été enregistré avant de donner le résultat à l'utilisateur si `true`. Peut avoir un gros impacte sur la capacité de réponse du serveur. 
+* **fileSizeLimit** - `5242880`. Taille maximal en byte d'un fichier d'enregistrement (par défaut: 5MB). Un nouveau fichier est créé quand la limite est atteinte (rotation de fichiers) pour éviter de trop grand fichiers d'enregistrement.
+* **strictMode** - `false`. S'assure que l'opération a été enregistrée avant de donner le résultat à l'utilisateur si `true`. Peut avoir un gros impact sur la capacité de réponse du serveur. 
 * **mode** - `"rw"`. Enregistrera les actions de LECTURE (`"r"`), d'ECRITURE (`"w"`), ou les deux (`"rw"`).
