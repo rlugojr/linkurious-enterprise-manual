@@ -1,6 +1,6 @@
-## Créer des nouveaux noeuds et de nouvelles relations
+## Créer de nouveaux noeuds et de nouveaux liens
 
-Dans le menu ```more options``` nous pouvons choisir de créer soit un noeud, soit une relation.
+Dans le menu ```more options``` nous pouvons choisir de créer soit un noeud, soit un lien.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A1.png)
 
@@ -22,7 +22,7 @@ Ici nous entrons la valeur ```Paris``` pour la propriété  City, la valeur ```F
 Nous pouvons voir que le noeud  ```NewInvestor``` a été créé et ajouté à notre graphe. 
 
 
-### Créer une relation
+### Créer un lien
 
 Nous devons fournir les informations suivantes:
 
@@ -30,18 +30,18 @@ Nous devons fournir les informations suivantes:
 
 ![](A6.png)
 
-* ```Type```: le type de la relation;
-* ```Source```: le noeud d'origine de la relation;
-* ```Target```: le noeud cible de la relation.
+* ```Type```: le type du lien;
+* ```Source```: le noeud d'origine du lien;
+* ```Target```: le noeud cible du lien.
 
-Tout comme pour les noeuds, nous pouvons ajouter autant de propriétés que nous le souhaitons à une relation. Quand nous avons terminé, nous cliquons sur ```Save```.
+Tout comme pour les noeuds, nous pouvons ajouter autant de propriétés que nous le souhaitons à un lien. Quand nous avons terminé, nous cliquons sur ```Save```.
 
-Ici nous avons entré la valeur  ```Twitter``` pour le noeud d'origine, la valeur ```INVESTED_IN``` pour le type de relation et la valeur ```NewInvestor``` pour le noeud cible et finalement ```2015``` pour la propriété ```funded_year``` .
+Ici nous avons entré la valeur  ```Twitter``` pour le noeud d'origine, la valeur ```INVESTED_IN``` pour le type de lien et la valeur ```NewInvestor``` pour le noeud cible et finalement ```2015``` pour la propriété ```funded_year``` .
 
 
-Nous pouvons voir dans notre graphe notre nouveau noeud et notre nouvelle relation.
+Nous pouvons voir dans notre graphe notre nouveau noeud et notre nouveau lien.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A8.png)
 
 
-Il est possible de créer une nouvelle relation entre deux noeuds en sélectionnant ces deux noeuds, faitez un clic droit sur le fond de la visualisation et un menu est apparaît, puis choisissez ```Create a new edge```. Le noeud d'origine et le noeud cible sont alors mentionnés. 
+Il est possible de créer un nouveau lien entre deux noeuds en sélectionnant ces deux noeuds, faitez un clic droit sur le fond de la visualisation et un menu est apparaît, puis choisissez ```Create a new edge```. Le noeud d'origine et le noeud cible sont alors mentionnés. 
