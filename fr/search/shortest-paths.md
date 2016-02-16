@@ -1,4 +1,4 @@
-## Recherche du plus court chemin
+## Recherche du chemin le plus court 
 
 Linkurious Enterprise fournit une option pour trouver le plus court chemin entre deux noeuds dans votre graphe. 
 
