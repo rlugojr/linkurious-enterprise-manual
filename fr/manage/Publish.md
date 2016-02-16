@@ -1,6 +1,6 @@
 # Publier
 
-Linkurious Enterprise offre la possibilité de publier des visualisations intéractives en ligne. Les visualisations publiées peuvent être accessibles par un URL ou intégrée dans une page web. Elles contiennent une capture d'écran des données d'un gaphe au moment où la visualisation est publiée. L'auteur de la visualisation peut dépublier la visualisation à n'importe quel moment. Quiconque peut explorer cette visualisation intéractive, permettant une collaboration aisée autour des données du graphe. 
+Linkurious Enterprise offre la possibilité de publier des visualisations interactives en ligne. Les visualisations publiées peuvent être accessibles par un URL ou intégrée dans une page web. Elles contiennent une capture d'écran des données d'un gaphe au moment où la visualisation est publiée. L'auteur de la visualisation peut dépublier la visualisation à n'importe quel moment. Quiconque peut explorer cette visualisation intéractive, permettant une collaboration aisée autour des données du graphe. 
 
 Nous pouvons publier une visualisation à partir de l'espace de travail en passant par le menu de gauche:
 
@@ -8,7 +8,7 @@ Nous pouvons publier une visualisation à partir de l'espace de travail en passa
 
 Avant publication, nous pouvons choisir plusieurs options afin de personnaliser l'interface:
 
-![](https://www.gitbook.com/book/jvilledieu/linkurious-enterprise-manual/edit#/edit/master/fr/manage/ScreenBP.md)
+![](../../en/manage/ScreenBP.png)
 
 Les options sont: 
 
@@ -21,7 +21,8 @@ Les options sont:
 
 Dans la capture d'écran ci-dessous, nous avons désactivé l'option légende et l'option de partage. Nous pouvons voir que le bouton ```Share button``` à droite de l'écran a disparu. Finallement, nous pouvons la publier: 
 
-![](https://www.gitbook.com/book/jvilledieu/linkurious-enterprise-manual/edit#/edit/master/fr/manage/Done.png)
+![](../../en/manage/Done.png)
+
 
 La visualisation est maintenant disponible en ligne. Nous pouvons partager le lien ou l'intégrer dans une page internet en ajoutant le lien de la page dans le code source de la page internet.
 
