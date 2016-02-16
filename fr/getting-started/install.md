@@ -7,7 +7,7 @@
 
 2. Entrez dans le fichier Linkurious: `>cd linkurious-linux`.
 
-3. Vérifiez la configuration et que l'URL de votre base de donnée Neo4j soit correctement mentionnée: `>head ./data/config/production.json`. Exemple de résultat:
+3. Vérifiez la configuration et assurez-vous que l'URL de votre base de donnée Neo4j soit correctement mentionnée: `>head ./data/config/production.json`. Exemple de résultat:
 ```JavaScript
 {
   "dataSources": [{
@@ -19,9 +19,9 @@
     }
 ```
 
-4. Si vous avez besoin de changer l'URL de Neo4j ou de spécifier un nom d'utilisateur/mot de passe, éditez le fichier de configuration avec votre éditeur favoris. Lorsque vous ajoutez un utilisateur/mot de passe, rappelez-vous de mettre ces valeurs entre guillements (`"`).
+4. Si vous avez besoin de changer l'URL de Neo4j ou de spécifier un nom d'utilisateur/mot de passe, éditez le fichier de configuration avec votre éditeur favori. Lorsque vous ajoutez un utilisateur/mot de passe, rappelez-vous de mettre ces valeurs entre guillements (`"`).
 
-5. Si la sécurité de votre déploiement est critique, assurez-vous que vous ne démarrez pas Linkurious avec un compte d'utilisateur de type `root`.
+5. Si votre déploiement informatique est critique, assurez-vous que vous ne démarrez pas Linkurious avec un compte utilisateur racine.
 
 6. Assurez-vous que vous avez installé Java JDK en tapant `javac -version` dans le terminal. Si nécessaire, [install Java JDK for Linux](https://docs.oracle.com/javase/7/docs/webnotes/install/linux/linux-jdk.html).
 
@@ -36,7 +36,7 @@
 
 2. Entrez dans le fichier Linkurious:`>cd linkurious-osx`.
 
-3. Vérifiez la configuration et assurez-vous que l'URL de votre base de donnée Neo4j est correctement spécifiéee: `>head ./data/config/production.json`. Exemple de sortie:
+3. Vérifiez la configuration et assurez-vous que l'URL de votre base de données Neo4j soit correctement spécifiéee: `>head ./data/config/production.json`. Exemple de sortie:
 ```JSON
 {
   "dataSources": [{
@@ -48,11 +48,11 @@
     }
 ```
 
-4. Si vous avez besoin de changer l'URL de Neo4j ou de spécifier un nom d'utilisateur et un mot de passe, éditez le fichier de configuration avec votre éditeur favoris. Lorsque vous ajoutez un utilisateur et un mot de passe, rappelez-vous de les mettre entre guillements (`"`).
+4. Si vous avez besoin de changer l'URL de Neo4j ou de spécifier un nom d'utilisateur et un mot de passe, éditez le fichier de configuration avec votre éditeur favori. Lorsque vous ajoutez un utilisateur et un mot de passe, rappelez-vous de les mettre entre guillements (`"`).
 
-5. Si votre processus de déploiement est critique, assurez vous de ne pas lancer Linkurious avec un compte racine (`root`).
+5. Si votre déploiement informatque est critique, assurez vous de ne pas lancer Linkurious avec un compte racine .
 
-6. Assurez-vous d'avoir Java JDK d'installé en tapant `javac -version` dans le terminal.si besoin, [installez Java JDK pour Mac OSX](http://docs.oracle.com/javase/7/docs/webnotes/install/mac/mac-jdk.html).
+6. Assurez-vous que vous avez installé Java JDK en tapant `javac -version` dans le terminal. Si nécessaire, [install Java JDK for Linux](https://docs.oracle.com/javase/7/docs/webnotes/install/linux/linux-jdk.html).
 
 7. Assurez-vous que Neo4j est lancé.
 
@@ -60,11 +60,11 @@
 
 ### Windows systems
 
-1. [Décompressez](http://customize.org/help/How_To_Unzip_A_File) l'archive Linkurious (clic-droit sur `linkurious-windows-v0.10.0.zip`, puis sélectionnez "Tout extraire" (Extract all)).
+1. [Décompressez](http://customize.org/help/How_To_Unzip_A_File) l'archive Linkurious (clic-droit sur `linkurious-windows-v0.10.0.zip`, puis sélectionnez "Tout extraire".
 
 2. Entrez dans le fichier Linkurious:`linkurious-windows`.
 
-3. Ouvrez le fichier de configuration `linkurious-windows/data/config/production.json` avec WordPad ou Notepad++, et assurez-vous que l'URL de votre base de donnée Neo4j est correctement spécifiée. Si besoin, actualisez le nom d'utilisateur et le mot de passe. 
+3. Ouvrez le fichier de configuration `linkurious-windows/data/config/production.json` avec WordPad ou Notepad++, et assurez-vous que l'URL de votre base de données Neo4j soit correctement spécifiée. Si besoin, actualisez le nom d'utilisateur et le mot de passe. 
 ```JavaScript
 {
   "dataSources": [{
@@ -83,19 +83,19 @@
 6. Double-cliquez sur `linkurious-windows\start.bat` pour lancer Linkurious.
 
 
-### Installer Linkurious en tant que logiciel de service 
+### Installer Linkurious en tant que logiciel service 
 
-Afin de démarrer Linkurious automatiquement quand le système démarre, il est possible d'installer Linkurious comme logiciel de service sur Linux et Max OSX.
+Afin de démarrer Linkurious automatiquement quand le système démarre, il est possible d'installer Linkurious comme logiciel service sur Linux et Max OSX.
 
 
-#### Installer comme logiciel de service sous Linux 
+#### Installer comme logiciel service sous Linux 
 
-1. Ouvrez le menu d'administration en lançant`menu.sh` dans le dossier Linkurious.
-2. Vérifier si Linkurious est déjà installé comme logiciel service (mentionné en haut du menu).
+1. Ouvrez le menu d'administration en lançant `menu.sh` dans le dossier Linkurious.
+2. Vérifiez si Linkurious est déjà installé comme logiciel service (mentionné en haut du menu).
 3. Selectionnez `Install Linkurious as a service`.
 4. Linkurious sera alors installé comme service de votre système d'exploitation.
 
-#### Install er comme logiciel service sous Mac OSX
+#### Installer comme logiciel service sous Mac OSX
 
 1. Ouvrez le menu d'administration en lançant `menu.sh.command` dans le dossier  Linkurious'.
 2. Vérifier si Linkurious est déjà installé comme logiciel service (mentionné en haut du menu).
@@ -110,8 +110,8 @@ Afin de démarrer Linkurious automatiquement quand le système démarre, il est 
 
 Linkurious est conçu pour lancer une seule instance par machine. Alors que ce n'est pas recommandé et que nous n'en garantissons pas le fonctionnement, vous pouvez lancer plusieurs instances Linkurious à la fois en suivant ce quit suit:
 
-Copiez le répertoire entier de Linkurious directory (celui qui comprend ce fichier) à un nouvel emplacement, et éditez le fichier the `data/config/production.json` :
-Vous aurez besoin de changer ``listenPort`` pour paramètrer un port différent de celui utilisé dans le fichier `production.json`. Vous devriez aussi éditez  `graphdb` et `db.storage`.
+Copiez le répertoire entier de Linkurious (celui qui comprend le répertoire (directory)) à un nouvel emplacement, et éditez le fichier `data/config/production.json` :
+Vous aurez besoin de changer ``listenPort`` pour paramètrer un port différent de celui utilisé dans le fichier `production.json`. Vous devez aussi éditer  `graphdb` et `db.storage`.
 
 Ceci est un exemple d'une seconde instance de Linkurious sur`http://localhost:3001`, qui appelle l'API Neo4j sur le port `7475`:
 
@@ -147,6 +147,6 @@ Ceci est un exemple d'une seconde instance de Linkurious sur`http://localhost:30
 
 Si vous utilisez le logiciel Elasticsearch associé à Linkurious, vous aurez aussi besoin de modifier la configuration dans `system/elasticsearch/config/elasticsearch.yml` pour paramétrer un autre port que le port par défaut 9201. 
 
-Enfin, notez qu'il n'est pas possible d'installer différente version de Linkurious comme logiciel service en même temps sur une même machine.
+Enfin, notez qu'il n'est pas possible d'installer différentes versions de Linkurious comme logiciel service en même temps sur une même machine.
 
 
