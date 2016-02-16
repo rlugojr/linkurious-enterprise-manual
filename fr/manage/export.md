@@ -5,7 +5,7 @@ Nous avons créé une visualisation et nous voulons la partager ou modifier son 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/MenuExport.png)
 
-Les données de la visualisation peuvent être exportés dans les formats suivants:
+Les données de la visualisation peuvent être exportées dans les formats suivants:
 
 * Excel 2007+ workbook
 * CSV
@@ -27,5 +27,5 @@ L'export sous format PNG est configurable: paramétrer le niveau de zoom de la v
 
 
 <div class="alert alert-info">
-   Ce paramètre est différent du bouton ```Take Screenshot``` disponible par clique droit sur  l'espace de travail ou dans les actions du menu: les captures d'écran crées une image de la zone d'écran disponible.
+   Ce paramètre est différent du bouton ```Take Screenshot``` disponible par clique droit sur  l'espace de travail ou dans les actions du menu. Les captures d'écran crées une image de la zone d'écran disponible!
 </div>
