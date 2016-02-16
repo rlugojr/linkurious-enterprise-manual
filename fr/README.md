@@ -1,12 +1,12 @@
-Linkurious Enterprise Manual
+Manuel de Linkurious Enterprise
 ============================
 
-This is the user manual of Linkurious Enterprise.
+Voici le manuel de Linkurious Enterprise.
 
-The first two chapters titled **Getting Started** and **Building Your First Graph Visualization** will teach you the basics of using Linkurious.
+Les deux premiers chapitres intitulés **Commencer** et **Construire sa première visualisation** vous enseignerons les bases d'utilisation de Linkurious.
 
-The following chapters are divided in themes. They go through the features of Linkurious and explain how to apply them to successfully visualize graphs. It works both as a manual and a primer on graph visualization.
+Les chapitres suivants sont divisés par thèmes. Ils parcourent les différentes options de Linkurious et vous expliquent comment les appliquer avec succès à vos visualisations. Ce manuel est à la fois un manuel d'utilisateur et une première introduction à la visualisation graphique.
 
-Just like our software, this guide assumes no prior knowledge of graph visualization techniques. If you read it thoroughly, you will be able to find valuable connections and structural patterns in your data, to improve your graph database, and to communicate your findings efficiently.
+Tout comme notre logiciel, ce guide ne requière aucune connaissance préalable en visualisation graphique. Si vous le lisez attentivement, vous serez capables de trouver des connections intéressantes et des schémas particuliers dans vos données, d'améliorer votre base de données de graphes et de communiquer vos résultats de manière efficace. 
 
-Version of Linkurious Enterprise: v1.1.1 "Tragicomical Toucan".
+Version de Linkurious Enterprise: v1.1.1 "Tragicomical Toucan".
