@@ -16,9 +16,9 @@ Valeurs disponibles `styles.edges.by` :
 
 #### Attribution des couleurs 
 
-Dans l'exemple suivant, les noeuds sont colorés selon la catégorie  "COMPANY", "CITY", "MARKET", "INVESTOR", et les liens selon le type  "HAS_CITY", "HAS_MARKED", "INVESTED_IN". Notez comment chaque palette est référencé par des formules (scheme) how each color palettes is referenced in schemes.
+Dans l'exemple suivant, les noeuds sont colorés selon la catégorie  "COMPANY", "CITY", "MARKET", "INVESTOR", et les liens selon le type  "HAS_CITY", "HAS_MARKED", "INVESTED_IN". Notez comment chaque palette est référencé par des formules (scheme).
 
-**Example for qualitative properties:**
+**Exemple pour des propriétés qualitatives:**
 ```json
 "styles": {
   "nodes": {
@@ -57,11 +57,11 @@ Dans l'exemple suivant, les noeuds sont colorés selon la catégorie  "COMPANY",
 }
 ```
 
-Coloring by quantitative property follows the same logic. In the following example the nodes are colored by a numeric property. Values will be linearly grouped into 7 bins, ordered from small to large values (see an example below).
+Colorer selon des propriétés quantitatives suit la même logique. Dans l'exemple suivant, les noeuds sont colorés selon une propriété numérique. Les valeurs peuvent être groupés en 7 compartiments, ordonnés des plus petites aux plus larges valeurs. 
 
-![color-scale](Color-scale.png)
+![Echelle de couleur](Color-scale.png)
 
-**Example for quantitative properties:**
+**Exemple pour des propriétés quantitatives :**
 ```json
 "styles": {
   "nodes": {
