@@ -1,13 +1,13 @@
 ## Recherche de noeuds
 
-Nous avons des millions de noeuds dans notre graph. Comment faire si nous souhaitons nous intéresser à un noeuds en particulier?
+Nous avons des millions de noeuds dans notre graph. Comment faire si nous souhaitons nous intéresser à un noeud en particulier?
 
 
-La première possibilité est d'utiliser la barre de recherche rapide disponible sur le tableau de bord (Dashboard). Nous pouvons alors choisir de rechercher des noeuds ou des relations (encadré rouge). Ici nous nous intéresserons aux noeuds.
+La première possibilité est d'utiliser la barre de recherche rapide disponible sur le tableau de bord (Dashboard). Nous pouvons alors choisir de rechercher des noeuds ou des liens (encadré rouge). Ici nous nous intéresserons aux noeuds.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/QuickS_Nodes.png)
 
-La deuxième possibilité est d'utiliser la barre de recherche de l'interface Linkurious Enterprise une fois qu'une nouvelle visualisation ait été créée.
+La deuxième possibilité est d'utiliser la barre de recherche de l'interface Linkurious Enterprise une fois qu'une nouvelle visualisation a été créée.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Find.png)
 
@@ -20,8 +20,8 @@ Toutes les entités de la base de données qui contiennent le mot ```Instagram``
 
 Pour chaque résultat nous pouvons voir:
 
-- Le nom du noeud et son numéro d'identité (ID number) généré par la pase de données (```Instagram, #3886```)
-- La propriété qui correspond ànotre recherche, surlignée en jaune (ici, le permalien de la compagnie ``Instagram``` contient le texte ```Instagram` qui correspond à notre recherche)
+- Le nom du noeud et son numéro d'identité (ID number) généré par la base de données (```Instagram, #3886```)
+- La propriété qui correspond à notre recherche, surlignée en jaune (ici, le permalien de la compagnie ```Instagram```contient le texte ```Instagram``` qui correspond à notre recherche)
 
 
 Nous choisissons le résultat qui nous intéresse en cliquant dessus. Le résultat sélectionné est immédiatement ajouté au canevas et il est alors possible de le visualiser.
@@ -35,7 +35,7 @@ Nous choisissons le résultat qui nous intéresse en cliquant dessus. Le résult
 > Par exemple, vous pouvez trouver le noeud ```Instagram``` en tapant ```instagram```, ou ```USA``` ou ```2010-03```.
 
 
-La barre de recherche dans l'espace de travail (Workspace) fournit une option de recherche avancée qui n'est pas disponible dans la barre de recherche rapide accessible depuis le tableau de bord (Dashboard). Il est alors possible de réduire nos résultats à la catégorie qui nous intéresse. Ces options sont décrites dans la section Recherche Avancée.
+La barre de recherche dans l'espace de travail fournit une option de recherche avancée qui n'est pas disponible dans la barre de recherche rapide accessible depuis le tableau de bord (Dashboard). Il est alors possible de réduire nos résultats à la catégorie qui nous intéresse. Ces options sont décrites dans la section Recherche Avancée.
 
 
 
