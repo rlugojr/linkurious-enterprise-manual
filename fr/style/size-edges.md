@@ -16,17 +16,17 @@ Dans la figure ci-dessus, nous pouvons voir la compagnie Instagram et différent
 
 Si nous zoomons sur la relation entre Instagram et Sequoia Capital, nous pouvons voir la propriété ```raised_amount_usd``` avec la valeur ```55 000 000```.
 
-Nous allons dimensionner la taille des différentes compagnies en fonction de leur propriété ```raised amount``` afin de savoir rapidement qui a investi le plus d'argent dans Instagram.
+Nous allons dimensionner la taille des différents liens en fonction de leur propriété ```raised amount``` afin de savoir rapidement qui a investi le plus d'argent dans Instagram.
 
-Nous cliquons sur l'onglet en haut à droite pour ouvrir le designpanel et choisissons l'onglet Edges.
+Nous cliquons sur l'onglet en haut à droite pour ouvrir le design panel et choisissons l'onglet Edges.
 
 Nous déplaçons la souris sur ```raised_amount```. En plus de pouvoir colorer les liens selon cette propriété, il est également possible de les dimensionner. Linkurious Enterprise peut faire ça pour toutes les propriétés ayant des valeurs numériques.
 
 Nous allons sélectionner l'icône taille (```Size```).
 
-Un nouveau menu apparaît. Il permet de paramètrer la ```Min/max size difference```, la différence de taille entre le lien ayant la plus petite valeur et le lien ayant la plus grande valeur.
+Un nouveau menu apparaît. Il permet de paramètrer la ```différence de taille min/max``(différence de taille entre le lien ayant la plus petite valeur et le lien ayant la plus grande valeur).
 
-Si nous voulons voir la différence de ```raised_amount``` nous allons paramétrer  ```Min/max size difference``` à ```2```.
+Si nous voulons voir la différence de ```raised_amount``` nous allons paramétrer  la ```différence de taille min/max``` à ```2```.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/TailleEdges.png)
 
