@@ -20,7 +20,7 @@
    * [Syntaxe avancée](search/syntax.md)
    * [Trouver le chemin le plus court](search/shortest-paths.md)
 * [Manipuler](manipulate/README.md)
-   * [Noeuds et relations d'un graphe](manipulate/Nodes_and_edges_in_a_graph.md)
+   * [Noeuds et liens d'un graphe](manipulate/Nodes_and_edges_in_a_graph.md)
    * [Développer les noeuds](manipulate/expand.md)
    * [Réduire les noeuds](manipulate/collapse.md)
    * [Sélection de noeuds et relations](manipulate/select.md)
