@@ -6,7 +6,7 @@
 
 ### Mise à jour automatiques 
 
-Si vous avez installé Linkurious v0.10.0 ou plus, vous pouvez lettre à jour en utilisant le script de mise à jour automatique:
+Si vous avez installé Linkurious v0.10.0 ou plus, vous pouvez le mettre à jour en utilisant le script de mise à jour automatique:
 
 
 1. Téléchargez la dernière version de Linkurious sur notre site internet (par exemple `linkurious-linux-v1.0.0.zip`) et sauvegardez le dans le dossier Linkurious.
@@ -17,6 +17,6 @@ Si vous avez installé Linkurious v0.10.0 ou plus, vous pouvez lettre à jour en
 
 ### Mise à jour du manuel 
 
-FPour des versions antérieures à v0.10, aucune mise à jour n'est disponible. Pour mettre à jour Linkurious, vous devez installer une novuelle version et supprimer la précédente. Toutes les visualisations, utilisateurs, groupes et droits d'accès seront perdus.
+Pour des versions antérieures à v0.10, aucune mise à jour n'est disponible. Pour mettre à jour Linkurious, vous devez installer une nouvelle version et supprimer la précédente. Toutes les visualisations, utilisateurs, groupes et droits d'accès seront perdus.
 
 Dans certains cas, copier le fichier `database.db` de l'ancien dossier Linkurious vers le nouveau dossier peut fonctionner. Ceci n'est cependant pas garanti et dépend des versions.
