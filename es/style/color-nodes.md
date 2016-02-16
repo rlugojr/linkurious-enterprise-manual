@@ -15,7 +15,7 @@ Primero, abrimos el panel de diseño en la esquina derecha de la pantalla y puls
 ![](../../en/style/Colors.png)
 
 Vemos:
-* los diferentes valores asociados con la propiedad ```country``` (CAN, GBR, JPN, RUS y USA)
+* los diferentes valores asociados con la propiedad ```country``` (JPN, RUS y USA)
 * el número de ocurrencias que hay de cada valor (hay 20 nodos con el valor ```USA```)
 * qué color es asociado con cada valor (```USA``` es verde)
 
