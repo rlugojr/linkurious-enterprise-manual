@@ -24,7 +24,7 @@ Le duplicat est alors accessible à partir du tableau de bord.
 Notez que lorsque vous dupliquez à partir de l'espace de travail, vous êtes directement redirigé vers le duplicat afin de travailler dessus.
 
 <div class="alert alert-info">
-    Ilest possible de dupliquer une visualisation qu'un autre utilisateur a partagé avec vous.
+    Il est possible de dupliquer une visualisation qu'un autre utilisateur a partagé avec vous.
     </div>
 
 <div class="alert alert-info">
