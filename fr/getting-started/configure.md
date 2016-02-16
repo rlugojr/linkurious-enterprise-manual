@@ -147,15 +147,15 @@ Les communications externes avec le serveur de Linkurious server peuvent être e
 
 Dans la clé `server` :
 
-* **listenPortHttps** - `3443`. The port of the web server if HTTPS is enabled. See the Install section to learn why you should not set `443` directly.
-* **useHttps** - `false`. Encrypt communications through HTTPS if `true`. Require a valid SSL certificate.
-* **forceHttps** - `false`. Force all traffic to use HTTPS only if `true`. The server will reject all HTTP requests.
-* **certificateFile** (optional) - The relative path to the SSL certificate.
-* **certificateKeyFile** (optional) - The relative path to a public key of the SSL certificate.
+* **listenPortHttps** - `3443`. Le port du serveur web si HTTPS est activé. Voir la section Install pour apprendre pourquoi vous ne devriez pas directement paramètrer `443`.
+* **useHttps** - `false`. Encrypter les communications via HTPPS si `true`. Exige un certificat SSL valide. 
+* **forceHttps** - `false`. Force tout trafic à utiliser seulement HTTP si `true`. Le serveur rejetera toute requête HTTP.
+* **certificateFile** (optionnel) - Le chemin relatif au certificat SSL.
+* **certificateKeyFile** (optionnel) - Le chemin relatif à une clé publique du certificat SSL.
 
-If the Linkurious server, data sources, and the search engine are installed on different machines, we recommend to encrypt internal communication between them. It will protect you against packet sniffing on your intranet or on a cloud infrastructure. Please refer to the documentation of Neo4j and ElasticSearch to enable HTTPS.
+Si le serveur Linkurious, les sources de données, et le moteur de recherche sont installés sur des machines différentes, nous recommendons d'encrypter la communication entre elles. Celà protègera contre le reniflage de paquets de votre intranet ou sur une infrastructure cloud. Merci de vous référer à la documentation de Neo4j et d'ElasticSearch pour activer HTTPS. 
 
-#### User access rights
+#### Droits d'accès des utilisateurs  access rights
 
 The user access system is configured within the `access` key:
 
