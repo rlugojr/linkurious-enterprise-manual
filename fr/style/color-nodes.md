@@ -1,6 +1,6 @@
 ## Colorer les noeuds en fonction d'une propriété
 
-Si tous les noeuds ou relations ont la même couleur, il est difficile de distinguer des différences entre eux sans se pencher sur leurs propriétés individuelles. Une manière simple de contourner ce problème est de choisir de colorer les noeuds selon une propriété particulière.
+Si tous les noeuds ou liens ont la même couleur, il est difficile de distinguer des différences entre eux sans se pencher sur leurs propriétés individuelles. Une manière simple de contourner ce problème est de choisir de colorer les noeuds selon une propriété particulière.
 
 Par exemple, nos noeuds peuvent avoir une propriété ```country``` que nous souhaiterions mettre en avant. Linkurious Enterprise nous permet donc de colorer les noeuds selon une certaine propriété, ici la propriété ```country```.
 
@@ -16,7 +16,7 @@ Premièrement, ouvrons le design panel dans le coin à droite de l'écran et sé
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/Colors.png)
 
 Nous pouvons voir:
-* les différentes valeurs associées à la propriété ```country``` (CAN, GBR, JPN, RUS, USA);
+* les différentes valeurs associées à la propriété ```country``` (JPN, RUS, USA);
 * le nombre d'occurence de chacune des valeurs (il y a 20 noeuds ayant la valeur ```USA```);
 * quelle couleur est associée à quelle valeur (```USA``` est en vert)
 
