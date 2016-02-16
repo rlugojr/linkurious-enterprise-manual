@@ -1,10 +1,10 @@
 ## Editer les propriétés et les catégories
 
-Les propriétés sont des valeurs clés des informations stockées dans les noeuds et les relations. Il peut s'agir du nom d'une compagnie par exemple. Les catégories sont des informations spécifiques permettant d'étiqueter les noeuds et les relations. Un noeud peut être de la catégorie Investisseur (investor) ou Compagnie (company), ou les deux.
+Les propriétés sont des valeurs clés des informations stockées dans les noeuds et les liens. Il peut s'agir du nom d'une compagnie par exemple. Les catégories sont des informations spécifiques permettant d'étiqueter les noeuds et les liens. Un noeud peut être de la catégorie Investisseur (investor) ou Compagnie (company), ou les deux.
 
 
 <div class="alert alert-info">
-    Dans la base de données Neo4j, les relations ont une seule catégorie et il n'est pas possible de la modifier. 
+    Dans la base de données Neo4j, les liens ont une seule catégorie et il n'est pas possible de la modifier. 
 </div>
 
 ### Mode Edition
@@ -15,7 +15,7 @@ Premièrement, nous avons besoin d'activer le mode édition en cliquant sur ```O
 
 ###Editer ou supprimer une propriété
 
-Maintenant, si nous sélectionnons un noeud ou une relation et que nous déplaçons le curseur sur une propriété, nous pouvons soit ```l'éditer``` (edit) ou la ```supprimer``` (delete)
+Maintenant, si nous sélectionnons un noeud ou un lien et que nous déplaçons le curseur sur une propriété, nous pouvons soit ```l'éditer``` (edit) soit la ```supprimer``` (delete)
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E2.png)
 
