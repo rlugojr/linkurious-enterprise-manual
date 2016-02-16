@@ -4,18 +4,18 @@
 
 Linkurious Enterprise est la somme de deux composantes:
 
-* Le client Web, qui s'exécute dans un navigateur et fournit aux utilisateur une interface graphique pour explorer visuellement les graphes;
-* la plateforme,  platform, qui est un serveur d'application middleware et fournit les services REST pour chercher et explorer les graphes, éditer les données des graphes, construire et partager les visualisations.
+* Le client Web, qui s'exécute dans un navigateur et fournit aux utilisateurs une interface graphique pour explorer visuellement les graphes;
+* La plateforme,   qui est un serveur d'application middleware et fournit les services REST pour chercher et explorer les graphes, éditer les données des graphes, construire et partager les visualisations.
 
 La plateforme contient:
-* un module de graphe, qui permet d'accèder et d'étider les données de graphe;
+* un module de graphe, qui permet d'accèder et d'étider les données des graphes;
 * un module de recherche, qui permet une recherche avancée dans les données des noeuds et des liens;
-* un module d'accès, qui permet de gérer et d'assigner l'accès et les droits d'éditions aux utilisateurs des différents groupes;
+* un module d'accès, qui permet de gérer et d'assigner l'accès et les droits d'édition aux utilisateurs des différents groupes;
 * un module de persistance, pour sauvegarder les visualisations et autres éléments.
 
 La plateforme s'exécute sur tout système capable de supporter Java et Node.js, incluant Windows, Linux et Mac OS.
 
-La plateforme Linkurious communique avec votre base de graphes Neo4j et votre indexe ElasticSearch (existant dans votre infrastructure, ou inclue dedans) au travers de HTTP APIs: chaque composant peut être exécuté sur votre réseau.
+La plateforme Linkurious communique avec votre base de graphes Neo4j et votre indexe ElasticSearch (existant dans votre infrastructure, ou inclu dans Linkurious) au travers de HTTP APIs: chaque composant peut être exécuté sur votre réseau.
 
 Linkurious Enterprise est basé sur une technologie Open Source:
 
