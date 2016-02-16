@@ -11,8 +11,8 @@ Par exemple, le nœud a une propriété ```Country``` avec la valeur ```USA```.
 
 Nous pouvons descendre plus bas pour voir plus de propriétés ou utiliser la barre de recherche pour trouver une propriété. 
 
-Notez le numéro à côté du nœud, ce numéro correspond au nombre de relations non apparentes. Si l'on ne souhaite pas voir s'afficher le panneau de gauche, nous cliquons simplement sur ```Properties``` (cercle vert).
-Il est possible d'inspecter les relations de la même manière.
+Notez le numéro à côté du nœud, ce numéro correspond au nombre de liens non apparents. Si l'on ne souhaite pas voir s'afficher le panneau de gauche, nous cliquons simplement sur ```Properties``` (cercle vert).
+Il est possible d'inspecter les liens de la même manière.
 
 ## Afficher les connexions d'un nœud 
 
