@@ -1,6 +1,6 @@
-## Sélectionner des noeuds et des relations
+## Sélectionner des noeuds et des liens
 
-La manière la plus simple de sélectionner un noeud ou une relation est de cliquer dessus. Il est aussi possible de sélectionner plusieurs noeuds à la fois.
+La manière la plus simple de sélectionner un noeud ou un lien est de cliquer dessus. Il est aussi possible de sélectionner plusieurs noeuds à la fois.
 
 Pour ce faire, choisissez ```Select``` dans le panneau d'informations de gauche.
 
@@ -11,9 +11,9 @@ Vous avez maintenant plusieurs options:
 
 * ```Select all nodes``` : sélectionne tous les noeuds de la visualisation;
 * ```Select neighbors``` : sélectionne les voisins du noeud actuellement sélectionné ;
-* ```Select leaf nodes``` : sélectionne les noeuds de la visualisation qui n'ont qu'une seule relation ;
-* ```Select isolates``` : sélectionne les noeuds de la visualisation qui n'ont pas de relations;
-* ```Select all relationships``` : sélectionne toutes les relations de l'actuelle visualisation ;
+* ```Select leaf nodes``` : sélectionne les noeuds de la visualisation qui n'ont qu'un seul lien ;
+* ```Select isolates``` : sélectionne les noeuds de la visualisation qui n'ont pas de liens (aucune relation);
+* ```Select all relationships``` : sélectionne tous les liens de l'actuelle visualisation ;
 * ```Toggle lasso``` : sélection manuelle des noeuds qui nous intéressese
 * ```Select all edges```
 * ```Inverse selection``` : inverser la sélection actuelle.
