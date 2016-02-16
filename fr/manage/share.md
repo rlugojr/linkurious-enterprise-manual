@@ -5,7 +5,7 @@ Si nous faisons un clic-droit sur la visualisation, nous pouvons la partager de 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Share_Option.png)
 
-Nous cliquons sur ```Share``` dans le menu et entrons le nom ou le mail de la personne avec qui nous voulons partager la visualisation. 
+Nous cliquons sur ```Share``` dans le menu et entrons le nom ou l'email de la personne avec qui nous voulons partager la visualisation. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Share_Option.png)
 
