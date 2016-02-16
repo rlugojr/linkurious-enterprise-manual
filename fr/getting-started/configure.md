@@ -4,15 +4,15 @@
     Passez cette étape si vous lancez Linkurious avec la configuration par défaut. Vous pouvez modifier la configuration à tout moment.
 </div>
 
-Le fichier de configuration est localisé à l'adresse:  `linkurious/data/config/production.json`. C'est un fichier JSON diviser selon les sections suivantes: 
+Le fichier de configuration est localisé à l'adresse:  `linkurious/data/config/production.json`. C'est un fichier JSON divisé selon les sections suivantes: 
 
 * **dataSources** - La liste des sources de données auxquelles se connecter
 * **allSources** - Les paramètres qui s'appliquent à toutes les sources de données.
     * Configurer des raccourcis, indexer, étendre les noeuds et limites de recherche, taille minimale des requêtes.
-* **db** - Le stockage de données interne de Linkurious
+* **db** - Le stockage interne de données de Linkurious
 * **server** - La configuration du serveur Linkurious
 * **access** - Les droits d'accès
-    * Autoriser l'autentification, configurer l'autentification LDAP, paramétrer le mode de lecture seule, autoriser la publication en ligne. 
+    * Autoriser l'authentification, configurer l'authentification LDAP, paramétrer le mode de lecture seule, autoriser la publication en ligne. 
 * **clientAnalytics**
     * Action de connections des utilisateurs pour les clients utilisant un compte Google Analytics (désactivé par défaut).
 * **sigma** - Les paramètres de Sigma.js.
@@ -22,9 +22,9 @@ Le fichier de configuration est localisé à l'adresse:  `linkurious/data/config
 
 #### Sources de données
 
-Les sources de données sont des serveurs accessibles par le réseau (local, intranet ou internet) avec des URLs auxquels se connecter. Nous partons du principe que chaque source de données sert une unique base de données de graphes, cependant, elle peut servir une base de données différent la prochaine fois que Linkurious s'y connectera. Par exemple, vous pouvez charger une base de données sur votre serveur Neo4j, puis redémarrer le serveur avec une autre base de données. Linkurious utilisera l'identifiant de stockage pour identifier la base de données, ainsi vous pourrez passer d'une base de données à une autre facilement.
+Les sources de données sont des serveurs accessibles par le réseau (local, intranet ou internet) avec des URLs auxquels se connecter. Nous partons du principe que chaque source de données sert une unique base de données de graphes, cependant, elle peut servir une base de données différente la prochaine fois que Linkurious s'y connectera. Par exemple, vous pouvez charger une base de données sur votre serveur Neo4j, puis redémarrer le serveur avec une autre base de données. Linkurious utilisera l'identifiant de stockage pour identifier la base de données, ainsi vous pourrez passer d'une base de données à une autre facilement.
 
-Linkurious peut se connecter à plusieurs sources de données en même temps. Les utilisateurs sélectionnerons avec quelle base de données travailler dans l'interface et pourrions passer de l'une à l'autre.
+Linkurious peut se connecter à plusieurs sources de données en même temps. Les utilisateurs sélectionnerons avec quelles bases de données travailler dans l'interface et pourrons passer des unex aux autres.
 
 Les sources de données sont configurées dans la clé **dataSources** qui est une liste de sources de données potentielles. Une unique source de données est configurée par défaut pour se connecter au serveur Neo4j. chaque source de données contient les paramètres suivants:
 
