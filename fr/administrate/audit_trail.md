@@ -2,9 +2,9 @@
 
 ## Configuration
 
-Linkurious Enterprise est fournit avec une option de piste d'audit. Cette option vous permet d'avoir un registre détaillé sur les opérations effectués dans la base de données de graphes par les utilisateurs de Linkurious Enterprise. 
+Linkurious Enterprise est fournit avec une option de piste d'audit. Cette option vous permet d'avoir un registre détaillé sur les opérations effectuées dans la base de données de graphes par les utilisateurs de Linkurious Enterprise. 
 
-Pour configurer le system de piste d'audit, éditez le fichier `linkurious/data/config/production.json`. Ajoutez ce qui suit:
+Pour configurer 'option de piste d'audit, éditez le fichier `linkurious/data/config/production.json`. Ajoutez ce qui suit:
 
 ```json
 "auditTrail": {
@@ -18,7 +18,7 @@ Pour configurer le system de piste d'audit, éditez le fichier `linkurious/data/
 
 * **enabled** - `false`. Permet la piste d'audit si `true`.
 * **logFolder** - `"audit-trail"`. Où stocker le registre. Ce chemin est relatif au répertoire  `data` localisé à la racine de votre installation Linkurious.
-* **fileSizeLimit** - `5242880`. Taille maximum en bite d'une archive de registre (par défaut: 5MB). Un nouveau fichier est créé lorque la limite est atteinte (rotations des fichiers) pour éviter des archives de registres trop énorme.
+* **fileSizeLimit** - `5242880`. Taille maximum en bite d'une archive de registre (par défaut: 5MB). Un nouveau fichier est créé lorque la limite est atteinte (rotations des fichiers) pour éviter des archives de registres trop énormes.
 * **strictMode** - `false`. Assure que l'opération a été archivée avant de renvoyer le résultat à l'utilisateur si `true`. Peut avoir un gros impact sur la capacité de réponse du serveur.
 * **mode** - `"rw"`. Enregistrera les actions de LECTURE (`"r"`), d'ECRITURE (`"w"`), ou les deux (`"rw"`).
 
