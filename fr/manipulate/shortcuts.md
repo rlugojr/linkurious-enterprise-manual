@@ -1,4 +1,4 @@
-## Les différents raccourcis du Workspace
+## Les différents raccourcis de l'espace de travail
 
 ### La caméra
 
@@ -16,13 +16,13 @@
 
 ### Sélection
 
-```spacebar``` + ```click``` Ajouter/supprimer des noeuds ou des relations à la sélection
+```spacebar``` + ```click``` Ajouter/supprimer des noeuds ou des liens à la sélection
 
 ```spacebar``` + ```a``` Sélectionner/désélectionner tous les noeuds
 
-```spacebar``` + ```u``` Déselectionner tous les noeuds ou relations
+```spacebar``` + ```u``` Déselectionner tous les noeuds ou liens
 
-```spacebar``` + ```Del``` Cacher les noeuds ou relations sélectionnés
+```spacebar``` + ```Del``` Cacher les noeuds ou liens sélectionnés
 
 ```spacebar``` + ```e``` Sélectionner les voisins des noeuds sélectionnés
 
@@ -36,11 +36,11 @@
 
 ```spacebar``` + ```n``` Créer un noeud
 
-```spacebar``` + ```r``` Créer une relation
+```spacebar``` + ```r``` Créer un lien
 
 ```spacebar``` + ```m``` Editer le noeud sélectionné
 
-```spacebar``` + ```p``` Editer la relation sélectionnée
+```spacebar``` + ```p``` Editer le lien sélectionné
 
 ### Exporter
 
