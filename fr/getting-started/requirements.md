@@ -5,10 +5,10 @@
 Le serveur Linkurious peut-être déployé sur les plateformes suivantes: 
 * Windows 7, 8, 8.1, 10, et Server 2012.
 * Mac OS X Lion et les versions plus récentes.
-* Distribution Linux comme Debian 6+, CentOS 6.5+, Ubuntu 12.10+, Gentoo, et Mint 14+.
+* Distributions Linux telles que Debian 6+, CentOS 6.5+, Ubuntu 12.10+, Gentoo, et Mint 14+.
 
 Les utilisateurs accèderont à Linkurious par un navigateur web. Tous les navigateurs modernes peuvent être utilisés:  
-* Chrome 23 ou plus(le plus rapide).
+* Chrome 23 ou plus (le plus rapide).
 * Internet Explorer 10 ou plus.
 * Firefox 17 ou plus.
 * Safari 7.
@@ -19,11 +19,11 @@ Le moteur de recherche incorporé ElasticSearch nécessite Java 8 pour fonctionn
 
 #### SQLite et GLIBC 2.14
 
-Linkurious utilise une base de donnéée incorporée SQLite pour la persistence. Cette base de données nécessite GLIBC >= 2.14.
+Linkurious utilise une base de données incorporée SQLite pour la gestion de la persistance des données. Cette base de données nécessite GLIBC >= 2.14.
 Des versions plus anciennes de Linux n'ont pas cette version de GLIBC disponible. vous pouvez vérifier la version disponible pour votre système à l'addresse: http://distrowatch.com .
 
-Si vous rencontrez un problème, une solution est d'utiliser un autre mécanisme de persistance de données pour Linkurious, comme [MySQL](https://www.mysql.fr/) ou [PostgreSQL](http://www.postgresql.org/).
-Vous pouvez utilisé un serveur de base de données existant ou en installer un nouveau. Linkurious va garder son état dans une base de donnée spécifique "linkurious".
+Si vous rencontrez un problème, une solution est d'utiliser un autre mécanisme de gestion de persistance des données pour Linkurious, comme [MySQL](https://www.mysql.fr/) ou [PostgreSQL](http://www.postgresql.org/).
+Vous pouvez utiliser un serveur de base de données existant ou en installer un nouveau. Linkurious va sauvegarder son état dans une base de données spécifique "linkurious".
 Voir la section Configuration pour changer le mécanisme de persistance utilisé par Linkurious. Merci de vous référer à la documentation officielle de MySQL ou de PostgreSQL pour l'installation et la configuration de ces bases de données.
 
 Alternativement, vous devriez pouvoir arranger le problème avec debian en mettant à jour GLIBC manuellement:
@@ -34,13 +34,13 @@ apt-get update
 apt-get install -t testing libc6-dev=2.19-9
 ```
 
-#### Source de donnée
+#### Source de données
 
 La plateforme Linkurious se connecte à des sources de données à distance par HTTP ou HTTPS. Nous encourageons l'utilisation des serveurs Neo4j version 2.0 et plus. Neo4j de Neo Technology est le système leader de base de données de graphes sur le marché. Vous pouvez calculer les exigences de matériel [ici](http://neo4j.com/developer/guide-sizing-and-hardware-calculator/).
 
 ### Hardware
 
-Les exigences matérielles de la plateforme dépendent de la taille de la base de données de graphes à laquelle Linkurious est connecté. Jusqu'à 2 millions de noeuds et liens, nous recommendons d'installer le serveur Likurious  sur une machine avec 8 GB RAM, 4 CPU cores @ 2 Ghz, et 20 GB d'espace disque libre. 
+Les exigences matérielles de la plateforme dépendent de la taille de la base de données de graphes à laquelle Linkurious est connecté. Jusqu'à 2 millions de noeuds et liens, nous recommandons d'installer le serveur Linkurious  sur une machine avec 8 GB RAM, 4 CPU cores @ 2 Ghz, et 20 GB d'espace disque libre. 
 
 Les exigences du client internet de Linkurious varie également en fonction de la taille des graphes visualisés. Jusqu'à 500 noeuds et liens, nous recommandons l'utilisation d'une machine avec 4 GB RAM, et 2 CPU cores @ 1.6 Ghz. La résolution minimale d'écran est 1024x768 px.
 
