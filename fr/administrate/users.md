@@ -2,13 +2,13 @@
 
 ### A propos des utilisateurs et groupes 
 
-Linkurious Enterprise vous permet d'authentifier des utilisateur et de les assigner à des groupes. Les groupes d'utilisateur fournissent l'autorisation de lire ou d'écrire des noeuds et liens dans la base de données de graphes. Chaque permission est définie selon le niveau de catégories de noeuds et le type de liens. Les groupes sont définis pour chaque donnée source. Deux groupes d'utilisateurs sont disponibles par défaut:
+Linkurious Enterprise vous permet d'authentifier des utilisateurs et de les assigner à des groupes. Les groupes d'utilisateurs fournissent l'autorisation de lire ou d'écrire des noeuds et liens dans la base de données de graphes. Chaque permission est définie selon la catégorie pour les noeuds et le type pour les liens. Les groupes sont définis pour chaque source de données. Par défaut, deux groupes d'utilisateurs sont disponibles par défaut:
 
-*  Le groupe `admin` a accès à la LECTURE et l'ECRITURE des données de graphes
-*  Le groupe  `default` a un accès de has READ-ONLY access to graph data.
+*  Le groupe `admin` a accès à la LECTURE et l'ECRITURE des données des graphes
+*  Le groupe  `default` a un accès de Lecture seulement aux données des graphes
 
 Le groupe `default` est le groupe assigné par défaut à tout nouvel utilisateur. 
-Les utilisateurs appartiennent à au moins un groupe. Ils peuvent être assignés à plusieurs groupes. Les droits d'accès résultants sont combinés comme suit: *the most permissive right wins*. Prenons l'exemple d'un utilisateur appartenant à deux groupes. Le premier groupe permet de lire les noeuds `CITY` et le second groupe ne permet rien sur les noeuds `CITY`, l'utilisateur aura la permission de lire les noeuds `CITY`.
+Les utilisateurs appartiennent à au moins un groupe. Ils peuvent être assignés à plusieurs groupes. Les droits d'accès résultants sont combinés comme suit: *le droit le plus permissif gagne*. Prenons l'exemple d'un utilisateur appartenant à deux groupes. Le premier groupe permet de lire les noeuds `CITY` et le second groupe ne permet rien sur les noeuds `CITY`, l'utilisateur aura la permission de lire les noeuds `CITY`.
 
 ### Tableau de bord de gestion des utilisateurs
 
