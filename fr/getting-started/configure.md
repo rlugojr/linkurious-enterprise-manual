@@ -155,11 +155,11 @@ Dans la clé `server` :
 
 Si le serveur Linkurious, les sources de données, et le moteur de recherche sont installés sur des machines différentes, nous recommendons d'encrypter la communication entre elles. Celà protègera contre le reniflage de paquets de votre intranet ou sur une infrastructure cloud. Merci de vous référer à la documentation de Neo4j et d'ElasticSearch pour activer HTTPS. 
 
-#### Droits d'accès des utilisateurs  access rights
+#### Droits d'accès des utilisateurs  
 
-The user access system is configured within the `access` key:
+Le système d'accès des utilisateurs est configuré dans la clé `access`:
 
-* **authRequired** - `false`. Reject requests of anonymous sessions if `true`, otherwise all requests will be related to a "Unique User" account. Set it `false` to launch Linkurious for the first time, or if there is a single user.
+* **authRequired** - `false`. Rejeter les requêtes d'une session anonyme si `true`, sinon, toutes les requêtes seront liées à un compte "Unique User" . Paramètrez-le `false` pour lancer Linkurious pour la première fois, ou s'il y a un unique utilisateur. 
 * **dataEdition** - `true`. Enable the creation, edition, and deletion of nodes and edges in all data sources. Administrators can fine-tune user permissions, see the Administration Chapter. If `false`, all edition requests sent through Linkurious to the data sources will be rejected.
 * **widget** - `true`. Enable to publish visualizations online. Published visualizations are accessible by anonymous users. More info in the **Manage > Publish** section of the manual.
 * **loginTimeout** - `3600`. Log the user out after a period of inactivity (in second).
