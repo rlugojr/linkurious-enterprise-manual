@@ -96,11 +96,11 @@ Vous pouvez également créer une échelle de couleur pertinente pour des donné
 
 #### Icônes des noeuds
 
-Linkurious fournit plus de  500 icônes issus du projet FontAwesome. Vous pouvez attribuer des icônes en utilisant leur unicode tel que "\uf219". L'e the complete character map at http://fortawesome.github.io/Font-Awesome/icons/ (select an icon to display the unicode).
+Linkurious fournit plus de  500 icônes issus du projet FontAwesome. Vous pouvez attribuer des icônes en utilisant leur unicode tel que "\uf219". L'ensemble des icônes est disponible à  http://fortawesome.github.io/Font-Awesome/icons/ (sélectionnez une icône pour avoir unicode).
 
-The following example set icons to node categories "COMPANY", "CITY", "MARKET", "INVESTOR".
+L'exemple suivant assigne des icônes aux catégories de noeuds "COMPANY", "CITY", "MARKET", "INVESTOR".
 
-**Example;**
+**Exemple;**
 ```json
 "styles": {
   "nodes": {
@@ -124,14 +124,14 @@ The following example set icons to node categories "COMPANY", "CITY", "MARKET", 
 }
 ```
 
-#### Node images
+#### Images pour les noeuds
 
-*This feature is experimental and not yet available from the user interface.*
+*Cette option est expérimentale et n'est pas encore disponible dans l'interface utilisateurs.*
 
-Nodes can be filled with an image if one of their property is an URL to an image. Available image formats are PNG, JPG, GIF, or TIFF. The following example set images to node categories "COMPANY", "CITY", "MARKET".
+Les noeuds peuvent êtres remplis avec des images si une de leurs prpriétés est un URL ou une image. Les formats d'images disponibles sont PNG, JPG, GIF, ou TIFF. L'exemple suivant assigne une images aux catégories de noeuds "COMPANY", "CITY", "MARKET".
 
 
-**Example;**
+**Exemple;**
 ```json
 "styles": {
   "nodes": {
