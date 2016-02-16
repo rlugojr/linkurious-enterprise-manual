@@ -1,4 +1,4 @@
-## Supprimer des noeuds et des relations
+## Supprimer des noeuds et des liens
 
 ###Supprimer un noeud
 
@@ -14,9 +14,9 @@ Si nous souhaitons supprimer un noeud de notre visualisation, nous sélectionnon
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/X2.png)
 
 
-###Supprimer une relation
+###Supprimer un lien
 
-Si nous souhaitons supprimer une relation de notre visualisation, nous sélections la relation que nous souhaitons supprimer en cliquant dessus puis deux options sont possibles:
+Si nous souhaitons supprimer un lien de notre visualisation, nous sélectionnons le lien que nous souhaitons supprimer en cliquant dessus puis deux options sont possibles:
 
 
 - Cliquer sur ```Hide``` dans le menu à gauche comme montrer ci-dessous
