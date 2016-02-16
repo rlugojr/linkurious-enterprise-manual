@@ -1,6 +1,6 @@
 ## La syntaxe de recherche avancée
 
-Linkurious Enterprise utilise Elastic. Vous pouvez donc utiliser la syntaxe Elastic détaillée dans la documentation suivante[Elastic query_string documentation](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax).
+Linkurious Enterprise utilise Elastic. Vous pouvez donc utiliser la syntaxe Elastic détaillée dans la documentation suivante [Elastic query_string documentation](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax).
 
 Entrez simplement les commandes dans la barre de recherche de Linkurious Enterprise
 
@@ -20,7 +20,7 @@ Où le champ "title" a quelconque valeur nulle: ```_exists_:title```
 
 ### Rangs
 
-Des rangs peuvent être spécifiés pour des dates ou des champs numériques et/ou vides. Les rangs inclusifs sont spécifiés avec des crochets [min TO max] et les rangs exclusifs avec des accolades {min TO max}.
+Des rangs peuvent être spécifiés pour des dates ou des champs numériques et/ou vides. Les rangs inclusifs sont spécifiés avec des crochets [min A max] et les rangs exclusifs avec des accolades {min A max}.
 
 Où le champ  "date"  a une valeur en 2012: ```date:[2012-01-01 TO 2012-12-31]```
 
@@ -40,7 +40,7 @@ Les rangs avec une extrémité non limitée peuvent utiliser la syntaxe suivante
 Par défaut, tous les termes sont optionnels tant qu'un terme au moins correspond. Une recherche pour 
 ```foo bar baz``` trouvera tout document qui contient un terme ou plus sur les trois soit ```foo``` ou ```bar``` ou ```baz```. Nous avons déjà discuté plus haut le default_operator qui vous permet de rechercher uniquement les documents contenant tous les termes, mais il est également possible d'utiliser des opérateurs booléens dans la requête pour un meilleur contrôle. 
 
-Les opérateurs préférés sont  ```+``` (ce terme doit être présent) et ```-``` (ce terme n'est pas obligatoirement présent). Tous les autres termes sont optionnels. Par exemple, la requête ```quick brown +fox -news``` signifie que: * "fox" doit être présent * "news" ne doit pas être présent * "quick" et "brown" sont optionnels — leur présence augmente la pertinence.
+Les opérateurs préférés sont  ```+``` (ce terme doit être présent) et ```-``` (ce terme n'est pas obligatoirement présent). Tous les autres termes sont optionnels. Par exemple, la requête ```quick brown +fox -news``` signifie que: * "fox" doit être présent * "news" ne doit pas être obligatoirement présent * "quick" et "brown" sont optionnels — leur présence augmente la pertinence.
 
 ### Boosting
 
