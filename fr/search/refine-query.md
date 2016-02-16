@@ -1,8 +1,8 @@
 ## Recherche avancée
 
-Vous êtes à la recherche d'un noeud ou d'une relation spécifique et la barre de recherche vous donne trop de résultats? Le texte que vous recherchez est trop commun! Vous souhaiteriez peut-être affiner votre recherche en cherchant à l'aide de plusieurs propriétés?
+Vous êtes à la recherche d'un noeud ou d'un lien spécifique et la barre de recherche vous donne trop de résultats? Le texte que vous recherchez est trop commun! Vous souhaiteriez peut-être affiner votre recherche en cherchant à l'aide de plusieurs propriétés?
 
-Si l'on recherche une Startup qui a le texte ```facebook``` dans une de ses propriétésn, nous obtenons 88 résultats. Essayons d'affiner notre recherche.
+Si l'on recherche une Startup qui a le texte ```facebook``` dans une de ses propriétés, nous obtenons 88 résultats. Essayons d'affiner notre recherche.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Facebook_Example.png)
 
@@ -11,7 +11,7 @@ Nous cliquons sur l'icône ```Advanced```, un nouveau menu apparaît:
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Advanced Search.png)
 
-Nous pouvons voir le nom de différentes catégories (city, company, investor and market) dans notre base de données et nos occurences.
+Nous pouvons voir le nom de différentes catégories (city, company, investor and market) dans notre base de données et leur occurence.
 
 Nous cliquons sur ```Options``` pour voir le nom des différentes propriétés de notre graphe.
 
@@ -33,7 +33,7 @@ Maintenant si nous tapons ``facebook``, les résultats seront filtrés de maniè
 
 Nous pouvons voir les résultats filtrés et choisir celui qui nous intéresse.
 
-La même approche peut-être utilisé pour la recherche de relations.
+La même approche peut-être utilisé pour la recherche de liens.
 
 
 > Linkurious Enterprise recherchera une correspondance **exacte** pour la valeur que vous entrez dans le menu d'options de recherche. 
