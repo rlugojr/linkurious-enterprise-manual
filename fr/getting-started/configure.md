@@ -108,44 +108,44 @@ Le stockage de données interne est configuré dans la clé `db`:
     GLIBC >= v1.14 doit être installé sur le serveur afin d'utiliser SQLite. Vous pouvez vérifier la version disponible pour votre système à l'adresse  <a href="http://distrowatch.com/search.php?ostype=All&category=All&origin=All&basedon=All&notbasedon=None&desktop=All&architecture=All&package=All&status=Active">http://distrowatch.com</a>.
 </div>
 
-### Web server
+### Serveur web
 
-The web server of Linkurious delivers the application to end users through HTTP/S. It is configured within the `server` key:
+Le serveur web de Linkurious délivre l'application aux utilisateurs finaux par HTTP/S. Il est configuré dans la clé `server` :
 
-* **domain** - `localhost`. The domain or subdomain used to access the web server. It is mandatory to edit it for publishing visualizations online. It is also used to restrict the validity of cookies to a domain or subdomain.
-* **listenPort** - `3000`. The port of the web server. Some firewalls block network traffic ports other than 80 (HTTP). Since only `root` users can listen on ports < 1024, you may want reroute traffic from 80 to 3000 as follows.
+* **domain** - `localhost`. Le domaine ou sous domaine utilisé pour accèder au serveur web. C'est obligatoire d'e l'éditer pour une publication en ligne des visualisations. Il est aussi utilisé pour restreindre la validité des cookies à un domaine ou à un sous domaine. 
+* **listenPort** - `3000`. Le port du serveur web. Certains pares-feu bloquent le trafic réseau aux ports autre que  80 (HTTP). Etant donné que seuls les utilisateurs  `root` peuvent écouter sur les ports < 1024, vous pourriez vouloir réorienter le trafic de 80 à 3000 comme suit: 
 
 ```
 >sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000
 ```
 
-### Security
+### Sécurité
 
-Multiple security features can be enabled according to your needs. The `cookieSecret` key of the `server` is randomized at the first start of Linkurious.
+Plusieurs options de sécurité peuvent être activées selon vos besoins. La clé  `cookieSecret` du  `server` est déterminée aléatoirement au démarrage de Linkurious.  
 
 #### Cookies
 
-Within the `server` key:
+Dans la clé `server` :
 
-* **cookieSecret** - The secret key used to encrypt the session cookie. Randomized on first start.
+* **cookieSecret** - La clé secrète utilisé pour encrypter la session de cookie. Aléatoire au premier démarrage.  
 
-#### Cross-origin resource sharing (CORS)
+#### Partage des ressources d'origines croisées (CORS)
 
-Within the `server` key:
+Dans la clé  `server`:
 
-* **allowOrigin** - `"*"`. Define the cross-origin resource sharing (CORS) policy. Accept cross-site HTTP/S requests by default (wildcard).
+* **allowOrigin** - `"*"`. Défini la politique de partage des ressources d'origine croisées (CORS). Accepte les requêtes sites croisés HTTP/S par défaut (wildcard).
 
-#### Image cross-origin (client-side)
+#### Image cross-origin (côté client)
 
-Within the `sigma` key:
+Dans la clé `sigma`:
 
-* **imgCrossOrigin** - `"anonymous"`. Restrict the origin of images displayed in visualizations to prevent running malicious code on the graphic card of users. Display images from any origin by default.
+* **imgCrossOrigin** - `"anonymous"`. Restreint l'origine des images affichées en visualisations pour prévenir le démarage de code malveillants sur la carte graphique de l'utilisateur. Montre des images de quelconque origine par défaut.
 
-#### End-to-end encrypted communications with SSL
+#### Encryptage de communications c end-to-end avec SSL
 
-External communications with the Linkurious server can be encrypted with SSL without installing third-party software.
+Les communications externes avec le serveur de Linkurious server peuvent être encryptées sans installer un logiciel tiers.
 
-Within the `server` key:
+Dans la clé `server` :
 
 * **listenPortHttps** - `3443`. The port of the web server if HTTPS is enabled. See the Install section to learn why you should not set `443` directly.
 * **useHttps** - `false`. Encrypt communications through HTTPS if `true`. Require a valid SSL certificate.
