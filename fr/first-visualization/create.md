@@ -16,7 +16,7 @@ Une alternative est de créer une nouvelle visualisation. Nous sélectionnons Ne
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/FromD.png)
 
-Nous pouvons maintenant chercher des noeuds et des relations:
+Nous pouvons maintenant chercher des noeuds et des liens:
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Find.png)
 
