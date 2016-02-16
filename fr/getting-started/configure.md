@@ -26,42 +26,42 @@ Les sources de données sont des serveurs accessibles par le réseau (local, int
 
 Linkurious peut se connecter à plusieurs sources de données en même temps. Les utilisateurs sélectionnerons avec quelles bases de données travailler dans l'interface et pourrons passer des unex aux autres.
 
-Les sources de données sont configurées dans la clé **dataSources** qui est une liste de sources de données potentielles. Une unique source de données est configurée par défaut pour se connecter au serveur Neo4j. chaque source de données contient les paramètres suivants:
+Les sources de données sont configurées dans la clé **dataSources** qui est une liste de sources de données potentielles. Une unique source de données est configurée par défaut pour se connecter au serveur Neo4j. Chaque source de données contient les paramètres suivants:
 
 * **name** (optionnel) - Un nom lisible (human-readable name).
 * **graphdb** - Le serveur de base de données de graphes auquel se connecter 
-    * **vendor** - `"neo4j"`. Seuls les sserveurs Neo4j sont supportés
+    * **vendor** - `"neo4j"`. Seuls les serveurs Neo4j sont supportés
     * **url** - `"http://127.0.0.1:7474/"`. Linkurious appelera le REST API Neo4j à cette addresse.
-    * **writeURL** (optionnel) - Si fournit, Linkurious enverra les requêtes d'écriture à la base de données de graphes à cet endroit et les requêtes de lecture à son **url** endpoint.
-    * **user** (optionnel) - L'identifiant si l'autentification est activé sur le serveur de la base de données de graphes. 
-    * **password** (optionel) - Le mot de passe si l'autentification est activé sur le serveur de la base de données de graphes.
+    * **writeURL** (optionnel) - Si fournit, Linkurious enverra les requêtes d'écriture à la base de données de graphes à cet endroit et les requêtes de lecture à son **url**.
+    * **user** (optionnel) - L'identifiant si l'authentification est activée sur le serveur de la base de données de graphes. 
+    * **password** (optionel) - Le mot de passe si l'authentification est activée sur le serveur de la base de données de graphes.
 * **index** - Le moteur de recherche.
     * **vendor** - `"elasticSearch"`. Seuls les serveurs d'ElasticSearch sont supportés.
     * **host** - `"127.0.0.1"` pour utiliser l'index incorporé. Vous pouvez spécifier l'hôte de votre propre serveur ElasticSearch.
     * **port** - `9201` pour utiliser l'index incorporé. Vous pouvez spécifier le port de votre propre serveur ElasticSearch.. 
-    * **forceReindex** - `false`. Linkurious re-indexera toujours la base de données de graphes sur startup si `true`, sinon les Administrateurs devront le déclencher à partir du tableau de bord de gestion (voir le chapitre Gestion).
+    * **forceReindex** - `false`. Linkurious re-indexera toujours la base de données de graphes au démarrage startup si `true`, sinon les Administrateurs devront le déclencher à partir du tableau de bord de gestion (voir le chapitre Gestion).
 
 Les réglages suivants s'appliquent à toutes les sources de données. Ils sont disponible dans le menu **allSources**.
 
 Paramètres généraux:
 
-* **connectionRetries** - `10`. Le nombre de connexions maximales tentées pour chaque soure de données et au moteur de recherche avant de les considérer comme déconnectées. 
-* **pollInterval** - `10`. Vérifie si la source de donnée et le moteur de recherche sont connectés à chaque intervalles (en secondes).
+* **connectionRetries** - `10`. Le nombre de connexions maximales tentées au moteur de recherche pour chaque soure de données et avant de les considérer comme déconnectées. 
+* **pollInterval** - `10`. Vérifie si la source de données et le moteur de recherche sont connectés à chaque intervalle (en secondes).
 
 Paramètres du moteur de recherche:
 
 * **indexationChunkSize** - `5000`. Le nombre de noeuds et de liens remontés à chaque paquet durant l'indexation de la base de données de graphes 
 * **searchAddAllThreshold** - `500`. Le nombre maximal de résultats de recherche que l'utilisateur peut ajouter à une visulisation en une fois. 
-* **searchThreshold** - `3000`. Le nombre maximal de résultats de recherches qui peuvent êtres donnés 
+* **searchThreshold** - `3000`. Le nombre maximal de résultats de recherche qui peuvent êtres donnés 
 * **minSearchQueryLength** - `3`. Le nombre de caractères nécessaires pour déclencher une recherche. Paramètrez `1` pour fournir des résultats en direct à partir du premier caractère. 
 
 Paramètres d'exploration des graphes:
 
-* **maxPathLength** - `20`. La longueur maximale du chemin le plus court donné par Linkurious. Trouver le chemin le plus court est une opération coûteuse. Paramètrer un petit nombre limitera les ressources utilisées par la source de données pour réaliser cette opération, et reournera des résultats plus rapidement.  
-* **shortestPathsMaxResults** - `10`. Le nombre maximal de chemin le plus court données.
-* **rawQueryTimeout** - `60000`. Abandonne une requête à la base de donnée si le temps est dépassé (en secondes) 
+* **maxPathLength** - `20`. La longueur maximale du chemin le plus court donné par Linkurious. Trouver le chemin le plus court est une opération coûteuse. Paramètrer un petit nombre limitera les ressources utilisées par la source de données pour réaliser cette opération, et retournera des résultats plus rapidement.  
+* **shortestPathsMaxResults** - `10`. Le nombre maximal de chemins les plus courts données.
+* **rawQueryTimeout** - `60000`. Abandonne une requête à la base de données si le temps est dépassé (en secondes) 
 * **defaultFuzziness** - `0.9`. Valeur par défaut pour rechercher vaguement entre 0 et 1. Une valeur de `1` signifie une correspondance exacte avec la requête. 
-* **expandThreshold** - `50`. Lorsque les utilisateurs développe un noeud avec trop de voisins, Linkurious demandera d'affiner la rechercher pour que moins de voisins soit donnés. 
+* **expandThreshold** - `50`. Lorsque les utilisateurs développent un noeud avec trop de voisins, Linkurious demandera d'affiner la rechercher pour que moins de voisins soit donnés. 
 
 #### Connexion à un serveur Neo4j
 
@@ -69,7 +69,7 @@ Si c'est la première fois que vous démarrez un serveur Neo4j et que vous utili
 
 1. Démarrez le serveur Neo4j
 - Ouvrez le moteur de recherche à l'adresse: http://127.0.0.1:7474 ;
-- Paramètrez un nouvel utilisateur et mot de passe, et rappelez vous en afin de pouvoir configurez Linkurious.
+- Paramètrez un nouvel identifiant et mot de passe, et rappelez-vous en afin de pouvoir configurer Linkurious.
 
 Configurer Linkurious:
 
@@ -78,19 +78,19 @@ Configurer Linkurious:
 - Paramètrez l'URL du serveur Neo4j;
 - Paramètrez l'utilisateur et le mot de passe du serveur Neo4j.
 
-Linkurious s'y connectera la prochaine fois que vous le démarrez.
+Linkurious s'y connectera la prochaine fois que vous le démarrerez.
 
 #### Gestion des instances Neo4j
 
-Linkurious peut gérer (le démarrer et l'arrêter quand Linkurious démarre et s'arrête) votre sserveur Neo4jafin de simplifier vos scripts d'administration. Pour activer cette option (disponible sous Linuc et Mac OSX), il suffit de paramètrer **neo4jPath** dans **allSources** au chemin du répertoire d'origine de Neo4j's. Vous aurez alors un nouveau "Neo4j server" d'entrée dans le rapport de statuts du menu de la console Linkurious' (voir le chapitre Gérer>Surveillance).
+Linkurious peut gérer (le démarrer et l'arrêter quand Linkurious démarre et s'arrête) votre serveur Neo4j afin de simplifier vos scripts d'administration. Pour activer cette option (disponible sous Linuc et Mac OSX), il suffit de paramètrer **neo4jPath** dans **allSources** au chemin du répertoire d'origine de Neo4j. Vous aurez alors un nouveau "serveur Neo4j" d'entrée dans le rapport de statuts du menu de la console Linkurious' (voir le chapitre Gérer>Surveillance).
 
 #### Connexion au moteur de recherche
 
-Le moteur de recherche incorporé ElasticSearch peut-être remplacer par votre propre ElasticSearch. Editez le fichier de configurationpour paramètrer l'`index` de la source de donnée avec l'URL et les connexions à votre moteur ElasticSearch. Linkurious créera un index pour chaque base de données de graphes, avec des noms d'index préfixés par`linkurious_`.
+Le moteur de recherche incorporé ElasticSearch peut-être remplacé par votre propre ElasticSearch. Editez le fichier de configuration pour paramètrer l'`index` de la source de données avec l'URL et les connexions à votre moteur ElasticSearch. Linkurious créera un index pour chaque base de données de graphes, avec des noms d'index préfixés par`linkurious_`.
 
-#### Stockage de données interne
+#### Stockage interne de données 
 
-Linkurious stocke les informations telles que les visualisations, les utilisateurs et les permissions dans un dossier de données séparé de la base de données de graphes. Par défaut, Linkurious utilise une base de données SQLite. MySQL et PostgreSQL arsont aussi disponible mais doivent être installées manuellemente.
+Linkurious stocke les informations telles que les visualisations, les utilisateurs et les permissions dans un dossier de données séparé de la base de données de graphes. Par défaut, Linkurious utilise une base de données SQLite. MySQL et PostgreSQL sont aussi possibles mais doivent être installées manuellement.
 
 Le stockage de données interne est configuré dans la clé `db`:
 
