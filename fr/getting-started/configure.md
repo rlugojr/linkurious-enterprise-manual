@@ -165,13 +165,13 @@ Le système d'accès des utilisateurs est configuré dans la clé `access`:
 * **loginTimeout** - `3600`. Déconnecte l'utilisateur après une période d'inactivité (en secondes) 
 * **ldap** - La connexion au service LDAP (voir ci-dessous).
 
-##### Connection to the LDAP service
+##### Connexion au service LDAP
 
-In Linkurious, administrators manage other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably OpenLDAP or Active Directory), users are authenticated each time they sign in. If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious. Notice that Linkurious stores encrypted passwords for users not authenticated by LDAP.
+Dans Linkurious, les administrateurs gère les comptes des autres utilisateurs. Les comptes d'utilisateurs sont définis soit par un identifiant ou une adresse email. Si Linkurious est connecté à un service LDAP (de préférence OpenLDAP ou Active Directory), les utilisateurs sont autentifiés chaque fois qu'il se connectent. Si vous avez un service LDAP en route sur votre réseau, vous pouvez l'utilisé pour autentifier les utilisateurs de Linkurious. Notez que Linkurious stocke les mots de passe encryptés pour les utilisateurs non autentifiés par LDAP. 
 
-To enable LDAP authentication in Linkurious, edit the configuration.
+Pour autoriser k'autentification LDAP dans Linkurious, paramètrer la configuration. 
 
-For Microsoft Active Directory, add an `msActiveDirectory` section inside `access`:
+Pour Microsoft Active Directory, ajoutez une section `msActiveDirectory` sà l'intérieur de `access`:
 
 ```JavaScript
 "access": {
@@ -188,7 +188,7 @@ For Microsoft Active Directory, add an `msActiveDirectory` section inside `acces
 }
 ```
 
-For OpenLDAP, add an `ldap` section inside `access`:
+Pour OpenLDAP, ajoutez une section `ldap` à l'intérieur de `access`:
 
 ```JavaScript
 "access": {
@@ -215,15 +215,15 @@ For OpenLDAP, add an `ldap` section inside `access`:
 }
 ```
 
-Please refer to the documentation of your LDAP provider.
+Merci de vous référer à la documentation de votre fournisseur LDAP.
 
 <div class="alert alert-warning">
-    Contact your network administrator to ensure that the machine where Linkurious is installed can connect to the LDAP service.
+    Cntactez votre administrateur réseau pour vous assurer que votre ordinateur sur lequel est installé Linkurious peut se connecter à un service LDAP. 
 </div>
 
-#### User permissions to the data sources
+#### Permissions des utilisateurs pour les sources de données 
 
-Administrators can set fine-grained permissions to end users for each data source. See the Administration Chapter to learn more.
+Les administrateurs peuvent affinés les permission des utilisateur pour chaque source de données. voir le chapitre Administration pour en savoir plus.n  can set fine-grained permissions to end users for each data source. See the Administration Chapter to learn more.
 
 ### Logging
 
