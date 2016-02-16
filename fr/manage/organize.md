@@ -30,7 +30,7 @@ Nous cliquons sur ```Save```. Notre dossier est créé.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/FolderCreated.png)
 
-Nous ouvrons le dossier en cliquant dessus. Si nous souhaitons déplacer une visualisation dans le dossier nous utilisons l'action ```Move to``` qui apparait lorsque l'on clic-droit sur une visualisation. 
+Nous ouvrons le dossier en cliquant dessus. Si nous souhaitons déplacer une visualisation dans le dossier nous utilisons l'action ```Move to``` qui apparait lorsque l'on efectue un clic-droit sur une visualisation. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/MoveTo.png)
 
