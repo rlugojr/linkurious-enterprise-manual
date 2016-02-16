@@ -1,6 +1,6 @@
 ## Démarrer
 
-Avant de démarrer Linkurious, lancez d'abord votre serveur Neo4j server et configurez-le. Par défaut, Neo4j 2.2 introduit une autentification basique, voir la section Configuration pour en savoir plus. 
+Avant de démarrer Linkurious, lancez d'abord votre serveur Neo4j et configurez-le. Par défaut, Neo4j 2.2 introduit une authentification basique, voir la section Configuration pour en savoir plus. 
 
 ### Démarrer sous un système Linux
 
@@ -30,7 +30,7 @@ info: Status [DataService] 201 : A data-source is currently indexing.
 Linkurious is ready at URL: http://127.0.0.1:3000/
 ```
 
-Comme vous pouvez le remaquer, le serveur Linkurious est disponible par défaut sur le port  3000. Cependant, certains pares-feu bloque le trafic réseau pour des ports autres que 80 (HTTP). Voir la section Configurtion pour accepter le trafic sur un port on port 80.
+Comme vous pouvez le remaquer, le serveur Linkurious est disponible par défaut sur le port  3000. Cependant, certains pares-feu bloquent le trafic réseau pour des ports autres que 80 (HTTP). Voir la section Configurer pour accepter le trafic sur un port 80.
 
 
 ### Démarrer sous MAC OS X
@@ -82,7 +82,7 @@ Cliquez sur le fichier `start.bat`. Linkurious démarre et vous invite à ouvrir
     <i class="octicon octicon-stop"></i> Le pare-feu de Windows peut vous demander d'autoriser les connections avec Linkurious, dans ce cas cliquer sur Autoriser l'accès.
 </div>
 
-Linkurious indexera la base de données de graphe la première fois que vous le démarrerez. Vous pouvez suivre la progression de l'indexation dans le terminal. Une fois terminé, vous pouvez utiliser Linkurious.
+Linkurious indexera la base de données de graphes la première fois que vous le démarrerez. Vous pouvez suivre la progression de l'indexation dans le terminal. Une fois terminée, vous pouvez utiliser Linkurious.
 
 
 
