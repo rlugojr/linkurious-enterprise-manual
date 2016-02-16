@@ -80,23 +80,23 @@ Colorer selon des propriétés quantitatives suit la même logique. Dans l'exemp
 }
 ```
 
-#### Color palette
+#### Palette de couleurs
 
-Linkurious will always use 7 colors for quantitative properties of the nodes, and 3 colors only for edges. The human eye can distinguish a few colors only, so you should craft your palette carefully.
+Linkurious utilisera toujours 7 couleurs pour despropriétés quantitatives des noeuds et 3 pour celles des liens. L'oeil humain peut seulement distinguer quelques couleurs donc soyez vigilants lorsque vous définissez votre palette.  
 
-If you do not set styles for qualitative properties, Linkurious will assign colors from a randomly -but carefully- generated set of colors. This set can be modified at `palette.nodes.qualitative.linkurious_def` (edges respectively).
+Si vous ne paramètrez pas de styles pour les propriétés quantitatives, Linkurious assignera de manière aléatoire-mais avec soin- un set de couleurs. Ce set peut être modifiè à  `palette.nodes.qualitative.linkurious_def` (de même pour les liens).
 
-Be careful to never delete `linkurious_def` or `sequential` because they are used by Linkurious.
+Soyez vigilants à ne jamais supprimer `linkurious_def` ou `sequential` car ils sont utilisés par Linkurious.
 
-We recommend to pick colors from the [ColorBrewer palette](https://github.com/Linkurious/linkurious.js/blob/develop/plugins/sigma.plugins.colorbrewer/sigma.plugins.colorbrewer.js), which provides highly distinctive sets of colors (see below).
+Nous recommandons de choisir des couleurs de  [la palette ColorBrewer ](https://github.com/Linkurious/linkurious.js/blob/develop/plugins/sigma.plugins.colorbrewer/sigma.plugins.colorbrewer.js), qui fournit des sets de couleurs bien distinctes (voir ci dessous) 
 
 ![color-brewer](Color-brewer.png)
 
-You can also generate consistent color scales for qualitative data on http://gka.github.io/palettes/ .
+Vous pouvez également créer une échelle de couleur pertinente pour des données qualitative à l'adresse   http://gka.github.io/palettes/ .
 
-#### Node icons
+#### Icônes des noeuds
 
-Linkurious provides more than 500 icons from the FontAwesome project. You can assign icons using their unicode characters such has "\uf219". Get the complete character map at http://fortawesome.github.io/Font-Awesome/icons/ (select an icon to display the unicode).
+Linkurious fournit plus de  500 icônes issus du projet FontAwesome. Vous pouvez attribuer des icônes en utilisant leur unicode tel que "\uf219". L'e the complete character map at http://fortawesome.github.io/Font-Awesome/icons/ (select an icon to display the unicode).
 
 The following example set icons to node categories "COMPANY", "CITY", "MARKET", "INVESTOR".
 
