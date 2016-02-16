@@ -243,10 +243,10 @@ Le client Linkurious cenregistrer les actions d'utilisateurs en envoyant les év
 
 #### Pistes d'audit
 
-Audit trails allows you to record detailed logs about the operations performed on your graph database by the users of Linkurious Enterprise. The log files contain JSON lines. You can easily bind a log management system like [Logstash](https://www.elastic.co/products/logstash) to interpret them. This feature is disabled by default. The following settings are available within the `auditTrail` key:
+Les pistes d'audit vous permettent d'enregistrer des éveénements détaillés sur les opérations effectuées sur dans votre base de données de graphes par les utilisateurs de Linkurious Enterprise. Les fichiers d'événements contiennent des lignes JSON. Vous pouvez facilement utiliser un système de gestion d'événements comme [Logstash](https://www.elastic.co/products/logstash) pour les interpréter. Cette option est désactivée par défaut. Les paramètres suivants sont disponibles dans la clé `auditTrail`:
 
-* **enabled** - `false`. Enable the audit trail recording if `true`.
-* **logFolder** - `"audit-trail"`. Where to store the log files. This path is relative to the `data` directory located at the root of your Linkurious installation.
+* **enabled** - `false`. Activer l'enregistrement de pistes d'audit si `true`.
+* **logFolder** - `"audit-trail"`. Où stocker les fichiers d'enregistrement. Ce chemin est relatif au répertoire`data` localisé à la racine de votre installation Linkuriouslocated at the root of your Linkurious installation.
 * **fileSizeLimit** - `5242880`. Maximum size in byte of one log file (default: 5MB). A new file is created when the limit is reached (files rotations) to avoid enormous log files.
 * **strictMode** - `false`. Ensure that the operation has been logged before returning the result to the user if `true`. Might have a big impact on the server responsiveness.
 * **mode** - `"rw"`. Will record READ actions (`"r"`), WRITE actions (`"w"`), or both (`"rw"`).
