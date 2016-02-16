@@ -44,11 +44,11 @@ HTTP/1.1 200 OK
 }
 ```
 
-"code" est le code du statut du serveur (100: starting, 200: OK, >400: problem), "name" est le nom du statut du serveur actuel, et "message" décrit le statut du serveur actuel. 
+"code" est le code du statut du serveur (100: minimum, 200: OK, >400: problème), "name" est le nom du statut du serveur actuel, et "message" décrit le statut du serveur actuel. 
 
 #### Data sources
 
-Le statut de toutes les données sources peuvent-être retrouvées avec la requête suivante:
+Les statuts de toutes les sources de données peuvent-être retrouvées avec la requête suivante:
 
 > curl http://127.0.0.1:3000/api/dataSources
 
@@ -65,4 +65,4 @@ HTTP/1.1 200 OK
 }
 ```
 
-"configIndex" est l'index de la donnée source dans la liste de configuration 'dataSources' (voir la section Configuration), "key" est la clé unique qui identifie la donnée source (nulle lorsque la source n'est pas connectée), and "connected" est `true` si la source est actuellement disponible.
+"configIndex" est l'index de la source de source dans la liste de configuration 'dataSources' (voir la section Configurdr), "key" est la clé unique qui identifie la source de données (nulle lorsque la source n'est pas connectée), et "connected" est `true` si la source est actuellement disponible.
