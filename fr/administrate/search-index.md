@@ -15,7 +15,7 @@ Ouvrez le tableau de bord de gestion des données puis descendez à la section *
 
 Cliquez sur **Apply** lorsque vous avez terminé.
 
-Nous pouvons configurer les propriétés des relations de la même façon dans la section **Edge properties**.
+Nous pouvons configurer les propriétés des liens de la même façon dans la section **Edge properties**.
 
 <div class="alert alert-warning">
   Il est possible de ré-indexer les données pour appliquer les changements aux résultats de recherche.
