@@ -2,7 +2,7 @@
 
 Par défaut, tous les noeuds ont la même taille. Il est possible cependant de dimensionner la taille des noeuds selon une certaine propriété. Il sera alors possible d'apprécier la valeur de cette propriété selon la taille du noeud.
 
-Cette technique s'applique seulement à des propriétés qualitatives.
+Cette technique s'applique seulement à des propriétés quantitatives.
 
 Dimensionner les noeuds fonctionne de la même manière que la fonctionnalité Colorer un noeud de Linkurious Enterprise. Les options Colorer et Dimensionner peuvent êtres combinées pour obtenir des visualisations plus pertinentes. 
 
@@ -22,9 +22,9 @@ Nous allons sélectionner l'icône taille (```Size```).
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/B.png)
 
 
-Un nouveau menu apparaît. Il permet de paramètrer la ```Min/max size difference```, la différence de taille entre le noeud ayant la plus petite valeur et le noeud ayant la plus grande valeur.
+Un nouveau menu apparaît. Il permet de paramètrer la ```différence de taille min/max```(différence de taille entre le noeud ayant la plus petite valeur et le noeud ayant la plus grande valeur).
 
-Si nous voulons voir la différence en ```funding_total``` nous paramétrons le  ```Min/max size difference``` à ```12```.
+Si nous voulons voir la différence en ```funding_total``` nous paramétrons la  ```différence de taille min/max```à 12.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/C.png)
 
