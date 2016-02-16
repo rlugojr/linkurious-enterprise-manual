@@ -2,7 +2,7 @@
 
 A un certain point dans notre exploration de graphe nous pouvons être intéressé à focaliser sur une certaine partie de notre visualisation. Une bonne manière de faire ça est d'utiliser les filtres.
 
-Les filtres nous permettent de sélectionner ou de cacher plusieurs noeuds ou relations à la fois selon une propriété spécifique.
+Les filtres nous permettent de sélectionner ou de cacher plusieurs noeuds ou liens à la fois selon une propriété spécifique.
 
 Dans le graphe ci-dessous, nous voyons les compagnies qui ont investi dans [Grabit](http://www.banexiventures.com/), une petite compagnie des Etats-Uins.
 
