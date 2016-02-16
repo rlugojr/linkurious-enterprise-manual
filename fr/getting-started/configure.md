@@ -92,16 +92,16 @@ Le moteur de recherche incorporé ElasticSearch peut-être remplacé par votre p
 
 Linkurious stocke les informations telles que les visualisations, les utilisateurs et les permissions dans un dossier de données séparé de la base de données de graphes. Par défaut, Linkurious utilise une base de données SQLite. MySQL et PostgreSQL sont aussi possibles mais doivent être installées manuellement.
 
-Le stockage de données interne est configuré dans la clé `db`:
+Le stockage interne de données est configuré dans la clé `db`:
 
 * **name** - `"linkurious"`. Le nom de la base de donnés.
-* **username** (optional) - L'identifiant de l'administrateur de la base de données. 
-* **password** (optional) - Le mot de passe de l'administrateur de la base de données. 
+* **username** (optionnel) - L'identifiant de l'administrateur de la base de données. 
+* **password** (optionnel) - Le mot de passe de l'administrateur de la base de données. 
 * **options** - 
     * **dialect** - `"sqlite"`. Valeurs disponibles: `"mysql"`, `"postgres"`.
     * **storage** (optionnel) - `"server/database.sqlite"`. Le chemin du fichier de la base de données, relatif au répertoire `data`. Exigé pour SQLite.
     * **host** (optionnel) - Exigé pour MySQL et PostgreSQL.
-    * **port** (optional) - Exigé pour MySQL et PostgreSQL.
+    * **port** (optionnel) - Exigé pour MySQL et PostgreSQL.
 
 
 <div class="alert alert-warning">
@@ -110,10 +110,10 @@ Le stockage de données interne est configuré dans la clé `db`:
 
 ### Serveur web
 
-Le serveur web de Linkurious délivre l'application aux utilisateurs finaux par HTTP/S. Il est configuré dans la clé `server` :
+Le serveur web de Linkurious délivre l'application aux utilisateurs par HTTP/S. Il est configuré dans la clé `server` :
 
 * **domain** - `localhost`. Le domaine ou sous domaine utilisé pour accèder au serveur web. C'est obligatoire d'e l'éditer pour une publication en ligne des visualisations. Il est aussi utilisé pour restreindre la validité des cookies à un domaine ou à un sous domaine. 
-* **listenPort** - `3000`. Le port du serveur web. Certains pares-feu bloquent le trafic réseau aux ports autre que  80 (HTTP). Etant donné que seuls les utilisateurs  `root` peuvent écouter sur les ports < 1024, vous pourriez vouloir réorienter le trafic de 80 à 3000 comme suit: 
+* **listenPort** - `3000`. Le port du serveur web. Certains pares-feu bloquent le trafic réseau aux ports autres que  80 (HTTP). Etant donné que seuls les utilisateurs  `racine` peuvent écouter sur les ports < 1024, vous pourriez vouloir réorienter le trafic de 80 à 3000 comme suit: 
 
 ```
 >sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000
@@ -121,25 +121,25 @@ Le serveur web de Linkurious délivre l'application aux utilisateurs finaux par 
 
 ### Sécurité
 
-Plusieurs options de sécurité peuvent être activées selon vos besoins. La clé  `cookieSecret` du  `server` est déterminée aléatoirement au démarrage de Linkurious.  
+Plusieurs options de sécurité peuvent être activées selon vos besoins. La clé  `cookieSecret` du  `serveur` est déterminée aléatoirement au démarrage de Linkurious.  
 
 #### Cookies
 
 Dans la clé `server` :
 
-* **cookieSecret** - La clé secrète utilisé pour encrypter la session de cookie. Aléatoire au premier démarrage.  
+* **cookieSecret** - La clé secrète utilisé pour encrypter la session de cookies. Aléatoire au premier démarrage.  
 
 #### Partage des ressources d'origines croisées (CORS)
 
 Dans la clé  `server`:
 
-* **allowOrigin** - `"*"`. Défini la politique de partage des ressources d'origine croisées (CORS). Accepte les requêtes sites croisés HTTP/S par défaut (wildcard).
+* **allowOrigin** - `"*"`. Défini la politique de partage des ressources d'origines croisées (CORS). Par défaut, accepte les requêtes sites croisés HTTP/S par défaut (wildcard).
 
 #### Image cross-origin (côté client)
 
 Dans la clé `sigma`:
 
-* **imgCrossOrigin** - `"anonymous"`. Restreint l'origine des images affichées en visualisations pour prévenir le démarage de code malveillants sur la carte graphique de l'utilisateur. Montre des images de quelconque origine par défaut.
+* **imgCrossOrigin** - `"anonymous"`. Restreint l'origine des images affichées pour prévenir le démarage de codes malveillants sur la carte graphique de l'utilisateur. Montre des images de quelconque origine par défaut.
 
 #### Encryptage de communications c end-to-end avec SSL
 
