@@ -15,7 +15,7 @@
    * [Inspection des données](first-visualization/inspect.md)
 * [Recherche](search/README.md)
    * [Rechercher des noeuds](search/nodes.md)
-   * [Rechercher des relations](search/edges.md)
+   * [Rechercher des liens](search/edges.md)
    * [Recherche avancée](search/refine-query.md)
    * [Syntaxe avancée](search/syntax.md)
    * [Trouver le chemin le plus court](search/shortest-paths.md)
