@@ -2,7 +2,7 @@
 
 ### A partir de l'espace de travail
 
-Nous ouvrons le menu de l'espace de travail puis nous cliquons sur le bouton ``Delete```. Nous confirmons la suppression de la visualisation. 
+Nous ouvrons le menu de l'espace de travail puis nous cliquons sur le bouton ```Delete```. Nous confirmons la suppression de la visualisation. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Menu.png)
 
