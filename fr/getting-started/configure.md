@@ -160,10 +160,10 @@ Si le serveur Linkurious, les sources de données, et le moteur de recherche son
 Le système d'accès des utilisateurs est configuré dans la clé `access`:
 
 * **authRequired** - `false`. Rejeter les requêtes d'une session anonyme si `true`, sinon, toutes les requêtes seront liées à un compte "Unique User" . Paramètrez-le `false` pour lancer Linkurious pour la première fois, ou s'il y a un unique utilisateur. 
-* **dataEdition** - `true`. Enable the creation, edition, and deletion of nodes and edges in all data sources. Administrators can fine-tune user permissions, see the Administration Chapter. If `false`, all edition requests sent through Linkurious to the data sources will be rejected.
-* **widget** - `true`. Enable to publish visualizations online. Published visualizations are accessible by anonymous users. More info in the **Manage > Publish** section of the manual.
-* **loginTimeout** - `3600`. Log the user out after a period of inactivity (in second).
-* **ldap** - The connection to the LDAP service (see below).
+* **dataEdition** - `true`. Autorise la création, l'édition, et la suppression de noeuds et de liens dans toutes les sources de données. Les administrateurs peuvent règler les permissions des utilisateurs, voir le chapitre Administration. Si `false`, toutes les requêtes d'édition envoyées par Linkurious seront rejetées.
+* **widget** - `true`. Active la publication en ligne de visualisations. Les visualisations publiées sont accessibles par les utilisateurs anonymes Plus d'informations dans la section **Gérer > Publier** du manuel.
+* **loginTimeout** - `3600`. Déconnecte l'utilisateur après une période d'inactivité (en secondes) 
+* **ldap** - La connexion au service LDAP (voir ci-dessous).
 
 ##### Connection to the LDAP service
 
