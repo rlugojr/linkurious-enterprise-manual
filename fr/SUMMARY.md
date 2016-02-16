@@ -5,7 +5,7 @@
    * [Exigences](getting-started/requirements.md)
    * [Télécharger](getting-started/download.md)
    * [Installer](getting-started/install.md)
-   * [Configure](getting-started/configure.md)
+   * [Configurer](getting-started/configure.md)
    * [Styles](getting-started/styles.md)
    * [Démarrer](getting-started/start.md)
    * [Arrêter](getting-started/stop.md)
