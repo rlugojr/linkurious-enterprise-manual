@@ -45,7 +45,7 @@
 * [Editer](edit/README.md)
    * [Editer les propriétés et les catégories](edit/edit.md)
    * [Créer des noeuds et des liens](edit/add.md)
-   * [Supprimer des noeuds et des relations](edit/remove_an_ode_or_an_edge.md)
+   * [Supprimer des noeuds et des liens](edit/remove_an_ode_or_an_edge.md)
 * [Gestion des visualisations](manage/README.md)
    * [Sauvegarde automatique](manage/autosave.md)
    * [Organiser](manage/organize.md)
