@@ -133,45 +133,45 @@ Dans la clé `server` :
 
 Dans la clé  `server`:
 
-* **allowOrigin** - `"*"`. Défini la politique de partage des ressources d'origines croisées (CORS). Par défaut, accepte les requêtes sites croisés HTTP/S par défaut (wildcard).
+* **allowOrigin** - `"*"`. Défini la politique de partage des ressources d'origines croisées (CORS). Par défaut, accepte les requêtes sites croisés HTTP/S (wildcard).
 
 #### Image cross-origin (côté client)
 
 Dans la clé `sigma`:
 
-* **imgCrossOrigin** - `"anonymous"`. Restreint l'origine des images affichées pour prévenir le démarage de codes malveillants sur la carte graphique de l'utilisateur. Montre des images de quelconque origine par défaut.
+* **imgCrossOrigin** - `"anonymous"`. Restreint l'origine des images affichées pour prévenir le démarage de codes malveillants sur la carte graphique de l'utilisateur. Par défaut, montre des images de quelconque origine.
 
-#### Encryptage de communications c end-to-end avec SSL
+#### Encryptage de communications end-to-end avec SSL
 
-Les communications externes avec le serveur de Linkurious server peuvent être encryptées sans installer un logiciel tiers.
+Les communications externes avec le serveur de Linkurious peuvent être encryptées sans installer un logiciel tiers.
 
 Dans la clé `server` :
 
-* **listenPortHttps** - `3443`. Le port du serveur web si HTTPS est activé. Voir la section Install pour apprendre pourquoi vous ne devriez pas directement paramètrer `443`.
+* **listenPortHttps** - `3443`. Le port du serveur web si HTTPS est activé. Voir la section Installer pour apprendre pourquoi vous ne devriez pas directement paramètrer `443`.
 * **useHttps** - `false`. Encrypter les communications via HTPPS si `true`. Exige un certificat SSL valide. 
 * **forceHttps** - `false`. Force tout trafic à utiliser seulement HTTP si `true`. Le serveur rejetera toute requête HTTP.
 * **certificateFile** (optionnel) - Le chemin relatif au certificat SSL.
 * **certificateKeyFile** (optionnel) - Le chemin relatif à une clé publique du certificat SSL.
 
-Si le serveur Linkurious, les sources de données, et le moteur de recherche sont installés sur des machines différentes, nous recommendons d'encrypter la communication entre elles. Celà protègera contre le reniflage de paquets de votre intranet ou sur une infrastructure cloud. Merci de vous référer à la documentation de Neo4j et d'ElasticSearch pour activer HTTPS. 
+Si le serveur Linkurious, les sources de données, et le moteur de recherche sont installés sur des machines différentes, nous recommandons d'encrypter la communication entre elles. Celà protègera contre le reniflage de paquets de votre intranet ou sur une infrastructure cloud. Merci de vous référer à la documentation de Neo4j et d'ElasticSearch pour activer HTTPS. 
 
 #### Droits d'accès des utilisateurs  
 
 Le système d'accès des utilisateurs est configuré dans la clé `access`:
 
 * **authRequired** - `false`. Rejeter les requêtes d'une session anonyme si `true`, sinon, toutes les requêtes seront liées à un compte "Unique User" . Paramètrez-le `false` pour lancer Linkurious pour la première fois, ou s'il y a un unique utilisateur. 
-* **dataEdition** - `true`. Autorise la création, l'édition, et la suppression de noeuds et de liens dans toutes les sources de données. Les administrateurs peuvent règler les permissions des utilisateurs, voir le chapitre Administration. Si `false`, toutes les requêtes d'édition envoyées par Linkurious seront rejetées.
-* **widget** - `true`. Active la publication en ligne de visualisations. Les visualisations publiées sont accessibles par les utilisateurs anonymes Plus d'informations dans la section **Gérer > Publier** du manuel.
+* **dataEdition** - `true`. Autorise la création, l'édition, et la suppression de noeuds et de liens dans toutes les sources de données. Les administrateurs peuvent régler les permissions des utilisateurs, voir le chapitre Administration. Si `false`, toutes les requêtes d'édition envoyées par Linkurious seront rejetées.
+* **widget** - `true`. Active la publication en ligne de visualisations. Les visualisations publiées sont accessibles par les utilisateurs anonymes. Plus d'informations dans la section **Gérer > Publier** du manuel.
 * **loginTimeout** - `3600`. Déconnecte l'utilisateur après une période d'inactivité (en secondes) 
 * **ldap** - La connexion au service LDAP (voir ci-dessous).
 
 ##### Connexion au service LDAP
 
-Dans Linkurious, les administrateurs gère les comptes des autres utilisateurs. Les comptes d'utilisateurs sont définis soit par un identifiant ou une adresse email. Si Linkurious est connecté à un service LDAP (de préférence OpenLDAP ou Active Directory), les utilisateurs sont autentifiés chaque fois qu'il se connectent. Si vous avez un service LDAP en route sur votre réseau, vous pouvez l'utilisé pour autentifier les utilisateurs de Linkurious. Notez que Linkurious stocke les mots de passe encryptés pour les utilisateurs non autentifiés par LDAP. 
+Dans Linkurious, les administrateurs gère les comptes des autres utilisateurs. Les comptes d'utilisateurs sont définis soit par un identifiant ou une adresse email. Si Linkurious est connecté à un service LDAP (de préférence OpenLDAP ou Active Directory), les utilisateurs sont authentifiés chaque fois qu'il se connectent. Si vous avez un service LDAP en route sur votre réseau, vous pouvez l'utiliser pour authentifier les utilisateurs de Linkurious. Notez que Linkurious stocke les mots de passe encryptés pour les utilisateurs non authentifiés par LDAP. 
 
-Pour autoriser l'autentification LDAP dans Linkurious, paramètrer la configuration. 
+Pour autoriser l'autentification LDAP dans Linkurious, paramètrez la configuration. 
 
-Pour Microsoft Active Directory, ajoutez une section `msActiveDirectory` sà l'intérieur de `access`:
+Pour Microsoft Active Directory, ajoutez une section `msActiveDirectory` à l'intérieur de `access`:
 
 ```JavaScript
 "access": {
@@ -223,7 +223,7 @@ Merci de vous référer à la documentation de votre fournisseur LDAP.
 
 #### Permissions des utilisateurs pour les sources de données 
 
-Les administrateurs peuvent affinés les permission des utilisateurs pour chaque source de données. voir le chapitre Administration pour en savoir plus.
+Les administrateurs peuvent affinés les permissions des utilisateurs pour chaque source de données. Voir le chapitre Administration pour en savoir plus.
 
 ### Connexion
 
@@ -231,22 +231,22 @@ Linkurious peut enregistrer des événements du côté serveur et du côté clie
 
 #### Enregistrements serveurs
 
-Le serveur Linkurious enregistre différents événements dans des fichiers à l'adresse `data/manager/logs/Linkurious-Server-*.log`. Ils sont utiles pour fixer des problèmes et et vous devrier les inclure dans vos tickets d'incidents. Les événements du serverincorporé ElasticSearch peut être trouvé dans `data/manager/logs/ElasticSearch-Server-*.log`.
+Le serveur Linkurious enregistre différents événements dans des fichiers à l'adresse `data/manager/logs/Linkurious-Server-*.log`. Ils sont utiles pour fixer des problèmes et vous devrier les inclure dans vos tickets d'incidents. Les événements du moteur incorporé ElasticSearch peut être trouvés dans `data/manager/logs/ElasticSearch-Server-*.log`.
 
 #### Enregistrements clients
 
-Le client Linkurious cenregistrer les actions d'utilisateurs en envoyant les événements à votre compte Google Analytics. Ils fournissent des informations sur la manière dont l'application est utilisée, quelles options sont les plus utiles, etc. Cette option est désactivée par défaut et aucun script extérne n'est lors injecté. elle se configure dans la clé `clientAnalytics`:
+Le serveur Linkurious enregistre les actions d'utilisateurs en envoyant les événements à votre compte Google Analytics. Ils fournissent des informations sur la manière dont l'application est utilisée, quelles options sont les plus utiles, etc. Cette option est désactivée par défaut et aucun script externe n'est alors injecté. Elle se configure dans la clé `clientAnalytics`:
 
 * **enabled** - `false`. 
-* **code** - Code universels Analytics code de forme "UA-XXXXX-xx".
+* **code** - Code universels Analytics de forme "UA-XXXXX-xx".
 * **domain** - `"none"`. Le domaine à partir duquel Linkurious est accessible par les utilisateurs, exemple: "www.example.com", ou "none".
 
 #### Pistes d'audit
 
-Les pistes d'audit vous permettent d'enregistrer des éveénements détaillés sur les opérations effectuées sur dans votre base de données de graphes par les utilisateurs de Linkurious Enterprise. Les fichiers d'événements contiennent des lignes JSON. Vous pouvez facilement utiliser un système de gestion d'événements comme [Logstash](https://www.elastic.co/products/logstash) pour les interpréter. Cette option est désactivée par défaut. Les paramètres suivants sont disponibles dans la clé `auditTrail`:
+Les pistes d'audit vous permettent d'enregistrer des éveénements détaillés sur les opérations effectuées dans votre base de données de graphes par les utilisateurs de Linkurious Enterprise. Les fichiers d'événements contiennent des lignes JSON. Vous pouvez facilement utiliser un système de gestion d'événements comme [Logstash](https://www.elastic.co/products/logstash) pour les interpréter. Par défaut, cette option est désactivée. Les paramètres suivants sont disponibles dans la clé `auditTrail`:
 
 * **enabled** - `false`. Activer l'enregistrement de pistes d'audit si `true`.
 * **logFolder** - `"audit-trail"`. Où stocker les fichiers d'enregistrement. Ce chemin est relatif au répertoire`data` localisé à la racine de votre installation Linkurious.
-* **fileSizeLimit** - `5242880`. Taille maximal en byte d'un fichier d'enregistrement (par défaut: 5MB). Un nouveau fichier est crée quand la limite est atteinte (rotation de fichiers) pour éviter de trop grand fichiers d'enregistrements.
+* **fileSizeLimit** - `5242880`. Taille maximal en byte d'un fichier d'enregistrement (par défaut: 5MB). Un nouveau fichier est créé quand la limite est atteinte (rotation de fichiers) pour éviter de trop grand fichiers d'enregistrements.
 * **strictMode** - `false`. S'assure que l'opération a été enregistré avant de donner le résultat à l'utilisateur si `true`. Peut avoir un gros impacte sur la capacité de réponse du serveur. 
 * **mode** - `"rw"`. Enregistrera les actions de LECTURE (`"r"`), d'ECRITURE (`"w"`), ou les deux (`"rw"`).
