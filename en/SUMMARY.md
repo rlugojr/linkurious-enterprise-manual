@@ -70,4 +70,5 @@
    * [Data import](others/data-import.md)
    * [Bugs](others/bugs.md)
    * [Technology](others/technology.md)
+* Geography
 
