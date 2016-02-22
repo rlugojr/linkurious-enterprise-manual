@@ -72,4 +72,5 @@
    * [Technology](others/technology.md)
 * Geography
    * Geographic data
+   * Geo mode
 
