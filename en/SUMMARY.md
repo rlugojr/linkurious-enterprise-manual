@@ -48,7 +48,7 @@
    * [Remove nodes and edges](edit/remove_an_ode_or_an_edge.md)
 * [Geography](geography.md)
    * [Geographic data](geographic_data.md)
-   * Geo mode
+   * [Geo mode](geo_mode.md)
 * [Manage](manage/README.md)
    * [Autosave](manage/autosave.md)
    * [Organize](manage/organize.md)
