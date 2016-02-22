@@ -14,7 +14,7 @@ You can zoom in and out, drag nodes on the map to improve readability, select no
 
 ![](reset-geo-coordinates.png)
 
-Hover the layer icon ![](layer-icon.png) on the bottom-right of the Workspace with your mouse. The list of available layers is displayed. You can pick another basemap and add overlays, depending on those available on your instance of Linkurious as seen below:
+Hover the layer icon ![](layer-icon.png) on the bottom-right of the Workspace with your mouse. The list of available layers is displayed. You can pick another basemap and add overlays, depending on those available on your instance of Linkurious as seen below using the [Mapbox](https://www.mapbox.com/) provider:
 
 ![](geo-mode-alt.png)
 
