@@ -46,7 +46,7 @@
    * [Edit properties and categories](edit/edit.md)
    * [Create nodes and edges](edit/add.md)
    * [Remove nodes and edges](edit/remove_an_ode_or_an_edge.md)
-* Geography
+* [Geography](geography.md)
    * Geographic data
    * Geo mode
 * [Manage](manage/README.md)
