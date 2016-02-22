@@ -1,6 +1,8 @@
 # Geo mode
 
-The geo mode switch is available on the left panel of the Workspace.
+The geo mode switch is available on the left panel of the Workspace. 
+You can enable and disable the geo mode at will to switch between the standard "network" view and the geographic view.
+
 
 ![](geo-mode-button.png)
 
@@ -19,5 +21,3 @@ Hover the layer icon ![](layer-icon.png) on the bottom-right of the Workspace wi
 Finally, you can publish an interactive widget from **Workspace menu > Publish** with the geographical layers. See the **Manage > Publish** chapter to know more.
 
 ![](geo-widget.png)
-
-You can enable and disable the geo mode at will to switch between the standard "network" view and the geographic view.
