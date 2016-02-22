@@ -17,6 +17,8 @@ The configuration file is located at `linkurious/data/config/production.json`. I
     * Log user actions in the client using a Google Analytics account (disabled by default).
 * **sigma** - The settings of Sigma.js.
     * You should only edit the styles and palette keys.
+* **leaflet** - The settings of Leaflet.js.
+    * List of geographical map layers. The first baselayer is displayed by default. The list may contain optional overlays.
 
 ### Data management
 
@@ -35,6 +37,8 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **writeURL** (optional) - If provided, Linkurious will send WRITE requests to the graph database to this endpoint and READ requests to the **url** endpoint.
     * **user** (optional) - The username if authentication is enabled on the graph database server.
     * **password** (optional) - The password if authentication is enabled on the graph database server.
+    * **latitudeProperty** (optional) - The property which stores the latitude coordinate of nodes.
+    * **longitudeProperty** (optional) - The property which stores the longitude coordinate of nodes.
 * **index** - The search engine.
     * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
     * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
@@ -152,6 +156,7 @@ Within the `server` key:
 * **forceHttps** - `false`. Force all traffic to use HTTPS only if `true`. The server will reject all HTTP requests.
 * **certificateFile** (optional) - The relative path to the SSL certificate.
 * **certificateKeyFile** (optional) - The relative path to a public key of the SSL certificate.
+* **certificatePassphrase** (optional) - The passphrase protecting the SSL certificate.
 
 If the Linkurious server, data sources, and the search engine are installed on different machines, we recommend to encrypt internal communication between them. It will protect you against packet sniffing on your intranet or on a cloud infrastructure. Please refer to the documentation of Neo4j and ElasticSearch to enable HTTPS.
 
