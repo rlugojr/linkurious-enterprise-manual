@@ -69,6 +69,7 @@
    * [Available data](administrate/data-disclosure.md)
    * [Search index](administrate/search-index.md)
    * [Audit trail](administrate/audit_trail.md)
+   * Check for updates
 * [Other Topics](others/README.md)
    * [Data import](others/data-import.md)
    * [Bugs](others/bugs.md)
