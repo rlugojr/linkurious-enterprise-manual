@@ -1,10 +1,6 @@
 # List of nodes and edges in the graph
 
-When we are working on a visualization, all the nodes and edges present in our graph are listed on the left panel of the Workspace:
-
-![](View.png)
-
-We can then explore either the nodes or the edges of our graph going through the ```list```:
+When we are working on a visualization, all the nodes and edges present in our graph are listed on the left panel of the Workspace. We can explore either the nodes or the edges of our graph going through the ```list```:
 
 ![](ListofNodes.png)
 
