@@ -14,8 +14,6 @@ The visualization data can be exported in the following formats:
 * PNG
 * SVG (beta) - compatible with Inkscape and Adobe Illustrator for editing
 
-![](Format.png)
-
 After clicking on a format, the file is automatically downloaded by the browser.
 
 The PNG export available here will create an image of the complete graph even if we are currently zooming to a specific area. Here is an example:
