@@ -18,7 +18,7 @@ In our graph, Facebook is categorized as a ```Company```. We are going to select
 
 We can now see the different results.
 
-![the company label](https://dl.dropboxusercontent.com/s/wtkhoy7drk1y7ri/72.png?dl=0)
+![the company label](72.png)
 
 In our graph, a ```Company``` can have properties like  ```category ```,  ```country```, ```first_funding_at ``` or ```founded_at``` and more. Not all the nodes categorised as a Company will have **all** the properties though.
 
