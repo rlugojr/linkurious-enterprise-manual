@@ -20,7 +20,7 @@ Dans notre graphe, Facebook est catégorisé comme une ```Compagnie```. Nous all
 Nous pouvons voir les différents résultats.
 
 
-![the company label](https://dl.dropboxusercontent.com/s/wtkhoy7drk1y7ri/72.png?dl=0)
+![the company label](72.png)
 
 Dans notre graphe, une ```Compagnie``` peut avoir des proprités telles que ```category ```,  ```country```, ```first_funding_at ``` or ```founded_at``` et plus encore. Tous les noeuds catégorisés comme Compagnie ne vont cependant pas avoir toutes ces propriétés. 
 
