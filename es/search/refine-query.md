@@ -18,7 +18,7 @@ En nuestro grafo, Facebook está categorizado como ```Company``` (empresa). Vamo
 
 Podemos ver los resultados.
 
-![la etiqueta company](https://dl.dropboxusercontent.com/s/wtkhoy7drk1y7ri/72.png?dl=0)
+![la etiqueta company](72.png)
 
 En nuestro grafo, una ```Company``` puede tener propiedades como  ```category ``` (categoría),  ```country``` (país), ```first_funding_at ``` (primera financiación en) o ```founded_at``` (fundado en) y otras más. No obstante, no todos los nodos categorizados como empresa tendrán **todas** las propiedades.
 
