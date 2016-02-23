@@ -2,15 +2,9 @@
 
 Hemos visto que es posible utilizar filtros para seleccionar o eliminar nodos específicos de nuestra visualización de acuerdo a una propiedad. Es posible hacer lo mismo con las relaciones.
 
-![](../../en/filter/Example.png)
-
 En el siguiente grafo vemos las conexiones de Grabit. Cara relación representa una inversión en una start-up. ¿Pero qué tipo de inversión?
 
-Podemos abrir el panel de diseño para investigar. Seleccionemos ```Edges``` en la esquina inferior derecha.
-
-Podemos ver las diferentes propiedades asociadas a las relaciones de nuestro conjunto de datos.
-
-Vamos a centrarnos en ```funded_at``` (fecha de financiación). Hagamos clic en la propiedad.
+Podemos abrir el panel de diseño para investigar. Seleccionemos ```Edges``` en la esquina inferior derecha. Podemos ver las diferentes propiedades asociadas a las relaciones de nuestro conjunto de datos. Vamos a centrarnos en ```funded_at``` (fecha de financiación). Hagamos clic en la propiedad.
 
 ![](../../en/filter/FundedAt.png)
 
