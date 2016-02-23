@@ -2,15 +2,9 @@
 
 We have seen it is possible to use filters to select or remove specific nodes in our visualization according to a property. It is possible to do the same thing with edges.
 
-![](Example.png)
-
 In the graph below we see the connections of Grabit. Each edge represents an investment in a start-up. But what kind of investment?
 
-We can open up the design panel to investigate. Let's select ```Edges``` on the bottom right corner.
-
-We can see the different properties attached to the edges in our dataset.
-
-We are going to focus on the ```funded_at```. Let's click on it.
+We can open up the design panel to investigate. Let's select ```Edges``` on the bottom right corner. We can see the different properties attached to the edges in our dataset. We are going to focus on the ```funded_at```. Let's click on it.
 
 ![](FundedAt.png)
 
