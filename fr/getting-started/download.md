@@ -7,7 +7,7 @@ Linkurious peut être téléchargé dans votre espace personnel à l'adresse: ht
 Identifiez-vous avec le nom d'utilisateur et le mot de passe créés lors du processus d'achat. Vous verrez alors les fichiers téléchargeables.
 
 Le fichier téléchargé est une archive Zip. Il contient: 
-- un serveur Web construit par Node.js v4.2 LTS ;
+- un serveur Web construit avec Node.js v4.2 LTS ;
 - le moteur de recherche ElasticSearch v1.4.5+ (nécessite Java JDK).
 
 
