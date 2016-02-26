@@ -14,7 +14,7 @@ Le fichier de configuration est localisé à l'adresse:  `linkurious/data/config
 * **access** - Les droits d'accès
     * Autoriser l'authentification, configurer l'authentification LDAP, paramétrer le mode de lecture seule, autoriser la publication en ligne. 
 * **clientAnalytics**
-    * Action de connections des utilisateurs pour les clients utilisant un compte Google Analytics (désactivé par défaut).
+    * Enregistrer les actions de connection des utilisateurs pour les clients utilisant un compte Google Analytics (désactivé par défaut).
 * **sigma** - Les paramètres de Sigma.js.
     * Vous devriez seulement éditer les styles et palettes
 
@@ -22,24 +22,24 @@ Le fichier de configuration est localisé à l'adresse:  `linkurious/data/config
 
 #### Sources de données
 
-Les sources de données sont des serveurs accessibles par le réseau (local, intranet ou internet) avec des URLs auxquels se connecter. Nous partons du principe que chaque source de données sert une unique base de données de graphes, cependant, elle peut servir une base de données différente la prochaine fois que Linkurious s'y connectera. Par exemple, vous pouvez charger une base de données sur votre serveur Neo4j, puis redémarrer le serveur avec une autre base de données. Linkurious utilisera l'identifiant de stockage pour identifier la base de données, ainsi vous pourrez passer d'une base de données à une autre facilement.
+Les sources de données sont des serveurs accessibles par le réseau (local, intranet ou internet) avec des URLs auxquels se connecter. Nous partons du principe que chaque source de données sert une unique base de données de graphe, cependant, elle peut servir une base de données différente la prochaine fois que Linkurious s'y connectera. Par exemple, vous pouvez charger une base de données sur votre serveur Neo4j, puis redémarrer le serveur avec une autre base de données. Linkurious utilisera l'identifiant de stockage ('store ID') pour identifier la base de données, ainsi vous pourrez passer d'une base de données à une autre facilement.
 
-Linkurious peut se connecter à plusieurs sources de données en même temps. Les utilisateurs sélectionnerons avec quelles bases de données travailler dans l'interface et pourrons passer des unex aux autres.
+Linkurious peut se connecter à plusieurs sources de données en même temps. Les utilisateurs peuvent sélectionner la base de données dans l'interface passer des unes aux autres. 
 
 Les sources de données sont configurées dans la clé **dataSources** qui est une liste de sources de données potentielles. Une unique source de données est configurée par défaut pour se connecter au serveur Neo4j. Chaque source de données contient les paramètres suivants:
 
 * **name** (optionnel) - Un nom lisible (human-readable name).
 * **graphdb** - Le serveur de base de données de graphes auquel se connecter 
     * **vendor** - `"neo4j"`. Seuls les serveurs Neo4j sont supportés
-    * **url** - `"http://127.0.0.1:7474/"`. Linkurious appelera le REST API Neo4j à cette addresse.
+    * **url** - `"http://127.0.0.1:7474/"`. Linkurious appelera l'API REST de Neo4j à cette addresse.
     * **writeURL** (optionnel) - Si fournit, Linkurious enverra les requêtes d'écriture à la base de données de graphes à cet endroit et les requêtes de lecture à son **url**.
     * **user** (optionnel) - L'identifiant si l'authentification est activée sur le serveur de la base de données de graphes. 
     * **password** (optionel) - Le mot de passe si l'authentification est activée sur le serveur de la base de données de graphes.
 * **index** - Le moteur de recherche.
     * **vendor** - `"elasticSearch"`. Seuls les serveurs d'ElasticSearch sont supportés.
-    * **host** - `"127.0.0.1"` pour utiliser l'index incorporé. Vous pouvez spécifier l'hôte de votre propre serveur ElasticSearch.
-    * **port** - `9201` pour utiliser l'index incorporé. Vous pouvez spécifier le port de votre propre serveur ElasticSearch.. 
-    * **forceReindex** - `false`. Linkurious re-indexera toujours la base de données de graphes au démarrage startup si `true`, sinon les Administrateurs devront le déclencher à partir du tableau de bord de gestion (voir le chapitre Gestion).
+    * **host** - `"127.0.0.1"` pour utiliser l'index embarqué. Vous pouvez spécifier l'hôte de votre propre serveur ElasticSearch.
+    * **port** - `9201` pour utiliser l'index e. Vous pouvez spécifier le port de votre propre serveur ElasticSearch.. 
+    * **forceReindex** - `false`. Linkurious ré-indexera toujours la base de données de graphes au démarrage si `true`, sinon les Administrateurs devront le déclencher à partir tableau de bord d'Administration(voir le chapitre Gestion).
 
 Les réglages suivants s'appliquent à toutes les sources de données. Ils sont disponible dans le menu **allSources**.
 
