@@ -86,15 +86,15 @@ Linkurious peut administrer (le démarrage et l'arrêt quand Linkurious démarre
 
 #### Connexion au moteur de recherche
 
-Le moteur de recherche incorporé ElasticSearch peut-être remplacé par votre propre ElasticSearch. Editez le fichier de configuration pour paramétrer l'`index` de la source de données avec l'URL et les connexions à votre moteur ElasticSearch. Linkurious créera un index pour chaque base de données de graphes, avec des noms d'index préfixés par`linkurious_`.
+Le moteur de recherche embarqué ElasticSearch peut être remplacé par votre propre instance de ElasticSearch. Editez le fichier de configuration pour paramétrer l'`index` de la source de données avec l'URL et les connexions à votre moteur ElasticSearch. Linkurious créera un index pour chaque base de données de graphe, avec des noms d'index préfixés par`linkurious_`.
 
 #### Stockage interne de données 
 
-Linkurious stocke les informations telles que les visualisations, les utilisateurs et les permissions dans un dossier de données séparé de la base de données de graphes. Par défaut, Linkurious utilise une base de données SQLite. MySQL et PostgreSQL sont aussi possibles mais doivent être installées manuellement.
+Linkurious stocke les informations telles que les visualisations, les utilisateurs et les permissions dans une base de données séparée de la base de données de graphe. Par défaut, Linkurious utilise une base de données SQLite. MySQL et PostgreSQL sont aussi disponibles mais doivent être installées manuellement.
 
 Le stockage interne de données est configuré dans la clé `db`:
 
-* **name** - `"linkurious"`. Le nom de la base de donnés.
+* **name** - `"linkurious"`. Le nom de la base de données.
 * **username** (optionnel) - L'identifiant de l'administrateur de la base de données. 
 * **password** (optionnel) - Le mot de passe de l'administrateur de la base de données. 
 * **options** - 
@@ -112,7 +112,7 @@ Le stockage interne de données est configuré dans la clé `db`:
 
 Le serveur web de Linkurious délivre l'application aux utilisateurs par HTTP/S. Il est configuré dans la clé `server` :
 
-* **domain** - `localhost`. Le domaine ou sous domaine utilisé pour accèder au serveur web. C'est obligatoire d'e l'éditer pour une publication en ligne des visualisations. Il est aussi utilisé pour restreindre la validité des cookies à un domaine ou à un sous domaine. 
+* **domain** - `localhost`. Le domaine ou sous domaine utilisé pour accèder au serveur web. Il est obligatoire de l'éditer pour une publication en ligne des visualisations. Il est aussi utilisé pour restreindre la validité des cookies à un domaine ou à un sous domaine. 
 * **listenPort** - `3000`. Le port du serveur web. Certains pares-feu bloquent le trafic réseau aux ports autres que  80 (HTTP). Etant donné que seuls les utilisateurs  `racine` peuvent écouter sur les ports < 1024, vous pourriez vouloir réorienter le trafic de 80 à 3000 comme suit: 
 
 ```
