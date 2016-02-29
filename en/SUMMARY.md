@@ -74,5 +74,5 @@
    * [Data import](others/data-import.md)
    * [Bugs](others/bugs.md)
    * [Technology](others/technology.md)
-   * Database re-generation
+   * [Database re-generation](others/database_re-generation.md)
 
