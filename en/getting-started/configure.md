@@ -46,6 +46,46 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
     * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server. 
     * **forceReindex** - `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
+    * **dynamicMapping** - `false`. If set to `true`, ElasticSearch will automatically detect the type of properties, giving access to advanced search queries taking benefits of data types. In some cases, this can cause the indexing to fail. If set to `false`, the indexing will be more robust but advanced search queries will not be available.
+
+Example of 2 data sources:
+
+```JavaScript
+"dataSources": [
+  {
+    "graphdb": {
+      "vendor": "neo4j",
+      "url": "http://127.0.0.1:7404",
+      "user": "neo4j",
+      "password": "123",
+      "webAdmin": "http://127.0.0.1:7404/browser"
+    },
+    "index": {
+      "vendor": "elasticSearch",
+      "host": "127.0.0.1",
+      "port": 9201,
+      "forceReindex": false,
+      "dynamicMapping": false
+    }
+  },
+  {
+    "graphdb": {
+      "vendor": "neo4j",
+      "url": "http://127.0.0.1:7474",
+      "user": "neo4j",
+      "password": "123",
+      "webAdmin": "http://127.0.0.1:7474/browser"
+    },
+    "index": {
+      "vendor": "elasticSearch",
+      "host": "127.0.0.1",
+      "port": 9201,
+      "forceReindex": false,
+      "dynamicMapping": false
+    }
+  }
+],
+```
 
 
 The following settings applies to all data sources. They are available in the **allSources** key.
