@@ -2,7 +2,7 @@
 
 ### Linkurious
 
-Siga los siguiente pasos para crear una copia de seguridad consistente:
+Siga los siguientes pasos para crear una copia de seguridad consistente:
 
 1. Pare Linkurious.
 2. Haga una copia del directorio `<linkurious-folder>/data`.
