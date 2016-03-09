@@ -18,7 +18,7 @@ Vemos:
 * cuantas ocurrencias hay de cada valor (hay 39 relaciones con el valor ```INVESTED_IN```);
 * qué color está asociado a cada valor (```ACQUIRED``` es azul)
 
-Para colorear las relaciones de acuerdo a otra propiead, primero eliminarmos los colors haciendo clic en el mismo botón ```color```.
+Para colorear las relaciones de acuerdo a otra propiedad, primero eliminamos los colores haciendo clic en el mismo botón ```color```.
 
 ![](../../en/style/Change.png)
 
