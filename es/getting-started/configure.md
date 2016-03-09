@@ -46,14 +46,14 @@ Los siguientes ajustes aplican a todas las fuentes de datos. Están disponibles 
 Ajustes generales:
 
 * **connectionRetries** - `10`. El número máximo de intentos de conexión a cada fuente de datos y motor de búsqueda antes de considerarlos desconectados.
-* **pollInterval** - `10`. Comprobar si las fuentes de datos y motores de búsqueda están conectados en cada intérvalo (en segundos).
+* **pollInterval** - `10`. Comprobar si las fuentes de datos y motores de búsqueda están conectados en cada intervalo (en segundos).
 
 Ajustes del motor de búsqueda:
 
-* **indexationChunkSize** - `5000`. El número de nodos y relaciones extraidos cada vez al indexar la base de datos.
+* **indexationChunkSize** - `5000`. El número de nodos y relaciones extraídos durante el indexado de la base de datos.
 * **searchAddAllThreshold** - `500`. El número máximo de resultados de búsqueda que el usuario puede añadir a una visualización a la vez.
 * **searchThreshold** - `3000`. El número máximo de resultados de búsqueda que pueden ser devueltos.
-* **minSearchQueryLength** - `3`. El número de caracteres necesarios para lanzar una consulta de búsqueda. Establecer `1` para proporcionar resultados en directo desde el primer caracter escrito por el usuario.
+* **minSearchQueryLength** - `3`. El número de caracteres necesarios para lanzar una consulta de búsqueda. Establecer `1` para proporcionar resultados en directo desde el primer carácter escrito por el usuario.
 
 Ajustes de exploración de grafos:
 
@@ -113,7 +113,7 @@ El almacén de datos interno se configura en la sección `db`:
 El servidor web de Linkurious proporciona la aplicación a usuarios finales mediante HTTP/S. Se configura en la sección `server`:
 
 * **domain** - `localhost`. El dominio o subdominio utilizado para acceder al servidor web. Es obligatorio editarlo para publicar visualizaciones online. También es utilizado para restringir la validez de cookies a un dominio o subdominio.
-* **listenPort** - `3000`. El puerto del servidor web. Algunos cortafuegos bloquean el tráfico de red en puertos diferentes al 80 (HTTP). Dado que solamente usuarios `root` pueden escuchar en puertos < 1024, usted puede necesitar redireccionar tráfico desde el puerto 80 al 3000 de la siguiente forma.
+* **listenPort** - `3000`. El puerto del servidor web. Algunos cortafuegos bloquean el tráfico de red en puertos diferentes al 80 (HTTP). Dado que solamente usuarios `root` pueden escuchar en puertos < 1024, usted puede necesitar re direccionar tráfico desde el puerto 80 al 3000 de la siguiente forma.
 
 ```
 >sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000
@@ -127,7 +127,7 @@ Múltiples características de seguridad pueden ser activadas de acuerdo a sus n
 
 Dentro de `server`:
 
-* **cookieSecret** - La clave secreta utilizada para cifrar la cookie de sesión. Aleatorizado durante el primer inicio.
+* **cookieSecret** - La clave secreta utilizada para cifrar la cookie de sesión. Generada aleatoriamente durante el primer inicio.
 
 #### Cross-origin resource sharing (CORS)
 
