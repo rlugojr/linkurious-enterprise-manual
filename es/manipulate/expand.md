@@ -1,4 +1,4 @@
-## Expandir nodes
+## Expandir nodos
 
 Expandir nodos significa mostrar los nodos que estén conectados a un nodo o grupo de nodos.
 
