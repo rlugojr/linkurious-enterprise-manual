@@ -57,7 +57,7 @@ En el siguiente ejemplo, los nodos son coloreados por las categorías "COMPANY",
 }
 ```
 
-Colorear mediante propiedades cuantitativas sigue la misma logica. En el siguiente ejemplo los nodos son coloreados por una propiedad numérica. Los valores serán agrupados linealmente en 7 contenedores, ordenados de menor a mayor (ver ejemplo debajo).
+Colorear mediante propiedades cuantitativas sigue la misma lógica. En el siguiente ejemplo los nodos son coloreados por una propiedad numérica. Los valores serán agrupados linealmente en 7 contenedores, ordenados de menor a mayor (ver ejemplo debajo).
 
 ![escala-de-colores](../../en/getting-started/Color-scale.png)
 
@@ -96,7 +96,7 @@ Usted también puede generar escalas de color consistentes para datos cualitativ
 
 #### Iconos de nodos
 
-Linkurious proporciona más de 500 iconos del proyecto FontAwesome. Usted puede asignar iconos utilizando sus carácteres unicode tales como "\uf219". Obtenga la lista completa de carácteres en http://fortawesome.github.io/Font-Awesome/icons/ (seleccione un icono para mostrar su carácter unicode).
+Linkurious proporciona más de 500 iconos del proyecto FontAwesome. Usted puede asignar iconos utilizando sus caracteres Unicode tales como "\uf219". Obtenga la lista completa de carácteres en http://fortawesome.github.io/Font-Awesome/icons/ (seleccione un icono para mostrar su carácter Unicode).
 
 El siguiente ejemplo establece iconos para las categorías de nodo "COMPANY", "CITY", "MARKET" e "INVESTOR".
 
