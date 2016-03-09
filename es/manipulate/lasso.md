@@ -8,6 +8,6 @@ Mueva el lazo alrededor de los nodos que le interesen para seleccionarlos.
 
 ![](../../en/manipulate/Lasso.png)
 
-Suelte el ratón cuando haya acabado y su selección se activará.
+Suelte el ratón cuando haya acabado, y su selección se activará.
 
 ![](../../en/manipulate/LassoResult.png)
