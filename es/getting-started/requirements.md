@@ -26,7 +26,7 @@ Si tiene este problema, una solución es utilizar otra base de datos para Linkur
 Puede utilizar un servidor de base de datos existente o instalar uno nuevo. Linkurious almacenará su estado en una base de datos específica llamada "linkurious".
 Consulte la sección de configuración para modificar la base de datos utilizada por Linkurious. Por favor compruebe la documentación oficial de MySQL o PostgreSQL para instalar y configurar estas bases de datos.
 
-Alternativamente, en debian estable podría arreglar el problema actualizando GLIBC manualmente:
+Alternativamente, en la versión Debian estable podría arreglar el problema actualizando GLIBC manualmente:
 
 ```Bash
 echo 'deb http://ftp.fr.debian.org/debian/ testing main' > /etc/apt/sources.list
@@ -36,7 +36,7 @@ apt-get install -t testing libc6-dev=2.19-9
 
 #### Fuente de datos
 
-La plataforma Linkurious se conecta a fuentes de datos remotas mediante HTTP o HTTPS. Actualmente soportamos servidores Neo4j en la versión 2.0 o más actual. Neo4j, de Neo Technology, es la base de datos de grafos líder en el mercado. Puede calcular los requisitos de hardware de Neo4j [aquí](http://neo4j.com/developer/guide-sizing-and-hardware-calculator/).
+La plataforma Linkurious se conecta a fuentes de datos remotas mediante HTTP o HTTPS. Actualmente soportamos servidores Neo4j en la versión 2.0 o más actual. Neo4j, de Neo Technology, es la base de datos de grafos líder en el mercado. Puede ver los requisitos de hardware de Neo4j [aquí](http://neo4j.com/developer/guide-sizing-and-hardware-calculator/).
 
 ### Hardware
 
