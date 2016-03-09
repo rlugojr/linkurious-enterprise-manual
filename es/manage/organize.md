@@ -6,7 +6,7 @@ También podemos organizar las visualizaciones en carpetas.
 
 ### Abrir, renombrar o borrar una visualización
 
-Las siguiente acciones son posibles cuando hacemos clic derecho en una visualización o en el menú derecho del panel de control
+Las siguientes acciones son posibles cuando hacemos clic derecho en una visualización o en el menú derecho del panel de control
 * open: Abre la visualización donde usted la dejó (con los colores, tamaños y filtros)
 * share: comparte la visualización
 * move to: mueve la visualización a una carpeta
