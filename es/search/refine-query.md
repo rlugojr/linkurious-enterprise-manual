@@ -3,7 +3,7 @@
 ¿Está buscando un nodo o relación en particular y la búsqueda devuelve demasiados resultados? ¡El texto que está buscando es demasiado común! 
 Usted podría querer reducir su búsqueda filtrando varias propiedades.
 
-Si buscamos una startup que tenga el texto ```facebook``` en cualquiera de sus propiedades obtenemos 88 resultados. Intentemos reducirlos.
+Si buscamos una Start-up que tenga el texto ```facebook``` en cualquiera de sus propiedades obtenemos 88 resultados. Intentemos reducirlos.
 
 ![](../../en/search/Facebook_Example.png)
 
@@ -18,7 +18,7 @@ En nuestro grafo, Facebook está categorizado como ```Company``` (empresa). Vamo
 
 Podemos ver los resultados.
 
-![la etiqueta company](72.png)
+![la etiqueta company](../../en/search/72.png)
 
 En nuestro grafo, una ```Company``` puede tener propiedades como  ```category ``` (categoría),  ```country``` (país), ```first_funding_at ``` (primera financiación en) o ```founded_at``` (fundado en) y otras más. No obstante, no todos los nodos categorizados como empresa tendrán **todas** las propiedades.
 
