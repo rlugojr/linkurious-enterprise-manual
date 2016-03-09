@@ -46,7 +46,7 @@
 
 ```spacebar``` + ```t``` Tomar captura de pantalla
 
-```spacebar``` + ```x``` Exportar a excel
+```spacebar``` + ```x``` Exportar a Excel
 
 ### Lista completa
 
