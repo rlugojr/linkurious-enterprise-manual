@@ -1,6 +1,6 @@
 ## Importar datos
 
-Linkurious depende de Neo4j para almacenar los datos. Por tanto la importación de datos no es realizada por nuestra solución. Si usted quiere importar sus datos en Neo4j, tiene las siguiente soluciones:
+Linkurious depende de Neo4j para almacenar los datos. Por tanto la importación de datos no es realizada por nuestra solución. Si usted quiere importar sus datos en Neo4j, tiene las siguientes soluciones:
 
 * Existe un complemento de Gephi que le permite exportar cualquier archivo compatible con Gephi a Neo4j ([lista de formatos compatibles](http://gephi.org/users/supported-graph-formats/)).
 
