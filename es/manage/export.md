@@ -22,7 +22,7 @@ La exportación a PNG creará una imagen del grafo completo incluso aunque estem
 
 ![](../../en/manage/SS.png)
 
-La exporación a PNG es configurable: establecer el ratio de zoom en la visualización exportada desde 1 (alejar) hasta 0.2 (acercar) no solo adaptará el tamaño de la imagen, si no que también tendrá influencia en la cantidad de información mostrada de la misma forma que ocurre en la pantalla.
+La exportación a PNG es configurable: establecer el ratio de zoom en la visualización exportada desde 1 (alejar) hasta 0.2 (acercar) no solo adaptará el tamaño de la imagen, también tendrá influencia en la cantidad de información mostrada de la misma forma que ocurre en la pantalla.
 
 <div class="alert alert-info">
     Esta característica es diferente del botón Take Screenshot (tomar captura de pantalla) disponible haciendo clic derecho en el espacio de trabajo o desde el menú de acciones: crea una imagen solamente del área de pantalla mostrada actualmente.
