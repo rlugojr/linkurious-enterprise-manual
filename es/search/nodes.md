@@ -14,7 +14,7 @@ Podemos buscar un nodo escribiendo el nombre de cualquiera de sus propiedades. A
 
 ![](../../en/search/Find_Example.png)
 
-Todas las entradas de la base de de datos que contengan la palabra ```Instagram```aparecerán. Estos resultados están agrupados por categoría y ordenados por relevancia.
+Todas las entradas de la base de datos que contengan la palabra ```Instagram```aparecerán. Estos resultados están agrupados por categoría y ordenados por relevancia.
 
 En cada resultado podemos ver:
 - El nombre del nodo y su ID numérico generado por la base de datos (```Instagram, #3886```)
