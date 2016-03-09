@@ -101,7 +101,7 @@ Para ejecutar Linkurious automáticamente cuando el sistema operativo inicie, es
 3. Seleccione `Install Linkurious as a service`.
 4. Linkurious se instalará como servicio de su sistema operativo.
 
-### Cómo ejecutar multiples instancias de Linkurious
+### Cómo ejecutar múltiples instancias de Linkurious
 
 <div class="alert alert-info">
   Una única instancia de Linkurious puede conectarse a varias bases de datos de grafos.
