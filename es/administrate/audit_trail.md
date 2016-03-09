@@ -17,7 +17,7 @@ Para configurar el sistema de trazas de auditoría, edite el archivo `linkurious
 
 * **enabled** - `false`. Activa la traza de auditoría cuando es `true`.
 * **logFolder** - `"audit-trail"`. Dónde guardar los archivos de registro. Esta ruta es relativa al directorio `data` situado en la raíz de la instalación de Linkurious.
-* **fileSizeLimit** - `5242880`. Tamaño máximo en bytes de un archivo de registro (predeterminado: 5MB). Un nuevo archivo es creado cuando el limite es alcanzado (rotación de archivos) para evitar archivos de registro enormes.
+* **fileSizeLimit** - `5242880`. Tamaño máximo en bytes de un archivo de registro (predeterminado: 5MB). Un nuevo archivo es creado cuando el límite es alcanzado (rotación de archivos) para evitar archivos de registro enormes.
 * **strictMode** - `false`. Asegura que la operación se haya registrado antes de devolver el resultado al usuario si es `true`. Podría tener un gran impacto en la velocidad de respuesta del servidor.
 * **mode** - `"rw"`. Guardar acciones de LECTURA (`"r"`), ESCRITURA (`"w"`), o ambas (`"rw"`).
 
