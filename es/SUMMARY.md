@@ -63,7 +63,7 @@
    * [Copia de seguridad](administrate/backup.md)
    * [Actualizar](administrate/upgrade.md)
    * [Panel de administración](administrate/dashboard.md)
-   * [Authenticación](administrate/user-authentication.md)
+   * [Autenticación](administrate/user-authentication.md)
    * [Usuarios y grupos](administrate/users.md)
    * [Fuentes de datos](administrate/datasources.md)
    * [Datos disponibles](administrate/data-disclosure.md)
