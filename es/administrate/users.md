@@ -42,5 +42,5 @@ Finalmente, marque la opción **"Send cypher queries to the graph (read)"** (env
 </div>
 
 <div class="alert alert-danger">
-  Los usuarios podrían borrar datos por error cuando ejecuten consultas de ESCRITURA en la base de datos de grafo. Le recomendamos activar esta característica solamente en entornos de desarrollo, y desactivarlo para bases de datos de grafos en producción. Es una buena practica crear un grupo de usuarios con el menor número de personas posible en él.
+  Los usuarios podrían borrar datos por error cuando ejecuten consultas de ESCRITURA en la base de datos de grafo. Le recomendamos activar esta característica solamente en entornos de desarrollo, y desactivarlo para bases de datos de grafos en producción. Es una buena práctica crear un grupo de usuarios con el menor número de personas posible en él.
 </div>
