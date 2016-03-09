@@ -6,7 +6,7 @@ Linkurious está disponible para descargar en su área personal https://linkurio
 
 Acceda con el usuario y contraseña creados durante el proceso de compra. Entonces podrá ver los archivos que pueden ser descargados.
 
-El archivo descargado es de tipo ZIP. ncluye en particular:
+El archivo descargado es de tipo ZIP. Incluye en particular:
 
 - Un servidor web construido con Node.js v4.2 LTS
 - El motor de búsqueda ElasticSearch v1.4.5+ (requiere Java JDK).
