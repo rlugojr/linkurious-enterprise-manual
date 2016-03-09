@@ -4,9 +4,9 @@ Si todos los nodos o relaciones tienen el mismo color, es difícil distinguirlos
 
 Por ejemplo, nuestros nodos podrían tener una propiedad ```country``` (país) que nos gustaría resaltar, por tanto Linkurious Enterprise nos permite colorear los nodos de acuerdo a una propiedad en particular, en este caso ```country```.
 
-De esta forma, una start-up francesa y una alemana tendrán colores diferentes. Será más sencillo distinguirlas visualmente.
+De esta forma, una Start-up francesa y una alemana tendrán colores diferentes. Será más sencillo distinguirlas visualmente.
 
-En la imagen debajo, podemos ver las start-ups e inversores a los que Twitter está conectado. A primera vista no podemos saber de donde proceden.
+En la imagen debajo, podemos ver las Start-ups e inversores a los que Twitter está conectado. A primera vista no podemos saber de dónde proceden.
 
 ![](../../en/style/SinColor.png)
 
