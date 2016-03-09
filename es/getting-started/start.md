@@ -74,7 +74,7 @@ Una vez que el servidor de Neo4j haya arrancado correctamente, acceda al directo
 
 ![directorio](../../en/getting-started/Folder.png)
 
-Haga clic en el archivo `start.bat`. Linkurious inicia y le invita a abrir su navegador web en http://localhost:3000 para acceder a la interfaz de usuario. Alternativamente, haga clic en `menu.bat` y seleccione `Start Linkurious processes` desde la consola.
+Haga clic en el archivo `start.bat`. Linkurious inicia y le solicita abrir su navegador web en http://localhost:3000 para acceder a la interfaz de usuario. Alternativamente, haga clic en `menu.bat` y seleccione `Start Linkurious processes` desde la consola.
 
 ![inicio de linkurious enterprise](../../en/getting-started/Startup.png)
 
