@@ -17,6 +17,8 @@ El archivo de configuración está en `linkurious/data/config/production.json`. 
     * Anotar acciones de los usuarios en el cliente mediante una cuenta de Google Analytics (desactivado por defecto).
 * **sigma** - Preferencias de Sigma.js.
     * Usted solo debería editar los estilos y paletas.
+* **leaflet** - Preferencias de Leaflet.js.
+  * Lista de capas geográficas. La primera capa es mostrada por defecto. La lista puede contener varias capas.
 
 ### Gestión de datos
 
@@ -35,6 +37,8 @@ Las fuentes de datos se configuran en la sección **dataSources**, que es una li
     * **writeURL** (opcional) - Si es proporcionado, Linkurious enviará peticiones de ESCRITURA a la base de datos de grafos en este punto de acceso y peticiones de LECTURA al punto de acceso en **url**.
     * **user** (opcional) - El nombre de usuario si la autenticación está activada en el servidor de base de datos de grafos.
     * **password** (opcional) - La contraseña si la autenticación está activada en el servidor de base de datos de grafos.
+    * **latitudeProperty** (opcional) - La propiedad qeu almacena la coordenada de latitud de los nodos.
+    * **longitudeProperty** (opcional) - La propiedad qeu almacena la coordenada de lingutud de los nodos.
 * **index** - El motor de búsqueda.
     * **vendor** - `"elasticSearch"`. Solo servidores ElasticSearch están soportados.
     * **host** - `"127.0.0.1"` para utilizar el servidor ElasticSearch integrado. Usted puede especificar la dirección de su propio servidor ElasticSearch.
@@ -152,6 +156,7 @@ Dentro de `server`:
 * **forceHttps** - `false`. Forzar que todo el tráfico utilice HTTPS si es `true`. El servidor rechazará todas las peticiones HTTP.
 * **certificateFile** (opcional) - La ruta relativa al certificado SSL.
 * **certificateKeyFile** (opcional) - La ruta relativa a la clave pública del certificado SSL.
+* **certificatePassphrase** (opcional) - La contraseña del certificado SSL.
 
 Si el servidor Linkurious, fuentes de datos y motor de búsqueda están instalados en máquinas diferentes, recomendamos cifrar la comunicación interna entre ellos. Esto le protegerá ante la captura de paquetes en su intranet o una infraestructura de tipo cloud. Por favor consulte la documentación de Neo4j y ElasticSearch para activar HTTPS.
 
