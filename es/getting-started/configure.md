@@ -32,7 +32,7 @@ Las fuentes de datos se configuran en la sección **dataSources**, que es una li
 
 * **name** (opcional) - Nombre legible para personas.
 * **graphdb** - Servidor de base de datos de grafos al que conectarse.
-    * **vendor** - `"neo4j"`. Solo servidores Neo4j están soportados.
+    * **vendor** - `"neo4j"`. Los servidores Neo4j y TitanDB están soportados.
     * **url** - `"http://127.0.0.1:7474/"`. Linkurious se comunicará con la API REST de Neo4j en esta dirección.
     * **writeURL** (opcional) - Si es proporcionado, Linkurious enviará peticiones de ESCRITURA a la base de datos de grafos en este punto de acceso y peticiones de LECTURA al punto de acceso en **url**.
     * **user** (opcional) - El nombre de usuario si la autenticación está activada en el servidor de base de datos de grafos.
@@ -44,6 +44,9 @@ Las fuentes de datos se configuran en la sección **dataSources**, que es una li
     * **host** - `"127.0.0.1"` para utilizar el servidor ElasticSearch integrado. Usted puede especificar la dirección de su propio servidor ElasticSearch.
     * **port** - `9201` para utilizar el servidor ElasticSearch integrado. Usted puede especificar el puerto de su propio servidor ElasticSearch.
     * **forceReindex** - `false`. Linkurious siempre re-indexará la base de datos de grafos al iniciar si es `true`, de lo contrario los administradores tendrán que lanzar el proceso desde el panel de control de administración (ver capítulo de Administración).
+    * **alternativeIds** (opcional) - Los identificadores de negocio que referencian nodos y relaciones en lugar de los identificadores generados por la base de datos.
+      * **node** (opcional) - La propiedad de los nodos usada como identificador.
+      * **edge** (opcional) - La propiedad de las relaciones usada como identificador.
 
 Los siguientes ajustes aplican a todas las fuentes de datos. Están disponibles en la sección **allSources**.
 
