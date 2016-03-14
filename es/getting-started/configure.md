@@ -37,6 +37,8 @@ Las fuentes de datos se configuran en la sección **dataSources**, que es una li
     * **writeURL** (opcional) - Si es proporcionado, Linkurious enviará peticiones de ESCRITURA a la base de datos de grafos en este punto de acceso y peticiones de LECTURA al punto de acceso en **url**.
     * **user** (opcional) - El nombre de usuario si la autenticación está activada en el servidor de base de datos de grafos.
     * **password** (opcional) - La contraseña si la autenticación está activada en el servidor de base de datos de grafos.
+    * **alternativeNodeId** (opcional) - Utilizar la propiedad de nodo indicada como identificador de negocio, en lugar del generado por la base de datos.
+    * **alternativeEdgeId** (opcional) - Utilizar la propiedad de relación indicada como identificador de negocio, en lugar del generado por la base de datos.
     * **latitudeProperty** (opcional) - La propiedad que almacena la coordenada de latitud de los nodos.
     * **longitudeProperty** (opcional) - La propiedad que almacena la coordenada de lingutud de los nodos.
 * **index** - El motor de búsqueda.
@@ -44,9 +46,46 @@ Las fuentes de datos se configuran en la sección **dataSources**, que es una li
     * **host** - `"127.0.0.1"` para utilizar el servidor ElasticSearch integrado. Usted puede especificar la dirección de su propio servidor ElasticSearch.
     * **port** - `9201` para utilizar el servidor ElasticSearch integrado. Usted puede especificar el puerto de su propio servidor ElasticSearch.
     * **forceReindex** - `false`. Linkurious siempre re-indexará la base de datos de grafos al iniciar si es `true`, de lo contrario los administradores tendrán que lanzar el proceso desde el panel de control de administración (ver capítulo de Administración).
-    * **alternativeIds** (opcional) - Los identificadores de negocio que referencian nodos y relaciones en lugar de los identificadores generados por la base de datos.
-      * **node** (opcional) - La propiedad de los nodos usada como identificador.
-      * **edge** (opcional) - La propiedad de las relaciones usada como identificador.
+    * **dynamicMapping** - `false`. Si es `true`, ElasticSearch detectará automáticamente el tipo de las propiedades, dando acceso a consultas avanzadas de búsqueda que utilizan los beneficios de los tipos de datos. En algunos casos, esto puede causar que la indexación falle. Si es `false`, la indexación será más robusta pero las consultas avanzadas de búsqueda no estarán disponibles.
+
+Ejemplo de 2 fuentes de datos:
+
+```JavaScript
+"dataSources": [
+  {
+    "graphdb": {
+      "vendor": "neo4j",
+      "url": "http://127.0.0.1:7404",
+      "user": "neo4j",
+      "password": "123",
+      "webAdmin": "http://127.0.0.1:7404/browser"
+    },
+    "index": {
+      "vendor": "elasticSearch",
+      "host": "127.0.0.1",
+      "port": 9201,
+      "forceReindex": false,
+      "dynamicMapping": false
+    }
+  },
+  {
+    "graphdb": {
+      "vendor": "neo4j",
+      "url": "http://127.0.0.1:7474",
+      "user": "neo4j",
+      "password": "123",
+      "webAdmin": "http://127.0.0.1:7474/browser"
+    },
+    "index": {
+      "vendor": "elasticSearch",
+      "host": "127.0.0.1",
+      "port": 9201,
+      "forceReindex": false,
+      "dynamicMapping": false
+    }
+  }
+],
+```
 
 Los siguientes ajustes aplican a todas las fuentes de datos. Están disponibles en la sección **allSources**.
 
