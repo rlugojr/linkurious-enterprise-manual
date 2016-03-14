@@ -9,4 +9,4 @@ Los siguientes capítulos están divididos en temas. Estos temas repasan las car
 
 De la misma forma que nuestro software, esta guía no asume ningún tipo de conocimiento previo sobre técnicas de visualización de grafos. Si la lee al completo, será capaz de encontrar conexiones importantes y patrones estructurales en sus datos, para mejorar su base de datos de grafos y comunicar sus descubrimientos de forma más eficiente.
 
-Versión de Linkurious Enterprise: v1.1.1 "Tragicomical Toucan".
+Versión de Linkurious Enterprise: v1.2.0 "Tragicomical Toucan".
