@@ -69,6 +69,7 @@
    * [Datos disponibles](administrate/data-disclosure.md)
    * [Índice de búsqueda](administrate/search-index.md)
    * [Trazas de auditoría](administrate/audit_trail.md)
+   * [Comprobar actualizaciones](administrate/check_updates.md)
 * [Otros temas](others/README.md)
    * [Importar datos](others/data-import.md)
    * [Errores de software](others/bugs.md)
