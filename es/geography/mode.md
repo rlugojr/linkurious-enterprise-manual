@@ -1,23 +1,23 @@
-# Display on a geographic map
+# Mostrar datos en un mapa geográfico
 
-The geo mode switch is available on the left panel of the Workspace. 
-We can enable and disable the geo mode at will to switch between the standard "network" view and the geographic view.
+El botón para cambiar al modo geográfico está en el panel izquierdo del espacio de trabajo.
+Podemos activar y desactivar el modo geográfico cuando queramos para cambiar entre la vista estándar de "red" y la vista geográfica.
 
 
-![](geo-mode-button.png)
+![](../../en/geography/geo-mode-button.png)
 
-Click on it to display the geographical map. Nodes are positionned on the map according to their geographic coordinates. Other nodes are hidden by the "geo coordinates" filter.
+Haga clic en él para mostrar el mapa geográfico. Los nodos son posicionados en el mapa de acuerdo a sus coordenadas geográficas. Otros nodos están ocultos por el filtro "geo coordinates".
 
-![](geo-mode-enabled.png)
+![](../../en/geography/geo-mode-enabled.png)
 
-We can zoom in and out, drag nodes on the map to improve readability, select nodes and edges, etc. We can always reset the node coordinates to their original location via the actions menu:
+Podemos aumentar y disminuir el zoom, arrastrar nodos en el mapa para mejorar la legibilidad, seleccionar nodos y relaciones, etc. Siempre podemos restablecer las coordenadas del nodo a su lugar original mediante el menú de acciones:
 
-![](reset-geo-coordinates.png)
+![](../../en/geography/reset-geo-coordinates.png)
 
-Hover the layer icon ![](layer-icon.png) on the bottom-right of the Workspace with your mouse. The list of available layers is displayed. We can pick another basemap and add overlays, depending on those available on your instance of Linkurious as seen below using the [Mapbox](https://www.mapbox.com/) provider:
+Si pasa el cursor por encima del icono de capas ![](../../en/geography/layer-icon.png) en la parte inferior derecha del espacio de trabajo, se mostrará la lista de capas disponibles. Podemos escoger otro mapa base y añadir capas encima, dependiendo de las que estén disponibles en su instalación de Linkurious como puede verse utilizando el proveedor [Mapbox](https://www.mapbox.com/):
 
-![](geo-mode-alt.png)
+![](../../en/geography/geo-mode-alt.png)
 
-Finally, we can publish an interactive widget from **Workspace menu > Publish** with the geographical layers. See the **Manage > Publish** chapter to know more.
+Finalmente, podemos publicar un widget interactivo desde **Workspace menu > Publish** con las capas geográficas. Vea el capítulo **Gestión > Publicar** para saber más.
 
-![](geo-widget.png)
+![](../../en/geography/geo-widget.png)
