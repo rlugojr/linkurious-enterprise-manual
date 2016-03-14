@@ -8,7 +8,7 @@ Esto funciona de forma similar a la funcionalidad de colorear de Linkurious Ente
 
 Por ejemplo [Andreessen Horowitz](http://a16z.com/) es una agencia de capital riesgo líder con 127 relaciones con diferentes empresas que ha financiado. ¿Qué empresas han recibido las mayores financiaciones? Es difícil saberlo simplemente observando este grafo.
 
-![](../../en/style/A.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/A.png)
 
 Vamos a dar tamaño a las diferentes empresas de acuerdo a su propiedad ```funding_total``` (financiación total) para visualizar cuáles son las más exitosas.
 
@@ -18,13 +18,13 @@ Movemos el ratón a ```funding_total```. Además de poder colorear los nodos de 
 
 Vamos a seleccionar el icono ```Size``` (dar tamaño).
 
-![](../../en/style/B.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/B.png)
 
 Aparece un nuevo menú. Hace posible establecer ```Min/max size difference```, la diferencia en tamaño entre el nodo con el menor valor y el nodo con el mayor valor.
 
 Si queremos ver la diferencia en ```funding_total``` establecemos ```Min/max size difference``` a ```12```.
 
-![](../../en/style/C.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/C.png)
 
 Ahora podemos ver que algunos nodos aparecen más grandes que otros nodos.
 

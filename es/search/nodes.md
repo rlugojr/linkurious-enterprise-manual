@@ -4,15 +4,15 @@ Podríamos tener millones de nodos en nuestro grafo. ¿Qué ocurre si queremos m
 
 La primera posibilidad es utilizar la barra de búsqueda rápida desde el panel de control, donde podemos escoger buscar nodos o relaciones (rectángulo rojo). En este caso buscamos nodos:
 
-![](../../en/search/QuickS_Nodes.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/QuickS_Nodes.png)
 
 La segunda posibilidad es utilizar la barra de búsqueda en el espacio de trabajo una vez que hayamos creado una nueva visualización.
 
-![](../../en/search/Find.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Find.png)
 
 Podemos buscar un nodo escribiendo el nombre de cualquiera de sus propiedades. Aquí, por ejemplo, buscamos la propiedad ```Instagram```. Podemos ver la lista de sugerencias que se ajustan a nuestra búsqueda.
 
-![](../../en/search/Find_Example.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Find_Example.png)
 
 Todas las entradas de la base de datos que contengan la palabra ```Instagram```aparecerán. Estos resultados están agrupados por categoría y ordenados por relevancia.
 
@@ -24,7 +24,7 @@ Hacemos clic en el resultado que elijamos, y será añadido al área de trabajo.
 
 > Cómo funciona: de forma predeterminada, Linkurious Enterprise indexa todas las propiedades de su grafo. Si alguna propiedad de un nodo coincide con su búsqueda, éste será devuelto.
 
-![](../../en/search/PropertiesCircle.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/PropertiesCircle.png)
 
 > Por ejemplo, usted podría encontrar el nodo ```Instagram``` escribiendo ```instagram```, ```USA``` o ```2010-03```.
 

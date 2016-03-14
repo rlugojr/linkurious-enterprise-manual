@@ -6,11 +6,11 @@ En el siguiente grafo vemos las conexiones de Grabit. Cara relación representa 
 
 Podemos abrir el panel de diseño para investigar. Seleccionemos ```Edges``` en la esquina inferior derecha. Podemos ver las diferentes propiedades asociadas a las relaciones de nuestro conjunto de datos. Vamos a centrarnos en ```funded_at``` (fecha de financiación). Hagamos clic en la propiedad.
 
-![](../../en/filter/FundedAt.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/FundedAt.png)
 
 Queremos ver solamente las relaciones con fecha de financiación ```03/06/2014```. Marquemos la casilla de verificación para mantener solo ```03/06/2014``` y hagamos clic en ```Filter ``` (filtrar).
 
-![](../../en/filter/Final.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/Final.png)
 
 Las relaciones con fecha de financiación ```03/06/2014``` son mostradas. Los otros valores de ```funded_at``` son eliminados de la visualización y un símbolo de filtrado aparece en la esquina inferior derecha.
 

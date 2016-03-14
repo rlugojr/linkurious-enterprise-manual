@@ -8,8 +8,8 @@ Si queremos eliminar un nodo de nuestra visualización, seleccionamos el nodo qu
 - Mediante clic derecho, también tenemos acceso al botón ```Hide```
 
 
-![](../../en/edit/X1.png)
-![](../../en/edit/X2.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/X1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/X2.png)
 
 ###Eliminar una relación
 
@@ -18,7 +18,7 @@ Si queremos eliminar una relación de nuestra visualización, seleccionamos la r
 - Pulsar en el botón ```Hide``` (ocultar) en el panel izquierdo
 - Mediante clic derecho, también tenemos acceso al botón ```Hide```
 
-![](../../en/edit/Y1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/Y1.png)
 
-![](../../en/edit/Y2.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/Y2.png)
 

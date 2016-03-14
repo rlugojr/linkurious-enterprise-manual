@@ -8,7 +8,7 @@ Esta técnica solamente puede aplicarse a propiedades cuantitativas.
 
 Esto funciona de forma similar a la funcionalidad de colorear de Linkurious Enterprise. Colorear y dar tamaño pueden ser combinados para obtener visualizaciones potentes.
 
-![](../../en/style/PriceZoom.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/PriceZoom.png)
 
 En la imagen anterior vemos la empresa Instagram con varias empresas que han invertido en ella.
 
@@ -26,7 +26,7 @@ Aparece un nuevo menú. Hace posible establecer ```Min/max size difference```, l
 
 Si queremos ver la diferencia en ```raised amount``` establecemos ```Min/max size difference``` a ```2```.
 
-![](../../en/style/TailleEdges.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/TailleEdges.png)
 
 Ahora podemos ver que algunas relaciones son más gruesas que las otras.
 

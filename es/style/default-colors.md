@@ -4,4 +4,4 @@ El color predeterminado de los nodos puede ser definido por el administrador de 
 
 Cuando usted selecciona nodos y relaciones, estos son resaltados inmediatamente en rojo y un halo blanco aparece en sus nodos conectados.
 
-![](../../en/style/Halo.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/Halo.png)

@@ -2,21 +2,21 @@
 
 En el panel ```more options``` (más opciones), podemos elegir crear un nodo o relación.
 
-![](../../en/edit/A1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A1.png)
 
 ### Crear un nodo
 
 Introducimos un valor para ```Categories``` (categorías), en este caso Investor (inversor) y pulsamos en add (añadir). 
 
-![](../../en/edit/A2.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A2.png)
 
 Después podemos rellenar el valor correspondiente para cada propiedad. Cuando hayamos acabado, hacemos clic en el botón ```Save``` (guardar).
 
-![](../../en/edit/A3.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A3.png)
 
 En este caso hemos introducido el valor ```Paris``` para la propiedad City (ciudad), el valor ```France``` para la propiedad Country (país) y el valor ```NewInvestor``` (nuevo inversor) para la propiedad Name (nombre).
 
-![](../../en/edit/A5.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A5.png)
 
 Podemos ver que el nodo creado ```NewInvestor``` es añadido a nuestro grafo.
 
@@ -25,7 +25,7 @@ Podemos ver que el nodo creado ```NewInvestor``` es añadido a nuestro grafo.
 
 Tenemos que proporcionar la siguiente información:
 
-![](../../en/edit/A6.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A6.png)
 
 * ```Type```: el tipo de relación
 * ```Source```: el origen de la relación
@@ -37,6 +37,6 @@ En este caso hemos introducido el valor ```NewInvestor``` para el origen, el val
 
 Finalmente, podemos ver en el grafo nuestro nuevo nodo y nuestra nueva relación:
 
-![](../../en/edit/A8.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A8.png)
 
 También es posible crear una nueva relación entre dos nodos seleccionando esos dos nodos, haciendo clic en el fondo de la visualización para mostrar el menú contextual y luego escogiendo la opción ```Create a new edge``` (crear una nueva relación). El origen y destino serán rellenados.

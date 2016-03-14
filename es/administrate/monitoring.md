@@ -10,7 +10,7 @@ Linkurious inicia 3 procesos independientes cuando es arrancado:
 Compruebe si estos procesos están funcionando abriendo el menú desde el directorio de Linkurious (ver cómo en cada sistema operativo en la siguiente sección). El menú tiene el aspecto de la siguiente imagen:
 
 
-![menu](../../en/administrate/Menu.png)
+![menu](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/Menu.png)
 
 
 #### Sistemas Linux

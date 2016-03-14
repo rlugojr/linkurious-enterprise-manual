@@ -5,7 +5,7 @@ Aquí, buscaremos las conexiones entre las empresas Facebook y LinedIn.
 
 Empezaremos con 2 nodos aparentemente desconectados, ```Facebook``` y ```LinkedIn``` que están en nuestra visualización.
 
-![](../../en/search/LI_FB.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/LI_FB.png)
 
 Seleccionamos ```Find```. Después escogemos ```Paths```. 
 Ahora escogemos el nodo origen (```starting node```, LinkedIn) y el nodo destino (```destination```, Facebook).
@@ -13,9 +13,9 @@ Ahora escogemos el nodo origen (```starting node```, LinkedIn) y el nodo destino
 
 Hacemos clic en ```Find shortest paths``` (encontrar caminos más cortos). Los resultados se muestran a continuación.
 
-![](../../en/search/Shortest.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Shortest.png)
 
 Podemos escoger ```Add all``` (añadir todos) para visualizar todos los resultados o escoger nuestro camino preferido haciendo clic en él. Nuestra elección es añadida a la visualización.
 
 
-![](../../en/search/AllLinks.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/AllLinks.png)

@@ -4,7 +4,7 @@ La forma más sencilla de seleccionar un nodo o relación es simplemente hacer c
 
 Para hacerlo, escoja ```Select``` (seleccionar) en el panel de información de la izquierda.
 
-![](../../en/manipulate/ListofS.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/ListofS.png)
 
 Ahora tiene unas pocas opciones:
 

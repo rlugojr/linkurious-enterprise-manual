@@ -6,8 +6,8 @@ Para hacerlo, escoja ```Select``` (seleccionar) en el panel de información de l
 Seleccione ```Toggle lasso``` (activar/desactivar lazo).
 Mueva el lazo alrededor de los nodos que le interesen para seleccionarlos.
 
-![](../../en/manipulate/Lasso.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Lasso.png)
 
 Suelte el ratón cuando haya acabado, y su selección se activará.
 
-![](../../en/manipulate/LassoResult.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/LassoResult.png)

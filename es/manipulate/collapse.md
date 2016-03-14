@@ -7,10 +7,10 @@ Reducir significa eliminar de la visualización los nodos que están conectados 
 Imaginemos que estamos viendo las relaciones de Instagram.
 Necesitamos seleccionar el nodo Instagram para acceder al botón de ```Collapse``` (reducir).
 
-![](../../en/manipulate/NodetoC.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/NodetoC.png)
 
 Entonces seleccionamos ```Collapse```. Los nodos conectados a Instagram se eliminan de la visualización.
 
-![](../../en/manipulate/Collapsed.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Collapsed.png)
 
 > ¿Ha notado usted que dos nodos permanecen en la vista después de la reducción? Están enlazados a Instagram **y** enlazados entre ellos. En ese caso Linkurious Enterprise los mantendrá en su visualización.

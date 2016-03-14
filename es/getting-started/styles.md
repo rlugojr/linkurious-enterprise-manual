@@ -59,7 +59,7 @@ En el siguiente ejemplo, los nodos son coloreados por las categorías "COMPANY",
 
 Colorear mediante propiedades cuantitativas sigue la misma lógica. En el siguiente ejemplo los nodos son coloreados por una propiedad numérica. Los valores serán agrupados linealmente en 7 contenedores, ordenados de menor a mayor (ver ejemplo debajo).
 
-![escala-de-colores](../../en/getting-started/Color-scale.png)
+![escala-de-colores](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/getting-started/Color-scale.png)
 
 **Ejemplo para propiedades cuantitativas:**
 ```json
@@ -90,7 +90,7 @@ Tenga cuidado de nunca borrar `linkurious_def` o `sequential` porque son utiliza
 
 Nosotros recomendamos escoger colores de [la paleta ColorBrewer](https://github.com/Linkurious/linkurious.js/blob/develop/plugins/sigma.plugins.colorbrewer/sigma.plugins.colorbrewer.js), que proporciona conjuntos de colores altamente distintivos (ver debajo).
 
-![color-brewer](../../en/getting-started/Color-brewer.png)
+![color-brewer](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/getting-started/Color-brewer.png)
 
 Usted también puede generar escalas de color consistentes para datos cualitativos en http://gka.github.io/palettes/ .
 

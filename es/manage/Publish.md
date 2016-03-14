@@ -4,11 +4,11 @@ Linkurious Enterprise ofrece la posibilidad de publicar visualizaciones interact
 
 Podemos publicar una visualización desde el espacio de trabajo mediante el menú izquierdo:
 
-![](../../en/manage/MenutoP.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/MenutoP.png)
 
 Antes de publicar una visualización, podemos escoger varias opciones para personalizar la interfaz:
 
-![](../../en/manage/ScreenBP.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/ScreenBP.png)
 
 Las opciones son:
 - Fullscreen: para proporcionar una vista a pantalla completa del grafo
@@ -19,7 +19,7 @@ Las opciones son:
 
 En la siguiente captura de pantalla, hemos desactivado las opciones de leyenda y compartir. Podemos ver que el botón de compartir en la derecha de la pantalla ha desaparecido. Finalmente, podemos publicarlo:
 
-![](../../en/manage/Done.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Done.png)
 
 ¡Ahora la visualización está disponible online! Podemos compartir el enlace o integrarla en una página web añadiendo el script del widget en el código fuente de la página web.
 

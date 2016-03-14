@@ -6,23 +6,23 @@ Los filtros nos permiten seleccionar o ocultar múltiples nodos y relaciones a l
 
 En el siguiente grafo, vemos las empresas en las que [Grabit](http://www.banexiventures.com/), una pequeña agencia de USA, ha invertido.
 
-![](../../en/filter/G_1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/G_1.png)
 
 ¿Dónde están localizadas estas empresas? Podríamos colorear los nodos de acuerdo a su propiedad ```country``` (país) para averiguarlo. ¿Pero y si solo queremos ver las empresas americanas relacionadas con Grabit?
 
 Para hacerlo, abrimos el panel de diseño a la derecha.
 
-![](../../en/filter/G_2.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/G_2.png)
 
 Podemos ver las diferentes propieades asociadas con los nodos de nuestro grafo.
 
 Hacemos clic en ```country```. Aparecen los diferentes valores en nuestro grafo para la propiedad ```country```.
 
-![](../../en/filter/G_3.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/G_3.png)
 
 Podemos ver que hay empresas de ```CHE``` y ```USA```.
 
-![](../../en/filter/G_4.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/G_4.png)
 
 Para seleccionar las empresas de USA, marcamos las casillas de verificación (aquí hemos coloreados los nodos, ver Estilo > Colorear nodos, para para hacer más visible la acción de filtrar):
 
@@ -30,7 +30,7 @@ Ahora, en la parte superior del panel de diseño aparecen dos botones: ```Filter
 
 Para seleccionar todos los nodos de USA, podríamos hacer clic en ```Select ```. En cambio, hacemos clic en ```Filter ```.
 
-![](../../en/filter/G_5.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/G_5.png)
 
 De forma instantánea todos los nodos con el valor ```CHE``` son eliminados de la visualización.
 

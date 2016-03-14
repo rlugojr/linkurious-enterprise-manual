@@ -12,7 +12,7 @@ Por defecto, la autenticación de usuarios está desactivada y todas las accione
 
 Creemos la cuenta de administrador. Haga clic en **Users** (usuarios) en el panel de administración, o seleccione el elemento **Users** en el menú **Admin** de la barra de navegación. Una vez que el panel de gestión sea mostrado, haga clic en el botón **Add** junto a "No Users" (sin usuarios). El formulario de creación de usuarios aparecerá.
 
-![user-creation-form](../../en/administrate/User-creation-form.png)
+![user-creation-form](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/User-creation-form.png)
 
 Rellene todos los campos y especialmente añada el grupo `admin` en el campo Groups para conceder los permisos de administración al nuevo usuario. Una vez haya terminado haga clic en **Save** (guardar).
 
@@ -25,6 +25,6 @@ Hemos creado nuestro primer administrador. Ahora es el momento de activar la aut
 
 Ahora la autenticación de usuarios está activada. Recargue la interfaz de la aplicación web para acceder a la pantalla de identificación.
 
-![login](../../en/administrate/Login.png)
+![login](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/Login.png)
 
 Introduzca el nombre (o email) y contraseña del administrador para acceder a Linkurious Enterprise.

@@ -17,19 +17,19 @@ Para acceder al panel de gestión de usuarios, haga clic en **Users** en el pane
 
 Podemos gestionar cualquier usuario haciendo clic en **Edit** (editar) or **Delete** (eliminar) junto al usuario de nuestra elección. También podemos gestionar los grupos de usuarios. Si elimina el último grupo de un usuario se le asignará el grupo `default`.
 
-![user-management](../../en/administrate/user-management.png)
+![user-management](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/user-management.png)
 
 ### Crear nuevos usuarios
 
 Los administradores y el *"Unique User"* (usuario único, utilizado cuando la autenticación está desactivada) pueden crear nuevas cuentas de usuario. Creemos un nuevo usuario. Haga clic en el botón **Add** (añadir) junto a "1 User", luego rellene todos los campos del formulario. Tenga en cuenta que puede asignar grupos al usuario. Haga clic en el botón **Save** (guardar) cuando haya terminado.
 
-![new-user](../../en/administrate/new-user.png)
+![new-user](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/new-user.png)
 
 ### Crear y gestionar grupos de usuarios
 
 Los administradores y el usuario único pueden crear grupos de usuarios y asignarlos a los usuarios desde el panel de gestión de usuarios. Creemos un nuevo grupo de usuarios. Haga clic en el botón **Add** (añadir) en el panel de grupos de usuarios, luego elija un nombre (por ejemplo *Analyst*). Por defecto, los usuarios de este grupo tendrán permitida la LECTURA de todos los nodos y relaciones de la fuente de datos actual. Usted puede refinar los permisos después de crear el grupo.
 
-![group-management](../../en/administrate/group-management.png)
+![group-management](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/group-management.png)
 
 En la imagen anterior, podemos ver que por ejemplo el grupo *Analyst* tiene permisos SOLO-LECTURA en las categorías `CITY`, `MARKET`, `STARTUP` e `INVESTOR` de nuestro conjunto de datos.
 

@@ -10,19 +10,19 @@ Las propiedades son información clave-valor almacenada en nodos y relaciones. P
 
 Primero necesitamos cambiar el modo de edición al estado ```On``` (activado) en la esquina superior izquierda.
 
-![](../../en/edit/E1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E1.png)
 
 ###Editar o eliminar una propiedad
 
 Ahora si seleccionamos un nodo o relación y movemos el ratón junto a una propiedad, podemos editarla (```Edit```) o eliminarla (```Delete```).
 
-![](../../en/edit/E2.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E2.png)
 
 Si hacemos clic en ```Edit```, podemos cambiar el valor de la propiedad.
 Cuando hayamos acabado, hacemos clic en  ```Save``` (guardar). En este caso editamos el nombre de la empresa.
 
-![](../../en/edit/E_3.png)
-![](../../en/edit/E4.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E_3.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E4.png)
 
 Si usted desea eliminar una propiedad, simplemente haga clic en ```Delete```.
 
@@ -30,13 +30,13 @@ Si usted desea eliminar una propiedad, simplemente haga clic en ```Delete```.
 
 Es posible añadir o eliminar una categoría de un nodo.
 
-![](../../en/edit/E5.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E5.png)
 
 Haga clic en la ```x``` junto a la categoría para eliminarla.
 
 Para añadir una categoría, hacemos clic en ```+```. Por ejemplo, podríamos estar interesados en añadir a nuestro grafo la actividad de los inversores.
 
-![](../../en/edit/E6.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E6.png)
 
 Aquí queremos la categoría Angel Investor (inversor angelical) para precisar el campo de trabajo de la empresa Ron Conway.
 
@@ -44,6 +44,6 @@ Escribimos la nueva categoría, en este caso ```Angel Investor```. Hacemos clic 
 
 La categoría es añadida.
 
-![](../../en/edit/E7.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E7.png)
 
 

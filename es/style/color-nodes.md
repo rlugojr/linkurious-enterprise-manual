@@ -8,11 +8,11 @@ De esta forma, una Start-up francesa y una alemana tendrán colores diferentes. 
 
 En la imagen debajo, podemos ver las Start-ups e inversores a los que Twitter está conectado. A primera vista no podemos saber de dónde proceden.
 
-![](../../en/style/SinColor.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/SinColor.png)
 
 Primero, abrimos el panel de diseño en la esquina derecha de la pantalla y pulsamos en la pestaña ```Design``` (diseño). Podemos ver todas las propiedades de los nodos. Hacemos clic en el botón ```color``` junto a la propiedad ```country``` para colorear los nodos de acuerdo a esta propiedad.
 
-![](../../en/style/Colors.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/Colors.png)
 
 Vemos:
 * los diferentes valores asociados con la propiedad ```country``` (JPN, RUS y USA)
@@ -23,6 +23,6 @@ Tenga en cuenta que los nodos que no tienen la propiedad ```country``` permanece
 
 Para colorear los nodos de acuerdo a otra propiedad, primero eliminamos los colores haciendo clic en el mismo botón ```color```:
 
-![](../../en/style/Unset.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/Unset.png)
 
 Después, podemos hacer clic en el botón ```color``` de otra propiedad.

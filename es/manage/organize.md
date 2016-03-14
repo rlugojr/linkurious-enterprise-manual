@@ -15,30 +15,30 @@ Las siguientes acciones son posibles cuando hacemos clic derecho en una visualiz
 * delete: borra la visualización
 
 
-![](../../en/manage/ListPossibilities.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/ListPossibilities.png)
 
 ### Ordenar las visualizaciones en carpetas
 
 Para crear una carpeta, podemos hacer clic derecho en el fondo del panel de control o pulsar  ```Create folder``` (crear carpeta) en el menú de la derecha.
 
-![](../../en/manage/Create.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Create.png)
 
 Introducimos el nombre de nuestra carpeta.
 
-![](../../en/manage/NameFolder.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/NameFolder.png)
 
 Pulsamos```Save``` (guardar). Nuestra carpeta es creada.
 
-![](../../en/manage/FolderCreated.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/FolderCreated.png)
 
 Abrimos la carpeta haciendo clic en ella. Si queremos mover una visualización a la carpeta utilizamos la acción ```move to``` (mover a) cuando hacemos clic derecho en nuestra visualización: 
 
-![](../../en/manage/MoveTo.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/MoveTo.png)
 
 Seleccionamos la carpeta a la que queremos mover nuestra visualización:
 
-![](../../en/manage/MTF1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/MTF1.png)
 
 La visualización ha sido movida a la carpeta.
 
-![](../../en/manage/Folder.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Folder.png)

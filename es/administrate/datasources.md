@@ -13,7 +13,7 @@ Linkurious Enterprise se conecta a fuentes de datos locales o remotas a través 
 
 Para acceder al panel de gestión de datos, haga clic en **Data** en el panel de administración, o seleccione el elemento **Data** en el menú **Admin** de la barra de navegación. Usted debería ver la siguiente pantalla.
 
-![](../../en/administrate/admin-data-server.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/admin-data-server.png)
 
 Aquí podemos editar la configuración de la fuente de datos, configurar y activar la indexación de datos. Para editar la configuración de otra fuente de datos, cambie la fuente de datos desde la barra de navegación.
 

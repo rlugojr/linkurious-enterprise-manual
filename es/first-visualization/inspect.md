@@ -2,7 +2,7 @@
 
 Para visualizar las diferentes propiedades de un nodo, hacemos clic en él. La información aparece inmediatamente en el lado izquierdo de la pantalla.
 
-![](../../en/first-visualization/PropertiesCircle.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/PropertiesCircle.png)
 
 Aquí podemos ver que hay un nodo con el id ```#3886```. Se llama ```Instagram``` y tiene la categoría ```Company```. Debajo podemos ver varias propiedades asociadas a este nodo.
 
@@ -23,7 +23,7 @@ Es momento de averiguar las relaciones de un nodo en particular. La forma más f
 
 Ahora podemos ver todos los nodos que están conectados a Instagram.
 
-![](../../en/first-visualization/Connections.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Connections.png)
 
 ¿Nota usted el halo blanco alrededor de cada nodo? Todos los nodos rodeados por el halo blanco están conectados al nodo actualmente seleccionado (o nodos seleccionados). En este caso, todos los nodos están conectados a Instagram.
 
@@ -31,4 +31,4 @@ Las aristas entre entre los nodos representan las relaciones. Todas las aristas 
 
 Si hacemos clic en una ```relación```, las propiedades de esta relación serán mostradas en el panel izquierdo.
 
-![](../../en/first-visualization/Relationship_Properties.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Relationship_Properties.png)

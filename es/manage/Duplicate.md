@@ -7,18 +7,18 @@ Es posible duplicar una visualización. Esta característica podría ser útil c
 
 Es posible duplicar una visualización guardada desde el panel de control de la siguiente forma:
 
-![](../../en/manage/F_D.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/F_D.png)
 
 Después hacemos clic en ```Duplicate``` y se mostrará una copia de nuestra visualización accesible directamente desde el panel de control:
 
-![](../../en/manage/Duplicated.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Duplicated.png)
 
 
 ## Desde el espacio de trabajo
 
 También es posible duplicar una visualización guardada desde el espacio de trabajo mediante el Menú:
 
-![](../../en/manage/F_W.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/F_W.png)
 
 Posteriormente el duplicado es accesible desde el panel de control.
 

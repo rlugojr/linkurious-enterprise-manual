@@ -8,4 +8,4 @@ Ahora tiene acceso al panel de administración.  El estado de Linkurious y la fu
 
 El nombre de la fuente de datos actual es mostrado en la barra de navegación, con fuentes de datos sin nombre mostradas como *"Database #xx"*. Usted puede **cambiar a otra fuente de datos** desde ahí.
 
-![admin-status](../../en/administrate/Admin-status.png)
+![admin-status](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/Admin-status.png)
