@@ -37,8 +37,8 @@ Las fuentes de datos se configuran en la sección **dataSources**, que es una li
     * **writeURL** (opcional) - Si es proporcionado, Linkurious enviará peticiones de ESCRITURA a la base de datos de grafos en este punto de acceso y peticiones de LECTURA al punto de acceso en **url**.
     * **user** (opcional) - El nombre de usuario si la autenticación está activada en el servidor de base de datos de grafos.
     * **password** (opcional) - La contraseña si la autenticación está activada en el servidor de base de datos de grafos.
-    * **latitudeProperty** (opcional) - La propiedad qeu almacena la coordenada de latitud de los nodos.
-    * **longitudeProperty** (opcional) - La propiedad qeu almacena la coordenada de lingutud de los nodos.
+    * **latitudeProperty** (opcional) - La propiedad que almacena la coordenada de latitud de los nodos.
+    * **longitudeProperty** (opcional) - La propiedad que almacena la coordenada de lingutud de los nodos.
 * **index** - El motor de búsqueda.
     * **vendor** - `"elasticSearch"`. Solo servidores ElasticSearch están soportados.
     * **host** - `"127.0.0.1"` para utilizar el servidor ElasticSearch integrado. Usted puede especificar la dirección de su propio servidor ElasticSearch.
