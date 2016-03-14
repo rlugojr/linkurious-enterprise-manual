@@ -74,4 +74,5 @@
    * [Importar datos](others/data-import.md)
    * [Errores de software](others/bugs.md)
    * [Tecnología](others/technology.md)
+   * [Re-generación de la base de datos](others/database_re-generation.md)
 
