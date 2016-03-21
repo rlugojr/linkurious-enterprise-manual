@@ -184,7 +184,7 @@ Within the `server` key:
   * a string (`"abc.com"`): only requests from "abc.com" domain are allowed.
   * wildcard-prefixed string (`"*.abc.com"`): request from all subdomains of "abc.com" are allowed.
   * an array of strings (`["abc.com", "*.def.com"]`): requests from "abc.com" **and** all subdomains of "def.com" are allowed.
-  * `"*"`: requests from any domain are allowed.
+  * a single wildcard (`"*"`): requests from any domain are allowed.
 
 
 #### Image cross-origin (client-side)
