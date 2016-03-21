@@ -180,7 +180,12 @@ Within the `server` key:
 
 Within the `server` key:
 
-* **allowOrigin** - `"*"`. Define the cross-origin resource sharing (CORS) policy. Accept cross-site HTTP/S requests by default (wildcard).
+* **allowOrigin** - `"*"`. Define the cross-origin resource sharing (CORS) policy. Accept cross-site HTTP/S requests by default (wildcard). The value can be:
+  * a string (`"abc.com"`): only requests from "abc.com" domain are allowed.
+  * wildcard-prefixed string (`"*.abc.com"`): request from all subdomains of "abc.com" are allowed.
+  * an array of strings (`["abc.com", "*.def.com"]`): requests from "abc.com" **and** all subdomains of "def.com" are allowed.
+  * `"*"`: requests from any domain are allowed.
+
 
 #### Image cross-origin (client-side)
 
