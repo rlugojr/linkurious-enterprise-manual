@@ -1,6 +1,6 @@
 ##Créer une nouvelle visualisation
 
-###A partir de la barre de recherche rapide Quicksearch 
+###A partir de la barre de recherche rapide  
 
 Nous pouvons commencer à explorer les données et avoir un rapide coup d'œil à un nœud et ses relations par la barre de recherche rapide. La barre de recherche rapide est directement accessible à partir du tableau de bord. Ici, nous chercherons l'entreprise Instagram.
 
@@ -24,6 +24,6 @@ Par exemple, si l'on souhaite chercher l'entreprise Instagram, nous écrivons si
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/Find_Example.png)
 
-Ici, nous avons sélectionné l'entreprise Instagram. Le nœud apparait dans la zone de graphique. 
+Ici, nous avons sélectionné l'entreprise Instagram. Le nœud apparait dans la zone du graphe. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/first-visualization/1st Visualization.png)
