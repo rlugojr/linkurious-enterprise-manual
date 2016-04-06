@@ -1,6 +1,6 @@
 ## Recherche avancée
 
-Vous êtes à la recherche d'un noeud ou d'un lien spécifique et la barre de recherche vous donne trop de résultats? Le texte que vous recherchez est trop commun! Vous souhaiteriez peut-être affiner votre recherche en cherchant à l'aide de plusieurs propriétés?
+Vous êtes à la recherche d'un noeud ou d'un lien spécifique et la barre de recherche vous donne trop de résultats? Le texte que vous recherchez est trop commun! Vous devriez peut-être affiner votre recherche en cherchant à l'aide de plusieurs propriétés.
 
 Si l'on recherche une Startup qui a le texte ```facebook``` dans une de ses propriétés, nous obtenons 88 résultats. Essayons d'affiner notre recherche.
 
@@ -15,7 +15,7 @@ Nous pouvons voir le nom de différentes catégories (city, company, investor an
 
 Nous cliquons sur ```Options``` pour voir le nom des différentes propriétés de notre graphe.
 
-Dans notre graphe, Facebook est catégorisé comme une ```Compagnie```. Nous allons sélectionner ```Company``` pour restreindre notre recherche aux noeuds de compagnies. 
+Dans notre graphe, Facebook est catégorisé comme une ```Company```. Nous allons sélectionner ```Company``` pour restreindre notre recherche aux noeuds de compagnies. 
 
 Nous pouvons voir les différents résultats.
 
@@ -33,7 +33,7 @@ Maintenant si nous tapons ``facebook``, les résultats seront filtrés de maniè
 
 Nous pouvons voir les résultats filtrés et choisir celui qui nous intéresse.
 
-La même approche peut-être utilisé pour la recherche de liens.
+La même approche peut-être utilisée pour la recherche de liens.
 
 
 > Linkurious Enterprise recherchera une correspondance **exacte** pour la valeur que vous entrez dans le menu d'options de recherche. 
