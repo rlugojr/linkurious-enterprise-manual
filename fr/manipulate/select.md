@@ -14,7 +14,7 @@ Vous avez maintenant plusieurs options:
 * ```Select leaf nodes``` : sélectionne les noeuds de la visualisation qui n'ont qu'un seul lien ;
 * ```Select isolates``` : sélectionne les noeuds de la visualisation qui n'ont pas de liens (aucune relation);
 * ```Select all relationships``` : sélectionne tous les liens de l'actuelle visualisation ;
-* ```Toggle lasso``` : sélection manuelle des noeuds qui nous intéressese
+* ```Toggle lasso``` : sélection manuelle des noeuds qui nous intéressesent
 * ```Select all edges```
 * ```Inverse selection``` : inverser la sélection actuelle.
 
