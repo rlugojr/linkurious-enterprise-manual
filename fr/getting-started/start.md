@@ -4,7 +4,7 @@ Avant de démarrer Linkurious, lancez d'abord votre serveur Neo4j et configurez-
 
 ### Démarrer sous un système Linux
 
-Démarrer Linkurious: démarrez `start.sh`. Autre possiilité, démarrez `menu.sh` et sélectionnez  `Start Linkurious processes` à partir de la console.
+Démarrer Linkurious: exécutez  `start.sh`. Autre possiilité, exécutez  `menu.sh` et sélectionnez  `Start Linkurious processes` à partir de la console.
 
 **Exemple de résultat:**
 ```Text
@@ -30,13 +30,13 @@ info: Status [DataService] 201 : A data-source is currently indexing.
 Linkurious is ready at URL: http://127.0.0.1:3000/
 ```
 
-Comme vous pouvez le remaquer, le serveur Linkurious est disponible par défaut sur le port  3000. Cependant, certains pares-feu bloquent le trafic réseau pour des ports autres que 80 (HTTP). Voir la section Configurer pour accepter le trafic sur un port 80.
+Comme vous pouvez le remarquer, le serveur Linkurious est disponible par défaut sur le port  3000. Cependant, certains pare-feux bloquent le trafic réseau pour des ports autres que 80 (HTTP). Voir la section Configurer pour accepter le trafic sur le port 80.
 
 
 ### Démarrer sous MAC OS X
 
 
-Démarrer Linkurious: démarrez`start.sh.command`. Autre possiilité, démarrez`menu.sh.command` et sélectionnez `Start Linkurious processes` à partir de la console.
+Démarrer Linkurious: démarrez`start.sh.command`. Autre possiilité, exécutez `menu.sh.command` et sélectionnez `Start Linkurious processes` à partir de la console.
 
 **Exemple de résultat:** 
 ```Text
@@ -70,7 +70,7 @@ Premièrement, afin d'utiliser Linkurious vous avez besoin de [démarrer Neo4j](
 
 [démarrer neo4j](Launching-neo4j.png)
 
-Une fois que le serveur Neo4j a démarré, allez dans le dossier Linkurious.
+Une fois que le serveur Neo4j a démarré, allez dans le dossier de Linkurious.
 
 ![Dossier](Folder.png)
 
@@ -79,10 +79,10 @@ Cliquez sur le fichier `start.bat`. Linkurious démarre et vous invite à ouvrir
 ![Démarrage de linkurious enterprise](Startup.png)
 
 <div class="alert alert-warning">
-    <i class="octicon octicon-stop"></i> Le pare-feu de Windows peut vous demander d'autoriser les connections avec Linkurious, dans ce cas cliquer sur Autoriser l'accès.
+    <i class="octicon octicon-stop"></i> Le pare-feu de Windows peut vous demander d'autoriser les connections avec Linkurious, dans ce cas cliquez sur Autoriser l'accès.
 </div>
 
-Linkurious indexera la base de données de graphes la première fois que vous le démarrerez. Vous pouvez suivre la progression de l'indexation dans le terminal. Une fois terminée, vous pouvez utiliser Linkurious.
+Linkurious indexera la base de données de graphe au premier démarrage. Vous pouvez suivre la progression de l'indexation dans le terminal. Une fois terminée, vous pouvez utiliser Linkurious.
 
 
 
