@@ -1,12 +1,12 @@
-## Développer les noeuds
+## Déployer les noeuds
 
-Développer un noeud signifie montrer les noeuds qui sont connectés à ce noeud ou à un groupe de noeuds.
+Déployer un noeud signifie montrer les noeuds qui sont connectés à ce noeud ou à un groupe de noeuds.
 
-Nous pouvons développer des noeuds de différentes manières:
+Nous pouvons déployer des noeuds de différentes manières:
 
-* double clique sur un noeud dans la visualisation
+* double clic sur un noeud dans la visualisation
 * sélectionner un ou plusieurs noeuds et cliquer sur le bouton ```Expand``` du panneau de gauche
-* clique droit sur le noeud dans la visualisation, puis cliquer sur ```Expand``` 
+* clic droit sur le noeud dans la visualisation, puis cliquer sur ```Expand``` 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Option.png)
 
@@ -14,9 +14,9 @@ Le bouton ``Expand``` sur le panneau de gauche fournit la liste des types de lie
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Propositions.png)
 
-Si le noeud développé a trop de voisins, nous allons cependant aboutir à une visualisation invisible.
+Si le noeud déployé a trop de voisins, nous allons cependant aboutir à une visualisation illisible.
 
-Linkurious nous évite d'afficher trop de voisins à la fois en nous demandant de filtrer le voisinage extrait. Une fenêtre pop-up va alors apparaître pour sélectionner un type de lien spécifique, une catégorie de noeuds  et changer le nombre maximal de voisins affichés. Nous pouvons également surmonter cette limite manuellement. 
+Linkurious nous évite d'afficher trop de voisins à la fois en nous demandant de filtrer le voisinage extrait. Une fenêtre pop-up va alors apparaître pour sélectionner un type de lien spécifique, une catégorie de noeuds  et changer le nombre maximal de voisins affichés. Nous pouvons également dépasser cette limite manuellement. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/TooMany.png)
 
