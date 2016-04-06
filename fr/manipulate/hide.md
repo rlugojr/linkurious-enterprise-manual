@@ -1,13 +1,13 @@
 ## Cacher des noeuds et des liens
 
-Votre visualisation devient trop complexe et vous désirez peut-être supprimer de votre visualiation quelques noeuds ou liens pour permettre une meilleure lecture. 
+Votre visualisation devient trop complexe et vous désirez peut-être enlever de votre visualiation quelques noeuds ou liens pour permettre une meilleure lecture. 
 Notez que les noeuds et liens cachés ne sont pas supprimés de la base de données.
 
-Par exemple, dans la figure ci-dessous j'ai sélectionné 3 noeuds. Je dois simplement cliquer sur ```Hide```pour les supprimer de la visualisation.
+Par exemple, dans la figure ci-dessous j'ai sélectionné 3 noeuds. Je dois simplement cliquer sur ```Hide```pour les enlever de la visualisation.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/toHide.png)
 
-Mes trois noeuds sont supprimés de la visualisation.
+Mes trois noeuds sont enlevés de la visualisation.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Hidden.png)
 
