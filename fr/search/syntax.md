@@ -20,7 +20,7 @@ Où le champ "title" a quelconque valeur nulle: ```_exists_:title```
 
 ### Rangs
 
-Des rangs peuvent être spécifiés pour des dates ou des champs numériques et/ou vides. Les rangs inclusifs sont spécifiés avec des crochets [min A max] et les rangs exclusifs avec des accolades {min A max}.
+Des rangs peuvent être spécifiés pour des dates ou des champs numériques et/ou vides. Les rangs inclusifs sont spécifiés avec des crochets [min to max] et les rangs exclusifs avec des accolades {min to max}.
 
 Où le champ  "date"  a une valeur en 2012: ```date:[2012-01-01 TO 2012-12-31]```
 
@@ -46,9 +46,9 @@ Les opérateurs préférés sont  ```+``` (ce terme doit être présent) et ```-
 
 Utilisez l'opérateur boost ```^``` pour rendre un terme plus pertinent que l'autre. Par exemple, si nous voulons trouver tous les documents sur les renards mais que nous sommes plus particulièrement intéressés par les renards rapides: ```quick^2 fox```
 
-La valeur par défaut du boost est 1 mais ce peut-être toute valeur flottante positive. Les boots entre 0 et 1 réduisent la pertinence.
+La valeur par défaut du boost est 1 mais ce peut-être toute valeur flottante positive. Les boosts entre 0 et 1 réduisent la pertinence.
 
-Les Boosts peuvent aussi être apppliqués à des phrases ou à des groupes: ```"john smith"^2 (foo bar)^4```
+Les Boosts peuvent aussi être appliqués à des phrases ou à des groupes: ```"john smith"^2 (foo bar)^4```
 
 ### Grouper
 
