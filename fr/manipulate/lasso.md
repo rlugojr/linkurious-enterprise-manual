@@ -1,10 +1,10 @@
 ## Utiliser le Lasso
 
-Il est possible de sélectionner les noeuds d'une zone particulière de notre visualisation. Pour celà, Linkurious Enterprise fournit un lasso.
+Il est possible de sélectionner les noeuds d'une zone particulière de notre visualisation. Pour cela, Linkurious Enterprise fournit un lasso.
 
 Pour utiliser le lasso, choisir ```Select``` dans le panneau d'informations à gauche.
 Sélectionner ```Toggle lasso```.
-Bougez le lasso autour des noeuds que vous êtes intéressé à selectionner.
+Bougez le lasso autour des noeuds que vous que vous voulez sélectionner.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/Lasso.png)
 
