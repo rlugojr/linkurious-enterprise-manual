@@ -17,7 +17,7 @@ Les données de la visualisation peuvent être exportées dans les formats suiva
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Format.png)
 
-Après avoir cliqué sur un format, le fichier est automatiquement téléchargé par le moteur de recherche.
+Après avoir cliqué sur un format, le fichier est automatiquement téléchargé par le navigateur web.
 
 L'exportation sous format PNG disponible ici créera une image du graphe complet même si nous sommes actuellement en train de zoomer sur une zone spécifique. Ici un exemple:
 
