@@ -12,6 +12,6 @@ Pour supprimer le filtre ```country``` nous cliquons sur la croix à côté de l
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/R2.png)
 
-Le filtre est instantanément retiré. Les noeuds alors cachés sont de nouveau ajoutés à la visualisation. Les autres filtres restent actifs. 
+Le filtre est instantanément retiré. Les noeuds alors cachés sont de nouveau affichés dans la visualisation. Les autres filtres restent actifs. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/filter/R3.png)
