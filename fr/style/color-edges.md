@@ -4,7 +4,7 @@ Colorer les liens fonctionne exactement de la même manière que colorer les noe
 
 Si tous les liens ont la même couleur, il est difficile de distinguer des différences entre eux sans se pencher sur leurs propriétés individuelles. Une manière simple de contourner ce problème est de choisir de colorer les liens selon une propriété particulière.
 
-Avant tout, ouvrons le design panel dans le coin droit de l'écran et sélectionnons l'onglet ```Design```.Nous pouvons voir toutes les propriétés associées aux liens en cliquant sur l'onglet ```edges``` en bas.
+Avant tout, ouvrons le panneau Design dans le coin droit de l'écran et sélectionnons l'onglet ```Design```.Nous pouvons voir toutes les propriétés associées aux liens en cliquant sur l'onglet ```edges``` en bas.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/NoColors.png)
 
