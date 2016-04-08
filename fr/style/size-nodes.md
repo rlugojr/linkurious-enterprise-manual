@@ -4,7 +4,7 @@ Par défaut, tous les noeuds ont la même taille. Il est possible cependant de d
 
 Cette technique s'applique seulement à des propriétés quantitatives.
 
-Dimensionner les noeuds fonctionne de la même manière que la fonctionnalité Colorer un noeud de Linkurious Enterprise. Les options Colorer et Dimensionner peuvent êtres combinées pour obtenir des visualisations plus pertinentes. 
+Dimensionner les noeuds fonctionne de la même manière que la fonctionnalité Colorer un noeud de Linkurious Enterprise. Les options Colorer et Dimensionner peuvent être combinées pour obtenir des visualisations plus pertinentes. 
 
 Par exemple [Andreessen Horowitz](http://a16z.com/) est une entreprise leader avec 127 relations à différentes compagnies qu'elle a financé. Quelles compagnies ont reçues les fonds les plus importants? Il est difficile de le savoir en regardant simplement le graphe.
 
@@ -12,7 +12,7 @@ Par exemple [Andreessen Horowitz](http://a16z.com/) est une entreprise leader av
 
 Nous allons dimensionner les différentes compagnies selon leur propriété ```funding_total``` afin de savoir qui a le plus de succès. 
 
-Nous cliquons dans le coin en haut à droite de l'écran pour ouvrir le design panel.
+Nous cliquons dans le coin en haut à droite de l'écran pour ouvrir le panneau Design.
 
 
 Nous déplaçons la souris sur ```funding_total```. En plus de pouvoir colorer les noeuds selon cette propriété, il est également possible de les dimensionner. Linkurious Enterprise peut faire ça pour toutes les propriétés ayant des valeurs numériques.
