@@ -1,11 +1,11 @@
-## Supprimer des noeuds et des liens
+## Cacher des noeuds et des liens
 
-###Supprimer un noeud
+### Cacher un noeud
 
 
-Si nous souhaitons supprimer un noeud de notre visualisation, nous sélectionnons le noeud que nous souhaitons supprimer en cliquant dessus puis deux options sont possibles:
+Si nous souhaitons cacher un noeud de notre visualisation, nous sélectionnons le noeud que nous souhaitons cacher en cliquant dessus puis deux options sont possibles:
 
-- Cliquer sur ```Hide``` dans le menu à gauche comme montrer ci-dessous
+- Cliquer sur ```Hide``` dans le menu à gauche comme montré ci-dessous
 - Utiliser un clic droit, le bouton ```Hide``` est alors également disponible
 
 
@@ -14,9 +14,9 @@ Si nous souhaitons supprimer un noeud de notre visualisation, nous sélectionnon
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/X2.png)
 
 
-###Supprimer un lien
+### Cacher un lien
 
-Si nous souhaitons supprimer un lien de notre visualisation, nous sélectionnons le lien que nous souhaitons supprimer en cliquant dessus puis deux options sont possibles:
+Si nous souhaitons cacher un lien de notre visualisation, nous sélectionnons le lien que nous souhaitons cacher en cliquant dessus puis deux options sont possibles:
 
 
 - Cliquer sur ```Hide``` dans le menu à gauche comme montrer ci-dessous
