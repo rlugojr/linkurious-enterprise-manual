@@ -44,4 +44,4 @@ Nous pouvons voir dans notre graphe notre nouveau noeud et notre nouveau lien.
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A8.png)
 
 
-Il est possible de créer un nouveau lien entre deux noeuds en sélectionnant ces deux noeuds, faitez un clic droit sur le fond de la visualisation et un menu est apparaît, puis choisissez ```Create a new edge```. Le noeud d'origine et le noeud cible sont alors mentionnés. 
+Il est possible de créer un nouveau lien entre deux noeuds en sélectionnant ces deux noeuds, faites un clic droit sur le fond de la visualisation et un menu apparaît, puis choisissez ```Create a new edge```. Le noeud d'origine et le noeud cible sont alors mentionnés. 
