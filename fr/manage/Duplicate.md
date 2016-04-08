@@ -1,6 +1,6 @@
 # Dupliquer
 
-Il est possible de dupliquer une visualisation. Cette option peut-être utile lorsque nous souhaitons essayer de nouvelles choses sur notre visualisation et garder une sauvegarde de la dernière version. De cette manière, le duplicat est utilisé comme brouillon.
+Il est possible de dupliquer une visualisation. Cette option peut-être utile lorsque nous souhaitons essayer de nouvelles choses sur notre visualisation et garder une sauvegarde de la dernière version. De cette manière, la copie est utilisé comme brouillon.
 
 ## A partir du tableau de bord
 
@@ -9,7 +9,7 @@ Il est possible de dupliquer une visualisation sauvegardée à partir du tableau
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/F_D.png)
 
 
-Puis nous cliquons sur  ```Duplicate```. Une copie de notre visualisation est créée et directecment accessible à partir du tableau de bord. 
+Puis nous cliquons sur  ```Duplicate```. Une copie de notre visualisation est créée et directement accessible à partir du tableau de bord. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Duplicated.png)
 
@@ -19,9 +19,9 @@ Il est aussi possible de dupliquer une visualisation sauvegardée à partir de l
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/F_W.png)
 
-Le duplicat est alors accessible à partir du tableau de bord.
+La copie est alors accessible à partir du tableau de bord.
 
-Notez que lorsque vous dupliquez à partir de l'espace de travail, vous êtes directement redirigé vers le duplicat afin de travailler dessus.
+Notez que lorsque vous dupliquez à partir de l'espace de travail, vous êtes directement redirigé vers la copie afin de travailler dessus.
 
 <div class="alert alert-info">
     Il est possible de dupliquer une visualisation qu'un autre utilisateur a partagé avec vous.
