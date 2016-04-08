@@ -15,7 +15,7 @@ Soit:
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/DeleteDashboard.png)
 
 
-* Clique droit sur une visualisation pour ouvrir le menu contextuel puis cliquer sur ```Delete```.
+* Clic droit sur une visualisation pour ouvrir le menu contextuel puis cliquer sur ```Delete```.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/DeleteRight.png)
 
