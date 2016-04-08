@@ -27,5 +27,5 @@ L'export sous format PNG est configurable: paramétrer le niveau de zoom de la v
 
 
 <div class="alert alert-info">
-   Ce paramètre est différent du bouton ```Take Screenshot``` disponible par clique droit sur  l'espace de travail ou dans les actions du menu. Les captures d'écran crées une image de la zone d'écran disponible!
+   Ce paramètre est différent du bouton ```Take Screenshot``` disponible par clic droit sur  l'espace de travail ou dans les actions du menu. Cette action créé des images de la zone du graphe visible à l'écran.
 </div>
