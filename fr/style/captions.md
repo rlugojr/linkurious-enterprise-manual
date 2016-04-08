@@ -2,7 +2,7 @@
 
 Linkurious Enterprise vous laisse choisir quelles propriétés de vos noeuds et liens seront affichées dans le canevas. 
 
-Dans l'exemple ci-dessous, seuls les ```noms``` des noeuds sont affichés par Linkurious Enterprise. Pour personnaliser celà, nous avons besoin d'ouvrir le ```design panel``` à droite.
+Dans l'exemple ci-dessous, seuls les ```noms``` des noeuds sont affichés par Linkurious Enterprise. Pour personnaliser cela, nous avons besoin d'ouvrir le ```panneau de Design``` à droite.
 
 Dans l'onglet ```Captions```, nous pouvons voir les différentes propriétés des noeuds de notre graphe. La propriété ```name``` est la première. En bas de l'écran, il est possible de sélectionner les relations (edges, encadré rouge).
 
