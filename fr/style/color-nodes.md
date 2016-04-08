@@ -11,13 +11,13 @@ Dans l'image ce-dessous, nous pouvons voir que la start-up Twitter est connecté
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/SinColor.png)
 
 
-Premièrement, ouvrons le design panel dans le coin à droite de l'écran et sélectionnons l'onglet ```Design```. Nous pouvons alors voir toutes les propriétés des noeuds. Nous cliquons sur ```color```à côté d'une propriété pour colorer les noeuds selon cette propriété. 
+Premièrement, ouvrons le panneau Design dans le coin à droite de l'écran et sélectionnons l'onglet ```Design```. Nous pouvons alors voir toutes les propriétés des noeuds. Nous cliquons sur ```color```à côté d'une propriété pour colorer les noeuds selon cette propriété. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/Colors.png)
 
 Nous pouvons voir:
 * les différentes valeurs associées à la propriété ```country``` (JPN, RUS, USA);
-* le nombre d'occurence de chacune des valeurs (il y a 20 noeuds ayant la valeur ```USA```);
+* le nombre d'occurences de chacune des valeurs (il y a 20 noeuds ayant la valeur ```USA```);
 * quelle couleur est associée à quelle valeur (```USA``` est en vert)
 
 Notez que les noeuds n'ayant pas la propriété ```country``` restent en gris. 
