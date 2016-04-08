@@ -1,6 +1,6 @@
 ## Partager
 
-Il est possible de partager une visualisation avec un autre utilisateur Linkurious Enterprise. Les personnes avec qui vous partagez une visualisation pourrons alors y accèder par l'interface.
+Il est possible de partager une visualisation avec un autre utilisateur de Linkurious Enterprise. Les personnes avec qui vous partagez une visualisation pourrons alors y accèder par l'interface.
 Si nous faisons un clic-droit sur la visualisation, nous pouvons la partager de cette manière:
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Share_Option.png)
