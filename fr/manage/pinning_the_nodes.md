@@ -6,11 +6,11 @@ Pour épingler nous pouvons soit cliquer sur le bouton ```Pin``` dans le panneau
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/to_pin.png)
 
-Le symbole d'une épingle apparait sur le noeud. 
+Le symbole d'une épingle apparaît sur le noeud. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/Pinned.png)
 
-Si nous épinglons un noeud il restera à la même place lorsque nous déplaçons le reste du graphe, par exemple en utilisant l'option arrangement dirigé par force (Voir Manipuler):
+Si nous épinglons un noeud il restera à la même place lorsque nous déplaçons le reste du graphe, par exemple en utilisant l'option de placement basé sur les forces (Voir Manipuler):
 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manage/LayutPin.png)
