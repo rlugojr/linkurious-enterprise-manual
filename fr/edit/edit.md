@@ -1,6 +1,6 @@
 ## Editer les propriétés et les catégories
 
-Les propriétés sont des valeurs clés des informations stockées dans les noeuds et les liens. Il peut s'agir du nom d'une compagnie par exemple. Les catégories sont des informations spécifiques permettant d'étiqueter les noeuds et les liens. Un noeud peut être de la catégorie Investisseur (investor) ou Compagnie (company), ou les deux.
+Les propriétés sont des informations ayant la forme de clé-valeur stockées dans les noeuds et les liens. Il peut s'agir du nom d'une compagnie par exemple. Les catégories sont des informations spécifiques permettant d'étiqueter les noeuds et les liens. Un noeud peut être de la catégorie Investisseur (investor) ou Compagnie (company), ou les deux.
 
 
 <div class="alert alert-info">
@@ -35,7 +35,7 @@ Il est possible d'ajouter ou de supprimer une catégorie d'un noeud.
 
 Cliquez sur le symbole ```x``` à côté de la catégorie pour la supprimer. 
 
-Pour ajouter une catégorie, nous cliquons sur ```+```. Par exemple, nous pourrions être intéressé à ajouter dans notre graphe l'activité des investisseurs. 
+Pour ajouter une catégorie, nous cliquons sur ```+```. Par exemple, nous pourrions vouloir ajouter dans notre graphe l'activité des investisseurs. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E6.png)
 
