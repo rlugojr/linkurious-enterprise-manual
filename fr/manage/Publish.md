@@ -1,6 +1,6 @@
 # Publier
 
-Linkurious Enterprise offre la possibilité de publier des visualisations interactives en ligne. Les visualisations publiées peuvent être accessibles par un URL ou intégrée dans une page web. Elles contiennent une capture d'écran des données d'un gaphe au moment où la visualisation est publiée. L'auteur de la visualisation peut dépublier la visualisation à n'importe quel moment. Quiconque peut explorer cette visualisation intéractive, permettant une collaboration aisée autour des données du graphe. 
+Linkurious Enterprise offre la possibilité de publier des visualisations interactives en ligne. Les visualisations publiées peuvent être accessibles par une URL ou intégrée dans une page web. Elles contiennent une capture d'écran des données du gaphe au moment où la visualisation est publiée. L'auteur de la visualisation peut dépublier la visualisation à n'importe quel moment. Tout le monde peut explorer cette visualisation interactive, permettant une collaboration aisée autour des données du graphe. 
 
 Nous pouvons publier une visualisation à partir de l'espace de travail en passant par le menu de gauche:
 
@@ -19,14 +19,14 @@ Les options sont:
 - Zoom: pour zoomer et dézoomer;
 
 
-Dans la capture d'écran ci-dessous, nous avons désactivé l'option légende et l'option de partage. Nous pouvons voir que le bouton ```Share button``` à droite de l'écran a disparu. Finallement, nous pouvons la publier: 
+Dans la capture d'écran ci-dessous, nous avons désactivé l'option légende et l'option de partage. Nous pouvons voir que le bouton ```Share``` à droite de l'écran a disparu. Finallement, nous pouvons la publier: 
 
 ![](../../en/manage/Done.png)
 
 
-La visualisation est maintenant disponible en ligne. Nous pouvons partager le lien ou l'intégrer dans une page internet en ajoutant le lien de la page dans le code source de la page internet.
+La visualisation est maintenant disponible en ligne. Nous pouvons partager le lien ou l'intégrer dans une page web en ajoutant le lien de la page dans le code source de la page internet.
 
 
 <div class="alert alert-info">
-    Si le serveur qui acceuille Linkurious Enterprise est seulement accessible par intranet, la publication sera accessible seulement au sein de l'organisation et non à l'extérieur. 
+    Si le serveur qui héberge Linkurious Enterprise est seulement accessible par intranet, la publication sera accessible seulement au sein de l'organisation et non à l'extérieur. 
 </div>
