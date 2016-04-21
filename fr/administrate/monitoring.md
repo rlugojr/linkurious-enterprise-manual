@@ -1,33 +1,33 @@
 ## Contrôle
 
-### Contrôle du processus
+### Contrôle des processus
 
 Linkurious démarre 3 processus différents lorsqu'il est lancé:
 1. `node` (or `node.exe`): Le processus interne gestionnaire ( gestionnaire [PM2](https://github.com/Unitech/pm2) )  
 2. `node` (or `node.exe`): Le processus du serveur Linkurious
-3. `java` (or `java.exe`): Le serveur d'indexation incorporé [ElasticSearch](https://www.elastic.co/) 
+3. `java` (or `java.exe`): Le serveur d'indexation intégré [ElasticSearch](https://www.elastic.co/) 
 
-Vérifiez si ces processus fonctionnent en ouvrant le menu du répertoire Linkurious (voir ci-dessous de quelle manière pour chaque sytème). Le menu apparaît comme dans les images ci-dessous:
+Vérifiez si ces processus fonctionnent en ouvrant le menu du répertoire Linkurious (voir ci-dessous de quelle manière pour chaque sytème). Le menu apparaît comme dans l'images ci-dessous:
 
 ![menu](../../en/administrate/Menu.png)
 
 #### Linux systems
 
-Démarrez `menu.sh` (le statut est au-dessus du menu). Une alternative est de démarrer `menu.sh status`.
+Démarrez `menu.sh` (le statut est au-dessus du menu). Une alternative est d'exécuter `menu.sh status`.
 
 #### Mac OS X systems
 
-Démarrez `menu.sh.command` (le statut est au-dessus du menu). Une alternative est de démarrer `menu.sh.command status`.
+Démarrez `menu.sh.command` (le statut est au-dessus du menu). Une alternative est d'exécuter `menu.sh.command status`.
 
 #### Windows systems
 
-Démarrez `menu.bat` (le statut est au-dessus du menu). Une alternative est de démarrer `menu.bat status`.
+Démarrez `menu.bat` (le statut est au-dessus du menu). Une alternative est d'exécuter `menu.bat status`.
 
 ### Statuts
 
 #### Application
 
-Le statut de l'application peut être retrouvé en faisant la requête suivante: 
+Le statut de l'application peut être retrouvé en requêtant le serveur Web de la manière suivante: 
 
 > curl http://127.0.0.1:3000/api/status
 
@@ -44,7 +44,7 @@ HTTP/1.1 200 OK
 }
 ```
 
-"code" est le code du statut du serveur (100: minimum, 200: OK, >400: problème), "name" est le nom du statut du serveur actuel, et "message" décrit le statut du serveur actuel. 
+"code" est le code du statut du serveur (100: démarrage, 200: OK, >400: problème), "name" est le nom du statut du serveur actuel, et "message" décrit le statut actuel du serveur. 
 
 #### Data sources
 
