@@ -28,7 +28,6 @@ Nous devons fournir les informations suivantes:
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/A6.png)
 
-![](A6.png)
 
 * ```Type```: le type du lien;
 * ```Source```: le noeud d'origine du lien;
