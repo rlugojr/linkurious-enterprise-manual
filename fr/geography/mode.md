@@ -1,7 +1,7 @@
 # Déployer un map géographique
 
 Le bouton permettant de passer en mode géo est disponible dans le panneau de gauche de l'espace de travail.
-Nous pouvons activer ou désactiver le mode afin de passer de la vue standard à la vue géographique. 
+Nous pouvons activer ou désactiver le mode géo à volonté afin de passer de la vue standard à la vue géographique. 
 
 
 ![](geo-mode-button.png)
