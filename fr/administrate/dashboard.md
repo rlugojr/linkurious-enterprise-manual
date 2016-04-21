@@ -8,4 +8,5 @@ Vous avez maintenant accès au tableau de bord administrateur. Le statut de Link
 
 Le nom de la source de données est mentionnée dans la barre de navigation, avec  sources de données sans noms appelées *"Database #xx"*. Vous pouvez passer à une autre source de données à cet endroit.
 
-![admin-status](../../en/administrate/Admin-status.png)
+
+![admin-status](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/Admin-status.png)
