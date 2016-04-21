@@ -7,7 +7,7 @@ Linkurious démarre 3 processus différents lorsqu'il est lancé:
 2. `node` (or `node.exe`): Le processus du serveur Linkurious
 3. `java` (or `java.exe`): Le serveur d'indexation intégré [ElasticSearch](https://www.elastic.co/) 
 
-Vérifiez si ces processus fonctionnent en ouvrant le menu du répertoire Linkurious (voir ci-dessous de quelle manière pour chaque sytème). Le menu apparaît comme dans l'images ci-dessous:
+Vérifiez si ces processus fonctionnent en ouvrant le menu du répertoire Linkurious (voir ci-dessous de quelle manière pour chaque sytème). Le menu apparaît comme dans l'image ci-dessous:
 
 ![menu](../../en/administrate/Menu.png)
 
