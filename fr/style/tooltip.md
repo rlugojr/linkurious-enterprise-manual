@@ -6,7 +6,7 @@ Lorsque vous faites un clic-droit sur un noeud ou un lien, vous pouvez voir ses 
 
 Nous pouvons voir que notre noeud est une ```Company```avec le lien  ```/organization/instagram```.
 
-Il est possible de personnaliser le contenu del'infobulle et d'afficher seulement certaines propriétés.
+Il est possible de personnaliser le contenu de l'infobulle et d'afficher seulement certaines propriétés.
 
 Pour ce faire, nous devons ouvrir le panneau de Design à droite et cliquer sur l'onglet ```Tooltips``` (cercle vert):
 
