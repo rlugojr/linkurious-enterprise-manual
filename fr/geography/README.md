@@ -1,3 +1,3 @@
-# Geography
+# Géographie
 
-In this chapter, we will learn how to display graph data on a geographic map.
+Dans ce chapitre, nous allons apprendre à déployer un graphe de données dans un map géographique. 
