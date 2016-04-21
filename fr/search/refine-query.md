@@ -9,7 +9,8 @@ Si l'on recherche une Startup qui a le texte ```facebook``` dans une de ses prop
 
 Nous cliquons sur l'icône ```Advanced```, un nouveau menu apparaît: 
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Advanced Search.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Advanced_Search.png)
+
 
 Nous pouvons voir le nom de différentes catégories (city, company, investor and market) dans notre base de données et leur occurence.
 
@@ -19,14 +20,12 @@ Dans notre graphe, Facebook est catégorisé comme une ```Company```. Nous allon
 
 Nous pouvons voir les différents résultats.
 
+![compagnie](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/72.png)
 
-![the company label](72.png)
 
 Dans notre graphe, une ```Compagnie``` peut avoir des proprités telles que ```category ```,  ```country```, ```first_funding_at ``` or ```founded_at``` et plus encore. Tous les noeuds catégorisés comme Compagnie ne vont cependant pas avoir toutes ces propriétés. 
 
 Afin d'affiner nos résultats de recherche, nous allons rechercher plusieurs propriétés à la fois. Pour trouver Facebook, nous allons rechercher une compagnie qui utilise Facebook comme url de site internet.
-
-[](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/MProperties.png)
 
 Maintenant si nous tapons ``facebook``, les résultats seront filtrés de manière à n'afficher que les noeuds ayant pour catégorie ```Company``` et la valeur ``facebook.com`` pour la propriété ```homepage_url```.
 
