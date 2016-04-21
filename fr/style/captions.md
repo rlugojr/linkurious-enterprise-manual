@@ -6,11 +6,12 @@ Dans l'exemple ci-dessous, seuls les ```noms``` des noeuds sont affichés par Li
 
 Dans l'onglet ```Captions```, nous pouvons voir les différentes propriétés des noeuds de notre graphe. La propriété ```name``` est la première. En bas de l'écran, il est possible de sélectionner les relations (edges, encadré rouge).
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/1.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/2.png)
+
 
 Par exemple, nous choisissons de faire apparaître la propriété ```pays``` dans notre visualisation. Pour ce faire, nous cliquons sur ```country```et la propriété sera ajoutée à la liste des propriétés affichées, listées dans la partie pointillée.
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/style/2.png)
+
 
 Le texte affiché à côté du noeud change. A la place de ```Luma.io``` nous avons l'information ```Luma.io - USA```.
 La même approche peut-être utilisée pour personnaliser les informations affichées pour les liens.
