@@ -59,7 +59,9 @@ Dans l'exemple suivant, les noeuds sont colorés selon la catégorie  "COMPANY",
 
 Colorer selon des propriétés quantitatives suit la même logique. Dans l'exemple suivant, les noeuds sont colorés selon une propriété numérique. Les valeurs peuvent être groupés en 7 compartiments, ordonnés des plus petites aux plus larges valeurs. 
 
-![Echelle de couleur](Color-scale.png)
+![Echelle de couleur](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/getting-started/Color-scale.png)
+
+
 
 **Exemple pour des propriétés quantitatives :**
 ```json
@@ -90,7 +92,10 @@ Soyez vigilants à ne jamais supprimer `linkurious_def` ou `sequential` car ils 
 
 Nous recommandons de choisir des couleurs de  [la palette ColorBrewer ](https://github.com/Linkurious/linkurious.js/blob/develop/plugins/sigma.plugins.colorbrewer/sigma.plugins.colorbrewer.js), qui fournit des jeux de couleurs bien distinctes (voir ci-dessous) 
 
-![color-brewer](Color-brewer.png)
+![Color-brewer](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/getting-started/Color-brewer.png)
+
+
+
 
 Vous pouvez également créer une échelle de couleurs pertinente pour des données qualitatives à l'adresse   http://gka.github.io/palettes/ .
 
