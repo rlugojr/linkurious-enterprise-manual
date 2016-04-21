@@ -12,7 +12,9 @@ Par défaut, l'authentification des utilisateurs est désactivée et toutes les 
 
 Créons un compte Administrateur. Cliquez sur **Users** dans le tableau de bord administrateur et sélectionnez **Users** dans le menu **Admin** de la barre de navigation. Une fois le tableau de bord de gestion des utilisateurs ouvert, cliquez sur **Add** à côté de "No Users". Le formulaire de création d'ultilisateurs apparaît:
 
-![user-creation-form](../../en/administrate/User-creation-form.png)
+![user-creation-form](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/User-creation-form.png)
+
+
 
 Remplissez tous les champs et ajoutez le groupe `admin`  dans le champ Groupes pour offrir des droits d'administration au nouvel utilisateur. Une fois terminé, cliquez sur **Save**.
 
@@ -26,6 +28,7 @@ Nous avons créé notre premier administrateur. Maintenant, il est temps de perm
 
 L'authentification d'utilisateurs est maintenant activée. Actualisez l'interface de l'application web pour afficher la page d'authentification
 
-![login](../../en/administrate/Login.png)
+![login](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/administrate/Login.png)
+
 
 Entrez le nom ou l'adresse mail et le mot de passe de l'administrateur pour vous connecter à Linkurious Enterprise.
