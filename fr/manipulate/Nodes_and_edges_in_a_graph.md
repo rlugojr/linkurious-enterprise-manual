@@ -2,7 +2,8 @@
 
 Lorsque nous travaillons sur une visualisation, tous les noeuds et liens présents dans notre graphe sont listés dans la barre de gauche de notre espace de travail.
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/View.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/manipulate/ListofNodes.png)
+
 
 Nous pouvons alors explorer soit les noeuds, soit les liens de notre graphe en parcourant la ```liste```:
 
