@@ -1,7 +1,7 @@
-# Geographic data
+# Données géographiques
 
-Nodes must contain geographic coordinates as properties. Latitude and longitude data must be expressed in decimal degrees (e.g. "38.8897,-77.0089") as available in many geographic information systems (GIS).
+Les noeuds doivent avoir des coordonnées géographiques comme propriétés. Les latitutes et longitudes doivent être exprimées en degrés décimaux (exemple: "38.8897,-77.0089") comme généralement donnés par des systèmes d'information géographique (GIS).
 
-The Administator should configure which property is the **latitude property**, and which property is the **longitude property** of the nodes of the datasource. Without configuration, Linkurious will try to use properties called "latitude" or "lat", and "longitude", "long" or "lng".
+L'administrateur devra configurer quelle propriété correspond à la **latitude property**, et quelle propriété correspond à la **longitude property** dans les noeuds des donneées sources. Sans configuration, Linkurious essaiera d'utiliser les propriétés nommées "latitude" ou "lat", et "longitude", "long" ou "lng".
 
-When geographic coordinates exist in a node of the visualization, we can switch to the **geo mode**.
+Lorsque les coordonnées géographiques existent dans un noeud de la visualisation, nous pouvons passer en mode  **geo mode**.
