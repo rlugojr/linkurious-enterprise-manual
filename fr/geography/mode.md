@@ -1,16 +1,16 @@
-# Display on a geographic map
+# Déployer un map géographique
 
-The geo mode switch is available on the left panel of the Workspace. 
-We can enable and disable the geo mode at will to switch between the standard "network" view and the geographic view.
+Le bouton permettant de passer en mode géo est disponible dans le panneau de gauche de l'espace de travail.
+Nous pouvons activer ou désactiver le mode afin de passer de la vue standard a la vue géographique. 
 
 
 ![](geo-mode-button.png)
 
-Click on it to display the geographical map. Nodes are positionned on the map according to their geographic coordinates. Other nodes are hidden by the "geo coordinates" filter.
+Cliquer sur le bouton pour déployer le map géographique. Les noeuds sont positionnés sur le map selon leur coordonnées géographiques. Les autres noeuds sont cachés grâce au filtre "coordonnées géographiques".
 
 ![](geo-mode-enabled.png)
 
-We can zoom in and out, drag nodes on the map to improve readability, select nodes and edges, etc. We can always reset the node coordinates to their original location via the actions menu:
+Nous pouvons zoomer et dezoomer, déplacer les noeuds sur le map afin d'améliorer la lisibilité, sélectionner des noeuds et des liens, etc. Il est toujours possible de repositionner les noeuds à leur location d'origine via le menu d'actions:
 
 ![](reset-geo-coordinates.png)
 
