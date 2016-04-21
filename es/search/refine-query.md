@@ -9,7 +9,8 @@ Si buscamos una Start-up que tenga el texto ```facebook``` en cualquiera de sus 
 
 Hacemos clic en el icono ```Advanced``` y aparece un nuevo menú:
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Advanced_Search.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/search/Advanced_Search.png
+
 
 Podemos ver el nombre de las diferentes categorías (city: ciudad, company: empresa, investor: inversor y market: mercado) en nuestra base de datos y sus apariciones.
 Hacemos clic en ```Options``` para ver el nombre de las diferentes propiedades en nuestro grafo.
