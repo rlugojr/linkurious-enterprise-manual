@@ -31,37 +31,37 @@ Les sources de données sont configurées dans la clé **dataSources** qui est u
 * **name** (optionnel) - Un nom lisible (human-readable name).
 * **graphdb** - Le serveur de base de données de graphes auquel se connecter 
     * **vendor** - `"neo4j"`. Seuls les serveurs Neo4j sont supportés
-    * **url** - `"http://127.0.0.1:7474/"`. Linkurious appelera l'API REST de Neo4j à cette addresse.
-    * **writeURL** (optionnel) - Si fournit, Linkurious enverra les requêtes d'écriture à la base de données de graphes à cet endroit et les requêtes de lecture à son **url**.
-    * **user** (optionnel) - L'identifiant si l'authentification est activée sur le serveur de la base de données de graphes. 
-    * **password** (optionel) - Le mot de passe si l'authentification est activée sur le serveur de la base de données de graphes.
+    * **url** - `"http://127.0.0.1:7474/"`. Linkurious appelera l'API REST de Neo4j à cette adresse.
+    * **writeURL** (optionnel) - Si fourni, Linkurious enverra les requêtes d'écriture à la base de données de graphes à cet endroit et les requêtes de lecture à son **url**.
+    * **user** (optionnel) - L'identifiant utilisateur si l'authentification est activée sur le serveur de la base de données de graphes. 
+    * **password** (optionnel) - Le mot de passe utilisateur si l'authentification est activée sur le serveur de la base de données de graphes.
 * **index** - Le moteur de recherche.
     * **vendor** - `"elasticSearch"`. Seuls les serveurs d'ElasticSearch sont supportés.
     * **host** - `"127.0.0.1"` pour utiliser l'index embarqué. Vous pouvez spécifier l'hôte de votre propre serveur ElasticSearch.
     * **port** - `9201` pour utiliser l'index e. Vous pouvez spécifier le port de votre propre serveur ElasticSearch.. 
-    * **forceReindex** - `false`. Linkurious ré-indexera toujours la base de données de graphes au démarrage si `true`, sinon les Administrateurs devront le déclencher à partir tableau de bord d'Administration (voir le chapitre Gestion).
+    * **forceReindex** - `false`. Linkurious ré-indexera toujours la base de données de graphes au démarrage si `true`, sinon les Administrateurs devront le déclencher à partir du tableau de bord d'Administration (voir le chapitre Gestion).
 
-Les réglages suivants s'appliquent à toutes les sources de données. Ils sont disponibles dans la clé menu **allSources**.
+Les réglages suivants s'appliquent à toutes les sources de données. Ils sont disponibles dans la clé **allSources**.
 
 Paramètres généraux:
 
-* **connectionRetries** - `10`. Le nombre de connexions maximales tentées au moteur de recherche pour chaque soure de données et avant de les considérer comme déconnectées. 
+* **connectionRetries** - `10`. Le nombre de connexions maximales tentées vers le moteur de recherche pour chaque source de données et avant de les considérer comme déconnectées. 
 * **pollInterval** - `10`. Vérifie si la source de données et le moteur de recherche sont connectés à chaque intervalle (en secondes).
 
 Paramètres du moteur de recherche:
 
-* **indexationChunkSize** - `5000`. Le nombre de noeuds et de liens récupérés à chaque paquet durant l'indexation de la base de données de graphes 
+* **indexationChunkSize** - `5000`. Le nombre de noeuds et de liens récupérés à chaque appel durant l'indexation de la base de données de graphes 
 * **searchAddAllThreshold** - `500`. Le nombre maximal de résultats de recherche que l'utilisateur peut ajouter à une visulisation en une fois. 
 * **searchThreshold** - `3000`. Le nombre maximal de résultats de recherche qui peuvent  être donnés 
 * **minSearchQueryLength** - `3`. Le nombre de caractères nécessaires pour déclencher une recherche. Paramétrez à `1` pour fournir des résultats en direct dès le premier caractère. 
 
 Paramètres d'exploration des graphes:
 
-* **maxPathLength** - `20`. La longueur maximale du chemin le plus court donné par Linkurious. Trouver le chemin le plus court est une opération coûteuse. Paramètrer un petit nombre limitera les ressources utilisées par la source de données pour réaliser cette opération, et retournera des résultats plus rapidement.  
+* **maxPathLength** - `20`. La longueur maximale du chemin le plus court donné par Linkurious. Trouver le chemin le plus court est une opération coûteuse. Paramétrer un petit nombre limitera les ressources utilisées par la source de données pour réaliser cette opération, et retournera des résultats plus rapidement.  
 * **shortestPathsMaxResults** - `10`. Le nombre maximal de chemins les plus courts données.
 * **rawQueryTimeout** - `60000`. Abandonne une requête à la base de données si le temps est dépassé (en secondes) 
-* **defaultFuzziness** - `0.9`. Valeur par défaut pour rechercher vaguement entre 0 et 1. Une valeur de `1` signifie une correspondance exacte avec la requête. 
-* **expandThreshold** - `50`. Lorsque les utilisateurs développent un noeud avec trop de voisins, Linkurious demandera d'affiner la rechercher pour que moins de voisins soit donnés. 
+* **defaultFuzziness** - `0.9`. Valeur par défaut pour effectuer une recherche floue entre 0 et 1. Une valeur de `1` signifie une correspondance exacte avec la requête. 
+* **expandThreshold** - `50`. Lorsque les utilisateurs déploient un noeud avec trop de voisins, Linkurious demandera d'affiner la rechercher pour que moins de voisins soit donnés. 
 
 #### Connexion à un serveur Neo4j
 
@@ -82,7 +82,7 @@ Linkurious s'y connectera au prochain démarrage.
 
 #### Administration des instances Neo4j
 
-Linkurious peut administrer (le démarrage et l'arrêt quand Linkurious démarre et s'arrête) votre serveur Neo4j afin de simplifier vos scripts d'administration. Pour activer cette option (disponible sous Linuc et Mac OSX), il suffit de paramétrer **neo4jPath** dans **allSources** au chemin du répertoire d'origine de Neo4j. Vous aurez alors un nouveau "serveur Neo4j" d'entrée dans le rapport de statut du menu de la console Linkurious (voir le chapitre Gérer>Surveillance).
+Linkurious peut administrer (le démarrage et l'arrêt quand Linkurious démarre et s'arrête) votre serveur Neo4j afin de simplifier vos scripts d'administration. Pour activer cette option (disponible sous Linux et Mac OSX), il suffit de paramétrer **neo4jPath** dans **allSources** au chemin du répertoire d'origine de Neo4j. Vous aurez alors un nouveau "serveur Neo4j" d'entrée dans le rapport de statut du menu de la console Linkurious (voir le chapitre Gérer>Surveillance).
 
 #### Connexion au moteur de recherche
 
