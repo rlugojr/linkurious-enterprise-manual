@@ -84,7 +84,7 @@
 
 
 ### Installer Linkurious en tant que service système
-Afin de démarrer Linkurious automatiquement quand le système démarre, il est possible d'installer Linkurious comme logiciel service sur Linux et Max OSX.
+Afin de démarrer Linkurious automatiquement quand le système démarre, il est possible d'installer Linkurious en tant que service système sur Linux et Max OSX.
 
 
 #### Installer comme logiciel service sous Linux 
