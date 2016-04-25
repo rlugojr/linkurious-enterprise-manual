@@ -1,24 +1,32 @@
-## Remove nodes and edges
+## Delete the nodes and the edges
 
-###Remove a node
-
-If we want to remove a node from our visualization, we select the node we are interested in removing by clicking on it then either:
-
-- Hit the ```Hide``` button on the left panel as below:
-- By a right-click, we also can access to the ```Hide``` button
+### DElete a node
 
 
-![](X1.png)
-![](X2.png)
+If we want to delete a node from our database, we select the node we want to delete and we right clic on the background of our graph. We clic on```Delete selection``` in the menu as shown below then we clic on ```Delete from Database```.
 
-###Remove an edge
+![](Supprimer Noeud.png)![](Supprimer un noeud.png)
 
-If we want to remove an edge from our visualization, we select the edge we are interested in removing by clicking on it then either:
+![](Supprimer un noeud_2.png)
 
-- Hit the ```Hide``` button on the left panel as below:
-- By a right-click, we also can access to the ```Hide``` button
+![](Supprimer un noeud_2.png)
 
-![](Y1.png)
+The node is deleted from the database.
 
-![](Y2.png)
+
+![](Noeud Supprime.png)
+
+
+### Delete an edge 
+
+IF we want to delete an edge from our database, we select the edge we want to delete then we right clic on the background of our graph. We clic on ```Delete selection``` in the menu as shown below then we clic on ```Delete from Database```.
+
+![](Supprimer lien.png)
+![](Supprimer lien.png)
+
+![](AAA.png)
+
+The edge is deleted from the database.
+
+![](Lien Supprime.png)
 

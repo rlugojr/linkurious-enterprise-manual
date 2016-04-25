@@ -1,27 +1,30 @@
-## Cacher des noeuds et des liens
+## Supprimer des noeuds et des liens
 
-### Cacher un noeud
-
-
-Si nous souhaitons cacher un noeud de notre visualisation, nous sélectionnons le noeud que nous souhaitons cacher en cliquant dessus puis deux options sont possibles:
-
-- Cliquer sur ```Hide``` dans le menu à gauche comme montré ci-dessous
-- Utiliser un clic droit, le bouton ```Hide``` est alors également disponible
+### Supprimer un noeud
 
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/X1.png)
+Si nous souhaitons supprimer un noeud de notre base de données, nous sélectionnons le noeud que nous souhaitons supprimer en cliquant dessus puis nous effectuons un clic-droit sur le fond de notre graphe. Cliquez sur ```Delete selection``` dans le menu comme montré ci-dessous et cliquez sur ```Delete from Database```.
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/X2.png)
-
-
-### Cacher un lien
-
-Si nous souhaitons cacher un lien de notre visualisation, nous sélectionnons le lien que nous souhaitons cacher en cliquant dessus puis deux options sont possibles:
+![](Supprimer Noeud.png)
 
 
-- Cliquer sur ```Hide``` dans le menu à gauche comme montrer ci-dessous
-- Utiliser un clic droit, le bouton ```Hide``` est alors également disponible
+
+![](Supprimer un noeud_2.png)
+
+Le noeud est alors supprimé de notre base de données.
 
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/Y1.png)
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/Y2.png)
+![](Noeud Supprime.png)
+
+### Supprimer un lien
+
+Si nous supprimer un lien de notre base de données, nous sélectionnons le lien que nous souhaitons supprimer en cliquant dessus puis nous effectuons un clic-droit sur le fond de notre graphe. Cliquez sur ```Delete selection``` dans le menu comme montré ci-dessous et cliquez sur ```Delete from Database```.
+
+![](Supprimer lien.png)
+
+![](Supprimer lien_2.png)
+
+Le lien est alors supprimé de notre base de données.
+
+
+
