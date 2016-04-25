@@ -17,11 +17,9 @@ Nous pouvons zoomer et dézoomer, déplacer les nœuds sur la carte afin d'amél
 
 Survolez l'icône de couches en bas à droite de l'espace de travail. 
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/geography/geo-mode-enabled.png)
-
-La liste des couches disponibles est affichée. Vous pouvez choisir un autre fond de carte et ajouter des surcouches en fonction de celles disponibles dans votre Linkurious comme montré ci-dessous en utilisant le fournisseur Mapbox: [](https://www.mapbox.com/)
-
-Enfin, nous pouvons publier un widget  intéractif à partir de **Workspace menu > Publish** avec les couches géographiques. Voir le chapitre **Manage > Publish** pour en savoir plus.
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/geography/geo-mode-alt.png)
+La liste des couches disponibles est affichée. Vous pouvez choisir un autre map de base et ajouter des surcouches en fonction de celles disponibles dans votre Linkurious comme montré ci-dessous en utilisant le fournisseur Mapbox: 
+Enfin, nous pouvons publier un gadget intéractif à partir de **Workspace menu > Publish** avec les couches géographiques. Voir le chapitre **Manage > Publish** pour en savoir plus.
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/geography/geo-widget.png)
 
