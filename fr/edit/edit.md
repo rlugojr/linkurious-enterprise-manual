@@ -22,7 +22,8 @@ Maintenant, si nous sélectionnons un noeud ou un lien et que nous déplaçons l
 Si nous cliquons sur  ```Edit```, nous pouvons changer la valeur de la propriété. 
 Lorsque nous avons terminé, nous cliquons sur ```Save```. Ici, nous allons éditer le nom de la compagnie.
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E3.png)
+![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E_3.png)
+
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/E4.png)
 
 Si vous souhaitez supprimer une propriété, il suffit de cliquer sur  ```Delete```.
