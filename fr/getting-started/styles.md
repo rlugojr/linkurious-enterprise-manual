@@ -8,7 +8,7 @@ Les palettes peuvent contenir des couleurs pour des propriétés qualitatives et
 
 Valeurs disponibles `styles.nodes.by` :
 - "data.categories"
-- "data.properties.X", with "X" le nom de la propriété.
+- "data.properties.X", avec "X" le nom de la propriété.
 
 Valeurs disponibles `styles.edges.by` :
 - "data.type"
@@ -86,7 +86,7 @@ Colorer selon des propriétés quantitatives suit la même logique. Dans l'exemp
 
 Linkurious utilisera toujours 7 couleurs pour les propriétés quantitatives des noeuds et 3 pour celles des liens. L'oeil humain peut seulement distinguer quelques couleurs donc soyez vigilants lorsque vous définissez votre palette.  
 
-Si vous ne paramétrez pas de styles pour les propriétés quantitatives, Linkurious assignera de manière aléatoire-mais avec soin- un set de couleurs. Ce jeu peut être modifiè à  `palette.nodes.qualitative.linkurious_def` (de même pour les liens).
+Si vous ne paramétrez pas de styles pour les propriétés quantitatives, Linkurious assignera de manière aléatoire-mais avec soin- un jeu de couleurs. Ce jeu peut être modifiè à  `palette.nodes.qualitative.linkurious_def` (de même pour les liens).
 
 Soyez vigilants à ne jamais supprimer `linkurious_def` ou `sequential` car ils sont utilisés par Linkurious.
 
