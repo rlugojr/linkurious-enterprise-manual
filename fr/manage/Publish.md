@@ -24,7 +24,7 @@ Dans la capture d'écran ci-dessous, nous avons désactivé l'option légende et
 ![](../../en/manage/Done.png)
 
 
-La visualisation est maintenant disponible en ligne. Nous pouvons partager le lien ou l'intégrer dans une page web en ajoutant le lien de la page dans le code source de la page internet.
+La visualisation est maintenant disponible en ligne. Nous pouvons partager le lien ou l'intégrer dans une page web en ajoutant le lien de la page dans le code source de la page web.
 
 
 <div class="alert alert-info">
