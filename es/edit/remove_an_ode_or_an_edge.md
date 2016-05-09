@@ -8,8 +8,12 @@ Si queremos eliminar un nodo de nuestra visualización, seleccionamos el nodo qu
 - Mediante clic derecho, también tenemos acceso al botón ```Hide```
 
 
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/X1.png)
-![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/edit/X2.png)
+![](Supprimer Noeud.png)
+
+![](Supprimer un noeud_2.png)
+
+
+
 
 ###Eliminar una relación
 
