@@ -1,11 +1,11 @@
-# Projecter sur une carte géographique
+# Projeter sur une carte géographique
 
 Le bouton permettant de passer en mode géo est disponible dans le panneau de gauche de l'espace de travail.
 Nous pouvons activer ou désactiver le mode géo à volonté afin de passer de la vue standard à la vue géographique. 
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/geography/geo-mode-button.png)
 
-Cliquez sur le bouton pour projecter sur une carte géographique. Les nœuds sont positionnés sur la carte selon leur coordonnées géographiques. Les autres nœuds sont cachés grâce au filtre "coordonnées géographiques".
+Cliquez sur le bouton pour projeter sur une carte géographique. Les nœuds sont positionnés sur la carte selon leur coordonnées géographiques. Les autres nœuds sont cachés grâce au filtre "coordonnées géographiques".
 
 ![](https://github.com/Linkurious/linkurious-enterprise-manual/raw/master/en/geography/geo-mode-enabled.png)
 
