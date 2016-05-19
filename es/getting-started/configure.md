@@ -32,9 +32,10 @@ Las fuentes de datos se configuran en la sección **dataSources**, que es una li
 
 * **name** (opcional) - Nombre legible para personas.
 * **graphdb** - Servidor de base de datos de grafos al que conectarse.
-    * **vendor** - `"neo4j"`. Los servidores Neo4j y TitanDB están soportados.
-    * **url** - `"http://127.0.0.1:7474/"`. Linkurious se comunicará con la API REST de Neo4j en esta dirección.
-    * **writeURL** (opcional) - Si es proporcionado, Linkurious enviará peticiones de ESCRITURA a la base de datos de grafos en este punto de acceso y peticiones de LECTURA al punto de acceso en **url**.
+    * **vendor** - `"neo4j"`. Los servidores Neo4j y TitanDB están soportados. Valores posibles: `"neo4j"`, `"titan"`.
+    * **url** - `"http://127.0.0.1:7474/"`. Linkurious se comunicará con la API REST de Neo4j en esta dirección por defecto. Para Titan debe tener el formato ws://GREMLIN_SERVER_IP:GREMLIN_SERVER_PORT (por ejemplo `"ws://192.168.0.5:8182"`).
+    * **writeURL** (opcional, sólo para Neo4j) - Si es proporcionado, Linkurious enviará peticiones de ESCRITURA a la base de datos de grafos en este punto de acceso y peticiones de LECTURA al punto de acceso en **url**.
+    * **configurationPath** (opcional, sólo para Titan) - Si es proporcionado, debe ser la rulta absoluta del archivo de configuración de Titan en el servidor Gremlin (por ejemplo `"/usr/local/titan/conf/titan-cassandra-es.properties"`) .
     * **user** (opcional) - El nombre de usuario si la autenticación está activada en el servidor de base de datos de grafos.
     * **password** (opcional) - La contraseña si la autenticación está activada en el servidor de base de datos de grafos.
     * **alternativeNodeId** (opcional) - Utilizar la propiedad de nodo indicada como identificador de negocio, en lugar del generado por la base de datos.
@@ -129,6 +130,30 @@ Linkurious se conectará al servidor la próxima vez que lo inicie.
 #### Gestión de instancias de Neo4j
 
 Linkurious puede gestionar (iniciar y detener a la vez que Linkurious se inicia y detiene) su servidor Neo4j por usted para simplificar los scripts de administración. Para activar esta característica (disponible solamente en Linux y Max OSX), simplemente establezca el valor **neo4jPath** en **allSources** a la ruta absoluta del directorio raíz de Neo4j. Usted podrá ver una nueva entrada "Neo4j server" en el informe de estado del menú de consola de Linkurious (ver capítulo Administración > Monitorización).
+
+#### Conexión a un servidor Titan/Gremlin
+
+Esta es una configuración de ejemplo de Linkurious para conectarse a Titan 1.x a través de un servidor Gremlin.
+
+```JavaScript
+"dataSources": [
+  {
+    "name": "My Titan DB",
+    "graphdb": {
+      "vendor": "titan",
+      "url": "ws://192.168.0.5:8182",
+      "configurationPath": "/usr/local/titan/config/titan-cassandra-es.properties"
+    },
+    "index": {
+      "vendor": "elasticSearch",
+      "host": "127.0.0.1",
+      "port": 9201,
+      "forceReindex": false,
+      "dynamicMapping": false
+    }
+  }
+]
+```
 
 #### Conexión al motor de búsqueda
 
