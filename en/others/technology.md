@@ -15,7 +15,7 @@ The platform contains:
 
 The platform runs on any system able to support Java and Node.js, including Windows, Linux and Mac OS.
 
-The Linkurious platform communicates with your Neo4j graph database and your ElasticSearch index (existing in your infrastructure, or built-in) through HTTP APIs: each components may run on different computers on your network.
+The Linkurious platform communicates with your Neo4j or Titan graph database and your ElasticSearch index (existing in your infrastructure, or built-in) through HTTP APIs: each components may run on different computers on your network.
 
 Linkurious Enterprise is based on Open Source technology:
 
