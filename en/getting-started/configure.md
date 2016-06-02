@@ -50,6 +50,10 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server. 
     * **forceReindex** - `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
     * **dynamicMapping** - `false`. If set to `true`, ElasticSearch will automatically detect the type of properties, giving access to advanced search queries taking benefits of data types. In some cases, this can cause the indexing to fail. If set to `false`, the indexing will be more robust but advanced search queries will not be available.
+    * **dateDetection** - `false` Whether to detect dates automatically. 
+    * **user** (optional, ElasticShield extension only) - ElasticShield username. 
+    * **password** (optional, ElasticShield extension only) - ElasticShield password. 
+    * **https** (optional, ElasticShield extension only) - Whether to connect to ElasticSearch via HTTPS (recommended for ElasticShield). 
 
 Example of 2 data sources:
 
