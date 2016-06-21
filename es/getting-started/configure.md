@@ -32,10 +32,12 @@ Las fuentes de datos se configuran en la sección **dataSources**, que es una li
 
 * **name** (opcional) - Nombre legible para personas.
 * **graphdb** - Servidor de base de datos de grafos al que conectarse.
-    * **vendor** - `"neo4j"`. Los servidores Neo4j y TitanDB están soportados. Valores posibles: `"neo4j"`, `"titan"`.
+    * **vendor** - `"neo4j"`. Los servidores Neo4j, TitanDB y DataStax Enterprise Graph (DSE) están soportados. Valores posibles: `"neo4j"`, `"titan"` y `"dse"`.
     * **url** - `"http://127.0.0.1:7474/"`. Linkurious se comunicará con la API REST de Neo4j en esta dirección por defecto. Para Titan debe tener el formato ws://GREMLIN_SERVER_IP:GREMLIN_SERVER_PORT (por ejemplo `"ws://192.168.0.5:8182"`).
     * **writeURL** (opcional, sólo para Neo4j) - Si es proporcionado, Linkurious enviará peticiones de ESCRITURA a la base de datos de grafos en este punto de acceso y peticiones de LECTURA al punto de acceso en **url**.
     * **configurationPath** (opcional, sólo para Titan) - Si es proporcionado, debe ser la rulta absoluta del archivo de configuración de Titan en el servidor Gremlin (por ejemplo `"/usr/local/titan/conf/titan-cassandra-es.properties"`) .
+	* **graphName** (opcional, sólo para DSE) - El nombre del grafo al que conectarse.
+	* **create** (opcional, sólo para DSE) - Indica si se ha de crear el grafo **graphName** si no existe.
     * **user** (opcional) - El nombre de usuario si la autenticación está activada en el servidor de base de datos de grafos.
     * **password** (opcional) - La contraseña si la autenticación está activada en el servidor de base de datos de grafos.
     * **alternativeNodeId** (opcional) - Utilizar la propiedad de nodo indicada como identificador de negocio, en lugar del generado por la base de datos.
@@ -143,6 +145,32 @@ Esta es una configuración de ejemplo de Linkurious para conectarse a Titan 1.x 
       "vendor": "titan",
       "url": "ws://192.168.0.5:8182",
       "configurationPath": "/usr/local/titan/config/titan-cassandra-es.properties"
+    },
+    "index": {
+      "vendor": "elasticSearch",
+      "host": "127.0.0.1",
+      "port": 9201,
+      "forceReindex": false,
+      "dynamicMapping": false
+    }
+  }
+]
+```
+
+
+#### Conexión a un servidor DataStax Enterprise Graph
+
+La siguiente es una configuración de ejemplo de Linkurious para conectarse a DataStax Enterprise Graph (DSE) a través de un servidor Gremlin.
+
+```JavaScript
+"dataSources": [
+  {
+    "name": "My DSE DB",
+    "graphdb": {
+      "vendor": "dse",
+      "url": "ws://192.168.0.45:8282", // URL del servidor gremlin al que conectarse
+      "graphName": "mygraph", // nombre del grafo al que conectarse
+      "create": true // crear el grafo graphName si no existe
     },
     "index": {
       "vendor": "elasticSearch",
