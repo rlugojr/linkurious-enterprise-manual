@@ -50,6 +50,10 @@ Las fuentes de datos se configuran en la sección **dataSources**, que es una li
     * **port** - `9201` para utilizar el servidor ElasticSearch integrado. Usted puede especificar el puerto de su propio servidor ElasticSearch.
     * **forceReindex** - `false`. Linkurious siempre re-indexará la base de datos de grafos al iniciar si es `true`, de lo contrario los administradores tendrán que lanzar el proceso desde el panel de control de administración (ver capítulo de Administración).
     * **dynamicMapping** - `false`. Si es `true`, ElasticSearch detectará automáticamente el tipo de las propiedades, dando acceso a consultas avanzadas de búsqueda que utilizan los beneficios de los tipos de datos. En algunos casos, esto puede causar que la indexación falle. Si es `false`, la indexación será más robusta pero las consultas avanzadas de búsqueda no estarán disponibles.
+    * **dateDetection** - `false` Indica si se deben detectar fechas automáticamente. 
+    * **user** (opcional, sólo para extensión ElasticShield) - Nombre de usuario de ElasticShield.
+    * **password** (opcional, sólo para extensión ElasticShield) - Contraseña de ElasticShield.
+    * **https** (opcional, sólo para extensión ElasticShield) - Indica si se debe conectar a ElasticSearch a través de HTTPS (recomendado para ElasticShield).
 
 Ejemplo de 2 fuentes de datos:
 
