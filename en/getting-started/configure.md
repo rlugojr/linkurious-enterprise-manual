@@ -164,7 +164,7 @@ This is a sample configuration of Linkurious to connect to Titan 1.x through a G
 
 #### Connection to a DataStax Enterprise Graph server
 
-This is a sample configuration of Linkurious to connect to DataStax Enterprise Graph (DSE) through a Gremlin server.
+This is a sample configuration of Linkurious to connect to DataStax Enterprise Graph 5.0 (DSE) through a Gremlin server.
 
 ```JavaScript
 "dataSources": [
@@ -174,7 +174,7 @@ This is a sample configuration of Linkurious to connect to DataStax Enterprise G
       "vendor": "dse",
       "url": "ws://192.168.0.45:8282", // URL of the gremlin server to connect to
       "graphName": "mygraph", // name of the graph to connect to
-      "create": true // whether to create graphName if it does not exist
+      "create": false // whether to create graphName if it does not exist
     },
     "index": {
       "vendor": "elasticSearch",
