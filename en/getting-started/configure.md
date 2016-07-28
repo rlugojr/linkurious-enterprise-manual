@@ -108,6 +108,7 @@ Search engine settings:
 * **searchAddAllThreshold** - `500`. The maximum number of search results that the user can add to a Visualization at once.
 * **searchThreshold** - `3000`. The maximum number of search results that can be returned.
 * **minSearchQueryLength** - `3`. The number of characters needed to trigger a search query. Set `1` to provide live results from the first character typed by the user.
+* **analyzer** - The custom analyzer aimed at analyzing a specific language text. Available values [here](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-lang-analyzer.html).
 
 Graph exploration settings:
 
