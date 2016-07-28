@@ -320,7 +320,10 @@ For OpenLDAP, add an `ldap` section inside `access`:
     // name of the LDAP attribute containing the PASSWORD of a user
     "passwordField": "userPassword",
     // name of the LDAP attribute containing the EMAIL of a user
-    "emailField": "mail"
+    "emailField": "mail",
+    // prevent new LDAP users from being created in Linkurious.
+    // Existing users (i.e. who logged in at least once) can still log in.
+    "freeze": false
   }
 }
 ```
