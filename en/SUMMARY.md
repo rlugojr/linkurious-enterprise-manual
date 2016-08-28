@@ -72,6 +72,7 @@
    * [Check for updates](administrate/check_updates.md)
 * [Other Topics](others/README.md)
    * [Data import](others/data-import.md)
+       * How to migration from SQLite to MySQL
    * [Bugs](others/bugs.md)
    * [Technology](others/technology.md)
    * [Database re-generation](others/database_re-generation.md)
