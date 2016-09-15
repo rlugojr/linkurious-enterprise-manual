@@ -32,7 +32,7 @@ Data sources are configured within the **dataSources** key, which is a list of p
 
 * **name** (optional) - A human-readable name.
 * **graphdb** - The graph database server to connect to.
-    * **vendor** - `"neo4j"`. Neo4j servers, TitanDB, and DataStax Enterprise Graph (DSE) are supported. Available values: `"neo4j"`, `"titan"`, `"dse"`.
+    * **vendor** - `"neo4j"`. Neo4j servers, TitanDB, DataStax Enterprise Graph (DSE) and AllegroGraph are supported. Available values: `"neo4j"`, `"titan"`, `"dse"`, `"allegro"`.
     * **url** - `"http://127.0.0.1:7474/"`. Linkurious will call the Neo4j REST API on this address by default. It must be in the form ws://GREMLIN_SERVER_IP:GREMLIN_SERVER_PORT (e.g. `"ws://192.168.0.5:8182"`) for Titan.
     * **writeURL** (optional, Neo4j only) - If provided, Linkurious will send WRITE requests to the graph database to this endpoint and READ requests to the **url** endpoint.
     * **configurationPath** (optional, Titan only) - If provided, must be the absolute path of the Titan configuration file on the Gremlin server (e.g. `"/usr/local/titan/conf/titan-cassandra-es.properties"`) .
