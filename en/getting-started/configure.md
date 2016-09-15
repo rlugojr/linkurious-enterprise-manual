@@ -37,7 +37,8 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **writeURL** (optional, Neo4j only) - If provided, Linkurious will send WRITE requests to the graph database to this endpoint and READ requests to the **url** endpoint.
     * **configurationPath** (optional, Titan only) - If provided, must be the absolute path of the Titan configuration file on the Gremlin server (e.g. `"/usr/local/titan/conf/titan-cassandra-es.properties"`) .
     * **graphName** (optional, DSE only) - The name of the graph to connect to.
-    * **create** (optional, DSE only) - Whether to create **graphName** if it does not exist.
+    * **repository** (optional, Allegro only) - The name of the repository to connect to.
+    * **create** (optional, DSE and Allegro only) - Whether to create **graphName** if it does not exist.
     * **user** (optional) - The username if authentication is enabled on the graph database server.
     * **password** (optional) - The password if authentication is enabled on the graph database server.
     * **alternativeNodeId** (optional) - Use the given node property as business identifier, instead of the generated database identifier.
