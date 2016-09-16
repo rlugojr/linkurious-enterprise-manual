@@ -53,7 +53,7 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
     * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server.
     * **skipEdgeIndexation** - `true` to skip the indexation of edges. 
-    * **forceReindex** (ElasticSearch (prior to 2.0) only) - Default to `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
+    * **forceReindex** - Default to `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
     * **dynamicMapping** - Default to `false`. If set to `true`, ElasticSearch will automatically detect the type of properties, giving access to advanced search queries taking benefits of data types. In some cases, this can cause the indexing to fail. If set to `false`, the indexing will be more robust but advanced search queries will not be available.
     * **forceStringMapping** (ElasticSearch2 only) - Default to `[]`. An array of strings; each string represents a property for which we don't want the dynamic mapping to occur. 
     * **dateDetection** (ElasticSearch (prior to 2.0) only) - Default to `false`. Whether to detect dates automatically.
