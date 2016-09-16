@@ -55,7 +55,8 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **skipEdgeIndexation** - `true` to skip the indexation of edges. 
     * **forceReindex** (ElasticSearch (prior to 2.0) only) - `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
     * **dynamicMapping** - Default to `false`. If set to `true`, ElasticSearch will automatically detect the type of properties, giving access to advanced search queries taking benefits of data types. In some cases, this can cause the indexing to fail. If set to `false`, the indexing will be more robust but advanced search queries will not be available.
-    * **dateDetection** (ElasticSearch (prior to 2.0) only) - Default to `false`. Whether to detect dates automatically. 
+    * **forceStringMapping** (ElasticSearch2 only) - Default to `[]`. An array of strings; each string represents a property for which we don't want the dynamic mapping to occur. 
+    * **dateDetection** (ElasticSearch (prior to 2.0) only) - Default to `false`. Whether to detect dates automatically.
     * **user** (optional, ElasticShield extension only) - ElasticShield username. 
     * **password** (optional, ElasticShield extension only) - ElasticShield password. 
     * **https** (optional, ElasticShield extension only) - Whether to connect to ElasticSearch via HTTPS (recommended for ElasticShield). 
