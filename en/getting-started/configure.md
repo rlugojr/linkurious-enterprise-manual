@@ -32,7 +32,7 @@ Data sources are configured within the **dataSources** key, which is a list of p
 
 * **name** (optional) - A human-readable name.
 * **graphdb** - The graph database server to connect to.
-    * **vendor** - `"neo4j"`. Neo4j servers, TitanDB, DataStax Enterprise Graph (DSE) and AllegroGraph are supported. Available values: `"neo4j"`, `"titan"`, `"dse"`, `"allegroGraph"`.
+    * **vendor** - Neo4j servers, TitanDB, DataStax Enterprise Graph (DSE) and AllegroGraph are supported. Available values: `"neo4j"`, `"titan"`, `"dse"`, `"allegroGraph"`.
     * **url** - `"http://127.0.0.1:7474/"`. Linkurious will call the Neo4j REST API on this address by default. It must be in the form ws://GREMLIN_SERVER_IP:GREMLIN_SERVER_PORT (e.g. `"ws://192.168.0.5:8182"`) for Titan.
     * **repository** (AllegroGraph only) - The name of the repository to connect to.
     * **writeURL** (optional, Neo4j only) - If provided, Linkurious will send WRITE requests to the graph database to this endpoint and READ requests to the **url** endpoint.
@@ -44,17 +44,18 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **alternativeNodeId** (optional) - Use the given node property as business identifier, instead of the generated database identifier.
     * **alternativeEdgeId** (optional) - Use the given edge property as business identifier instead of the generated database identifier.
     * **latitudeProperty** (optional) - The property which stores the latitude coordinate of nodes.
-    * **longitudProperty** (optional) - The property which stores the longitude coordinate of nodes.
+    * **longitudeProperty** (optional) - The property which stores the longitude coordinate of nodes.
     * **namespace** (optional, Allegro only) - Default namespace used when no namespace is specified.
     * **categoryPredicate** (optional, Allegro only) - Name of the predicate used to describe categories. Default to `rdf:type`.
     * **idPropertyName** (optional, Allegro only) - Use this property if you want to create new nodes within Linkurious and you want to specify the id.
 * **index** - The search engine.
-    * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
+    * **vendor** - ElasticSearch (\<2.0) and ElasticSearch2 (\>=2.0) are supported. Available values: `"elasticSearch"`, `"elasticSearch2"`.
     * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
-    * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server. 
-    * **forceReindex** - `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
+    * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server.
+    * **skipEdgeIndexation** - `true` to skip the indexation of edges. 
+    * **forceReindex** (ElasticSearch (\<2.0.0) only) - `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
     * **dynamicMapping** - `false`. If set to `true`, ElasticSearch will automatically detect the type of properties, giving access to advanced search queries taking benefits of data types. In some cases, this can cause the indexing to fail. If set to `false`, the indexing will be more robust but advanced search queries will not be available.
-    * **dateDetection** - `false` Whether to detect dates automatically. 
+    * **dateDetection** (ElasticSearch (\<2.0.0) only) - `false` Whether to detect dates automatically. 
     * **user** (optional, ElasticShield extension only) - ElasticShield username. 
     * **password** (optional, ElasticShield extension only) - ElasticShield password. 
     * **https** (optional, ElasticShield extension only) - Whether to connect to ElasticSearch via HTTPS (recommended for ElasticShield). 
