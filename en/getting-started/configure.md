@@ -32,19 +32,22 @@ Data sources are configured within the **dataSources** key, which is a list of p
 
 * **name** (optional) - A human-readable name.
 * **graphdb** - The graph database server to connect to.
-    * **vendor** - `"neo4j"`. Neo4j servers, TitanDB, DataStax Enterprise Graph (DSE) and AllegroGraph are supported. Available values: `"neo4j"`, `"titan"`, `"dse"`, `"allegro"`.
+    * **vendor** - `"neo4j"`. Neo4j servers, TitanDB, DataStax Enterprise Graph (DSE) and AllegroGraph are supported. Available values: `"neo4j"`, `"titan"`, `"dse"`, `"allegroGraph"`.
     * **url** - `"http://127.0.0.1:7474/"`. Linkurious will call the Neo4j REST API on this address by default. It must be in the form ws://GREMLIN_SERVER_IP:GREMLIN_SERVER_PORT (e.g. `"ws://192.168.0.5:8182"`) for Titan.
+    * **repository** (AllegroGraph only) - The name of the repository to connect to.
     * **writeURL** (optional, Neo4j only) - If provided, Linkurious will send WRITE requests to the graph database to this endpoint and READ requests to the **url** endpoint.
     * **configurationPath** (optional, Titan only) - If provided, must be the absolute path of the Titan configuration file on the Gremlin server (e.g. `"/usr/local/titan/conf/titan-cassandra-es.properties"`) .
     * **graphName** (optional, DSE only) - The name of the graph to connect to.
-    * **repository** (optional, Allegro only) - The name of the repository to connect to.
-    * **create** (optional, DSE and Allegro only) - Whether to create **graphName** if it does not exist.
+    * **create** (optional, DSE only) - Whether to create **graphName** if it does not exist.
     * **user** (optional) - The username if authentication is enabled on the graph database server.
     * **password** (optional) - The password if authentication is enabled on the graph database server.
     * **alternativeNodeId** (optional) - Use the given node property as business identifier, instead of the generated database identifier.
     * **alternativeEdgeId** (optional) - Use the given edge property as business identifier instead of the generated database identifier.
     * **latitudeProperty** (optional) - The property which stores the latitude coordinate of nodes.
-    * **longitudeProperty** (optional) - The property which stores the longitude coordinate of nodes.
+    * **longitudProperty** (optional) - The property which stores the longitude coordinate of nodes.
+    * **namespace** (optional, Allegro only) - Default namespace used when no namespace is specified.
+    * **categoryPredicate** (optional, Allegro only) - Name of the predicate used to describe categories. Default to `rdf:type`.
+    * **idPropertyName** (optional, Allegro only) - Use this property if you want to create new nodes within Linkurious and you want to specify the id.
 * **index** - The search engine.
     * **vendor** - `"elasticSearch"`. Only ElasticSearch servers are supported.
     * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
@@ -184,6 +187,30 @@ This is a sample configuration of Linkurious to connect to DataStax Enterprise G
       "port": 9201,
       "forceReindex": false,
       "dynamicMapping": false
+    }
+  }
+]
+```
+
+#### Connection to an AllegroGraph server
+
+This is a sample configuration of Linkurious to connect to AllegroGraph. Notice that we configure the index with the property `skipEdgeIndexation` set to `true`. We do this because AllegroGraph doesn't allow properties on edges and therefore they are not worth to index.
+
+```JavaScript
+"dataSources": [
+  {
+    "name": "My AllegroGraph",
+    "graphdb": {
+      "vendor": "allegroGraph",
+      "url": "http://192.168.0.50:10035",
+      "repository": "myrepository"
+    },
+    "index": {
+      "vendor": "elasticSearch2",
+      "host": "127.0.0.1",
+      "port": 9200,
+      "dynamicMapping": false,
+      "skipEdgeIndexation": true
     }
   }
 ]
