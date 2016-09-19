@@ -74,7 +74,7 @@ Coloring by quantitative property follows the same logic. In the following examp
 "palette": {
   "nodes": {
     "quantitative": {
-      7: ['#161344','#3f1c4c','#632654','#86315b','#a93c63','#cd476a','#f35371']
+      "7": ["#161344","#3f1c4c","#632654","#86315b","#a93c63","#cd476a","#f35371"]
     }
   }
 }
@@ -144,14 +144,14 @@ Nodes can be filled with an image if one of their property is an URL to an image
 "palette": {
   "nodes": {
     "images": {
-      'COMPANY': {
-        url: 'http://example.com/img/company.png', scale: 1.3, clip: 0.85
+      "COMPANY": {
+        "url": "http://example.com/img/company.png", scale: 1.3, clip: 0.85
       },
-      'CITY': {
-        url: 'http://example.com/img/city.png', scale: 1.3, clip: 0.85
+      "CITY": {
+        "url": "http://example.com/img/city.png", scale: 1.3, clip: 0.85
       },
-      'MARKET': {
-        url: 'http://example.com/img/market.png', scale: 1.3, clip: 0.85
+      "MARKET": {
+        "url": "http://example.com/img/market.png", scale: 1.3, clip: 0.85
       }
     }
   }
