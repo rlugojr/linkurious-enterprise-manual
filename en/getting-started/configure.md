@@ -231,6 +231,43 @@ The embedded ElasticSearch engine may be replaced by your own ElasticSearch clus
 
 #### Continuous indexation in Neo4j
 
+Linkurious can be configured to use an instance of ElasticSearch that it's automatically kept in sync with Neo4j.
+To do so, retrieve the two JAR files called respectively:
+
+  * graphaware-neo4j-to-elasticsearch-3.0.x.y.z-SNAPSHOT.jar
+  * graphaware-server-community-all-3.0.x.y.jar
+
+The versions of the JARs have to match with version of Neo4j that you use. At the moment they are not publicly available, but you can ask us for them.
+
+This JARs have to be copied in the following directory (assuming that your Neo4j instance is located in a folder called *neo4j*):
+
+* neo4j/plugins/
+
+Enable the plugin by configuring Neo4j; the configuration for your Neo4j instance can be found at:
+
+* neo4j/conf/neo4j.conf
+
+Append the following lines to the end of this file:
+
+```
+com.graphaware.runtime.enabled=true
+com.graphaware.runtime.stats.disabled=true
+com.graphaware.server.stats.disabled=true
+com.graphaware.module.ES.1=com.graphaware.module.es.ElasticSearchModuleBootstrapper
+com.graphaware.module.ES.mapping=AdvancedMapping
+# elasticsearch IP
+com.graphaware.module.ES.uri=localhost
+# elasticsearch port
+com.graphaware.module.ES.port=9200
+# whether to index relationships (false by default)
+com.graphaware.module.ES.relationship=(true)
+# property to use as ID in elasticsearch (“ID()” means the Neo4j ID)
+com.graphaware.module.ES.keyProperty=ID()
+```
+
+Don't forget to change the properties *com.graphaware.module.ES.uri* and *com.graphaware.module.ES.port* to point towards you ElasticSearch istance.
+
+After the configuration is changed, Neo4j has to be restarted.
 
 #### Internal data store
 
