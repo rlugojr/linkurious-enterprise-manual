@@ -351,6 +351,7 @@ The user access system is configured within the `access` key:
 * **dataEdition** - `true`. Enable the creation, edition, and deletion of nodes and edges in all data sources. Administrators can fine-tune user permissions, see the Administration Chapter. If `false`, all edition requests sent through Linkurious to the data sources will be rejected.
 * **widget** - `true`. Enable to publish visualizations online. Published visualizations are accessible by anonymous users. More info in the **Manage > Publish** section of the manual.
 * **loginTimeout** - `3600`. Log the user out after a period of inactivity (in second).
+* **externalUserDefaultGroupId** - Default group id set automatically for new external users (like *ldap* or *azureActiveDirectory*).
 * **ldap** - The connection to the LDAP service (see below).
 * **azureActiveDirectory** - The connection to Azure Active Directory. Read *Connection to Azure Active Directory* to know more about this option.
 
@@ -402,7 +403,11 @@ For OpenLDAP, add an `ldap` section inside `access`:
     "emailField": "mail",
     // prevent new LDAP users from being created in Linkurious.
     // Existing users (i.e. who logged in at least once) can still log in.
-    "freeze": false
+    "freeze": false,
+    // Name of the LDAP field where the group value is stored
+    "groupField": 'group',
+    // Array of LDAP groups that are authorized to log into Linkurious
+    "authorizedGroups": ['group1', 'group2']
   }
 }
 ```
