@@ -352,6 +352,7 @@ The user access system is configured within the `access` key:
 * **widget** - `true`. Enable to publish visualizations online. Published visualizations are accessible by anonymous users. More info in the **Manage > Publish** section of the manual.
 * **loginTimeout** - `3600`. Log the user out after a period of inactivity (in second).
 * **ldap** - The connection to the LDAP service (see below).
+* **azureActiveDirectory** - The connection to Azure Active Directory. Read *Connection to Azure Active Directory* to know more about this option.
 
 ##### Connection to the LDAP service
 
@@ -411,6 +412,30 @@ Please refer to the documentation of your LDAP provider.
 <div class="alert alert-warning">
     Contact your network administrator to ensure that the machine where Linkurious is installed can connect to the LDAP service.
 </div>
+
+##### Connection to Azure Active Directory
+
+In Linkurious you can set up authentication via Azure Active Directory. To do so, first create a new app called `Linkurious` in you current or newly create Azure Active Directory. These steps have to be performed at the Azure Portal available at the following address https://portal.azure.com. From the Azure Portal you shall obtain the following parameters:
+
+* directoryDomainName - e.g. `contoso.onmicrosoft.com`
+* linkuriousAppId - e.g. `91d426e2-c1b-4818-bf96-989f89b6b2a2`
+* linkuriousAppSecret - e.g. `gt7BHSnoIffbH55WuKVpYqCzJbREeLtyAG5xDotC8I=`
+
+Add an `azureActiveDirectory` section inside `access`:
+
+```JavaScript
+"access": {
+  // [...]
+  "azureActiveDirectory": {
+    // Set to true to enable the authentication via Azure AD
+    "enabled": true,
+    "directoryDomainName": "<directoryDomainName>",
+    "appId": "<linkuriousAppId>",
+    "appSecret": "<linkuriousAppSecret>"
+  }
+}
+```
+
 
 #### User permissions to the data sources
 
