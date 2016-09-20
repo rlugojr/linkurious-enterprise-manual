@@ -31,6 +31,7 @@ Linkurious can connect to many data sources at the same time. End users will sel
 Data sources are configured within the **dataSources** key, which is a list of potential data sources. A single data source is configured by default to connect to a local Neo4j server. Each data source contains the following settings:
 
 * **name** (optional) - A human-readable name.
+* **readOnly** (optional) - Default to `false`. Set to true to disallow the possibility to edit the data within Linkurious for this data source.
 * **graphdb** - The graph database server to connect to.
     * **vendor** - Neo4j servers, TitanDB, DataStax Enterprise Graph (DSE) and AllegroGraph are supported. Available values: `"neo4j"`, `"titan"`, `"dse"`, `"allegroGraph"`.
     * **url** - e.g. `"http://127.0.0.1:7474/"`. Url of the graph database with protocol and port. For Titan and DSE, it must be in the form ws://GREMLIN_SERVER_IP:GREMLIN_SERVER_PORT (e.g. `"ws://192.168.0.5:8182"`).
