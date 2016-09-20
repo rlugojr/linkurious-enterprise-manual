@@ -141,6 +141,13 @@ Configure Linkurious:
 
 Linkurious will connect to it the next time you start it.
 
+#### Neo4j credentials from environment variables
+
+It's possible to pass the Neo4j credentials to Linkurious directly from the environment. The environment variables have to be called:
+
+- LINKURIOUS_NEO4J_USER
+- LINKURIOUS_NEO4J_PASSWORD
+
 #### Neo4j instance management
 
 Linkurious can manage (start and stop it as Linkurious starts and stops) your Neo4j server for you in order to simplify your administration scripts. To enable this feature (available on Linux and Max OSX only), simply set the **neo4jPath** key in **allSources** to the absolute path of Neo4j's home directory. You will notice a new "Neo4j server" entry in the status report of Linkurious' console menu (see Chapter Administration > Monitoring).
@@ -223,7 +230,6 @@ This is a sample configuration of Linkurious to connect to AllegroGraph. Notice 
 The embedded ElasticSearch engine may be replaced by your own ElasticSearch cluster. Edit the configuration file to set the `index` settings of the data source with the URL and credentials of your ElasticSearch cluster. Linkurious will create an index for each graph database, with index names prefixed by `linkurious_`.
 
 #### Continuous indexation in Neo4j
-
 
 
 #### Internal data store
