@@ -143,7 +143,7 @@ Linkurious will connect to it the next time you start it.
 
 #### Neo4j credentials from environment variables
 
-It's possible to pass the Neo4j credentials to Linkurious directly from the environment. The environment variables have to be called:
+It's possible to pass the Neo4j credentials to Linkurious directly from the environment. If you want to do so the environment variables must be called:
 
 - LINKURIOUS_NEO4J_USER
 - LINKURIOUS_NEO4J_PASSWORD
