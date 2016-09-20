@@ -378,6 +378,15 @@ Please refer to the documentation of your LDAP provider.
 
 Administrators can set fine-grained permissions to end users for each data source. See the Administration Chapter to learn more.
 
+### Alerts
+
+Alerts are configured within the `alert` key. The default configuration should be enough for the most use cases. 
+
+* **maxMatchTTL** (optional) - How long a match will be available for review in Linkurious. This value is expressed in *days*. Confirmed matches are never deleted.
+* **maxMatchesLimit** (optional) - Max number of matches per alert in Linkurious. After this limit, matches are not created anymore.
+* **maxRuntimeLimit** (optional) - Maximum time (in *milliseconds*) that the query have to execute in the graph database.
+* **maxConcurrency** (optional) - Number of alerts that can run concurrently.
+
 ### Logging
 
 Linkurious can log events at server side and at client side.
@@ -404,3 +413,4 @@ Audit trails allows you to record detailed logs about the operations performed o
 * **fileSizeLimit** - `5242880`. Maximum size in byte of one log file (default: 5MB). A new file is created when the limit is reached (files rotations) to avoid enormous log files.
 * **strictMode** - `false`. Ensure that the operation has been logged before returning the result to the user if `true`. Might have a big impact on the server responsiveness.
 * **mode** - `"rw"`. Will record READ actions (`"r"`), WRITE actions (`"w"`), or both (`"rw"`).
+* 
