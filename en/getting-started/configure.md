@@ -10,9 +10,10 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 * **allSources** - Settings that apply to all data sources.
     * Configure shortest paths, indexing, node expand and search limits, minimal search query length.
 * **db** - The internal data store of Linkurious.
-* **server** - The Linkurious server configuration.
+* **server** - The Linkurious HTTP server configuration.
 * **access** - The access rights.
     * Enable authentication, configure LDAP authentication, set data read-only mode, enable online publishing.
+* **alerts** - Alerts settings.
 * **clientAnalytics**
     * Log user actions in the client using a Google Analytics account (disabled by default).
 * **sigma** - The settings of Sigma.js.
@@ -266,13 +267,13 @@ com.graphaware.module.ES.relationship=(true)
 com.graphaware.module.ES.keyProperty=ID()
 ```
 
-Do not forget to change the properties *com.graphaware.module.ES.uri* and *com.graphaware.module.ES.port* to point towards you ElasticSearch istance.
+Do not forget to change the properties *com.graphaware.module.ES.uri* and *com.graphaware.module.ES.port* to point towards you ElasticSearch instance.
 
 After the configuration is changed, Neo4j has to be restarted.
 
 #### Internal data store
 
-Linkurious stores information such as visualizations, users, and permissions into a data store separate from the graph databases. By default, Linkurious uses an SQLite database. MySQL and PostgreSQL are also available but they should be installed manually.
+Linkurious stores information such as visualizations, users, and permissions into a data store separate from the graph databases. By default, Linkurious uses an embedded SQLite database. MySQL and MariaDB are also available but they should be installed manually.
 
 The internal data store is configured within the `db` key:
 
@@ -280,8 +281,8 @@ The internal data store is configured within the `db` key:
 * **username** (optional) - The username of the admin user of the database.
 * **password** (optional) - The password of the admin user of the database.
 * **options** - 
-    * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"postgres"`.
-    * **storage** (optional) - `"server/database.sqlite"`. The path of database file, relative to the `data` directory. Required for SQLite.
+    * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"mariadb"`.
+    * **storage** (optional, SQLite only) - `"server/database.sqlite"`. The path of database file, relative to the `data` directory. Required for SQLite.
     * **host** (optional) - Required for MySQL and PostgreSQL.
     * **port** (optional) - Required for MySQL and PostgreSQL.
 
@@ -353,15 +354,16 @@ The user access system is configured within the `access` key:
 * **loginTimeout** - `3600`. Log the user out after a period of inactivity (in second).
 * **externalUserDefaultGroupId** - Default group id set automatically for new external users (like *ldap* or *azureActiveDirectory*).
 * **ldap** - The connection to the LDAP service (see below).
+* **msActiveDirectory** - The connection to the Microsoft Active Directory service (see below for details).
 * **azureActiveDirectory** - The connection to Azure Active Directory. Read *Connection to Azure Active Directory* to know more about this option.
 
-##### Connection to the LDAP service
+##### Connection to an LDAP service
 
-In Linkurious, administrators manage other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably OpenLDAP or Active Directory), users are authenticated each time they sign in. If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious. Notice that Linkurious stores encrypted passwords for users not authenticated by LDAP.
+In Linkurious, administrators manage other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably **OpenLDAP** or **Active Directory**), users are authenticated each time they sign in. If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious. Notice that Linkurious stores encrypted passwords for users not authenticated by LDAP.
 
 To enable LDAP authentication in Linkurious, edit the configuration.
 
-For Microsoft Active Directory, add an `msActiveDirectory` section inside `access`:
+For **Microsoft Active Directory**, add an `msActiveDirectory` section inside `access`:
 
 ```JavaScript
 "access": {
@@ -378,7 +380,7 @@ For Microsoft Active Directory, add an `msActiveDirectory` section inside `acces
 }
 ```
 
-For OpenLDAP, add an `ldap` section inside `access`:
+For **OpenLDAP**, add an `ldap` section inside `access`:
 
 ```JavaScript
 "access": {
@@ -418,7 +420,7 @@ Please refer to the documentation of your LDAP provider.
     Contact your network administrator to ensure that the machine where Linkurious is installed can connect to the LDAP service.
 </div>
 
-##### Connection to Azure Active Directory
+##### Connection to Azure Active Directory (OAuth)
 
 In Linkurious you can set up authentication via Azure Active Directory. To do so, first create a new app called `Linkurious` in you current or newly create Azure Active Directory. These steps have to be performed at the Azure Portal available at the following address https://portal.azure.com. From the Azure Portal you shall obtain the following parameters:
 
