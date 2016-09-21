@@ -30,3 +30,35 @@ Visit the [Amazon Elasticsearch Service page](https://aws.amazon.com/elasticsear
 ##### f. Review your configuration and confirm the creation of the cluster.
 ![](AWS-ES-6.png)
 <hr>
+##### g. Wait until the cluster is deployed (usually less than an hour).
+![](AWS-ES-7.png)
+<hr>
+##### h. When your cluster is deployed, copy the "Endpoint" host name
+![](AWS-ES-8.png)
+<hr>
+##### i. Stop the Linkurious server
+##### j. Open the Linkurious server's configuration file `linkurious/data/config/production.json` and edit the following fields:
+```JavaScript
+{
+  // [...]
+  "dataSources": [{
+    "name": "My Graph DB",
+    "graphdb": {
+      // configuration or you graph database
+    },
+    "index": {
+      "vendor": "elasticSearch2",
+      // "Endpoint" value copied in step (h.)
+      "host": "search-linkurious-es-ty7pcetbrp6eylauybpqv3dwwa.us-west-2.es.amazonaws.com",
+      // AWS Elasticsearch instances listen to port 80 by default
+      "port": 80,
+      // other optional index configuration options
+      "dynamicMapping": false,
+      "skipEdgeIndexation": false
+    }
+  }]
+  // [...]
+}
+```
+<hr>
+##### k. Restart Linkurious!
