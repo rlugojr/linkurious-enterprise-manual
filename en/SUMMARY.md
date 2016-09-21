@@ -76,4 +76,5 @@
    * [Technology](others/technology.md)
    * [How to migration from SQLite to MySQL](others/how_to_migration_from_sqlite_to_mysql.md)
    * [Database re-generation](others/database_re-generation.md)
+   * ElasticSearch on AWS
 
