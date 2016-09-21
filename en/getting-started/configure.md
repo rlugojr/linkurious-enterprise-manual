@@ -56,7 +56,7 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **skipEdgeIndexation** - `true` to skip the indexation of edges. 
     * **forceReindex** - Default to `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
     * **dynamicMapping** - Default to `false`. If set to `true`, ElasticSearch will automatically detect the type of properties, giving access to advanced search queries taking benefits of data types. In some cases, this can cause the indexing to fail. If set to `false`, the indexing will be more robust but advanced search queries will not be available.
-    * **forceStringMapping** (ElasticSearch2 only) - Default to `[]`. An array of strings; each string represents a property for which we don't want the dynamic mapping to occur. 
+    * **forceStringMapping** (ElasticSearch2 only) - Default to `[]`. An array of strings; each string represents a property for which we do not want the dynamic mapping to occur. 
     * **dateDetection** (ElasticSearch (prior to 2.0) only) - Default to `false`. Whether to detect dates automatically.
     * **user** (optional, ElasticShield extension only) - ElasticShield username. 
     * **password** (optional, ElasticShield extension only) - ElasticShield password. 
@@ -144,7 +144,7 @@ Linkurious will connect to it the next time you start it.
 
 #### Neo4j credentials from environment variables
 
-It's possible to pass the Neo4j credentials to Linkurious directly from the environment. If you want to do so the environment variables must be called:
+It is possible to pass the Neo4j credentials to Linkurious directly from the environment. If you want to do so the environment variables must be called:
 
 - LINKURIOUS_NEO4J_USER
 - LINKURIOUS_NEO4J_PASSWORD
@@ -204,7 +204,7 @@ This is a sample configuration of Linkurious to connect to DataStax Enterprise G
 
 #### Connection to an AllegroGraph server
 
-This is a sample configuration of Linkurious to connect to AllegroGraph. Notice that we configure the index with the property `skipEdgeIndexation` set to `true`. We do this because AllegroGraph doesn't allow properties on edges and therefore they are not worth to index.
+This is a sample configuration of Linkurious to connect to AllegroGraph. Notice that we configure the index with the property `skipEdgeIndexation` set to `true`. We do this because AllegroGraph does not allow properties on edges and therefore they are not worth to index.
 
 ```JavaScript
 "dataSources": [
@@ -232,7 +232,7 @@ The embedded ElasticSearch engine may be replaced by your own ElasticSearch clus
 
 #### Continuous indexation in Neo4j
 
-Linkurious can be configured to use an instance of ElasticSearch that it's automatically kept in sync with Neo4j.
+Linkurious can be configured to use an instance of ElasticSearch that it is automatically kept in sync with Neo4j.
 To do so, retrieve the two JAR files called respectively:
 
   * graphaware-neo4j-to-elasticsearch-3.0.x.y.z-SNAPSHOT.jar
@@ -266,7 +266,7 @@ com.graphaware.module.ES.relationship=(true)
 com.graphaware.module.ES.keyProperty=ID()
 ```
 
-Don't forget to change the properties *com.graphaware.module.ES.uri* and *com.graphaware.module.ES.port* to point towards you ElasticSearch istance.
+Do not forget to change the properties *com.graphaware.module.ES.uri* and *com.graphaware.module.ES.port* to point towards you ElasticSearch istance.
 
 After the configuration is changed, Neo4j has to be restarted.
 
