@@ -3,7 +3,7 @@
 Administrators can create and manage alerts from the **Admin > Alerts** panel. Alert matches are the result of pattern queries run on the graph database. Pattern queries are crafted according to the anomalies or suspicious activities to look out. 
 
 <div class="alert alert-info">
-  Linkurious 1.4+ supports Cypher queries on Neo4j 3.
+  Linkurious 1.4+ supports Cypher queries on Neo4j 2+.
 </div>
 
 We can configure alerts as follows: an alert has a title, query, and run frequency. The RETURN statement of the query may contain a numerical value that represents the score of each match. Alerts can be run monthly, weekly, daily, hourly, or even every minute. It is possible to enter a CRON value. Matches will be erased from Linkurious after a given period called time-to-live (TTL). Linkurious can store a finite number of matches per alert. If a score is defined, only the top matches are stored. Currently all Linkurious users that belong to the *default* group will access the alerts.
