@@ -10,7 +10,7 @@ On the ```Captions``` tab, we can see the different properties of the nodes in o
 
 The text displayed next to your node changes. Instead of  ```Instagram``` we have the information ```Instagram - USA```.
 
-The same approach can be used for the edges, wich panel is available below the panel of nodes.
+The same approach can be used for the edges, which panel is available below the panel of nodes.
 
 <div class="alert alert-info">
 Linkurious Enterprise will use the properties in the order it appears in the list. Placing the cursor on one property, we have the possibility to change the order or to remove a property. If a node doesn't have a property, Linkurious Enterprise will look for the next property, etc.
