@@ -38,7 +38,7 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **url** - e.g. `"http://127.0.0.1:7474/"`. Url of the graph database with protocol and port. For Titan and DSE, it must be in the form ws://GREMLIN_SERVER_IP:GREMLIN_SERVER_PORT (e.g. `"ws://192.168.0.5:8182"`).
     * **repository** (AllegroGraph only) - The name of the repository to connect to.
     * **writeURL** (optional, Neo4j only) - If provided, Linkurious will send WRITE requests to the graph database to this endpoint and READ requests to the **url** endpoint.
-    * **configurationPath** (optional, Titan only) - If provided, must be the absolute path of the Titan configuration file on the Gremlin server (e.g. `"/usr/local/titan/conf/titan-cassandra-es.properties"`) .
+    * **configurationPath** (Titan only) - If provided, must be the absolute path of the Titan configuration file on the Gremlin server (e.g. `"/usr/local/titan/conf/titan-cassandra-es.properties"`) .
     * **graphName** (optional, DSE only) - The name of the graph to connect to.
     * **create** (optional, DSE only) - Whether to create **graphName** if it does not exist.
     * **user** (optional) - The username if authentication is enabled on the graph database server.
