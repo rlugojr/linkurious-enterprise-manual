@@ -83,5 +83,5 @@
    * [How to migration from SQLite to MySQL](others/how_to_migration_from_sqlite_to_mysql.md)
    * [Database re-generation](others/database_re-generation.md)
    * [ElasticSearch on AWS](others/elasticsearch_on_aws.md)
-   * Neo4j to Elasticsearch synchronization
+   * [Neo4j to Elasticsearch synchronization](others/neo4j_to_elasticsearch_synchronization.md)
 
