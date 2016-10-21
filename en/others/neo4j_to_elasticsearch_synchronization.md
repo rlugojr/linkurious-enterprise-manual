@@ -12,7 +12,8 @@ When the `neo4j-to-elasticsearch` plugin is installed, all changes to the Neo4j 
 
 How can I use it?
 ==
-You need Linkurious v1.4 or later.
+You need Linkurious v1.4 or later and Neo4j v3.0.4 installed.
+
 1. Download and install [Elasticsearch](https://www.elastic.co/downloads/elasticsearch) (v1.7 or later);
 2. Download the [`neo4j-to-elasticsearch` plugin JAR (v3.0.4)](https://dl.dropboxusercontent.com/u/20754236/graphaware-neo4j-to-elasticsearch-3.0.4.43.7-SNAPSHOT.jar);
 3. Download the [`graphaware-server` plugin JAR (v3.0.4)](http://products.graphaware.com/download/framework-server-community/graphaware-server-community-all-3.0.4.43.jar);
