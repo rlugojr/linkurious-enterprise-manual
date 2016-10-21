@@ -13,10 +13,10 @@ When the `neo4j-to-elasticsearch` plugin is installed, all changes to the Neo4j 
 How can I use it?
 ==
 You need Linkurious v1.4 or later.
-1. Download and install [Elasticsearch](https://www.elastic.co/downloads/elasticsearch)
-2. Download the [`neo4j-to-elasticsearch` plugin JAR (v3.0.4)](https://dl.dropboxusercontent.com/u/20754236/graphaware-neo4j-to-elasticsearch-3.0.4.43.7-SNAPSHOT.jar)
-3. Download the [`graphaware-server` plugin JAR (v3.0.4)](http://products.graphaware.com/download/framework-server-community/graphaware-server-community-all-3.0.4.43.jar)
-4. Copy both JARs to the `./plugins` directory inside Neo4j
+1. Download and install [Elasticsearch](https://www.elastic.co/downloads/elasticsearch) (v1.7 or later);
+2. Download the [`neo4j-to-elasticsearch` plugin JAR (v3.0.4)](https://dl.dropboxusercontent.com/u/20754236/graphaware-neo4j-to-elasticsearch-3.0.4.43.7-SNAPSHOT.jar);
+3. Download the [`graphaware-server` plugin JAR (v3.0.4)](http://products.graphaware.com/download/framework-server-community/graphaware-server-community-all-3.0.4.43.jar);
+4. Copy both JARs to the `./plugins` directory inside Neo4j;
 5. Edit your Neo4j configuration file (in `./conf/neo4j.conf`) and add the following lines at the beginning of the file:
 ```sh
 com.graphaware.runtime.enabled=true
@@ -30,7 +30,7 @@ com.graphaware.module.ES.port=9200
 # whether to index relationships in Elasticsearch (default: false)
 com.graphaware.module.ES.relationship=(true)
 ```
-6. restart Neo4j
+6. restart Neo4j;
 7. Edit the Linkurious configuration in `linkurious/data/config/production.json` and change you data-source configuration like this:
 ```JSON
 "dataSources": [{
@@ -46,6 +46,6 @@ com.graphaware.module.ES.relationship=(true)
   }
 }]
 ```
-8. Restart Linkurious
+8. Restart Linkurious.
 
 
