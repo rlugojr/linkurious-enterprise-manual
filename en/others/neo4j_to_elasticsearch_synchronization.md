@@ -35,16 +35,16 @@ com.graphaware.module.ES.relationship=(true)
 7. Edit the Linkurious configuration in `linkurious/data/config/production.json` and change you data-source configuration like this:
 ```JSON
 "dataSources": [{
-  "readOnly": false,
-  "graphdb": {
-    "vendor": "neo4j",
-    "url": "http://127.0.0.1:7474",
-    "user": null,
-    "password": null
-  },
-  "index": {
-    "vendor": "neo2es"
-  }
+     "readOnly": false,
+     "graphdb": {
+       "vendor": "neo4j",
+       "url": "http://127.0.0.1:7474",
+       "user": null,
+       "password": null
+     },
+     "index": {
+       "vendor": "neo2es"
+     }
 }]
 ```
 8. Restart Linkurious.
