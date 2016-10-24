@@ -57,7 +57,8 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **skipEdgeIndexation** - `true` to skip the indexation of edges. 
     * **forceReindex** - Default to `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
     * **dynamicMapping** - Default to `false`. If set to `true`, ElasticSearch will automatically detect the type of properties, giving access to advanced search queries taking benefits of data types. In some cases, this can cause the indexing to fail. If set to `false`, the indexing will be more robust but advanced search queries will not be available.
-    * **forceStringMapping** (ElasticSearch2 only) - Default to `[]`. An array of strings; each string represents a property for which we do not want the dynamic mapping to occur. 
+    * **forceStringMapping** (ElasticSearch2 only) - Default to `[]`. An array of strings; each string represents a property for which we do not want the dynamic mapping to occur.
+    * **caCert** (ElasticSearch2 only) - Absolute path to the certificate of the CA that signed the ssl certificate used for ElasticSearch.
     * **dateDetection** (ElasticSearch (prior to 2.0) only) - Default to `false`. Whether to detect dates automatically.
     * **user** (optional, ElasticShield extension only) - ElasticShield username. 
     * **password** (optional, ElasticShield extension only) - ElasticShield password. 
@@ -283,8 +284,8 @@ The internal data store is configured within the `db` key:
 * **options** - 
     * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"mariadb"`.
     * **storage** (optional, SQLite only) - `"server/database.sqlite"`. The path of database file, relative to the `data` directory. Required for SQLite.
-    * **host** (optional) - Required for MySQL and PostgreSQL.
-    * **port** (optional) - Required for MySQL and PostgreSQL.
+    * **host** (optional) - Required for MySQL.
+    * **port** (optional) - Required for MySQL.
 
 
 <div class="alert alert-warning">
