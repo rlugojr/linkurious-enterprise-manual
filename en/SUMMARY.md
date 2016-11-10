@@ -20,7 +20,7 @@
    * [Advanced search](search/refine-query.md)
    * [Advanced syntax](search/syntax.md)
    * [Find shortest paths](search/shortest-paths.md)
-   * Pattern search
+   * [Pattern search](search/pattern_search.md)
 * [Manipulate](manipulate/README.md)
    * [Nodes and edges in a graph](manipulate/Nodes_and_edges_in_a_graph.md)
    * [Expand nodes](manipulate/expand.md)
