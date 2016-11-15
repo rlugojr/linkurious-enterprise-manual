@@ -160,13 +160,14 @@ Nodes can be filled with an image if one of their property is an URL to an image
 
 #### Applying the styles configuration to existing users
 
-Editing the styles and palettes in the configuration file does not automatically changes the styles of all existing visualizations.
+Editing the styles and palettes in the configuration file does not automatically changes the styles for existing users.
 
-Technically, the styles and palette configuration is only used when a user opens a **new visualization for a given data-source for the first time**. Existing visualizations are never affected by style and palette changes in the configuration. 
+Technically, the styles and palette configuration is only used when a user opens a **new visualization for a given data-source for the first time**. Existing visualizations are never affected by style and palette changes in the configuration.
 
 If you want to apply the style and palette configuration to all new visualizations created by all users for a given data-source, you need to:
 1. Connect to Linkurious as an administrator
-2. Open the "Admin" ` >` "Data" menu and scroll to the bottom of the page
-3. Click the "Reset default visualization styles" button.
+2. Select the data-source you want to apply the default styles to
+3. Open the "Admin" ` >` "Data" menu and scroll to the bottom of the page
+4. Click the "Reset default visualization styles" button.
 
 ![](Screen Shot 2016-11-15 at 16.27.56.png)
