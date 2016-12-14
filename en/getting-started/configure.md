@@ -471,7 +471,8 @@ Logs of the embedded ElasticSearch server can be found in `data/manager/logs/Ela
 
 The Linkurious client can log user actions by sending events to your Google Analytics account. They provide information of the way the application is used, which features are the most useful, etc. This feature is disabled by default and no external script is injected in this case. It is configured within the `clientAnalytics` key:
 
-* **enabled** - `false`. 
+* **enabled** - `false`.
+* **widget** - `false`. Add the tracker to widgets if `true`.
 * **code** - Universal Analytics code of the form "UA-XXXXX-xx".
 * **domain** - `"none"`. The domain from which Linkurious is accessible to the users, e.g. "www.example.com", or "none".
 
