@@ -145,13 +145,13 @@ Nodes can be filled with an image if one of their property is an URL to an image
   "nodes": {
     "images": {
       "COMPANY": {
-        "url": "http://example.com/img/company.png", scale: 1.3, clip: 0.85
+        "url": "http://example.com/img/company.png", "scale": 1.3, "clip": 0.85
       },
       "CITY": {
-        "url": "http://example.com/img/city.png", scale: 1.3, clip: 0.85
+        "url": "http://example.com/img/city.png", "scale": 1.3, "clip": 0.85
       },
       "MARKET": {
-        "url": "http://example.com/img/market.png", scale: 1.3, clip: 0.85
+        "url": "http://example.com/img/market.png", "scale": 1.3, "clip": 0.85
       }
     }
   }
