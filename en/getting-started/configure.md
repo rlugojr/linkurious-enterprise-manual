@@ -27,7 +27,7 @@ The configuration file is located at `linkurious/data/config/production.json`. I
 
 Data sources are servers accessible through the network (local, intranet or internet) with URLs to connect to. We assume that each data source serves a single graph database, however it may serve a different database the next time Linkurious will connect to it. For instance, you may load a database on your Neo4j server, then restart the server with another database. Linkurious will use the store ID to identify the database, so that you can switch between databases easily.
 
-Linkurious can connect to many data sources at the same time. End users will select which database to work on in the interface, and switch between them. 
+Linkurious can connect to many data sources at the same time. End users will select which database to work on in the interface, and switch between them.
 
 Data sources are configured within the **dataSources** key, which is a list of potential data sources. A single data source is configured by default to connect to a local Neo4j server. Each data source contains the following settings:
 
@@ -54,15 +54,15 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **vendor** - ElasticSearch (prior to 2.0) and ElasticSearch2 are supported. Available values: `"elasticSearch"`, `"elasticSearch2"`, `"neo2es"`, `"dseSearch"`, `"allegroGraphSearch"`. Read *Continuous indexation* to know more about the options: `"neo2es"`, `"dseSearch"`, `"allegroGraphSearch"`.
     * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
     * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server.
-    * **skipEdgeIndexation** - `true` to skip the indexation of edges. 
+    * **skipEdgeIndexation** - `true` to skip the indexation of edges.
     * **forceReindex** - Default to `false`. Linkurious will always re-index the graph database on startup if `true`, otherwise the administrators will have to trigger it from the Administration dashbard (see Administration Chapter).
     * **dynamicMapping** - Default to `false`. If set to `true`, ElasticSearch will automatically detect the type of properties, giving access to advanced search queries taking benefits of data types. In some cases, this can cause the indexing to fail. If set to `false`, the indexing will be more robust but advanced search queries will not be available.
     * **forceStringMapping** (ElasticSearch2 only) - Default to `[]`. An array of strings; each string represents a property for which we do not want the dynamic mapping to occur.
     * **caCert** (ElasticSearch2 only) - Absolute path to the certificate of the CA that signed the ssl certificate used for ElasticSearch.
     * **dateDetection** (ElasticSearch (prior to 2.0) only) - Default to `false`. Whether to detect dates automatically.
-    * **user** (optional, ElasticShield extension only) - ElasticShield username. 
-    * **password** (optional, ElasticShield extension only) - ElasticShield password. 
-    * **https** (optional, ElasticShield extension only) - Whether to connect to ElasticSearch via HTTPS (recommended for ElasticShield). 
+    * **user** (optional, ElasticShield extension only) - ElasticShield username.
+    * **password** (optional, ElasticShield extension only) - ElasticShield password.
+    * **https** (optional, ElasticShield extension only) - Whether to connect to ElasticSearch via HTTPS (recommended for ElasticShield).
 
 Example of 2 data sources:
 
@@ -241,7 +241,7 @@ The internal data store is configured within the `db` key:
 * **name** - `"linkurious"`. The name of the database.
 * **username** (optional) - The username of the admin user of the database.
 * **password** (optional) - The password of the admin user of the database.
-* **options** - 
+* **options** -
     * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"mariadb"`.
     * **storage** (optional, SQLite only) - `"server/database.sqlite"`. The path of database file, relative to the `data` directory. Required for SQLite.
     * **host** (optional) - Required for MySQL.
@@ -376,12 +376,12 @@ The user access system is configured within the `access` key:
 * **dataEdition** - `true`. Enable the creation, edition, and deletion of nodes and edges in all data sources. Administrators can fine-tune user permissions, see the Administration Chapter. If `false`, all edition requests sent through Linkurious to the data sources will be rejected.
 * **widget** - `true`. Enable to publish visualizations online. Published visualizations are accessible by anonymous users. More info in the **Manage > Publish** section of the manual.
 * **loginTimeout** - `3600`. Log the user out after a period of inactivity (in second).
-* **externalUserDefaultGroupId** - Default group id set automatically for new external users (like *ldap* or *azureActiveDirectory*).
+* **externalUserDefaultGroupId** - Default group id set automatically for new external users (like *ldap* or *oauth2*).
 * **ldap** - The connection to the LDAP service (see below).
 * **msActiveDirectory** - The connection to the Microsoft Active Directory service (see below for details).
-* **azureActiveDirectory** - The connection to Azure Active Directory. Read *Connection to Azure Active Directory* to know more about this option.
+* **oauth2** - The connection to an OAuth2 identity provider. Read *Authentication via an OpenIDConnect provider* and *Authentication via generic OAuth2* to know more about this option.
 
-##### Connection to an LDAP service
+##### Authentication via LDAP
 
 In Linkurious, administrators manage other user accounts. User accounts are identified by either a login or an email address. If Linkurious is connected to an LDAP service (preferably **OpenLDAP** or **Active Directory**), users are authenticated each time they sign in. If you have a LDAP service running in your network, you can use it to authenticate users in Linkurious. Notice that Linkurious stores encrypted passwords for users not authenticated by LDAP.
 
@@ -410,7 +410,7 @@ For **OpenLDAP**, add an `ldap` section inside `access`:
 "access": {
   // [...]
   "ldap": {
-    // If true, Linkurious will try to connect to LDAP server on startup 
+    // If true, Linkurious will try to connect to LDAP server on startup
     // using 'bindDN' and 'bindPassword'
     "enabled": true,
     // URL of the LDAP server to connect to
@@ -444,29 +444,70 @@ Please refer to the documentation of your LDAP provider.
     Contact your network administrator to ensure that the machine where Linkurious is installed can connect to the LDAP service.
 </div>
 
-##### Connection to Azure Active Directory (OAuth)
+##### Authentication via an OpenIDConnect provider
 
-In Linkurious you can set up authentication via Azure Active Directory. To do so, first create a new app called `Linkurious` in you current or newly create Azure Active Directory. These steps have to be performed at the Azure Portal available at the following address https://portal.azure.com. From the Azure Portal you shall obtain the following parameters:
+Linkurious can be used to authenticate against any OpenIDConnect provider, including, but not limited to, Google Suite and Azure Active Directory.
 
-* directoryDomainName - e.g. `contoso.onmicrosoft.com`
-* linkuriousAppId - e.g. `91d426e2-c1b-4818-bf96-989f89b6b2a2`
-* linkuriousAppSecret - e.g. `gt7BHSnoIffbH55WuKVpYqCzJbREeLtyAG5xDotC8I=`
+To set up Azure Active Directory, please read the next section.
 
-Add an `azureActiveDirectory` section inside `access`:
+To set up any OpenIDConnect provider as Google Suite, you first need to create the OAuth2 credentials at the portal of your identity provider. For Google, the portal is available at https://console.developers.google.com. From the portal you will obtain the following parameters:
+
+* authorizationURL - e.g. `https://accounts.google.com/o/oauth2/v2/auth?hd=<your_domain.com>`
+* tokenURL - e.g. `https://www.googleapis.com/oauth2/v4/token`
+* clientID - e.g. `1718xxxxxx-xxxxxxxxxxxxxxxx.apps.googleusercontent.com`
+* clientSecret - e.g. `E09dQxxxxxxxxxxxxxxxxSN`
+
+In Google Suite, to limit the access to the google accounts among a given domain remember to add the `hd` query option inside the `authorizationURL` with your domain as value.
+
+Add an `oauth2` section inside `access`:
 
 ```JavaScript
 "access": {
   // [...]
-  "azureActiveDirectory": {
+  "oauth2": {
     // Set to true to enable the authentication via Azure AD
     "enabled": true,
-    "directoryDomainName": "<directoryDomainName>",
-    "appId": "<linkuriousAppId>",
-    "appSecret": "<linkuriousAppSecret>"
+    "provider": 'openidconnect',
+    "authorizationURL": "<authorizationURL>",
+    "tokenURL": "<tokenURL>",
+    "clientID": "<linkuriousAppId>",
+    "clientSecret": "<linkuriousAppSecret>"
   }
 }
 ```
 
+##### Authentication via Azure AD
+
+In Linkurious you can set up authentication via Azure Active Directory. To do so, first create a new app called `Linkurious` in Azure Active Directory. These steps have to be performed at the Azure Portal available at the following address https://portal.azure.com. From the Azure Portal you will obtain the following parameters:
+
+* authorizationURL - e.g. `https://login.microsoftonline.com/60d78xxx-xxxx-xxxx-xxxx-xxxxxx9ca39b/oauth2/authorize`
+* tokenURL - e.g. `https://login.microsoftonline.com/60d78xxx-xxxx-xxxx-xxxx-xxxxxx9ca39b/oauth2/token`
+* clientID - e.g. `91d426e2-xxx-xxxx-xxxx-989f89b6b2a2`
+* clientSecret - e.g. `gt7BHSnoIffbxxxxxxxxxxxxxxxxxxtyAG5xDotC8I=`
+
+Add an `oauth2` section inside `access`:
+
+```JavaScript
+"access": {
+  // [...]
+  "oauth2": {
+    // Set to true to enable the authentication via Azure AD
+    "enabled": true,
+    "provider": 'azure',
+    "authorizationURL": "<authorizationURL>",
+    "tokenURL": "<tokenURL>",
+    "clientID": "<linkuriousAppId>",
+    "clientSecret": "<linkuriousAppSecret>"
+  }
+}
+```
+
+Note the different value for the provider: 'azure' instead of 'openidconnect'.
+
+##### Authentication via generic OAuth2
+
+OAuth2 is not a standard for authentication, differently from OpenIDConnect.
+For generic OAuth2 authentication, contact us to see if it's feasible to support the OAuth2 identity provider of your choice.
 
 #### User permissions to the data sources
 
@@ -474,7 +515,7 @@ Administrators can set fine-grained permissions to end users for each data sourc
 
 ### Alerts
 
-Alerts are configured within the `alert` key. The default configuration should be enough for the most use cases. 
+Alerts are configured within the `alert` key. The default configuration should be enough for the most use cases.
 
 * **maxMatchTTL** (optional) - How long a match will be available for review in Linkurious. This value is expressed in *days*. Confirmed matches are never deleted.
 * **maxMatchesLimit** (optional) - Max number of matches per alert in Linkurious. After this limit, matches are not created anymore.
@@ -508,4 +549,3 @@ Audit trails allows you to record detailed logs about the operations performed o
 * **fileSizeLimit** - `5242880`. Maximum size in byte of one log file (default: 5MB). A new file is created when the limit is reached (files rotations) to avoid enormous log files.
 * **strictMode** - `false`. Ensure that the operation has been logged before returning the result to the user if `true`. Might have a big impact on the server responsiveness.
 * **mode** - `"rw"`. Will record READ actions (`"r"`), WRITE actions (`"w"`), or both (`"rw"`).
-
