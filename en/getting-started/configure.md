@@ -308,7 +308,13 @@ If you already have a free-text index, Linkurious can use it, otherwise creating
 
 For Datastax Enterprise Graph we leverage its support of DSE Search to provide continuous indexation. Configure the `vendor` property under `index`  to the value `"dseSearch"`.
 
+What you need to do in DSE is to create a new search index for each node label that you want to index, to do so:
+- Connect via gremlin to DSE Graph
+- For each node label execute this command:
+  - `schema.vertexLabel('<nodeLabel>').index('search').search().by('<property1>').asText().by('property2').asText().add()`
+  - Every property key that you want to index has to appear in this command. You can add as many properties as you want by adding for each one `.by('<propertyN>').asText()` before the final `.add()`.
 
+Please see also here, the documentation from Datastax regarding creating new indices, including search indices: https://docs.datastax.com/en/latest-dse/datastax_enterprise/graph/using/createIndexes.html
 
 ### Web server
 
@@ -340,7 +346,6 @@ Within the `server` key:
   * wildcard-prefixed string (`"*.abc.com"`): request from all subdomains of "abc.com" are allowed.
   * an array of strings (`["abc.com", "*.def.com"]`): requests from "abc.com" **and** all subdomains of "def.com" are allowed.
   * a single wildcard (`"*"`): requests from any domain are allowed.
-
 
 #### Image cross-origin (client-side)
 
