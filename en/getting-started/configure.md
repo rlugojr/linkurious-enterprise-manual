@@ -502,7 +502,7 @@ Add an `oauth2` section inside `access`:
 }
 ```
 
-Note the different value for the provider: 'azure' instead of 'openidconnect'.
+Note the different value for the provider: `azure` instead of `openidconnect`.
 
 ##### Authentication via generic OAuth2
 
