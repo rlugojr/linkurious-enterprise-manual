@@ -296,11 +296,17 @@ After the configuration is changed, Neo4j has to be restarted.
 
 #### Continuous indexation in AllegroGraph
 
-Linkurious can search for nodes directly on the full-text indices managed by AllegroGraph itself. To do so, you have to configure the `vendor` property under `index`  to the value `"allegroGraphSearch"` and configure AllegroGraph accordingly.
+Linkurious can search for nodes directly on the free-text indices managed by AllegroGraph itself. To do so, you have to configure the `vendor` property under `index`  to the value `"allegroGraphSearch"` and configure AllegroGraph accordingly to have a free-text index.
 
-
+If you already have a free-text index, Linkurious can use it, otherwise creating a new one is relatively easy:
+- Go to the repository page on AllegroGraph WebView
+- Press `Manage free-text indices`
+- Create a new free-text index, the name is irrelevant
+- The default options for the newly created index should be enough, just ensure that `"Objects"` under `Fields to index` is highlighted.
 
 #### Continuous indexation in Datastax Enterprise
+
+For Datastax Enterprise Graph we leverage its support of DSE Search to provide continuous indexation. Configure the `vendor` property under `index`  to the value `"dseSearch"`.
 
 
 
