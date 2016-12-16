@@ -51,7 +51,7 @@ Data sources are configured within the **dataSources** key, which is a list of p
     * **categoryPredicate** (optional, Allegro only) - Name of the predicate used to describe categories. Default to `rdf:type`.
     * **idPropertyName** (optional, Allegro only) - Use this property if you want to create new nodes within Linkurious and you want to specify the id.
 * **index** - The search engine.
-    * **vendor** - ElasticSearch (prior to 2.0) and ElasticSearch2 are supported. Available values: `"elasticSearch"`, `"elasticSearch2"`, `"neo2es"`. Read *Continuous indexation in Neo4j* to know more about the option `"neo2es"`.
+    * **vendor** - ElasticSearch (prior to 2.0) and ElasticSearch2 are supported. Available values: `"elasticSearch"`, `"elasticSearch2"`, `"neo2es"`, `"dseSearch"`, `"allegroGraphSearch"`. Read *Continuous indexation* to know more about the options: `"neo2es"`, `"dseSearch"`, `"allegroGraphSearch"`.
     * **host** - `"127.0.0.1"` to use the embedded ElasticSearch index. You can specify the host of your own ElasticSearch server.
     * **port** - `9201` to use the embedded ElasticSearch server. You can specify the port of your own ElasticSearch server.
     * **skipEdgeIndexation** - `true` to skip the indexation of edges. 
@@ -232,6 +232,28 @@ This is a sample configuration of Linkurious to connect to AllegroGraph. Notice 
 
 The embedded ElasticSearch engine may be replaced by your own ElasticSearch cluster. Edit the configuration file to set the `index` settings of the data source with the URL and credentials of your ElasticSearch cluster. Linkurious will create an index for each graph database, with index names prefixed by `linkurious_`.
 
+#### Internal data store
+
+Linkurious stores information such as visualizations, users, and permissions into a data store separate from the graph databases. By default, Linkurious uses an embedded SQLite database. MySQL and MariaDB are also available but they should be installed manually.
+
+The internal data store is configured within the `db` key:
+
+* **name** - `"linkurious"`. The name of the database.
+* **username** (optional) - The username of the admin user of the database.
+* **password** (optional) - The password of the admin user of the database.
+* **options** - 
+    * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"mariadb"`.
+    * **storage** (optional, SQLite only) - `"server/database.sqlite"`. The path of database file, relative to the `data` directory. Required for SQLite.
+    * **host** (optional) - Required for MySQL.
+    * **port** (optional) - Required for MySQL.
+
+
+<div class="alert alert-warning">
+    GLIBC >= v1.14 must be installed on the server in order to use SQLite. You can check the version available your systems at <a href="http://distrowatch.com/search.php?ostype=All&category=All&origin=All&basedon=All&notbasedon=None&desktop=All&architecture=All&package=All&status=Active">http://distrowatch.com</a>.
+</div>
+
+### Continuous indexation
+
 #### Continuous indexation in Neo4j
 
 Linkurious can be configured to use an instance of ElasticSearch that it is automatically kept in sync with Neo4j.
@@ -272,25 +294,15 @@ Do not forget to change the properties *com.graphaware.module.ES.uri* and *com.g
 
 After the configuration is changed, Neo4j has to be restarted.
 
-#### Internal data store
+#### Continuous indexation in AllegroGraph
 
-Linkurious stores information such as visualizations, users, and permissions into a data store separate from the graph databases. By default, Linkurious uses an embedded SQLite database. MySQL and MariaDB are also available but they should be installed manually.
-
-The internal data store is configured within the `db` key:
-
-* **name** - `"linkurious"`. The name of the database.
-* **username** (optional) - The username of the admin user of the database.
-* **password** (optional) - The password of the admin user of the database.
-* **options** - 
-    * **dialect** - `"sqlite"`. Available values: `"mysql"`, `"mariadb"`.
-    * **storage** (optional, SQLite only) - `"server/database.sqlite"`. The path of database file, relative to the `data` directory. Required for SQLite.
-    * **host** (optional) - Required for MySQL.
-    * **port** (optional) - Required for MySQL.
+Linkurious can search for nodes directly on the full-text indices managed by AllegroGraph itself. To do so, you have to configure the `vendor` property under `index`  to the value `"allegroGraphSearch"` and configure AllegroGraph accordingly.
 
 
-<div class="alert alert-warning">
-    GLIBC >= v1.14 must be installed on the server in order to use SQLite. You can check the version available your systems at <a href="http://distrowatch.com/search.php?ostype=All&category=All&origin=All&basedon=All&notbasedon=None&desktop=All&architecture=All&package=All&status=Active">http://distrowatch.com</a>.
-</div>
+
+#### Continuous indexation in Datastax Enterprise
+
+
 
 ### Web server
 
