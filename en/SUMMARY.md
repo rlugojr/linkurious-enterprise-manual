@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Pattern search
 * [Getting Started](getting-started/README.md)
    * [Requirements](getting-started/requirements.md)
    * [Download](getting-started/download.md)
